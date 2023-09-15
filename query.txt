@@ -1,0 +1,91 @@
+WITH
+EXCEPTO AS (SELECT CASE WHEN SUBSTR(NUM,1,3)='MRR' THEN '"MAR' ELSE '"'||SUBSTR(NUM,1,3) END||' '||TO_NUMBER(SUBSTR(NUM,4,5))||'," ' python,CASE
+                        WHEN TO_CHAR(SYSDATE,'HH24:MI:SS')between '00:00:00' and '06:59:00' THEN 'Hola '||initcap('&NOMBRE')||', buenas noches! De tu lista me faltan '
+                        WHEN TO_CHAR(SYSDATE,'HH24:MI:SS')>'20:00:00' THEN 'Hola '||initcap('&NOMBRE')||', buenas noches! De tu lista me faltan '
+                        WHEN TO_CHAR(SYSDATE,'HH24:MI:SS')>'13:00:00' THEN 'Hola '||initcap('&NOMBRE')||', buenas tardes! De tu lista me faltan '
+                        ELSE 'Hola '||initcap('&NOMBRE')||', buen dia! De tu lista me faltan '
+                        END "SIN STOCK"
+                        ,CASE WHEN SUBSTR(NUM,1,3)='MRR' THEN 'MAR' ELSE SUBSTR(NUM,1,3) END||' '||TO_NUMBER(SUBSTR(NUM,4,5))||', ' figurita,'el resto las tengo todas. ' resto,'&NOMBRE' NOMBRE,'&USU' usuario,TO_CHAR(DIA,'DD/MM/YYYY')DIA,TO_CHAR(DIA,'HH24:MI:SS') ACTUALIZADO  
+                        FROM "HR"."FIGU"
+                        WHERE 
+                            &PAISES
+                            AND
+                            CANT=0
+                        ORDER BY SUBSTR(NUM,1,3),TO_NUMBER(SUBSTR(NUM,4,5)))
+                        
+,PRECIO AS (SELECT count(num) ||','||sum(precio)||','||''''||'&NOMBRE'||'''' python,count(num) as cantidad,sum(precio) precio_original,''''||'&NOMBRE'||'''' NOMBRE,'&USU' usuario,
+                        SUM(case
+                                when cant=0 then 0
+                                when cant=1 then precio
+                                when cant>4 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 90
+                                when cant=4 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 100
+                                when cant=3 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 110
+                                when cant=2 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 115
+                                ELSE PRECIO
+                            end) precio_descuento,
+                        '%'||round(((-(SUM(case
+                            when cant=0 then 0
+                            when cant=1 then precio
+                            when cant>4 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 90
+                            when cant=4 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 100
+                            when cant=3 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 110
+                            when cant=2 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 115
+                            ELSE PRECIO
+                        end)/sum(precio))*100)+100),0) as dto,                        
+                        ' El precio por las '|| count(num)||' figuritas originales es '|| sum(precio)||case
+                            when sum(precio)>8000 then ' y el envio es gratis. Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!'
+                            else '. Confirmame si te sirve y actualizo el precio de esta publicación para que puedas realizar la compra en este mismo link. Saludos!'
+                        end Total_original,
+                        
+                        ' El precio total es ' || sum(precio)||' pero hago un descuento de '||
+                        round(((-(SUM(case
+                            when cant=0 then 0
+                            when cant=1 then precio
+                            when cant>4 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 90
+                            when cant=4 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 100
+                            when cant=3 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 110
+                            when cant=2 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 115
+                            ELSE PRECIO
+                        end)/sum(precio))*100)+100),0)||'% y el precio final es '||SUM(case
+                            when cant=0 then 0
+                            when cant=1 then precio
+                            when cant>4 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 90
+                            when cant=4 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 100
+                            when cant=3 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 110
+                            when cant=2 and num not in ('ARG19','POR17','BRA16','FRA18') and tipo not in ('FWC','ESC') then 115
+                            ELSE PRECIO
+                        end)||'. En total son '|| count(num)||' figuritas. '||case
+                            when sum(precio)>4999 then 'Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!'
+                            else 'Confirmame si te sirve y actualizo el precio de esta publicación para que puedas realizar la compra en este mismo link. Saludos!'
+                        end Total_descuento,
+                        CASE
+                        WHEN TO_CHAR(SYSDATE,'HH24:MI:SS')>'20:00:00' THEN 'Hola '||initcap('&NOMBRE')||', buenas noches! Si, las tengo todas. '
+                        WHEN TO_CHAR(SYSDATE,'HH24:MI:SS')>'13:00:00' THEN 'Hola '||initcap('&NOMBRE')||', buenas tardes! Si, las tengo todas. '
+                        ELSE 'Hola '||initcap('&NOMBRE')||', buen dia! Si, tengo todas en stock. '
+                        END "LAS TENGO"
+                        from "HR"."FIGU" x
+                        where cant>0
+                        and &PAISES)
+
+,TENGO AS (SELECT CANT,PRECIO,CASE
+                        WHEN TO_CHAR(SYSDATE,'HH24:MI:SS')between '00:00:00' and '06:59:00' THEN 'Hola '||initcap('&NOMBRE')||', buenas noches! Tengo en stock '
+                        WHEN TO_CHAR(SYSDATE,'HH24:MI:SS')>'20:00:00' THEN 'Hola '||initcap('&NOMBRE')||', buenas noches! Tengo en stock '
+                        WHEN TO_CHAR(SYSDATE,'HH24:MI:SS')>'13:00:00' THEN 'Hola '||initcap('&NOMBRE')||', buenas tardes! Tengo en stock '
+                        ELSE 'Hola '||initcap('&NOMBRE')||', buen dia! Tengo en stock '
+                        END TENGO ,CASE WHEN SUBSTR(NUM,1,3)='MRR' THEN 'MAR' ELSE SUBSTR(NUM,1,3) END||' '||TO_NUMBER(SUBSTR(NUM,4,5))||', ' figurita,'&NOMBRE' NOMBRE,'&USU' usuario,TO_CHAR(DIA,'DD/MM/YYYY')DIA,TO_CHAR(DIA,'HH24:MI:SS') ACTUALIZADO,jug.nombre jug FROM "HR"."FIGU"
+                        left join (select num numero,nombre from jugadores) jug
+                        on numero=num
+                    WHERE 
+                    &PAISES
+                    AND
+                    CANT>0
+                    ORDER BY CASE WHEN LENGTH (NUM)=2 THEN 2 WHEN SUBSTR(NUM,1,3)='FWC' THEN 0 ELSE 1 END,SUBSTR(NUM,1,3),TO_NUMBER(SUBSTR(NUM,4,5)))
+                    
+
+
+
+SELECT*
+FROM
+PRECIO
+
+
