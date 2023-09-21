@@ -24,20 +24,21 @@ agregarJson = ".json"
 precioUyuni = 0
 precio=''
 
-#MUNDIAL
+#MUNDIAL 2022
 usuariosMundial = "usuariosMundial"
 baseMundial = "baseMundial.json"
 baseVentasMundial = "ventasMundial"
 VendidasMundial = []
 noVendidasMundial = []
 
-#LIBERTADORES
+#LIBERTADORES 2023
 usuariosLibertadores = "usuariosLibertadores"
 baseLibertadores = "baseLali.json"
 baseVentasLibertadores = "ventasLibertadores"
 vendidasLali = []
 noVendidasLali = []
 
+#FUTBOL ARGENTINO 2023
 usuariosFutarg = "usuariosFutarg"
 baseFutarg = "baseFutarg.json"
 baseVentasFutarg = "ventasFutarg"
@@ -46,6 +47,10 @@ noVendidasFutarg = []
 
 listaPaises = []
 paisesError=[]
+
+ventasTotal = "totalVentas.json"
+
+subInicioHistorial="Ingresar Usuario"
 
 
 def leer_figu():
@@ -163,39 +168,40 @@ if (album == "Mundial Qatar 2022"):
 
             usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
 
-            figusUsuario = preguntaUsuario(usuario_venta,usuariosMundial+agregarJson,usuariosMundial)
+            figusUsuario = preguntaUsuario(usuario_venta,usuariosMundial+agregarJson,usuariosMundial,baseMundial)
 
             verPreguntaUsuario = procesadorMundial(figusUsuario,usuario_venta,baseMundial)
 
-            print(verPreguntaUsuario)
+            #descontarBaseJson(usuario_venta,usuariosMundial,baseMundial,VendidasMundial,noVendidasMundial)
 
+            print(verPreguntaUsuario)       
 
     elif inicio == "Ventas":
 
-        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Venta","Venta de Usuario"], title="Confirmación")
+        subInicio = easygui.buttonbox("Elija una opción", choices=["Historial","Nueva Venta"], title="Confirmación")
 
         if subInicio == "Nueva Venta":
 
             usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
+            
 
             descontarBaseJson(usuario_venta,usuariosMundial,baseMundial,VendidasMundial,noVendidasMundial)
 
-            with open("ventasMundial.json","r") as ventasMundialJson:
-                cargarVenta = json.load(ventasMundialJson)
+            nuevaVenta(usuario_venta,VendidasMundial,noVendidasMundial,baseVentasMundial)
 
-            nuevaVenta = {"usuario": usuario_venta, "Vendidas": VendidasMundial, "NoVendidas": noVendidasMundial}
+            verVenta(usuario_venta,baseVentasMundial,subInicioHistorial)
+            
+        elif subInicio == "Historial":
 
-            cargarVenta["ventasMundial"].append(nuevaVenta)
-                                    
-            with open('ventasMundial.json', 'w') as ventasJSON:
-                json.dump(cargarVenta, ventasJSON, indent=4)
+            subInicioHistorial = easygui.buttonbox("Elija una opcion", choices=["Ingresar Usuario","Ventas del dia"], title="Confirmación")
 
-        elif subInicio == "Venta de Usuario":
+            if subInicioHistorial == "Ingresar Usuario":
+                usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
 
-            usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
-
-            verVenta(usuario_venta,baseVentasMundial+agregarJson,baseVentasMundial)
-        
+                verVenta(usuario_venta,baseVentasMundial,subInicioHistorial)
+            else:
+                usuario_venta=''
+                verVenta(usuario_venta,baseVentasMundial,subInicioHistorial)      
 
     elif inicio =="Base de datos":
 
@@ -282,13 +288,13 @@ elif (album == "Copa Libertadores 2023"):
 
             usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
 
-            figusUsuario = preguntaUsuario(usuario_venta,usuariosLibertadores+agregarJson,usuariosLibertadores)
+            figusUsuario = preguntaUsuario(usuario_venta,usuariosLibertadores+agregarJson,usuariosLibertadores,baseLibertadores)
 
             procesadorLali(figusUsuario,baseLibertadores)
 
     elif inicio =="Ventas":
 
-        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Venta","Venta de Usuario"], title="Confirmación")
+        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Venta","Historial"], title="Confirmación")
 
         if subInicio == "Nueva Venta":
 
@@ -296,13 +302,24 @@ elif (album == "Copa Libertadores 2023"):
 
             descontarBaseJson(usuario_venta,usuariosLibertadores,baseLibertadores,vendidasLali,noVendidasLali)
 
-            nuevaVenta(baseVentasLibertadores+agregarJson,usuario_venta,vendidasLali,noVendidasLali,baseVentasLibertadores)
+            nuevaVenta(usuario_venta,vendidasLali,noVendidasLali,baseVentasLibertadores)
+
+            verVenta(usuario_venta,baseVentasLibertadores,subInicioHistorial)
         
-        elif subInicio == "Venta de Usuario":
+        elif subInicio == 'Historial':
 
-            usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
+            subInicioHistorial = easygui.buttonbox("Elija una opción", choices=["Ingresar Usuario","Ventas del dia"], title="Confirmación")
+            
+            if subInicioHistorial == "Ingresar Usuario":
 
-            verVenta(usuario_venta,baseVentasLibertadores+agregarJson,baseVentasLibertadores)
+                usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
+
+                verVenta(usuario_venta,baseVentasLibertadores,subInicioHistorial)
+
+            else:
+
+                usuario_venta=''
+                verVenta(usuario_venta,baseVentasLibertadores,subInicioHistorial)
 
     elif inicio =="Base de datos":
 
@@ -422,13 +439,13 @@ elif (album == "Futbol Argentino 2023"):
 
             usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
 
-            figusUsuario = preguntaUsuario(usuario_venta,usuariosFutarg+agregarJson,usuariosFutarg)
+            figusUsuario = preguntaUsuario(usuario_venta,usuariosFutarg+agregarJson,usuariosFutarg,baseFutarg)
 
             procesadorFutarg(figusUsuario,baseFutarg)
 
     elif inicio =="Ventas":
 
-        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Venta","Venta de Usuario"], title="Confirmación")
+        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Venta","Historial"], title="Confirmación")
 
         if subInicio == "Nueva Venta":
 
@@ -436,13 +453,24 @@ elif (album == "Futbol Argentino 2023"):
 
             descontarBaseJson(usuario_venta,usuariosFutarg,baseFutarg,vendidasFutarg,noVendidasFutarg)
 
-            nuevaVenta(baseVentasFutarg+agregarJson,usuario_venta,vendidasFutarg,noVendidasFutarg,baseVentasFutarg)
+            nuevaVenta(usuario_venta,vendidasFutarg,noVendidasFutarg,baseVentasFutarg)
 
-        elif subInicio == "Venta de Usuario":
+            verVenta(usuario_venta,baseVentasFutarg,subInicioHistorial)
 
-            usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
+        elif subInicio == 'Historial':
 
-            verVenta(usuario_venta,baseVentasFutarg+agregarJson,baseVentasFutarg)
+            subInicioHistorial = easygui.buttonbox("Elija una opción", choices=["Ingresar Usuario","Ventas del dia"], title="Confirmación")
+            
+            if subInicioHistorial == "Ingresar Usuario":
+
+                usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
+
+                verVenta(usuario_venta,baseVentasFutarg,subInicioHistorial)
+
+            else:
+
+                usuario_venta=''
+                verVenta(usuario_venta,baseVentasFutarg,subInicioHistorial)
 
     elif inicio =="Base de datos":
 

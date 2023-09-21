@@ -18,6 +18,8 @@ contadorLenght = 0
 
 cantidad = 0
 
+cantidadFigus = 0
+
 if (opciones == "Compra Panini"):
 
     pyautogui.hotkey('alt','tab')
@@ -25,8 +27,16 @@ if (opciones == "Compra Panini"):
 
 
 for linea in datosFigu: 
-    if linea["CANT"] in (0,1) and linea["PRECIO"]>500:        
-        if (opciones == "Compra Panini") and cantidad < 40:
+    if linea["PRECIO"]>1500: 
+        cantidad += 1
+        time.sleep(0.5)
+        pyperclip.copy(linea["NUM"])
+        print(linea["NUM"])
+        pyautogui.hotkey('ctrl','v')
+        time.sleep(0.5)
+        pyautogui.press('tab')
+    elif linea["CANT"] in (0,1,2,3) and linea["PRECIO"]>799:       
+        if (opciones == "Compra Panini") and cantidad < 39:
             cantidad += 1
             if linea["NUM"] =="MRR1":
                 time.sleep(0.5)
@@ -61,12 +71,13 @@ for linea in datosFigu:
                 if contadorLenght != len(figusNuevo)-1:
                     figusFinal += c
 
-            print(figusFinal)
             
         else:
             figus += linea["NUM"] + ","
 
             figusNuevo = espacioFigu(figus)
+
+            cantidadFigus +=1
 
             # for c in figusNuevo:
             #     print(c)
@@ -74,4 +85,5 @@ for linea in datosFigu:
             #     if contadorLenght != len(figusNuevo):
             #         figusFinal += c
 
-print(figusNuevo)
+print(figusNuevo,"\n")
+print("Total: ",cantidadFigus,"figus")
