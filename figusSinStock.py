@@ -5,9 +5,10 @@ with open ("baseMundial.json","r") as baseJson:
 
 tabla = "NUM\t\t\tCANT\t\tPRECIO\t\tTIPO\n"
 sumaPrecio = 0
+faltantes = []
 
 for figurita in baseTotal:
-    if figurita["CANT"] ==0 and figurita["TIPO"] in ("FWC","ESC"):
+    if figurita["CANT"] ==1 and figurita["TIPO"] in ("FWC","ESC"):
         num = figurita["NUM"]
         cant = figurita["CANT"]
         precio = figurita["PRECIO"]
@@ -18,4 +19,8 @@ for figurita in baseTotal:
 
         sumaPrecio += precio
 
+        faltantes.append(figurita["NUM"])
+
 print(tabla)
+
+print(faltantes)

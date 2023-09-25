@@ -2966,7 +2966,7 @@
             ]
         },
         {
-            "usuario": "ROMEROIGNACIO20221027203000",
+            "usuario": "ROMEROIGNACIO20221027203000_2",
             "figusPedidas": [
                 "CRC16",
                 "CRC6",
@@ -2984,6 +2984,318 @@
                 "DEN10",
                 "ECU4",
                 "USA6"
+            ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                "ARG19"
+            ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                ""
+            ]
+        },
+        {
+            "usuario": "GABRIELHUMBERTOGERBINO",
+            "figusPedidas": [
+                "ARG19"
+            ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                ""
+            ]
+        },
+        {
+            "usuario": "VEAR1428041",
+            "figusPedidas": [
+                "ARG12",
+                "ARG15",
+                "ARG17",
+                "ARG18",
+                "AUS10",
+                "AUS11",
+                "CAN1",
+                "CAN16",
+                "CAN7",
+                "CRC19",
+                "CRC9",
+                "DEN11",
+                "DEN12",
+                "DEN15",
+                "DEN19",
+                "DEN2",
+                "DEN6",
+                "ECU13",
+                "ECU7",
+                "ENG3",
+                "ENG5",
+                "ESP16",
+                "ESP2",
+                "ESP5",
+                "FRA5",
+                "FRA9",
+                "FWC1",
+                "GER9",
+                "JPN14",
+                "JPN3",
+                "JPN7",
+                "JPN8",
+                "KSA17",
+                "KSA3",
+                "KSA9",
+                "MEX1011",
+                "MEX1217",
+                "MEX3",
+                "MEX4",
+                "NED3",
+                "NED4",
+                "POL1",
+                "POL11",
+                "POL15",
+                "POL8",
+                "QAT11",
+                "QAT14",
+                "QAT19",
+                "QAT6",
+                "SEN13",
+                "SEN6",
+                "SEN8",
+                "USA12",
+                "USA15",
+                "USA2",
+                "WAL15"
+            ]
+        },
+        {
+            "usuario": "CALAMAROQUERIDO1",
+            "figusPedidas": [
+                "CRO1"
+            ]
+        },
+        {
+            "usuario": "ELISOSA596",
+            "figusPedidas": [
+                "BRA1",
+                "CMR1",
+                "CRO1",
+                "DEN1",
+                "ESP1",
+                "FRA1",
+                "FWC2",
+                "FWC21",
+                "FWC27",
+                "FWC28",
+                "FWC29",
+                "FWC4",
+                "GHA1",
+                "JPN1",
+                "NED1",
+                "QAT1",
+                "SEN1",
+                "SRB1",
+                "SUI1",
+                "URU1",
+                "WAL1"
+            ]
+        },
+        {
+            "usuario": "VERGANIDIEGO",
+            "figusPedidas": [
+                "AUS14",
+                "CAN9",
+                "CMR13",
+                "ENG2",
+                "FRA11",
+                "FWC12",
+                "FWC3",
+                "GHA16",
+                "QAT14",
+                "SUI1"
+            ]
+        },
+        {
+            "usuario": "RODRIGOSERAVALLE",
+            "figusPedidas": [
+                "ARG1",
+                "ARG13",
+                "ARG15",
+                "ARG8",
+                "AUS6",
+                "BRA7",
+                "ENG8",
+                "ESP1",
+                "GHA1",
+                "POR8"
+            ]
+        },
+        {
+            "usuario": "CLAUCITO",
+            "figusPedidas": [
+                "FWC6",
+                "FWC7",
+                "IRN17"
+            ]
+        },
+        {
+            "usuario": "REGALOSOS",
+            "figusPedidas": [
+                "ESP10",
+                "FWC5",
+                "POL10"
+            ]
+        },
+        {
+            "usuario": "JAV_SAP",
+            "figusPedidas": [
+                "ARG2",
+                "BRA10",
+                "BRA12",
+                "CMR15",
+                "DEN1",
+                "FWC2",
+                "FWC26",
+                "FWC3",
+                "KSA11",
+                "MEX8",
+                "SUI1",
+                "USA1"
+            ]
+        },
+        {
+            "usuario": "ROANFRI",
+            "figusPedidas": [
+                "AUS7",
+                "FWC3",
+                "FWC4",
+                "JPN6",
+                "MRR1",
+                "MRR10",
+                "POR16",
+                "SEN1",
+                "SRB1",
+                "WAL3",
+                "WAL4"
+            ]
+        },
+        {
+            "usuario": "BLANCABEATRIZPUJOL",
+            "figusPedidas": [
+                "ARG1",
+                "ARG18",
+                "AUS12",
+                "AUS18",
+                "BRA1",
+                "BRA14",
+                "CAN1",
+                "CRC1",
+                "CRC2",
+                "CRO10",
+                "DEN1",
+                "ECU19",
+                "ESP9",
+                "FRA2",
+                "FWC17",
+                "FWC19",
+                "FWC2",
+                "FWC21",
+                "FWC27",
+                "FWC29",
+                "FWC7",
+                "IRN1",
+                "KOR12",
+                "KSA10",
+                "KSA2",
+                "MEX1",
+                "MEX3",
+                "MEX4",
+                "POR14",
+                "POR16",
+                "QAT1",
+                "SEN1",
+                "SEN18",
+                "SRB1",
+                "SUI14",
+                "SUI5",
+                "URU10",
+                "WAL1"
+            ]
+        },
+        {
+            "usuario": "BLANCABEATRIZPUJOL",
+            "figusPedidas": [
+                "ARG1",
+                "AUS1",
+                "AUS17",
+                "AUS5",
+                "BRA1",
+                "BRA15",
+                "C2",
+                "C7",
+                "C8",
+                "CAN1",
+                "CMR1",
+                "CRC1",
+                "CRC9",
+                "CRO1",
+                "CRO13",
+                "DEN1",
+                "ESP10",
+                "ESP9",
+                "FRA1",
+                "FWC0",
+                "FWC12",
+                "FWC19",
+                "FWC21",
+                "FWC23",
+                "FWC27",
+                "GER1",
+                "IRN1",
+                "JPN10",
+                "KSA1",
+                "MEX1",
+                "MRR2",
+                "NED19",
+                "NED8",
+                "POL12",
+                "POL14",
+                "QAT1",
+                "QAT10",
+                "SEN1",
+                "SEN6",
+                "SRB10",
+                "SRB12",
+                "SRB2",
+                "SUI1",
+                "SUI14",
+                "SUI19",
+                "SUI3",
+                "TUN12",
+                "TUN13",
+                "TUN17",
+                "URU16",
+                "WAL8"
+            ]
+        },
+        {
+            "usuario": "LEONILAGALLEGO",
+            "figusPedidas": [
+                "AUS1"
+            ]
+        },
+        {
+            "usuario": "AGUSTONGA",
+            "figusPedidas": [
+                "FWC20",
+                "FWC21",
+                "FWC24",
+                "FWC26",
+                "FWC27",
+                "TUN1"
             ]
         }
     ]

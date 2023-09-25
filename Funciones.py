@@ -212,3 +212,5 @@ def sacarPaisesDuplicados(lista,listaCorregida):
     for pais in listaInterna:
         if pais not in listaCorregida:
             listaCorregida.append(pais)
+
+

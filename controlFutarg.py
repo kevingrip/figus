@@ -20,4 +20,4 @@ def controlFutarg(ingresaFigu):
     if validacion is True:
         return ("Error de numero")
     else:
-        return (sorted(figus))
+        return (figus)

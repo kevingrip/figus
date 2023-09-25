@@ -10,13 +10,13 @@ ventasFutarg = totalVentas["ventasFutarg"]
 ventasMundialLista = []
 
 for fila in ventasMundial:
-    print("Vendidas: ",fila["Vendidas"],"\n")
-    print("NoVendidas: ",fila["NoVendidas"],"\n")
     print("Dia: ",fila["Dia"],"\n")
+    print("Usuario: ",fila["usuario"])
     print("Cuenta: ",fila["Cuenta"])
     print("Envio: ",fila["Envio"])
     print("Etiqueta: ",fila["Etiqueta"])
     print("PrecioFlex: ",fila["PrecioFlex"],"\n")
-    print("Usuario: ",fila["usuario"])
+    print("Vendidas: ",fila["Vendidas"],"\n")
+    print("NoVendidas: ",fila["NoVendidas"],"\n")
     print("-----------------------------------------------------------------------------------------------","\n")
     

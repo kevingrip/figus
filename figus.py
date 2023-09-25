@@ -12,6 +12,7 @@ from verVenta import *
 from nuevaVenta import *
 from agregarStock import*
 from cosechar import*
+from ingresarDatosPantalla import*
 
 import easygui
 import pyperclip
@@ -19,10 +20,11 @@ import tkinter as tk
 import time
 
 
+datosIngresar = []
+
 agregarJson = ".json"
 
 precioUyuni = 0
-precio=''
 
 #MUNDIAL 2022
 usuariosMundial = "usuariosMundial"
@@ -53,14 +55,6 @@ ventasTotal = "totalVentas.json"
 subInicioHistorial="Ingresar Usuario"
 
 
-def leer_figu():
-    global usuario_mercadolibre, figu
-    texto_1 = entrada_texto_1.get("1.0", "end-1c")  # Obtener el primer texto
-    texto_2 = entrada_texto_2.get("1.0", "end-1c")  # Obtener el segundo texto
-    usuario_mercadolibre = texto_1
-    figu = texto_2
-    ventana.destroy()   
-
 album = easygui.buttonbox("Elija una opción", choices=["Mundial Qatar 2022", "Copa Libertadores 2023", "Futbol Argentino 2023"], title="Confirmación")
 
 if album in ("Mundial Qatar 2022", "Futbol Argentino 2023", "Copa Libertadores 2023"):
@@ -76,36 +70,10 @@ if (album == "Mundial Qatar 2022"):
 
         if subInicio == "Nueva Pregunta":
         
-            # Crear la ventana
-            ventana = tk.Tk()
-            ventana.title("Figuritas")
+            ingresarDatos(datosIngresar)
 
-            ventana.state('zoomed')
-
-            # Crear etiquetas y cuadros de entrada de texto
-            etiqueta_0 = tk.Label(ventana, text="")
-            etiqueta_0.pack(pady=125)
-
-            etiqueta_1 = tk.Label(ventana, text="Usuario:")
-            etiqueta_1.pack(pady=5)
-            entrada_texto_1 = tk.Text(ventana, height=1, width=40)
-            entrada_texto_1.pack()
-
-            etiqueta_2 = tk.Label(ventana, text="Ingrese Figuritas:")
-            etiqueta_2.pack(pady=5)
-            entrada_texto_2 = tk.Text(ventana, height=5, width=160)
-            entrada_texto_2.pack()
-
-            # Crear un botón
-            boton = tk.Button(ventana, text="Continuar", command=leer_figu)
-            boton.pack(pady=10)
-
-            # Variables para guardar los textos ingresados
-            usuario_mercadolibre = ""
-            figu = ""
-
-            # Iniciar el bucle de la GUI
-            ventana.mainloop()
+            usuario_mercadolibre = datosIngresar[0]
+            figu = datosIngresar[1]
 
             figu = figu.upper()
 
@@ -181,15 +149,118 @@ if (album == "Mundial Qatar 2022"):
         subInicio = easygui.buttonbox("Elija una opción", choices=["Historial","Nueva Venta"], title="Confirmación")
 
         if subInicio == "Nueva Venta":
-
-            usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
             
+            subInicioVenta = easygui.buttonbox("Elija una opción", choices=["Venta de usuario","Figurita Individual","Legends"], title="Confirmación")
 
-            descontarBaseJson(usuario_venta,usuariosMundial,baseMundial,VendidasMundial,noVendidasMundial)
+            if subInicioVenta == "Venta de usuario":
 
-            nuevaVenta(usuario_venta,VendidasMundial,noVendidasMundial,baseVentasMundial)
+                usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")                
 
-            verVenta(usuario_venta,baseVentasMundial,subInicioHistorial)
+                descontarBaseJson(usuario_venta,usuariosMundial,baseMundial,VendidasMundial,noVendidasMundial)
+
+                nuevaVenta(usuario_venta,VendidasMundial,noVendidasMundial,baseVentasMundial)
+
+                verVenta(usuario_venta,baseVentasMundial,subInicioHistorial)
+
+            elif subInicioVenta == "Figurita Individual":
+                ingresarDatos(datosIngresar)
+
+                usuario_mercadolibre = datosIngresar[0]
+                figu = datosIngresar[1]
+
+                figu = figu.upper()
+
+                figu = sacar_y(figu)
+
+                lista_usuario=(usuario_ml (usuario_mercadolibre))
+
+                nombre=lista_usuario[0]
+                usuario=lista_usuario[1]
+
+                if nombre == "":
+                    nombre = ''
+                
+                if usuario == "":
+                    usuario = 'prueba'
+
+                nombre = nombre.capitalize()
+
+                print ("Nombre: ",nombre)
+                print ("Usuario: ",usuario,"\n")
+
+                
+                validacionPaises = True
+
+                figu = acomodar (figu,paisesError,listaPaises)
+
+                listaFigu = separacion(figu)
+
+                figulista = nombreOriginal(listaFigu)
+                
+                figulista_sorted = sorted (figulista)
+
+                #print(figulista_sorted)
+
+                if len(paisesError)>0:
+                    validacionPaises = False
+
+
+                if validacionPaises == True:
+
+                    nuevoUsuario = {"usuario": usuario, "figusPedidas": figulista_sorted}
+
+                    with open('usuariosMundial.json', 'r') as archivoUsuarios:
+                        cargarUsuarios = json.load(archivoUsuarios)
+
+                    cargarUsuarios["usuariosMundial"].append(nuevoUsuario)
+                                        
+                    with open('usuariosMundial.json', 'w') as archivoUsuarios:
+                        json.dump(cargarUsuarios, archivoUsuarios, indent=4)
+
+                    descontarBaseJson(usuario,usuariosMundial,baseMundial,VendidasMundial,noVendidasMundial)
+
+                    nuevaVenta(usuario,VendidasMundial,noVendidasMundial,baseVentasMundial)
+
+                    verVenta(usuario,baseVentasMundial,subInicioHistorial)
+                else:
+                    for pais in paisesError:
+                        print ("ERROR: Corregir el pais", pais)
+            
+            elif subInicioVenta == "Legends":
+
+                with open ("legends.json","r") as legendsJson:
+                    legends = json.load(legendsJson)
+
+                jugadoresLegend=[]
+                tipoLegend=[]
+                
+                for jugador in legends:
+                    jugadoresLegend.append(jugador["nombre"])
+
+                
+                nombreLegend = easygui.choicebox("Elija un jugador", choices=jugadoresLegend, title="Confirmacion")
+                tipoLegend = easygui.buttonbox("Elija un jugador", choices=["BASE","BRONZE","SILVER","GOLD"], title="Confirmacion")
+
+                for datosJugador in legends: 
+                    jugadorLegend = datosJugador["nombre"]           
+                    if nombreLegend == datosJugador["nombre"]:
+                        for linea in datosJugador:
+                            if tipoLegend == linea:
+                                datosJugador[tipoLegend] -= 1
+                                print("Se ha descontado una figurita de tipo",tipoLegend,"al jugador",datosJugador["nombre"])
+                                print(datosJugador)
+                
+                usuarioVenta = easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
+                
+                nombreLegend = [nombreLegend]
+                nuevaVenta(usuarioVenta,nombreLegend,noVendidasMundial,baseVentasMundial)
+
+                verVenta(usuarioVenta,baseVentasMundial,subInicioHistorial)
+
+                
+                with open("legends.json", 'w') as legendsJson:
+                    json.dump(legends, legendsJson, indent=4)
+
             
         elif subInicio == "Historial":
 
@@ -234,36 +305,10 @@ elif (album == "Copa Libertadores 2023"):
 
         if subInicio == "Nueva Pregunta":
         
-            # Crear la ventana
-            ventana = tk.Tk()
-            ventana.title("Figuritas")
+            ingresarDatos(datosIngresar)
 
-            ventana.state('zoomed')
-
-            # Crear etiquetas y cuadros de entrada de texto
-            etiqueta_0 = tk.Label(ventana, text="")
-            etiqueta_0.pack(pady=125)
-
-            etiqueta_1 = tk.Label(ventana, text="Usuario:")
-            etiqueta_1.pack(pady=5)
-            entrada_texto_1 = tk.Text(ventana, height=1, width=40)
-            entrada_texto_1.pack()
-
-            etiqueta_2 = tk.Label(ventana, text="Ingrese Figuritas:")
-            etiqueta_2.pack(pady=5)
-            entrada_texto_2 = tk.Text(ventana, height=5, width=160)
-            entrada_texto_2.pack()
-
-            # Crear un botón
-            boton = tk.Button(ventana, text="Continuar", command=leer_figu)
-            boton.pack(pady=10)
-
-            # Variables para guardar los textos ingresados
-            usuario_mercadolibre = ""
-            figu = ""
-
-            # Iniciar el bucle de la GUI
-            ventana.mainloop()
+            usuario_mercadolibre = datosIngresar[0]
+            figu = datosIngresar[1]
 
             figuLali = conversorLibertadores(figu)
 
@@ -345,36 +390,23 @@ elif (album == "Copa Libertadores 2023"):
             agregarStock(baseLibertadores)
         
         elif subInicioBDD == "Cosechar":
-            # Crear la ventana
-            ventana = tk.Tk()
-            ventana.title("Figuritas")
+            ingresarDatos(datosIngresar)
 
-            ventana.state('zoomed')
-
-            # Crear etiquetas y cuadros de entrada de texto
-            etiqueta_0 = tk.Label(ventana, text="")
-            etiqueta_0.pack(pady=125)
-
-            entrada_texto_1 = tk.Text(ventana, height=0, width=0)
-            entrada_texto_1.pack()
-
-            etiqueta_2 = tk.Label(ventana, text="Ingrese Figuritas:")
-            etiqueta_2.pack(pady=5)
-            entrada_texto_2 = tk.Text(ventana, height=5, width=160)
-            entrada_texto_2.pack()
-
-            # Crear un botón
-            boton = tk.Button(ventana, text="Continuar", command=leer_figu)
-            boton.pack(pady=10)
-
-            # Variables para guardar los textos ingresados
-            usuario_mercadolibre = ""
-            figu = ""
-
-            # Iniciar el bucle de la GUI
-            ventana.mainloop()
+            pilon = datosIngresar[0]
+            figu = datosIngresar[1]
 
             figuLali = conversorLibertadores(figu)
+
+            with open("cosechas.json","r") as cosechasJSON:
+                agregarCosecha = json.load(cosechasJSON)
+            
+            nuevaCosecha = {"PILON":pilon,"NUMEROS":figuLali}
+
+            agregarCosecha[album].append(nuevaCosecha)
+
+            with open("cosechas.json","w") as AgregarcosechasJSON:
+                json.dump(agregarCosecha,AgregarcosechasJSON,indent=4)
+
             print(figuLali,'\n')
 
             cosechar(figuLali,baseLibertadores)
@@ -386,38 +418,13 @@ elif (album == "Futbol Argentino 2023"):
         subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Pregunta", "Pregunta de Usuario"], title="Confirmación")
 
         if subInicio == "Nueva Pregunta":
-            # Crear la ventana
-            ventana = tk.Tk()
-            ventana.title("Figuritas")
 
-            ventana.state('zoomed')
+            ingresarDatos(datosIngresar)
 
-            # Crear etiquetas y cuadros de entrada de texto
-            etiqueta_0 = tk.Label(ventana, text="")
-            etiqueta_0.pack(pady=125)
+            usuario_mercadolibre = datosIngresar[0]
+            figu = datosIngresar[1]
 
-            etiqueta_1 = tk.Label(ventana, text="Usuario:")
-            etiqueta_1.pack(pady=5)
-            entrada_texto_1 = tk.Text(ventana, height=1, width=40)
-            entrada_texto_1.pack()
-
-            etiqueta_2 = tk.Label(ventana, text="Ingrese Figuritas:")
-            etiqueta_2.pack(pady=5)
-            entrada_texto_2 = tk.Text(ventana, height=5, width=160)
-            entrada_texto_2.pack()
-
-            # Crear un botón
-            boton = tk.Button(ventana, text="Continuar", command=leer_figu)
-            boton.pack(pady=10)
-
-            # Variables para guardar los textos ingresados
-            usuario_mercadolibre = ""
-            figu = ""
-
-            # Iniciar el bucle de la GUI
-            ventana.mainloop()
-
-            figuFutarg = controlFutarg(figu)
+            figuFutarg = sorted(controlFutarg(figu))
 
             with open("usuariosFutarg.json","r") as futargJson:
                 dataLibertadores = json.load(futargJson)
@@ -496,35 +503,23 @@ elif (album == "Futbol Argentino 2023"):
             agregarStock(baseFutarg)
 
         elif subInicioBDD == "Cosechar":
-            # Crear la ventana
-            ventana = tk.Tk()
-            ventana.title("Figuritas")
+            ingresarDatos(datosIngresar)
 
-            ventana.state('zoomed')
-
-            # Crear etiquetas y cuadros de entrada de texto
-            etiqueta_0 = tk.Label(ventana, text="")
-            etiqueta_0.pack(pady=125)
-
-            entrada_texto_1 = tk.Text(ventana, height=0, width=0)
-            entrada_texto_1.pack()
-
-            etiqueta_2 = tk.Label(ventana, text="Ingrese Figuritas:")
-            etiqueta_2.pack(pady=5)
-            entrada_texto_2 = tk.Text(ventana, height=5, width=160)
-            entrada_texto_2.pack()
-
-            # Crear un botón
-            boton = tk.Button(ventana, text="Continuar", command=leer_figu)
-            boton.pack(pady=10)
-
-            # Variables para guardar los textos ingresados
-            figu = ""
-
-            # Iniciar el bucle de la GUI
-            ventana.mainloop()
+            pilon = datosIngresar[0].upper()
+            figu = datosIngresar[1]
 
             figuFutarg = controlFutarg(figu)
+
+            with open("cosechas.json","r") as cosechasJSON:
+                agregarCosecha = json.load(cosechasJSON)
+            
+            nuevaCosecha = {"PILON":pilon,"NUMEROS":figuFutarg}
+
+            agregarCosecha[album].append(nuevaCosecha)
+
+            with open("cosechas.json","w") as AgregarcosechasJSON:
+                json.dump(agregarCosecha,AgregarcosechasJSON,indent=4)
+
             print(figuFutarg,'\n')
 
             cosechar(figuFutarg,baseFutarg)

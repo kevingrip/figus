@@ -1224,6 +1224,280 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "PAREDEZLAURANAIR",
+            "Vendidas": [
+                "FWC18",
+                "FWC19",
+                "ARG3",
+                "ARG5",
+                "ARG7",
+                "AUS4",
+                "BEL8",
+                "BEL14",
+                "BRA2",
+                "BRA3",
+                "BRA6",
+                "BRA10",
+                "CMR17",
+                "CRC2",
+                "CRC6",
+                "CRC10",
+                "CRC12",
+                "CRO17",
+                "DEN2",
+                "DEN11",
+                "ENG5",
+                "ENG17",
+                "ESP2",
+                "ESP11",
+                "FRA1",
+                "FRA4",
+                "GER1",
+                "GER5",
+                "GER7",
+                "GER10",
+                "GER14",
+                "GHA2",
+                "GHA5",
+                "IRN1",
+                "IRN9",
+                "JPN2",
+                "JPN3",
+                "JPN13",
+                "JPN16",
+                "JPN18",
+                "KOR1",
+                "KOR8",
+                "KOR13",
+                "KSA5",
+                "KSA9",
+                "MEX11",
+                "MEX17",
+                "MEX18",
+                "MRR4",
+                "MRR5",
+                "MRR6",
+                "MRR16",
+                "MRR18",
+                "NED5",
+                "NED12",
+                "POL7",
+                "POL11",
+                "POL16",
+                "POR9",
+                "POR19",
+                "SEN9",
+                "SRB3",
+                "SRB9",
+                "SRB12",
+                "SRB13",
+                "SRB14",
+                "SUI1",
+                "SUI12",
+                "SUI13",
+                "SUI15",
+                "TUN2",
+                "TUN5",
+                "TUN7",
+                "TUN18",
+                "URU2",
+                "URU6",
+                "URU9",
+                "URU15",
+                "USA7",
+                "USA13",
+                "USA16",
+                "WAL4",
+                "WAL7",
+                "WAL12",
+                "WAL14",
+                "WAL18"
+            ],
+            "NoVendidas": [],
+            "Dia": "21/09/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "PCK350",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "ADRIAN_LAF",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "21/09/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "PCK350",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "ROMEROIGNACIO20221027203000_2",
+            "Vendidas": [
+                "CRC6",
+                "CRC16",
+                "QAT1",
+                "SRB1",
+                "SRB9",
+                "SRB17"
+            ],
+            "NoVendidas": [],
+            "Dia": "21/09/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "OCS062",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "GABRIELHUMBERTOGERBINO",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/09/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "URB190",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "CALAMAROQUERIDO1",
+            "Vendidas": [
+                "CRO1"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/09/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "FLEX KEVIN",
+            "Etiqueta": "SANTOS LUGARES",
+            "PrecioFlex": 1700
+        },
+        {
+            "usuario": "BCEHFAGDECFDBAHG20221209083150",
+            "Vendidas": [
+                "MBAPPE"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/09/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "PCK390",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "CLAUCITO",
+            "Vendidas": [
+                "FWC6",
+                "FWC7",
+                "IRN17"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/09/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "SCF2",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "RODRIGOSERAVALLE",
+            "Vendidas": [
+                "ARG1",
+                "ARG8",
+                "ARG13",
+                "ARG15",
+                "AUS6",
+                "BRA7",
+                "ENG8",
+                "ESP1",
+                "GHA1",
+                "POR8"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/09/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "SSF1_X",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "ROMINAXIMENAREYES",
+            "Vendidas": [
+                "GUILLERMO OCHOA"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/09/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "PCK390",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "REGALOSOS",
+            "Vendidas": [
+                "FWC5",
+                "ESP10",
+                "POL10"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/09/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "COR140",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "ROANFRI",
+            "Vendidas": [
+                "FWC3",
+                "FWC4",
+                "AUS7",
+                "JPN6",
+                "MRR1",
+                "MRR10",
+                "POR16",
+                "SEN1",
+                "SRB1",
+                "WAL3",
+                "WAL4"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/09/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "Etiqueta": "URB175",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "LEONILAGALLEGO",
+            "Vendidas": [
+                "AUS1"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/09/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "SRO1",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "AGUSTONGA",
+            "Vendidas": [
+                "FWC20",
+                "FWC21",
+                "FWC24",
+                "FWC26",
+                "FWC27",
+                "TUN1"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/09/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "OCA291",
+            "PrecioFlex": 0
         }
     ],
     "ventasFutarg": [
@@ -1462,6 +1736,18 @@
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
             "PrecioFlex": 1700
+        },
+        {
+            "usuario": "MEHU87",
+            "Vendidas": [
+                383
+            ],
+            "NoVendidas": [],
+            "Dia": "24/09/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "Etiqueta": "COR140",
+            "PrecioFlex": 0
         }
     ]
 }
