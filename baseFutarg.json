@@ -10,7 +10,7 @@
     {
         "NUM": 2,
         "EQUIPO": "Introduction",
-        "CANT": 6,
+        "CANT": 7,
         "TIPO": "ESPECIALES",
         "PRECIO": 500,
         "NOMBRE": "Logo Liga Profesional de Futbol Argentino"
@@ -26,7 +26,7 @@
     {
         "NUM": 4,
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -298,7 +298,7 @@
     {
         "NUM": 38,
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -546,7 +546,7 @@
     {
         "NUM": 69,
         "EQUIPO": "CA Banfield",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Alejandro Piedrahita"
@@ -762,7 +762,7 @@
     {
         "NUM": 96,
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
-        "CANT": 3,
+        "CANT": 4,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Bruno Zapelli"
@@ -842,7 +842,7 @@
     {
         "NUM": 106,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "ESC",
         "PRECIO": 600,
         "NOMBRE": "Emblema"
@@ -1250,7 +1250,7 @@
     {
         "NUM": 157,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -1322,7 +1322,7 @@
     {
         "NUM": 166,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "David Barbona"
@@ -1330,7 +1330,7 @@
     {
         "NUM": 167,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Lautaro Escalante"
@@ -1354,7 +1354,7 @@
     {
         "NUM": 170,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Andr\u00e9s R\u00edos"
@@ -1394,7 +1394,7 @@
     {
         "NUM": 175,
         "EQUIPO": "Club Estudiantes de La Plata",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Mariano And\u00fajar"
@@ -1426,7 +1426,7 @@
     {
         "NUM": 179,
         "EQUIPO": "Club Estudiantes de La Plata",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Zaid Romero"
@@ -1698,7 +1698,7 @@
     {
         "NUM": 213,
         "EQUIPO": "CD Godoy Cruz",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Federico Rasmussen"
@@ -1754,7 +1754,7 @@
     {
         "NUM": 220,
         "EQUIPO": "CD Godoy Cruz",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Juan Andrada"
@@ -1794,7 +1794,7 @@
     {
         "NUM": 225,
         "EQUIPO": "CA Hurac\u00e1n",
-        "CANT": 6,
+        "CANT": 5,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -1994,7 +1994,7 @@
     {
         "NUM": 250,
         "EQUIPO": "CA Independiente",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Iv\u00e1n Marcone"
@@ -2066,7 +2066,7 @@
     {
         "NUM": 259,
         "EQUIPO": "Instituto AC C\u00f3rdoba",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -2298,7 +2298,7 @@
     {
         "NUM": 288,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Pedro De la Vega"
@@ -2330,7 +2330,7 @@
     {
         "NUM": 292,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Franco Orozco"
@@ -2338,7 +2338,7 @@
     {
         "NUM": 293,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 8,
+        "CANT": 7,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -2418,7 +2418,7 @@
     {
         "NUM": 303,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Pablo P\u00e9rez"
@@ -2434,7 +2434,7 @@
     {
         "NUM": 305,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Jorge Recalde"
@@ -2450,7 +2450,7 @@
     {
         "NUM": 307,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Djorkaeff Reasco"
@@ -2746,7 +2746,7 @@
     {
         "NUM": 344,
         "EQUIPO": "CA River Plate",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 700,
         "NOMBRE": "Emblema"
@@ -2770,7 +2770,7 @@
     {
         "NUM": 347,
         "EQUIPO": "CA River Plate",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 350,
         "NOMBRE": "H\u00e9ctor David Mart\u00ednez"
@@ -2882,7 +2882,7 @@
     {
         "NUM": 361,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -2994,7 +2994,7 @@
     {
         "NUM": 375,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Alejo V\u00e9liz"
@@ -3010,7 +3010,7 @@
     {
         "NUM": 377,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Luca Mart\u00ednez Dupuy"
@@ -3018,7 +3018,7 @@
     {
         "NUM": 378,
         "EQUIPO": "CA San Lorenzo de Almagro",
-        "CANT": 10,
+        "CANT": 11,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -3586,7 +3586,7 @@
     {
         "NUM": 449,
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Franco Calder\u00f3n"
@@ -3602,7 +3602,7 @@
     {
         "NUM": 451,
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Oscar Piris"
@@ -3842,7 +3842,7 @@
     {
         "NUM": 481,
         "EQUIPO": "Campeones 2022",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESPECIALES",
         "PRECIO": 400,
         "NOMBRE": "Campe\u00f3n Copa Liga Profesional - Boca 2"
@@ -3882,7 +3882,7 @@
     {
         "NUM": 486,
         "EQUIPO": "Campeones 2022",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESPECIALES",
         "PRECIO": 400,
         "NOMBRE": "Campe\u00f3n Trofeo de Campeones - Racing 1"
@@ -3898,17 +3898,17 @@
     {
         "NUM": 488,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Emiliano Mart\u00ednez"
     },
     {
         "NUM": 489,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Franco Armani"
     },
     {
@@ -3916,23 +3916,23 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Geronimo Rulli"
     },
     {
         "NUM": 491,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Juan Foyth"
     },
     {
         "NUM": 492,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Nicol\u00e1s Tagliafico"
     },
     {
@@ -3940,7 +3940,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Gonzalo Montiel"
     },
     {
@@ -3948,15 +3948,15 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 0,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Germ\u00e1n Pezzella"
     },
     {
         "NUM": 495,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Marcos Acu\u00f1a"
     },
     {
@@ -3964,7 +3964,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 3,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Cristian Romero"
     },
     {
@@ -3972,15 +3972,15 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Nicol\u00e1s Otamendi"
     },
     {
         "NUM": 498,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Lisandro Mart\u00ednez"
     },
     {
@@ -3988,15 +3988,15 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 5,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Nahuel Molina"
     },
     {
         "NUM": 500,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Leandro Paredes"
     },
     {
@@ -4004,7 +4004,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Rodrigo De Paul"
     },
     {
@@ -4012,7 +4012,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Exequiel Palacios"
     },
     {
@@ -4020,7 +4020,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Guido Rodr\u00edguez"
     },
     {
@@ -4028,7 +4028,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 2,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Alexis Mac Allister"
     },
     {
@@ -4036,15 +4036,15 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 0,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Enzo Fern\u00e1ndez"
     },
     {
         "NUM": 506,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Juli\u00e1n \u00c1lvarez"
     },
     {
@@ -4052,15 +4052,15 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Alejandro G\u00f3mez"
     },
     {
         "NUM": 508,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "Lionel Messi"
     },
     {
@@ -4068,7 +4068,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 0,
         "TIPO": "AFA",
-        "PRECIO": 1000,
+        "PRECIO": 1500,
         "NOMBRE": "\u00c1ngel Di Mar\u00eda"
     },
     {
@@ -4076,7 +4076,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Joaqu\u00edn Correa"
     },
     {
@@ -4084,7 +4084,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Thiago Almada"
     },
     {
@@ -4092,7 +4092,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 7,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Paulo Dybala"
     },
     {
@@ -4100,7 +4100,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 5,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Lautaro Mart\u00ednez"
     },
     {
@@ -4108,15 +4108,15 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 4,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 900,
         "NOMBRE": "Plantel 1"
     },
     {
         "NUM": 515,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 900,
         "NOMBRE": "Plantel 2"
     },
     {
@@ -4124,7 +4124,7 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 4,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 900,
         "NOMBRE": "Plantel 3"
     },
     {
@@ -4132,7 +4132,7 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 900,
         "NOMBRE": "Plantel 4"
     },
     {
@@ -4140,7 +4140,7 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 7,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 900,
         "NOMBRE": "Plantel 5"
     },
     {
@@ -4148,15 +4148,15 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 900,
         "NOMBRE": "Plantel 6"
     },
     {
         "NUM": 520,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 900,
         "NOMBRE": "Plantel 7"
     },
     {
@@ -4164,7 +4164,7 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 600,
+        "PRECIO": 900,
         "NOMBRE": "Plantel 8"
     }
 ]

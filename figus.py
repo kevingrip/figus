@@ -13,6 +13,7 @@ from nuevaVenta import *
 from agregarStock import*
 from cosechar import*
 from ingresarDatosPantalla import*
+from buscar_cosecha import*
 
 import easygui
 import pyperclip
@@ -39,6 +40,7 @@ baseLibertadores = "baseLali.json"
 baseVentasLibertadores = "ventasLibertadores"
 vendidasLali = []
 noVendidasLali = []
+PreguntaNoTengo = []
 
 #FUTBOL ARGENTINO 2023
 usuariosFutarg = "usuariosFutarg"
@@ -59,14 +61,14 @@ album = easygui.buttonbox("Elija una opción", choices=["Mundial Qatar 2022", "C
 
 if album in ("Mundial Qatar 2022", "Futbol Argentino 2023", "Copa Libertadores 2023"):
 
-    inicio = easygui.buttonbox("Elija una opción", choices=["Preguntas", "Ventas","Base de datos"], title="Confirmación")
+    inicio = easygui.buttonbox("Elija una opción", choices=["Preguntas", "Ventas","Base de datos"], title=album)
     
 
 if (album == "Mundial Qatar 2022"):
 
     if inicio=="Preguntas":
 
-        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Pregunta", "Pregunta de Usuario"], title="Confirmación")
+        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Pregunta", "Pregunta de Usuario"], title=album)
 
         if subInicio == "Nueva Pregunta":
         
@@ -146,11 +148,11 @@ if (album == "Mundial Qatar 2022"):
 
     elif inicio == "Ventas":
 
-        subInicio = easygui.buttonbox("Elija una opción", choices=["Historial","Nueva Venta"], title="Confirmación")
+        subInicio = easygui.buttonbox("Elija una opción", choices=["Historial","Nueva Venta"], title=album)
 
         if subInicio == "Nueva Venta":
             
-            subInicioVenta = easygui.buttonbox("Elija una opción", choices=["Venta de usuario","Figurita Individual","Legends"], title="Confirmación")
+            subInicioVenta = easygui.buttonbox("Elija una opción", choices=["Venta de usuario","Figurita Individual","Legends"], title=album)
 
             if subInicioVenta == "Venta de usuario":
 
@@ -264,7 +266,7 @@ if (album == "Mundial Qatar 2022"):
             
         elif subInicio == "Historial":
 
-            subInicioHistorial = easygui.buttonbox("Elija una opcion", choices=["Ingresar Usuario","Ventas del dia"], title="Confirmación")
+            subInicioHistorial = easygui.buttonbox("Elija una opcion", choices=["Ingresar Usuario","Ventas del dia"], title=album)
 
             if subInicioHistorial == "Ingresar Usuario":
                 usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
@@ -276,7 +278,7 @@ if (album == "Mundial Qatar 2022"):
 
     elif inicio =="Base de datos":
 
-        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Actualizar en Google","Total de figuritas","Agregar Stock"], title="Confirmación")
+        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Actualizar en Google","Total de figuritas","Agregar Stock"], title=album)
     
         if subInicioBDD == "Actualizar en Google":
 
@@ -301,7 +303,7 @@ elif (album == "Copa Libertadores 2023"):
 
     if inicio=="Preguntas":
 
-        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Pregunta", "Pregunta de Usuario"], title="Confirmación")
+        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Pregunta", "Pregunta de Usuario"], title=album)
 
         if subInicio == "Nueva Pregunta":
         
@@ -327,7 +329,9 @@ elif (album == "Copa Libertadores 2023"):
             with open('usuariosLibertadores.json', 'w') as archivoUsuarios:
                 json.dump(dataLibertadores, archivoUsuarios, indent=4) 
 
-            procesadorLali(figuLali,baseLibertadores)
+            procesadorLali(figuLali,baseLibertadores,PreguntaNoTengo)
+
+            buscarCosecha(album,PreguntaNoTengo)
 
         elif subInicio == "Pregunta de Usuario":
 
@@ -335,11 +339,13 @@ elif (album == "Copa Libertadores 2023"):
 
             figusUsuario = preguntaUsuario(usuario_venta,usuariosLibertadores+agregarJson,usuariosLibertadores,baseLibertadores)
 
-            procesadorLali(figusUsuario,baseLibertadores)
+            procesadorLali(figusUsuario,baseLibertadores,PreguntaNoTengo)
+
+            buscarCosecha(album,PreguntaNoTengo)
 
     elif inicio =="Ventas":
 
-        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Venta","Historial"], title="Confirmación")
+        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Venta","Historial"], title=album)
 
         if subInicio == "Nueva Venta":
 
@@ -353,7 +359,7 @@ elif (album == "Copa Libertadores 2023"):
         
         elif subInicio == 'Historial':
 
-            subInicioHistorial = easygui.buttonbox("Elija una opción", choices=["Ingresar Usuario","Ventas del dia"], title="Confirmación")
+            subInicioHistorial = easygui.buttonbox("Elija una opción", choices=["Ingresar Usuario","Ventas del dia"], title=album)
             
             if subInicioHistorial == "Ingresar Usuario":
 
@@ -368,7 +374,7 @@ elif (album == "Copa Libertadores 2023"):
 
     elif inicio =="Base de datos":
 
-        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Agregar Stock","Total de figuritas","Cosechar","Actualizar en Google"], title="Confirmación")
+        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Agregar Stock","Total de figuritas","Cosechar","Actualizar en Google"], title=album)
     
         if subInicioBDD == "Actualizar en Google":
 
@@ -415,7 +421,7 @@ elif (album == "Futbol Argentino 2023"):
     
     if inicio=="Preguntas":
 
-        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Pregunta", "Pregunta de Usuario"], title="Confirmación")
+        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Pregunta", "Pregunta de Usuario"], title=album)
 
         if subInicio == "Nueva Pregunta":
 
@@ -440,19 +446,23 @@ elif (album == "Futbol Argentino 2023"):
             with open('usuariosFutarg.json', 'w') as futJson:
                 json.dump(dataLibertadores, futJson, indent=4) 
 
-            procesadorFutarg(figuFutarg,baseFutarg)
+            procesadorFutarg(figuFutarg,baseFutarg,PreguntaNoTengo)
+
+            buscarCosecha(album,PreguntaNoTengo)
 
         elif subInicio == "Pregunta de Usuario":
 
-            usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
+            usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title=album)
 
             figusUsuario = preguntaUsuario(usuario_venta,usuariosFutarg+agregarJson,usuariosFutarg,baseFutarg)
 
-            procesadorFutarg(figusUsuario,baseFutarg)
+            procesadorFutarg(figusUsuario,baseFutarg,PreguntaNoTengo)
+
+            buscarCosecha(album,PreguntaNoTengo)
 
     elif inicio =="Ventas":
 
-        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Venta","Historial"], title="Confirmación")
+        subInicio = easygui.buttonbox("Elija una opción", choices=["Nueva Venta","Historial"], title=album)
 
         if subInicio == "Nueva Venta":
 
@@ -466,7 +476,7 @@ elif (album == "Futbol Argentino 2023"):
 
         elif subInicio == 'Historial':
 
-            subInicioHistorial = easygui.buttonbox("Elija una opción", choices=["Ingresar Usuario","Ventas del dia"], title="Confirmación")
+            subInicioHistorial = easygui.buttonbox("Elija una opción", choices=["Ingresar Usuario","Ventas del dia"], title=album)
             
             if subInicioHistorial == "Ingresar Usuario":
 
@@ -481,7 +491,7 @@ elif (album == "Futbol Argentino 2023"):
 
     elif inicio =="Base de datos":
 
-        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Agregar Stock","Total de figuritas","Cosechar","Actualizar en Google"], title="Confirmación")
+        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Agregar Stock","Total de figuritas","Cosechar","Actualizar en Google"], title=album)
     
         if subInicioBDD == "Actualizar en Google":
 

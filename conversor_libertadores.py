@@ -8,7 +8,7 @@ def conversorLibertadores(figuritas):
     listaLibertadores = []
 
     for i in figuritas:
-        if i in ('.',',','y','-'):
+        if i in ('.',',','y','-','='):
             listaLibertadores.append(libertadores_figu)
             libertadores_figu=''
         elif i !=' ':

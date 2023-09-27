@@ -48,7 +48,7 @@
         "ID": 6,
         "NUM": "CL6",
         "EQUIPO": "Conmebol Libertadores 2022",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "CL",
         "PRECIO": 500,
         "NOMBRE": "Champions - Flamengo - Gabigol 2"
@@ -75,7 +75,7 @@
         "ID": 9,
         "NUM": "CL9",
         "EQUIPO": "Conmebol Libertadores 2023",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "CL",
         "PRECIO": 500,
         "NOMBRE": "Final - Rio de Janeiro - Brazil"
@@ -102,7 +102,7 @@
         "ID": 12,
         "NUM": "CL12",
         "EQUIPO": "The King Pel\u00c3\u00a9",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "CL",
         "PRECIO": 500,
         "NOMBRE": "Pel\u00c3\u00a9 - 1962"
@@ -129,7 +129,7 @@
         "ID": 15,
         "NUM": "2",
         "EQUIPO": "SD Aucas",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Hernan Galindez"
@@ -219,7 +219,7 @@
         "ID": 25,
         "NUM": "12",
         "EQUIPO": "SD Aucas",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Luis Cano"
@@ -255,7 +255,7 @@
         "ID": 29,
         "NUM": "16",
         "EQUIPO": "SD Aucas",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Jhon Cifuente"
@@ -336,7 +336,7 @@
         "ID": 38,
         "NUM": "25",
         "EQUIPO": "CR Flamengo",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Flamengo Jersey 1 and 2"
@@ -390,7 +390,7 @@
         "ID": 44,
         "NUM": "31",
         "EQUIPO": "CR Flamengo",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Bruno Henrique Pinto"
@@ -489,7 +489,7 @@
         "ID": 55,
         "NUM": "42",
         "EQUIPO": "CD \u00c3\u2018ublense",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "\u00c3\u2018ublense Jersey 1 and 2"
@@ -498,7 +498,7 @@
         "ID": 56,
         "NUM": "43",
         "EQUIPO": "CD \u00c3\u2018ublense",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Jorge Henriquez"
@@ -534,7 +534,7 @@
         "ID": 60,
         "NUM": "47",
         "EQUIPO": "CD \u00c3\u2018ublense",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Alex Vald\u00c3\u00a9s"
@@ -615,7 +615,7 @@
         "ID": 69,
         "NUM": "56",
         "EQUIPO": "Racing Club",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Gabriel Rojas"
@@ -669,7 +669,7 @@
         "ID": 75,
         "NUM": "62",
         "EQUIPO": "Racing Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Juan Nardoni"
@@ -732,7 +732,7 @@
         "ID": 82,
         "NUM": "69",
         "EQUIPO": "Independiente Medellin",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Independiente Medellin Team Logo"
@@ -849,7 +849,7 @@
         "ID": 95,
         "NUM": "82",
         "EQUIPO": "Independiente Medellin",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Diber Cambindo"
@@ -885,7 +885,7 @@
         "ID": 99,
         "NUM": "86",
         "EQUIPO": "Sport Club Internacional",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Internacional Team Logo"
@@ -984,7 +984,7 @@
         "ID": 110,
         "NUM": "97",
         "EQUIPO": "Sport Club Internacional",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Mauricio"
@@ -1020,7 +1020,7 @@
         "ID": 114,
         "NUM": "101",
         "EQUIPO": "Sport Club Internacional",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Pedro Henrique"
@@ -1137,7 +1137,7 @@
         "ID": 127,
         "NUM": "114",
         "EQUIPO": "Metropolitanos FC",
-        "CANT": 3,
+        "CANT": 4,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Ely Valderrey"
@@ -1326,7 +1326,7 @@
         "ID": 148,
         "NUM": "135",
         "EQUIPO": "Club Nacional",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Federico Martinez"
@@ -1344,7 +1344,7 @@
         "ID": 150,
         "NUM": "137",
         "EQUIPO": "Barcelona SC Guayaquil",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Barcelona S.C. Team Logo"
@@ -1371,7 +1371,7 @@
         "ID": 153,
         "NUM": "140",
         "EQUIPO": "Barcelona SC Guayaquil",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Carlos Rodriguez"
@@ -1425,7 +1425,7 @@
         "ID": 159,
         "NUM": "146",
         "EQUIPO": "Barcelona SC Guayaquil",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Damian Diaz"
@@ -1524,7 +1524,7 @@
         "ID": 170,
         "NUM": "157",
         "EQUIPO": "Bolivar La Paz",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Luis Haquin"
@@ -1533,7 +1533,7 @@
         "ID": 171,
         "NUM": "158",
         "EQUIPO": "Bolivar La Paz",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Nicolas Ferreyra"
@@ -1614,7 +1614,7 @@
         "ID": 180,
         "NUM": "167",
         "EQUIPO": "Bolivar La Paz",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Ramiro Vaca"
@@ -1650,7 +1650,7 @@
         "ID": 184,
         "NUM": "171",
         "EQUIPO": "Club Cerro Porte\u00c3\u00b1o",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Cerro Porteno Team Logo"
@@ -1731,7 +1731,7 @@
         "ID": 193,
         "NUM": "180",
         "EQUIPO": "Club Cerro Porte\u00c3\u00b1o",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Federico Carrizo"
@@ -2010,7 +2010,7 @@
         "ID": 224,
         "NUM": "211",
         "EQUIPO": "Fluminense Football Club",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Marcelo"
@@ -2028,7 +2028,7 @@
         "ID": 226,
         "NUM": "213",
         "EQUIPO": "Fluminense Football Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Alexsander"
@@ -2064,7 +2064,7 @@
         "ID": 230,
         "NUM": "217",
         "EQUIPO": "Fluminense Football Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Matheus Martinelli"
@@ -2082,7 +2082,7 @@
         "ID": 232,
         "NUM": "219",
         "EQUIPO": "Fluminense Football Club",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "German Cano"
@@ -2154,7 +2154,7 @@
         "ID": 240,
         "NUM": "227",
         "EQUIPO": "CA River Plate",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 350,
         "NOMBRE": "Jonathan Maidana"
@@ -2262,7 +2262,7 @@
         "ID": 252,
         "NUM": "239",
         "EQUIPO": "Club Sporting Cristal",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Sporting Cristal Team Logo"
@@ -2379,7 +2379,7 @@
         "ID": 265,
         "NUM": "252",
         "EQUIPO": "Club Sporting Cristal",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Yoshimar Yotun"
@@ -2586,7 +2586,7 @@
         "ID": 288,
         "NUM": "275",
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Kevin Mac Allister"
@@ -2685,7 +2685,7 @@
         "ID": 299,
         "NUM": "286",
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Rodrigo Cabral"
@@ -2694,7 +2694,7 @@
         "ID": 300,
         "NUM": "287",
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Gaston Veron"
@@ -2766,7 +2766,7 @@
         "ID": 308,
         "NUM": "295",
         "EQUIPO": "Sport Club Corinthians Paulista",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Fabio Santos"
@@ -2775,7 +2775,7 @@
         "ID": 309,
         "NUM": "296",
         "EQUIPO": "Sport Club Corinthians Paulista",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Adson"
@@ -2847,7 +2847,7 @@
         "ID": 317,
         "NUM": "304",
         "EQUIPO": "Sport Club Corinthians Paulista",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Roger Guedes"
@@ -2928,7 +2928,7 @@
         "ID": 326,
         "NUM": "313",
         "EQUIPO": "Independiente del Valle",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Beder Caicedo"
@@ -2937,7 +2937,7 @@
         "ID": 327,
         "NUM": "314",
         "EQUIPO": "Independiente del Valle",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Independiente del Valle Jersey 1 and 2"
@@ -2946,7 +2946,7 @@
         "ID": 328,
         "NUM": "315",
         "EQUIPO": "Independiente del Valle",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Cristian Pellerano"
@@ -3126,7 +3126,7 @@
         "ID": 348,
         "NUM": "335",
         "EQUIPO": "Liverpool FC Montevideo",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Miguel Samudio"
@@ -3225,7 +3225,7 @@
         "ID": 359,
         "NUM": "346",
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 350,
         "NOMBRE": "Nicolas Figal"
@@ -3261,7 +3261,7 @@
         "ID": 363,
         "NUM": "350",
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 3,
+        "CANT": 4,
         "TIPO": "Comunes",
         "PRECIO": 350,
         "NOMBRE": "Alan Varela"
@@ -3270,7 +3270,7 @@
         "ID": 364,
         "NUM": "351",
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 350,
         "NOMBRE": "Martin Payero"
@@ -3342,7 +3342,7 @@
         "ID": 372,
         "NUM": "359",
         "EQUIPO": "CSD Colo Colo",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Brayan Cort\u00c3\u00a9s"
@@ -3378,7 +3378,7 @@
         "ID": 376,
         "NUM": "363",
         "EQUIPO": "CSD Colo Colo",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Maximiliano Falcon"
@@ -3387,7 +3387,7 @@
         "ID": 377,
         "NUM": "364",
         "EQUIPO": "CSD Colo Colo",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Erick Wiemberg"
@@ -3414,7 +3414,7 @@
         "ID": 380,
         "NUM": "367",
         "EQUIPO": "CSD Colo Colo",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "C\u00c3\u00a9sar Fuentes"
@@ -3423,7 +3423,7 @@
         "ID": 381,
         "NUM": "368",
         "EQUIPO": "CSD Colo Colo",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Esteban Pavez"
@@ -3432,7 +3432,7 @@
         "ID": 382,
         "NUM": "369",
         "EQUIPO": "CSD Colo Colo",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Marcos Rojas"
@@ -3549,7 +3549,7 @@
         "ID": 395,
         "NUM": "382",
         "EQUIPO": "Monagas SC",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Monagas Jersey 1 and 2"
@@ -3558,7 +3558,7 @@
         "ID": 396,
         "NUM": "383",
         "EQUIPO": "Monagas SC",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Aldo Qui\u00c3\u00b1onez"
@@ -3630,7 +3630,7 @@
         "ID": 404,
         "NUM": "391",
         "EQUIPO": "Monagas SC",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Santiago Herrera"
@@ -3684,7 +3684,7 @@
         "ID": 410,
         "NUM": "397",
         "EQUIPO": "Deportivo Pereira",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Juan ZAluaga"
@@ -3747,7 +3747,7 @@
         "ID": 417,
         "NUM": "404",
         "EQUIPO": "Deportivo Pereira",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Angelo Rodriguez"
@@ -3855,7 +3855,7 @@
         "ID": 429,
         "NUM": "416",
         "EQUIPO": "Club Alianza Lima",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Alianza Lima Jersey 1 and 2"
@@ -3945,7 +3945,7 @@
         "ID": 439,
         "NUM": "426",
         "EQUIPO": "Club Athletico Paranaense",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Athletico Paranaense Team Logo"
@@ -3990,7 +3990,7 @@
         "ID": 444,
         "NUM": "431",
         "EQUIPO": "Club Athletico Paranaense",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Z\u00c3\u00a9 Ivaldo"
@@ -4071,7 +4071,7 @@
         "ID": 453,
         "NUM": "440",
         "EQUIPO": "Club Athletico Paranaense",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Pablo"
@@ -4107,7 +4107,7 @@
         "ID": 457,
         "NUM": "444",
         "EQUIPO": "Clube Atl\u00c3\u00a9tico Mineiro",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Everson"
@@ -4188,7 +4188,7 @@
         "ID": 466,
         "NUM": "453",
         "EQUIPO": "Clube Atl\u00c3\u00a9tico Mineiro",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Otavio"
@@ -4215,7 +4215,7 @@
         "ID": 469,
         "NUM": "456",
         "EQUIPO": "Clube Atl\u00c3\u00a9tico Mineiro",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Eduardo Vargas"
@@ -4224,7 +4224,7 @@
         "ID": 470,
         "NUM": "457",
         "EQUIPO": "Clube Atl\u00c3\u00a9tico Mineiro",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Hulk"
@@ -4251,7 +4251,7 @@
         "ID": 473,
         "NUM": "460",
         "EQUIPO": "Club Libertad",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Libertad Team Logo"
@@ -4305,7 +4305,7 @@
         "ID": 479,
         "NUM": "466",
         "EQUIPO": "Club Libertad",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Luis Cardozo"
@@ -4323,7 +4323,7 @@
         "ID": 481,
         "NUM": "468",
         "EQUIPO": "Club Libertad",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Mathias Espinoza"
@@ -4377,7 +4377,7 @@
         "ID": 487,
         "NUM": "474",
         "EQUIPO": "Club Libertad",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "H\u00c3\u00a9ctor Villalba"
@@ -4476,7 +4476,7 @@
         "ID": 498,
         "NUM": "485",
         "EQUIPO": "Atl\u00c3\u00a9tico Nacional",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Dorlan Pabon"
@@ -4521,7 +4521,7 @@
         "ID": 503,
         "NUM": "490",
         "EQUIPO": "Atl\u00c3\u00a9tico Nacional",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Chico Francisco da Costa"
@@ -4557,7 +4557,7 @@
         "ID": 507,
         "NUM": "494",
         "EQUIPO": "FBC Melgar",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Melgar Team Logo"
@@ -4701,7 +4701,7 @@
         "ID": 523,
         "NUM": "510",
         "EQUIPO": "FBC Melgar",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Luis Iberico"
@@ -4710,7 +4710,7 @@
         "ID": 524,
         "NUM": "511",
         "EQUIPO": "Olimpia Asuncion",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Olimpia Team logo"
@@ -4899,7 +4899,7 @@
         "ID": 545,
         "NUM": "532",
         "EQUIPO": "Club Atl\u00c3\u00a9tico Patronato",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Facundo Cobos"
@@ -4953,7 +4953,7 @@
         "ID": 551,
         "NUM": "538",
         "EQUIPO": "Club Atl\u00c3\u00a9tico Patronato",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Jorge Chamorro"

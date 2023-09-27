@@ -1,7 +1,7 @@
 import json
 
 
-def procesadorLali(figuritas,baseDeDatos):
+def procesadorLali(figuritas,baseDeDatos,figusNoTengo):
 
     with open(baseDeDatos,'r') as laliJson:
         datosLali = json.load(laliJson)
@@ -10,7 +10,6 @@ def procesadorLali(figuritas,baseDeDatos):
     cantidadNoTengo = 0
     cantidadTotal = 0
     tengo = ''
-    figusNoTengo = ''
     precio = 0
     
 
@@ -18,17 +17,17 @@ def procesadorLali(figuritas,baseDeDatos):
         if lineas.get("NUM") in (figuritas):
             cantidadTotal +=1
             if lineas.get("CANT") > 0:
-                print(lineas)
+                #print(lineas)
                 cantidadTengo +=1
                 tengo += lineas.get("NUM")+", "
                 precio += lineas.get("PRECIO")
             else:
                 cantidadNoTengo +=1
-                figusNoTengo += lineas["NUM"] + ', '
-                print(lineas)
-    print("Hola! Tengo las siguientes: ",tengo,"y el precio es ",precio,". Confirmame si te sirve y actualizo el precio de esta publicacion para tu compra. Saludos !")
+                figusNoTengo.append(lineas["NUM"])
+                #print(lineas)
+    print("\n","Hola! Tengo las siguientes: ",tengo,"y el precio es ",precio,". Confirmame si te sirve y actualizo el precio de esta publicacion para tu compra. Saludos !","\n")
 
     print("Tengo: ",cantidadTengo)
     print("No tengo: ",cantidadNoTengo)
-    print (figusNoTengo)
-    print("Total: ",cantidadTotal)
+    print("Total: ",cantidadTotal,"\n")
+    print ("No tengo:" ,figusNoTengo,"\n")

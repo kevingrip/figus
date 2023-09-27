@@ -3297,6 +3297,130 @@
                 "FWC27",
                 "TUN1"
             ]
+        },
+        {
+            "usuario": "MATKONIG",
+            "figusPedidas": [
+                "ECU10",
+                "ENG15",
+                "ENG2",
+                "FWC11",
+                "IRN1",
+                "IRN2",
+                "SEN1",
+                "SEN19",
+                "SEN2",
+                "SEN7",
+                "USA10",
+                "USA12"
+            ]
+        },
+        {
+            "usuario": "CANDELARIADOMINA",
+            "figusPedidas": [
+                "C1",
+                "C4",
+                "C7",
+                "ESP1"
+            ]
+        },
+        {
+            "usuario": "NANCYPECORELLI",
+            "figusPedidas": [
+                "ARG1",
+                "ARG12",
+                "ARG19",
+                "ARG2",
+                "ARG6",
+                "ARG9",
+                "FRA18",
+                "FWC2"
+            ]
+        },
+        {
+            "usuario": "LUCAS-VMJA",
+            "figusPedidas": [
+                "ARG1",
+                "BEL1",
+                "ECU1",
+                "ENG1",
+                "MEX1"
+            ]
+        },
+        {
+            "usuario": "LUCAS-VMJA",
+            "figusPedidas": [
+                "ARG1",
+                "BEL1",
+                "ECU1",
+                "ENG1",
+                "MEX1"
+            ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                "FWC0"
+            ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                "FWC0"
+            ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                "FWC0"
+            ]
+        },
+        {
+            "usuario": "FUVI3049101",
+            "figusPedidas": [
+                "BEL1",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5",
+                "C6",
+                "C7",
+                "C8",
+                "CAN12",
+                "CRO17",
+                "CRO9",
+                "DEN15",
+                "ENG12",
+                "ENG18",
+                "FWC1",
+                "FWC24",
+                "FWC29",
+                "FWC3",
+                "FWC5",
+                "GER12",
+                "GHA1",
+                "MRR10",
+                "NED14",
+                "POL1",
+                "POL13",
+                "QAT11",
+                "TUN15",
+                "WAL1"
+            ]
+        },
+        {
+            "usuario": "JOS_VON2008",
+            "figusPedidas": [
+                "ARG1",
+                "ARG19",
+                "ARG2",
+                "BEL2",
+                "BRA16",
+                "FRA18",
+                "POL16",
+                "POR17"
+            ]
         }
     ]
 }
