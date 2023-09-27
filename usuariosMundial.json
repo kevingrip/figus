@@ -3358,24 +3358,6 @@
             ]
         },
         {
-            "usuario": "prueba",
-            "figusPedidas": [
-                "FWC0"
-            ]
-        },
-        {
-            "usuario": "prueba",
-            "figusPedidas": [
-                "FWC0"
-            ]
-        },
-        {
-            "usuario": "prueba",
-            "figusPedidas": [
-                "FWC0"
-            ]
-        },
-        {
             "usuario": "FUVI3049101",
             "figusPedidas": [
                 "BEL1",
@@ -3420,6 +3402,35 @@
                 "FRA18",
                 "POL16",
                 "POR17"
+            ]
+        },
+        {
+            "usuario": "LUKE_2012",
+            "figusPedidas": [
+                "CMR1",
+                "CMR12",
+                "CRC5",
+                "CRO1",
+                "DEN1",
+                "ECU1",
+                "ENG13",
+                "ENG2",
+                "FWC2",
+                "FWC21",
+                "FWC26",
+                "FWC28",
+                "FWC7",
+                "IRN1",
+                "KOR1",
+                "KOR4",
+                "MRR1",
+                "MRR13",
+                "POL1",
+                "POR17",
+                "SEN1",
+                "URU1",
+                "USA1",
+                "WAL13"
             ]
         }
     ]
