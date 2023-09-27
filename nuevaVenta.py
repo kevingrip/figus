@@ -30,8 +30,8 @@ def nuevaVenta(usuario,vendidas,noVendidas,llaveVentas):
         empresaEtiqueta = easygui.buttonbox("Etiqueta", choices=tipoEtiqueta, title="Etiquetas")
     
         if empresaEtiqueta == "Agregar nuevo":
-            tipoEtiqueta= easygui.enterbox("Ingrese tipo de etiqueta").upper()
             etiquetaNueva= easygui.enterbox("Ingrese etiqueta").upper()
+            tipoEtiqueta = etiquetaNueva[:3]
             datoEtiqueta = etiquetaNueva
             agregarCorreo(tipoEtiqueta,etiquetaNueva)
         else:
