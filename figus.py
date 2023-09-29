@@ -140,11 +140,12 @@ if (album == "Mundial Qatar 2022"):
 
             figusUsuario = preguntaUsuario(usuario_venta,usuariosMundial+agregarJson,usuariosMundial,baseMundial)
 
-            verPreguntaUsuario = procesadorMundial(figusUsuario,usuario_venta,baseMundial)
+            if figusUsuario:
+                verPreguntaUsuario = procesadorMundial(figusUsuario,usuario_venta,baseMundial)
 
             #descontarBaseJson(usuario_venta,usuariosMundial,baseMundial,VendidasMundial,noVendidasMundial)
 
-            print(verPreguntaUsuario)       
+                print(verPreguntaUsuario)       
 
     elif inicio == "Ventas":
 

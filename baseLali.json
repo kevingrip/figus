@@ -84,7 +84,7 @@
         "ID": 10,
         "NUM": "CL10",
         "EQUIPO": "The King Pel\u00c3\u00a9",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "CL",
         "PRECIO": 500,
         "NOMBRE": "Pel\u00c3\u00a9 - Illustration"
@@ -273,7 +273,7 @@
         "ID": 31,
         "NUM": "18",
         "EQUIPO": "CR Flamengo",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Flamengo Team Logo"
@@ -336,7 +336,7 @@
         "ID": 38,
         "NUM": "25",
         "EQUIPO": "CR Flamengo",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Flamengo Jersey 1 and 2"
@@ -615,7 +615,7 @@
         "ID": 69,
         "NUM": "56",
         "EQUIPO": "Racing Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Gabriel Rojas"
@@ -633,7 +633,7 @@
         "ID": 71,
         "NUM": "58",
         "EQUIPO": "Racing Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Facundo Mura"
@@ -687,7 +687,7 @@
         "ID": 77,
         "NUM": "64",
         "EQUIPO": "Racing Club",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Maximiliano Moralez"
@@ -714,7 +714,7 @@
         "ID": 80,
         "NUM": "67",
         "EQUIPO": "Racing Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Maxi Romero"
@@ -885,7 +885,7 @@
         "ID": 99,
         "NUM": "86",
         "EQUIPO": "Sport Club Internacional",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Internacional Team Logo"
@@ -948,7 +948,7 @@
         "ID": 106,
         "NUM": "93",
         "EQUIPO": "Sport Club Internacional",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Internacional Jersey 1 and 2"
@@ -1722,7 +1722,7 @@
         "ID": 192,
         "NUM": "179",
         "EQUIPO": "Club Cerro Porte\u00c3\u00b1o",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Claudio Aquino"
@@ -1974,7 +1974,7 @@
         "ID": 220,
         "NUM": "207",
         "EQUIPO": "Fluminense Football Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Samuel Xavier"
@@ -2037,7 +2037,7 @@
         "ID": 227,
         "NUM": "214",
         "EQUIPO": "Fluminense Football Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Andr\u00c3\u00a9"
@@ -2172,7 +2172,7 @@
         "ID": 242,
         "NUM": "229",
         "EQUIPO": "CA River Plate",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "KSK",
         "PRECIO": 700,
         "NOMBRE": "River Plate Jersey 1 and 2"
@@ -3396,7 +3396,7 @@
         "ID": 378,
         "NUM": "365",
         "EQUIPO": "CSD Colo Colo",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Colo-Colo Jersey 1 and 2"
@@ -4008,7 +4008,7 @@
         "ID": 446,
         "NUM": "433",
         "EQUIPO": "Club Athletico Paranaense",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Athletico Paranaense Jersey 1 and 2"
@@ -4035,7 +4035,7 @@
         "ID": 449,
         "NUM": "436",
         "EQUIPO": "Club Athletico Paranaense",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Fernandinho"
@@ -4881,7 +4881,7 @@
         "ID": 543,
         "NUM": "530",
         "EQUIPO": "Club Atl\u00c3\u00a9tico Patronato",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Lautaro Geminiani"
@@ -4908,7 +4908,7 @@
         "ID": 546,
         "NUM": "533",
         "EQUIPO": "Club Atl\u00c3\u00a9tico Patronato",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Sergio Ojeda"
@@ -4962,7 +4962,7 @@
         "ID": 552,
         "NUM": "539",
         "EQUIPO": "Club Atl\u00c3\u00a9tico Patronato",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Kevin Gonzalez"

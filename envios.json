@@ -3,7 +3,9 @@
         "RECOLETA",
         "CABA",
         "LOMAS DE ZAMORA",
-        "ITUZAINGO"
+        "ITUZAINGO",
+        "MORON",
+        "SAN MARTIN"
     ],
     "AND": [
         "AND026",
@@ -52,5 +54,8 @@
     ],
     "SCO": [
         "SCO1"
+    ],
+    "SIN": [
+        "SIN ETIQUETA"
     ]
 }

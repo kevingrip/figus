@@ -8,12 +8,13 @@ sumaPrecio = 0
 faltantes = []
 
 for figurita in baseTotal:
-    if figurita["CANT"] ==1 and figurita["TIPO"] in ("FWC","ESC"):
+    if figurita["CANT"] ==2 and figurita["TIPO"] not in ("FWC","ESC"):
         num = figurita["NUM"]
         cant = figurita["CANT"]
         precio = figurita["PRECIO"]
         tipo = figurita["TIPO"]
-        total = f"{num}\t\t\t{cant}\t\t\t\t{precio}\t\t\t\t{tipo}\n"
+        #total = f"{num}\t\t\t{cant}\t\t\t\t{precio}\t\t\t\t{tipo}\n"
+        total = f"{num}\n"
 
         tabla +=total
 

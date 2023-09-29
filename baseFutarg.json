@@ -2,7 +2,7 @@
     {
         "NUM": 1,
         "EQUIPO": "Introduction",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "ESPECIALES",
         "PRECIO": 1500,
         "NOMBRE": "Logo Asociaci\u00f3n del F\u00fatbol Argentino"
@@ -122,7 +122,7 @@
     {
         "NUM": 16,
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 3,
+        "CANT": 4,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Leonardo Heredia"
@@ -138,7 +138,7 @@
     {
         "NUM": 18,
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Gabriel \u00c1valos"
@@ -154,7 +154,7 @@
     {
         "NUM": 20,
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Thiago Nuss"
@@ -314,7 +314,7 @@
     {
         "NUM": 40,
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Mat\u00edas Orihuela"
@@ -434,7 +434,7 @@
     {
         "NUM": 55,
         "EQUIPO": "CA Banfield",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -666,7 +666,7 @@
     {
         "NUM": 84,
         "EQUIPO": "CA Barracas Central",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Maximiliano Puig"
@@ -698,7 +698,7 @@
     {
         "NUM": 88,
         "EQUIPO": "CA Barracas Central",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Manuel Brondo"
@@ -1466,7 +1466,7 @@
     {
         "NUM": 184,
         "EQUIPO": "Club Estudiantes de La Plata",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Santiago Ascac\u00edbar"
@@ -1498,7 +1498,7 @@
     {
         "NUM": 188,
         "EQUIPO": "Club Estudiantes de La Plata",
-        "CANT": 5,
+        "CANT": 7,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Guido Carrillo"
@@ -1874,7 +1874,7 @@
     {
         "NUM": 235,
         "EQUIPO": "CA Hurac\u00e1n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Jon\u00e1s Acevedo"
@@ -1890,7 +1890,7 @@
     {
         "NUM": 237,
         "EQUIPO": "CA Hurac\u00e1n",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Juan Garro"
@@ -2330,7 +2330,7 @@
     {
         "NUM": 292,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Franco Orozco"
@@ -2338,7 +2338,7 @@
     {
         "NUM": 293,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 7,
+        "CANT": 9,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -2434,7 +2434,7 @@
     {
         "NUM": 305,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Jorge Recalde"
@@ -2554,7 +2554,7 @@
     {
         "NUM": 320,
         "EQUIPO": "Club Atl\u00e9tico Platense",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Franco Baldassarra"
@@ -2978,7 +2978,7 @@
     {
         "NUM": 373,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "V\u00edctor Ignacio Malcorra"
@@ -3098,7 +3098,7 @@
     {
         "NUM": 388,
         "EQUIPO": "CA San Lorenzo de Almagro",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Jalil El\u00edas"
@@ -3114,7 +3114,7 @@
     {
         "NUM": 390,
         "EQUIPO": "CA San Lorenzo de Almagro",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Malcom Braida"
@@ -3426,7 +3426,7 @@
     {
         "NUM": 429,
         "EQUIPO": "Club Atl\u00e9tico Tigre",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -3698,7 +3698,7 @@
     {
         "NUM": 463,
         "EQUIPO": "CA V\u00e9lez Sarsfield",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -4058,7 +4058,7 @@
     {
         "NUM": 508,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "AFA",
         "PRECIO": 2000,
         "NOMBRE": "Lionel Messi"
@@ -4138,7 +4138,7 @@
     {
         "NUM": 518,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 7,
+        "CANT": 8,
         "TIPO": "AFA",
         "PRECIO": 900,
         "NOMBRE": "Plantel 5"
