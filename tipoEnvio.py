@@ -37,9 +37,21 @@ def etiquetaCorreo(tipo):
     with open("envios.json","r") as correoJson:
         correo = json.load(correoJson)
     
-    etiquetas = correo[tipo]
+    etiquetas = []
+    etiquetas += (correo[tipo])
+    etiquetas += ["Nueva Etiqueta"]
 
     elegida = easygui.buttonbox("Ingrese etiqueta",choices=etiquetas, title="Etiquetas")
+    
+
+    if elegida == "Nueva Etiqueta":
+        elegida = easygui.enterbox("Ingrese etiqueta:")
+        elegida = elegida.upper()
+        agregarEtiqueta = correo[tipo]
+        agregarEtiqueta.append(elegida)
+
+        with open("envios.json","w") as correoEditarJson:
+            json.dump(correo,correoEditarJson,indent=4)
 
     return (elegida)
 

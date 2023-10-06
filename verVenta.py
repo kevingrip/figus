@@ -21,12 +21,39 @@ def verVenta(usuario,llaveVentas,opcionElegida):
                 print("Sucursal: ",venta["Cuenta"])
                 print("Envio: ",venta["Envio"])
                 print("Etiqueta: ",venta["Etiqueta"],"\n")
-                # VER LINEA POR LINEA DE LA BASE
-                # for linea in ventasMundial:
-                #     if linea["NUM"] in (venta["Vendidas"]):
-                #         print(linea)
-                print("Vendidas: ",venta["Vendidas"],"\n")
                 print("Cantidad de figuritas vendidas: ",len(venta["Vendidas"]),"\n")
+                if llaveVentas == "Mundial Qatar 2022":
+                    listaVendidas = venta["Vendidas"]
+                    ventaOrdenada = ''
+                    anterior = ''
+                    for figurita in listaVendidas:
+                        if anterior == '':
+                            anterior = figurita[:3]
+                        if figurita[:3] == anterior:
+                            if len(figurita) ==5:
+                                ventaOrdenada+= (figurita[:3]+' '+figurita[-2:])
+                                ventaOrdenada+='\t'
+                            elif len(figurita) ==4:
+                                ventaOrdenada+= (figurita[:3]+' '+figurita[-1:]+' ')
+                                ventaOrdenada+='\t'
+                            else:
+                                ventaOrdenada+=figurita
+                        else:
+                            ventaOrdenada+='\n'
+                            if len(figurita) ==5:
+                                ventaOrdenada+= (figurita[:3]+' '+figurita[-2:])
+                                ventaOrdenada+='\t'
+                            elif len(figurita) ==4:
+                                ventaOrdenada+= (figurita[:3]+' '+figurita[-1:]+' ')
+                                ventaOrdenada+='\t'
+                            else:
+                                ventaOrdenada+=figurita
+                                ventaOrdenada+='\t'
+                            anterior = figurita[:3]
+                    print("Vendidas: ")
+                    print(ventaOrdenada,"\n")
+                else:
+                    print("Vendidas: ",venta["Vendidas"],"\n")
                 print("No Vendidas",venta["NoVendidas"])   
     elif opcionElegida == 'Ventas del dia':        
         for venta in ventasTotalAlbum:

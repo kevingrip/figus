@@ -9,7 +9,7 @@
     {
         "nombre": "VARANE",
         "BASE": 11,
-        "BRONZE": 5,
+        "BRONZE": 4,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -36,7 +36,7 @@
     },
     {
         "nombre": "C RONALDO",
-        "BASE": 1,
+        "BASE": 0,
         "BRONZE": 1,
         "SILVER": 0,
         "GOLD": 0
@@ -45,7 +45,7 @@
         "nombre": "OCHOA",
         "BASE": 4,
         "BRONZE": 1,
-        "SILVER": 1,
+        "SILVER": 0,
         "GOLD": 0
     },
     {
@@ -60,7 +60,7 @@
         "BASE": 0,
         "BRONZE": 1,
         "SILVER": 1,
-        "GOLD": 1
+        "GOLD": 0
     },
     {
         "nombre": "MESSI",
@@ -116,7 +116,7 @@
         "BASE": 3,
         "BRONZE": 4,
         "SILVER": 0,
-        "GOLD": 1
+        "GOLD": 0
     },
     {
         "nombre": "DAVIES",
@@ -129,7 +129,7 @@
         "nombre": "BELLINGHAM",
         "BASE": 9,
         "BRONZE": 2,
-        "SILVER": 0,
+        "SILVER": 1,
         "GOLD": 0
     },
     {

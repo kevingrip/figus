@@ -17,4 +17,4 @@ def cosechar(figuritas,base):
                 cant = figurita["CANT"]
                 tipo = figurita["TIPO"]
                 nombre = figurita["NOMBRE"]
-                print(f"NUM: {num}\t|\tTIPO: {tipo}\t|\tEQUIPO: {equipo}\t|\tNOMBRE: {nombre}\t|\tSTOCK: {cant}\t|\tPOSICION = {posicion}")
+                print(f"NUM: {num}\t|\tTIPO: {tipo}\t|\tSTOCK: {cant}\t|\tPOSICION = {posicion}|\tEQUIPO: {equipo}\t\tNOMBRE: {nombre}\t")

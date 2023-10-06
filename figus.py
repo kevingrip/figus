@@ -17,7 +17,6 @@ from buscar_cosecha import*
 
 import easygui
 import pyperclip
-import tkinter as tk    
 import time
 
 
@@ -27,27 +26,26 @@ agregarJson = ".json"
 
 precioUyuni = 0
 
+Vendidas = []
+noVendidas = []
+PreguntaNoTengo = []
+
+
 #MUNDIAL 2022
 usuariosMundial = "usuariosMundial"
 baseMundial = "baseMundial.json"
-baseVentasMundial = "ventasMundial"
-VendidasMundial = []
-noVendidasMundial = []
+
 
 #LIBERTADORES 2023
 usuariosLibertadores = "usuariosLibertadores"
 baseLibertadores = "baseLali.json"
-baseVentasLibertadores = "ventasLibertadores"
-vendidasLali = []
-noVendidasLali = []
-PreguntaNoTengo = []
+
+
 
 #FUTBOL ARGENTINO 2023
 usuariosFutarg = "usuariosFutarg"
 baseFutarg = "baseFutarg.json"
-baseVentasFutarg = "ventasFutarg"
-vendidasFutarg = []
-noVendidasFutarg = []
+
 
 listaPaises = []
 paisesError=[]
@@ -143,8 +141,6 @@ if (album == "Mundial Qatar 2022"):
             if figusUsuario:
                 verPreguntaUsuario = procesadorMundial(figusUsuario,usuario_venta,baseMundial)
 
-            #descontarBaseJson(usuario_venta,usuariosMundial,baseMundial,VendidasMundial,noVendidasMundial)
-
                 print(verPreguntaUsuario)       
 
     elif inicio == "Ventas":
@@ -159,11 +155,11 @@ if (album == "Mundial Qatar 2022"):
 
                 usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")                
 
-                descontarBaseJson(usuario_venta,usuariosMundial,baseMundial,VendidasMundial,noVendidasMundial)
+                descontarBaseJson(usuario_venta,usuariosMundial,baseMundial,Vendidas,noVendidas)
 
-                nuevaVenta(usuario_venta,VendidasMundial,noVendidasMundial,baseVentasMundial)
+                nuevaVenta(usuario_venta,Vendidas,noVendidas,album)
 
-                verVenta(usuario_venta,baseVentasMundial,subInicioHistorial)
+                verVenta(usuario_venta,album,subInicioHistorial)
 
             elif subInicioVenta == "Figurita Individual":
                 ingresarDatos(datosIngresar)
@@ -220,11 +216,11 @@ if (album == "Mundial Qatar 2022"):
                     with open('usuariosMundial.json', 'w') as archivoUsuarios:
                         json.dump(cargarUsuarios, archivoUsuarios, indent=4)
 
-                    descontarBaseJson(usuario,usuariosMundial,baseMundial,VendidasMundial,noVendidasMundial)
+                    descontarBaseJson(usuario,usuariosMundial,baseMundial,Vendidas,noVendidas)
 
-                    nuevaVenta(usuario,VendidasMundial,noVendidasMundial,baseVentasMundial)
+                    nuevaVenta(usuario,Vendidas,noVendidas,album)
 
-                    verVenta(usuario,baseVentasMundial,subInicioHistorial)
+                    verVenta(usuario,album,subInicioHistorial)
                 else:
                     for pais in paisesError:
                         print ("ERROR: Corregir el pais", pais)
@@ -256,9 +252,9 @@ if (album == "Mundial Qatar 2022"):
                 usuarioVenta = easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
                 
                 nombreLegend = [nombreLegend]
-                nuevaVenta(usuarioVenta,nombreLegend,noVendidasMundial,baseVentasMundial)
+                nuevaVenta(usuarioVenta,nombreLegend,noVendidas,album)
 
-                verVenta(usuarioVenta,baseVentasMundial,subInicioHistorial)
+                verVenta(usuarioVenta,album,subInicioHistorial)
 
                 
                 with open("legends.json", 'w') as legendsJson:
@@ -272,10 +268,10 @@ if (album == "Mundial Qatar 2022"):
             if subInicioHistorial == "Ingresar Usuario":
                 usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
 
-                verVenta(usuario_venta,baseVentasMundial,subInicioHistorial)
+                verVenta(usuario_venta,album,subInicioHistorial)
             else:
                 usuario_venta=''
-                verVenta(usuario_venta,baseVentasMundial,subInicioHistorial)      
+                verVenta(usuario_venta,album,subInicioHistorial)      
 
     elif inicio =="Base de datos":
 
@@ -352,11 +348,11 @@ elif (album == "Copa Libertadores 2023"):
 
             usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
 
-            descontarBaseJson(usuario_venta,usuariosLibertadores,baseLibertadores,vendidasLali,noVendidasLali)
+            descontarBaseJson(usuario_venta,usuariosLibertadores,baseLibertadores,Vendidas,noVendidas)
 
-            nuevaVenta(usuario_venta,vendidasLali,noVendidasLali,baseVentasLibertadores)
+            nuevaVenta(usuario_venta,Vendidas,noVendidas,album)
 
-            verVenta(usuario_venta,baseVentasLibertadores,subInicioHistorial)
+            verVenta(usuario_venta,album,subInicioHistorial)
         
         elif subInicio == 'Historial':
 
@@ -366,12 +362,12 @@ elif (album == "Copa Libertadores 2023"):
 
                 usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
 
-                verVenta(usuario_venta,baseVentasLibertadores,subInicioHistorial)
+                verVenta(usuario_venta,album,subInicioHistorial)
 
             else:
 
                 usuario_venta=''
-                verVenta(usuario_venta,baseVentasLibertadores,subInicioHistorial)
+                verVenta(usuario_venta,album,subInicioHistorial)
 
     elif inicio =="Base de datos":
 
@@ -469,11 +465,11 @@ elif (album == "Futbol Argentino 2023"):
 
             usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
 
-            descontarBaseJson(usuario_venta,usuariosFutarg,baseFutarg,vendidasFutarg,noVendidasFutarg)
+            descontarBaseJson(usuario_venta,usuariosFutarg,baseFutarg,Vendidas,noVendidas)
 
-            nuevaVenta(usuario_venta,vendidasFutarg,noVendidasFutarg,baseVentasFutarg)
+            nuevaVenta(usuario_venta,Vendidas,noVendidas,album)
 
-            verVenta(usuario_venta,baseVentasFutarg,subInicioHistorial)
+            verVenta(usuario_venta,album,subInicioHistorial)
 
         elif subInicio == 'Historial':
 
@@ -483,12 +479,12 @@ elif (album == "Futbol Argentino 2023"):
 
                 usuario_venta= easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
 
-                verVenta(usuario_venta,baseVentasFutarg,subInicioHistorial)
+                verVenta(usuario_venta,album,subInicioHistorial)
 
             else:
 
                 usuario_venta=''
-                verVenta(usuario_venta,baseVentasFutarg,subInicioHistorial)
+                verVenta(usuario_venta,album,subInicioHistorial)
 
     elif inicio =="Base de datos":
 

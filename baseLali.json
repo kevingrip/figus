@@ -48,7 +48,7 @@
         "ID": 6,
         "NUM": "CL6",
         "EQUIPO": "Conmebol Libertadores 2022",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "CL",
         "PRECIO": 500,
         "NOMBRE": "Champions - Flamengo - Gabigol 2"
@@ -75,7 +75,7 @@
         "ID": 9,
         "NUM": "CL9",
         "EQUIPO": "Conmebol Libertadores 2023",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "CL",
         "PRECIO": 500,
         "NOMBRE": "Final - Rio de Janeiro - Brazil"
@@ -84,7 +84,7 @@
         "ID": 10,
         "NUM": "CL10",
         "EQUIPO": "The King Pel\u00c3\u00a9",
-        "CANT": 1,
+        "CANT": 3,
         "TIPO": "CL",
         "PRECIO": 500,
         "NOMBRE": "Pel\u00c3\u00a9 - Illustration"
@@ -93,7 +93,7 @@
         "ID": 11,
         "NUM": "CL11",
         "EQUIPO": "The King Pel\u00c3\u00a9",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "CL",
         "PRECIO": 500,
         "NOMBRE": "Pel\u00c3\u00a9 - Santos FC"
@@ -174,7 +174,7 @@
         "ID": 20,
         "NUM": "7",
         "EQUIPO": "SD Aucas",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Carlos Cuero"
@@ -336,7 +336,7 @@
         "ID": 38,
         "NUM": "25",
         "EQUIPO": "CR Flamengo",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Flamengo Jersey 1 and 2"
@@ -426,7 +426,7 @@
         "ID": 48,
         "NUM": "35",
         "EQUIPO": "CD \u00c3\u2018ublense",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "\u00c3\u2018ublense Team Logo"
@@ -525,7 +525,7 @@
         "ID": 59,
         "NUM": "46",
         "EQUIPO": "CD \u00c3\u2018ublense",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Manuel Rivera"
@@ -534,7 +534,7 @@
         "ID": 60,
         "NUM": "47",
         "EQUIPO": "CD \u00c3\u2018ublense",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Alex Vald\u00c3\u00a9s"
@@ -561,7 +561,7 @@
         "ID": 63,
         "NUM": "50",
         "EQUIPO": "CD \u00c3\u2018ublense",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Pablo Aranguiz"
@@ -831,7 +831,7 @@
         "ID": 93,
         "NUM": "80",
         "EQUIPO": "Independiente Medellin",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Jaime Alvarado"
@@ -840,7 +840,7 @@
         "ID": 94,
         "NUM": "81",
         "EQUIPO": "Independiente Medellin",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Victor Moreno"
@@ -867,7 +867,7 @@
         "ID": 97,
         "NUM": "84",
         "EQUIPO": "Independiente Medellin",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Felipe Pardo"
@@ -948,7 +948,7 @@
         "ID": 106,
         "NUM": "93",
         "EQUIPO": "Sport Club Internacional",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Internacional Jersey 1 and 2"
@@ -993,7 +993,7 @@
         "ID": 111,
         "NUM": "98",
         "EQUIPO": "Sport Club Internacional",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Alemao"
@@ -1191,7 +1191,7 @@
         "ID": 133,
         "NUM": "120",
         "EQUIPO": "Club Nacional",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Nacional Team Logo"
@@ -1209,7 +1209,7 @@
         "ID": 135,
         "NUM": "122",
         "EQUIPO": "Club Nacional",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Leandro Lozano"
@@ -1245,7 +1245,7 @@
         "ID": 139,
         "NUM": "126",
         "EQUIPO": "Club Nacional",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Daniel Bocanegra"
@@ -1389,7 +1389,7 @@
         "ID": 155,
         "NUM": "142",
         "EQUIPO": "Barcelona SC Guayaquil",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Luca Sosa"
@@ -1506,7 +1506,7 @@
         "ID": 168,
         "NUM": "155",
         "EQUIPO": "Bolivar La Paz",
-        "CANT": 1,
+        "CANT": 3,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Carlos Lampe"
@@ -1569,7 +1569,7 @@
         "ID": 175,
         "NUM": "162",
         "EQUIPO": "Bolivar La Paz",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Fernando Saucedo"
@@ -1911,7 +1911,7 @@
         "ID": 213,
         "NUM": "200",
         "EQUIPO": "SE Palmeiras",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Z\u00c3\u00a9 Rafael"
@@ -2172,7 +2172,7 @@
         "ID": 242,
         "NUM": "229",
         "EQUIPO": "CA River Plate",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "KSK",
         "PRECIO": 700,
         "NOMBRE": "River Plate Jersey 1 and 2"
@@ -2289,7 +2289,7 @@
         "ID": 255,
         "NUM": "242",
         "EQUIPO": "Club Sporting Cristal",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Gianfranco Chavez"
@@ -2316,7 +2316,7 @@
         "ID": 258,
         "NUM": "245",
         "EQUIPO": "Club Sporting Cristal",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Nilson Loyola"
@@ -2343,7 +2343,7 @@
         "ID": 261,
         "NUM": "248",
         "EQUIPO": "Club Sporting Cristal",
-        "CANT": 0,
+        "CANT": 3,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Jesus Pretell"
@@ -2667,7 +2667,7 @@
         "ID": 297,
         "NUM": "284",
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 2,
+        "CANT": 4,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Leonardo Heredia"
@@ -2712,7 +2712,7 @@
         "ID": 302,
         "NUM": "289",
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Javier Cabrera"
@@ -2901,7 +2901,7 @@
         "ID": 323,
         "NUM": "310",
         "EQUIPO": "Independiente del Valle",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Mateo Carabajal"
@@ -2919,7 +2919,7 @@
         "ID": 325,
         "NUM": "312",
         "EQUIPO": "Independiente del Valle",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Agustin Garcia Basso"
@@ -2982,7 +2982,7 @@
         "ID": 332,
         "NUM": "319",
         "EQUIPO": "Independiente del Valle",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Nicolas Previtali"
@@ -3045,7 +3045,7 @@
         "ID": 339,
         "NUM": "326",
         "EQUIPO": "Liverpool FC Montevideo",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Federico Pereira"
@@ -3090,7 +3090,7 @@
         "ID": 344,
         "NUM": "331",
         "EQUIPO": "Liverpool FC Montevideo",
-        "CANT": 1,
+        "CANT": 3,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Liverpool Jersey 1 and 2"
@@ -3360,7 +3360,7 @@
         "ID": 374,
         "NUM": "361",
         "EQUIPO": "CSD Colo Colo",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Matias De los Santos"
@@ -3531,7 +3531,7 @@
         "ID": 393,
         "NUM": "380",
         "EQUIPO": "Monagas SC",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Rub\u00c3\u00a9n Ramirez"
@@ -3549,7 +3549,7 @@
         "ID": 395,
         "NUM": "382",
         "EQUIPO": "Monagas SC",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Monagas Jersey 1 and 2"
@@ -3666,7 +3666,7 @@
         "ID": 408,
         "NUM": "395",
         "EQUIPO": "Deportivo Pereira",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Carlos Ramirez"
@@ -3702,7 +3702,7 @@
         "ID": 412,
         "NUM": "399",
         "EQUIPO": "Deportivo Pereira",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Deportivo Pereira Jersey 1 and 2"
@@ -3729,7 +3729,7 @@
         "ID": 415,
         "NUM": "402",
         "EQUIPO": "Deportivo Pereira",
-        "CANT": 2,
+        "CANT": 4,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Larry Angulo"
@@ -3855,7 +3855,7 @@
         "ID": 429,
         "NUM": "416",
         "EQUIPO": "Club Alianza Lima",
-        "CANT": 1,
+        "CANT": 3,
         "TIPO": "KSK",
         "PRECIO": 400,
         "NOMBRE": "Alianza Lima Jersey 1 and 2"
@@ -3945,7 +3945,7 @@
         "ID": 439,
         "NUM": "426",
         "EQUIPO": "Club Athletico Paranaense",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Athletico Paranaense Team Logo"
@@ -3981,7 +3981,7 @@
         "ID": 443,
         "NUM": "430",
         "EQUIPO": "Club Athletico Paranaense",
-        "CANT": 1,
+        "CANT": 3,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Thiago Heleno"
@@ -3999,7 +3999,7 @@
         "ID": 445,
         "NUM": "432",
         "EQUIPO": "Club Athletico Paranaense",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Fernando"
@@ -4080,7 +4080,7 @@
         "ID": 454,
         "NUM": "441",
         "EQUIPO": "Club Athletico Paranaense",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Tomas Cuello"
@@ -4098,7 +4098,7 @@
         "ID": 456,
         "NUM": "443",
         "EQUIPO": "Clube Atl\u00c3\u00a9tico Mineiro",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Atl\u00c3\u00a9tico Mineiro Team Logo"
@@ -4179,7 +4179,7 @@
         "ID": 465,
         "NUM": "452",
         "EQUIPO": "Clube Atl\u00c3\u00a9tico Mineiro",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Igor Gomes"
@@ -4251,7 +4251,7 @@
         "ID": 473,
         "NUM": "460",
         "EQUIPO": "Club Libertad",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Libertad Team Logo"
@@ -4296,7 +4296,7 @@
         "ID": 478,
         "NUM": "465",
         "EQUIPO": "Club Libertad",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Diego Viera"
@@ -4332,7 +4332,7 @@
         "ID": 482,
         "NUM": "469",
         "EQUIPO": "Club Libertad",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Cristian Riveros"
@@ -4386,7 +4386,7 @@
         "ID": 488,
         "NUM": "475",
         "EQUIPO": "Club Libertad",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Oscar Cardozo"
@@ -4404,7 +4404,7 @@
         "ID": 490,
         "NUM": "477",
         "EQUIPO": "Atl\u00c3\u00a9tico Nacional",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Atl\u00c3\u00a9tico Nacional Team Logo"
@@ -4449,7 +4449,7 @@
         "ID": 495,
         "NUM": "482",
         "EQUIPO": "Atl\u00c3\u00a9tico Nacional",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Sergio Mosquera"
@@ -4557,7 +4557,7 @@
         "ID": 507,
         "NUM": "494",
         "EQUIPO": "FBC Melgar",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 400,
         "NOMBRE": "Melgar Team Logo"
@@ -4755,7 +4755,7 @@
         "ID": 529,
         "NUM": "516",
         "EQUIPO": "Olimpia Asuncion",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Ivan Torres"
@@ -4872,7 +4872,7 @@
         "ID": 542,
         "NUM": "529",
         "EQUIPO": "Club Atl\u00c3\u00a9tico Patronato",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Julio Salva"
@@ -4908,7 +4908,7 @@
         "ID": 546,
         "NUM": "533",
         "EQUIPO": "Club Atl\u00c3\u00a9tico Patronato",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Sergio Ojeda"
@@ -4935,7 +4935,7 @@
         "ID": 549,
         "NUM": "536",
         "EQUIPO": "Club Atl\u00c3\u00a9tico Patronato",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Damian Arce"

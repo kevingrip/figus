@@ -5,11 +5,16 @@
         "LOMAS DE ZAMORA",
         "ITUZAINGO",
         "MORON",
-        "SAN MARTIN"
+        "SAN MARTIN",
+        "CASTELAR",
+        "LA MATANZA SUR",
+        "AVELLANEDA",
+        "BELGRANO"
     ],
     "AND": [
         "AND026",
-        "AND040"
+        "AND040",
+        "AND011"
     ],
     "COR": [
         "COR140"
@@ -40,14 +45,15 @@
     "STD": [
         "STD1"
     ],
-    "URB": [
+    "SCF": [
         "SCF2"
     ],
-    "SCF": [
+    "URB": [
         "URB161",
         "URB162",
         "URB190",
-        "URB175"
+        "URB175",
+        "URB150"
     ],
     "SBU": [
         "SBU3"
@@ -57,5 +63,14 @@
     ],
     "SIN": [
         "SIN ETIQUETA"
+    ],
+    "OCA": [
+        "OCA291"
+    ],
+    "WEB": [
+        "WEB202"
+    ],
+    "SVI": [
+        "SVI1"
     ]
 }

@@ -90,13 +90,23 @@ def agregarStock(base):
                     if seleccionarFigurita == fila["NUM"]:                        
                         figuActual = str(fila["CANT"])
                         if fila["TIPO"] in ("FWC","ESC"):
-                            precioUyuni += (240*(int(1)))
+                            if fila["NUM"] in (["FWC8","FWC9","FWC10","FWC11","FWC12","FWC13","FWC14","FWC15","FWC16","FWC17","FWC18"]):
+                                precioUyuni += (100*(int(1)))
+                                #print("Precio Individual: $100")
+                            else:
+                                precioUyuni += (300*(int(1)))
+                                #print("Precio Individual: $300")
                         else:
-                            precioUyuni += (30*(int(1)))
+                            if (fila["NUM"])[:3] == "ARG":
+                                precioUyuni += (150*(int(1)))
+                                #print("Precio Individual: $150")
+                            else:                                
+                                precioUyuni += (50*(int(1)))
+                                #print("Precio Individual: $50")
                         fila["CANT"] += int(1)
                         cantidadTotal += int(1)
                         figuNueva = str(fila["CANT"])
-                        #precio = ". Precio: $",str(precioUyuni)
+                        #print("Precio acumulado: ",precioUyuni)
                         print ("(+"+str(cantidadTotal)+") "+str(fila["NUM"])+": "+figuActual+" ==> "+figuNueva)
             else:
                 print("Cantidad Total agregada: ",cantidadTotal)
@@ -125,12 +135,16 @@ def agregarStock(base):
 
         CL = ("CL1","CL2","CL3","CL4","CL5","CL6","CL7","CL8","CL9","CL10","CL11","CL12","CL13")
 
+        elegirCentena = easygui.buttonbox("Familia Figurita", choices=["0 a 99","100 a 199","200 a 299","300 a 399","400 a 499","500 a 599"], title="Confirmación")
+        if elegirCentena:
+            seguirAgregando = True
+        else:
+            seguirAgregando = False
+
         while (seguirAgregando == True):
 
             # for figurita in baseTotal:
             #     eleccionFigurita.append(figurita["NUM"])
-
-            elegirCentena = easygui.buttonbox("Familia Figurita", choices=["0 a 99","100 a 199","200 a 299","300 a 399","400 a 499","500 a 599"], title="Confirmación")
             
             
             if elegirCentena == "0 a 99":
@@ -165,7 +179,7 @@ def agregarStock(base):
                             eleccionFigurita.append(figurita["NUM"])
 
             seleccionarFigurita = easygui.choicebox("Elija una figurita", choices=eleccionFigurita, title="Confirmación")
-            if len(seleccionarFigurita) > 0:
+            if seleccionarFigurita:
                 cantidadAgregar = 1
 
                 for figurita in baseTotal:
@@ -181,5 +195,7 @@ def agregarStock(base):
 
                 with open(base, "w") as archivo:
                     archivo.write(actualizarBase)
+            else:
+                elegirCentena = easygui.buttonbox("Familia Figurita", choices=["0 a 99","100 a 199","200 a 299","300 a 399","400 a 499","500 a 599"], title="Confirmación")
                 
             eleccionFigurita = []

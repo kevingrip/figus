@@ -3,18 +3,20 @@ import json
 with open ("baseMundial.json","r") as baseJson:
     baseTotal = json.load(baseJson)
 
-tabla = "NUM\t\t\tCANT\t\tPRECIO\t\tTIPO\n"
+tabla = "NUM\n"
 sumaPrecio = 0
 faltantes = []
+cantidad=0
 
 for figurita in baseTotal:
-    if figurita["CANT"] ==2 and figurita["TIPO"] not in ("FWC","ESC"):
+    if figurita["CANT"] in (0,1) and figurita["TIPO"] not in ("FWC","ESC"):
         num = figurita["NUM"]
         cant = figurita["CANT"]
         precio = figurita["PRECIO"]
         tipo = figurita["TIPO"]
         #total = f"{num}\t\t\t{cant}\t\t\t\t{precio}\t\t\t\t{tipo}\n"
         total = f"{num}\n"
+        cantidad +=1
 
         tabla +=total
 
@@ -25,3 +27,5 @@ for figurita in baseTotal:
 print(tabla)
 
 print(faltantes)
+
+print(cantidad)
