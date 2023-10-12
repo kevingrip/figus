@@ -111,7 +111,7 @@
         "ID": 13,
         "NUM": "CL13",
         "EQUIPO": "The King Pel\u00c3\u00a9",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "CL",
         "PRECIO": 500,
         "NOMBRE": "Pel\u00c3\u00a9 - 1963"
@@ -723,7 +723,7 @@
         "ID": 81,
         "NUM": "68",
         "EQUIPO": "Racing Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 200,
         "NOMBRE": "Paolo Guerrero"
@@ -3252,7 +3252,7 @@
         "ID": 362,
         "NUM": "349",
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 350,
         "NOMBRE": "Valentin Barco"

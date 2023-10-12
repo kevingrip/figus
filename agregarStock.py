@@ -98,15 +98,15 @@ def agregarStock(base):
                                 #print("Precio Individual: $300")
                         else:
                             if (fila["NUM"])[:3] == "ARG":
-                                precioUyuni += (150*(int(1)))
+                                precioUyuni += (200*(int(1)))
                                 #print("Precio Individual: $150")
                             else:                                
-                                precioUyuni += (50*(int(1)))
+                                precioUyuni += (80*(int(1)))
                                 #print("Precio Individual: $50")
                         fila["CANT"] += int(1)
                         cantidadTotal += int(1)
                         figuNueva = str(fila["CANT"])
-                        #print("Precio acumulado: ",precioUyuni)
+                        print("Precio acumulado: ",precioUyuni)
                         print ("(+"+str(cantidadTotal)+") "+str(fila["NUM"])+": "+figuActual+" ==> "+figuNueva)
             else:
                 print("Cantidad Total agregada: ",cantidadTotal)
