@@ -27,21 +27,13 @@ if (opciones == "Compra Panini"):
 
 
 for linea in datosFigu: 
-    if linea["PRECIO"]>1500: 
-        cantidad += 1
-        time.sleep(0.5)
-        pyperclip.copy(linea["NUM"])
-        print(linea["NUM"])
-        pyautogui.hotkey('ctrl','v')
-        time.sleep(0.5)
-        pyautogui.press('tab')
-    elif linea["CANT"] in (0,1,2,3) and linea["PRECIO"]>799:       
-        if (opciones == "Compra Panini") and cantidad < 39:
+    if ((linea["CANT"] == (0)) and (linea["PRECIO"]>850)):       
+        if (opciones == "Compra Panini") and cantidad < (3):
             cantidad += 1
             if linea["NUM"] =="MRR1":
                 time.sleep(0.5)
                 pyperclip.copy("MAR1")
-                print(linea["NUM"])
+                print(linea["NUM"],linea["CANT"])
                 pyautogui.hotkey('ctrl','v')
                 time.sleep(0.5)
                 pyautogui.press('tab')
@@ -49,7 +41,7 @@ for linea in datosFigu:
             elif linea["NUM"] =="FWC0":
                 time.sleep(1)
                 pyperclip.copy("CERO 0")
-                print(linea["NUM"])
+                print(linea["NUM"],linea["CANT"])
                 pyautogui.hotkey('ctrl','v')
                 time.sleep(1)
                 pyautogui.press('tab')
@@ -57,12 +49,13 @@ for linea in datosFigu:
             else:
                 time.sleep(0.5)
                 pyperclip.copy(linea["NUM"])
-                print(linea["NUM"])
+                print(linea["NUM"],linea["CANT"])
                 pyautogui.hotkey('ctrl','v')
                 time.sleep(0.5)
                 pyautogui.press('tab')
                 #figus += linea["NUM"] + ","
             print (cantidad)
+        
 
             figusNuevo = figus
 

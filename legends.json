@@ -44,27 +44,27 @@
     {
         "nombre": "OCHOA",
         "BASE": 4,
-        "BRONZE": 1,
+        "BRONZE": 0,
         "SILVER": 0,
         "GOLD": 0
     },
     {
         "nombre": "NEYMAR",
         "BASE": 0,
-        "BRONZE": 4,
+        "BRONZE": 3,
         "SILVER": 0,
         "GOLD": 0
     },
     {
         "nombre": "MODRIC",
         "BASE": 0,
-        "BRONZE": 1,
-        "SILVER": 1,
+        "BRONZE": 0,
+        "SILVER": 0,
         "GOLD": 0
     },
     {
         "nombre": "MESSI",
-        "BASE": 4,
+        "BASE": 3,
         "BRONZE": 5,
         "SILVER": 0,
         "GOLD": 0
@@ -129,7 +129,7 @@
         "nombre": "BELLINGHAM",
         "BASE": 9,
         "BRONZE": 2,
-        "SILVER": 1,
+        "SILVER": 0,
         "GOLD": 0
     },
     {

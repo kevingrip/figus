@@ -2,7 +2,7 @@
     {
         "NUM": 1,
         "EQUIPO": "Introduction",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "ESPECIALES",
         "PRECIO": 1500,
         "NOMBRE": "Logo Asociaci\u00f3n del F\u00fatbol Argentino"
@@ -482,7 +482,7 @@
     {
         "NUM": 61,
         "EQUIPO": "CA Banfield",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Alejandro Maciel"
@@ -1386,7 +1386,7 @@
     {
         "NUM": 174,
         "EQUIPO": "Club Estudiantes de La Plata",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -2138,7 +2138,7 @@
     {
         "NUM": 268,
         "EQUIPO": "Instituto AC C\u00f3rdoba",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Brahian Cuello"
@@ -2338,7 +2338,7 @@
     {
         "NUM": 293,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 8,
+        "CANT": 7,
         "TIPO": "ESC",
         "PRECIO": 500,
         "NOMBRE": "Emblema"
@@ -2490,7 +2490,7 @@
     {
         "NUM": 312,
         "EQUIPO": "Club Atl\u00e9tico Platense",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Gast\u00f3n Suso"
@@ -2986,7 +2986,7 @@
     {
         "NUM": 374,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 200,
         "NOMBRE": "Fabricio Oviedo"
@@ -3954,7 +3954,7 @@
     {
         "NUM": 495,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Marcos Acu\u00f1a"
@@ -4042,7 +4042,7 @@
     {
         "NUM": 506,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Juli\u00e1n \u00c1lvarez"

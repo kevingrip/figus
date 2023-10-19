@@ -251,7 +251,6 @@ if (album == "Mundial Qatar 2022"):
                 
                 usuarioVenta = easygui.enterbox("Ingrese nombre de usuario:", title="LAFI GURITA")
                 
-                nombreLegend = [nombreLegend]
                 nuevaVenta(usuarioVenta,nombreLegend,noVendidas,album)
 
                 verVenta(usuarioVenta,album,subInicioHistorial)
