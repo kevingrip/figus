@@ -6,6 +6,11 @@ import easygui
 
 def agregarStock(base):
 
+    cantFWCesc = 0
+    cantFWCcomunes = 0
+    cantComunes = 0
+    cantArg = 0
+
     figus = ''
 
     COCA = ["C1","C2","C3","C4","C5","C6","C7","C8"]
@@ -30,7 +35,7 @@ def agregarStock(base):
     
 
 
-    if (base == "baseMundial.json"):
+    if (base == "baseMundial.json") or (base == "albumExtra.json"):
         
 
         for fila in baseTotal:
@@ -91,22 +96,27 @@ def agregarStock(base):
                         figuActual = str(fila["CANT"])
                         if fila["TIPO"] in ("FWC","ESC"):
                             if fila["NUM"] in (["FWC8","FWC9","FWC10","FWC11","FWC12","FWC13","FWC14","FWC15","FWC16","FWC17","FWC18"]):
-                                precioUyuni += (100*(int(1)))
+                                # precioUyuni += (100*(int(1)))
                                 #print("Precio Individual: $100")
+                                cantFWCcomunes +=1
                             else:
-                                precioUyuni += (300*(int(1)))
+                                # precioUyuni += (300*(int(1)))
                                 #print("Precio Individual: $300")
+                                cantFWCesc +=1
                         else:
                             if (fila["NUM"])[:3] == "ARG":
-                                precioUyuni += (200*(int(1)))
+                                if (fila["TIPO"]!='ESC'):
+                                # precioUyuni += (200*(int(1)))
                                 #print("Precio Individual: $150")
-                            else:                                
-                                precioUyuni += (80*(int(1)))
+                                    cantArg+=1
+                            else: 
+                                cantComunes+=1                               
+                                # precioUyuni += (80*(int(1)))
                                 #print("Precio Individual: $50")
                         fila["CANT"] += int(1)
                         cantidadTotal += int(1)
                         figuNueva = str(fila["CANT"])
-                        print("Precio acumulado: ",precioUyuni)
+                        # print("Precio acumulado: ",precioUyuni)
                         print ("(+"+str(cantidadTotal)+") "+str(fila["NUM"])+": "+figuActual+" ==> "+figuNueva)
             else:
                 print("Cantidad Total agregada: ",cantidadTotal)
@@ -130,6 +140,11 @@ def agregarStock(base):
                 mismoPais = True
                 seguirAgregando = True
                 eleccionFigurita = []
+        print("Cantidad de FWC y escudos: ",cantFWCesc)
+        print("Cantidad de FWC comunes: ",cantFWCcomunes)
+        print("Cantidad de figus comunes argentina:",cantArg)
+        print("Cantidad comunes:",cantComunes)
+        
 
     elif (base in ("baseLali.json","baseFutarg.json")):
 

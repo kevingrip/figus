@@ -11,9 +11,8 @@ def controlFutarg(ingresaFigu):
             numero = numero + caracter
         else:
             if len(numero)<= 3:
-                if caracter!=' ':
-                    figus.append(int(numero))
-                    numero =''
+                figus.append(int(numero))
+                numero =''
             else:
                 validacion = True
 

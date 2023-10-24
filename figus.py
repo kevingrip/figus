@@ -24,7 +24,6 @@ datosIngresar = []
 
 agregarJson = ".json"
 
-precioUyuni = 0
 
 Vendidas = []
 noVendidas = []

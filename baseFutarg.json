@@ -2,7 +2,7 @@
     {
         "NUM": 1,
         "EQUIPO": "Introduction",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "ESPECIALES",
         "PRECIO": 1500,
         "NOMBRE": "Logo Asociaci\u00f3n del F\u00fatbol Argentino"
@@ -10,17 +10,17 @@
     {
         "NUM": 2,
         "EQUIPO": "Introduction",
-        "CANT": 7,
+        "CANT": 8,
         "TIPO": "ESPECIALES",
-        "PRECIO": 500,
+        "PRECIO": 1000,
         "NOMBRE": "Logo Liga Profesional de Futbol Argentino"
     },
     {
         "NUM": 3,
         "EQUIPO": "Introduction",
-        "CANT": 4,
+        "CANT": 3,
         "TIPO": "ESPECIALES",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "bal\u00f3n de f\u00fatbol oficial"
     },
     {
@@ -28,7 +28,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -36,7 +36,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Federico Lanzillotta"
     },
     {
@@ -44,7 +44,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Villalba"
     },
     {
@@ -52,7 +52,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Kevin Mac Allister"
     },
     {
@@ -60,7 +60,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Miguel Torr\u00e9n"
     },
     {
@@ -68,7 +68,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Leonel Gonz\u00e1lez"
     },
     {
@@ -76,7 +76,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Pablo Minissale"
     },
     {
@@ -84,7 +84,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Francisco Gonz\u00e1lez Metilli"
     },
     {
@@ -92,7 +92,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Fabricio Dom\u00ednguez"
     },
     {
@@ -100,7 +100,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Franco Moyano"
     },
     {
@@ -108,7 +108,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Federico Redondo"
     },
     {
@@ -116,7 +116,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Vera"
     },
     {
@@ -124,7 +124,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 4,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Leonardo Heredia"
     },
     {
@@ -132,7 +132,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Facundo Ferreyra"
     },
     {
@@ -140,7 +140,7 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gabriel \u00c1valos"
     },
     {
@@ -148,15 +148,15 @@
         "EQUIPO": "AA Argentinos Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gast\u00f3n Ver\u00f3n"
     },
     {
         "NUM": 20,
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Thiago Nuss"
     },
     {
@@ -164,7 +164,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -172,7 +172,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alejandro Medina"
     },
     {
@@ -180,7 +180,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Maximiliano Centuri\u00f3n"
     },
     {
@@ -188,7 +188,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ignacio Gariglio"
     },
     {
@@ -196,7 +196,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Felipe Pe\u00f1a Biafore"
     },
     {
@@ -204,7 +204,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "N\u00e9stor Breitenbruch"
     },
     {
@@ -212,7 +212,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Adri\u00e1n Sp\u00f6rle"
     },
     {
@@ -220,7 +220,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tiago Banega"
     },
     {
@@ -228,7 +228,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lautaro Guzm\u00e1n"
     },
     {
@@ -236,7 +236,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Braian Rivero"
     },
     {
@@ -244,7 +244,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Santiago Toloza"
     },
     {
@@ -252,7 +252,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Brochero"
     },
     {
@@ -260,7 +260,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Flabi\u00e1n Londo\u00f1o"
     },
     {
@@ -268,7 +268,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Facundo Pons"
     },
     {
@@ -276,7 +276,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lu\u00eds Leal"
     },
     {
@@ -284,7 +284,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tob\u00edas Z\u00e1rate"
     },
     {
@@ -292,7 +292,7 @@
         "EQUIPO": "Arsenal F\u00fatbol Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Peinipil"
     },
     {
@@ -300,7 +300,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
         "CANT": 1,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -308,15 +308,15 @@
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tom\u00e1s Marchiori"
     },
     {
         "NUM": 40,
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Orihuela"
     },
     {
@@ -324,7 +324,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Yonathan Cabral"
     },
     {
@@ -332,7 +332,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Hern\u00e1n De la Fuente"
     },
     {
@@ -340,7 +340,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Wilson Ibarrola"
     },
     {
@@ -348,7 +348,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Bruno Bianchi"
     },
     {
@@ -356,15 +356,15 @@
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Adri\u00e1n S\u00e1nchez"
     },
     {
         "NUM": 46,
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Guillermo Acosta"
     },
     {
@@ -372,15 +372,15 @@
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Joaqu\u00edn Pereyra"
     },
     {
         "NUM": 48,
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Francisco Di Franco"
     },
     {
@@ -388,15 +388,15 @@
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Renzo Tesuri"
     },
     {
         "NUM": 50,
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Bautista Kociubinski"
     },
     {
@@ -404,15 +404,15 @@
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Cristian Men\u00e9ndez"
     },
     {
         "NUM": 52,
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Marcelo Estigarribia"
     },
     {
@@ -420,39 +420,39 @@
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mateo Coronel"
     },
     {
         "NUM": 54,
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ramiro Ru\u00edz Rodr\u00edguez"
     },
     {
         "NUM": 55,
         "EQUIPO": "CA Banfield",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
         "NUM": 56,
         "EQUIPO": "CA Banfield",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Facundo Cambeses"
     },
     {
         "NUM": 57,
         "EQUIPO": "CA Banfield",
-        "CANT": 3,
+        "CANT": 4,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Emanuel Coronel"
     },
     {
@@ -460,7 +460,7 @@
         "EQUIPO": "CA Banfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Aar\u00f3n Quir\u00f3s"
     },
     {
@@ -468,7 +468,7 @@
         "EQUIPO": "CA Banfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Emanuel Olivera"
     },
     {
@@ -476,7 +476,7 @@
         "EQUIPO": "CA Banfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Emanuel Ins\u00faa"
     },
     {
@@ -484,7 +484,7 @@
         "EQUIPO": "CA Banfield",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alejandro Maciel"
     },
     {
@@ -492,7 +492,7 @@
         "EQUIPO": "CA Banfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alan Di Pippa"
     },
     {
@@ -500,15 +500,15 @@
         "EQUIPO": "CA Banfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alejandro Cabrera"
     },
     {
         "NUM": 64,
         "EQUIPO": "CA Banfield",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Romero"
     },
     {
@@ -516,7 +516,7 @@
         "EQUIPO": "CA Banfield",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Brahian Alem\u00e1n"
     },
     {
@@ -524,7 +524,7 @@
         "EQUIPO": "CA Banfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Bertolo"
     },
     {
@@ -532,15 +532,15 @@
         "EQUIPO": "CA Banfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Eric Remedi"
     },
     {
         "NUM": 68,
         "EQUIPO": "CA Banfield",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Andr\u00e9s Ch\u00e1vez"
     },
     {
@@ -548,7 +548,7 @@
         "EQUIPO": "CA Banfield",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alejandro Piedrahita"
     },
     {
@@ -556,7 +556,7 @@
         "EQUIPO": "CA Banfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Sosa S\u00e1nchez"
     },
     {
@@ -564,7 +564,7 @@
         "EQUIPO": "CA Banfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Sebasti\u00e1n Sosa S\u00e1nchez"
     },
     {
@@ -572,7 +572,7 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 8,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -580,15 +580,15 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Cristian Arce"
     },
     {
         "NUM": 74,
         "EQUIPO": "CA Barracas Central",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Ignacio D\u00edaz"
     },
     {
@@ -596,15 +596,15 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mauro Peinipil"
     },
     {
         "NUM": 76,
         "EQUIPO": "CA Barracas Central",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Capraro"
     },
     {
@@ -612,7 +612,7 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Fernando Prado"
     },
     {
@@ -620,7 +620,7 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Brian Calderara"
     },
     {
@@ -628,7 +628,7 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Marcos Ben\u00edtez"
     },
     {
@@ -636,7 +636,7 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Carlos Arce"
     },
     {
@@ -644,15 +644,15 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Iv\u00e1n Tapia"
     },
     {
         "NUM": 82,
         "EQUIPO": "CA Barracas Central",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Adri\u00e1n Ricardo Centuri\u00f3n"
     },
     {
@@ -660,7 +660,7 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Facundo Mater"
     },
     {
@@ -668,7 +668,7 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Maximiliano Puig"
     },
     {
@@ -676,7 +676,7 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Bruno Sep\u00falveda"
     },
     {
@@ -684,7 +684,7 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alan Cantero"
     },
     {
@@ -692,7 +692,7 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alexis Dom\u00ednguez"
     },
     {
@@ -700,15 +700,15 @@
         "EQUIPO": "CA Barracas Central",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Manuel Brondo"
     },
     {
         "NUM": 89,
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
-        "CANT": 7,
+        "CANT": 8,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -716,15 +716,15 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nahuel Losada"
     },
     {
         "NUM": 91,
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gabriel Compagnucci"
     },
     {
@@ -732,7 +732,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Diego Novaretti"
     },
     {
@@ -740,7 +740,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "\u00c9rik Godoy"
     },
     {
@@ -748,7 +748,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Diarte"
     },
     {
@@ -756,7 +756,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alejandro R\u00e9bola"
     },
     {
@@ -764,15 +764,15 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 4,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Bruno Zapelli"
     },
     {
         "NUM": 97,
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Santiago Longo"
     },
     {
@@ -780,7 +780,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ariel Rojas"
     },
     {
@@ -788,7 +788,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Ariel Garc\u00eda"
     },
     {
@@ -796,7 +796,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Guillermo Pereira"
     },
     {
@@ -804,7 +804,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Franco Jara"
     },
     {
@@ -812,7 +812,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Fabi\u00e1n Bordagaray"
     },
     {
@@ -820,7 +820,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ibrahim Hesar"
     },
     {
@@ -828,7 +828,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Pablo Vegetti"
     },
     {
@@ -836,7 +836,7 @@
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Joaqu\u00edn Susvielles"
     },
     {
@@ -844,7 +844,7 @@
         "EQUIPO": "CA Boca Juniors",
         "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 600,
+        "PRECIO": 1000,
         "NOMBRE": "Emblema"
     },
     {
@@ -852,15 +852,15 @@
         "EQUIPO": "CA Boca Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Sergio Romero"
     },
     {
         "NUM": 108,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Luis Adv\u00edncula"
     },
     {
@@ -868,7 +868,7 @@
         "EQUIPO": "CA Boca Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Facundo Roncaglia"
     },
     {
@@ -876,15 +876,15 @@
         "EQUIPO": "CA Boca Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Jorge Nicol\u00e1s Figal"
     },
     {
         "NUM": 111,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Frank Fabra"
     },
     {
@@ -892,23 +892,23 @@
         "EQUIPO": "CA Boca Juniors",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Bruno Valdez"
     },
     {
         "NUM": 113,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Ezequiel Fern\u00e1ndez"
     },
     {
         "NUM": 114,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Juan Ram\u00edrez"
     },
     {
@@ -916,23 +916,23 @@
         "EQUIPO": "CA Boca Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Alan Varela"
     },
     {
         "NUM": 116,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "\u00d3scar Romero"
     },
     {
         "NUM": 117,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Pol Guillermo Fern\u00e1ndez"
     },
     {
@@ -940,7 +940,7 @@
         "EQUIPO": "CA Boca Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Exequiel Zeballos"
     },
     {
@@ -948,7 +948,7 @@
         "EQUIPO": "CA Boca Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Sebasti\u00e1n Villa"
     },
     {
@@ -956,15 +956,15 @@
         "EQUIPO": "CA Boca Juniors",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Luca Langoni"
     },
     {
         "NUM": 121,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Miguel Merentiel"
     },
     {
@@ -972,15 +972,15 @@
         "EQUIPO": "CA Boca Juniors",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Dar\u00edo Benedetto"
     },
     {
         "NUM": 123,
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -988,7 +988,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Mansilla"
     },
     {
@@ -996,7 +996,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Marcelo Ben\u00edtez"
     },
     {
@@ -1004,7 +1004,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gustavo Canto"
     },
     {
@@ -1012,7 +1012,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Fabio Pereyra"
     },
     {
@@ -1020,15 +1020,15 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juli\u00e1n Navas"
     },
     {
         "NUM": 129,
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Brian Blasi"
     },
     {
@@ -1036,7 +1036,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Federico Jourdan"
     },
     {
@@ -1044,15 +1044,15 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jes\u00fas Soraire"
     },
     {
         "NUM": 132,
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mauro Pitt\u00f3n"
     },
     {
@@ -1060,7 +1060,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Enzo Kalinski"
     },
     {
@@ -1068,7 +1068,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Brian Farioli"
     },
     {
@@ -1076,7 +1076,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ciro Rius"
     },
     {
@@ -1084,7 +1084,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Facundo Castelli"
     },
     {
@@ -1092,7 +1092,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Cristian Gonzalo Torres"
     },
     {
@@ -1100,7 +1100,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Gamba"
     },
     {
@@ -1108,7 +1108,7 @@
         "EQUIPO": "CA Central C\u00f3rdoba (SdE)",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Luis Miguel Rodr\u00edguez"
     },
     {
@@ -1116,7 +1116,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 3,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -1124,15 +1124,15 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ignacio Chicco"
     },
     {
         "NUM": 142,
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gian Nardelli"
     },
     {
@@ -1140,7 +1140,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Facundo Garc\u00e9s"
     },
     {
@@ -1148,7 +1148,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Eric Meza"
     },
     {
@@ -1156,7 +1156,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Rafael Delgado"
     },
     {
@@ -1164,7 +1164,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Paolo Goltz"
     },
     {
@@ -1172,7 +1172,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Leonel Picco"
     },
     {
@@ -1180,7 +1180,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Cristian Vega"
     },
     {
@@ -1188,15 +1188,15 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Pablo \u00c1lvarez"
     },
     {
         "NUM": 150,
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Baldomero Perlaza"
     },
     {
@@ -1204,7 +1204,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Carlos Arrua Garc\u00eda"
     },
     {
@@ -1212,7 +1212,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Joaqu\u00edn Ib\u00e1\u00f1ez"
     },
     {
@@ -1220,7 +1220,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Santiago Pierotti"
     },
     {
@@ -1228,7 +1228,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jorge Ben\u00edtez"
     },
     {
@@ -1236,7 +1236,7 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ram\u00f3n \u00c1bila"
     },
     {
@@ -1244,15 +1244,15 @@
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jos\u00e9 Neris"
     },
     {
         "NUM": 157,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -1260,7 +1260,7 @@
         "EQUIPO": "Defensa y Justicia",
         "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ezequiel Unsain"
     },
     {
@@ -1268,7 +1268,7 @@
         "EQUIPO": "Defensa y Justicia",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tom\u00e1s Cardona"
     },
     {
@@ -1276,7 +1276,7 @@
         "EQUIPO": "Defensa y Justicia",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Tripichio"
     },
     {
@@ -1284,23 +1284,23 @@
         "EQUIPO": "Defensa y Justicia",
         "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alexis Soto"
     },
     {
         "NUM": 162,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Santiago Ramos Mingo"
     },
     {
         "NUM": 163,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nazareno Colombo"
     },
     {
@@ -1308,23 +1308,23 @@
         "EQUIPO": "Defensa y Justicia",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gabriel Alan\u00eds"
     },
     {
         "NUM": 165,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Kevin Guti\u00e9rrez"
     },
     {
         "NUM": 166,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "David Barbona"
     },
     {
@@ -1332,15 +1332,15 @@
         "EQUIPO": "Defensa y Justicia",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lautaro Escalante"
     },
     {
         "NUM": 168,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juli\u00e1n L\u00f3pez"
     },
     {
@@ -1348,7 +1348,7 @@
         "EQUIPO": "Defensa y Justicia",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Santiago Solari"
     },
     {
@@ -1356,15 +1356,15 @@
         "EQUIPO": "Defensa y Justicia",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Andr\u00e9s R\u00edos"
     },
     {
         "NUM": 171,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gast\u00f3n Togni"
     },
     {
@@ -1372,7 +1372,7 @@
         "EQUIPO": "Defensa y Justicia",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Fern\u00e1ndez"
     },
     {
@@ -1380,7 +1380,7 @@
         "EQUIPO": "Defensa y Justicia",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Federico Versaci"
     },
     {
@@ -1388,7 +1388,7 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 1,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -1396,7 +1396,7 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mariano And\u00fajar"
     },
     {
@@ -1404,7 +1404,7 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Leonardo Godoy"
     },
     {
@@ -1412,15 +1412,15 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Luciano Lollo"
     },
     {
         "NUM": 178,
         "EQUIPO": "Club Estudiantes de La Plata",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Cruz Guasone"
     },
     {
@@ -1428,15 +1428,15 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Zaid Romero"
     },
     {
         "NUM": 180,
         "EQUIPO": "Club Estudiantes de La Plata",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Emmanuel M\u00e1s"
     },
     {
@@ -1444,7 +1444,7 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Deian Ver\u00f3n"
     },
     {
@@ -1452,7 +1452,7 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jorge Rodr\u00edguez"
     },
     {
@@ -1460,15 +1460,15 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jos\u00e9 Sosa"
     },
     {
         "NUM": 184,
         "EQUIPO": "Club Estudiantes de La Plata",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Santiago Ascac\u00edbar"
     },
     {
@@ -1476,7 +1476,7 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Fernando Zuqui"
     },
     {
@@ -1484,7 +1484,7 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Pablo Piatti"
     },
     {
@@ -1492,7 +1492,7 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mauro Boselli"
     },
     {
@@ -1500,7 +1500,7 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 6,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Guido Carrillo"
     },
     {
@@ -1508,7 +1508,7 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mateo Pellegrino"
     },
     {
@@ -1516,15 +1516,15 @@
         "EQUIPO": "Club Estudiantes de La Plata",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Benjam\u00edn Rollheiser"
     },
     {
         "NUM": 191,
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -1532,7 +1532,7 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tom\u00e1s Durso"
     },
     {
@@ -1540,7 +1540,7 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Bautista Barros Schelotto"
     },
     {
@@ -1548,23 +1548,23 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Colazo"
     },
     {
         "NUM": 195,
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Germ\u00e1n Guiffrey"
     },
     {
         "NUM": 196,
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Melluso"
     },
     {
@@ -1572,15 +1572,15 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Guillermo Enrique"
     },
     {
         "NUM": 198,
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Sandro Leonardo Morales"
     },
     {
@@ -1588,7 +1588,7 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ignacio Miram\u00f3n"
     },
     {
@@ -1596,15 +1596,15 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alan Lescano"
     },
     {
         "NUM": 201,
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
-        "CANT": 4,
+        "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alan Sosa"
     },
     {
@@ -1612,7 +1612,7 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tom\u00e1s Muro"
     },
     {
@@ -1620,7 +1620,7 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Cristian Tarragona"
     },
     {
@@ -1628,7 +1628,7 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Maximiliano Comba"
     },
     {
@@ -1636,7 +1636,7 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Franco Soldano"
     },
     {
@@ -1644,7 +1644,7 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Eric Ram\u00edrez"
     },
     {
@@ -1652,7 +1652,7 @@
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Benjam\u00edn Dom\u00ednguez"
     },
     {
@@ -1660,7 +1660,7 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -1668,7 +1668,7 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Diego Rodr\u00edguez"
     },
     {
@@ -1676,15 +1676,15 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gianluca Ferrari"
     },
     {
         "NUM": 211,
         "EQUIPO": "CD Godoy Cruz",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Braian Salvareschi"
     },
     {
@@ -1692,7 +1692,7 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Pier Barrios"
     },
     {
@@ -1700,7 +1700,7 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Federico Rasmussen"
     },
     {
@@ -1708,7 +1708,7 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Thomas Galdames"
     },
     {
@@ -1716,7 +1716,7 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Cristian N\u00fa\u00f1ez"
     },
     {
@@ -1724,15 +1724,15 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gonzalo Abrego"
     },
     {
         "NUM": 217,
         "EQUIPO": "CD Godoy Cruz",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nahuel Ulariaga"
     },
     {
@@ -1740,7 +1740,7 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Hern\u00e1n L\u00f3pez Mu\u00f1oz"
     },
     {
@@ -1748,15 +1748,15 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Bruno Leyes"
     },
     {
         "NUM": 220,
         "EQUIPO": "CD Godoy Cruz",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Andrada"
     },
     {
@@ -1764,15 +1764,15 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ederson Salom\u00f3n Rodr\u00edguez"
     },
     {
         "NUM": 222,
         "EQUIPO": "CD Godoy Cruz",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tom\u00e1s Conechny"
     },
     {
@@ -1780,15 +1780,15 @@
         "EQUIPO": "CD Godoy Cruz",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Ram\u00edrez"
     },
     {
         "NUM": 224,
         "EQUIPO": "CD Godoy Cruz",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tadeo Allende"
     },
     {
@@ -1796,7 +1796,7 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 5,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -1804,15 +1804,15 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Chaves"
     },
     {
         "NUM": 227,
         "EQUIPO": "CA Hurac\u00e1n",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "\u00c1ngel Guillermo Ben\u00edtez"
     },
     {
@@ -1820,7 +1820,7 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Fernando Tobio"
     },
     {
@@ -1828,7 +1828,7 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Guillermo Soto"
     },
     {
@@ -1836,7 +1836,7 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Joaqu\u00edn Novillo"
     },
     {
@@ -1844,15 +1844,15 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Fernando Torrent Guidi"
     },
     {
         "NUM": 232,
         "EQUIPO": "CA Hurac\u00e1n",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Federico Fattori"
     },
     {
@@ -1860,7 +1860,7 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Valent\u00edn Burgoa"
     },
     {
@@ -1868,15 +1868,15 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gabriel Gudi\u00f1o"
     },
     {
         "NUM": 235,
         "EQUIPO": "CA Hurac\u00e1n",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jon\u00e1s Acevedo"
     },
     {
@@ -1884,15 +1884,15 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Santiago Hezze"
     },
     {
         "NUM": 237,
         "EQUIPO": "CA Hurac\u00e1n",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Garro"
     },
     {
@@ -1900,7 +1900,7 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Carlos Gauto"
     },
     {
@@ -1908,7 +1908,7 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mat\u00edas C\u00f3ccaro"
     },
     {
@@ -1916,7 +1916,7 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Cordero"
     },
     {
@@ -1924,7 +1924,7 @@
         "EQUIPO": "CA Hurac\u00e1n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Manuel Garc\u00eda"
     },
     {
@@ -1932,7 +1932,7 @@
         "EQUIPO": "CA Independiente",
         "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -1940,7 +1940,7 @@
         "EQUIPO": "CA Independiente",
         "CANT": 4,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Rodrigo Rey"
     },
     {
@@ -1948,7 +1948,7 @@
         "EQUIPO": "CA Independiente",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Fernando Da Rosa"
     },
     {
@@ -1956,15 +1956,15 @@
         "EQUIPO": "CA Independiente",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Luciano G\u00f3mez"
     },
     {
         "NUM": 246,
         "EQUIPO": "CA Independiente",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Sergio Barreto"
     },
     {
@@ -1972,7 +1972,7 @@
         "EQUIPO": "CA Independiente",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Joaqu\u00edn Laso"
     },
     {
@@ -1980,7 +1980,7 @@
         "EQUIPO": "CA Independiente",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ayrton Costa"
     },
     {
@@ -1988,7 +1988,7 @@
         "EQUIPO": "CA Independiente",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Edgar Elizalde"
     },
     {
@@ -1996,7 +1996,7 @@
         "EQUIPO": "CA Independiente",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Iv\u00e1n Marcone"
     },
     {
@@ -2004,7 +2004,7 @@
         "EQUIPO": "CA Independiente",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Agust\u00edn Mulet"
     },
     {
@@ -2012,7 +2012,7 @@
         "EQUIPO": "CA Independiente",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tom\u00e1s Pozzo"
     },
     {
@@ -2020,7 +2020,7 @@
         "EQUIPO": "CA Independiente",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Cazares"
     },
     {
@@ -2028,7 +2028,7 @@
         "EQUIPO": "CA Independiente",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mauricio Cuero Castillo"
     },
     {
@@ -2036,39 +2036,39 @@
         "EQUIPO": "CA Independiente",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Gim\u00e9nez Rojas"
     },
     {
         "NUM": 256,
         "EQUIPO": "CA Independiente",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mart\u00edn Cauteruccio"
     },
     {
         "NUM": 257,
         "EQUIPO": "CA Independiente",
-        "CANT": 2,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Rodrigo M\u00e1rquez"
     },
     {
         "NUM": 258,
         "EQUIPO": "CA Independiente",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Braian Mart\u00ednez"
     },
     {
         "NUM": 259,
         "EQUIPO": "Instituto AC C\u00f3rdoba",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -2076,7 +2076,7 @@
         "EQUIPO": "Instituto AC C\u00f3rdoba",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jorge Carranza"
     },
     {
@@ -2084,7 +2084,7 @@
         "EQUIPO": "Instituto AC C\u00f3rdoba",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Giuliano Cerato"
     },
     {
@@ -2092,7 +2092,7 @@
         "EQUIPO": "Instituto AC C\u00f3rdoba",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Fernando Alarc\u00f3n"
     },
     {
@@ -2100,7 +2100,7 @@
         "EQUIPO": "Instituto AC C\u00f3rdoba",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Leonel Mosevich"
     },
     {
@@ -2108,7 +2108,7 @@
         "EQUIPO": "Instituto AC C\u00f3rdoba",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Sebasti\u00e1n Corda"
     },
     {
@@ -2116,23 +2116,23 @@
         "EQUIPO": "Instituto AC C\u00f3rdoba",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jonathan Bay"
     },
     {
         "NUM": 266,
         "EQUIPO": "Instituto AC C\u00f3rdoba",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Linares"
     },
     {
         "NUM": 267,
         "EQUIPO": "Instituto AC C\u00f3rdoba",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Roberto Bochi"
     },
     {
@@ -2140,15 +2140,15 @@
         "EQUIPO": "Instituto AC C\u00f3rdoba",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Brahian Cuello"
     },
     {
         "NUM": 269,
         "EQUIPO": "Instituto AC C\u00f3rdoba",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gabriel Graciani"
     },
     {
@@ -2156,15 +2156,15 @@
         "EQUIPO": "Instituto AC C\u00f3rdoba",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Franco Watson"
     },
     {
         "NUM": 271,
         "EQUIPO": "Instituto AC C\u00f3rdoba",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gast\u00f3n Lodico"
     },
     {
@@ -2172,7 +2172,7 @@
         "EQUIPO": "Instituto AC C\u00f3rdoba",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Albertengo"
     },
     {
@@ -2180,7 +2180,7 @@
         "EQUIPO": "Instituto AC C\u00f3rdoba",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Santiago Rodriguez"
     },
     {
@@ -2188,15 +2188,15 @@
         "EQUIPO": "Instituto AC C\u00f3rdoba",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Adri\u00e1n Mart\u00ednez"
     },
     {
         "NUM": 275,
         "EQUIPO": "Instituto AC C\u00f3rdoba",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Axel Rodr\u00edguez"
     },
     {
@@ -2204,7 +2204,7 @@
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
         "CANT": 17,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -2212,15 +2212,15 @@
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lautaro Morales"
     },
     {
         "NUM": 278,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jos\u00e9 Canale"
     },
     {
@@ -2228,15 +2228,15 @@
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan S\u00e1nchez Mi\u00f1o"
     },
     {
         "NUM": 280,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Braian Aguirre"
     },
     {
@@ -2244,15 +2244,15 @@
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Cristian Lema"
     },
     {
         "NUM": 282,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Diego Braghieri"
     },
     {
@@ -2260,15 +2260,15 @@
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Leonel Di Pl\u00e1cido"
     },
     {
         "NUM": 284,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ra\u00fal Loaiza"
     },
     {
@@ -2276,7 +2276,7 @@
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juli\u00e1n Fern\u00e1ndez"
     },
     {
@@ -2284,15 +2284,15 @@
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Luciano Boggio"
     },
     {
         "NUM": 287,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tom\u00e1s Belmonte"
     },
     {
@@ -2300,23 +2300,23 @@
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Pedro De la Vega"
     },
     {
         "NUM": 289,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jos\u00e9 Sand"
     },
     {
         "NUM": 290,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lautaro Acosta"
     },
     {
@@ -2324,7 +2324,7 @@
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Leandro D\u00edaz"
     },
     {
@@ -2332,7 +2332,7 @@
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Franco Orozco"
     },
     {
@@ -2340,7 +2340,7 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 7,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -2348,15 +2348,15 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Hoyos"
     },
     {
         "NUM": 295,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Guillermo Ortiz"
     },
     {
@@ -2364,7 +2364,7 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Willer Ditta"
     },
     {
@@ -2372,7 +2372,7 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jherson Mosquera"
     },
     {
@@ -2380,7 +2380,7 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Facundo Mansilla"
     },
     {
@@ -2388,7 +2388,7 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Bruno Pitt\u00f3n"
     },
     {
@@ -2396,7 +2396,7 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Cristian Ferreira"
     },
     {
@@ -2404,15 +2404,15 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Iv\u00e1n G\u00f3mez"
     },
     {
         "NUM": 302,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Guillermo Balzi"
     },
     {
@@ -2420,7 +2420,7 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Pablo P\u00e9rez"
     },
     {
@@ -2428,7 +2428,7 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Sforza"
     },
     {
@@ -2436,7 +2436,7 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jorge Recalde"
     },
     {
@@ -2444,7 +2444,7 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jonathan Men\u00e9ndez"
     },
     {
@@ -2452,7 +2452,7 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Djorkaeff Reasco"
     },
     {
@@ -2460,15 +2460,15 @@
         "EQUIPO": "CA Newell's Old Boys",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ramiro Sordo"
     },
     {
         "NUM": 309,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Francisco Gonz\u00e1lez"
     },
     {
@@ -2476,7 +2476,7 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 4,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -2484,7 +2484,7 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ignacio Arce"
     },
     {
@@ -2492,7 +2492,7 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gast\u00f3n Suso"
     },
     {
@@ -2500,7 +2500,7 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Infante"
     },
     {
@@ -2508,7 +2508,7 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 5,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Pablo Pignani"
     },
     {
@@ -2516,15 +2516,15 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Morgantini"
     },
     {
         "NUM": 316,
         "EQUIPO": "Club Atl\u00e9tico Platense",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Miguel Jacquet"
     },
     {
@@ -2532,15 +2532,15 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Iv\u00e1n Rossi"
     },
     {
         "NUM": 318,
         "EQUIPO": "Club Atl\u00e9tico Platense",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ignacio Schor"
     },
     {
@@ -2548,15 +2548,15 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Castro"
     },
     {
         "NUM": 320,
         "EQUIPO": "Club Atl\u00e9tico Platense",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Franco Baldassarra"
     },
     {
@@ -2564,7 +2564,7 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jer\u00f3nimo Cacciabue"
     },
     {
@@ -2572,7 +2572,7 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Agust\u00edn Alonso"
     },
     {
@@ -2580,7 +2580,7 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Maximiliano Zalazar"
     },
     {
@@ -2588,7 +2588,7 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Vicente Taborda"
     },
     {
@@ -2596,23 +2596,23 @@
         "EQUIPO": "Club Atl\u00e9tico Platense",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mauro Quiroga"
     },
     {
         "NUM": 326,
         "EQUIPO": "Club Atl\u00e9tico Platense",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Servetto"
     },
     {
         "NUM": 327,
         "EQUIPO": "Racing Club",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -2620,7 +2620,7 @@
         "EQUIPO": "Racing Club",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gabriel Arias"
     },
     {
@@ -2628,7 +2628,7 @@
         "EQUIPO": "Racing Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Facundo Mura"
     },
     {
@@ -2636,15 +2636,15 @@
         "EQUIPO": "Racing Club",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Iv\u00e1n Pillud"
     },
     {
         "NUM": 331,
         "EQUIPO": "Racing Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gonzalo Piovi"
     },
     {
@@ -2652,7 +2652,7 @@
         "EQUIPO": "Racing Club",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Emiliano Ins\u00faa"
     },
     {
@@ -2660,7 +2660,7 @@
         "EQUIPO": "Racing Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Leonardo Sigali"
     },
     {
@@ -2668,7 +2668,7 @@
         "EQUIPO": "Racing Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "An\u00edbal Moreno"
     },
     {
@@ -2676,7 +2676,7 @@
         "EQUIPO": "Racing Club",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Ignacio Nardoni"
     },
     {
@@ -2684,15 +2684,15 @@
         "EQUIPO": "Racing Club",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Rojas"
     },
     {
         "NUM": 337,
         "EQUIPO": "Racing Club",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Maximiliano Moralez"
     },
     {
@@ -2700,7 +2700,7 @@
         "EQUIPO": "Racing Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Leonel Miranda"
     },
     {
@@ -2708,7 +2708,7 @@
         "EQUIPO": "Racing Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Edwin Cardona"
     },
     {
@@ -2716,15 +2716,15 @@
         "EQUIPO": "Racing Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Maximiliano Romero"
     },
     {
         "NUM": 341,
         "EQUIPO": "Racing Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Johan Carbonero"
     },
     {
@@ -2732,7 +2732,7 @@
         "EQUIPO": "Racing Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Paolo Guerrero"
     },
     {
@@ -2740,7 +2740,7 @@
         "EQUIPO": "Racing Club",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gabriel Hauche"
     },
     {
@@ -2748,7 +2748,7 @@
         "EQUIPO": "CA River Plate",
         "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 700,
+        "PRECIO": 1000,
         "NOMBRE": "Emblema"
     },
     {
@@ -2756,7 +2756,7 @@
         "EQUIPO": "CA River Plate",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Franco Armani"
     },
     {
@@ -2764,15 +2764,15 @@
         "EQUIPO": "CA River Plate",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Jonatan Maidana"
     },
     {
         "NUM": 347,
         "EQUIPO": "CA River Plate",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "H\u00e9ctor David Mart\u00ednez"
     },
     {
@@ -2780,7 +2780,7 @@
         "EQUIPO": "CA River Plate",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Milton Casco"
     },
     {
@@ -2788,15 +2788,15 @@
         "EQUIPO": "CA River Plate",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Robert Rojas"
     },
     {
         "NUM": 350,
         "EQUIPO": "CA River Plate",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Emanuel Mammana"
     },
     {
@@ -2804,15 +2804,15 @@
         "EQUIPO": "CA River Plate",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Franco Alfonso"
     },
     {
         "NUM": 352,
         "EQUIPO": "CA River Plate",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Enzo P\u00e9rez"
     },
     {
@@ -2820,15 +2820,15 @@
         "EQUIPO": "CA River Plate",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Nacho Ignacio Fern\u00e1ndez"
     },
     {
         "NUM": 354,
         "EQUIPO": "CA River Plate",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Rodrigo Aliendro"
     },
     {
@@ -2836,7 +2836,7 @@
         "EQUIPO": "CA River Plate",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Jos\u00e9 Paradela"
     },
     {
@@ -2844,7 +2844,7 @@
         "EQUIPO": "CA River Plate",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Lucas Beltr\u00e1n"
     },
     {
@@ -2852,15 +2852,15 @@
         "EQUIPO": "CA River Plate",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Salom\u00f3n Rond\u00f3n"
     },
     {
         "NUM": 358,
         "EQUIPO": "CA River Plate",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Miguel Borja"
     },
     {
@@ -2868,7 +2868,7 @@
         "EQUIPO": "CA River Plate",
         "CANT": 5,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Pablo Solari"
     },
     {
@@ -2876,15 +2876,15 @@
         "EQUIPO": "CA River Plate",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 350,
+        "PRECIO": 800,
         "NOMBRE": "Esequiel Barco"
     },
     {
         "NUM": 361,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 1,
+        "CANT": 3,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -2892,15 +2892,15 @@
         "EQUIPO": "CA Rosario Central",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gaspar Servio"
     },
     {
         "NUM": 363,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Rodr\u00edguez"
     },
     {
@@ -2908,15 +2908,15 @@
         "EQUIPO": "CA Rosario Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alan Rodr\u00edguez"
     },
     {
         "NUM": 365,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 3,
+        "CANT": 4,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Komar"
     },
     {
@@ -2924,23 +2924,23 @@
         "EQUIPO": "CA Rosario Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Carlos Quintana"
     },
     {
         "NUM": 367,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Dami\u00e1n Mart\u00ednez"
     },
     {
         "NUM": 368,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Luciano Ferreyra"
     },
     {
@@ -2948,7 +2948,7 @@
         "EQUIPO": "CA Rosario Central",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Francis Mac Allister"
     },
     {
@@ -2956,7 +2956,7 @@
         "EQUIPO": "CA Rosario Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Walter Montoya"
     },
     {
@@ -2964,7 +2964,7 @@
         "EQUIPO": "CA Rosario Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Francesco Lo Celso"
     },
     {
@@ -2972,15 +2972,15 @@
         "EQUIPO": "CA Rosario Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gino Infantino"
     },
     {
         "NUM": 373,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "V\u00edctor Ignacio Malcorra"
     },
     {
@@ -2988,23 +2988,23 @@
         "EQUIPO": "CA Rosario Central",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Fabricio Oviedo"
     },
     {
         "NUM": 375,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alejo V\u00e9liz"
     },
     {
         "NUM": 376,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jhonatan Candia"
     },
     {
@@ -3012,7 +3012,7 @@
         "EQUIPO": "CA Rosario Central",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Luca Mart\u00ednez Dupuy"
     },
     {
@@ -3020,7 +3020,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 11,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -3028,7 +3028,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Facundo Altamirano"
     },
     {
@@ -3036,7 +3036,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gast\u00f3n Hern\u00e1ndez"
     },
     {
@@ -3044,7 +3044,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Diego Calcaterra"
     },
     {
@@ -3052,7 +3052,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 4,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Rafael P\u00e9rez"
     },
     {
@@ -3060,7 +3060,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gonzalo Luj\u00e1n"
     },
     {
@@ -3068,7 +3068,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alex Ibacache"
     },
     {
@@ -3076,7 +3076,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Carlos S\u00e1nchez"
     },
     {
@@ -3084,7 +3084,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Manuel Insaurralde"
     },
     {
@@ -3092,7 +3092,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nahuel Barrios"
     },
     {
@@ -3100,7 +3100,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jalil El\u00edas"
     },
     {
@@ -3108,7 +3108,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 4,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Agust\u00edn Martegani"
     },
     {
@@ -3116,15 +3116,15 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Malcom Braida"
     },
     {
         "NUM": 391,
         "EQUIPO": "CA San Lorenzo de Almagro",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Andr\u00e9s Vombergar"
     },
     {
@@ -3132,15 +3132,15 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Blandi"
     },
     {
         "NUM": 393,
         "EQUIPO": "CA San Lorenzo de Almagro",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ezequiel Cerutti"
     },
     {
@@ -3148,7 +3148,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Adam Bareiro"
     },
     {
@@ -3156,7 +3156,7 @@
         "EQUIPO": "CA San Lorenzo de Almagro",
         "CANT": 4,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -3164,23 +3164,23 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Sebasti\u00e1n Meza"
     },
     {
         "NUM": 397,
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jean Rosso"
     },
     {
         "NUM": 398,
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
-        "CANT": 3,
+        "CANT": 4,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Manuel Insaurralde"
     },
     {
@@ -3188,7 +3188,7 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 4,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Franco Sbuttoni"
     },
     {
@@ -3196,7 +3196,7 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Franco Quinteros"
     },
     {
@@ -3204,15 +3204,15 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 6,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gonzalo Bettini"
     },
     {
         "NUM": 402,
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Harrinson Mancilla"
     },
     {
@@ -3220,7 +3220,7 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Emiliano M\u00e9ndez"
     },
     {
@@ -3228,7 +3228,7 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jos\u00e9 Mauri"
     },
     {
@@ -3236,7 +3236,7 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Yair Arismendi"
     },
     {
@@ -3244,7 +3244,7 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Sergio Quiroga"
     },
     {
@@ -3252,7 +3252,7 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Melano"
     },
     {
@@ -3260,15 +3260,15 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Cruz Kaprof"
     },
     {
         "NUM": 409,
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Javier Toledo"
     },
     {
@@ -3276,7 +3276,7 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lisandro L\u00f3pez"
     },
     {
@@ -3284,7 +3284,7 @@
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Luciano Gondou"
     },
     {
@@ -3292,7 +3292,7 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 4,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -3300,15 +3300,15 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Guido Herrera"
     },
     {
         "NUM": 414,
         "EQUIPO": "Club Atl\u00e9tico Talleres",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Gabriel Rodr\u00edguez"
     },
     {
@@ -3316,23 +3316,23 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Carlos Portillo"
     },
     {
         "NUM": 416,
         "EQUIPO": "Club Atl\u00e9tico Talleres",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gast\u00f3n Benav\u00eddez"
     },
     {
         "NUM": 417,
         "EQUIPO": "Club Atl\u00e9tico Talleres",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Julio Buffarini"
     },
     {
@@ -3340,7 +3340,7 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Catal\u00e1n"
     },
     {
@@ -3348,15 +3348,15 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alan Franco"
     },
     {
         "NUM": 420,
         "EQUIPO": "Club Atl\u00e9tico Talleres",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Rodrigo Garro"
     },
     {
@@ -3364,7 +3364,7 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Rodrigo Villagra"
     },
     {
@@ -3372,7 +3372,7 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Ram\u00f3n Sosa"
     },
     {
@@ -3380,7 +3380,7 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Federico Girotti"
     },
     {
@@ -3388,7 +3388,7 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Valent\u00edn Depietri"
     },
     {
@@ -3396,7 +3396,7 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lautaro Nahuel Bustos"
     },
     {
@@ -3404,7 +3404,7 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Francisco Pizzini"
     },
     {
@@ -3412,7 +3412,7 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 6,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Michael Santos"
     },
     {
@@ -3420,7 +3420,7 @@
         "EQUIPO": "Club Atl\u00e9tico Talleres",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Diego Valoyes"
     },
     {
@@ -3428,7 +3428,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 3,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -3436,7 +3436,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Gonzalo Marinelli"
     },
     {
@@ -3444,7 +3444,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Blondel"
     },
     {
@@ -3452,7 +3452,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "V\u00edctor Cabrera"
     },
     {
@@ -3460,7 +3460,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Brian Abel Luciatti"
     },
     {
@@ -3468,7 +3468,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Sebasti\u00e1n Prieto"
     },
     {
@@ -3476,7 +3476,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lautaro Montoya"
     },
     {
@@ -3484,7 +3484,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Aaron Molinas"
     },
     {
@@ -3492,7 +3492,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Alexis Castro"
     },
     {
@@ -3500,7 +3500,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Sebasti\u00e1n Medina"
     },
     {
@@ -3508,7 +3508,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Menossi"
     },
     {
@@ -3516,15 +3516,15 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Sebasti\u00e1n Prediger"
     },
     {
         "NUM": 441,
         "EQUIPO": "Club Atl\u00e9tico Tigre",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Cristian Zabala"
     },
     {
@@ -3532,15 +3532,15 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tom\u00e1s Badaloni"
     },
     {
         "NUM": 443,
         "EQUIPO": "Club Atl\u00e9tico Tigre",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Facundo Colidio"
     },
     {
@@ -3548,7 +3548,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Blas Armoa"
     },
     {
@@ -3556,7 +3556,7 @@
         "EQUIPO": "Club Atl\u00e9tico Tigre",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mateo Retegui"
     },
     {
@@ -3564,7 +3564,7 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -3572,15 +3572,15 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Santiago Mele"
     },
     {
         "NUM": 448,
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Esquivel"
     },
     {
@@ -3588,7 +3588,7 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Franco Calder\u00f3n"
     },
     {
@@ -3596,7 +3596,7 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Claudio Corval\u00e1n"
     },
     {
@@ -3604,7 +3604,7 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Oscar Piris"
     },
     {
@@ -3612,7 +3612,7 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Federico Vera"
     },
     {
@@ -3620,15 +3620,15 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Francisco Gerometta"
     },
     {
         "NUM": 454,
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Yeison Gordillo"
     },
     {
@@ -3636,23 +3636,23 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Kevin Zen\u00f3n"
     },
     {
         "NUM": 456,
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Imanol Machuca"
     },
     {
         "NUM": 457,
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Luciano Aued"
     },
     {
@@ -3660,15 +3660,15 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Enzo Rold\u00e1n"
     },
     {
         "NUM": 459,
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Junior Marabel"
     },
     {
@@ -3676,7 +3676,7 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mart\u00edn Ezequiel Ca\u00f1ete"
     },
     {
@@ -3684,7 +3684,7 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Daniel Ju\u00e1rez"
     },
     {
@@ -3692,7 +3692,7 @@
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mauro Luna Diale"
     },
     {
@@ -3700,7 +3700,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 2,
         "TIPO": "ESC",
-        "PRECIO": 500,
+        "PRECIO": 800,
         "NOMBRE": "Emblema"
     },
     {
@@ -3708,7 +3708,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Leonardo Buri\u00e1n"
     },
     {
@@ -3716,7 +3716,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Miguel Brizuela"
     },
     {
@@ -3724,7 +3724,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 4,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Tom\u00e1s Guidara"
     },
     {
@@ -3732,7 +3732,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lautaro Giannetti"
     },
     {
@@ -3740,7 +3740,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Diego God\u00edn"
     },
     {
@@ -3748,7 +3748,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Leonardo Jara"
     },
     {
@@ -3756,7 +3756,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 3,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Francisco Ortega"
     },
     {
@@ -3764,7 +3764,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Mateo Seoane"
     },
     {
@@ -3772,7 +3772,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 2,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Jos\u00e9 Florent\u00edn"
     },
     {
@@ -3780,7 +3780,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 1,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Garayalde"
     },
     {
@@ -3788,7 +3788,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Juan Ignacio M\u00e9ndez"
     },
     {
@@ -3796,7 +3796,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Santiago Castro"
     },
     {
@@ -3804,7 +3804,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Walter Bou"
     },
     {
@@ -3812,7 +3812,7 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Janson"
     },
     {
@@ -3820,15 +3820,15 @@
         "EQUIPO": "CA V\u00e9lez Sarsfield",
         "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Abiel Osorio"
     },
     {
         "NUM": 479,
         "EQUIPO": "CA V\u00e9lez Sarsfield",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
-        "PRECIO": 200,
+        "PRECIO": 300,
         "NOMBRE": "Lucas Pratto"
     },
     {
@@ -3836,7 +3836,7 @@
         "EQUIPO": "Campeones 2022",
         "CANT": 2,
         "TIPO": "ESPECIALES",
-        "PRECIO": 400,
+        "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Copa Liga Profesional - Boca 1"
     },
     {
@@ -3844,7 +3844,7 @@
         "EQUIPO": "Campeones 2022",
         "CANT": 1,
         "TIPO": "ESPECIALES",
-        "PRECIO": 400,
+        "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Copa Liga Profesional - Boca 2"
     },
     {
@@ -3852,7 +3852,7 @@
         "EQUIPO": "Campeones 2022",
         "CANT": 2,
         "TIPO": "ESPECIALES",
-        "PRECIO": 400,
+        "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Torneo Liga Profesional - Boca 1"
     },
     {
@@ -3860,7 +3860,7 @@
         "EQUIPO": "Campeones 2022",
         "CANT": 1,
         "TIPO": "ESPECIALES",
-        "PRECIO": 400,
+        "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Torneo Liga Profesional - Boca 2"
     },
     {
@@ -3868,7 +3868,7 @@
         "EQUIPO": "Campeones 2022",
         "CANT": 3,
         "TIPO": "ESPECIALES",
-        "PRECIO": 400,
+        "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Copa Argentina - Patronato 1"
     },
     {
@@ -3876,7 +3876,7 @@
         "EQUIPO": "Campeones 2022",
         "CANT": 4,
         "TIPO": "ESPECIALES",
-        "PRECIO": 400,
+        "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Copa Argentina - Patronato 2"
     },
     {
@@ -3884,15 +3884,15 @@
         "EQUIPO": "Campeones 2022",
         "CANT": 1,
         "TIPO": "ESPECIALES",
-        "PRECIO": 400,
+        "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Trofeo de Campeones - Racing 1"
     },
     {
         "NUM": 487,
         "EQUIPO": "Campeones 2022",
-        "CANT": 3,
+        "CANT": 4,
         "TIPO": "ESPECIALES",
-        "PRECIO": 400,
+        "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Trofeo de Campeones - Racing 2"
     },
     {
@@ -3922,7 +3922,7 @@
     {
         "NUM": 491,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Juan Foyth"
@@ -3962,7 +3962,7 @@
     {
         "NUM": 496,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Cristian Romero"
@@ -3978,7 +3978,7 @@
     {
         "NUM": 498,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Lisandro Mart\u00ednez"
@@ -3986,7 +3986,7 @@
     {
         "NUM": 499,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 5,
+        "CANT": 6,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Nahuel Molina"
@@ -3994,7 +3994,7 @@
     {
         "NUM": 500,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Leandro Paredes"
@@ -4034,7 +4034,7 @@
     {
         "NUM": 505,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Enzo Fern\u00e1ndez"
@@ -4050,7 +4050,7 @@
     {
         "NUM": 507,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Alejandro G\u00f3mez"
@@ -4060,7 +4060,7 @@
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
         "CANT": 2,
         "TIPO": "AFA",
-        "PRECIO": 2000,
+        "PRECIO": 2500,
         "NOMBRE": "Lionel Messi"
     },
     {
@@ -4108,7 +4108,7 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 4,
         "TIPO": "AFA",
-        "PRECIO": 900,
+        "PRECIO": 1000,
         "NOMBRE": "Plantel 1"
     },
     {
@@ -4116,7 +4116,7 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 2,
         "TIPO": "AFA",
-        "PRECIO": 900,
+        "PRECIO": 1000,
         "NOMBRE": "Plantel 2"
     },
     {
@@ -4124,15 +4124,15 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 4,
         "TIPO": "AFA",
-        "PRECIO": 900,
+        "PRECIO": 1000,
         "NOMBRE": "Plantel 3"
     },
     {
         "NUM": 517,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "AFA",
-        "PRECIO": 900,
+        "PRECIO": 1000,
         "NOMBRE": "Plantel 4"
     },
     {
@@ -4140,7 +4140,7 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 8,
         "TIPO": "AFA",
-        "PRECIO": 900,
+        "PRECIO": 1000,
         "NOMBRE": "Plantel 5"
     },
     {
@@ -4148,7 +4148,7 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 2,
         "TIPO": "AFA",
-        "PRECIO": 900,
+        "PRECIO": 1000,
         "NOMBRE": "Plantel 6"
     },
     {
@@ -4156,7 +4156,7 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 2,
         "TIPO": "AFA",
-        "PRECIO": 900,
+        "PRECIO": 1000,
         "NOMBRE": "Plantel 7"
     },
     {
@@ -4164,7 +4164,7 @@
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
         "CANT": 2,
         "TIPO": "AFA",
-        "PRECIO": 900,
+        "PRECIO": 1000,
         "NOMBRE": "Plantel 8"
     }
 ]

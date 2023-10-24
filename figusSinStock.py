@@ -9,7 +9,7 @@ faltantes = []
 cantidad=0
 
 for figurita in baseTotal:
-    if figurita["CANT"] == (0) and figurita["PRECIO"] >800:
+    if figurita["CANT"] in (0,1) and figurita["PRECIO"] <800:
         num = figurita["NUM"]
         cant = figurita["CANT"]
         precio = figurita["PRECIO"]
