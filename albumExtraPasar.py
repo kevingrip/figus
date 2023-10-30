@@ -1,3 +1,5 @@
+# SACAR DEL ALBUM EXTRA Y AGREGAR A LA CAJA
+
 import json
 
 with open ("albumExtra.json","r") as aExtraJson:
@@ -13,8 +15,8 @@ for linea in albumExtra:
             if linea["NUM"] == lin["NUM"]:
                 if lin ["CANT"] == 0:
                     print(lin)
-                    lin ["CANT"] +=1
-                    linea["CANT"] -=1
+                    # lin ["CANT"] +=1
+                    # linea["CANT"] -=1
 
 # with open ("albumExtra.json","w") as aExtraJson:
 #     json.dump(albumExtra,aExtraJson,indent=4)
@@ -22,4 +24,3 @@ for linea in albumExtra:
 # with open ("baseMundial.json","w") as MundialJson:
 #     json.dump(baseMundial,MundialJson,indent=4)
 
-print("Cantidad agregada en BaseMundial y descontada en albumExtra")

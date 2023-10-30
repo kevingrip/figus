@@ -1,3 +1,5 @@
+# AGREGAR AL ALBUM EXTRA LAS QUE ESTAN REPETIDAS EN LA CAJA
+
 import json
 
 with open ("albumExtra.json","r") as alExtraJson:
@@ -9,10 +11,10 @@ with open ("baseMundial.json","r") as bmJson:
 cantidad =0 
 
 for linea in albumExtra:
-    if linea["CANT"] == (0):
+    if linea["CANT"] == (1):
         for lin in baseMundial:
             if linea["NUM"] == lin["NUM"]:
-                if lin["CANT"] >=5:
+                if lin["CANT"] >=4:
                     # lin["CANT"] -=1
                     # linea["CANT"] +=1
                     print(linea)

@@ -1,7 +1,7 @@
 [
     {
         "nombre": "VLAHOVIC",
-        "BASE": 12,
+        "BASE": 11,
         "BRONZE": 4,
         "SILVER": 0,
         "GOLD": 0
@@ -64,7 +64,7 @@
     },
     {
         "nombre": "MESSI",
-        "BASE": 2,
+        "BASE": 1,
         "BRONZE": 5,
         "SILVER": 0,
         "GOLD": 0
@@ -86,7 +86,7 @@
     {
         "nombre": "LEWANDOWSKI",
         "BASE": 5,
-        "BRONZE": 5,
+        "BRONZE": 4,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -106,7 +106,7 @@
     },
     {
         "nombre": "ERIKSEN",
-        "BASE": 10,
+        "BASE": 9,
         "BRONZE": 5,
         "SILVER": 1,
         "GOLD": 0
@@ -120,7 +120,7 @@
     },
     {
         "nombre": "DAVIES",
-        "BASE": 4,
+        "BASE": 3,
         "BRONZE": 5,
         "SILVER": 0,
         "GOLD": 0

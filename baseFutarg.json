@@ -242,7 +242,7 @@
     {
         "NUM": 31,
         "EQUIPO": "Arsenal F\u00fatbol Club",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Santiago Toloza"
@@ -306,7 +306,7 @@
     {
         "NUM": 39,
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Tom\u00e1s Marchiori"
@@ -498,7 +498,7 @@
     {
         "NUM": 63,
         "EQUIPO": "CA Banfield",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Alejandro Cabrera"
@@ -562,7 +562,7 @@
     {
         "NUM": 71,
         "EQUIPO": "CA Banfield",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Sebasti\u00e1n Sosa S\u00e1nchez"
@@ -874,7 +874,7 @@
     {
         "NUM": 110,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 800,
         "NOMBRE": "Jorge Nicol\u00e1s Figal"
@@ -1514,7 +1514,7 @@
     {
         "NUM": 190,
         "EQUIPO": "Club Estudiantes de La Plata",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Benjam\u00edn Rollheiser"
@@ -2434,7 +2434,7 @@
     {
         "NUM": 305,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Jorge Recalde"
@@ -2778,7 +2778,7 @@
     {
         "NUM": 348,
         "EQUIPO": "CA River Plate",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 800,
         "NOMBRE": "Milton Casco"
@@ -2826,7 +2826,7 @@
     {
         "NUM": 354,
         "EQUIPO": "CA River Plate",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 800,
         "NOMBRE": "Rodrigo Aliendro"
@@ -3010,7 +3010,7 @@
     {
         "NUM": 377,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Luca Mart\u00ednez Dupuy"
@@ -3898,7 +3898,7 @@
     {
         "NUM": 488,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Emiliano Mart\u00ednez"
@@ -3906,7 +3906,7 @@
     {
         "NUM": 489,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Franco Armani"
@@ -3986,7 +3986,7 @@
     {
         "NUM": 499,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 6,
+        "CANT": 5,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Nahuel Molina"

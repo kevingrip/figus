@@ -34,8 +34,9 @@ for linea in baseMundial:
 
             validacion = False
 
-            for linea in baseMundial:
+            for linea in baseMundial:                    
                     if linea["NOMBRE"] == nombre:
+                        print("Cantidad actual en BaseMundial:",linea["CANT"])
                         if linea["CANT"] < 5:
                             validacion = True
                             if linea["CANT"] == 0:
@@ -45,8 +46,7 @@ for linea in baseMundial:
             if validacion == True:
                 for linea in albumExtra:
                     if linea["NOMBRE"] == nombre:
-                        print("Cantidad actual de nuevo album:",linea["CANT"])
-                        if linea["CANT"] < 2:                
+                        if linea["CANT"] < 2:          
                             print("Agregar al album",num)
                         else:
                             print("No agregar al album")

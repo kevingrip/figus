@@ -3617,6 +3617,104 @@
             "Envio": "CORREO",
             "Etiqueta": "SME1",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "CLAUVANE2008",
+            "Vendidas": [
+                "FWC3",
+                "FWC21",
+                "CMR1",
+                "CRC1",
+                "ESP14",
+                "FRA8",
+                "GHA4",
+                "KOR2",
+                "KOR11",
+                "KOR17",
+                "MRR1",
+                "MRR18",
+                "NED12",
+                "POL11",
+                "QAT6",
+                "TUN3",
+                "WAL4",
+                "WAL14"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/10/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "PCK390",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "ROJE6587141",
+            "Vendidas": [
+                "CRO17"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/10/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX PELUCHE",
+            "Etiqueta": "CABA",
+            "PrecioFlex": 1700
+        },
+        {
+            "usuario": "ERPA2004",
+            "Vendidas": [
+                "FWC3",
+                "FWC6",
+                "FWC16",
+                "FWC21",
+                "ARG1",
+                "ARG2",
+                "BEL1",
+                "BRA19",
+                "CAN1",
+                "CAN4",
+                "CAN9",
+                "CAN17",
+                "CRC1",
+                "DEN1",
+                "DEN2",
+                "DEN8",
+                "DEN15",
+                "ECU1",
+                "ESP1",
+                "ESP10",
+                "ESP17",
+                "KSA2",
+                "MEX12",
+                "MRR16",
+                "POR16",
+                "QAT19",
+                "SEN15",
+                "SRB16",
+                "WAL3",
+                "WAL17",
+                "C1",
+                "C2",
+                "C4",
+                "C6"
+            ],
+            "NoVendidas": [],
+            "Dia": "28/10/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX PELUCHE",
+            "Etiqueta": "CABA",
+            "PrecioFlex": 1700
+        },
+        {
+            "usuario": "INIAKILOPETEGUI",
+            "Vendidas": [
+                "CRO16"
+            ],
+            "NoVendidas": [],
+            "Dia": "28/10/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "Nu\u00f1ez",
+            "PrecioFlex": 0
         }
     ],
     "Futbol Argentino 2023": [
@@ -4230,6 +4328,32 @@
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "MARALECUNA",
+            "Vendidas": [
+                25,
+                31,
+                33,
+                39,
+                354,
+                488,
+                499
+            ],
+            "NoVendidas": [
+                41,
+                43,
+                47,
+                153,
+                155,
+                357,
+                430
+            ],
+            "Dia": "27/10/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "COR140",
             "PrecioFlex": 0
         }
     ]

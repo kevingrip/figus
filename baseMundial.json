@@ -10,7 +10,7 @@
     },
     {
         "NUM": "FWC1",
-        "CANT": 12,
+        "CANT": 13,
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -28,7 +28,7 @@
     },
     {
         "NUM": "FWC3",
-        "CANT": 4,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -55,7 +55,7 @@
     },
     {
         "NUM": "FWC6",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -73,7 +73,7 @@
     },
     {
         "NUM": "FWC8",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -145,7 +145,7 @@
     },
     {
         "NUM": "FWC16",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -172,7 +172,7 @@
     },
     {
         "NUM": "FWC19",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -190,7 +190,7 @@
     },
     {
         "NUM": "FWC21",
-        "CANT": 3,
+        "CANT": 1,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -271,7 +271,7 @@
     },
     {
         "NUM": "ARG1",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 3000,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -280,7 +280,7 @@
     },
     {
         "NUM": "ARG2",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 900,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -361,7 +361,7 @@
     },
     {
         "NUM": "ARG11",
-        "CANT": 25,
+        "CANT": 27,
         "PRECIO": 850,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -442,7 +442,7 @@
     },
     {
         "NUM": "AUS1",
-        "CANT": 7,
+        "CANT": 8,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -478,7 +478,7 @@
     },
     {
         "NUM": "AUS5",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -613,7 +613,7 @@
     },
     {
         "NUM": "BEL1",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -640,7 +640,7 @@
     },
     {
         "NUM": "BEL4",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -658,7 +658,7 @@
     },
     {
         "NUM": "BEL6",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -676,7 +676,7 @@
     },
     {
         "NUM": "BEL8",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -712,7 +712,7 @@
     },
     {
         "NUM": "BEL12",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -793,7 +793,7 @@
     },
     {
         "NUM": "BRA2",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -811,7 +811,7 @@
     },
     {
         "NUM": "BRA4",
-        "CANT": 5,
+        "CANT": 6,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -856,7 +856,7 @@
     },
     {
         "NUM": "BRA9",
-        "CANT": 5,
+        "CANT": 6,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -946,7 +946,7 @@
     },
     {
         "NUM": "BRA19",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -955,7 +955,7 @@
     },
     {
         "NUM": "CAN1",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -982,7 +982,7 @@
     },
     {
         "NUM": "CAN4",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1027,7 +1027,7 @@
     },
     {
         "NUM": "CAN9",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1099,7 +1099,7 @@
     },
     {
         "NUM": "CAN17",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1117,7 +1117,7 @@
     },
     {
         "NUM": "CAN19",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1126,7 +1126,7 @@
     },
     {
         "NUM": "CMR1",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -1153,7 +1153,7 @@
     },
     {
         "NUM": "CMR4",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1243,7 +1243,7 @@
     },
     {
         "NUM": "CMR14",
-        "CANT": 7,
+        "CANT": 8,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1297,7 +1297,7 @@
     },
     {
         "NUM": "CRC1",
-        "CANT": 4,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -1351,7 +1351,7 @@
     },
     {
         "NUM": "CRC7",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1378,7 +1378,7 @@
     },
     {
         "NUM": "CRC10",
-        "CANT": 1,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1405,7 +1405,7 @@
     },
     {
         "NUM": "CRC13",
-        "CANT": 6,
+        "CANT": 7,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1477,7 +1477,7 @@
     },
     {
         "NUM": "CRO2",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1603,7 +1603,7 @@
     },
     {
         "NUM": "CRO16",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1612,7 +1612,7 @@
     },
     {
         "NUM": "CRO17",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1630,7 +1630,7 @@
     },
     {
         "NUM": "CRO19",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1639,7 +1639,7 @@
     },
     {
         "NUM": "DEN1",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -1648,7 +1648,7 @@
     },
     {
         "NUM": "DEN2",
-        "CANT": 1,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1657,7 +1657,7 @@
     },
     {
         "NUM": "DEN3",
-        "CANT": 6,
+        "CANT": 7,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1702,7 +1702,7 @@
     },
     {
         "NUM": "DEN8",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1729,7 +1729,7 @@
     },
     {
         "NUM": "DEN11",
-        "CANT": 1,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1765,7 +1765,7 @@
     },
     {
         "NUM": "DEN15",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1810,7 +1810,7 @@
     },
     {
         "NUM": "ECU1",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -1855,7 +1855,7 @@
     },
     {
         "NUM": "ECU6",
-        "CANT": 5,
+        "CANT": 6,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1990,7 +1990,7 @@
     },
     {
         "NUM": "ENG2",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -1999,7 +1999,7 @@
     },
     {
         "NUM": "ENG3",
-        "CANT": 1,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2017,7 +2017,7 @@
     },
     {
         "NUM": "ENG5",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2107,7 +2107,7 @@
     },
     {
         "NUM": "ENG15",
-        "CANT": 1,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2152,7 +2152,7 @@
     },
     {
         "NUM": "ESP1",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -2206,7 +2206,7 @@
     },
     {
         "NUM": "ESP7",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2233,7 +2233,7 @@
     },
     {
         "NUM": "ESP10",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2242,7 +2242,7 @@
     },
     {
         "NUM": "ESP11",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2260,7 +2260,7 @@
     },
     {
         "NUM": "ESP13",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2296,7 +2296,7 @@
     },
     {
         "NUM": "ESP17",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2359,7 +2359,7 @@
     },
     {
         "NUM": "FRA5",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2386,7 +2386,7 @@
     },
     {
         "NUM": "FRA8",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2431,7 +2431,7 @@
     },
     {
         "NUM": "FRA13",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2521,7 +2521,7 @@
     },
     {
         "NUM": "GER4",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2566,7 +2566,7 @@
     },
     {
         "NUM": "GER9",
-        "CANT": 6,
+        "CANT": 9,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2593,7 +2593,7 @@
     },
     {
         "NUM": "GER12",
-        "CANT": 5,
+        "CANT": 6,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2602,7 +2602,7 @@
     },
     {
         "NUM": "GER13",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2611,7 +2611,7 @@
     },
     {
         "NUM": "GER14",
-        "CANT": 1,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2692,7 +2692,7 @@
     },
     {
         "NUM": "GHA4",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -2769,7 +2769,7 @@
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
         "ACTUALIZACION": "14:02:47",
-        "NOMBRE": "Daniel"
+        "NOMBRE": "Daniel-Kofi Kyereh"
     },
     {
         "NUM": "GHA13",
@@ -2863,7 +2863,7 @@
     },
     {
         "NUM": "IRN4",
-        "CANT": 8,
+        "CANT": 9,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3016,7 +3016,7 @@
     },
     {
         "NUM": "JPN2",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3034,7 +3034,7 @@
     },
     {
         "NUM": "JPN4",
-        "CANT": 17,
+        "CANT": 19,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3079,7 +3079,7 @@
     },
     {
         "NUM": "JPN9",
-        "CANT": 12,
+        "CANT": 13,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3106,7 +3106,7 @@
     },
     {
         "NUM": "JPN12",
-        "CANT": 5,
+        "CANT": 6,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3187,7 +3187,7 @@
     },
     {
         "NUM": "KOR2",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3268,7 +3268,7 @@
     },
     {
         "NUM": "KOR11",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3322,7 +3322,7 @@
     },
     {
         "NUM": "KOR17",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3358,7 +3358,7 @@
     },
     {
         "NUM": "KSA2",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3394,7 +3394,7 @@
     },
     {
         "NUM": "KSA6",
-        "CANT": 6,
+        "CANT": 7,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3484,7 +3484,7 @@
     },
     {
         "NUM": "KSA16",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3619,7 +3619,7 @@
     },
     {
         "NUM": "MEX12",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3691,7 +3691,7 @@
     },
     {
         "NUM": "MRR1",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -3700,7 +3700,7 @@
     },
     {
         "NUM": "MRR2",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3709,7 +3709,7 @@
     },
     {
         "NUM": "MRR3",
-        "CANT": 7,
+        "CANT": 8,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3826,7 +3826,7 @@
     },
     {
         "NUM": "MRR16",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3871,7 +3871,7 @@
     },
     {
         "NUM": "NED2",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3880,7 +3880,7 @@
     },
     {
         "NUM": "NED3",
-        "CANT": 5,
+        "CANT": 6,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3934,7 +3934,7 @@
     },
     {
         "NUM": "NED9",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3952,7 +3952,7 @@
     },
     {
         "NUM": "NED11",
-        "CANT": 6,
+        "CANT": 7,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -3961,7 +3961,7 @@
     },
     {
         "NUM": "NED12",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4087,7 +4087,7 @@
     },
     {
         "NUM": "POL7",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4141,7 +4141,7 @@
     },
     {
         "NUM": "POL13",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4339,7 +4339,7 @@
     },
     {
         "NUM": "POR16",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4384,7 +4384,7 @@
     },
     {
         "NUM": "QAT2",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4420,7 +4420,7 @@
     },
     {
         "NUM": "QAT6",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4438,7 +4438,7 @@
     },
     {
         "NUM": "QAT8",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4456,7 +4456,7 @@
     },
     {
         "NUM": "QAT10",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4465,7 +4465,7 @@
     },
     {
         "NUM": "QAT11",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4537,7 +4537,7 @@
     },
     {
         "NUM": "QAT19",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4672,7 +4672,7 @@
     },
     {
         "NUM": "SEN15",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4708,7 +4708,7 @@
     },
     {
         "NUM": "SEN19",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4825,7 +4825,7 @@
     },
     {
         "NUM": "SRB13",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4834,7 +4834,7 @@
     },
     {
         "NUM": "SRB14",
-        "CANT": 1,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4852,7 +4852,7 @@
     },
     {
         "NUM": "SRB16",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4870,7 +4870,7 @@
     },
     {
         "NUM": "SRB18",
-        "CANT": 7,
+        "CANT": 9,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4888,7 +4888,7 @@
     },
     {
         "NUM": "SUI1",
-        "CANT": 3,
+        "CANT": 6,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -4978,7 +4978,7 @@
     },
     {
         "NUM": "SUI11",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -5032,7 +5032,7 @@
     },
     {
         "NUM": "SUI17",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -5077,7 +5077,7 @@
     },
     {
         "NUM": "TUN3",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -5095,7 +5095,7 @@
     },
     {
         "NUM": "TUN5",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -5194,7 +5194,7 @@
     },
     {
         "NUM": "TUN16",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -5545,7 +5545,7 @@
     },
     {
         "NUM": "USA17",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -5581,7 +5581,7 @@
     },
     {
         "NUM": "WAL2",
-        "CANT": 5,
+        "CANT": 7,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -5590,7 +5590,7 @@
     },
     {
         "NUM": "WAL3",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -5599,7 +5599,7 @@
     },
     {
         "NUM": "WAL4",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -5689,7 +5689,7 @@
     },
     {
         "NUM": "WAL14",
-        "CANT": 5,
+        "CANT": 6,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -5716,7 +5716,7 @@
     },
     {
         "NUM": "WAL17",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -5743,7 +5743,7 @@
     },
     {
         "NUM": "C1",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",
@@ -5752,7 +5752,7 @@
     },
     {
         "NUM": "C2",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",
@@ -5770,7 +5770,7 @@
     },
     {
         "NUM": "C4",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",
@@ -5788,7 +5788,7 @@
     },
     {
         "NUM": "C6",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",

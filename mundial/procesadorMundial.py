@@ -24,12 +24,12 @@ def procesadorMundial(figuritas,nombre,baseMundial):
 
 
     for fila in datos:
-        if fila.get('NUM') in figuritas and int(fila.get('CANT')) > 0:
+        if fila.get('NUM') in figuritas and int(fila.get('CANT')) > 3:
             precio_total += int(fila.get('PRECIO'))
             cantidadTengo += 1
             tengo += fila.get('NUM') + ', '
         else:
-            if fila.get('NUM') in figuritas and int(fila.get('CANT')) == 0:
+            if fila.get('NUM') in figuritas and int(fila.get('CANT')) <= 3:
                 exceptoFigu += fila.get('NUM') + ','
                 cantidadFaltan += 1
 
