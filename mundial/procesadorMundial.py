@@ -24,16 +24,18 @@ def procesadorMundial(figuritas,nombre,baseMundial):
 
 
     for fila in datos:
-        if fila.get('NUM') in figuritas and int(fila.get('CANT')) > 3:
+        if fila.get('NUM') in figuritas and int(fila.get('CANT')) > 0:
             precio_total += int(fila.get('PRECIO'))
             cantidadTengo += 1
             tengo += fila.get('NUM') + ', '
         else:
-            if fila.get('NUM') in figuritas and int(fila.get('CANT')) <= 3:
+            if fila.get('NUM') in figuritas and int(fila.get('CANT')) == 0:
                 exceptoFigu += fila.get('NUM') + ','
                 cantidadFaltan += 1
 
+
     excepto = espacioFigu(exceptoFigu)
+
 
     if cantidadFaltan>1:
         falta='faltan'
@@ -106,18 +108,10 @@ def procesadorMundial(figuritas,nombre,baseMundial):
                 elif precio_total == 950:
                     respuesta="Hola"+nombre+", "+hora()+"! Si, la tengo en stock. El precio es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                 elif (precio_total/cantidadTengo) == 950:
-                    if (cantidadTengo == 1):
+                    if (cantidadTengo < 5):
                         respuesta="Hola"+nombre+", "+hora()+"! Si, la tengo en stock. El precio es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
-                    elif (cantidadTengo == 2):
-                        respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo en stock. El precio es " + str(cantidadTengo*(precioUnidadDorada-50)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
-                    elif (cantidadTengo == 3):
-                        respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo en stock. El precio es " + str(cantidadTengo*(precioUnidadDorada-100)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
-                    elif (cantidadTengo == 4):
-                        respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo en stock. El precio es " + str(cantidadTengo*(precioUnidadDorada-150)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
-                    elif (cantidadTengo == 5):
-                        respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo en stock. El precio es " + str(cantidadTengo*(precioUnidadDorada-200)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
-                    elif (cantidadTengo == 6):
-                        respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo en stock. El precio es " + str(cantidadTengo*(precioUnidadDorada-250)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
+                    else:
+                        respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo en stock. El precio es " + str(cantidadTengo*(1000)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                 else:
                     if cantidadTengo == 1:
                         respuesta="Hola"+nombre+", "+hora()+"! Si, la tengo en stock. El precio es " + str(precio_total) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"

@@ -15,8 +15,8 @@ for linea in albumExtra:
         for lin in baseMundial:
             if linea["NUM"] == lin["NUM"]:
                 if lin["CANT"] >=4:
-                    # lin["CANT"] -=1
-                    # linea["CANT"] +=1
+                    lin["CANT"] -=1
+                    linea["CANT"] +=1
                     print(linea)
                     cantidad+=1
 
@@ -24,8 +24,8 @@ for linea in albumExtra:
 print(cantidad)
                     
 
-# with open ("albumExtra.json","w") as alExtraJson:
-#     json.dump(albumExtra,alExtraJson,indent=4)
+with open ("albumExtra.json","w") as alExtraJson:
+    json.dump(albumExtra,alExtraJson,indent=4)
 
-# with open ("baseMundial.json","w") as bmJson:
-#     json.dump(baseMundial,bmJson,indent=4)
+with open ("baseMundial.json","w") as bmJson:
+    json.dump(baseMundial,bmJson,indent=4)

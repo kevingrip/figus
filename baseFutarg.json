@@ -2,7 +2,7 @@
     {
         "NUM": 1,
         "EQUIPO": "Introduction",
-        "CANT": 0,
+        "CANT": 4,
         "TIPO": "ESPECIALES",
         "PRECIO": 1500,
         "NOMBRE": "Logo Asociaci\u00f3n del F\u00fatbol Argentino"
@@ -90,7 +90,7 @@
     {
         "NUM": 12,
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Fabricio Dom\u00ednguez"
@@ -122,7 +122,7 @@
     {
         "NUM": 16,
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 4,
+        "CANT": 3,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Leonardo Heredia"
@@ -298,7 +298,7 @@
     {
         "NUM": 38,
         "EQUIPO": "Club Atl\u00e9tico Tucum\u00e1n",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -434,7 +434,7 @@
     {
         "NUM": 55,
         "EQUIPO": "CA Banfield",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -1386,7 +1386,7 @@
     {
         "NUM": 174,
         "EQUIPO": "Club Estudiantes de La Plata",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -2746,7 +2746,7 @@
     {
         "NUM": 344,
         "EQUIPO": "CA River Plate",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "ESC",
         "PRECIO": 1000,
         "NOMBRE": "Emblema"
@@ -3842,7 +3842,7 @@
     {
         "NUM": 481,
         "EQUIPO": "Campeones 2022",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESPECIALES",
         "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Copa Liga Profesional - Boca 2"
@@ -3858,7 +3858,7 @@
     {
         "NUM": 483,
         "EQUIPO": "Campeones 2022",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESPECIALES",
         "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Torneo Liga Profesional - Boca 2"
@@ -3882,7 +3882,7 @@
     {
         "NUM": 486,
         "EQUIPO": "Campeones 2022",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESPECIALES",
         "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Trofeo de Campeones - Racing 1"
@@ -3954,7 +3954,7 @@
     {
         "NUM": 495,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 1,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Marcos Acu\u00f1a"
@@ -4050,7 +4050,7 @@
     {
         "NUM": 507,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 1,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Alejandro G\u00f3mez"
@@ -4058,7 +4058,7 @@
     {
         "NUM": 508,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 4,
         "TIPO": "AFA",
         "PRECIO": 2500,
         "NOMBRE": "Lionel Messi"
@@ -4130,7 +4130,7 @@
     {
         "NUM": 517,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 1,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Plantel 4"
