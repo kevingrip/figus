@@ -271,7 +271,7 @@
     },
     {
         "NUM": "ARG1",
-        "CANT": 2,
+        "CANT": 0,
         "PRECIO": 3000,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -433,7 +433,7 @@
     },
     {
         "NUM": "ARG19",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 3500,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
