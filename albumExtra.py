@@ -7,7 +7,7 @@ with open ("albumExtra.json","r") as aExtraJson:
 with open ("baseMundial.json","r") as MundialJson:
     baseMundial = json.load (MundialJson)
 
-nombre=''
+nombre='Almoez Ali'
 
 num = ''
 
