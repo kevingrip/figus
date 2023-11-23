@@ -29,8 +29,8 @@
     },
     {
         "nombre": "REYNA",
-        "BASE": 12,
-        "BRONZE": 10,
+        "BASE": 11,
+        "BRONZE": 9,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -43,7 +43,7 @@
     },
     {
         "nombre": "OCHOA",
-        "BASE": 4,
+        "BASE": 3,
         "BRONZE": 0,
         "SILVER": 0,
         "GOLD": 0
@@ -86,13 +86,13 @@
     {
         "nombre": "LEWANDOWSKI",
         "BASE": 5,
-        "BRONZE": 4,
+        "BRONZE": 3,
         "SILVER": 0,
         "GOLD": 0
     },
     {
         "nombre": "GRAVENBERCH",
-        "BASE": 7,
+        "BASE": 6,
         "BRONZE": 10,
         "SILVER": 0,
         "GOLD": 0
@@ -106,7 +106,7 @@
     },
     {
         "nombre": "ERIKSEN",
-        "BASE": 9,
+        "BASE": 8,
         "BRONZE": 5,
         "SILVER": 1,
         "GOLD": 0
@@ -134,7 +134,7 @@
     },
     {
         "nombre": "ALMOEZ ALI",
-        "BASE": 7,
+        "BASE": 6,
         "BRONZE": 8,
         "SILVER": 0,
         "GOLD": 0

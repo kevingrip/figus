@@ -14,12 +14,17 @@
         "ESTEBAN ECHEVERRIA",
         "LANUS",
         "DEVOTO",
-        "TIGRE"
+        "TIGRE",
+        "SAN FERNANDO",
+        "VICENTE LOPEZ",
+        "ONCE",
+        "MUNRO"
     ],
     "AND": [
         "AND026",
         "AND040",
-        "AND011"
+        "AND011",
+        "AND025"
     ],
     "COR": [
         "COR140"
@@ -29,7 +34,9 @@
         "OCS062",
         "OCS064",
         "OCS090",
-        "OCS067"
+        "OCS067",
+        "OCS060",
+        "OCS069"
     ],
     "PCK": [
         "PCK350",
@@ -60,8 +67,9 @@
         "URB190",
         "URB175",
         "URB150",
-        "URB150",
-        "URB163"
+        "URB163",
+        "URB166",
+        "URB160"
     ],
     "SBU": [
         "SBU3"
@@ -83,5 +91,11 @@
     ],
     "SST": [
         "SST"
+    ],
+    "SRU": [
+        "SRU1"
+    ],
+    "SNQ": [
+        "SNQ1"
     ]
 }

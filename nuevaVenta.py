@@ -18,7 +18,7 @@ def nuevaVenta(usuario,vendidas,noVendidas,llaveVentas):
         etiqueta = envioFlex()
         print(etiqueta)
         etiqueta.append("Agregar nuevo")
-        datoEtiqueta = easygui.buttonbox("Etiqueta", choices=etiqueta, title="Confirmación")
+        datoEtiqueta = easygui.choicebox("Etiqueta", choices=etiqueta, title="Confirmación")
         if (datoEtiqueta == "Agregar nuevo"):
             nuevaEtiqueta = easygui.enterbox("Ingrese nueva etiqueta").upper()
             agregarFlex(nuevaEtiqueta)
@@ -27,7 +27,7 @@ def nuevaVenta(usuario,vendidas,noVendidas,llaveVentas):
     elif datoEnvio == "CORREO":
         tipoEtiqueta = tipoCorreo()
         tipoEtiqueta.append("Agregar nuevo")
-        empresaEtiqueta = easygui.buttonbox("Etiqueta", choices=tipoEtiqueta, title="Etiquetas")
+        empresaEtiqueta = easygui.choicebox("Etiqueta", choices=tipoEtiqueta, title="Etiquetas")
     
         if empresaEtiqueta == "Agregar nuevo":
             etiquetaNueva= easygui.enterbox("Ingrese etiqueta").upper()

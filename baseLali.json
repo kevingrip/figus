@@ -120,7 +120,7 @@
         "ID": 14,
         "NUM": "1",
         "EQUIPO": "SD Aucas",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Team Logo"
@@ -579,7 +579,7 @@
         "ID": 65,
         "NUM": "52",
         "EQUIPO": "Racing Club",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Racing Team Logo"
@@ -732,7 +732,7 @@
         "ID": 82,
         "NUM": "69",
         "EQUIPO": "Independiente Medellin",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Independiente Medellin Team Logo"
@@ -1551,7 +1551,7 @@
         "ID": 173,
         "NUM": "160",
         "EQUIPO": "Bolivar La Paz",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Carlos Melgar"
@@ -1614,7 +1614,7 @@
         "ID": 180,
         "NUM": "167",
         "EQUIPO": "Bolivar La Paz",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Ramiro Vaca"
@@ -1713,7 +1713,7 @@
         "ID": 191,
         "NUM": "178",
         "EQUIPO": "Club Cerro Porte\u00c3\u00b1o",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "KSK",
         "PRECIO": 800,
         "NOMBRE": "Cerro Porteno Jersey 1 and 2"
@@ -2568,7 +2568,7 @@
         "ID": 286,
         "NUM": "273",
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Argentinos Juniors Team Logo"
@@ -2775,7 +2775,7 @@
         "ID": 309,
         "NUM": "296",
         "EQUIPO": "Sport Club Corinthians Paulista",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Adson"
@@ -2847,7 +2847,7 @@
         "ID": 317,
         "NUM": "304",
         "EQUIPO": "Sport Club Corinthians Paulista",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Roger Guedes"
@@ -2874,7 +2874,7 @@
         "ID": 320,
         "NUM": "307",
         "EQUIPO": "Independiente del Valle",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Independiente del Valle Team Logo"
@@ -2937,7 +2937,7 @@
         "ID": 327,
         "NUM": "314",
         "EQUIPO": "Independiente del Valle",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "KSK",
         "PRECIO": 800,
         "NOMBRE": "Independiente del Valle Jersey 1 and 2"
@@ -3027,7 +3027,7 @@
         "ID": 337,
         "NUM": "324",
         "EQUIPO": "Liverpool FC Montevideo",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Liverpool Team Logo"
@@ -3180,7 +3180,7 @@
         "ID": 354,
         "NUM": "341",
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 1200,
         "NOMBRE": "Boca Juniors Team Logo"
@@ -3639,7 +3639,7 @@
         "ID": 405,
         "NUM": "392",
         "EQUIPO": "Deportivo Pereira",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Deportivo Pereira Team Logo"
@@ -3945,7 +3945,7 @@
         "ID": 439,
         "NUM": "426",
         "EQUIPO": "Club Athletico Paranaense",
-        "CANT": 0,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Athletico Paranaense Team Logo"
@@ -4071,7 +4071,7 @@
         "ID": 453,
         "NUM": "440",
         "EQUIPO": "Club Athletico Paranaense",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Pablo"

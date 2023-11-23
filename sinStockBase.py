@@ -27,8 +27,8 @@ if (opciones == "Compra Panini"):
 
 
 for linea in datosFigu: 
-    if ((linea["CANT"] == (3)) and (linea["PRECIO"]>800) and (linea["TIPO"] in ('FWC','ESC'))):       
-        if (opciones == "Compra Panini") and cantidad < (10):
+    if ((linea["CANT"] in (0,1,2)) and (linea["PRECIO"]>800) and (linea["TIPO"] in ('FWC','ESC','COCA'))):       
+        if (opciones == "Compra Panini") and cantidad < (41):
             cantidad += 1
             if linea["NUM"] =="MRR1":
                 time.sleep(0.5)
