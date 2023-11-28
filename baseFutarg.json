@@ -602,7 +602,7 @@
     {
         "NUM": 76,
         "EQUIPO": "CA Barracas Central",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Capraro"
@@ -786,7 +786,7 @@
     {
         "NUM": 99,
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Ariel Garc\u00eda"
@@ -2130,7 +2130,7 @@
     {
         "NUM": 267,
         "EQUIPO": "Instituto AC C\u00f3rdoba",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Roberto Bochi"
@@ -2418,7 +2418,7 @@
     {
         "NUM": 303,
         "EQUIPO": "CA Newell's Old Boys",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Pablo P\u00e9rez"
