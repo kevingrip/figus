@@ -2,7 +2,7 @@
     {
         "NUM": 1,
         "EQUIPO": "Introduction",
-        "CANT": 4,
+        "CANT": 5,
         "TIPO": "ESPECIALES",
         "PRECIO": 1500,
         "NOMBRE": "Logo Asociaci\u00f3n del F\u00fatbol Argentino"
@@ -50,7 +50,7 @@
     {
         "NUM": 7,
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Kevin Mac Allister"
@@ -570,7 +570,7 @@
     {
         "NUM": 72,
         "EQUIPO": "CA Barracas Central",
-        "CANT": 8,
+        "CANT": 9,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -594,7 +594,7 @@
     {
         "NUM": 75,
         "EQUIPO": "CA Barracas Central",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Mauro Peinipil"
@@ -826,7 +826,7 @@
     {
         "NUM": 104,
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Pablo Vegetti"
@@ -866,7 +866,7 @@
     {
         "NUM": 109,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 800,
         "NOMBRE": "Facundo Roncaglia"
@@ -882,7 +882,7 @@
     {
         "NUM": 111,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 800,
         "NOMBRE": "Frank Fabra"
@@ -914,7 +914,7 @@
     {
         "NUM": 115,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 800,
         "NOMBRE": "Alan Varela"
@@ -1370,7 +1370,7 @@
     {
         "NUM": 172,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Fern\u00e1ndez"
@@ -1562,7 +1562,7 @@
     {
         "NUM": 196,
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Melluso"
@@ -1578,7 +1578,7 @@
     {
         "NUM": 198,
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Sandro Leonardo Morales"
@@ -1610,7 +1610,7 @@
     {
         "NUM": 202,
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Tom\u00e1s Muro"
@@ -2138,7 +2138,7 @@
     {
         "NUM": 268,
         "EQUIPO": "Instituto AC C\u00f3rdoba",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Brahian Cuello"
@@ -2202,7 +2202,7 @@
     {
         "NUM": 276,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 17,
+        "CANT": 18,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -2258,7 +2258,7 @@
     {
         "NUM": 283,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Leonel Di Pl\u00e1cido"
@@ -2890,7 +2890,7 @@
     {
         "NUM": 362,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Gaspar Servio"
@@ -2906,7 +2906,7 @@
     {
         "NUM": 364,
         "EQUIPO": "CA Rosario Central",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Alan Rodr\u00edguez"
@@ -3018,7 +3018,7 @@
     {
         "NUM": 378,
         "EQUIPO": "CA San Lorenzo de Almagro",
-        "CANT": 10,
+        "CANT": 11,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -3330,7 +3330,7 @@
     {
         "NUM": 417,
         "EQUIPO": "Club Atl\u00e9tico Talleres",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Julio Buffarini"
@@ -3666,7 +3666,7 @@
     {
         "NUM": 459,
         "EQUIPO": "Club Atl\u00e9tico Uni\u00f3n",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Junior Marabel"
@@ -3898,7 +3898,7 @@
     {
         "NUM": 488,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Emiliano Mart\u00ednez"
@@ -3938,7 +3938,7 @@
     {
         "NUM": 493,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Gonzalo Montiel"
@@ -3954,7 +3954,7 @@
     {
         "NUM": 495,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Marcos Acu\u00f1a"
@@ -3978,7 +3978,7 @@
     {
         "NUM": 498,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Lisandro Mart\u00ednez"
@@ -4002,7 +4002,7 @@
     {
         "NUM": 501,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Rodrigo De Paul"
@@ -4026,7 +4026,7 @@
     {
         "NUM": 504,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Alexis Mac Allister"
@@ -4074,7 +4074,7 @@
     {
         "NUM": 510,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Joaqu\u00edn Correa"
@@ -4098,7 +4098,7 @@
     {
         "NUM": 513,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Lautaro Mart\u00ednez"
@@ -4114,7 +4114,7 @@
     {
         "NUM": 515,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Plantel 2"
@@ -4130,7 +4130,7 @@
     {
         "NUM": 517,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Plantel 4"
@@ -4162,7 +4162,7 @@
     {
         "NUM": 521,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Plantel 8"

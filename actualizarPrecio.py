@@ -5,8 +5,8 @@ with open ("baseMundial.json","r") as baseJson:
 
 for linea in baseMundial:
     if linea["NUM"][:3]=="FWC":
-        if linea["PRECIO"]==1500:
-            linea["PRECIO"]=1600
+        if linea["PRECIO"]==1100:
+            linea["PRECIO"]=1000
 
 for linea in baseMundial:
     if linea["NUM"][:3]=="FWC":

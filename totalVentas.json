@@ -5268,6 +5268,80 @@
             "Envio": "CORREO",
             "Etiqueta": "SME1",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "ALITASTARKE",
+            "Vendidas": [
+                "BEL1",
+                "BRA4",
+                "CAN5",
+                "CRO3",
+                "JPN5",
+                "KOR11",
+                "POR9",
+                "SRB1",
+                "SRB2",
+                "WAL6",
+                "C8"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/12/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "URB175",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "SCHVARZTMANLUCRECIA",
+            "Vendidas": [
+                "FWC4",
+                "FWC6",
+                "FWC7",
+                "FWC25",
+                "DEN1",
+                "ECU1",
+                "GER1",
+                "NED1",
+                "QAT1",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5",
+                "C6",
+                "C7",
+                "C8"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/12/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "SIN ETIQUETA",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "ELIESTER",
+            "Vendidas": [
+                "FWC20",
+                "FWC21",
+                "FWC22",
+                "FWC23",
+                "FWC24",
+                "FWC26",
+                "FWC29",
+                "AUS1",
+                "CAN1",
+                "KOR14",
+                "FWC28"
+            ],
+            "NoVendidas": [
+                
+            ],
+            "Dia": "04/12/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "SBU1",
+            "PrecioFlex": 0
         }
     ],
     "Futbol Argentino 2023": [
@@ -6070,6 +6144,29 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "ROLANDOMICHAN",
+            "Vendidas": [
+                493,
+                495,
+                501,
+                502,
+                504,
+                510,
+                513,
+                514,
+                515,
+                516,
+                517,
+                521
+            ],
+            "NoVendidas": [],
+            "Dia": "30/11/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX PELUCHE",
+            "Etiqueta": "CABA",
+            "PrecioFlex": 1700
         }
     ]
 }
