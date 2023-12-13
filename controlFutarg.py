@@ -7,7 +7,7 @@ def controlFutarg(ingresaFigu):
     ingresaFigu +=','
 
     for caracter in ingresaFigu:
-        if caracter not in (".",",","/"," ","-"):
+        if caracter not in (".,/ -"):
             numero = numero + caracter
         else:
             if len(numero)<= 3:

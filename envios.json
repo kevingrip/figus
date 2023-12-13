@@ -19,13 +19,15 @@
         "VICENTE LOPEZ",
         "ONCE",
         "MUNRO",
-        "LA MATANZA NORTE"
+        "LA MATANZA NORTE",
+        "FLORIDA"
     ],
     "AND": [
         "AND026",
         "AND040",
         "AND011",
-        "AND025"
+        "AND025",
+        "AND027"
     ],
     "COR": [
         "COR140"
@@ -101,5 +103,8 @@
     ],
     "SNQ": [
         "SNQ1"
+    ],
+    "HOP": [
+        "HOP300"
     ]
 }

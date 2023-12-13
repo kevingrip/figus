@@ -2,7 +2,7 @@ import json
 import pyperclip
 import pyautogui
 import time
-from mundial.sacarEspacioMundial import *
+from sacarEspacioMundial import *
 import easygui
 
 opciones = easygui.buttonbox("Elija una opción", choices=["Compra Panini", "Check sin stock"], title="Confirmación")
@@ -27,7 +27,7 @@ if (opciones == "Compra Panini"):
 
 
 for linea in datosFigu: 
-    if ((linea["CANT"] in (0,1,2)) and (linea["PRECIO"]>800) and (linea["TIPO"] in ('FWC','ESC','COCA'))):       
+    if ((linea["CANT"] in (0,1,2)) and (linea["PRECIO"]>800) and (linea["TIPO"] in ('FWC','ESC','COCA'))) and (linea["NUM"] != ('MRR1')):       
         if (opciones == "Compra Panini") and cantidad < (41):
             cantidad += 1
             if linea["NUM"] =="MRR1":

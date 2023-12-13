@@ -18,7 +18,7 @@ def renamePaises(listaOriginal,lista3LetrasPaises,variantesTotales):
     GHA = ['GHA','GHANA','GANA']
     IRN = ['IRN','IRAN','IRÁN','IRIRAN','LRN','IRAM']
     JPN = ['JPN','JAPON','JAPAN','JAPN','JAP']
-    KOR = ['KOR','KOREA','COREA','KOREADELSUR','COR']
+    KOR = ['KOR','KOREA','COREA','KOREADELSUR','COR','COREADELSUR']
     KSA = ['KSA','ARABIASAUDITA','ARABIA','SAUDIAR','ARAB','ARABIASAUDI','SAUDIARABIA']
     MEX = ['MEX','MEXICO','MEJICO','MXICO','MÉXICO','MX','MEXIVO']
     MRR = ['MRR','MAR','MARRUECOS','MARRU','MOROCCO','MORROCO','MARR']

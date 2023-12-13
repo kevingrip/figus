@@ -890,7 +890,7 @@
     {
         "NUM": 112,
         "EQUIPO": "CA Boca Juniors",
-        "CANT": 0,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 800,
         "NOMBRE": "Bruno Valdez"
@@ -1522,7 +1522,7 @@
     {
         "NUM": 191,
         "EQUIPO": "Club de Gimnasia y Esgrima La Plata",
-        "CANT": 3,
+        "CANT": 4,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -2722,7 +2722,7 @@
     {
         "NUM": 341,
         "EQUIPO": "Racing Club",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Johan Carbonero"
@@ -4098,7 +4098,7 @@
     {
         "NUM": 513,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Lautaro Mart\u00ednez"
