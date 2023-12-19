@@ -8,7 +8,7 @@
     },
     {
         "nombre": "VARANE",
-        "BASE": 10,
+        "BASE": 9,
         "BRONZE": 4,
         "SILVER": 0,
         "GOLD": 0
@@ -30,7 +30,7 @@
     {
         "nombre": "REYNA",
         "BASE": 10,
-        "BRONZE": 9,
+        "BRONZE": 8,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -64,8 +64,8 @@
     },
     {
         "nombre": "MESSI",
-        "BASE": 1,
-        "BRONZE": 5,
+        "BASE": 0,
+        "BRONZE": 4,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -93,7 +93,7 @@
     {
         "nombre": "GRAVENBERCH",
         "BASE": 6,
-        "BRONZE": 9,
+        "BRONZE": 8,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -135,7 +135,7 @@
     {
         "nombre": "ALMOEZ ALI",
         "BASE": 6,
-        "BRONZE": 8,
+        "BRONZE": 7,
         "SILVER": 0,
         "GOLD": 0
     }

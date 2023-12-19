@@ -37,7 +37,7 @@
     },
     {
         "NUM": "FWC4",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -46,7 +46,7 @@
     },
     {
         "NUM": "FWC5",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -55,7 +55,7 @@
     },
     {
         "NUM": "FWC6",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -64,7 +64,7 @@
     },
     {
         "NUM": "FWC7",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -181,7 +181,7 @@
     },
     {
         "NUM": "FWC20",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -217,7 +217,7 @@
     },
     {
         "NUM": "FWC24",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 1200,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -226,7 +226,7 @@
     },
     {
         "NUM": "FWC25",
-        "CANT": 2,
+        "CANT": 0,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -235,7 +235,7 @@
     },
     {
         "NUM": "FWC26",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -244,7 +244,7 @@
     },
     {
         "NUM": "FWC27",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -253,7 +253,7 @@
     },
     {
         "NUM": "FWC28",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -262,7 +262,7 @@
     },
     {
         "NUM": "FWC29",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 950,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -271,7 +271,7 @@
     },
     {
         "NUM": "ARG1",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 3000,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -433,7 +433,7 @@
     },
     {
         "NUM": "ARG19",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 3500,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -784,7 +784,7 @@
     },
     {
         "NUM": "BRA1",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -1126,7 +1126,7 @@
     },
     {
         "NUM": "CMR1",
-        "CANT": 2,
+        "CANT": 0,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -1810,7 +1810,7 @@
     },
     {
         "NUM": "ECU1",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -1981,7 +1981,7 @@
     },
     {
         "NUM": "ENG1",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -3349,7 +3349,7 @@
     },
     {
         "NUM": "KSA1",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -3691,7 +3691,7 @@
     },
     {
         "NUM": "MRR1",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -3898,7 +3898,7 @@
     },
     {
         "NUM": "NED5",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 300,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4204,7 +4204,7 @@
     },
     {
         "NUM": "POR1",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -4348,7 +4348,7 @@
     },
     {
         "NUM": "POR17",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 1000,
         "TIPO": "Comunes",
         "DIA": "02/10/2023",
@@ -4546,7 +4546,7 @@
     },
     {
         "NUM": "SEN1",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 950,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -5743,7 +5743,7 @@
     },
     {
         "NUM": "C1",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",
@@ -5752,7 +5752,7 @@
     },
     {
         "NUM": "C2",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",
@@ -5761,7 +5761,7 @@
     },
     {
         "NUM": "C3",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",
@@ -5770,7 +5770,7 @@
     },
     {
         "NUM": "C4",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",
@@ -5779,7 +5779,7 @@
     },
     {
         "NUM": "C5",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",
@@ -5788,7 +5788,7 @@
     },
     {
         "NUM": "C6",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",
@@ -5797,7 +5797,7 @@
     },
     {
         "NUM": "C7",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",
@@ -5806,7 +5806,7 @@
     },
     {
         "NUM": "C8",
-        "CANT": 0,
+        "CANT": 2,
         "PRECIO": 1200,
         "TIPO": "COCA",
         "DIA": "02/10/2023",
