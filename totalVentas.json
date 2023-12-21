@@ -608,6 +608,49 @@
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "FLORIDA",
             "PrecioFlex": 1700
+        },
+        {
+            "usuario": "FIORELAGAVOTTI",
+            "Vendidas": [
+                "CL4",
+                "52",
+                "83",
+                "84",
+                "144",
+                "154",
+                "212",
+                "221",
+                "233",
+                "237",
+                "302",
+                "386",
+                "395",
+                "443",
+                "467",
+                "513"
+            ],
+            "NoVendidas": [
+                "CL12",
+                "3",
+                "270",
+                "316",
+                "328",
+                "368",
+                "387",
+                "404",
+                "408",
+                "425",
+                "458",
+                "514",
+                "517",
+                "519",
+                "526"
+            ],
+            "Dia": "19/12/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "SIN ETIQUETA",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
@@ -6255,6 +6298,252 @@
             "Envio": "FLEX VERGUI",
             "Etiqueta": "CABA",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "BLONDIS73",
+            "Vendidas": [
+                "FWC4",
+                "FWC15",
+                "FWC21",
+                "FWC27",
+                "ARG9",
+                "ARG19",
+                "AUS1",
+                "AUS10",
+                "BRA12",
+                "CAN8",
+                "CMR6",
+                "CMR16",
+                "CMR18",
+                "CRC1",
+                "CRC5",
+                "CRC12",
+                "CRC19",
+                "DEN12",
+                "ECU13",
+                "ESP1",
+                "ESP4",
+                "IRN13",
+                "IRN15",
+                "IRN16",
+                "JPN5",
+                "KOR11",
+                "KSA1",
+                "KSA18",
+                "POR1",
+                "QAT10",
+                "QAT14",
+                "SRB13",
+                "SUI6",
+                "SUI7",
+                "SUI11",
+                "URU8",
+                "URU13",
+                "WAL4",
+                "C2",
+                "C7"
+            ],
+            "NoVendidas": [
+                "CMR1"
+            ],
+            "Dia": "19/12/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "Nu\u00f1ez",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "BGRIGION",
+            "Vendidas": [
+                "FWC25",
+                "SRB1",
+                "USA1"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/12/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "FLEX PELUCHE",
+            "Etiqueta": "CABA",
+            "PrecioFlex": 1700
+        },
+        {
+            "usuario": "DEBORALORENABRITEZ",
+            "Vendidas": [
+                "ARG3",
+                "ARG13",
+                "ARG14",
+                "FRA18",
+                "TUN7"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/12/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "FLEX PELUCHE",
+            "Etiqueta": "CABA",
+            "PrecioFlex": 1700
+        },
+        {
+            "usuario": "MARCEKRZ",
+            "Vendidas": [
+                "FWC0",
+                "FWC22",
+                "FWC23",
+                "FWC24",
+                "FWC25",
+                "FWC27",
+                "ARG1",
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/12/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "Nu\u00f1ez",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "CARLOS_CHAVARRI",
+            "Vendidas": [
+                "FWC16",
+                "ARG2",
+                "ARG14",
+                "AUS6",
+                "AUS8",
+                "BEL2",
+                "ECU1",
+                "FRA19",
+                "GHA2",
+                "IRN1",
+                "IRN10",
+                "IRN16",
+                "QAT11",
+                "QAT13",
+                "USA7"
+            ],
+            "NoVendidas": [],
+            "Dia": "20/12/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "FLEX VERGUI",
+            "Etiqueta": "LANUS",
+            "PrecioFlex": 1700
+        },
+        {
+            "usuario": "RAMIREZRONER",
+            "Vendidas": [
+                "FWC3",
+                "FWC22",
+                "FWC26",
+                "FWC29",
+                "BEL1",
+                "BEL6",
+                "CRC1",
+                "ECU1",
+                "ESP1",
+                "GER1",
+                "IRN1",
+                "JPN1",
+                "NED12",
+                "POL1",
+                "POL19",
+                "POR1",
+                "SRB1",
+                "SUI1"
+            ],
+            "NoVendidas": [
+                "FWC24",
+                "MRR1"
+            ],
+            "Dia": "20/12/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "FLEX PELUCHE",
+            "Etiqueta": "CABA",
+            "PrecioFlex": 1700
+        },
+        {
+            "usuario": "VERODELBO",
+            "Vendidas": [
+                "ARG14"
+            ],
+            "NoVendidas": [],
+            "Dia": "20/12/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "M.Coronado",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "AGUSTINA2291",
+            "Vendidas": [
+                "BEL11",
+                "BRA1",
+                "MEX1"
+            ],
+            "NoVendidas": [],
+            "Dia": "20/12/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "Nu\u00f1ez",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "THE MOUTH",
+            "Vendidas": [
+                "FWC19",
+                "CRO1"
+            ],
+            "NoVendidas": [
+                "FWC24",
+                "FWC25",
+                "ARG1"
+            ],
+            "Dia": "20/12/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "FLEX PELUCHE",
+            "Etiqueta": "CABA",
+            "PrecioFlex": 1700
+        },
+        {
+            "usuario": "TERESAPOSSE",
+            "Vendidas": [
+                "CAN12",
+                "SRB8",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5",
+                "C6",
+                "C7",
+                "C8"
+            ],
+            "NoVendidas": [],
+            "Dia": "20/12/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "FLEX PELUCHE",
+            "Etiqueta": "CABA",
+            "PrecioFlex": 1700
+        },
+        {
+            "usuario": "POAN8932404",
+            "Vendidas": [
+                "FWC5",
+                "FWC6",
+                "FWC11",
+                "FWC12",
+                "FWC13",
+                "FWC14",
+                "FWC16",
+                "FWC17"
+            ],
+            "NoVendidas": [
+                "FWC4",
+                "FWC7"
+            ],
+            "Dia": "20/12/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "FLEX MATI",
+            "Etiqueta": "CABA",
+            "PrecioFlex": 1700
         }
     ],
     "Futbol Argentino 2023": [

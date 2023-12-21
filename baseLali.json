@@ -30,7 +30,7 @@
         "ID": 4,
         "NUM": "CL4",
         "EQUIPO": "Conmebol Libertadores 2022",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "CL",
         "PRECIO": 900,
         "NOMBRE": "Champions - Flamengo - Pedro"
@@ -579,7 +579,7 @@
         "ID": 65,
         "NUM": "52",
         "EQUIPO": "Racing Club",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Racing Team Logo"
@@ -858,7 +858,7 @@
         "ID": 96,
         "NUM": "83",
         "EQUIPO": "Independiente Medellin",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Emerson Batalla"
@@ -867,7 +867,7 @@
         "ID": 97,
         "NUM": "84",
         "EQUIPO": "Independiente Medellin",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Felipe Pardo"
@@ -1407,7 +1407,7 @@
         "ID": 157,
         "NUM": "144",
         "EQUIPO": "Barcelona SC Guayaquil",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "KSK",
         "PRECIO": 800,
         "NOMBRE": "Barcelona S.C. Jersey 1 and 2"
@@ -1497,7 +1497,7 @@
         "ID": 167,
         "NUM": "154",
         "EQUIPO": "Bolivar La Paz",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Bolivar Team Logo"
@@ -2019,7 +2019,7 @@
         "ID": 225,
         "NUM": "212",
         "EQUIPO": "Fluminense Football Club",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "KSK",
         "PRECIO": 800,
         "NOMBRE": "Fluminense Jersey 1 and 2"
@@ -2100,7 +2100,7 @@
         "ID": 234,
         "NUM": "221",
         "EQUIPO": "Fluminense Football Club",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Lele"
@@ -2208,7 +2208,7 @@
         "ID": 246,
         "NUM": "233",
         "EQUIPO": "CA River Plate",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 800,
         "NOMBRE": "Nicolas de la Cruz"
@@ -2244,7 +2244,7 @@
         "ID": 250,
         "NUM": "237",
         "EQUIPO": "CA River Plate",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 800,
         "NOMBRE": "Pablo Solari"
@@ -2829,7 +2829,7 @@
         "ID": 315,
         "NUM": "302",
         "EQUIPO": "Sport Club Corinthians Paulista",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Renato Augusto"
@@ -3585,7 +3585,7 @@
         "ID": 399,
         "NUM": "386",
         "EQUIPO": "Monagas SC",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Edgar Carrion"
@@ -3666,7 +3666,7 @@
         "ID": 408,
         "NUM": "395",
         "EQUIPO": "Deportivo Pereira",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Carlos Ramirez"
@@ -4098,7 +4098,7 @@
         "ID": 456,
         "NUM": "443",
         "EQUIPO": "Clube Atl\u00c3\u00a9tico Mineiro",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Atl\u00c3\u00a9tico Mineiro Team Logo"
@@ -4314,7 +4314,7 @@
         "ID": 480,
         "NUM": "467",
         "EQUIPO": "Club Libertad",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "KSK",
         "PRECIO": 800,
         "NOMBRE": "Libertad Jersey 1 and 2"
@@ -4728,7 +4728,7 @@
         "ID": 526,
         "NUM": "513",
         "EQUIPO": "Olimpia Asuncion",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 300,
         "NOMBRE": "Victor Salazar"
