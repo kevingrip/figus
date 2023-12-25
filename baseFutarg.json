@@ -1658,7 +1658,7 @@
     {
         "NUM": 208,
         "EQUIPO": "CD Godoy Cruz",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -3834,7 +3834,7 @@
     {
         "NUM": 480,
         "EQUIPO": "Campeones 2022",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "ESPECIALES",
         "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Copa Liga Profesional - Boca 1"
@@ -3850,7 +3850,7 @@
     {
         "NUM": 482,
         "EQUIPO": "Campeones 2022",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "ESPECIALES",
         "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Torneo Liga Profesional - Boca 1"
@@ -3938,7 +3938,7 @@
     {
         "NUM": 493,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Gonzalo Montiel"
@@ -3954,7 +3954,7 @@
     {
         "NUM": 495,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Marcos Acu\u00f1a"
@@ -3962,7 +3962,7 @@
     {
         "NUM": 496,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Cristian Romero"
@@ -3970,7 +3970,7 @@
     {
         "NUM": 497,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Nicol\u00e1s Otamendi"
@@ -4026,7 +4026,7 @@
     {
         "NUM": 504,
         "EQUIPO": "Copa Mundial FiFa Qatar 2022",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Alexis Mac Allister"
@@ -4114,7 +4114,7 @@
     {
         "NUM": 515,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Plantel 2"
@@ -4130,7 +4130,7 @@
     {
         "NUM": 517,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Plantel 4"
@@ -4146,7 +4146,7 @@
     {
         "NUM": 519,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 2,
+        "CANT": 3,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Plantel 6"
@@ -4162,7 +4162,7 @@
     {
         "NUM": 521,
         "EQUIPO": "Argentina Campe\u00f3n del Mundo",
-        "CANT": 1,
+        "CANT": 2,
         "TIPO": "AFA",
         "PRECIO": 1000,
         "NOMBRE": "Plantel 8"

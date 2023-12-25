@@ -12797,6 +12797,87 @@
                 "USA1",
                 "WAL1"
             ]
+        },
+        {
+            "usuario": "+54 9 11 2463-8233",
+            "figusPedidas": [
+                "CRO11",
+                "CRO19",
+                "CRO5",
+                "FWC2",
+                "URU5"
+            ]
+        },
+        {
+            "usuario": "ANDRADEAGUSTIN20230907191103",
+            "figusPedidas": [
+                "BRA1",
+                "DEN1",
+                "FWC20",
+                "FWC24",
+                "FWC25",
+                "FWC26",
+                "FWC27",
+                "FWC7",
+                "GHA1",
+                "IRN1",
+                "MEX1",
+                "MRR1",
+                "NED1"
+            ]
+        },
+        {
+            "usuario": "LGR9955071",
+            "figusPedidas": [
+                "ARG1",
+                "ARG19",
+                "BEL1",
+                "BRA1",
+                "FWC0",
+                "FWC29",
+                "FWC3",
+                "FWC5",
+                "POL1",
+                "POR1",
+                "SUI1"
+            ]
+        },
+        {
+            "usuario": "ROBINSONGUSTAVO20230619224644",
+            "figusPedidas": [
+                "AUS18",
+                "BRA1",
+                "CRO14",
+                "ENG18",
+                "FWC20",
+                "FWC21",
+                "FWC27",
+                "FWC5",
+                "FWC6",
+                "GHA15",
+                "MRR11",
+                "MRR4",
+                "NED1",
+                "POL1",
+                "QAT1",
+                "QAT19",
+                "SRB12",
+                "SRB6",
+                "SRB9",
+                "TUN1",
+                "TUN18"
+            ]
+        },
+        {
+            "usuario": "JUANIGNACIOPARIANI",
+            "figusPedidas": [
+                "CMR1",
+                "FRA1",
+                "MEX1",
+                "MEX5",
+                "NED1",
+                "SRB1"
+            ]
         }
     ]
 }
