@@ -6659,6 +6659,75 @@
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "LUJAN TONEATTI",
+            "Vendidas": [
+                "FWC2",
+                "FWC4",
+                "ARG15",
+                "ESP1",
+                "FRA6",
+                "IRN1",
+                "KSA13",
+                "MEX1",
+                "MRR1",
+                "NED1",
+                "POL1",
+                "POR1",
+                "QAT1",
+                "SUI9",
+                "USA1"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/12/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "SIN ETIQUETA",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "SOLANGEYEZA",
+            "Vendidas": [
+                "FWC1",
+                "FWC9",
+                "FWC10",
+                "FWC11",
+                "FWC13",
+                "FWC14",
+                "FWC16",
+                "FWC17"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/12/2023",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX VERGUI",
+            "Etiqueta": "RAMOS MEJIA",
+            "PrecioFlex": 1700
+        },
+        {
+            "usuario": "DEFELIPP",
+            "Vendidas": [
+                "ENG2",
+                "ENG3",
+                "ENG7",
+                "ENG14",
+                "ENG18",
+                "ENG19",
+                "FRA6",
+                "FRA9",
+                "FRA19",
+                "USA7",
+                "USA9",
+                "USA12",
+                "USA18"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/12/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "Etiqueta": "SIN ETIQUETA",
+            "PrecioFlex": 0
         }
     ],
     "Futbol Argentino 2023": [

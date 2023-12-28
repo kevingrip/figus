@@ -8,7 +8,7 @@
     },
     {
         "nombre": "VARANE",
-        "BASE": 9,
+        "BASE": 10,
         "BRONZE": 4,
         "SILVER": 0,
         "GOLD": 0
@@ -60,7 +60,7 @@
         "BASE": 0,
         "BRONZE": 0,
         "SILVER": 0,
-        "GOLD": 0
+        "GOLD": 1
     },
     {
         "nombre": "MESSI",
@@ -86,14 +86,14 @@
     {
         "nombre": "LEWANDOWSKI",
         "BASE": 4,
-        "BRONZE": 2,
+        "BRONZE": 1,
         "SILVER": 0,
         "GOLD": 0
     },
     {
         "nombre": "GRAVENBERCH",
         "BASE": 6,
-        "BRONZE": 8,
+        "BRONZE": 9,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -108,7 +108,7 @@
         "nombre": "ERIKSEN",
         "BASE": 8,
         "BRONZE": 5,
-        "SILVER": 0,
+        "SILVER": 1,
         "GOLD": 0
     },
     {
