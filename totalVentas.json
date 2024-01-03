@@ -6728,6 +6728,106 @@
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "LAUTAROCMERA",
+            "Vendidas": [
+                "CRC1",
+                "ESP6",
+                "GHA16",
+                "MEX18",
+                "POR6",
+                "POR18",
+                "QAT1",
+                "WAL12"
+            ],
+            "NoVendidas": [],
+            "Dia": "28/12/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "Etiqueta": "SIN ETIQUETA",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "CARLOS_CHAVARRI",
+            "Vendidas": [
+                "CMR4",
+                "CMR9",
+                "CMR18",
+                "ECU9",
+                "ECU13",
+                "JPN3",
+                "JPN10",
+                "KOR12",
+                "KOR14",
+                "KSA1",
+                "SEN4",
+                "SEN9",
+                "WAL1",
+                "WAL5",
+                "WAL11"
+            ],
+            "NoVendidas": [
+                "POL1"
+            ],
+            "Dia": "28/12/2023",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "Etiqueta": "SIN ETIQUETA",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "ROAN9055574",
+            "Vendidas": [
+                "FWC20",
+                "FWC21",
+                "FWC27",
+                "ENG1",
+                "GHA1",
+                "IRN1",
+                "SUI1"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/01/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "SIN ETIQUETA",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "BORD\u00d3NMELINA20220707104016_2",
+            "Vendidas": [
+                "ARG2",
+                "ARG5",
+                "ARG7",
+                "ARG8",
+                "ARG9",
+                "ARG13",
+                "ARG14",
+                "ARG17",
+                "BRA2",
+                "BRA3",
+                "BRA4",
+                "BRA5",
+                "BRA6",
+                "BRA12",
+                "BRA15",
+                "BRA16",
+                "BRA17",
+                "BRA18",
+                "FRA2",
+                "FRA11",
+                "FRA14",
+                "FRA15",
+                "FRA17",
+                "FRA19"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/01/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "Etiqueta": "SIN ETIQUETA",
+            "PrecioFlex": 0
         }
     ],
     "Futbol Argentino 2023": [
