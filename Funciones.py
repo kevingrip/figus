@@ -214,3 +214,19 @@ def sacarPaisesDuplicados(lista,listaCorregida):
             listaCorregida.append(pais)
 
 
+def checkNum(lista):
+    validacion=False
+    for figurita in lista:
+        if len(figurita)>=5:
+            if figurita[:3] != 'FWC':
+                if int(figurita[3:])>19:
+                    validacion=True
+                    print("Error",figurita)
+            else:
+                if int(figurita[3:])>29:
+                    validacion=True
+                    print("Error",figurita)
+    if validacion == True:
+        return(False)
+    else:
+        return(True)

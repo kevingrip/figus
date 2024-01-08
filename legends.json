@@ -38,7 +38,7 @@
         "nombre": "C RONALDO",
         "BASE": 0,
         "BRONZE": 0,
-        "SILVER": 0,
+        "SILVER": 1,
         "GOLD": 0
     },
     {
@@ -52,14 +52,14 @@
         "nombre": "NEYMAR",
         "BASE": 0,
         "BRONZE": 3,
-        "SILVER": 0,
+        "SILVER": 1,
         "GOLD": 0
     },
     {
         "nombre": "MODRIC",
         "BASE": 0,
         "BRONZE": 0,
-        "SILVER": 0,
+        "SILVER": 1,
         "GOLD": 1
     },
     {
@@ -87,7 +87,7 @@
         "nombre": "LEWANDOWSKI",
         "BASE": 4,
         "BRONZE": 0,
-        "SILVER": 0,
+        "SILVER": 1,
         "GOLD": 0
     },
     {

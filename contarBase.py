@@ -11,4 +11,4 @@ def contarBase(base):
 
         print(cant)
 
-contarBase("albumExtra.json")
+contarBase("baseMundial.json")

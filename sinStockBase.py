@@ -27,12 +27,12 @@ if (opciones == "Compra Panini"):
 
 
 for linea in datosFigu: 
-    if (linea["CANT"] in (0,1,2)) and (linea["PRECIO"]>700)  and (linea["NUM"] not in ('MRR1','ARG2')):       
-        if (opciones == "Compra Panini") and cantidad < (41):
+    if (linea["CANT"] in (0,1,2,3)) and (linea["PRECIO"]>700)  and (linea["NUM"] not in ('ARG2','FWC16')):       
+        if (opciones == "Compra Panini") and cantidad <= (41):
             cantidad += 1
             if linea["NUM"] =="MRR1":
                 time.sleep(0.5)
-                pyperclip.copy("MAR1")
+                pyperclip.copy("MMAR1")
                 print(linea["NUM"],linea["CANT"])
                 pyautogui.hotkey('ctrl','v')
                 time.sleep(0.5)

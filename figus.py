@@ -98,10 +98,12 @@ if (album == "Mundial Qatar 2022"):
             validacionPaises = True
 
             figu = acomodar (figu,paisesError,listaPaises)
-
+            
             listaFigu = separacion(figu)
 
             figulista = nombreOriginal(listaFigu)
+
+            ValidacionNum = checkNum(figulista)
             
             figulista_sorted = sorted (figulista)
 
@@ -111,7 +113,7 @@ if (album == "Mundial Qatar 2022"):
                 validacionPaises = False
 
 
-            if validacionPaises == True:
+            if validacionPaises == True and ValidacionNum == True:
                 #mostrarFigusMundial(figulista_sorted) # hacer uno general
 
                 print(procesadorMundial(figulista_sorted,nombre,baseMundial))
@@ -130,6 +132,8 @@ if (album == "Mundial Qatar 2022"):
             else:
                 for pais in paisesError:
                     print ("ERROR: Corregir el pais", pais)
+                
+                pyperclip.copy(datosIngresar[1])
 
         elif subInicio == "Pregunta de Usuario":
 
