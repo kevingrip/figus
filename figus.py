@@ -101,9 +101,7 @@ if (album == "Mundial Qatar 2022"):
             
             listaFigu = separacion(figu)
 
-            figulista = nombreOriginal(listaFigu)
-
-            ValidacionNum = checkNum(figulista)
+            figulista = nombreOriginal(listaFigu)            
             
             figulista_sorted = sorted (figulista)
 
@@ -111,6 +109,8 @@ if (album == "Mundial Qatar 2022"):
 
             if len(paisesError)>0:
                 validacionPaises = False
+            else:
+                ValidacionNum = checkNum(figulista)
 
 
             if validacionPaises == True and ValidacionNum == True:
@@ -133,7 +133,7 @@ if (album == "Mundial Qatar 2022"):
                 for pais in paisesError:
                     print ("ERROR: Corregir el pais", pais)
                 
-                pyperclip.copy(datosIngresar[1])
+                pyperclip.copy(datosIngresar[0] + datosIngresar[1])
 
         elif subInicio == "Pregunta de Usuario":
 
