@@ -27,7 +27,7 @@ if (opciones == "Compra Panini"):
 
 
 for linea in datosFigu: 
-    if (linea["CANT"] in (0,1,2,3)) and (linea["PRECIO"]>700)  and (linea["NUM"] not in ('ARG2','FWC16')):       
+    if (linea["CANT"] in (0,1,2,3)) and (linea["PRECIO"]>700):       
         if (opciones == "Compra Panini") and cantidad <= (41):
             cantidad += 1
             if linea["NUM"] =="MRR1":
