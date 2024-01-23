@@ -4,7 +4,7 @@
         "BASE": 8,
         "BRONZE": 3,
         "SILVER": 0,
-        "GOLD": 0
+        "GOLD": 1
     },
     {
         "nombre": "VARANE",
@@ -32,7 +32,7 @@
         "BASE": 10,
         "BRONZE": 8,
         "SILVER": 0,
-        "GOLD": 0
+        "GOLD": 1
     },
     {
         "nombre": "C RONALDO",
@@ -137,6 +137,6 @@
         "BASE": 6,
         "BRONZE": 6,
         "SILVER": 0,
-        "GOLD": 0
+        "GOLD": 1
     }
 ]
