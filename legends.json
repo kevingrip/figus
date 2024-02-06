@@ -2,14 +2,14 @@
     {
         "nombre": "VLAHOVIC",
         "BASE": 8,
-        "BRONZE": 3,
+        "BRONZE": 2,
         "SILVER": 0,
         "GOLD": 1
     },
     {
         "nombre": "VARANE",
         "BASE": 10,
-        "BRONZE": 3,
+        "BRONZE": 2,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -23,7 +23,7 @@
     {
         "nombre": "L SUAREZ",
         "BASE": 0,
-        "BRONZE": 2,
+        "BRONZE": 1,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -38,7 +38,7 @@
         "nombre": "C RONALDO",
         "BASE": 0,
         "BRONZE": 0,
-        "SILVER": 1,
+        "SILVER": 0,
         "GOLD": 0
     },
     {
@@ -60,7 +60,7 @@
         "BASE": 0,
         "BRONZE": 0,
         "SILVER": 1,
-        "GOLD": 1
+        "GOLD": 0
     },
     {
         "nombre": "MESSI",
@@ -71,7 +71,7 @@
     },
     {
         "nombre": "MANE",
-        "BASE": 7,
+        "BASE": 6,
         "BRONZE": 0,
         "SILVER": 0,
         "GOLD": 0
@@ -85,7 +85,7 @@
     },
     {
         "nombre": "LEWANDOWSKI",
-        "BASE": 4,
+        "BASE": 3,
         "BRONZE": 0,
         "SILVER": 1,
         "GOLD": 0
@@ -99,7 +99,7 @@
     },
     {
         "nombre": "GAVI",
-        "BASE": 5,
+        "BASE": 4,
         "BRONZE": 1,
         "SILVER": 0,
         "GOLD": 0
@@ -113,7 +113,7 @@
     },
     {
         "nombre": "DE BRUYNE",
-        "BASE": 1,
+        "BASE": 0,
         "BRONZE": 2,
         "SILVER": 0,
         "GOLD": 0
@@ -127,7 +127,7 @@
     },
     {
         "nombre": "BELLINGHAM",
-        "BASE": 3,
+        "BASE": 1,
         "BRONZE": 0,
         "SILVER": 0,
         "GOLD": 0
