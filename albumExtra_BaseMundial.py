@@ -14,7 +14,7 @@ for linea in albumExtra:
     if linea["CANT"] == (1):
         for lin in baseMundial:
             if linea["NUM"] == lin["NUM"]:
-                if lin["CANT"] >4:
+                if lin["CANT"] >0:
                     lin["CANT"] -=1
                     linea["CANT"] +=1
                     print(linea)

@@ -4,7 +4,7 @@
         "BASE": 8,
         "BRONZE": 2,
         "SILVER": 0,
-        "GOLD": 1
+        "GOLD": 0
     },
     {
         "nombre": "VARANE",
@@ -87,7 +87,7 @@
         "nombre": "LEWANDOWSKI",
         "BASE": 3,
         "BRONZE": 0,
-        "SILVER": 1,
+        "SILVER": 0,
         "GOLD": 0
     },
     {
@@ -100,7 +100,7 @@
     {
         "nombre": "GAVI",
         "BASE": 4,
-        "BRONZE": 1,
+        "BRONZE": 0,
         "SILVER": 0,
         "GOLD": 0
     },
