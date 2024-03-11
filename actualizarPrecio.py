@@ -4,8 +4,8 @@ with open ("baseMundial.json","r") as baseJson:
     baseMundial = json.load(baseJson)
 
 for linea in baseMundial:
-    if linea["PRECIO"]==1000:
-        linea["PRECIO"]=1550
+    if linea["PRECIO"]==1550:
+        linea["PRECIO"]=1350
 
 for linea in baseMundial:
     print(linea)
