@@ -16059,6 +16059,32 @@
                 "USA1",
                 "USA4"
             ]
+        },
+        {
+            "usuario": "STOREMDQ",
+            "figusPedidas": [
+                "AUS1",
+                "AUS6",
+                "FWC19",
+                "FWC2",
+                "FWC20",
+                "GER1"
+            ]
+        },
+        {
+            "usuario": "GEORGE MART\u00cdNEZ",
+            "figusPedidas": [
+                "FWC0",
+                "FWC26"
+            ]
+        },
+        {
+            "usuario": "IGNABRUNET",
+            "figusPedidas": [
+                "C1",
+                "FWC26",
+                "FWC7"
+            ]
         }
     ]
 }
