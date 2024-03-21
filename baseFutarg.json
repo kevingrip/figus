@@ -618,7 +618,7 @@
     {
         "NUM": 78,
         "EQUIPO": "CA Barracas Central",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Brian Calderara"
@@ -786,7 +786,7 @@
     {
         "NUM": 99,
         "EQUIPO": "Club Atl\u00e9tico Belgrano",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Mat\u00edas Ariel Garc\u00eda"
@@ -1122,7 +1122,7 @@
     {
         "NUM": 141,
         "EQUIPO": "Club Atl\u00e9tico Col\u00f3n",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Ignacio Chicco"
@@ -1658,7 +1658,7 @@
     {
         "NUM": 208,
         "EQUIPO": "CD Godoy Cruz",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -1706,7 +1706,7 @@
     {
         "NUM": 214,
         "EQUIPO": "CD Godoy Cruz",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Thomas Galdames"
@@ -1754,7 +1754,7 @@
     {
         "NUM": 220,
         "EQUIPO": "CD Godoy Cruz",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Juan Andrada"
@@ -1970,7 +1970,7 @@
     {
         "NUM": 247,
         "EQUIPO": "CA Independiente",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Joaqu\u00edn Laso"
@@ -2202,7 +2202,7 @@
     {
         "NUM": 276,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 18,
+        "CANT": 17,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -2306,7 +2306,7 @@
     {
         "NUM": 289,
         "EQUIPO": "Club Atl\u00e9tico Lan\u00fas",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Jos\u00e9 Sand"
@@ -3106,7 +3106,7 @@
     {
         "NUM": 389,
         "EQUIPO": "CA San Lorenzo de Almagro",
-        "CANT": 4,
+        "CANT": 3,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Agust\u00edn Martegani"
@@ -3210,7 +3210,7 @@
     {
         "NUM": 402,
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Harrinson Mancilla"
@@ -3258,7 +3258,7 @@
     {
         "NUM": 408,
         "EQUIPO": "CA Sarmiento de Jun\u00edn",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Juan Cruz Kaprof"
@@ -3290,7 +3290,7 @@
     {
         "NUM": 412,
         "EQUIPO": "Club Atl\u00e9tico Talleres",
-        "CANT": 4,
+        "CANT": 3,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -3890,7 +3890,7 @@
     {
         "NUM": 487,
         "EQUIPO": "Campeones 2022",
-        "CANT": 4,
+        "CANT": 3,
         "TIPO": "ESPECIALES",
         "PRECIO": 800,
         "NOMBRE": "Campe\u00f3n Trofeo de Campeones - Racing 2"

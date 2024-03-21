@@ -7723,6 +7723,79 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "ALBERTOADRIANGONZALEZ",
+            "Vendidas": [
+                "FWC27",
+                "AUS4",
+                "AUS13",
+                "BEL12",
+                "BRA17",
+                "CAN9",
+                "DEN7",
+                "DEN12",
+                "DEN17",
+                "ESP2",
+                "ESP8",
+                "GER8",
+                "GER14",
+                "GER16",
+                "GHA8",
+                "GHA16",
+                "IRN4",
+                "JPN9",
+                "JPN19",
+                "KOR5",
+                "KSA18",
+                "MEX17",
+                "POR13",
+                "POR15",
+                "POR19",
+                "SUI2",
+                "TUN9",
+                "TUN12",
+                "URU4",
+                "URU6",
+                "URU19",
+                "WAL11"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/03/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "Etiqueta": "AND027",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "RENE HOU",
+            "Vendidas": [
+                "FWC3",
+                "FWC12",
+                "SEN1",
+                "C5"
+            ],
+            "NoVendidas": [
+                "POL1"
+            ],
+            "Dia": "20/03/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "Nu\u00f1ez",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "COLU4118438",
+            "Vendidas": [
+                "KSA9",
+                "WAL17"
+            ],
+            "NoVendidas": [],
+            "Dia": "20/03/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "Nu\u00f1ez",
+            "PrecioFlex": 0
         }
     ],
     "Futbol Argentino 2023": [
@@ -8632,6 +8705,37 @@
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "MORON",
             "PrecioFlex": 1700
+        },
+        {
+            "usuario": "ZOCCALIFEDERICO",
+            "Vendidas": [
+                78,
+                99,
+                141,
+                208,
+                214,
+                220,
+                247,
+                276,
+                289,
+                389,
+                402,
+                408,
+                412,
+                487
+            ],
+            "NoVendidas": [
+                103,
+                232,
+                334,
+                391,
+                434
+            ],
+            "Dia": "16/03/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "Nu\u00f1ez",
+            "PrecioFlex": 0
         }
     ]
 }
