@@ -1,0 +1,14 @@
+.inpt{
+    width: 800px;
+    height: 40px;
+}
+
+.espBtn{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.btn{
+    height: 30px;
+}
