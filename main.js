@@ -74,7 +74,7 @@ const buscarFigus = () => {
     resultados.appendChild(totalFi);
 
     const mensaje = document.createElement('h3');
-    mensaje.textContent = `Las tengo excepto ${faltantes}`
+    mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por las ${cantFigus} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
     resultados.appendChild(mensaje);
 };
 
