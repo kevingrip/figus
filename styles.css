@@ -1,5 +1,5 @@
 .inpt{
-    width: 800px;
+    width: 600px;
     height: 40px;
 }
 
@@ -11,4 +11,8 @@
 
 .btn{
     height: 30px;
+}
+
+.bloqueAlbum{
+    margin: 10px;
 }

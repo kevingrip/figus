@@ -10,10 +10,14 @@
     <h1>Figuritas</h1>
     <h2>Presione el album:</h2>
     <div>
-        <button onclick="tipoAlbum('baseMundial')">Mundial 2022</button>
-        <button onclick="tipoAlbum('base_copam')">Copa America</button>
-        <button onclick="tipoAlbum('baseFutarg')">Futbol Argentino</button>
-        <button onclick="tipoAlbum('baseLali')">Copa Libertadores</button>
+        <div>
+            <button class="bloqueAlbum" onclick="tipoAlbum('baseMundial')">Mundial 2022</button>      
+            <button class="bloqueAlbum" onclick="tipoAlbum('base_copam')">Copa America</button>
+        </div>
+        <div>
+            <button class="bloqueAlbum" onclick="tipoAlbum('baseFutarg')">Futbol Argentino</button>
+            <button class="bloqueAlbum" onclick="tipoAlbum('baseLali')">Copa Libertadores</button>
+        </div>
     </div>
     <h2>Ingresa las figus que deseas buscar:</h2>
     <input type="text" id="entrada" class="inpt">
