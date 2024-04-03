@@ -1,5 +1,5 @@
 
-let filePath;
+let filePath='./baseMundial.json';
 const tipoAlbum = (tipo) => {
     
     if (tipo === null) {
