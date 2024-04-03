@@ -76,7 +76,12 @@ const buscarFigus = () => {
     const mensaje = document.createElement('h3');
     if (faltantes.length == 0){
         if (cantFigus==1){
-            mensaje.textContent = `Si, la tengo en stock. El precio por la figurita original es 3000. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+            if (totalPrecio<3000){
+                mensaje.textContent = `Si, la tengo en stock. El precio por la figurita original es 3000. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+            }else{
+                mensaje.textContent = `Si, la tengo en stock. El precio por la figurita original es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+            }
+            
         } else{
             mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigus} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
         }
