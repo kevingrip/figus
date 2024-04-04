@@ -40,3 +40,10 @@ button.pressed {
     background-color: #2980b9;
     color: white;
 }
+
+body {
+    width: 100%; /* O cualquier otro ancho deseado */
+    height: 100%; /* O cualquier otra altura deseada */
+    margin: 0; /* Para quitar el margen predeterminado del body */
+    padding: 0; /* Para quitar el padding predeterminado del body */
+}
