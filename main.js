@@ -68,15 +68,15 @@ const buscarFigus = () => {
     resultados.innerHTML = ''; // Limpiar resultados anteriores
     filteredFigus.forEach(figu => {
         const li = document.createElement('li');
-        li.textContent = `${figu.NUM} : ${figu.CANT} - $${figu.PRECIO}`;
+        li.textContent = `${figu.NUM} => ${figu.CANT} - $${figu.PRECIO}`;
         resultados.appendChild(li);
     });
 
-    const totalLi = document.createElement('h2');
-    totalLi.textContent = `Total Precio: ${totalPrecio}`;
+    const totalLi = document.createElement('p');
+    totalLi.textContent = `Total Precio: $${totalPrecio}`;
     resultados.appendChild(totalLi);
 
-    const totalFi = document.createElement('h2');
+    const totalFi = document.createElement('p');
     totalFi.textContent = `Figus en Stock: ${cantFigus}`;
     resultados.appendChild(totalFi);
 

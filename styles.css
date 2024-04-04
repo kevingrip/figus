@@ -15,6 +15,18 @@
 
 .bloqueAlbum{
     margin: 10px;
+    height: 60px;
+}
+
+.posBtn{
+    display: flex;
+}
+
+.posBusc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bgc{
