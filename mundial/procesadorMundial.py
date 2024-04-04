@@ -61,7 +61,7 @@ def procesadorMundial(figuritas,nombre,baseMundial):
                 else:
                     respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+resto+" El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(precio_total) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación con envio gratis!"
             else:
-                if (precio_total/cantidadTengo) == 300:
+                if (precio_total/cantidadTengo) == 750:
                     if (cantidadTengo == 1):
                         respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+" El precio por la figurita original es " + str(cantidadTengo*precio1Comun) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     elif (cantidadTengo == 2):
@@ -72,7 +72,7 @@ def procesadorMundial(figuritas,nombre,baseMundial):
                         respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+resto+" El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(cantidadTengo*precioHasta5Comun) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     else:
                         respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+resto+" El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(cantidadTengo*precioSoloComunes) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
-                elif (precio_total/cantidadTengo) == 1050:
+                elif (precio_total/cantidadTengo) == 1500:
                     if (cantidadTengo == 1):
                         respuesta="Hola"+nombre+", "+hora()+"! Tengo la "+tengo+"El precio por la figurita original es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     elif (cantidadTengo == 2):
@@ -94,7 +94,7 @@ def procesadorMundial(figuritas,nombre,baseMundial):
             if precio_total>=23000:
                 respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo todas en stock. El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(precio_total) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación con envio gratis!"
             else:
-                if (precio_total/cantidadTengo) == 300:
+                if (precio_total/cantidadTengo) == 750:
                     if (cantidadTengo == 1):
                         respuesta="Hola"+nombre+", "+hora()+"! Si, la tengo en stock. El precio es " + str(cantidadTengo*precio1Comun) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     elif (cantidadTengo == 2):
@@ -107,7 +107,7 @@ def procesadorMundial(figuritas,nombre,baseMundial):
                         respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo todas en stock. El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(cantidadTengo*precioSoloComunes) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                 elif precio_total == 1050:
                     respuesta="Hola"+nombre+", "+hora()+"! Si, la tengo en stock. El precio es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
-                elif (precio_total/cantidadTengo) == 1050:
+                elif (precio_total/cantidadTengo) == 1500:
                     if (cantidadTengo < 5):
                         respuesta="Hola"+nombre+", "+hora()+"! Si, la tengo en stock. El precio es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     else:

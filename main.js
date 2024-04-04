@@ -21,7 +21,9 @@ const cargarFigus = () => {
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
 };
 
-
+const tipoClase = () =>{
+    
+}
 
 
 // Función para buscar y mostrar las figus filtradas
