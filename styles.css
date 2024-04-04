@@ -22,3 +22,8 @@
     color: white;
     height: 30px;
 }
+
+button.pressed {
+    background-color: #2980b9;
+    color: white;
+}

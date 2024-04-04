@@ -1,9 +1,15 @@
 
 let filePath='./baseMundial.json';
-const tipoAlbum = (tipo) => {
+const tipoAlbum = (tipo,event) => {
     
     filePath = `./${tipo}.json`; // Remove single quotes around template literal
     console.log(filePath);
+
+    document.querySelectorAll('.bloqueAlbum').forEach(button => {
+        button.classList.remove('pressed');
+    });
+
+    event.target.classList.add('pressed');
     
     cargarFigus();
 
@@ -22,7 +28,7 @@ const cargarFigus = () => {
 };
 
 const tipoClase = () =>{
-    
+
 }
 
 
