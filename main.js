@@ -44,10 +44,12 @@ const buscarFigus = () => {
     let cantFigus =0;
     let totalPrecio = 0;
     let faltantes ='';
+    let figuInd='';
     filteredFigus.forEach(figu => {
         if (figu.CANT>0) {
             cantFigus+=1;
             totalPrecio += figu.PRECIO;
+            figuInd=figu.NUM;
         } else{
             faltantes+=figu.NUM+" ";
         }
@@ -67,7 +69,7 @@ const buscarFigus = () => {
     resultados.appendChild(totalLi);
 
     const totalFi = document.createElement('h2');
-    totalFi.textContent = `Cant Figus: ${cantFigus}`;
+    totalFi.textContent = `Figus en Stock: ${cantFigus}`;
     resultados.appendChild(totalFi);
 
     const mensaje = document.createElement('h3');
@@ -84,7 +86,17 @@ const buscarFigus = () => {
         }
         
     } else {
-        mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por las ${cantFigus} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+        if (cantFigus==1){
+            mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por ${figuInd} es 3000. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+        }else{
+            if (totalPrecio<3000){
+                mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por las ${cantFigus} figuritas originales es 3000. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+            }else{
+                mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por las ${cantFigus} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+            }
+            
+        }
+        
     }
     
     resultados.appendChild(mensaje);
