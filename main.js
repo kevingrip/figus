@@ -2,14 +2,11 @@
 let filePath='./baseMundial.json';
 const tipoAlbum = (tipo) => {
     
-    if (tipo === null) {
-        filePath = './baseMundial.json';
-        console.log(filePath);
-    } else {
-        filePath = `./${tipo}.json`; // Remove single quotes around template literal
-        console.log(filePath);
-    }
+    filePath = `./${tipo}.json`; // Remove single quotes around template literal
+    console.log(filePath);
+    
     cargarFigus();
+
 };
 
 
@@ -96,3 +93,4 @@ const buscarFigus = () => {
 
 // Cargar las figus iniciales al cargar la página
 
+cargarFigus();
