@@ -35,7 +35,7 @@ def agregarStock(base):
     
 
 
-    if (base == "baseMundial.json") or (base == "albumExtra.json"):
+    if (base in ("baseMundial.json","albumExtra.json","base_copam.json")):
         
 
         for fila in baseTotal:
@@ -44,16 +44,18 @@ def agregarStock(base):
         letrasPaisesCompleto = acomodar (figus,paisesError,listaPaises)
         sacarPaisesDuplicados(letrasPaisesCompleto,paisesSinDuplicados)
 
-        paisesSinDuplicados[33] = 'Coca Cola'
-        paisesSinDuplicados[21] = 'MAR'
+        if base!='base_copam.json':
+            paisesSinDuplicados[33] = 'Coca Cola'
+        else:
+            paisesSinDuplicados[0] = 'INTR'
 
         while seguirAgregando == True:
 
             if mismoPais == False:            
                 seleccionarPais = easygui.choicebox("Elija un pais", choices=paisesSinDuplicados, title="Confirmación")
 
-            if seleccionarPais == 'MAR':
-                seleccionarPais = 'MRR'
+            if seleccionarPais == 'INTR':
+                seleccionarPais = 'INT'
             
             
             for fila in baseTotal:

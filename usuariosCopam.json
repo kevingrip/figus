@@ -164,6 +164,65 @@
                 "LEG2",
                 "ROH2"
             ]
+        },
+        {
+            "usuario": "FlavioNiessner",
+            "figusPedidas": [
+                "ARG19",
+                "BOL14",
+                "CAN17",
+                "CAN18",
+                "CAN19",
+                "CHI12",
+                "CHI20",
+                "COL18",
+                "COL19",
+                "COL2",
+                "COL20",
+                "COL21",
+                "COL5",
+                "ECU1",
+                "HON1",
+                "HON12",
+                "HON14",
+                "HON18",
+                "INT3",
+                "JAM1",
+                "JAM3",
+                "JAM7",
+                "LEG16",
+                "MEX1",
+                "PAN10",
+                "PAN12",
+                "PAN21",
+                "PAN8",
+                "PAR1",
+                "PAR6",
+                "PER6",
+                "ROH2",
+                "TRI4",
+                "TRI6",
+                "USA15",
+                "VEN12",
+                "VEN4",
+                "VEN7"
+            ]
+        },
+        {
+            "usuario": "MARTINDABIN",
+            "figusPedidas": [
+                "BRA2",
+                "CRC2",
+                "ECU1",
+                "HCI1",
+                "LEG4",
+                "LEG6",
+                "MEX11",
+                "MEX13",
+                "PAR19",
+                "TRI2",
+                "TRI5"
+            ]
         }
     ]
 }
