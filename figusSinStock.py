@@ -10,7 +10,7 @@ faltantes = []
 cantidad=0
 
 for figurita in baseTotal:
-    if figurita["CANT"] == (1):
+    if figurita["CANT"] == (2):
         num = figurita["NUM"]
         cant = figurita["CANT"]
         precio = figurita["PRECIO"]
