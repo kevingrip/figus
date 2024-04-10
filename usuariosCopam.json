@@ -230,6 +230,48 @@
                 "ARG1",
                 "ARG19"
             ]
+        },
+        {
+            "usuario": "LPEZCALVOMARCELO",
+            "figusPedidas": [
+                "ARG16",
+                "CAN10",
+                "COL6",
+                "CRC6",
+                "ECU4",
+                "HON10",
+                "HON14",
+                "INT2",
+                "LEG18",
+                "LEG6",
+                "LEG9",
+                "MEX17",
+                "MEX4",
+                "PAR19",
+                "PER1",
+                "PER4",
+                "TRI10",
+                "TRI16",
+                "VEN16"
+            ]
+        },
+        {
+            "usuario": "LPEZCALVOMARCELO",
+            "figusPedidas": [
+                "ARG16",
+                "CAN10",
+                "COL6",
+                "CRC6",
+                "ECU4",
+                "HON10",
+                "INT2",
+                "LEG9",
+                "MEX17",
+                "PER1",
+                "TRI10",
+                "TRI16",
+                "VEN16"
+            ]
         }
     ]
 }
