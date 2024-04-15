@@ -248,6 +248,36 @@
                 "TRI16",
                 "VEN16"
             ]
+        },
+        {
+            "usuario": "DALDICRISTIAN",
+            "figusPedidas": [
+                "ARG9",
+                "CAN1",
+                "CAN21",
+                "CRC1",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "SEBITAMAN",
+            "figusPedidas": [
+                "BOL3",
+                "BRA10",
+                "BRA20",
+                "BRA22",
+                "BRA6",
+                "CAN10",
+                "CAN16",
+                "CAN8",
+                "CHI1",
+                "COL16",
+                "COL18",
+                "COL6",
+                "CRC4",
+                "CRC6",
+                "CRC7"
+            ]
         }
     ]
 }
