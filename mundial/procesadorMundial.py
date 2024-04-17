@@ -14,13 +14,13 @@ def procesadorMundial(figuritas,nombre,baseMundial):
     cantidadTengo = 0
     cantidadFaltan = 0
 
-    precio1Comun = 1000
-    precio2Comun = 800
-    precio3Comun = 750
-    precioHasta5Comun = 700
-    precioSoloComunes = 400
+    precio1Comun = 2500
+    precio2Comun = 1500
+    precio3Comun = 1250
+    precioHasta5Comun = 1200
+    precioSoloComunes = 1100
 
-    precioUnidadDorada = 1350
+    precioUnidadDorada = 1500
 
 
     for fila in datos:
@@ -76,15 +76,15 @@ def procesadorMundial(figuritas,nombre,baseMundial):
                     if (cantidadTengo == 1):
                         respuesta="Hola"+nombre+", "+hora()+"! Tengo la "+tengo+"El precio por la figurita original es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     elif (cantidadTengo == 2):
-                        respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+" El precio por las "+str(cantidadTengo)+" figuritas originales es " + str(cantidadTengo*(precioUnidadDorada-50)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
+                        respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+" El precio por las "+str(cantidadTengo)+" figuritas originales es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     elif (cantidadTengo == 3):
-                        respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+" El precio por las "+str(cantidadTengo)+" figuritas originales es " + str(cantidadTengo*(precioUnidadDorada-100)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
+                        respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+" El precio por las "+str(cantidadTengo)+" figuritas originales es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     elif (cantidadTengo == 4):
-                        respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+" El precio por las "+str(cantidadTengo)+" figuritas originales es " + str(cantidadTengo*(precioUnidadDorada-150)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
+                        respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+" El precio por las "+str(cantidadTengo)+" figuritas originales es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     elif (cantidadTengo == 5):
-                        respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+" El precio por las "+str(cantidadTengo)+" figuritas originales es " + str(cantidadTengo*(precioUnidadDorada-200)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
+                        respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+" El precio por las "+str(cantidadTengo)+" figuritas originales es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     elif (cantidadTengo == 6):
-                        respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+" El precio por las "+str(cantidadTengo)+" figuritas originales es " + str(cantidadTengo*(precioUnidadDorada-250)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
+                        respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+" El precio por las "+str(cantidadTengo)+" figuritas originales es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                 else:
                     if cantidadTengo == 1:
                         respuesta="Hola"+nombre+", "+hora()+"! De tu lista tengo la "+tengo+"El precio por la figurita original es " + str(precio_total) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
@@ -105,17 +105,17 @@ def procesadorMundial(figuritas,nombre,baseMundial):
                         respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo todas en stock. El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(cantidadTengo*precioHasta5Comun) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     else:
                         respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo todas en stock. El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(cantidadTengo*precioSoloComunes) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
-                elif precio_total == 1050:
-                    respuesta="Hola"+nombre+", "+hora()+"! Si, la tengo en stock. El precio es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
+                elif precio_total == 1500:
+                    respuesta="Hola"+nombre+", "+hora()+"! Si, la tengo en stock. El precio es " + str(cantidadTengo*precioUnidadDorada*2) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                 elif (precio_total/cantidadTengo) == 1500:
-                    if (cantidadTengo < 5):
-                        respuesta="Hola"+nombre+", "+hora()+"! Si, la tengo en stock. El precio es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
-                    else:
-                        respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo en stock. El precio es " + str(cantidadTengo*(1000)) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
+                    respuesta="Hola"+nombre+", "+hora()+"! Si, la tengo en stock. El precio es " + str(cantidadTengo*precioUnidadDorada) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                 else:
                     if cantidadTengo == 1:
                         respuesta="Hola"+nombre+", "+hora()+"! Si, la tengo en stock. El precio es " + str(precio_total) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
                     else:
-                        respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo todas en stock. El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(precio_total) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
+                        if precio_total<=3000:
+                            respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo todas en stock. El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(precio_total*2) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
+                        else:
+                            respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo todas en stock. El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(precio_total) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
 
     return (respuesta)
