@@ -1,8 +1,11 @@
 import json
 from ordenarFigus import*
 
+
 with open ("baseMundial.json","r") as baseJson:
     baseTotal = json.load(baseJson)
+
+
 
 tabla = "NUM\n"
 sumaPrecio = 0
@@ -10,7 +13,7 @@ faltantes = []
 cantidad=0
 
 for figurita in baseTotal:
-    if figurita["CANT"] == (2):
+    if figurita["CANT"] == (1):
         num = figurita["NUM"]
         cant = figurita["CANT"]
         precio = figurita["PRECIO"]
