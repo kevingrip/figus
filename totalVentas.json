@@ -8426,6 +8426,40 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "HOLAMAGAFLORES",
+            "Vendidas": [
+                "ARG5",
+                "ARG8",
+                "AUS7",
+                "CRO9",
+                "DEN6",
+                "ECU11",
+                "ENG7",
+                "ENG18",
+                "ESP14",
+                "IRN7",
+                "KOR1",
+                "KOR2",
+                "KOR5",
+                "KSA1",
+                "KSA9",
+                "POL7",
+                "SRB15",
+                "URU1"
+            ],
+            "NoVendidas": [
+                "ESP1",
+                "JPN16",
+                "QAT19",
+                "SEN1"
+            ],
+            "Dia": "19/04/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "AND027",
+            "PrecioFlex": 0
         }
     ],
     "Futbol Argentino 2023": [
