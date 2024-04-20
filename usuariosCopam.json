@@ -566,6 +566,20 @@
                 "BRA16",
                 "BRA17"
             ]
+        },
+        {
+            "usuario": "LINEA BLANCAOK",
+            "figusPedidas": [
+                "ARG13",
+                "ARG14",
+                "BRA1",
+                "BRA16",
+                "COL1",
+                "INT1",
+                "MEX1",
+                "PAN1",
+                "VEN1"
+            ]
         }
     ]
 }
