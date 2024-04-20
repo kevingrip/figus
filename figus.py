@@ -764,7 +764,7 @@ elif (album == "Copa America 2024"):
 
             time.sleep(5)
 
-            pyautogui.hotkey('ctHOLAMAGAFLORESrl','v')
+            pyautogui.hotkey('ctrl','v')
 
         elif subInicioBDD == "Total de figuritas":
 
