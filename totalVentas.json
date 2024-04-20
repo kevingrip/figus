@@ -720,6 +720,42 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "DOTERITO",
+            "Vendidas": [
+                "ARG3",
+                "ARG5",
+                "ECU10",
+                "ECU20",
+                "ECU22",
+                "VEN11",
+                "VEN15",
+                "VEN18",
+                "VEN20",
+                "PAN19",
+                "BRA11",
+                "COL8",
+                "COL9",
+                "COL11",
+                "COL13",
+                "HON5",
+                "TRI1",
+                "TRI5",
+                "TRI8",
+                "TRI11"
+            ],
+            "NoVendidas": [
+                "PER11",
+                "COL20",
+                "PAR3",
+                "PAR17"
+            ],
+            "Dia": "20/04/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
