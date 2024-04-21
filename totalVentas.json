@@ -8547,6 +8547,22 @@
             "Envio": "CORREO",
             "Etiqueta": "AND027",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "prueba",
+            "Vendidas": [
+                "FWC0",
+                "FWC24",
+                "FWC28",
+                "MEX1",
+                "SEN1"
+            ],
+            "NoVendidas": [],
+            "Dia": "20/04/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "M.Coronado",
+            "PrecioFlex": 0
         }
     ],
     "Futbol Argentino 2023": [

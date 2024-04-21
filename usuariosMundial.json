@@ -18807,6 +18807,16 @@
                 "SUI1",
                 "TUN1"
             ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                "FWC0",
+                "FWC24",
+                "FWC28",
+                "MEX1",
+                "SEN1"
+            ]
         }
     ]
 }

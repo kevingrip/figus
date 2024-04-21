@@ -1,7 +1,7 @@
 [
     {
         "NUM": "FWC0",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1600,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -217,7 +217,7 @@
     },
     {
         "NUM": "FWC24",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 1400,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -253,7 +253,7 @@
     },
     {
         "NUM": "FWC28",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "02/10/2023",
@@ -3520,7 +3520,7 @@
     },
     {
         "NUM": "MEX1",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
@@ -4546,7 +4546,7 @@
     },
     {
         "NUM": "SEN1",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "02/10/2023",
