@@ -790,6 +790,73 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "SANTIAGOESTEBANBISOGNO",
+            "Vendidas": [
+                "INT4",
+                "JAM18",
+                "USA12",
+                "BOL2",
+                "BOL22",
+                "BRA1",
+                "BRA20",
+                "CAN2",
+                "TRI6",
+                "LEG6"
+            ],
+            "NoVendidas": [
+                "JAM19",
+                "PAR6",
+                "CRC9",
+                "CRC12",
+                "HON2"
+            ],
+            "Dia": "22/04/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "LUKE993",
+            "Vendidas": [
+                "ARG22",
+                "PER5",
+                "PER10",
+                "CHI1",
+                "CHI11",
+                "CHI13",
+                "MEX2",
+                "MEX3",
+                "PAN9",
+                "PAN10",
+                "PAN11",
+                "BOL15",
+                "BOL17",
+                "BRA17",
+                "COL3",
+                "COL16",
+                "COL21",
+                "PAR1",
+                "CRC22",
+                "HON13",
+                "HON15",
+                "TRI1",
+                "TRI14",
+                "LEG7"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "PER4",
+                "TRI6",
+                "ROH1"
+            ],
+            "Dia": "22/04/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "M.Coronado",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
