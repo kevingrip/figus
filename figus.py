@@ -14,11 +14,9 @@ from agregarStock import*
 from cosechar import*
 from ingresarDatosPantalla import*
 from buscar_cosecha import*
-
-import easygui
 import pyperclip
 import time
-
+import easygui
 
 datosIngresar = []
 
