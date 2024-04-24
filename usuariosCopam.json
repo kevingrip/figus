@@ -662,6 +662,59 @@
                 "USA20",
                 "USA22"
             ]
+        },
+        {
+            "usuario": "VALCHACUR",
+            "figusPedidas": [
+                "ARG12",
+                "ARG14",
+                "ECU15",
+                "ECU17",
+                "HCI10",
+                "HCI9",
+                "PAN20",
+                "PAR19",
+                "PER3",
+                "PER4",
+                "PER5",
+                "PER6",
+                "PER9",
+                "ROH1",
+                "TRI1",
+                "TRI2"
+            ]
+        },
+        {
+            "usuario": "VALCHACUR",
+            "figusPedidas": [
+                "ARG12",
+                "ARG14",
+                "BRA11",
+                "BRA19",
+                "BRA2",
+                "CRC16",
+                "CRC17",
+                "ECU15",
+                "ECU17",
+                "HCI10",
+                "HCI9",
+                "HON16",
+                "HON4",
+                "PAN20",
+                "PAR19",
+                "PER3",
+                "PER4",
+                "PER5",
+                "PER6",
+                "PER9",
+                "ROH1",
+                "TRI1",
+                "TRI2",
+                "USA1",
+                "USA21",
+                "USA22",
+                "USA9"
+            ]
         }
     ]
 }

@@ -1,11 +1,15 @@
 import json
-with open ("baseMundial.json","r") as bmJson:
-    baseMundial = json.load(bmJson)
+
+from bases import*
+
+base = baseCopam()
+
 
 with open ("totalVentas.json","r") as vJson:
     totalVentas = json.load(vJson)
 
 ventasMundial = totalVentas["Mundial Qatar 2022"]
+ventasCopam = totalVentas["Copa America 2024"]
 
 # for linea in ventasMundial:
 #     if linea["usuario"]=='WILLY22':
@@ -20,12 +24,12 @@ ventasMundial = totalVentas["Mundial Qatar 2022"]
 #                     if linea["CANT"]>0:
 #                         print (linea)
 
-for linea in ventasMundial:
+for linea in ventasCopam:
     if len(linea["NoVendidas"])>0:
-        if linea["Cuenta"] == 'LAFI GURITA':
+        if linea["usuario"] == 'LUKE993':
             print(linea["Dia"],"\n",linea["usuario"])
             for x in linea["NoVendidas"]:
-                for figu in baseMundial:
+                for figu in base:
                     if figu["NUM"] == x:
                         print(x,"CANT:" ,figu["CANT"])
             print("\n")
