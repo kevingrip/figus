@@ -505,16 +505,6 @@
             ]
         },
         {
-            "usuario": "FLAVIOCOLO",
-            "figusPedidas": [
-                "CAN1",
-                "COL18",
-                "JAM7",
-                "LEG16",
-                "PAN12"
-            ]
-        },
-        {
             "usuario": "LADYISABEL",
             "figusPedidas": [
                 "ARG5",
@@ -632,6 +622,45 @@
                 "TRI1",
                 "TRI14",
                 "TRI6"
+            ]
+        },
+        {
+            "usuario": "FLAVIOCOLO",
+            "figusPedidas": [
+                "CAN1",
+                "COL18",
+                "LEG16",
+                "PAN12",
+                "ARG1",
+                "ARG19",
+                "LEG9"
+            ]
+        },
+        {
+            "usuario": "AGUSTINNASO20220820210654",
+            "figusPedidas": [
+                "ARG16",
+                "ECU1",
+                "HCI1",
+                "JAM1",
+                "JAM10",
+                "JAM12",
+                "JAM18",
+                "JAM2",
+                "JAM20",
+                "JAM22",
+                "PER16",
+                "PER18",
+                "PER2",
+                "PER8",
+                "URU19",
+                "URU2",
+                "URU7",
+                "USA10",
+                "USA13",
+                "USA2",
+                "USA20",
+                "USA22"
             ]
         }
     ]
