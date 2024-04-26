@@ -52,7 +52,7 @@ def agregarStock(base):
         while seguirAgregando == True:
 
             if mismoPais == False:            
-                seleccionarPais = easygui.choicebox("Elija un pais", choices=paisesSinDuplicados, title="Confirmación")
+                seleccionarPais = easygui.choicebox("Elija un pais", choices=sorted(paisesSinDuplicados), title="Confirmación")
 
             if seleccionarPais == 'INTR':
                 seleccionarPais = 'INT'

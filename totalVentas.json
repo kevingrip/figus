@@ -930,6 +930,42 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "VENTASREF",
+            "Vendidas": [
+                "INT1",
+                "INT2",
+                "INT3",
+                "HCI2",
+                "HCI6",
+                "HCI9",
+                "ARG1",
+                "ARG4",
+                "ARG6",
+                "ARG8",
+                "ARG9",
+                "ARG10",
+                "ARG12",
+                "ARG14",
+                "ARG21",
+                "ARG22",
+                "USA16",
+                "USA18",
+                "LEG9",
+                "LEG11",
+                "LEG12",
+                "LEG13",
+                "LEG14"
+            ],
+            "NoVendidas": [
+                "JAM6"
+            ],
+            "Dia": "25/04/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [

@@ -715,6 +715,35 @@
                 "USA22",
                 "USA9"
             ]
+        },
+        {
+            "usuario": "VENTASREF",
+            "figusPedidas": [
+                "ARG1",
+                "ARG10",
+                "ARG12",
+                "ARG14",
+                "ARG21",
+                "ARG22",
+                "ARG4",
+                "ARG6",
+                "ARG8",
+                "ARG9",
+                "HCI2",
+                "HCI6",
+                "HCI9",
+                "INT1",
+                "INT2",
+                "INT3",
+                "JAM6",
+                "LEG11",
+                "LEG12",
+                "LEG13",
+                "LEG14",
+                "LEG9",
+                "USA16",
+                "USA18"
+            ]
         }
     ]
 }
