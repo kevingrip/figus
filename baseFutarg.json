@@ -26,7 +26,7 @@
     {
         "NUM": 4,
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -138,7 +138,7 @@
     {
         "NUM": 18,
         "EQUIPO": "AA Argentinos Juniors",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Gabriel \u00c1valos"
@@ -162,7 +162,7 @@
     {
         "NUM": 21,
         "EQUIPO": "Arsenal F\u00fatbol Club",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -546,7 +546,7 @@
     {
         "NUM": 69,
         "EQUIPO": "CA Banfield",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Alejandro Piedrahita"
@@ -570,7 +570,7 @@
     {
         "NUM": 72,
         "EQUIPO": "CA Barracas Central",
-        "CANT": 9,
+        "CANT": 8,
         "TIPO": "ESC",
         "PRECIO": 800,
         "NOMBRE": "Emblema"
@@ -602,7 +602,7 @@
     {
         "NUM": 76,
         "EQUIPO": "CA Barracas Central",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Nicol\u00e1s Capraro"
@@ -1314,7 +1314,7 @@
     {
         "NUM": 165,
         "EQUIPO": "Defensa y Justicia",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "COMUNES",
         "PRECIO": 300,
         "NOMBRE": "Kevin Guti\u00e9rrez"

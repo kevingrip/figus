@@ -1,7 +1,13 @@
-.inpt{
+.inpt {
     width: 300px;
     height: 100px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
+
+
 
 .espBtn{
     display: flex;
