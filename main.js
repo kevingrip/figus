@@ -49,13 +49,15 @@ const buscarFigus = () => {
 
     console.log(filteredFigus)
 
-    let cantFigus =0;
+    let cantFigusStock =0;
+    let cantFigusConsult=0;
     let totalPrecio = 0;
     let faltantes ='';
     let figuInd='';
     filteredFigus.forEach(figu => {
+        cantFigusConsult+=1;
         if (figu.CANT>0) {
-            cantFigus+=1;
+            cantFigusStock+=1;
             totalPrecio += figu.PRECIO;
             figuInd=figu.NUM;
         } else{
@@ -72,29 +74,35 @@ const buscarFigus = () => {
         resultados.appendChild(li);
     });
 
+    const cantLi = document.createElement('p');
+    cantLi.textContent = `Cantidad figus contadas: ${cantFigusConsult}`;
+    resultados.appendChild(cantLi);
+
     const totalLi = document.createElement('p');
     totalLi.textContent = `Total Precio: $${totalPrecio}`;
     resultados.appendChild(totalLi);
 
     const totalFi = document.createElement('p');
-    totalFi.textContent = `Figus en Stock: ${cantFigus}`;
+    totalFi.textContent = `Figus en Stock: ${cantFigusStock}`;
     resultados.appendChild(totalFi);
 
     const mensaje = document.createElement('h3');
     if (faltantes.length == 0){
-        if (cantFigus==1){
+        if (cantFigusStock==1){            
             if (totalPrecio<3000){
                 mensaje.textContent = `Si, la tengo en stock. El precio por la figurita original es 3000. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
             }else{
                 mensaje.textContent = `Si, la tengo en stock. El precio por la figurita original es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
             }
             
-        } else{
-            mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigus} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+        } else if (totalPrecio>22999){
+            mensaje.textContent = `Si, la tengo en stock. El precio por la figurita original es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra con Envio Gratis!!`
         }
-        
+        else{
+            mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+        }
     } else {
-        if (cantFigus==1){
+        if (cantFigusStock==1){
             if (totalPrecio<3000){
                 mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por ${figuInd} es 3000. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
             }else{
@@ -102,14 +110,16 @@ const buscarFigus = () => {
             }
             
         }else{
-            if (cantFigus==0){
+            if (cantFigusStock==0){
                 mensaje.textContent = `No la tengo en stock en este momento. Podes consultarme nuevamente en unos dias para ver si ingresó. Saludos!`
             }else{
             
                 if (totalPrecio<3000){
-                    mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por las ${cantFigus} figuritas originales es 3000. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                    mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por las ${cantFigusStock} figuritas originales es 3000. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                }else if (totalPrecio>22999){
+                    mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra con Envio Gratis!!`
                 }else{
-                        mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por las ${cantFigus} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                        mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
                 }
             }
         }
