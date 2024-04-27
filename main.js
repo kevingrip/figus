@@ -70,7 +70,7 @@ const buscarFigus = () => {
     resultados.innerHTML = ''; // Limpiar resultados anteriores
     filteredFigus.forEach(figu => {
         const li = document.createElement('li');
-        li.textContent = `${figu.NUM} => ${figu.CANT} - $${figu.PRECIO}`;
+        li.textContent = `${figu.NUM} => ${figu.CANT} // $${figu.PRECIO} // ${figu.NOMBRE}`;
         resultados.appendChild(li);
     });
 
