@@ -7,7 +7,7 @@ def baseMundial():
 
     return base
 
-def baseCopam():
+def baseCopamerica():
     with open ("base_copam.json") as bjson:
         base= json.load(bjson)
 

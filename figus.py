@@ -14,9 +14,8 @@ from agregarStock import*
 from cosechar import*
 from ingresarDatosPantalla import*
 from buscar_cosecha import*
-import pyperclip
 import time
-import easygui
+from bases import*
 
 datosIngresar = []
 
@@ -750,7 +749,7 @@ elif (album == "Copa America 2024"):
 
     elif inicio =="Base de datos":
 
-        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Actualizar en Google","Total de figuritas","Agregar Stock"], title=album)
+        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Actualizar en Google","Total de figuritas","Cosechar","Agregar Stock"], title=album)
     
         if subInicioBDD == "Actualizar en Google":
 
@@ -770,3 +769,16 @@ elif (album == "Copa America 2024"):
 
         elif subInicioBDD == "Agregar Stock":
             agregarStock(baseCopam)
+        elif subInicioBDD == "Cosechar":
+            figuOk = False
+            figuCopam = easygui.enterbox("Ingrese una figurita",title="LAFI GURITA")
+            bcam = baseCopamerica()
+            for figurita in bcam:
+                if figuCopam == figurita["NUM"]:
+                    figuOk = True
+                    if figurita["CANT"]>0:
+                        print(figurita["NUM"]+": "+str(figurita["CANT"])+ " en STOCK")
+                    else:
+                        print(figurita["NUM"]+": Sin stock en la base")
+            if figuOk == False:
+                print("Figurita mal escrita")
