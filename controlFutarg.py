@@ -11,11 +11,10 @@ def controlFutarg(ingresaFigu):
             numero = numero + caracter
         else:
             if len(numero)<= 3:
-                figus.append(int(numero))
+                figus.append(numero)
                 numero =''
             else:
                 validacion = True
-
     if validacion is True:
         return ("Error de numero")
     else:

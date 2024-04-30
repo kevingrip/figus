@@ -27,16 +27,13 @@ const cargarFigus = () => {
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
 };
 
-const tipoClase = () =>{
-
-}
 
 
 // Función para buscar y mostrar las figus filtradas
 const buscarFigus = () => {
     const valorInput = document.getElementById('entrada').value.toUpperCase();
     
-    console.log(valorInput)
+    // console.log(valorInput)
 
     const sacarEspacio = valorInput.replace(/\s+(\d)/g, '$1');
     
@@ -44,8 +41,19 @@ const buscarFigus = () => {
 
     console.log(figusSeleccionadas)
 
+    const replaceIntr = figusSeleccionadas.map(figu=>{
+
+    
+        if (figu.includes('INTR')){
+            return figu.replace('INTR','INT')
+        }else{
+            return figu
+        }
+    } 
+    )
+
     // Filtrar las figus seleccionadas
-    const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas.includes(figu.NUM));
+    const filteredFigus = window.todasLasFigus.filter(figu => replaceIntr.includes(figu.NUM));
 
     console.log(filteredFigus)
 
@@ -54,16 +62,31 @@ const buscarFigus = () => {
     let totalPrecio = 0;
     let faltantes ='';
     let figuInd='';
+    let figuRemp='';
+
     filteredFigus.forEach(figu => {
+        
         cantFigusConsult+=1;
+
         if (figu.CANT>0) {
             cantFigusStock+=1;
             totalPrecio += figu.PRECIO;
-            figuInd=figu.NUM;
+            if (figu.NUM.includes('INT')){
+                figuRemp = figu.NUM.replace('INT','INTR')
+                figuInd=figuRemp
+            }else{
+                figuInd=figu.NUM;
+            }
         } else{
-            faltantes+=figu.NUM+" ";
+            if (figu.NUM.includes('INT')){
+                figuRemp = figu.NUM.replace('INT','INTR')
+                faltantes+=figuRemp+" ";
+            }else{
+                faltantes+=figu.NUM+" ";
+            }            
         }
     });
+
 
     // Mostrar resultados en el HTML
     const resultados = document.getElementById('resultados');

@@ -760,6 +760,87 @@
                 "INT4",
                 "ARG17"
             ]
+        },
+        {
+            "usuario": "CAKA9118882",
+            "figusPedidas": [
+                "ARG1",
+                "ARG11",
+                "ARG13",
+                "ARG17",
+                "BRA10",
+                "BRA19",
+                "BRA5",
+                "BRA6",
+                "HCI1",
+                "HCI10",
+                "HCI5",
+                "LEG1",
+                "LEG18",
+                "LEG3",
+                "LEG9",
+                "TRI12"
+            ]
+        },
+        {
+            "usuario": "LUKE993",
+            "figusPedidas": [
+                "INT1",
+                "PER4",
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "ANABERNA",
+            "figusPedidas": [
+                "ARG10",
+                "ARG13",
+                "ARG15",
+                "ARG19",
+                "ARG7",
+                "ARG9",
+                "BOL17",
+                "BOL19",
+                "BOL21",
+                "CAN15",
+                "CAN9",
+                "ECU13",
+                "ECU15",
+                "HCI8",
+                "INT1",
+                "INT4",
+                "LEG4",
+                "MEX1"
+            ]
+        },
+        {
+            "usuario": "MAN_LANTANO",
+            "figusPedidas": [
+                "ARG10",
+                "ARG11",
+                "ARG13",
+                "ARG14",
+                "ARG19",
+                "ARG20",
+                "ARG21",
+                "ARG22",
+                "ARG3",
+                "ARG4",
+                "ARG6",
+                "ARG7",
+                "ARG8",
+                "ARG9"
+            ]
+        },
+        {
+            "usuario": "ECHAVARRIANATALIA49",
+            "figusPedidas": [
+                "ARG5",
+                "BRA17",
+                "INT1",
+                "LEG4",
+                "VEN13"
+            ]
         }
     ]
 }
