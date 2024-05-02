@@ -1009,6 +1009,35 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "BEG_R",
+            "Vendidas": [
+                "CHI12",
+                "BOL16",
+                "PAR1",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "FERRADANICO",
+            "Vendidas": [
+                "ARG1",
+                "VEN1",
+                "LEG6"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
@@ -8844,6 +8873,75 @@
             "Cuenta": "LAFI GURITA",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "LEONARDOCARROZZO",
+            "Vendidas": [
+                "FWC3",
+                "FWC5",
+                "FWC6",
+                "FWC7",
+                "FWC23",
+                "FWC24",
+                "FWC28",
+                "FWC29",
+                "BRA1",
+                "CRC1",
+                "CRO1",
+                "DEN1",
+                "ECU1",
+                "ENG1",
+                "GER1",
+                "IRN1",
+                "JPN1",
+                "MEX1",
+                "POL1",
+                "SEN1",
+                "URU1",
+                "WAL1"
+            ],
+            "NoVendidas": [
+                "FWC26"
+            ],
+            "Dia": "01/05/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "ALPABI",
+            "Vendidas": [
+                "FWC3",
+                "FWC14",
+                "FWC17",
+                "FWC24",
+                "FWC25",
+                "FWC28",
+                "FWC29",
+                "DEN19",
+                "MAR1",
+                "MAR6",
+                "MAR8",
+                "MAR19",
+                "QAT4",
+                "QAT8",
+                "QAT17",
+                "QAT19",
+                "SUI1",
+                "SUI6",
+                "SUI10",
+                "SUI13",
+                "C8"
+            ],
+            "NoVendidas": [
+                "FWC22"
+            ],
+            "Dia": "02/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "AND027",
             "PrecioFlex": 0
         }
     ],

@@ -841,6 +841,36 @@
                 "LEG4",
                 "VEN13"
             ]
+        },
+        {
+            "usuario": "FERIANDOBA",
+            "figusPedidas": [
+                "CRC19",
+                "ECU7",
+                "HON14",
+                "HON6",
+                "PAN10",
+                "PAN12",
+                "PAN22",
+                "PER13"
+            ]
+        },
+        {
+            "usuario": "FERRADANICO",
+            "figusPedidas": [
+                "ARG1",
+                "LEG6",
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "BEG_R",
+            "figusPedidas": [
+                "BOL16",
+                "CHI12",
+                "PAR1",
+                "ROH1"
+            ]
         }
     ]
 }
