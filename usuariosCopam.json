@@ -871,6 +871,51 @@
                 "PAR1",
                 "ROH1"
             ]
+        },
+        {
+            "usuario": "GUSLEPRA_DRA",
+            "figusPedidas": [
+                "ARG19",
+                "ARG20",
+                "ARG21",
+                "ARG22",
+                "ARG3",
+                "ARG5",
+                "ARG6",
+                "ARG8",
+                "BOL12",
+                "BOL8",
+                "BRA1",
+                "BRA10",
+                "CAN10",
+                "CAN12",
+                "CAN2",
+                "COL1",
+                "COL11",
+                "COL4",
+                "ECU9",
+                "HCI1",
+                "HCI8",
+                "HON6",
+                "LEG10",
+                "LEG11",
+                "PAR8",
+                "PER10",
+                "PER14",
+                "PER8",
+                "TRI3",
+                "TRI7",
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "ROMINAVARGASDEBORDON",
+            "figusPedidas": [
+                "ARG1",
+                "ARG19",
+                "ARG21",
+                "LEG14"
+            ]
         }
     ]
 }
