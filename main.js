@@ -176,7 +176,8 @@ const buscarFigus = () => {
     resultados.appendChild(mensaje);
 };
 
-
 // Cargar las figus iniciales al cargar la página
 
 cargarFigus();
+
+
