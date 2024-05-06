@@ -31,37 +31,5 @@
     </ul>
 
     <script src="main.js"></script>
-    <script>
-        // Obtener la fecha y hora actual
-        const hora = []
-        var fechaHoraActual = new Date();
-
-        // Formatear la fecha
-        var opcionesDeFormatoFecha = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        var fechaFormateada = fechaHoraActual.toLocaleDateString('es-ES', opcionesDeFormatoFecha);
-
-        // Formatear la hora
-        var horaActual = fechaHoraActual.getHours();
-        var minutos = fechaHoraActual.getMinutes();
-        var segundos = fechaHoraActual.getSeconds();
-
-        // Formatear la hora para que siempre tenga dos dígitos
-        if (horaActual < 10) {
-            horaActual = '0' + horaActual;
-        }
-        if (minutos < 10) {
-            minutos = '0' + minutos;
-        }
-        if (segundos < 10) {
-            segundos = '0' + segundos;
-        }
-
-        // Crear una cadena que combine la fecha y la hora
-        var fechaHoraMostrada = fechaFormateada + ' ' + horaActual + ':' + minutos + ':' + segundos;
-        hora.push(fechaHoraMostrada)
-
-        // Insertar la fecha y hora en el HTML
-        document.getElementById("fecha-hora").innerText = hora;
-    </script>
 </body>
 </html>
