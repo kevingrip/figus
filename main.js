@@ -1,30 +1,86 @@
 
 let filePath='./baseMundial.json';
-const tipoAlbum = (tipo,event) => {
-    
-    filePath = `./${tipo}.json`; // Remove single quotes around template literal
-    console.log(filePath);
+const tipoAlbum = (tipo, event) => {
+    return new Promise((resolve, reject) => {
+        filePath = `./${tipo}.json`;
+        console.log(filePath);
 
-    document.querySelectorAll('.bloqueAlbum').forEach(button => {
-        button.classList.remove('pressed');
+        document.querySelectorAll('.bloqueAlbum').forEach(button => {
+            button.classList.remove('pressed');
+        });
+
+        event.target.classList.add('pressed');
+
+        cargarFigus().then(() => {
+            resolve(); // Resuelve la promesa después de que cargarFigus() haya completado su ejecución
+        }).catch(error => {
+            reject(error); // Rechaza la promesa si hay algún error en cargarFigus()
+        });
     });
-
-    event.target.classList.add('pressed');
-    
-    cargarFigus();
-
 };
+
 
 
 // Función para cargar las figus iniciales y filtrarlas dinámicamente
 const cargarFigus = () => {
-    fetch(filePath)
+    return fetch(filePath)
         .then(response => response.json())
         .then(figus => {
             // Almacenar todas las figus
             window.todasLasFigus = figus;
         })
-        .catch(error => console.error('Error al cargar el archivo JSON:', error));
+        .catch(error => {
+            console.error('Error al cargar el archivo JSON:', error);
+            throw error; // Propaga el error para que se maneje en la cadena de promesas
+        });
+};
+
+
+const sinStock = () =>{
+    let figus = window.todasLasFigus
+
+    const resultSinStock = document.getElementById('resultadosSinStock');
+    resultSinStock.innerHTML = ''; // Limpiar resultados anteriores
+    let figuritas0='';
+    let figuritas1='';
+    let figuritas2='';
+
+    figus.forEach(figu => {
+        if (figu["CANT"]==0){
+            figuritas0+=figu["NUM"]+=', ';  
+        }else if(figu["CANT"]==1){
+            figuritas1+=figu["NUM"]+=', ';  
+        }else if(figu["CANT"]==2){
+            figuritas2+=figu["NUM"]+=', ';  
+        }
+    })
+    const p1 = document.createElement('p');
+    const s0h3 = document.createElement('h3');
+    p1.textContent = figuritas0.slice(0, -2);
+    s0h3.textContent = 'Sin Stock: '
+    resultSinStock.appendChild(s0h3);
+    resultSinStock.appendChild(p1);
+
+    const p2 = document.createElement('p');
+    const s1h3 = document.createElement('h3');
+    p2.textContent = figuritas1.slice(0, -2);
+    s1h3.textContent = '1 en Stock: '
+    resultSinStock.appendChild(s1h3);
+    resultSinStock.appendChild(p2);
+
+    const p3 = document.createElement('p');
+    const s2h3 = document.createElement('h3');
+    p3.textContent = figuritas2.slice(0, -2);
+    s2h3.textContent = '2 en Stock: '
+    resultSinStock.appendChild(s2h3);
+    resultSinStock.appendChild(p3);
+}
+
+const figusSinStock = (tipo, event) => {
+    tipoAlbum(tipo, event)
+        .then(() => {
+            sinStock(); // Llama a sinStock() después de que tipoAlbum() haya completado su ejecución
+        });
 };
 
 
@@ -179,5 +235,3 @@ const buscarFigus = () => {
 // Cargar las figus iniciales al cargar la página
 
 cargarFigus();
-
-

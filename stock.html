@@ -3,33 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultados</title>
+    <title>Figus sin Stock</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h5>Actualizado al: <span id="fecha-hora"></span></h5>
-    <h1 class="posBusc">Lafi Gurita</h1>
+    <h1 class="posBusc">Lafi Gurita Sin stock</h1>
     <h3 class="posBusc">Presione el album:</h3>
     <div>
         <div class="posBtn">
-            <button class="bloqueAlbum pressed" onclick="tipoAlbum('baseMundial',event)">Mundial Qatar 2022</button>      
-            <button class="bloqueAlbum" onclick="tipoAlbum('baseFutarg',event)">Futbol Argentino 2023</button>
-            <button class="bloqueAlbum" onclick="tipoAlbum('baseLali',event)">Copa Libertadores 2023</button>
-            <button class="bloqueAlbum" onclick="tipoAlbum('base_copam',event)">Copa America 2024</button>
+            <button class="bloqueAlbum pressed" onclick="figusSinStock('baseMundial',event)">Mundial Qatar 2022</button>      
+            <button class="bloqueAlbum" onclick="figusSinStock('baseFutarg',event)">Futbol Argentino 2023</button>
+            <button class="bloqueAlbum" onclick="figusSinStock('baseLali',event)">Copa Libertadores 2023</button>
+            <button class="bloqueAlbum" onclick="figusSinStock('base_copam', event)">Copa America 2024</button>
         </div>
     </div>
-    
-    <div class="posBusc">
-        <h3>Ingresa las figus:</h3>
-        <textarea type="text" id="entrada" class="inpt"></textarea>
-        <div class="espBtn">
-            <button class="btn" onclick="buscarFigus()">Buscar</button>
-        </div>
+    <div>
+        <ul id="resultadosSinStock">
+            <!-- Aquí se mostrarán los resultados -->
+        </ul>
     </div>
-    <ul id="resultados">
-        <!-- Aquí se mostrarán los resultados -->
-    </ul>
-
     <script src="main.js"></script>
     <script>
         // Obtener la fecha y hora actual
