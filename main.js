@@ -28,6 +28,7 @@ const cargarFigus = () => {
         .then(figus => {
             // Almacenar todas las figus
             window.todasLasFigus = figus;
+            ultimaActualizacion()
         })
         .catch(error => {
             console.error('Error al cargar el archivo JSON:', error);
@@ -82,6 +83,49 @@ const figusSinStock = (tipo, event) => {
             sinStock(); // Llama a sinStock() después de que tipoAlbum() haya completado su ejecución
         });
 };
+
+const ultimaActualizacion = () =>{
+    var spanUltimaActualizacion = document.getElementById('ultimaActualizacion');
+
+    var horarioJson = 'horario.json';
+    var nuevoHorario = [];
+
+    var fechaHoraActual = new Date();
+
+    // Obtener los componentes individuales de la fecha y hora
+    var año = fechaHoraActual.getFullYear();
+    var mes = fechaHoraActual.getMonth() + 1; // Los meses van de 0 a 11, por lo que se suma 1
+    var dia = fechaHoraActual.getDate();
+    var hora = fechaHoraActual.getHours();
+    var minutos = fechaHoraActual.getMinutes();
+    var segundos = fechaHoraActual.getSeconds();
+
+    // Formatear la salida para que sea más legible
+    var formatoFechaHora = dia + '/' + mes + '/' + año + ' ' + hora + ':' + minutos + ':' + segundos;
+    nuevoHorario.push(formatoFechaHora);
+    spanUltimaActualizacion.textContent = nuevoHorario
+    // Obtener los datos existentes del localStorage
+    var contenidoJSON = localStorage.getItem(horarioJson);
+    var datos;
+
+    if (contenidoJSON) {
+        datos = JSON.parse(contenidoJSON);
+    } else {
+        datos = [];
+    }
+    datos=[]
+    // Agregar nuevoHorario a los datos existentes
+    datos.push(nuevoHorario);
+    
+
+    // Guardar los datos actualizados en localStorage
+    localStorage.setItem(horarioJson, JSON.stringify(datos));
+    console.log('El nuevo horario se ha guardado correctamente en el archivo JSON.');
+    return (datos[0])
+
+
+
+}
 
 
 
