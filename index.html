@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h5>Actualizado al: <span id="fecha-hora"></span></h5>
+    <h5>//Actualizado al: <span id="fecha-hora"></span></h5>
     <h1 class="posBusc">Lafi Gurita</h1>
     <h3 class="posBusc">Presione el album:</h3>
     <div>
@@ -33,6 +33,7 @@
     <script src="main.js"></script>
     <script>
         // Obtener la fecha y hora actual
+        const hora = []
         var fechaHoraActual = new Date();
 
         // Formatear la fecha
@@ -57,9 +58,10 @@
 
         // Crear una cadena que combine la fecha y la hora
         var fechaHoraMostrada = fechaFormateada + ' ' + horaActual + ':' + minutos + ':' + segundos;
+        hora.push(fechaHoraMostrada)
 
         // Insertar la fecha y hora en el HTML
-        document.getElementById("fecha-hora").innerText = fechaHoraMostrada;
+        document.getElementById("fecha-hora").innerText = hora;
     </script>
 </body>
 </html>
