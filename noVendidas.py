@@ -2,7 +2,7 @@ import json
 
 from bases import*
 
-base = baseCopam()
+base = baseCopamerica()
 
 
 with open ("totalVentas.json","r") as vJson:
