@@ -16,6 +16,7 @@ from ingresarDatosPantalla import*
 from buscar_cosecha import*
 import time
 from bases import*
+from actualizarFecha import *
 
 datosIngresar = []
 
@@ -165,6 +166,8 @@ if (album == "Mundial Qatar 2022"):
 
                 verVenta(usuario_venta,album,subInicioHistorial)
 
+                actualizarFecha()
+
             elif subInicioVenta == "Figurita Individual":
                 ingresarDatos(datosIngresar)
 
@@ -225,6 +228,8 @@ if (album == "Mundial Qatar 2022"):
                     nuevaVenta(usuario,Vendidas,noVendidas,album)
 
                     verVenta(usuario,album,subInicioHistorial)
+
+                    actualizarFecha()
                 else:
                     for pais in paisesError:
                         print ("ERROR: Corregir el pais", pais)
@@ -356,6 +361,8 @@ elif (album == "Copa Libertadores 2023"):
             nuevaVenta(usuario_venta,Vendidas,noVendidas,album)
 
             verVenta(usuario_venta,album,subInicioHistorial)
+
+            actualizarFecha()
         
         elif subInicio == 'Historial':
 
@@ -473,6 +480,8 @@ elif (album == "Futbol Argentino 2023"):
             nuevaVenta(usuario_venta,Vendidas,noVendidas,album)
 
             verVenta(usuario_venta,album,subInicioHistorial)
+
+            actualizarFecha()
 
         elif subInicio == 'Historial':
 
@@ -636,6 +645,8 @@ elif (album == "Copa America 2024"):
 
                 verVenta(usuario_venta,album,subInicioHistorial)
 
+                actualizarFecha()
+
             elif subInicioVenta == "Figurita Individual":
                 ingresarDatos(datosIngresar)
 
@@ -696,6 +707,8 @@ elif (album == "Copa America 2024"):
                     nuevaVenta(usuario,Vendidas,noVendidas,album)
 
                     verVenta(usuario,album,subInicioHistorial)
+
+                    actualizarFecha()
                 else:
                     for pais in paisesError:
                         print ("ERROR: Corregir el pais", pais)

@@ -28,7 +28,6 @@ const cargarFigus = () => {
         .then(figus => {
             // Almacenar todas las figus
             window.todasLasFigus = figus;
-            ultimaActualizacion()
         })
         .catch(error => {
             console.error('Error al cargar el archivo JSON:', error);
@@ -84,48 +83,34 @@ const figusSinStock = (tipo, event) => {
         });
 };
 
-const ultimaActualizacion = () =>{
+const ultimaActualizacion = () => {
     var spanUltimaActualizacion = document.getElementById('ultimaActualizacion');
+    let filePath='./baseMundial.json';
 
-    var horarioJson = 'horario.json';
-    var nuevoHorario = [];
-
-    var fechaHoraActual = new Date();
-
-    // Obtener los componentes individuales de la fecha y hora
-    var año = fechaHoraActual.getFullYear();
-    var mes = fechaHoraActual.getMonth() + 1; // Los meses van de 0 a 11, por lo que se suma 1
-    var dia = fechaHoraActual.getDate();
-    var hora = fechaHoraActual.getHours();
-    var minutos = fechaHoraActual.getMinutes();
-    var segundos = fechaHoraActual.getSeconds();
-
-    // Formatear la salida para que sea más legible
-    var formatoFechaHora = dia + '/' + mes + '/' + año + ' ' + hora + ':' + minutos + ':' + segundos;
-    nuevoHorario.push(formatoFechaHora);
-    spanUltimaActualizacion.textContent = nuevoHorario
-    // Obtener los datos existentes del localStorage
-    var contenidoJSON = localStorage.getItem(horarioJson);
-    var datos;
-
-    if (contenidoJSON) {
-        datos = JSON.parse(contenidoJSON);
-    } else {
-        datos = [];
-    }
-    datos=[]
-    // Agregar nuevoHorario a los datos existentes
-    datos.push(nuevoHorario);
+    fetch(filePath)
+        .then(response => response.json())
+        .then(figus => {
+            // Almacenar todas las figus
+            window.figusdelmundial = figus;
+            
+            // Actualizar el contenido del span después de obtener los datos            
+            const horaFigu = window.figusdelmundial.find(figu =>
+                figu["NUM"]=='FWC0'
+            )
+            console.log(window.figusdelmundial)
+            console.log(horaFigu["DIA"],horaFigu["ACTUALIZACION"])
+            spanUltimaActualizacion.textContent = horaFigu["DIA"]+' '+horaFigu["ACTUALIZACION"];
+        })
+        .catch(error => {
+            console.error('Error al cargar el archivo JSON:', error);
+            throw error; // Propaga el error para que se maneje en la cadena de promesas
+        });
     
+    
+    
+};
 
-    // Guardar los datos actualizados en localStorage
-    localStorage.setItem(horarioJson, JSON.stringify(datos));
-    console.log('El nuevo horario se ha guardado correctamente en el archivo JSON.');
-    return (datos[0])
-
-
-
-}
+ultimaActualizacion()
 
 
 
