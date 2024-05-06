@@ -303,6 +303,7 @@ if (album == "Mundial Qatar 2022"):
 
         elif subInicioBDD == "Agregar Stock":
             agregarStock(baseMundial)
+            actualizarFecha()
                     
 elif (album == "Copa Libertadores 2023"):
 
@@ -401,6 +402,7 @@ elif (album == "Copa Libertadores 2023"):
         
         elif subInicioBDD == "Agregar Stock":
             agregarStock(baseLibertadores)
+            actualizarFecha()
         
         elif subInicioBDD == "Cosechar":
             ingresarDatos(datosIngresar)
@@ -520,6 +522,7 @@ elif (album == "Futbol Argentino 2023"):
 
         elif subInicioBDD == "Agregar Stock":
             agregarStock(baseFutarg)
+            actualizarFecha()
 
         elif subInicioBDD == "Cosechar":
             ingresarDatos(datosIngresar)
@@ -782,6 +785,7 @@ elif (album == "Copa America 2024"):
 
         elif subInicioBDD == "Agregar Stock":
             agregarStock(baseCopam)
+            actualizarFecha()
         elif subInicioBDD == "Cosechar":
             figuOk = False
             figuCopam = easygui.enterbox("Ingrese una figurita",title="LAFI GURITA")
