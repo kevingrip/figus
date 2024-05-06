@@ -2,7 +2,7 @@ import json
 from bases import*
 
 
-base = baseCopam()
+base = baseCopamerica()
 
 suma=0
 noTengo=""

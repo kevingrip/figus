@@ -31,29 +31,53 @@ const cargarFigus = () => {
 
 // Función para buscar y mostrar las figus filtradas
 const buscarFigus = () => {
-    const valorInput = document.getElementById('entrada').value.toUpperCase();
+    let valorInput = document.getElementById('entrada').value.toUpperCase();
     
     // console.log(valorInput)
+    let figuritas =''
+    let pais = ''
+    let num= ''
+    let caracterAnt =''
+    let letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    let numeros = '1234567890'
 
-    const sacarEspacio = valorInput.replace(/\s+(\d)/g, '$1');
+    valorInput = valorInput.replace("INTR", "INT");
     
-    const figusSeleccionadas = sacarEspacio.split(/[,\s-]+/).map(figu => figu.trim());
+    for (let i = 0; i < valorInput.length; i++) {
+        if (letras.includes(valorInput[i])){
+            if (pais.length<3){
+                pais += valorInput[i] 
+            }else{
+                pais=''
+                pais += valorInput[i]
+            }
+                       
+        }
+        if (numeros.includes(valorInput[i])){
+            num=valorInput[i]
+            if (numeros.includes(caracterAnt)){
+                figuritas+=num
+            }else{
+                if (figuritas.length==0){
+                    figuritas+=pais+num
+                }else{
+                    figuritas+=' '+pais+num
+                }
+                
+            }                        
+        }
+        caracterAnt = valorInput[i]
+    }
+    console.log(figuritas)
+
+    // const sacarEspacio = valorInput.replace(/\s+(\d)/g, '$1');
+    
+    const figusSeleccionadas = figuritas.split(/[,\s-]+/).map(figu => figu.trim());
 
     console.log(figusSeleccionadas)
 
-    const replaceIntr = figusSeleccionadas.map(figu=>{
-
-    
-        if (figu.includes('INTR')){
-            return figu.replace('INTR','INT')
-        }else{
-            return figu
-        }
-    } 
-    )
-
     // Filtrar las figus seleccionadas
-    const filteredFigus = window.todasLasFigus.filter(figu => replaceIntr.includes(figu.NUM));
+    const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas.includes(figu.NUM));
 
     console.log(filteredFigus)
 

@@ -1038,6 +1038,43 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "LAFLORDELPAGO2010",
+            "Vendidas": [
+                "INT2",
+                "INT4",
+                "ECU12",
+                "URU1",
+                "BOL1",
+                "BRA22",
+                "COL4",
+                "COL16",
+                "HON6",
+                "LEG6"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "05/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "CRISTIANFABIANSARANITI",
+            "Vendidas": [
+                "CHI10",
+                "VEN14",
+                "PAN16"
+            ],
+            "NoVendidas": [],
+            "Dia": "05/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
@@ -8942,6 +8979,55 @@
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
             "Etiqueta": "AND027",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "MAMA34474",
+            "Vendidas": [
+                "FWC7",
+                "FWC22",
+                "FWC24",
+                "ARG1",
+                "BEL2",
+                "BEL18",
+                "ECU15",
+                "ESP3",
+                "ESP17",
+                "ESP19",
+                "GER10",
+                "GHA3",
+                "GHA5",
+                "GHA15",
+                "IRN4",
+                "JPN1",
+                "JPN12",
+                "JPN17",
+                "KOR1",
+                "KOR3",
+                "KOR4",
+                "KOR12",
+                "MEX10",
+                "MEX12",
+                "MAR1",
+                "NED3",
+                "POR14",
+                "QAT6",
+                "QAT19",
+                "SEN5",
+                "SEN8",
+                "SUI17",
+                "TUN13",
+                "URU12",
+                "URU15",
+                "C1",
+                "C3",
+                "C6"
+            ],
+            "NoVendidas": [],
+            "Dia": "05/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
             "PrecioFlex": 0
         }
     ],
