@@ -954,6 +954,81 @@
                 "PAR16",
                 "TRI1"
             ]
+        },
+        {
+            "usuario": "POCHOO2007",
+            "figusPedidas": [
+                "ARG1",
+                "ARG19"
+            ]
+        },
+        {
+            "usuario": "ALFISTA_07",
+            "figusPedidas": [
+                "ARG12",
+                "ARG17",
+                "ARG5",
+                "CHI10",
+                "CHI18",
+                "CHI19",
+                "CHI20",
+                "CRC11",
+                "CRC17",
+                "CRC19",
+                "CRC3",
+                "ECU18",
+                "HON9",
+                "JAM1",
+                "JAM20",
+                "JAM6",
+                "JAM7",
+                "LEG12",
+                "LEG13",
+                "LEG3",
+                "LEG6",
+                "MEX20",
+                "PER16",
+                "PER18",
+                "PER3",
+                "TRI14",
+                "TRI18",
+                "TRI8",
+                "USA11",
+                "USA13",
+                "USA16",
+                "VEN17"
+            ]
+        },
+        {
+            "usuario": "CHONY_0217",
+            "figusPedidas": [
+                "ARG13",
+                "ARG19",
+                "CHI9",
+                "CRC3",
+                "CRC5",
+                "HON13",
+                "JAM13",
+                "JAM17",
+                "PER1",
+                "PER3",
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "JUANMAGNA",
+            "figusPedidas": [
+                "ARG21",
+                "ARG6",
+                "BOL1",
+                "BRA22",
+                "INT1",
+                "INT4",
+                "JAM1",
+                "LEG14",
+                "LEG6",
+                "USA1"
+            ]
         }
     ]
 }

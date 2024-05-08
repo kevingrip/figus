@@ -1096,6 +1096,50 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "ALFISTA_07",
+            "Vendidas": [
+                "ARG5",
+                "ARG12",
+                "ARG17",
+                "PER3",
+                "PER16",
+                "PER18",
+                "CHI18",
+                "CHI19",
+                "CHI20",
+                "MEX20",
+                "ECU18",
+                "VEN17",
+                "JAM1",
+                "JAM7",
+                "JAM20",
+                "USA11",
+                "USA13",
+                "USA16",
+                "CRC3",
+                "CRC11",
+                "CRC17",
+                "CRC19",
+                "HON9",
+                "TRI8",
+                "TRI14",
+                "TRI18",
+                "LEG3",
+                "LEG12",
+                "LEG13"
+            ],
+            "NoVendidas": [
+                "CHI10",
+                "JAM6",
+                "LEG6"
+            ],
+            "Dia": "07/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "ASD",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
@@ -9046,6 +9090,19 @@
             ],
             "NoVendidas": [],
             "Dia": "05/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "FLOROCAMPO87",
+            "Vendidas": [
+                "NED1",
+                "POL1"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/05/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
