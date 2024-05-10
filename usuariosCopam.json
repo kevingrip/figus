@@ -1163,6 +1163,40 @@
                 "INT4",
                 "USA1"
             ]
+        },
+        {
+            "usuario": "GERALDINESCHAMMAH",
+            "figusPedidas": [
+                "BOL1",
+                "ECU1"
+            ]
+        },
+        {
+            "usuario": "SADA8650542",
+            "figusPedidas": [
+                "BOL1",
+                "BOL10",
+                "BOL8",
+                "BRA1",
+                "CRC18",
+                "HCI6",
+                "JAM10",
+                "JAM12",
+                "JAM14",
+                "LEG17",
+                "PAN1",
+                "PAN16",
+                "PAN2",
+                "ROH2",
+                "TRI12",
+                "TRI14",
+                "TRI16",
+                "URU1",
+                "USA18",
+                "VEN1",
+                "VEN10",
+                "VEN22"
+            ]
         }
     ]
 }
