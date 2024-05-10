@@ -1153,6 +1153,78 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "CAKA91188822",
+            "Vendidas": [
+                "INT1",
+                "INT4",
+                "PER11",
+                "CHI6",
+                "CHI8",
+                "CHI15",
+                "CHI21",
+                "MEX10",
+                "MEX12",
+                "MEX15",
+                "ECU6",
+                "VEN12",
+                "JAM3",
+                "JAM22",
+                "PAN9",
+                "PAN12",
+                "BOL9",
+                "BOL17",
+                "COL3",
+                "PAR7",
+                "PAR17",
+                "PAR19",
+                "CRC6",
+                "CRC9",
+                "CRC18",
+                "CRC19",
+                "CRC20",
+                "CRC21",
+                "HON5",
+                "HON7",
+                "HON9",
+                "HON17",
+                "HON18",
+                "HON19"
+            ],
+            "NoVendidas": [
+                "MEX9",
+                "VEN4",
+                "VEN13",
+                "JAM19",
+                "BOL8",
+                "COL7",
+                "CRC17",
+                "HON16"
+            ],
+            "Dia": "10/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "ROMINA HOFFMANN",
+            "Vendidas": [
+                "INT4",
+                "ARG7",
+                "ARG9",
+                "USA1"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "INT3"
+            ],
+            "Dia": "10/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
