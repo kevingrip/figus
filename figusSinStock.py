@@ -30,9 +30,11 @@ for figurita in baseTotal:
 
         mostrar = listaOrdenada(faltantes)
 
+        print(figurita["NUM"])
+
 print("Cantidad:" ,cantidad)
 
 #print(tabla)
 
-print("Lista (  o menos ):")
-print(mostrar)
+# print("Lista (  o menos ):")
+# print(mostrar)
