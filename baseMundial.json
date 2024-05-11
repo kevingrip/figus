@@ -1,11 +1,11 @@
 [
     {
         "NUM": "FWC0",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 1600,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "PANINI LOGO"
     },
     {
@@ -14,7 +14,7 @@
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "FIFA Logo"
     },
     {
@@ -23,7 +23,7 @@
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Official Trophy /1"
     },
     {
@@ -32,7 +32,7 @@
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Official Trophy /2"
     },
     {
@@ -41,16 +41,16 @@
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Official Mascot /1"
     },
     {
         "NUM": "FWC5",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Official Mascot /2"
     },
     {
@@ -59,16 +59,16 @@
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Official Emblem /1"
     },
     {
         "NUM": "FWC7",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Official Emblem /2"
     },
     {
@@ -77,7 +77,7 @@
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ahmad Bin Ali Stadium"
     },
     {
@@ -86,7 +86,7 @@
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Al Janoub Stadium"
     },
     {
@@ -95,7 +95,7 @@
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Al Thumama Stadium"
     },
     {
@@ -104,7 +104,7 @@
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Education City Stadium"
     },
     {
@@ -113,7 +113,7 @@
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Khalifa International Stadium"
     },
     {
@@ -122,7 +122,7 @@
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Stadium 974"
     },
     {
@@ -131,7 +131,7 @@
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Al Bayt Stadium outdoor"
     },
     {
@@ -140,16 +140,16 @@
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Al Bayt Stadium indoor"
     },
     {
         "NUM": "FWC16",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Lusail Stadium outdoor"
     },
     {
@@ -158,25 +158,25 @@
         "PRECIO": 750,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Lusail Stadium indoor"
     },
     {
         "NUM": "FWC18",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Official Matchball"
     },
     {
         "NUM": "FWC19",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Uruguay 1930"
     },
     {
@@ -185,16 +185,16 @@
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Italy 1938"
     },
     {
         "NUM": "FWC21",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Brazil 1958"
     },
     {
@@ -203,7 +203,7 @@
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "England 1966"
     },
     {
@@ -212,25 +212,25 @@
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Brazil 1970"
     },
     {
         "NUM": "FWC24",
-        "CANT": 1,
+        "CANT": 3,
         "PRECIO": 1400,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Argentina 1978"
     },
     {
         "NUM": "FWC25",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Italy 1982"
     },
     {
@@ -239,7 +239,7 @@
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Germany FR 1990"
     },
     {
@@ -248,16 +248,16 @@
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "France 1998"
     },
     {
         "NUM": "FWC28",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Spain 2010"
     },
     {
@@ -266,7 +266,7 @@
         "PRECIO": 1500,
         "TIPO": "FWC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "France 2018"
     },
     {
@@ -275,7 +275,7 @@
         "PRECIO": 6500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Argentina Team Shot"
     },
     {
@@ -284,7 +284,7 @@
         "PRECIO": 1700,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Emiliano Martinez"
     },
     {
@@ -293,7 +293,7 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Franco Armani"
     },
     {
@@ -302,7 +302,7 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Marcos Acuna"
     },
     {
@@ -311,43 +311,43 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nahuel Molina"
     },
     {
         "NUM": "ARG6",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nicolas Otamendi"
     },
     {
         "NUM": "ARG7",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "German Pezzella"
     },
     {
         "NUM": "ARG8",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Cristian Romero"
     },
     {
         "NUM": "ARG9",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Rodrigo De Paul"
     },
     {
@@ -356,7 +356,7 @@
         "PRECIO": 2500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Angel Di Maria"
     },
     {
@@ -365,7 +365,7 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Giovani Lo Celso"
     },
     {
@@ -374,7 +374,7 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Leandro Paredes"
     },
     {
@@ -383,16 +383,16 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Guido Rodriguez"
     },
     {
         "NUM": "ARG14",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 2000,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Julian Alvarez"
     },
     {
@@ -401,7 +401,7 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Joaquin Correa"
     },
     {
@@ -410,16 +410,16 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alejandro Gomez"
     },
     {
         "NUM": "ARG17",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nicolas Gonzalez"
     },
     {
@@ -428,7 +428,7 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Lautaro Martinez"
     },
     {
@@ -437,7 +437,7 @@
         "PRECIO": 4500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Lionel Messi"
     },
     {
@@ -446,7 +446,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Australia Team Shot"
     },
     {
@@ -455,7 +455,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mathew Ryan"
     },
     {
@@ -464,7 +464,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Andrew Redmayne"
     },
     {
@@ -473,7 +473,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Aziz Behich"
     },
     {
@@ -482,7 +482,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Milos Degenek"
     },
     {
@@ -491,7 +491,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Rhyan Grant"
     },
     {
@@ -500,7 +500,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Joel King"
     },
     {
@@ -509,7 +509,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Trent Sainsbury"
     },
     {
@@ -518,7 +518,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Harry Souttar"
     },
     {
@@ -527,7 +527,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ajdin Hrustic"
     },
     {
@@ -536,16 +536,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jackson Irvine"
     },
     {
         "NUM": "AUS12",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "James Jeggo"
     },
     {
@@ -554,16 +554,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Awer Mabil"
     },
     {
         "NUM": "AUS14",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Aaron Mooy"
     },
     {
@@ -572,7 +572,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Martin Boyle"
     },
     {
@@ -581,7 +581,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mitchell Duke"
     },
     {
@@ -590,7 +590,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Craig Goodwin"
     },
     {
@@ -599,7 +599,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mathew Leckie"
     },
     {
@@ -608,7 +608,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Adam Taggart"
     },
     {
@@ -617,7 +617,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Belgium Team Shot"
     },
     {
@@ -626,7 +626,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Thibaut Courtois"
     },
     {
@@ -635,7 +635,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Simon Mignolet"
     },
     {
@@ -644,16 +644,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Toby Alderweireld"
     },
     {
         "NUM": "BEL5",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Timothy Castagne"
     },
     {
@@ -662,7 +662,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jason Denayer"
     },
     {
@@ -671,16 +671,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Thomas Meunier"
     },
     {
         "NUM": "BEL8",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jan Vertonghen"
     },
     {
@@ -689,7 +689,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yannick Carrasco"
     },
     {
@@ -698,7 +698,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kevin De Bruyne"
     },
     {
@@ -707,16 +707,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Charles De Ketelaere"
     },
     {
         "NUM": "BEL12",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Thorgan Hazard"
     },
     {
@@ -725,16 +725,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Youri Tielemans"
     },
     {
         "NUM": "BEL14",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hans Vanaken"
     },
     {
@@ -743,7 +743,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Axel Witsel"
     },
     {
@@ -752,7 +752,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jeremy Doku"
     },
     {
@@ -761,7 +761,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Eden Hazard"
     },
     {
@@ -770,7 +770,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Romelu Lukaku"
     },
     {
@@ -779,7 +779,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Dries Mertens"
     },
     {
@@ -788,7 +788,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Brazil Team Shot"
     },
     {
@@ -797,16 +797,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alisson"
     },
     {
         "NUM": "BRA3",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ederson"
     },
     {
@@ -815,7 +815,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alex Sandro"
     },
     {
@@ -824,7 +824,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Danilo"
     },
     {
@@ -833,16 +833,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Eder Militao"
     },
     {
         "NUM": "BRA7",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Marquinhos"
     },
     {
@@ -851,7 +851,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Thiago Silva"
     },
     {
@@ -860,7 +860,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Casemiro"
     },
     {
@@ -869,7 +869,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Philippe Coutinho"
     },
     {
@@ -878,7 +878,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Fabinho"
     },
     {
@@ -887,7 +887,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Fred"
     },
     {
@@ -896,16 +896,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Lucas Paqueta"
     },
     {
         "NUM": "BRA14",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Antony"
     },
     {
@@ -914,7 +914,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Gabriel Jesus"
     },
     {
@@ -923,16 +923,16 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Neymar Jr"
     },
     {
         "NUM": "BRA17",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Raphinha"
     },
     {
@@ -941,7 +941,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Richarlison"
     },
     {
@@ -950,7 +950,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Vinicius Jr"
     },
     {
@@ -959,7 +959,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Canada Team Shot"
     },
     {
@@ -968,7 +968,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Milan Borjan"
     },
     {
@@ -977,7 +977,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Maxime Crepeau"
     },
     {
@@ -986,7 +986,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Samuel Adekugbe"
     },
     {
@@ -995,7 +995,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Doneil Henry"
     },
     {
@@ -1004,7 +1004,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alistair Johnston"
     },
     {
@@ -1013,7 +1013,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Richie Laryea"
     },
     {
@@ -1022,16 +1022,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kamal Miller"
     },
     {
         "NUM": "CAN9",
-        "CANT": 2,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Steven Vitoria"
     },
     {
@@ -1040,7 +1040,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Tajon Buchanan"
     },
     {
@@ -1049,16 +1049,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alphonso Davies"
     },
     {
         "NUM": "CAN12",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Stephen Eustaquio"
     },
     {
@@ -1067,7 +1067,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Atiba Hutchinson"
     },
     {
@@ -1076,7 +1076,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mark"
     },
     {
@@ -1085,7 +1085,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jonathan Osorio"
     },
     {
@@ -1094,7 +1094,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Samuel Piette"
     },
     {
@@ -1103,16 +1103,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jonathan David"
     },
     {
         "NUM": "CAN18",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "David Junior Hoilett"
     },
     {
@@ -1121,7 +1121,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Cyle Larin"
     },
     {
@@ -1130,7 +1130,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Cameroon Team Shot"
     },
     {
@@ -1139,25 +1139,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Andre Onana"
     },
     {
         "NUM": "CMR3",
-        "CANT": 2,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Devis Epassy"
     },
     {
         "NUM": "CMR4",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jean"
     },
     {
@@ -1166,7 +1166,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Collins Fai"
     },
     {
@@ -1175,7 +1175,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Olivier Mbaizo"
     },
     {
@@ -1184,34 +1184,34 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Harold Moukoudi"
     },
     {
         "NUM": "CMR8",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Michael Ngadeu"
     },
     {
         "NUM": "CMR9",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nouhou"
     },
     {
         "NUM": "CMR10",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Martin Hongla"
     },
     {
@@ -1220,7 +1220,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Pierre Kunde"
     },
     {
@@ -1229,16 +1229,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "James Lea Siliki"
     },
     {
         "NUM": "CMR13",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Samuel Oum Gouet"
     },
     {
@@ -1247,7 +1247,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Andre"
     },
     {
@@ -1256,25 +1256,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Vincent Aboubakar"
     },
     {
         "NUM": "CMR16",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
-        "NOMBRE": "Stephane Bahoken"
-    },
-    {
-        "NUM": "CMR17",
         "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
+        "NOMBRE": "Stephane Bahoken"
+    },
+    {
+        "NUM": "CMR17",
+        "CANT": 4,
+        "PRECIO": 750,
+        "TIPO": "Comunes",
+        "DIA": "10/05/2024",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Eric Maxim Choupo"
     },
     {
@@ -1283,7 +1283,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nicolas Moumi Ngamaleu"
     },
     {
@@ -1292,7 +1292,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Karl Toko Ekambi"
     },
     {
@@ -1301,7 +1301,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Costa Rica Team Shot"
     },
     {
@@ -1310,7 +1310,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Keylor Navas"
     },
     {
@@ -1319,7 +1319,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Leonel Moreira"
     },
     {
@@ -1328,7 +1328,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ricardo Blanco"
     },
     {
@@ -1337,7 +1337,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Francisco Calvo"
     },
     {
@@ -1346,7 +1346,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Oscar Duarte"
     },
     {
@@ -1355,7 +1355,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Keysher Fuller"
     },
     {
@@ -1364,7 +1364,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Bryan Oviedo"
     },
     {
@@ -1373,7 +1373,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Juan Pablo Vargas"
     },
     {
@@ -1382,7 +1382,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kendall Waston"
     },
     {
@@ -1391,16 +1391,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Celso Borges"
     },
     {
         "NUM": "CRC12",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Orlando Galo"
     },
     {
@@ -1409,16 +1409,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Bryan Ruiz"
     },
     {
         "NUM": "CRC14",
-        "CANT": 2,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yeltsin Tejeda"
     },
     {
@@ -1427,7 +1427,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jewison Bennette"
     },
     {
@@ -1436,7 +1436,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Joel Campbell"
     },
     {
@@ -1445,7 +1445,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Anthony Contreras"
     },
     {
@@ -1454,7 +1454,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Gerson Torres"
     },
     {
@@ -1463,43 +1463,43 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Johan Venegas"
     },
     {
         "NUM": "CRO1",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Croatia Team Shot"
     },
     {
         "NUM": "CRO2",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Dominik Livakovic"
     },
     {
         "NUM": "CRO3",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ivica Ivusic"
     },
     {
         "NUM": "CRO4",
-        "CANT": 2,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Duje Caleta"
     },
     {
@@ -1508,7 +1508,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Josko Gvardiol"
     },
     {
@@ -1517,7 +1517,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Josip Juranovic"
     },
     {
@@ -1526,7 +1526,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Dejan Lovren"
     },
     {
@@ -1535,7 +1535,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Borna Sosa"
     },
     {
@@ -1544,16 +1544,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Domagoj Vida"
     },
     {
         "NUM": "CRO10",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Marcelo Brozovic"
     },
     {
@@ -1562,7 +1562,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mateo Kovacic"
     },
     {
@@ -1571,7 +1571,7 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Luka Modric"
     },
     {
@@ -1580,7 +1580,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mario Pasalic"
     },
     {
@@ -1589,7 +1589,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ivan Perisic"
     },
     {
@@ -1598,7 +1598,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nikola Vlasic"
     },
     {
@@ -1607,25 +1607,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Josip Brekalo"
     },
     {
         "NUM": "CRO17",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
-        "NOMBRE": "Andrej Kramaric"
-    },
-    {
-        "NUM": "CRO18",
         "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
+        "NOMBRE": "Andrej Kramaric"
+    },
+    {
+        "NUM": "CRO18",
+        "CANT": 5,
+        "PRECIO": 750,
+        "TIPO": "Comunes",
+        "DIA": "10/05/2024",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Marko Livaja"
     },
     {
@@ -1634,7 +1634,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mislav Orsic"
     },
     {
@@ -1643,7 +1643,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Denmark Team Shot"
     },
     {
@@ -1652,7 +1652,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kasper Schmeichel"
     },
     {
@@ -1661,7 +1661,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Frederik Ronnow"
     },
     {
@@ -1670,16 +1670,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Andreas Christensen"
     },
     {
         "NUM": "DEN5",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Simon Kjaer"
     },
     {
@@ -1688,25 +1688,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Joakim Maehle"
     },
     {
         "NUM": "DEN7",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jens Stryger Larsen"
     },
     {
         "NUM": "DEN8",
-        "CANT": 2,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jannik Vestergaard"
     },
     {
@@ -1715,7 +1715,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mikkel Damsgaard"
     },
     {
@@ -1724,7 +1724,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Thomas Delaney"
     },
     {
@@ -1733,16 +1733,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Christian Eriksen"
     },
     {
         "NUM": "DEN12",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Pierre Emile Hojbjerg"
     },
     {
@@ -1751,7 +1751,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Christian Norgaard"
     },
     {
@@ -1760,7 +1760,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Daniel Wass"
     },
     {
@@ -1769,7 +1769,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Martin Braithwaite"
     },
     {
@@ -1778,7 +1778,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kasper Dolberg"
     },
     {
@@ -1787,16 +1787,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yussuf Poulsen"
     },
     {
         "NUM": "DEN18",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Andreas Skov Olsen"
     },
     {
@@ -1805,7 +1805,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jonas Wind"
     },
     {
@@ -1814,7 +1814,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ecuador Team Shot"
     },
     {
@@ -1823,7 +1823,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hernan Galindez"
     },
     {
@@ -1832,7 +1832,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alexander Dominguez"
     },
     {
@@ -1841,7 +1841,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Robert Arboleda"
     },
     {
@@ -1850,7 +1850,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Byron Castillo"
     },
     {
@@ -1859,16 +1859,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Pervis Estupi\u00c3\u00b1an"
     },
     {
         "NUM": "ECU7",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Piero Hincapie"
     },
     {
@@ -1877,7 +1877,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Angelo Preciado"
     },
     {
@@ -1886,7 +1886,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Felix Torres"
     },
     {
@@ -1895,7 +1895,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Moises Caicedo"
     },
     {
@@ -1904,7 +1904,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alan Franco"
     },
     {
@@ -1913,7 +1913,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Carlos Gruezo"
     },
     {
@@ -1922,7 +1922,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jhegson Mendez"
     },
     {
@@ -1931,16 +1931,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jeremy Sarmiento"
     },
     {
         "NUM": "ECU15",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Michael Estrada"
     },
     {
@@ -1949,7 +1949,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Angel Mena"
     },
     {
@@ -1958,7 +1958,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Gonzalo Plata"
     },
     {
@@ -1967,7 +1967,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ayrton Preciado"
     },
     {
@@ -1976,7 +1976,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Enner Valencia"
     },
     {
@@ -1985,25 +1985,25 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "England Team Shot"
     },
     {
         "NUM": "ENG2",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jordan Pickford"
     },
     {
         "NUM": "ENG3",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Aaron Ramsdale"
     },
     {
@@ -2012,7 +2012,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Trent Alexander"
     },
     {
@@ -2021,7 +2021,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Conor Coady"
     },
     {
@@ -2030,7 +2030,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Harry Maguire"
     },
     {
@@ -2039,7 +2039,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Luke Shaw"
     },
     {
@@ -2048,7 +2048,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "John Stones"
     },
     {
@@ -2057,16 +2057,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kyle Walker"
     },
     {
         "NUM": "ENG10",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jude Bellingham"
     },
     {
@@ -2075,7 +2075,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jack Grealish"
     },
     {
@@ -2084,7 +2084,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jordan Henderson"
     },
     {
@@ -2093,16 +2093,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mason Mount"
     },
     {
         "NUM": "ENG14",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kalvin Phillips"
     },
     {
@@ -2111,7 +2111,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Declan Rice"
     },
     {
@@ -2120,25 +2120,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Phil Foden"
     },
     {
         "NUM": "ENG17",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Harry Kane"
     },
     {
         "NUM": "ENG18",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Bukayo Saka"
     },
     {
@@ -2147,7 +2147,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Raheem Sterling"
     },
     {
@@ -2156,7 +2156,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Spain Team Shot"
     },
     {
@@ -2165,7 +2165,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Unai Simon"
     },
     {
@@ -2174,7 +2174,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Robert Sanchez"
     },
     {
@@ -2183,16 +2183,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Cesar Azpilicueta"
     },
     {
         "NUM": "ESP5",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Eric Garcia"
     },
     {
@@ -2201,7 +2201,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jordi Alba"
     },
     {
@@ -2210,7 +2210,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Aymeric Laporte"
     },
     {
@@ -2219,7 +2219,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Pau Torres"
     },
     {
@@ -2228,7 +2228,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Gavi"
     },
     {
@@ -2237,7 +2237,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Koke"
     },
     {
@@ -2246,7 +2246,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Marcos Llorente"
     },
     {
@@ -2255,7 +2255,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Pedri"
     },
     {
@@ -2264,16 +2264,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Rodri"
     },
     {
         "NUM": "ESP14",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sergio Busquets"
     },
     {
@@ -2282,7 +2282,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Dani Olmo"
     },
     {
@@ -2291,7 +2291,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ansu Fati"
     },
     {
@@ -2300,7 +2300,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ferran Torres"
     },
     {
@@ -2309,16 +2309,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alvaro Morata"
     },
     {
         "NUM": "ESP19",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Pablo Sarabia"
     },
     {
@@ -2327,7 +2327,7 @@
         "PRECIO": 900,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "France Team Shot"
     },
     {
@@ -2336,7 +2336,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hugo Lloris"
     },
     {
@@ -2345,52 +2345,52 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mike Maignan"
     },
     {
         "NUM": "FRA4",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Lucas Hernandez"
     },
     {
         "NUM": "FRA5",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Theo Hernandez"
     },
     {
         "NUM": "FRA6",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Presnel Kimpembe"
     },
     {
         "NUM": "FRA7",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jules Kounde"
     },
     {
         "NUM": "FRA8",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Benjamin Pavard"
     },
     {
@@ -2399,7 +2399,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Raphael Varane"
     },
     {
@@ -2408,7 +2408,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "NGolo Kante"
     },
     {
@@ -2417,16 +2417,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Paul Pogba"
     },
     {
         "NUM": "FRA12",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Adrien Rabiot"
     },
     {
@@ -2435,7 +2435,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Aurelien Tchouameni"
     },
     {
@@ -2444,34 +2444,34 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Wissam Ben Yedder"
     },
     {
         "NUM": "FRA15",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Karim Benzema"
     },
     {
         "NUM": "FRA16",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
-        "NOMBRE": "Kingsley Coman"
-    },
-    {
-        "NUM": "FRA17",
         "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
+        "NOMBRE": "Kingsley Coman"
+    },
+    {
+        "NUM": "FRA17",
+        "CANT": 5,
+        "PRECIO": 750,
+        "TIPO": "Comunes",
+        "DIA": "10/05/2024",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Antoine Griezmann"
     },
     {
@@ -2480,7 +2480,7 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kylian Mbappe"
     },
     {
@@ -2489,7 +2489,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Christopher Nkunku"
     },
     {
@@ -2498,7 +2498,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Germany Team Shot"
     },
     {
@@ -2507,25 +2507,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Manuel Neuer"
     },
     {
         "NUM": "GER3",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Marc"
     },
     {
         "NUM": "GER4",
-        "CANT": 2,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Matthias Ginter"
     },
     {
@@ -2534,16 +2534,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Robin Gosens"
     },
     {
         "NUM": "GER6",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Thilo Kehrer"
     },
     {
@@ -2552,7 +2552,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "David Raum"
     },
     {
@@ -2561,7 +2561,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Antonio Rudiger"
     },
     {
@@ -2570,16 +2570,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Niklas Sule"
     },
     {
         "NUM": "GER10",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Leon Goretzka"
     },
     {
@@ -2588,7 +2588,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ilkay Gundogan"
     },
     {
@@ -2597,7 +2597,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kai Havertz"
     },
     {
@@ -2606,7 +2606,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jonas Hofmann"
     },
     {
@@ -2615,7 +2615,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Joshua Kimmich"
     },
     {
@@ -2624,7 +2624,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Serge Gnabry"
     },
     {
@@ -2633,7 +2633,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Thomas Muller"
     },
     {
@@ -2642,7 +2642,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Marco Reus"
     },
     {
@@ -2651,7 +2651,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Leroy Sane"
     },
     {
@@ -2660,16 +2660,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Timo Werner"
     },
     {
         "NUM": "GHA1",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ghana Team Shot"
     },
     {
@@ -2678,7 +2678,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Joe Wollacott"
     },
     {
@@ -2687,16 +2687,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Richard Ofori"
     },
     {
         "NUM": "GHA4",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Daniel Amartey"
     },
     {
@@ -2705,7 +2705,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Abdul"
     },
     {
@@ -2714,7 +2714,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alexander Djiku"
     },
     {
@@ -2723,7 +2723,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Gideon Mensah"
     },
     {
@@ -2732,7 +2732,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jonathan Mensah"
     },
     {
@@ -2741,7 +2741,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Andy Yiadom"
     },
     {
@@ -2750,7 +2750,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Iddrisu Baba"
     },
     {
@@ -2759,7 +2759,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mohammed Kudus"
     },
     {
@@ -2768,7 +2768,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Daniel-Kofi Kyereh"
     },
     {
@@ -2777,7 +2777,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Thomas Partey"
     },
     {
@@ -2786,7 +2786,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mubarak Wakaso"
     },
     {
@@ -2795,16 +2795,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Felix Afena"
     },
     {
         "NUM": "GHA16",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Andre Ayew"
     },
     {
@@ -2813,7 +2813,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jordan Ayew"
     },
     {
@@ -2822,25 +2822,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Issahaku Abdul Fatawu"
     },
     {
         "NUM": "GHA19",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kamaldeen Sulemana"
     },
     {
         "NUM": "IRN1",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "IR Iran Team Shot"
     },
     {
@@ -2849,7 +2849,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Amir Abedzadeh"
     },
     {
@@ -2858,7 +2858,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alireza Beiranvand"
     },
     {
@@ -2867,7 +2867,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ehsan Hajsafi"
     },
     {
@@ -2876,7 +2876,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Majid Hosseini"
     },
     {
@@ -2885,16 +2885,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hossein Kanaani"
     },
     {
         "NUM": "IRN7",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Shoja Khalilzadeh"
     },
     {
@@ -2903,16 +2903,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Milad Mohammadi"
     },
     {
         "NUM": "IRN9",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sadegh Moharrami"
     },
     {
@@ -2921,7 +2921,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Omid Noorafkan"
     },
     {
@@ -2930,7 +2930,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Vahid Amiri"
     },
     {
@@ -2939,7 +2939,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Saeid Ezatolahi"
     },
     {
@@ -2948,7 +2948,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ali Gholizadeh"
     },
     {
@@ -2957,7 +2957,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alireza Jahanbakhsh"
     },
     {
@@ -2966,7 +2966,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ahmad Nourollahi"
     },
     {
@@ -2975,7 +2975,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Karim Ansarifard"
     },
     {
@@ -2984,16 +2984,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sardar Azmoun"
     },
     {
         "NUM": "IRN18",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Saman Ghoddos"
     },
     {
@@ -3002,7 +3002,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mehdi Taremi"
     },
     {
@@ -3011,7 +3011,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Japan Team Shot"
     },
     {
@@ -3020,16 +3020,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Shuichi Gonda"
     },
     {
         "NUM": "JPN3",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Eiji Kawashima"
     },
     {
@@ -3038,7 +3038,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yuto Nagatomo"
     },
     {
@@ -3047,7 +3047,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yuta Nakayama"
     },
     {
@@ -3056,7 +3056,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Takehiro Tomiyasu"
     },
     {
@@ -3065,7 +3065,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Miki Yamane"
     },
     {
@@ -3074,7 +3074,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Maya Yoshida"
     },
     {
@@ -3083,7 +3083,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Wataru Endo"
     },
     {
@@ -3092,7 +3092,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Genki Haraguchi"
     },
     {
@@ -3101,25 +3101,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hidemasa Morita"
     },
     {
         "NUM": "JPN12",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Gaku Shibasaki"
     },
     {
         "NUM": "JPN13",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ao Tanaka"
     },
     {
@@ -3128,7 +3128,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Takuma Asano"
     },
     {
@@ -3137,7 +3137,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kyogo Furuhashi"
     },
     {
@@ -3146,7 +3146,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Junya Ito"
     },
     {
@@ -3155,7 +3155,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Takumi Minamino"
     },
     {
@@ -3164,7 +3164,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kaoru Mitoma"
     },
     {
@@ -3173,7 +3173,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yuya Osako"
     },
     {
@@ -3182,7 +3182,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Korea Republic Team Shot"
     },
     {
@@ -3191,7 +3191,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Seung"
     },
     {
@@ -3200,7 +3200,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hyeon"
     },
     {
@@ -3209,7 +3209,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Chul Hong"
     },
     {
@@ -3218,7 +3218,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Tae"
     },
     {
@@ -3227,7 +3227,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Min"
     },
     {
@@ -3236,7 +3236,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Young"
     },
     {
@@ -3245,7 +3245,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jin"
     },
     {
@@ -3254,7 +3254,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yong Lee"
     },
     {
@@ -3263,34 +3263,34 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "In"
     },
     {
         "NUM": "KOR11",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Woo"
     },
     {
         "NUM": "KOR12",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jae"
     },
     {
         "NUM": "KOR13",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Seung"
     },
     {
@@ -3299,7 +3299,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Gue"
     },
     {
@@ -3308,7 +3308,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hee"
     },
     {
@@ -3317,7 +3317,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ui"
     },
     {
@@ -3326,16 +3326,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Chang"
     },
     {
         "NUM": "KOR18",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Heung"
     },
     {
@@ -3344,7 +3344,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Min"
     },
     {
@@ -3353,7 +3353,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Saudi Arabia Team Shot"
     },
     {
@@ -3362,7 +3362,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mohammed Al"
     },
     {
@@ -3371,7 +3371,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mohammed Al"
     },
     {
@@ -3380,16 +3380,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Abdulelah Al"
     },
     {
         "NUM": "KSA5",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ali Al"
     },
     {
@@ -3398,7 +3398,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mohammed Al"
     },
     {
@@ -3407,7 +3407,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sultan Al"
     },
     {
@@ -3416,7 +3416,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yasser Al"
     },
     {
@@ -3425,7 +3425,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hassan Al"
     },
     {
@@ -3434,16 +3434,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Abdullah Madu"
     },
     {
         "NUM": "KSA11",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Salman Al"
     },
     {
@@ -3452,16 +3452,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Abdulelah Al"
     },
     {
         "NUM": "KSA13",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sami Al"
     },
     {
@@ -3470,16 +3470,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hattan Bahebri"
     },
     {
         "NUM": "KSA15",
-        "CANT": 2,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mohamed Kanno"
     },
     {
@@ -3488,7 +3488,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Abdullah Otayf"
     },
     {
@@ -3497,7 +3497,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Firas Al"
     },
     {
@@ -3506,7 +3506,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Salem Al"
     },
     {
@@ -3515,7 +3515,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Khalid Al"
     },
     {
@@ -3524,16 +3524,16 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mexico Team Shot"
     },
     {
         "NUM": "MEX2",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Guillermo Ochoa"
     },
     {
@@ -3542,7 +3542,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alfredo Talavera"
     },
     {
@@ -3551,16 +3551,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nestor Araujo"
     },
     {
         "NUM": "MEX5",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jesus Gallardo"
     },
     {
@@ -3569,7 +3569,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Cesar Montes"
     },
     {
@@ -3578,16 +3578,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hector Moreno"
     },
     {
         "NUM": "MEX8",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Luis Romo"
     },
     {
@@ -3596,7 +3596,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jorge Sanchez"
     },
     {
@@ -3605,16 +3605,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Edson Alvarez"
     },
     {
         "NUM": "MEX11",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jesus Manuel Corona"
     },
     {
@@ -3623,7 +3623,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Andres Guardado"
     },
     {
@@ -3632,25 +3632,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Erick Gutierrez"
     },
     {
         "NUM": "MEX14",
-        "CANT": 2,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hector Herrera"
     },
     {
         "NUM": "MEX15",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Diego Lainez"
     },
     {
@@ -3659,25 +3659,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Carlos Rodriguez"
     },
     {
         "NUM": "MEX17",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Rogelio Funes Mori"
     },
     {
         "NUM": "MEX18",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Raul Jimenez"
     },
     {
@@ -3686,16 +3686,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hirving Lozano"
     },
     {
         "NUM": "MAR1",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Morocco Team Shot"
     },
     {
@@ -3704,7 +3704,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yassine Bounou"
     },
     {
@@ -3713,16 +3713,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Munir Mohamedi"
     },
     {
         "NUM": "MAR4",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nayef Aguerd"
     },
     {
@@ -3731,7 +3731,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Achraf Hakimi"
     },
     {
@@ -3740,16 +3740,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Adam Masina"
     },
     {
         "NUM": "MAR7",
-        "CANT": 2,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Samy Mmaee"
     },
     {
@@ -3758,7 +3758,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Romain Saiss"
     },
     {
@@ -3767,7 +3767,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Selim Amallah"
     },
     {
@@ -3776,25 +3776,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sofyan Amrabat"
     },
     {
         "NUM": "MAR11",
-        "CANT": 2,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Aymen Barkok"
     },
     {
         "NUM": "MAR12",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ilias Chair"
     },
     {
@@ -3803,7 +3803,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Imran Louza"
     },
     {
@@ -3812,7 +3812,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sofiane Boufal"
     },
     {
@@ -3821,7 +3821,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ayoub El Kaabi"
     },
     {
@@ -3830,7 +3830,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Youssef En-Nesyri"
     },
     {
@@ -3839,7 +3839,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ryan Mmaee"
     },
     {
@@ -3848,7 +3848,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Munir"
     },
     {
@@ -3857,7 +3857,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Tarik Tissoudali"
     },
     {
@@ -3866,16 +3866,16 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Netherlands Team Shot"
     },
     {
         "NUM": "NED2",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Justin Bijlow"
     },
     {
@@ -3884,7 +3884,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jasper Cillessen"
     },
     {
@@ -3893,7 +3893,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Daley Blind"
     },
     {
@@ -3902,7 +3902,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Matthijs de Ligt"
     },
     {
@@ -3911,7 +3911,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Stefan de Vrij"
     },
     {
@@ -3920,7 +3920,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Denzel Dumfries"
     },
     {
@@ -3929,7 +3929,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Virgil van Dijk"
     },
     {
@@ -3938,16 +3938,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Steven Berghuis"
     },
     {
         "NUM": "NED10",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Frenkie de Jong"
     },
     {
@@ -3956,7 +3956,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ryan Gravenberch"
     },
     {
@@ -3965,25 +3965,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Davy Klaassen"
     },
     {
         "NUM": "NED13",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Teun Koopmeiners"
     },
     {
         "NUM": "NED14",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Georginio Wijnaldum"
     },
     {
@@ -3992,16 +3992,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Steven Bergwijn"
     },
     {
         "NUM": "NED16",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Arnaut Danjuma"
     },
     {
@@ -4010,25 +4010,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Memphis Depay"
     },
     {
         "NUM": "NED18",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Cody Gakpo"
     },
     {
         "NUM": "NED19",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Donyell Malen"
     },
     {
@@ -4037,7 +4037,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Poland Team Shot"
     },
     {
@@ -4046,7 +4046,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Wojciech Szczesny"
     },
     {
@@ -4055,7 +4055,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Lukasz Skorupski"
     },
     {
@@ -4064,7 +4064,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jan Bednarek"
     },
     {
@@ -4073,7 +4073,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Bartosz Bereszynski"
     },
     {
@@ -4082,16 +4082,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Matty Cash"
     },
     {
         "NUM": "POL7",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kamil Glik"
     },
     {
@@ -4100,7 +4100,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Tymoteusz Puchacz"
     },
     {
@@ -4109,7 +4109,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Maciej Rybus"
     },
     {
@@ -4118,16 +4118,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kamil Jozwiak"
     },
     {
         "NUM": "POL11",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mateusz Klich"
     },
     {
@@ -4136,7 +4136,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Grzegorz Krychowiak"
     },
     {
@@ -4145,7 +4145,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jakub Moder"
     },
     {
@@ -4154,7 +4154,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sebastian Szymanski"
     },
     {
@@ -4163,16 +4163,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Piotr Zielinski"
     },
     {
         "NUM": "POL16",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Robert Lewandowski"
     },
     {
@@ -4181,25 +4181,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Arkadiusz Milik"
     },
     {
         "NUM": "POL18",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Krzysztof Piatek"
     },
     {
         "NUM": "POL19",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Karol Swiderski"
     },
     {
@@ -4208,7 +4208,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Portugal Team Shot"
     },
     {
@@ -4217,16 +4217,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Diogo Costa"
     },
     {
         "NUM": "POR3",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Rui Patricio"
     },
     {
@@ -4235,7 +4235,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Joao Cancelo"
     },
     {
@@ -4244,7 +4244,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jose Fonte"
     },
     {
@@ -4253,7 +4253,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nuno Mendes"
     },
     {
@@ -4262,7 +4262,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Pepe"
     },
     {
@@ -4271,7 +4271,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Raphael Guerreiro"
     },
     {
@@ -4280,7 +4280,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ruben Dias"
     },
     {
@@ -4289,7 +4289,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Bernardo Silva"
     },
     {
@@ -4298,7 +4298,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Bruno Fernandes"
     },
     {
@@ -4307,7 +4307,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Danilo Pereira"
     },
     {
@@ -4316,16 +4316,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Joao Moutinho"
     },
     {
         "NUM": "POR14",
-        "CANT": 1,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Renato Sanches"
     },
     {
@@ -4334,7 +4334,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ruben Neves"
     },
     {
@@ -4343,7 +4343,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Andre Silva"
     },
     {
@@ -4352,7 +4352,7 @@
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Cristiano Ronaldo"
     },
     {
@@ -4361,16 +4361,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Diogo Jota"
     },
     {
         "NUM": "POR19",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Gonzalo Guedes"
     },
     {
@@ -4379,7 +4379,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Qatar Team Logo"
     },
     {
@@ -4388,7 +4388,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Saad Al Sheeb"
     },
     {
@@ -4397,7 +4397,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Meshaal Barsham"
     },
     {
@@ -4406,7 +4406,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Homam Ahmed"
     },
     {
@@ -4415,7 +4415,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Bassam Alrawi"
     },
     {
@@ -4424,7 +4424,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Abdulkarim Hassan"
     },
     {
@@ -4433,7 +4433,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Musaab Khidir"
     },
     {
@@ -4442,7 +4442,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Boualem Khoukhi"
     },
     {
@@ -4451,7 +4451,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Pedro Miguel"
     },
     {
@@ -4460,7 +4460,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Tarek Salman"
     },
     {
@@ -4469,7 +4469,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Karim Boudiaf"
     },
     {
@@ -4478,16 +4478,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Abdulaziz Hatem"
     },
     {
         "NUM": "QAT13",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Assim Omer Madibo"
     },
     {
@@ -4496,7 +4496,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yousuf Abdurisag"
     },
     {
@@ -4505,7 +4505,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Akram Hassan Afif"
     },
     {
@@ -4514,25 +4514,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ahmad Alaaeldin"
     },
     {
         "NUM": "QAT17",
-        "CANT": 2,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hasan Al"
     },
     {
         "NUM": "QAT18",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Almoez Ali"
     },
     {
@@ -4541,16 +4541,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mohammed Muntari"
     },
     {
         "NUM": "SEN1",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Senegal Team Shot"
     },
     {
@@ -4559,16 +4559,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Edouard Mendy"
     },
     {
         "NUM": "SEN3",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Alfred Gomis"
     },
     {
@@ -4577,16 +4577,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Saliou Ciss"
     },
     {
         "NUM": "SEN5",
-        "CANT": 1,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Pape Abou Cisse"
     },
     {
@@ -4595,7 +4595,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Abdou Diallo"
     },
     {
@@ -4604,7 +4604,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kalidou Koulibaly"
     },
     {
@@ -4613,16 +4613,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ibrahima Mbaye"
     },
     {
         "NUM": "SEN9",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Bouna Sarr"
     },
     {
@@ -4631,7 +4631,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Krepin Diatta"
     },
     {
@@ -4640,7 +4640,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Idrissa Gueye"
     },
     {
@@ -4649,34 +4649,34 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Pape Gueye"
     },
     {
         "NUM": "SEN13",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Cheikhou Kouyate"
     },
     {
         "NUM": "SEN14",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nampalys Mendy"
     },
     {
         "NUM": "SEN15",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Boulaye Dia"
     },
     {
@@ -4685,16 +4685,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Famara Diedhiou"
     },
     {
         "NUM": "SEN17",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Bamba Dieng"
     },
     {
@@ -4703,7 +4703,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sadio Mane"
     },
     {
@@ -4712,7 +4712,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ismaila Sarr"
     },
     {
@@ -4721,25 +4721,25 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Serbia Team Shot"
     },
     {
         "NUM": "SRB2",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Predrag Rajkovic"
     },
     {
         "NUM": "SRB3",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Vanja Milinkovic"
     },
     {
@@ -4748,7 +4748,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nikola Milenkovic"
     },
     {
@@ -4757,16 +4757,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Strahinja Pavlovic"
     },
     {
         "NUM": "SRB6",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Milos Veljkovic"
     },
     {
@@ -4775,25 +4775,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Filip Duricic"
     },
     {
         "NUM": "SRB8",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nemanja Gudelj"
     },
     {
         "NUM": "SRB9",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Filip Kostic"
     },
     {
@@ -4802,7 +4802,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Darko Lazovic"
     },
     {
@@ -4811,25 +4811,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sasa Lukic"
     },
     {
         "NUM": "SRB12",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nemanja Maksimovic"
     },
     {
         "NUM": "SRB13",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sergej Milinkovic"
     },
     {
@@ -4838,7 +4838,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nemanja Radonjic"
     },
     {
@@ -4847,7 +4847,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Andrija Zivkovic"
     },
     {
@@ -4856,7 +4856,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Luka Jovic"
     },
     {
@@ -4865,7 +4865,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Aleksandar Mitrovic"
     },
     {
@@ -4874,7 +4874,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Dusan Tadic"
     },
     {
@@ -4883,25 +4883,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Dusan Vlahovic"
     },
     {
         "NUM": "SUI1",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Switzerland Team Shot"
     },
     {
         "NUM": "SUI2",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yann Sommer"
     },
     {
@@ -4910,7 +4910,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Gregor Kobel"
     },
     {
@@ -4919,34 +4919,34 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Manuel Akanji"
     },
     {
         "NUM": "SUI5",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
-        "NOMBRE": "Nico Elvedi"
-    },
-    {
-        "NUM": "SUI6",
-        "CANT": 1,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
-        "NOMBRE": "Kevin Mbabu"
-    },
-    {
-        "NUM": "SUI7",
         "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
+        "NOMBRE": "Nico Elvedi"
+    },
+    {
+        "NUM": "SUI6",
+        "CANT": 2,
+        "PRECIO": 750,
+        "TIPO": "Comunes",
+        "DIA": "10/05/2024",
+        "ACTUALIZACION": "22:05:47",
+        "NOMBRE": "Kevin Mbabu"
+    },
+    {
+        "NUM": "SUI7",
+        "CANT": 4,
+        "PRECIO": 750,
+        "TIPO": "Comunes",
+        "DIA": "10/05/2024",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ricardo Rodriguez"
     },
     {
@@ -4955,7 +4955,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Fabian Schar"
     },
     {
@@ -4964,16 +4964,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Silvan Widmer"
     },
     {
         "NUM": "SUI10",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Remo Freuler"
     },
     {
@@ -4982,7 +4982,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Xherdan Shaqiri"
     },
     {
@@ -4991,16 +4991,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Djibril Sow"
     },
     {
         "NUM": "SUI13",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Granit Xhaka"
     },
     {
@@ -5009,7 +5009,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Denis Zakaria"
     },
     {
@@ -5018,7 +5018,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Steven Zuber"
     },
     {
@@ -5027,7 +5027,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Breel Embolo"
     },
     {
@@ -5036,7 +5036,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Noah Okafor"
     },
     {
@@ -5045,7 +5045,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Haris Seferovic"
     },
     {
@@ -5054,7 +5054,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ruben Vargas"
     },
     {
@@ -5063,7 +5063,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Tunisia Team Shot"
     },
     {
@@ -5072,7 +5072,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Bechir Ben Said"
     },
     {
@@ -5081,25 +5081,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Farouk Ben Mustapha"
     },
     {
         "NUM": "TUN4",
-        "CANT": 3,
+        "CANT": 5,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Dylan Bronn"
     },
     {
         "NUM": "TUN5",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mohamed Drager"
     },
     {
@@ -5108,7 +5108,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Bilel Ifa"
     },
     {
@@ -5117,7 +5117,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ali Maaloul"
     },
     {
@@ -5126,7 +5126,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Hamza Mathlouthi"
     },
     {
@@ -5135,7 +5135,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yassine Meriah"
     },
     {
@@ -5144,7 +5144,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Montassar Talbi"
     },
     {
@@ -5153,25 +5153,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mohamed Ali Ben Romdhane"
     },
     {
         "NUM": "TUN12",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Wahbi Khazri"
     },
     {
         "NUM": "TUN13",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Aissa Laidouni"
     },
     {
@@ -5180,7 +5180,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ferjani Sassi"
     },
     {
@@ -5189,7 +5189,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ellyes Skhiri"
     },
     {
@@ -5198,7 +5198,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Anis Slimane"
     },
     {
@@ -5207,7 +5207,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Seifeddine Jaziri"
     },
     {
@@ -5216,7 +5216,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Youssef Msakni"
     },
     {
@@ -5225,16 +5225,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Naim Sliti"
     },
     {
         "NUM": "URU1",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Uruguay Team Shot"
     },
     {
@@ -5243,16 +5243,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Fernando Muslera"
     },
     {
         "NUM": "URU3",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sergio Rochet"
     },
     {
@@ -5261,7 +5261,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ronald Araujo"
     },
     {
@@ -5270,7 +5270,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Martin Caceres"
     },
     {
@@ -5279,16 +5279,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jose Maria Gimenez"
     },
     {
         "NUM": "URU7",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Diego Godin"
     },
     {
@@ -5297,7 +5297,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Mathias Olivera"
     },
     {
@@ -5306,7 +5306,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Matias Vi\u00c3\u00b1a"
     },
     {
@@ -5315,7 +5315,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Rodrigo Bentancur"
     },
     {
@@ -5324,7 +5324,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Giorgian De Arrascaeta"
     },
     {
@@ -5333,7 +5333,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Nicolas De La Cruz"
     },
     {
@@ -5342,7 +5342,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Lucas Torreira"
     },
     {
@@ -5351,7 +5351,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Federico Valverde"
     },
     {
@@ -5360,7 +5360,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Matias Vecino"
     },
     {
@@ -5369,7 +5369,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Edinson Cavani"
     },
     {
@@ -5378,7 +5378,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Darwin Nu\u00c3\u00b1ez"
     },
     {
@@ -5387,16 +5387,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Facundo Pellistri"
     },
     {
         "NUM": "URU19",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 1500,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Luis Suarez"
     },
     {
@@ -5405,7 +5405,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Usa Team Logo"
     },
     {
@@ -5414,7 +5414,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Matt Turner"
     },
     {
@@ -5423,7 +5423,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Zack Steffen"
     },
     {
@@ -5432,7 +5432,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Sergi\u00c3\u00b1o Dest"
     },
     {
@@ -5441,25 +5441,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Aaron Long"
     },
     {
         "NUM": "USA6",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Chris Richards"
     },
     {
         "NUM": "USA7",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Antonee Robinson"
     },
     {
@@ -5468,7 +5468,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "DeAndre Yedlin"
     },
     {
@@ -5477,7 +5477,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Walker Zimmerman"
     },
     {
@@ -5486,7 +5486,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Brenden Aaronson"
     },
     {
@@ -5495,7 +5495,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kellyn Acosta"
     },
     {
@@ -5504,7 +5504,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Tyler Adams"
     },
     {
@@ -5513,7 +5513,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Weston McKennie"
     },
     {
@@ -5522,7 +5522,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Yunus Musah"
     },
     {
@@ -5531,7 +5531,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jesus Ferreira"
     },
     {
@@ -5540,7 +5540,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ricardo Pepi"
     },
     {
@@ -5549,7 +5549,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Christian Pulisic"
     },
     {
@@ -5558,7 +5558,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Giovanni Reyna"
     },
     {
@@ -5567,7 +5567,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Timothy Weah"
     },
     {
@@ -5576,7 +5576,7 @@
         "PRECIO": 1500,
         "TIPO": "ESC",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Wales Team Shot"
     },
     {
@@ -5585,7 +5585,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Danny Ward"
     },
     {
@@ -5594,25 +5594,25 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Wayne Hennessey"
     },
     {
         "NUM": "WAL4",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ethan Ampadu"
     },
     {
         "NUM": "WAL5",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Ben Davies"
     },
     {
@@ -5621,7 +5621,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Chris Gunter"
     },
     {
@@ -5630,7 +5630,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Chris Mepham"
     },
     {
@@ -5639,7 +5639,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Connor Roberts"
     },
     {
@@ -5648,7 +5648,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Joe Rodon"
     },
     {
@@ -5657,7 +5657,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Neco Williams"
     },
     {
@@ -5666,7 +5666,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Joe Allen"
     },
     {
@@ -5675,7 +5675,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Joe Morrell"
     },
     {
@@ -5684,7 +5684,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Aaron Ramsey"
     },
     {
@@ -5693,16 +5693,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Jonathan Williams"
     },
     {
         "NUM": "WAL15",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Harry Wilson"
     },
     {
@@ -5711,16 +5711,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Gareth Bale"
     },
     {
         "NUM": "WAL17",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Daniel James"
     },
     {
@@ -5729,7 +5729,7 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Brennan Johnson"
     },
     {
@@ -5738,16 +5738,16 @@
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "Kieffer Moore"
     },
     {
         "NUM": "C1",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 1500,
         "TIPO": "COCA",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "GNABRY"
     },
     {
@@ -5756,7 +5756,7 @@
         "PRECIO": 1500,
         "TIPO": "COCA",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "DIBU"
     },
     {
@@ -5765,7 +5765,7 @@
         "PRECIO": 1500,
         "TIPO": "COCA",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "DE BRUYNE"
     },
     {
@@ -5774,34 +5774,34 @@
         "PRECIO": 1500,
         "TIPO": "COCA",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "MODRIC"
     },
     {
         "NUM": "C5",
-        "CANT": 1,
-        "PRECIO": 1500,
-        "TIPO": "COCA",
-        "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
-        "NOMBRE": "DECLAN RICE"
-    },
-    {
-        "NUM": "C6",
         "CANT": 2,
         "PRECIO": 1500,
         "TIPO": "COCA",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
-        "NOMBRE": "GAVI"
+        "ACTUALIZACION": "22:05:47",
+        "NOMBRE": "DECLAN RICE"
     },
     {
-        "NUM": "C7",
+        "NUM": "C6",
         "CANT": 3,
         "PRECIO": 1500,
         "TIPO": "COCA",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
+        "NOMBRE": "GAVI"
+    },
+    {
+        "NUM": "C7",
+        "CANT": 4,
+        "PRECIO": 1500,
+        "TIPO": "COCA",
+        "DIA": "10/05/2024",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "LOZANO"
     },
     {
@@ -5810,7 +5810,7 @@
         "PRECIO": 1500,
         "TIPO": "COCA",
         "DIA": "10/05/2024",
-        "ACTUALIZACION": "19:30:23",
+        "ACTUALIZACION": "22:05:47",
         "NOMBRE": "H M SON"
     }
 ]

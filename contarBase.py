@@ -10,5 +10,3 @@ def contarBase(base):
                 cant += linea["CANT"]
 
         print(cant)
-
-contarBase("baseMundial.json")
