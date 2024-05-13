@@ -1467,6 +1467,20 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "VENTA ALBUM 100 FIGUS",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "SOY_DE_LA_PATERNAL",
+            "Vendidas": [
+                "COL1",
+                "HON1",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/05/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
