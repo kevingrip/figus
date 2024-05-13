@@ -19303,6 +19303,18 @@
                 "FWC6",
                 "FWC7"
             ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                "DEN11",
+                "DEN14",
+                "ENG1",
+                "ESP18",
+                "FWC20",
+                "TUN12",
+                "TUN16"
+            ]
         }
     ]
 }
