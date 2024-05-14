@@ -1,182 +1,254 @@
 [
     {
         "NUM": "HCI7",
-        "CAJA": 5,
-        "DESCONTADAS": 3
+        "TOTAL": 7,
+        "MAZO_ANT": 2,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "ARG2",
-        "CAJA": 5,
-        "DESCONTADAS": 4
+        "TOTAL": 9,
+        "MAZO_ANT": 4,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "ARG4",
-        "CAJA": 5,
-        "DESCONTADAS": 4
+        "TOTAL": 8,
+        "MAZO_ANT": 3,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "ARG6",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 5,
+        "MAZO_ANT": 0,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "ARG7",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 5,
+        "MAZO_ANT": 0,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "ARG8",
-        "CAJA": 5,
-        "DESCONTADAS": 3
+        "TOTAL": 7,
+        "MAZO_ANT": 2,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "ARG10",
-        "CAJA": 5,
-        "DESCONTADAS": 3
+        "TOTAL": 8,
+        "MAZO_ANT": 3,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "ARG18",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 5,
+        "MAZO_ANT": 1,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "PER2",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 5,
+        "MAZO_ANT": 0,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "PER12",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 4,
+        "MAZO_ANT": 0,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "USA3",
-        "CAJA": 5,
-        "DESCONTADAS": 3
+        "TOTAL": 6,
+        "MAZO_ANT": 1,
+        "MAZO_POST": 0,
+        "DESCONTAR": 2
     },
     {
         "NUM": "USA4",
-        "CAJA": 5,
-        "DESCONTADAS": 4
+        "TOTAL": 8,
+        "MAZO_ANT": 3,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "URU5",
-        "CAJA": 5,
-        "DESCONTADAS": 3
+        "TOTAL": 8,
+        "MAZO_ANT": 3,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "URU6",
-        "CAJA": 5,
-        "DESCONTADAS": 3
+        "TOTAL": 9,
+        "MAZO_ANT": 3,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "URU8",
-        "CAJA": 5,
-        "DESCONTADAS": 6
+        "TOTAL": 11,
+        "MAZO_ANT": 6,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "URU10",
-        "CAJA": 5,
-        "DESCONTADAS": 2
+        "TOTAL": 8,
+        "MAZO_ANT": 2,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "URU12",
-        "CAJA": 5,
-        "DESCONTADAS": 2
+        "TOTAL": 7,
+        "MAZO_ANT": 2,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "URU13",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 6,
+        "MAZO_ANT": 1,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "URU16",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 6,
+        "MAZO_ANT": 1,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "URU17",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 6,
+        "MAZO_ANT": 1,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "URU18",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 6,
+        "MAZO_ANT": 1,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "URU20",
-        "CAJA": 5,
-        "DESCONTADAS": 5
+        "TOTAL": 10,
+        "MAZO_ANT": 5,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "COL2",
-        "CAJA": 5,
-        "DESCONTADAS": 3
+        "TOTAL": 6,
+        "MAZO_ANT": 1,
+        "MAZO_POST": 0,
+        "DESCONTAR": 2
     },
     {
         "NUM": "COL12",
-        "CAJA": 5,
-        "DESCONTADAS": 2
+        "TOTAL": 5,
+        "MAZO_ANT": 0,
+        "MAZO_POST": 0,
+        "DESCONTAR": 2
     },
     {
         "NUM": "COL14",
-        "CAJA": 5,
-        "DESCONTADAS": 7
+        "TOTAL": 10,
+        "MAZO_ANT": 5,
+        "MAZO_POST": 0,
+        "DESCONTAR": 2
     },
     {
         "NUM": "PAR2",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 5,
+        "MAZO_ANT": 0,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "PAR22",
-        "CAJA": 5,
-        "DESCONTADAS": 2
+        "TOTAL": 7,
+        "MAZO_ANT": 2,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "CRC1",
-        "CAJA": 5,
-        "DESCONTADAS": 2
+        "TOTAL": 6,
+        "MAZO_ANT": 2,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "HON1",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 5,
+        "MAZO_ANT": 0,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "TRI20",
-        "CAJA": 5,
-        "DESCONTADAS": 6
+        "TOTAL": 12,
+        "MAZO_ANT": 6,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "TRI21",
-        "CAJA": 5,
-        "DESCONTADAS": 2
+        "TOTAL": 6,
+        "MAZO_ANT": 1,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "LEG4",
-        "CAJA": 5,
-        "DESCONTADAS": 2
+        "TOTAL": 7,
+        "MAZO_ANT": 2,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "LEG5",
-        "CAJA": 5,
-        "DESCONTADAS": 4
+        "TOTAL": 9,
+        "MAZO_ANT": 4,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "LEG9",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 6,
+        "MAZO_ANT": 0,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     },
     {
         "NUM": "LEG10",
-        "CAJA": 5,
-        "DESCONTADAS": 1
+        "TOTAL": 6,
+        "MAZO_ANT": 1,
+        "MAZO_POST": 0,
+        "DESCONTAR": 0
     },
     {
         "NUM": "LEG14",
-        "CAJA": 5,
-        "DESCONTADAS": 4
+        "TOTAL": 8,
+        "MAZO_ANT": 3,
+        "MAZO_POST": 0,
+        "DESCONTAR": 1
     }
 ]
