@@ -12,3 +12,9 @@ def baseCopamerica():
         base= json.load(bjson)
 
     return base
+
+def baseLali():
+    with open ("baseLali.json") as bjson:
+        base= json.load(bjson)
+
+    return base

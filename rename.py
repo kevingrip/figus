@@ -41,7 +41,7 @@ def renamePaises(listaOriginal,lista3LetrasPaises,variantesTotales):
     VEN = ['VEN','VENEZUELA']
     JAM = ['JAM','JAMAICA']
     PAN = ['PAN','PANAM','PANAMA']
-    BOL = ['BOL']
+    BOL = ['BOL','BOLIVIA']
     COL = ['COL','COLOMBIA']
     PAR = ['PAR','PARAGUA']
     HON = ['HON','HONDURAS']

@@ -1288,6 +1288,46 @@
                 "HON1",
                 "ROH1"
             ]
+        },
+        {
+            "usuario": "CHRISRE",
+            "figusPedidas": [
+                "CAN4",
+                "CRC4",
+                "INT1",
+                "INT4",
+                "JAM3",
+                "PAN16",
+                "PAR14",
+                "ROH1",
+                "TRI10",
+                "TRI12",
+                "VEN16"
+            ]
+        },
+        {
+            "usuario": "RODOLFO346",
+            "figusPedidas": [
+                "ARG10",
+                "ARG12",
+                "ARG22",
+                "BOL12",
+                "CAN10",
+                "HON22",
+                "HON4",
+                "INT2",
+                "JAM12",
+                "JAM8",
+                "MEX8",
+                "PAN4",
+                "PAN6",
+                "PAR1",
+                "PAR14",
+                "PAR22",
+                "ROH1",
+                "USA1",
+                "VEN16"
+            ]
         }
     ]
 }
