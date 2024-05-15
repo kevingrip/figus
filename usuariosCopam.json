@@ -1063,7 +1063,8 @@
                 "ROH2",
                 "VEN10",
                 "VEN16",
-                "VEN7"
+                "VEN7",
+                "INT4"
             ]
         },
         {
@@ -1327,6 +1328,93 @@
                 "ROH1",
                 "USA1",
                 "VEN16"
+            ]
+        },
+        {
+            "usuario": "FERGROSENDO",
+            "figusPedidas": [
+                "BRA8",
+                "BRA9",
+                "COL10",
+                "COL5",
+                "COL6",
+                "CRC8",
+                "HCI10",
+                "HCI4",
+                "HCI8",
+                "HON16",
+                "HON18",
+                "JAM18",
+                "PAN14",
+                "PAN16",
+                "TRI10",
+                "TRI14",
+                "TRI16",
+                "TRI18",
+                "TRI9",
+                "USA1",
+                "USA16",
+                "VEN10"
+            ]
+        },
+        {
+            "usuario": "RODRITZS",
+            "figusPedidas": [
+                "BOL17"
+            ]
+        },
+        {
+            "usuario": "JORGE LUIS FAZZINI",
+            "figusPedidas": [
+                "ARG19"
+            ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                "ARG9",
+                "BOL7",
+                "CHI4",
+                "COL1",
+                "COL17",
+                "HCI1",
+                "HCI8",
+                "INT4",
+                "JAM11",
+                "JAM9",
+                "LEG11",
+                "LEG15",
+                "MEX21",
+                "PER2",
+                "ROH2",
+                "VEN10",
+                "VEN16",
+                "VEN7"
+            ]
+        },
+        {
+            "usuario": "ELTALLA2008",
+            "figusPedidas": [
+                "BOL6",
+                "CAN10",
+                "CAN21",
+                "CAN6",
+                "CRC1",
+                "CRC22",
+                "CRC6",
+                "CRC8",
+                "ECU21",
+                "HON10",
+                "HON3",
+                "MEX5",
+                "MEX6",
+                "PAR15",
+                "PAR2",
+                "PAR21",
+                "PAR22",
+                "PER9",
+                "USA19",
+                "VEN13"
             ]
         }
     ]
