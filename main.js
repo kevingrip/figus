@@ -41,36 +41,56 @@ const sinStock = () =>{
 
     const resultSinStock = document.getElementById('resultadosSinStock');
     resultSinStock.innerHTML = ''; // Limpiar resultados anteriores
-    let figuritas0='';
-    let figuritas1='';
-    let figuritas2='';
+    let figuritas0=[];
+    let figus0str='';
+    let figuritas1=[];
+    let figus1str='';
+    let figuritas2=[];
+    let figus2str='';
 
     figus.forEach(figu => {
         if (figu["CANT"]==0){
-            figuritas0+=figu["NUM"]+=', ';  
+            figuritas0.push(figu["NUM"])
         }else if(figu["CANT"]==1){
-            figuritas1+=figu["NUM"]+=', ';  
+            figuritas1.push(figu["NUM"])
         }else if(figu["CANT"]==2){
-            figuritas2+=figu["NUM"]+=', ';  
+            figuritas2.push(figu["NUM"])
         }
     })
+
+    figuritas0.sort()
+    figuritas1.sort()
+    figuritas2.sort()
+
+    figuritas0.forEach(figu =>{
+        figus0str+=figu+=', ';
+    })
+
+    figuritas1.forEach(figu =>{
+        figus1str+=figu+=', ';
+    })
+
+    figuritas2.forEach(figu =>{
+        figus2str+=figu+=', ';
+    })
+
     const p1 = document.createElement('p');
     const s0h3 = document.createElement('h3');
-    p1.textContent = figuritas0.slice(0, -2);
+    p1.textContent = figus0str.slice(0, -2);
     s0h3.textContent = 'Sin Stock: '
     resultSinStock.appendChild(s0h3);
     resultSinStock.appendChild(p1);
 
     const p2 = document.createElement('p');
     const s1h3 = document.createElement('h3');
-    p2.textContent = figuritas1.slice(0, -2);
+    p2.textContent = figus1str.slice(0, -2);
     s1h3.textContent = '1 en Stock: '
     resultSinStock.appendChild(s1h3);
     resultSinStock.appendChild(p2);
 
     const p3 = document.createElement('p');
     const s2h3 = document.createElement('h3');
-    p3.textContent = figuritas2.slice(0, -2);
+    p3.textContent = figus2str.slice(0, -2);
     s2h3.textContent = '2 en Stock: '
     resultSinStock.appendChild(s2h3);
     resultSinStock.appendChild(p3);
