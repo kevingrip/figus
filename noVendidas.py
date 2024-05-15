@@ -2,7 +2,7 @@ import json
 
 from bases import*
 
-base = baseCopamerica()
+base = baseLali()
 
 
 with open ("totalVentas.json","r") as vJson:
@@ -10,6 +10,7 @@ with open ("totalVentas.json","r") as vJson:
 
 ventasMundial = totalVentas["Mundial Qatar 2022"]
 ventasCopam = totalVentas["Copa America 2024"]
+ventasLali = totalVentas["Copa Libertadores 2023"]
 
 # for linea in ventasMundial:
 #     if linea["usuario"]=='WILLY22':
@@ -24,12 +25,17 @@ ventasCopam = totalVentas["Copa America 2024"]
 #                     if linea["CANT"]>0:
 #                         print (linea)
 
-for linea in ventasCopam:
+str=''
+
+for linea in ventasLali:
     if len(linea["NoVendidas"])>0:
-        if linea["usuario"] == 'LUKE993':
+        if linea["usuario"] == 'milfa':
             print(linea["Dia"],"\n",linea["usuario"])
             for x in linea["NoVendidas"]:
                 for figu in base:
                     if figu["NUM"] == x:
                         print(x,"CANT:" ,figu["CANT"])
+                        str+=figu["NUM"]+', '
             print("\n")
+
+print(str)
