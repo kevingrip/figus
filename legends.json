@@ -1,22 +1,22 @@
 [
     {
         "nombre": "VLAHOVIC",
-        "BASE": 8,
+        "BASE": 7,
         "BRONZE": 2,
         "SILVER": 0,
         "GOLD": 0
     },
     {
         "nombre": "VARANE",
-        "BASE": 10,
+        "BASE": 8,
         "BRONZE": 2,
         "SILVER": 0,
         "GOLD": 0
     },
     {
         "nombre": "H M SON",
-        "BASE": 7,
-        "BRONZE": 5,
+        "BASE": 6,
+        "BRONZE": 3,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -29,8 +29,8 @@
     },
     {
         "nombre": "REYNA",
-        "BASE": 10,
-        "BRONZE": 8,
+        "BASE": 9,
+        "BRONZE": 7,
         "SILVER": 0,
         "GOLD": 1
     },
@@ -43,7 +43,7 @@
     },
     {
         "nombre": "OCHOA",
-        "BASE": 3,
+        "BASE": 2,
         "BRONZE": 0,
         "SILVER": 0,
         "GOLD": 0
@@ -51,27 +51,27 @@
     {
         "nombre": "NEYMAR",
         "BASE": 0,
-        "BRONZE": 3,
-        "SILVER": 1,
+        "BRONZE": 0,
+        "SILVER": 0,
         "GOLD": 0
     },
     {
         "nombre": "MODRIC",
         "BASE": 0,
         "BRONZE": 0,
-        "SILVER": 1,
+        "SILVER": 0,
         "GOLD": 0
     },
     {
         "nombre": "MESSI",
         "BASE": 0,
-        "BRONZE": 4,
+        "BRONZE": 3,
         "SILVER": 0,
         "GOLD": 0
     },
     {
         "nombre": "MANE",
-        "BASE": 6,
+        "BASE": 3,
         "BRONZE": 0,
         "SILVER": 0,
         "GOLD": 0
@@ -85,58 +85,58 @@
     },
     {
         "nombre": "LEWANDOWSKI",
-        "BASE": 3,
-        "BRONZE": 0,
-        "SILVER": 0,
-        "GOLD": 0
-    },
-    {
-        "nombre": "GRAVENBERCH",
-        "BASE": 6,
-        "BRONZE": 9,
-        "SILVER": 0,
-        "GOLD": 0
-    },
-    {
-        "nombre": "GAVI",
-        "BASE": 4,
-        "BRONZE": 0,
-        "SILVER": 0,
-        "GOLD": 0
-    },
-    {
-        "nombre": "ERIKSEN",
-        "BASE": 8,
-        "BRONZE": 5,
-        "SILVER": 1,
-        "GOLD": 0
-    },
-    {
-        "nombre": "DE BRUYNE",
-        "BASE": 0,
-        "BRONZE": 2,
-        "SILVER": 0,
-        "GOLD": 0
-    },
-    {
-        "nombre": "DAVIES",
-        "BASE": 3,
-        "BRONZE": 5,
-        "SILVER": 0,
-        "GOLD": 0
-    },
-    {
-        "nombre": "BELLINGHAM",
         "BASE": 1,
         "BRONZE": 0,
         "SILVER": 0,
         "GOLD": 0
     },
     {
-        "nombre": "ALMOEZ ALI",
-        "BASE": 6,
-        "BRONZE": 6,
+        "nombre": "GRAVENBERCH",
+        "BASE": 4,
+        "BRONZE": 8,
         "SILVER": 0,
-        "GOLD": 1
+        "GOLD": 0
+    },
+    {
+        "nombre": "GAVI",
+        "BASE": 2,
+        "BRONZE": 0,
+        "SILVER": 0,
+        "GOLD": 0
+    },
+    {
+        "nombre": "ERIKSEN",
+        "BASE": 6,
+        "BRONZE": 4,
+        "SILVER": 0,
+        "GOLD": 0
+    },
+    {
+        "nombre": "DE BRUYNE",
+        "BASE": 0,
+        "BRONZE": 0,
+        "SILVER": 0,
+        "GOLD": 0
+    },
+    {
+        "nombre": "DAVIES",
+        "BASE": 2,
+        "BRONZE": 5,
+        "SILVER": 0,
+        "GOLD": 0
+    },
+    {
+        "nombre": "BELLINGHAM",
+        "BASE": 0,
+        "BRONZE": 0,
+        "SILVER": 0,
+        "GOLD": 0
+    },
+    {
+        "nombre": "ALMOEZ ALI",
+        "BASE": 5,
+        "BRONZE": 5,
+        "SILVER": 0,
+        "GOLD": 0
     }
 ]
