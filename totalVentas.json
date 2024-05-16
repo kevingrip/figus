@@ -1711,6 +1711,67 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "FARMACIA ABA",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "MAJU189560",
+            "Vendidas": [
+                "ARG8",
+                "ARG9",
+                "ARG10",
+                "ARG13",
+                "ARG22",
+                "URU8",
+                "URU9",
+                "URU16",
+                "URU20",
+                "URU22"
+            ],
+            "NoVendidas": [
+                "ARG11",
+                "ARG17"
+            ],
+            "Dia": "15/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "MARUJA832",
+            "Vendidas": [
+                "HCI8",
+                "CHI12",
+                "CHI14",
+                "ECU18",
+                "PAN4",
+                "CAN16",
+                "HON15",
+                "HON16",
+                "HON21",
+                "LEG12"
+            ],
+            "NoVendidas": [
+                "CAN17",
+                "HON7",
+                "TRI1"
+            ],
+            "Dia": "15/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
