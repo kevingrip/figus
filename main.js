@@ -38,6 +38,7 @@ const cargarFigus = () => {
 
 const sinStock = () =>{
     let figus = window.todasLasFigus
+    let cant=0
 
     const resultSinStock = document.getElementById('resultadosSinStock');
     resultSinStock.innerHTML = ''; // Limpiar resultados anteriores
@@ -51,6 +52,7 @@ const sinStock = () =>{
     figus.forEach(figu => {
         if (figu["CANT"]==0){
             figuritas0.push(figu["NUM"])
+            cant+=1
         }else if(figu["CANT"]==1){
             figuritas1.push(figu["NUM"])
         }else if(figu["CANT"]==2){
@@ -77,7 +79,7 @@ const sinStock = () =>{
     const p1 = document.createElement('p');
     const s0h3 = document.createElement('h3');
     p1.textContent = figus0str.slice(0, -2);
-    s0h3.textContent = 'Sin Stock: '
+    s0h3.textContent = `Sin Stock: ( ${cant} )`
     resultSinStock.appendChild(s0h3);
     resultSinStock.appendChild(p1);
 
