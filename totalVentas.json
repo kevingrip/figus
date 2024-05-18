@@ -1786,6 +1786,32 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "MONICAVRIES",
+            "Vendidas": [
+                "ARG3",
+                "ARG5",
+                "PER16",
+                "MEX7",
+                "MEX16",
+                "MEX20",
+                "MEX21",
+                "MEX22",
+                "VEN6",
+                "LEG9"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "INT4",
+                "ARG19",
+                "PER5"
+            ],
+            "Dia": "18/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
