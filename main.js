@@ -64,9 +64,31 @@ const sinStock = () =>{
     figuritas1.sort()
     figuritas2.sort()
 
-    figuritas0.forEach(figu =>{
-        figus0str+=figu+=', ';
-    })
+    let primero = '' 
+    let segundo = '' 
+    let paiss = [] 
+
+    figuritas0.forEach(figu => { 
+        if (paiss.length === 0) { 
+            paiss.push(figu.substring(0, 3)); 
+        } if (!paiss.includes(figu.substring(0, 3))) { 
+            paiss.push(figu.substring(0, 3)) 
+        } }) 
+
+    for (let x = 0; x < paiss.length; x++) { 
+        primero = '' 
+        segundo = '' 
+        figuritas0.forEach(figu => { 
+            if (paiss[x] === figu.substring(0, 3)) { 
+                if (figu.length === 4) { 
+                    primero += figu + ', ' 
+                } else { 
+                    segundo += figu + ', ' 
+                } 
+            } 
+        }) 
+        figus0str += primero + segundo 
+    } 
 
     figuritas1.forEach(figu =>{
         figus1str+=figu+=', ';
