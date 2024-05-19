@@ -1516,6 +1516,87 @@
                 "PER5",
                 "VEN6"
             ]
+        },
+        {
+            "usuario": "VCHAHER",
+            "figusPedidas": [
+                "COL18",
+                "COL20",
+                "COL7",
+                "CRC11",
+                "CRC18",
+                "CRC19",
+                "CRC5",
+                "JAM20",
+                "PAN17",
+                "PAN6",
+                "PER13",
+                "PER16",
+                "TRI14",
+                "TRI5",
+                "VEN17"
+            ]
+        },
+        {
+            "usuario": "CJCLAUDIO",
+            "figusPedidas": [
+                "ARG1",
+                "ARG10",
+                "ARG11",
+                "ARG12",
+                "ARG13",
+                "ARG14",
+                "ARG15",
+                "ARG16",
+                "ARG17",
+                "ARG18",
+                "ARG19",
+                "ARG2",
+                "ARG20",
+                "ARG21",
+                "ARG22",
+                "ARG3",
+                "ARG4",
+                "ARG5",
+                "ARG6",
+                "ARG7",
+                "ARG8",
+                "ARG9",
+                "HCI10",
+                "HON15",
+                "INT2",
+                "INT4",
+                "LEG2",
+                "MEX10",
+                "MEX8",
+                "PAN10",
+                "PAN12",
+                "PAN13",
+                "PAN14",
+                "PAN15",
+                "URU1",
+                "VEN21"
+            ]
+        },
+        {
+            "usuario": "VCHAHER",
+            "figusPedidas": [
+                "COL18",
+                "COL20",
+                "COL7",
+                "CRC11",
+                "CRC18",
+                "CRC19",
+                "CRC5",
+                "JAM20",
+                "PAN17",
+                "PAN6",
+                "PER13",
+                "PER16",
+                "TRI14",
+                "TRI5",
+                "VEN17"
+            ]
         }
     ]
 }
