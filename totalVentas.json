@@ -1942,6 +1942,21 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "ALMA8332451",
+            "Vendidas": [
+                "ARG21",
+                "LEG6"
+            ],
+            "NoVendidas": [
+                "ARG19"
+            ],
+            "Dia": "20/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "Etiqueta": "ASD",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
