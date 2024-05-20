@@ -27,15 +27,25 @@ ventasLali = totalVentas["Copa Libertadores 2023"]
 
 str=''
 
+precio=0
+
+cant=0
+
 for linea in ventasLali:
     if len(linea["NoVendidas"])>0:
         if linea["usuario"] == 'milfa':
             print(linea["Dia"],"\n",linea["usuario"])
             for x in linea["NoVendidas"]:
-                for figu in base:
-                    if figu["NUM"] == x:
-                        print(x,"CANT:" ,figu["CANT"])
-                        str+=figu["NUM"]+', '
+                if x!='392':
+                    for figu in base:
+                        if figu["NUM"] == x:
+                            print(x,"CANT:",'$',figu["PRECIO"])
+                            str+=figu["NUM"]+', '
+                            precio+=figu["PRECIO"]
+                            cant+=1
             print("\n")
 
 print(str)
+
+print(precio)
+print(cant)
