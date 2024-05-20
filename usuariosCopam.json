@@ -1675,6 +1675,35 @@
                 "USA9",
                 "VEN1"
             ]
+        },
+        {
+            "usuario": "BLONDI_VDP",
+            "figusPedidas": [
+                "INT2",
+                "INT3",
+                "INT4",
+                "PER1",
+                "ROH1",
+                "ROH2",
+                "VEN11",
+                "VEN13",
+                "VEN14",
+                "VEN3"
+            ]
+        },
+        {
+            "usuario": "SANTINOJV",
+            "figusPedidas": [
+                "URU1"
+            ]
+        },
+        {
+            "usuario": "FERGROSENDO",
+            "figusPedidas": [
+                "TRI18",
+                "USA16",
+                "VEN18"
+            ]
         }
     ]
 }
