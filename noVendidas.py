@@ -2,7 +2,7 @@ import json
 
 from bases import*
 
-base = baseLali()
+base = baseCopamerica()
 
 
 with open ("totalVentas.json","r") as vJson:
@@ -31,15 +31,15 @@ precio=0
 
 cant=0
 
-for linea in ventasLali:
+for linea in ventasCopam:
     if len(linea["NoVendidas"])>0:
-        if linea["usuario"] == 'milfa':
+        # if linea["usuario"] == 'milfa':
             print(linea["Dia"],"\n",linea["usuario"])
             for x in linea["NoVendidas"]:
-                if x!='392':
+                # if x!='392':
                     for figu in base:
                         if figu["NUM"] == x:
-                            print(x,"CANT:",'$',figu["PRECIO"])
+                            print(x,"CANT:",figu["CANT"],'$',figu["PRECIO"])
                             str+=figu["NUM"]+', '
                             precio+=figu["PRECIO"]
                             cant+=1
