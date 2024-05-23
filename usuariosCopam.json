@@ -2098,6 +2098,91 @@
                 "INT1",
                 "INT4"
             ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                "ARG19",
+                "ARG20"
+            ]
+        },
+        {
+            "usuario": "IVI 2016",
+            "figusPedidas": [
+                "CAN13",
+                "CHI22",
+                "CHI4",
+                "COL15",
+                "COL7",
+                "COL9",
+                "CRC3",
+                "ECU7",
+                "HCI1",
+                "HON3",
+                "HON5",
+                "INT3",
+                "LEG11",
+                "MEX15",
+                "MEX17",
+                "MEX19",
+                "MEX22",
+                "PAN10",
+                "PAN15",
+                "PAN17",
+                "PAN20",
+                "PAR11",
+                "PAR7",
+                "PER11",
+                "PER17",
+                "ROH2",
+                "TRI13",
+                "TRI9",
+                "URU1",
+                "VEN1",
+                "VEN17"
+            ]
+        },
+        {
+            "usuario": "OYARZUNSILVANA20230524110746",
+            "figusPedidas": [
+                "ARG10",
+                "ARG20",
+                "ARG5",
+                "BOL12",
+                "BOL14",
+                "BOL18",
+                "BRA10",
+                "BRA8",
+                "CAN6",
+                "CHI10",
+                "CHI12",
+                "CHI14",
+                "COL22",
+                "CRC9",
+                "ECU1",
+                "ECU10",
+                "ECU6",
+                "HCI8",
+                "INT1",
+                "INT3",
+                "LEG10",
+                "LEG9",
+                "PAN1",
+                "PAN14",
+                "PAN2",
+                "PER11",
+                "PER4",
+                "PER6",
+                "ROH1",
+                "ROH2",
+                "TRI1",
+                "URU2",
+                "USA19",
+                "USA21",
+                "USA7",
+                "VEN10",
+                "VEN12"
+            ]
         }
     ]
 }

@@ -2241,6 +2241,19 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "prueba",
+            "Vendidas": [
+                "ARG19",
+                "ARG20"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/05/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
