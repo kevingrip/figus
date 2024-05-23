@@ -1917,26 +1917,6 @@
             ]
         },
         {
-            "usuario": "PVERRA",
-            "figusPedidas": [
-                "ARG2",
-                "BOL22",
-                "CHI3",
-                "COL1",
-                "CRC5",
-                "INT4",
-                "JAM12",
-                "LEG13",
-                "PAN11",
-                "PAN16",
-                "PER1",
-                "PER17",
-                "ROH1",
-                "TRI3",
-                "USA11"
-            ]
-        },
-        {
             "usuario": "MARIACECILIAALMADA",
             "figusPedidas": [
                 "BRA10",
@@ -2069,6 +2049,47 @@
                 "USA1",
                 "USA11",
                 "USA2"
+            ]
+        },
+        {
+            "usuario": "PVERRA",
+            "figusPedidas": [
+                "BOL22",
+                "CHI3",
+                "COL1",
+                "CRC5",
+                "INT4",
+                "JAM12",
+                "LEG13",
+                "PAN11",
+                "PER17",
+                "ROH1",
+                "USA11"
+            ]
+        },
+        {
+            "usuario": "SOFBUGDADI",
+            "figusPedidas": [
+                "BOL20",
+                "INT2",
+                "JAM22",
+                "LEG18",
+                "MEX8",
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "MARIALUZSANTAOLALLA",
+            "figusPedidas": [
+                "ARG7",
+                "ARG9",
+                "COL16",
+                "CRC1",
+                "ECU6",
+                "LEG6",
+                "PAR1",
+                "PER14",
+                "PER4"
             ]
         }
     ]

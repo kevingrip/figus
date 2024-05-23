@@ -19641,6 +19641,32 @@
                 "SUI13",
                 "TUN11"
             ]
+        },
+        {
+            "usuario": "ALEJANDROBRUZZESI",
+            "figusPedidas": [
+                "CRC16"
+            ]
+        },
+        {
+            "usuario": "EL EQUI",
+            "figusPedidas": [
+                "CRC8",
+                "CRO11",
+                "DEN10",
+                "ECU1",
+                "ESP1",
+                "ESP3",
+                "GER4",
+                "JPN9",
+                "MAR1",
+                "POL19",
+                "POR1",
+                "SEN1",
+                "SEN2",
+                "TUN19",
+                "USA7"
+            ]
         }
     ]
 }

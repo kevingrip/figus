@@ -2182,6 +2182,65 @@
             "Envio": "CORREO",
             "Etiqueta": "ASD",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "PVERRA",
+            "Vendidas": [
+                "INT4",
+                "PER17",
+                "CHI3",
+                "JAM12",
+                "USA11",
+                "PAN11",
+                "BOL22",
+                "COL1",
+                "CRC5",
+                "LEG13",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "SOFBUGDADI",
+            "Vendidas": [
+                "INT2",
+                "MEX8",
+                "VEN1",
+                "JAM22",
+                "BOL20",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "MARIALUZSANTAOLALLA",
+            "Vendidas": [
+                "ARG7",
+                "ARG9",
+                "PER4",
+                "PER14",
+                "ECU6",
+                "COL16",
+                "PAR1",
+                "CRC1",
+                "LEG6"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
