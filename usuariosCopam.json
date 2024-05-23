@@ -1894,6 +1894,91 @@
             "figusPedidas": [
                 "ARG3"
             ]
+        },
+        {
+            "usuario": "VALERIAGARIBE",
+            "figusPedidas": [
+                "ARG1",
+                "ARG2",
+                "ECU8",
+                "INT1",
+                "URU1",
+                "VEN14"
+            ]
+        },
+        {
+            "usuario": "GUI_PARRAVICHINI",
+            "figusPedidas": [
+                "BOL14",
+                "CRC20",
+                "CRC4",
+                "HCI1",
+                "MEX9"
+            ]
+        },
+        {
+            "usuario": "PVERRA",
+            "figusPedidas": [
+                "ARG2",
+                "BOL22",
+                "CHI3",
+                "COL1",
+                "CRC5",
+                "INT4",
+                "JAM12",
+                "LEG13",
+                "PAN11",
+                "PAN16",
+                "PER1",
+                "PER17",
+                "ROH1",
+                "TRI3",
+                "USA11"
+            ]
+        },
+        {
+            "usuario": "MARIACECILIAALMADA",
+            "figusPedidas": [
+                "BRA10",
+                "BRA20",
+                "CHI18",
+                "CHI22",
+                "CHI4",
+                "CHI6",
+                "CRC8",
+                "ECU12",
+                "JAM20",
+                "MEX10",
+                "TRI8"
+            ]
+        },
+        {
+            "usuario": "FEDERICOLUISMENA",
+            "figusPedidas": [
+                "ARG12",
+                "ARG17",
+                "ARG21",
+                "ARG4",
+                "ARG5",
+                "ARG9",
+                "BRA15",
+                "BRA9",
+                "HON19",
+                "HON7",
+                "HON9",
+                "LEG6",
+                "PAR11",
+                "PAR15",
+                "PAR16",
+                "PAR19",
+                "PAR22",
+                "USA11",
+                "USA13",
+                "USA15",
+                "USA18",
+                "USA2",
+                "USA8"
+            ]
         }
     ]
 }
