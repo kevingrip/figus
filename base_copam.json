@@ -72,7 +72,7 @@
     {
         "NUM": "HCI7",
         "TIPO": "CIUDAD",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 1000,
         "NOMBRE": "CHARLOTTE"
     },
@@ -121,7 +121,7 @@
     {
         "NUM": "ARG4",
         "TIPO": "AFA",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 1500,
         "NOMBRE": "FRANCO ARMANI"
     },
@@ -170,14 +170,14 @@
     {
         "NUM": "ARG11",
         "TIPO": "AFA",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 1500,
         "NOMBRE": "NICOLAS TAGLIAFICO"
     },
     {
         "NUM": "ARG12",
         "TIPO": "AFA",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 2000,
         "NOMBRE": "EXEQUIEL PALACIOS"
     },
@@ -1178,14 +1178,14 @@
     {
         "NUM": "USA1",
         "TIPO": "ESCUDO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2000,
         "NOMBRE": "USA ESC"
     },
     {
         "NUM": "USA2",
         "TIPO": "EQUIPO",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 1200,
         "NOMBRE": "USA TEAM"
     },
@@ -1248,7 +1248,7 @@
     {
         "NUM": "USA11",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "JOE SCALLY"
     },
@@ -1346,7 +1346,7 @@
     {
         "NUM": "URU3",
         "TIPO": "COMUNES",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 850,
         "NOMBRE": "SERGIO ROCHET"
     },
@@ -1843,7 +1843,7 @@
     {
         "NUM": "BRA8",
         "TIPO": "COMUNES",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 850,
         "NOMBRE": "NINO"
     },
