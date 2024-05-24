@@ -154,7 +154,7 @@ if (album == "Mundial Qatar 2022"):
 
         if subInicio == "Nueva Venta":
             
-            subInicioVenta = easygui.buttonbox("Elija una opción", choices=["Venta de usuario","Figurita Individual","Legends"], title=album)
+            subInicioVenta = easygui.buttonbox("Elija una opción", choices=["Venta de usuario","Ingresar Figuritas","Legends"], title=album)
 
             if subInicioVenta == "Venta de usuario":
 
@@ -168,7 +168,7 @@ if (album == "Mundial Qatar 2022"):
 
                 actualizarFecha()
 
-            elif subInicioVenta == "Figurita Individual":
+            elif subInicioVenta == "Ingresar Figuritas":
                 ingresarDatos(datosIngresar)
 
                 usuario_mercadolibre = datosIngresar[0]
@@ -636,7 +636,7 @@ elif (album == "Copa America 2024"):
 
         if subInicio == "Nueva Venta":
             
-            subInicioVenta = easygui.buttonbox("Elija una opción", choices=["Venta de usuario","Figurita Individual","Legends"], title=album)
+            subInicioVenta = easygui.buttonbox("Elija una opción", choices=["Venta de usuario","Ingresar Figuritas","Legends"], title=album)
 
             if subInicioVenta == "Venta de usuario":
 
@@ -650,7 +650,7 @@ elif (album == "Copa America 2024"):
 
                 actualizarFecha()
 
-            elif subInicioVenta == "Figurita Individual":
+            elif subInicioVenta == "Ingresar Figuritas":
                 ingresarDatos(datosIngresar)
 
                 usuario_mercadolibre = datosIngresar[0]
