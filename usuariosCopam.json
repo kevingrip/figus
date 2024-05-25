@@ -2216,6 +2216,49 @@
                 "VEN10",
                 "VEN22"
             ]
+        },
+        {
+            "usuario": "PEREZITURRASPEMONICA",
+            "figusPedidas": [
+                "ARG5",
+                "CHI11",
+                "CHI16",
+                "CHI22",
+                "COL15",
+                "ECU13",
+                "ECU19",
+                "HCI10",
+                "INT4",
+                "JAM9",
+                "LEG16",
+                "MEX17",
+                "MEX7",
+                "MEX9",
+                "PAR15",
+                "VEN3"
+            ]
+        },
+        {
+            "usuario": "DANIELRI",
+            "figusPedidas": [
+                "ARG18",
+                "ARG20",
+                "CAN14",
+                "CHI19",
+                "CRC7",
+                "ECU20",
+                "INT4",
+                "JAM1",
+                "LEG3",
+                "PER15",
+                "USA16"
+            ]
+        },
+        {
+            "usuario": "HERANDICAMILLO",
+            "figusPedidas": [
+                "INT1"
+            ]
         }
     ]
 }
