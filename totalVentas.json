@@ -2310,7 +2310,31 @@
                 "CAN3",
                 "CAN22",
                 "TRI3",
-                "TRI11"
+                "TRI11",
+                "VEN20"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "YAMILA OVIEDO",
+            "Vendidas": [
+                "INT4",
+                "ARG2",
+                "VEN10",
+                "VEN22",
+                "JAM6",
+                "PAN7",
+                "PAN21",
+                "BOL7",
+                "BRA15",
+                "TRI11",
+                "TRI17",
+                "ROH2"
             ],
             "NoVendidas": [],
             "Dia": "24/05/2024",
