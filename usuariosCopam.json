@@ -1963,7 +1963,6 @@
         {
             "usuario": "MARLUC7",
             "figusPedidas": [
-                "ARG19",
                 "BOL10",
                 "BOL15",
                 "CAN14",
@@ -2268,6 +2267,15 @@
                 "LEG12",
                 "LEG5",
                 "URU1"
+            ]
+        },
+        {
+            "usuario": "GBAUTA",
+            "figusPedidas": [
+                "ARG1",
+                "ARG19",
+                "LEG14",
+                "LEG3"
             ]
         }
     ]
