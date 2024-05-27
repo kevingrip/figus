@@ -18,3 +18,9 @@ def baseLali():
         base= json.load(bjson)
 
     return base
+
+def baseFutarg():
+    with open ("baseFutarg.json") as bjson:
+        base= json.load(bjson)
+
+    return base

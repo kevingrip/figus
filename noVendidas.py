@@ -31,21 +31,39 @@ precio=0
 
 cant=0
 
+tengo=[]
+noTengo=[]
+
 for linea in ventasLali:
     if len(linea["NoVendidas"])>0:
         if linea["usuario"] == 'milfa':
             print(linea["Dia"],"\n",linea["usuario"])
             for x in linea["NoVendidas"]:
-                if x!='392':
-                    for figu in base:
+                for figu in base:
                         if figu["NUM"] == x:
-                            print(x,"CANT:",'$',figu["PRECIO"])
-                            str+=figu["NUM"]+', '
-                            precio+=figu["PRECIO"]
-                            cant+=1
+                            if figu["CANT"] !=0:
+                                tengo.append({'num':x,'CANT':figu['CANT'],'$':figu['PRECIO']})
+                                str+=figu["NUM"]+', '
+                                precio+=figu["PRECIO"]
+                                cant+=1
+                            else:
+                                noTengo.append({'num':x,"CANT":figu["CANT"],'$':figu["PRECIO"]})
+                                # str+=figu["NUM"]+', '
+                                # precio+=figu["PRECIO"]
+                                # cant+=1
             print("\n")
 
-print(str)
 
-print(precio)
-print(cant)
+
+for x in tengo:
+    print(x)
+
+
+print("Tengo:")
+print(str)
+print('Precio:',precio)
+print('Cant:',cant)
+
+print("No Tengo:")
+for x in noTengo:
+    print(x['num'])
