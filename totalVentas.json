@@ -2444,8 +2444,45 @@
                 "CRC4",
                 "LEG15"
             ],
-            "NoVendidas": ["ARG19"],
+            "NoVendidas": [
+                "ARG19"
+            ],
             "Dia": "25/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "MARCELOSANCHEZ2859",
+            "Vendidas": [
+                "LEG3"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "AHALLBAND",
+            "Vendidas": [
+                "INT2",
+                "ARG19",
+                "PER3",
+                "MEX7",
+                "JAM7",
+                "PAR16",
+                "PAR20",
+                "PAR22",
+                "CAN11"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "TRI18"
+            ],
+            "Dia": "27/05/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
