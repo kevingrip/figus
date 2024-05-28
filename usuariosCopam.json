@@ -2663,6 +2663,56 @@
                 "VEN5",
                 "VEN7"
             ]
+        },
+        {
+            "usuario": "NANA_NLS",
+            "figusPedidas": [
+                "ARG1",
+                "CHI3",
+                "INT1",
+                "JAM1",
+                "ROH1",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "MARCOSMAURO1981",
+            "figusPedidas": [
+                "BOL11",
+                "BOL14",
+                "BOL9",
+                "BRA4",
+                "CAN17",
+                "CAN18",
+                "CAN20",
+                "CHI7",
+                "COL16",
+                "COL18",
+                "COL19",
+                "CRC11",
+                "CRC13",
+                "CRC14",
+                "ECU22",
+                "HON2",
+                "HON3",
+                "HON6",
+                "HON7",
+                "JAM14",
+                "JAM22",
+                "JAM6",
+                "LEG10",
+                "LEG15",
+                "MEX11",
+                "PAR16",
+                "PAR6",
+                "PER10",
+                "PER2",
+                "PER8",
+                "URU1",
+                "USA8",
+                "VEN12",
+                "VEN15"
+            ]
         }
     ]
 }

@@ -2641,6 +2641,24 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "NANA_NLS",
+            "Vendidas": [
+                "ARG1",
+                "CHI3",
+                "JAM1",
+                "ROH1",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "INT1"
+            ],
+            "Dia": "28/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
@@ -10811,6 +10829,23 @@
             "NoVendidas": [],
             "Dia": "23/05/2024",
             "Cuenta": "LA ZUCU",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "MERLOTSYRAH",
+            "Vendidas": [
+                "FWC2",
+                "FWC22",
+                "JPN1",
+                "JPN18",
+                "QAT8",
+                "URU1"
+            ],
+            "NoVendidas": [],
+            "Dia": "28/05/2024",
+            "Cuenta": "LAFI GURITA",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
