@@ -64,7 +64,7 @@
     },
     {
         "NUM": "FWC7",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 2500,
         "TIPO": "FWC",
         "DIA": "29/05/2024",
@@ -1990,7 +1990,7 @@
     },
     {
         "NUM": "ENG2",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "29/05/2024",
@@ -2467,7 +2467,7 @@
     },
     {
         "NUM": "FRA17",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "29/05/2024",
@@ -5734,7 +5734,7 @@
     },
     {
         "NUM": "WAL19",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "29/05/2024",
