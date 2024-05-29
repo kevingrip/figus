@@ -2911,6 +2911,47 @@
                 "INT3",
                 "ROH2"
             ]
+        },
+        {
+            "usuario": "SILMDM",
+            "figusPedidas": [
+                "ARG22",
+                "BRA1",
+                "CHI14",
+                "COL17",
+                "ECU19",
+                "HCI7",
+                "HON1",
+                "MEX5",
+                "PAR10",
+                "PER10",
+                "USA8"
+            ]
+        },
+        {
+            "usuario": "FTIMALAMADRID",
+            "figusPedidas": [
+                "BOL1",
+                "PAN4",
+                "PAR21",
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "NATY PROCOPIO",
+            "figusPedidas": [
+                "BOL17",
+                "CHI11",
+                "HON18",
+                "MEX10",
+                "PAR12",
+                "PAR14",
+                "TRI12",
+                "TRI5",
+                "TRI8",
+                "USA10",
+                "VEN6"
+            ]
         }
     ]
 }
