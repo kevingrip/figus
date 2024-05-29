@@ -15,8 +15,8 @@
     },
     {
         "nombre": "H M SON",
-        "BASE": 6,
-        "BRONZE": 3,
+        "BASE": 5,
+        "BRONZE": 2,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -30,7 +30,7 @@
     {
         "nombre": "REYNA",
         "BASE": 9,
-        "BRONZE": 7,
+        "BRONZE": 6,
         "SILVER": 0,
         "GOLD": 1
     },
@@ -43,7 +43,7 @@
     },
     {
         "nombre": "OCHOA",
-        "BASE": 2,
+        "BASE": 1,
         "BRONZE": 0,
         "SILVER": 0,
         "GOLD": 0
@@ -93,7 +93,7 @@
     {
         "nombre": "GRAVENBERCH",
         "BASE": 4,
-        "BRONZE": 8,
+        "BRONZE": 7,
         "SILVER": 0,
         "GOLD": 0
     },
@@ -106,7 +106,7 @@
     },
     {
         "nombre": "ERIKSEN",
-        "BASE": 6,
+        "BASE": 5,
         "BRONZE": 4,
         "SILVER": 0,
         "GOLD": 0
@@ -135,7 +135,7 @@
     {
         "nombre": "ALMOEZ ALI",
         "BASE": 5,
-        "BRONZE": 5,
+        "BRONZE": 4,
         "SILVER": 0,
         "GOLD": 0
     }

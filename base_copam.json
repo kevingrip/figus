@@ -254,7 +254,7 @@
     {
         "NUM": "PER1",
         "TIPO": "ESCUDO",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 2000,
         "NOMBRE": "PER ESC"
     },
@@ -408,7 +408,7 @@
     {
         "NUM": "CHI1",
         "TIPO": "ESCUDO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2000,
         "NOMBRE": "CHI ESC"
     },
@@ -562,7 +562,7 @@
     {
         "NUM": "MEX1",
         "TIPO": "ESCUDO",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 2000,
         "NOMBRE": "MEX ESC"
     },
@@ -716,7 +716,7 @@
     {
         "NUM": "ECU1",
         "TIPO": "ESCUDO",
-        "CANT": 10,
+        "CANT": 9,
         "PRECIO": 2000,
         "NOMBRE": "ECU ESC"
     },
@@ -1332,7 +1332,7 @@
     {
         "NUM": "URU1",
         "TIPO": "ESCUDO",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 2000,
         "NOMBRE": "URU ESC"
     },
@@ -1486,7 +1486,7 @@
     {
         "NUM": "PAN1",
         "TIPO": "ESCUDO",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 2000,
         "NOMBRE": "PAN ESC"
     },
@@ -1640,7 +1640,7 @@
     {
         "NUM": "BOL1",
         "TIPO": "ESCUDO",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 2000,
         "NOMBRE": "BOL ESC"
     },
@@ -2102,7 +2102,7 @@
     {
         "NUM": "PAR1",
         "TIPO": "ESCUDO",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 2000,
         "NOMBRE": "PAR ESC"
     },
@@ -2410,7 +2410,7 @@
     {
         "NUM": "CRC1",
         "TIPO": "ESCUDO",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 2000,
         "NOMBRE": "CRC ESC"
     },
@@ -2718,7 +2718,7 @@
     {
         "NUM": "TRI1",
         "TIPO": "ESCUDO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2000,
         "NOMBRE": "TRI ESC"
     },
