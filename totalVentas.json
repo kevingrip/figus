@@ -2741,6 +2741,45 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "PROTEUS40",
+            "Vendidas": [
+                "INT3",
+                "HCI10",
+                "PER6",
+                "PER11",
+                "VEN11",
+                "USA12",
+                "USA21",
+                "PAN3",
+                "PAN15",
+                "PAN22",
+                "COL7",
+                "COL14",
+                "COL17",
+                "COL22",
+                "PAR13",
+                "PAR21",
+                "PAR22",
+                "CRC15",
+                "CRC19",
+                "CRC21",
+                "TRI12",
+                "TRI15",
+                "TRI17",
+                "LEG3"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "COL6",
+                "ROH1"
+            ],
+            "Dia": "29/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [

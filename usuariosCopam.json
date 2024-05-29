@@ -2849,6 +2849,38 @@
                 "ECU5",
                 "JAM1"
             ]
+        },
+        {
+            "usuario": "PROTEUS40",
+            "figusPedidas": [
+                "COL14",
+                "COL17",
+                "COL22",
+                "COL6",
+                "COL7",
+                "CRC15",
+                "CRC19",
+                "CRC21",
+                "HCI10",
+                "INT1",
+                "INT3",
+                "LEG3",
+                "PAN15",
+                "PAN22",
+                "PAN3",
+                "PAR13",
+                "PAR21",
+                "PAR22",
+                "PER11",
+                "PER6",
+                "ROH1",
+                "TRI12",
+                "TRI15",
+                "TRI17",
+                "USA12",
+                "USA21",
+                "VEN11"
+            ]
         }
     ]
 }
