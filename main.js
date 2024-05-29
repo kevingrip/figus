@@ -171,6 +171,7 @@ const buscarFigus = () => {
     let numeros = '1234567890'
 
     valorInput = valorInput.replace("INTR", "INT");
+    valorInput = valorInput.replace(/y/gi, '')
     
     for (let i = 0; i < valorInput.length; i++) {
         if (letras.includes(valorInput[i])){
@@ -211,6 +212,7 @@ const buscarFigus = () => {
     console.log(filteredFigus)
 
     let cantFigusStock =0;
+    let cantFigusSinStock =0;
     let cantFigusConsult=0;
     let totalPrecio = 0;
     let faltantes ='';
@@ -231,6 +233,7 @@ const buscarFigus = () => {
                 figuInd=figu.NUM;
             }
         } else{
+            cantFigusSinStock+=1
             if (figu.NUM.includes('INT')){
                 figuRemp = figu.NUM.replace('INT','INTR')
                 faltantes+=figuRemp+" ";
@@ -244,23 +247,33 @@ const buscarFigus = () => {
     // Mostrar resultados en el HTML
     const resultados = document.getElementById('resultados');
     resultados.innerHTML = ''; // Limpiar resultados anteriores
+
+    const cantLi = document.createElement('p');
+    cantLi.textContent = `Cantidad figus contadas en la pregunta: ${cantFigusConsult}`;
+    resultados.appendChild(cantLi);
+
+
     filteredFigus.forEach(figu => {
         const li = document.createElement('li');
-        li.textContent = `${figu.NUM} => ${figu.CANT} // $${figu.PRECIO} // ${figu.NOMBRE}`;
+        li.textContent = `${figu.NUM}${figu.NUM.length===5 ? ':\u00A0' : '\u00A0\u00A0:\u00A0'} $${figu.PRECIO.toString().length===3 ? `${figu.PRECIO}\u00A0\u00A0\u00A0` : `${figu.PRECIO.toString().length===4 ? `${figu.PRECIO}\u00A0\u00A0` : figu.PRECIO}`} | Stock: ${figu.CANT.toString().length==1 ? `${figu.CANT}\u00A0\u00A0` : figu.CANT} | ${figu.NOMBRE}` ;
         resultados.appendChild(li);
     });
 
-    const cantLi = document.createElement('p');
-    cantLi.textContent = `Cantidad figus contadas: ${cantFigusConsult}`;
-    resultados.appendChild(cantLi);
+    const totalFi = document.createElement('p');
+    totalFi.textContent = `Cant figus en Stock: ${cantFigusStock}`;
+    resultados.appendChild(totalFi);
+
+    const totalSi = document.createElement('p');
+    totalSi.textContent = `Cant figus sin Stock: ${cantFigusSinStock}`;
+    resultados.appendChild(totalSi);
+
+    
 
     const totalLi = document.createElement('p');
     totalLi.textContent = `Total Precio: $${totalPrecio}`;
     resultados.appendChild(totalLi);
 
-    const totalFi = document.createElement('p');
-    totalFi.textContent = `Figus en Stock: ${cantFigusStock}`;
-    resultados.appendChild(totalFi);
+    
 
     const mensaje = document.createElement('h3');
     if (faltantes.length == 0){
