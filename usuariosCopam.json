@@ -3530,6 +3530,50 @@
                 "JAM1",
                 "TRI8"
             ]
+        },
+        {
+            "usuario": "MJBUFFAGNE",
+            "figusPedidas": [
+                "BOL6",
+                "BRA13",
+                "CAN9",
+                "CHI3",
+                "COL2",
+                "CRC4",
+                "ECU7",
+                "HON10",
+                "HON21",
+                "JAM3",
+                "LEG14",
+                "MEX4",
+                "PAR1",
+                "PER2",
+                "ROH1",
+                "TRI4",
+                "TRI9",
+                "URU1",
+                "USA12",
+                "USA7",
+                "VEN4",
+                "PER18",
+                "VEN17",
+                "COL18"
+            ]
+        },
+        {
+            "usuario": "NBEMBIBRE",
+            "figusPedidas": [
+                "CAN11",
+                "CAN13",
+                "CRC5",
+                "INT2",
+                "INT4",
+                "JAM10",
+                "JAM20",
+                "MEX6",
+                "PAR21",
+                "PER3"
+            ]
         }
     ]
 }
