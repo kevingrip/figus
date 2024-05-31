@@ -3472,6 +3472,64 @@
                 "URU1",
                 "VEN10"
             ]
+        },
+        {
+            "usuario": "OVEJA2006",
+            "figusPedidas": [
+                "BOL12",
+                "BOL14",
+                "BOL18",
+                "BOL3",
+                "BOL4",
+                "BOL8",
+                "BRA10",
+                "BRA14",
+                "BRA18",
+                "COL10",
+                "COL14",
+                "COL19",
+                "COL21",
+                "COL4",
+                "COL6",
+                "COL8",
+                "HCI4",
+                "HCI7",
+                "INT1",
+                "INT2",
+                "INT3",
+                "PAN11",
+                "PAN18",
+                "PAN5",
+                "PAN7",
+                "PER15",
+                "PER5",
+                "ROH2",
+                "URU1",
+                "VEN10"
+            ]
+        },
+        {
+            "usuario": "PROTEUS40",
+            "figusPedidas": [
+                "HON1"
+            ]
+        },
+        {
+            "usuario": "SOLSANDRO",
+            "figusPedidas": [
+                "BOL1",
+                "BOL16",
+                "BRA10",
+                "BRA8",
+                "COL14",
+                "COL22",
+                "COL6",
+                "HON10",
+                "INT1",
+                "INT3",
+                "JAM1",
+                "TRI8"
+            ]
         }
     ]
 }

@@ -3055,6 +3055,84 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "OVEJA2006",
+            "Vendidas": [
+                "INT2",
+                "INT3",
+                "HCI4",
+                "HCI7",
+                "PER5",
+                "PER15",
+                "URU1",
+                "PAN5",
+                "PAN7",
+                "PAN11",
+                "PAN18",
+                "BOL3",
+                "BOL8",
+                "BOL12",
+                "BOL14",
+                "BOL18",
+                "BRA10",
+                "BRA14",
+                "BRA18",
+                "COL8",
+                "COL10",
+                "COL14",
+                "COL19",
+                "COL21",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "VEN10",
+                "BOL4",
+                "COL4",
+                "COL6"
+            ],
+            "Dia": "31/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "PROTEUS40",
+            "Vendidas": [
+                "HON1"
+            ],
+            "NoVendidas": [],
+            "Dia": "31/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "SOLSANDRO",
+            "Vendidas": [
+                "JAM1",
+                "BOL1",
+                "BOL16",
+                "BRA8",
+                "BRA10",
+                "COL14",
+                "COL22",
+                "HON10",
+                "TRI8"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT3",
+                "COL6"
+            ],
+            "Dia": "31/05/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
