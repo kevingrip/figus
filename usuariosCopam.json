@@ -3574,6 +3574,58 @@
                 "PAR21",
                 "PER3"
             ]
+        },
+        {
+            "usuario": "GIAL3360468",
+            "figusPedidas": [
+                "BOL10",
+                "BOL22",
+                "BOL6",
+                "BRA2",
+                "CAN2",
+                "CHI18",
+                "CHI20",
+                "CHI6",
+                "COL14",
+                "COL4",
+                "CRC16",
+                "ECU13",
+                "HON15",
+                "HON16",
+                "HON17",
+                "HON18",
+                "HON9",
+                "JAM1",
+                "JAM10",
+                "JAM16",
+                "JAM2",
+                "MEX14",
+                "MEX22",
+                "PAN14",
+                "PAN18",
+                "PAR6",
+                "PER8",
+                "ROH2",
+                "URU2",
+                "USA13",
+                "USA18",
+                "VEN22",
+                "VEN6"
+            ]
+        },
+        {
+            "usuario": "MAM1955",
+            "figusPedidas": [
+                "ARG13",
+                "ARG14",
+                "ARG19",
+                "ARG2",
+                "ARG6",
+                "ARG9",
+                "INT1",
+                "INT3",
+                "INT4"
+            ]
         }
     ]
 }
