@@ -3626,6 +3626,27 @@
                 "INT3",
                 "INT4"
             ]
+        },
+        {
+            "usuario": "FEDELEDESMA",
+            "figusPedidas": [
+                "ARG17",
+                "ARG19",
+                "ARG21",
+                "ARG6"
+            ]
+        },
+        {
+            "usuario": "NADIALGARRIDO",
+            "figusPedidas": [
+                "ARG15",
+                "ARG19",
+                "ARG21",
+                "INT1",
+                "LEG3",
+                "ROH1",
+                "ROH2"
+            ]
         }
     ]
 }
