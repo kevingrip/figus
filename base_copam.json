@@ -16,7 +16,7 @@
     {
         "NUM": "INT3",
         "TIPO": "INTRO",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 3500,
         "NOMBRE": "COPA"
     },
@@ -58,7 +58,7 @@
     {
         "NUM": "HCI5",
         "TIPO": "CIUDAD",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 1000,
         "NOMBRE": "HOUSTON"
     },
@@ -86,7 +86,7 @@
     {
         "NUM": "HCI9",
         "TIPO": "CIUDAD",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1000,
         "NOMBRE": "ORLANDO"
     },
@@ -149,7 +149,7 @@
     {
         "NUM": "ARG8",
         "TIPO": "AFA",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 2000,
         "NOMBRE": "LISANDRO MARTINEZ"
     },
@@ -177,7 +177,7 @@
     {
         "NUM": "ARG12",
         "TIPO": "AFA",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 2000,
         "NOMBRE": "EXEQUIEL PALACIOS"
     },
@@ -1640,7 +1640,7 @@
     {
         "NUM": "BOL1",
         "TIPO": "ESCUDO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2000,
         "NOMBRE": "BOL ESC"
     },
@@ -1710,7 +1710,7 @@
     {
         "NUM": "BOL11",
         "TIPO": "COMUNES",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 850,
         "NOMBRE": "ROBERTO FERNANDEZ"
     },
@@ -2144,7 +2144,7 @@
     {
         "NUM": "PAR7",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "FABIAN BALBUENA"
     },
@@ -2228,7 +2228,7 @@
     {
         "NUM": "PAR19",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "GABRIEL AVALOS"
     },
@@ -2900,7 +2900,7 @@
     {
         "NUM": "LEG5",
         "TIPO": "LEYENDA",
-        "CANT": 9,
+        "CANT": 7,
         "PRECIO": 1500,
         "NOMBRE": "FRANCESCOLI RIGHT"
     },
@@ -2935,7 +2935,7 @@
     {
         "NUM": "LEG10",
         "TIPO": "LEYENDA",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 2500,
         "NOMBRE": "RONALDO LEFT"
     },
@@ -2949,28 +2949,28 @@
     {
         "NUM": "LEG12",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 3000,
         "NOMBRE": "MORENO MARTINS"
     },
     {
         "NUM": "LEG13",
         "TIPO": "LEYENDA",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 3500,
         "NOMBRE": "MARADONA LEFT"
     },
     {
         "NUM": "LEG14",
         "TIPO": "LEYENDA",
-        "CANT": 10,
+        "CANT": 9,
         "PRECIO": 3500,
         "NOMBRE": "MARADONA RIGHT"
     },
     {
         "NUM": "LEG15",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 3000,
         "NOMBRE": "PAOLO GUERRERO"
     },
@@ -2984,14 +2984,14 @@
     {
         "NUM": "LEG17",
         "TIPO": "LEYENDA",
-        "CANT": 10,
+        "CANT": 9,
         "PRECIO": 2000,
         "NOMBRE": "CAFU DOWN"
     },
     {
         "NUM": "LEG18",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 3000,
         "NOMBRE": "ALEXIS SANCHEZ"
     },
