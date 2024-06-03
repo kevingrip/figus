@@ -4012,6 +4012,44 @@
                 "PER18",
                 "ROH2"
             ]
+        },
+        {
+            "usuario": "RAM_CALDERON",
+            "figusPedidas": [
+                "ARG19",
+                "INT4",
+                "LEG1",
+                "MEX6"
+            ]
+        },
+        {
+            "usuario": "ELIANALURGO",
+            "figusPedidas": [
+                "ARG19",
+                "HCI10",
+                "INT1",
+                "INT2",
+                "INT3"
+            ]
+        },
+        {
+            "usuario": "GUSTAVOJOSBRUNA",
+            "figusPedidas": [
+                "ARG14",
+                "ARG19",
+                "ARG20",
+                "ARG21"
+            ]
+        },
+        {
+            "usuario": "DAR_SAT",
+            "figusPedidas": [
+                "INT4",
+                "LEG18",
+                "ROH2",
+                "TRI1",
+                "TRI7"
+            ]
         }
     ]
 }
