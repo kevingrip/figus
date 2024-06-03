@@ -3919,6 +3919,35 @@
                 "ROH1",
                 "TRI8"
             ]
+        },
+        {
+            "usuario": "FER_HUR",
+            "figusPedidas": [
+                "BOL10",
+                "CHI7",
+                "ECU1",
+                "HON18",
+                "INT1",
+                "LEG13",
+                "PER10",
+                "PER12",
+                "ROH1",
+                "TRI13",
+                "USA17"
+            ]
+        },
+        {
+            "usuario": "SEKTECH",
+            "figusPedidas": [
+                "ARG14",
+                "ARG8",
+                "BRA14",
+                "ECU18",
+                "HON14",
+                "JAM14",
+                "LEG11",
+                "LEG18"
+            ]
         }
     ]
 }

@@ -3441,6 +3441,48 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "FER_HUR",
+            "Vendidas": [
+                "PER10",
+                "PER12",
+                "CHI7",
+                "ECU1",
+                "USA17",
+                "BOL10",
+                "HON18",
+                "TRI13"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "LEG13",
+                "ROH1"
+            ],
+            "Dia": "03/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "SEKTECH",
+            "Vendidas": [
+                "ARG8",
+                "ARG14",
+                "ECU18",
+                "JAM14",
+                "BRA14",
+                "HON14",
+                "LEG11",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
