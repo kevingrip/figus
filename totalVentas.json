@@ -3525,6 +3525,35 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PrecioFlex": 0
+        },
+        {
+            "usuario": "SEBASTINSCAGLIONE",
+            "Vendidas": [
+                "ARG20"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
+        },
+        {
+            "usuario": "ELIANALURGO",
+            "Vendidas": [
+                "INT2",
+                "HCI10",
+                "ARG19"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT3"
+            ],
+            "Dia": "03/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "Etiqueta": "San Justo",
+            "PrecioFlex": 0
         }
     ],
     "Mundial Qatar 2022": [
