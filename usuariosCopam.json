@@ -4073,6 +4073,140 @@
                 "TRI1",
                 "VEN1"
             ]
+        },
+        {
+            "usuario": "FRANV2015",
+            "figusPedidas": [
+                "COL22",
+                "COL6",
+                "CRC11",
+                "LEG6",
+                "MEX8",
+                "PER11",
+                "PER4",
+                "PER8",
+                "ROH2",
+                "URU2",
+                "USA10",
+                "USA22",
+                "USA8",
+                "VEN14",
+                "VEN20"
+            ]
+        },
+        {
+            "usuario": "LUC_AB",
+            "figusPedidas": [
+                "BRA19",
+                "BRA20",
+                "CAN13",
+                "CAN16",
+                "COL1",
+                "ECU1",
+                "INT3",
+                "JAM10",
+                "JAM9",
+                "PAN9",
+                "ROH1",
+                "ROH2",
+                "TRI17",
+                "TRI19",
+                "URU1",
+                "USA13",
+                "VEN10",
+                "VEN22",
+                "VEN5"
+            ]
+        },
+        {
+            "usuario": "MBMIGUEL362009",
+            "figusPedidas": [
+                "ARG3",
+                "JAM19",
+                "LEG18",
+                "USA7",
+                "VEN16"
+            ]
+        },
+        {
+            "usuario": "CYNFU",
+            "figusPedidas": [
+                "ARG4",
+                "CHI21",
+                "INT1",
+                "JAM1",
+                "LEG5",
+                "LEG9",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "GELMANSILVINA",
+            "figusPedidas": [
+                "ECU5",
+                "HON3",
+                "LEG14",
+                "MEX21",
+                "USA13"
+            ]
+        },
+        {
+            "usuario": "ANDRESVICTOR20211019183603",
+            "figusPedidas": [
+                "ARG13",
+                "ARG20",
+                "BOL5",
+                "BRA15",
+                "BRA3",
+                "CAN15",
+                "CAN9",
+                "HON3",
+                "INT2",
+                "JAM9",
+                "PAR20",
+                "USA19"
+            ]
+        },
+        {
+            "usuario": "CRISTINAANTIANCO",
+            "figusPedidas": [
+                "ARG15",
+                "ARG20",
+                "ARG4",
+                "ARG5",
+                "ARG7",
+                "ARG8",
+                "BOL4",
+                "BRA8",
+                "COL10",
+                "COL22",
+                "COL6",
+                "ECU1",
+                "HON12",
+                "LEG11",
+                "MEX12",
+                "PAR6",
+                "ROH1",
+                "ROH2",
+                "VEN4"
+            ]
+        },
+        {
+            "usuario": "ANDRESVICTOR20211019183603",
+            "figusPedidas": [
+                "ARG13",
+                "ARG20",
+                "BOL5",
+                "BRA15",
+                "BRA3",
+                "CAN15",
+                "CAN9",
+                "HON3",
+                "INT2",
+                "JAM9",
+                "PAR20",
+                "USA19"
+            ]
         }
     ]
 }
