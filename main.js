@@ -127,6 +127,28 @@ const figusSinStock = (tipo, event) => {
         });
 };
 
+const totalVentas = () =>{
+    var totalVentasElement = document.getElementById('totalVentas');
+    let filePath='./totalVentas.json';
+
+    fetch(filePath)
+        .then(response => response.json())
+        .then(data => {
+            // Almacenar todas las figus
+            
+            console.log(data)
+            const formattedData = JSON.stringify(data, null, 2);
+            // console.log(actualizacion[0],actualizacion[0])
+            totalVentasElement.textContent = formattedData
+        })
+        .catch(error => {
+            console.error('Error al cargar el archivo JSON:', error);
+            throw error; // Propaga el error para que se maneje en la cadena de promesas
+        });
+}
+
+totalVentas()
+
 const ultimaActualizacion = () => {
     var spanUltimaActualizacion = document.getElementById('ultimaActualizacion');
     var userUpdate = document.getElementById('userUpdate')
@@ -138,6 +160,7 @@ const ultimaActualizacion = () => {
             // Almacenar todas las figus
             
             console.log(item)
+            
             // console.log(actualizacion[0],actualizacion[0])
             spanUltimaActualizacion.textContent = item["DIA"]+' a las '+item["ACTUALIZACION"];
             userUpdate.textContent = item["USUARIO"]
@@ -146,10 +169,7 @@ const ultimaActualizacion = () => {
             console.error('Error al cargar el archivo JSON:', error);
             throw error; // Propaga el error para que se maneje en la cadena de promesas
         });
-    
-    
-    
-};
+    };
 
 ultimaActualizacion()
 
