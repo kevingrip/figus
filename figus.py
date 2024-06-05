@@ -166,7 +166,7 @@ if (album == "Mundial Qatar 2022"):
 
                 verVenta(usuario_venta,album,subInicioHistorial)
 
-                actualizarFecha()
+                actualizarFecha(usuario_venta)
 
             elif subInicioVenta == "Ingresar Figuritas":
                 ingresarDatos(datosIngresar)
@@ -229,7 +229,7 @@ if (album == "Mundial Qatar 2022"):
 
                     verVenta(usuario,album,subInicioHistorial)
 
-                    actualizarFecha()
+                    actualizarFecha(usuario)
                 else:
                     for pais in paisesError:
                         print ("ERROR: Corregir el pais", pais)
@@ -363,7 +363,7 @@ elif (album == "Copa Libertadores 2023"):
 
             verVenta(usuario_venta,album,subInicioHistorial)
 
-            actualizarFecha()
+            actualizarFecha(usuario_venta)
         
         elif subInicio == 'Historial':
 
@@ -483,7 +483,7 @@ elif (album == "Futbol Argentino 2023"):
 
             verVenta(usuario_venta,album,subInicioHistorial)
 
-            actualizarFecha()
+            actualizarFecha(usuario_venta)
 
         elif subInicio == 'Historial':
 
@@ -648,7 +648,7 @@ elif (album == "Copa America 2024"):
 
                 verVenta(usuario_venta,album,subInicioHistorial)
 
-                actualizarFecha()
+                actualizarFecha(usuario_venta)
 
             elif subInicioVenta == "Ingresar Figuritas":
                 ingresarDatos(datosIngresar)
@@ -711,7 +711,7 @@ elif (album == "Copa America 2024"):
 
                     verVenta(usuario,album,subInicioHistorial)
 
-                    actualizarFecha()
+                    actualizarFecha(usuario)
                 else:
                     for pais in paisesError:
                         print ("ERROR: Corregir el pais", pais)

@@ -129,21 +129,18 @@ const figusSinStock = (tipo, event) => {
 
 const ultimaActualizacion = () => {
     var spanUltimaActualizacion = document.getElementById('ultimaActualizacion');
-    let filePath='./baseMundial.json';
+    var userUpdate = document.getElementById('userUpdate')
+    let filePath='./actualizado.json';
 
     fetch(filePath)
         .then(response => response.json())
-        .then(figus => {
+        .then(item => {
             // Almacenar todas las figus
-            window.figusdelmundial = figus;
             
-            // Actualizar el contenido del span después de obtener los datos            
-            const horaFigu = window.figusdelmundial.find(figu =>
-                figu["NUM"]=='FWC0'
-            )
-            console.log(window.figusdelmundial)
-            console.log(horaFigu["DIA"],horaFigu["ACTUALIZACION"])
-            spanUltimaActualizacion.textContent = horaFigu["DIA"]+' '+horaFigu["ACTUALIZACION"];
+            console.log(item)
+            // console.log(actualizacion[0],actualizacion[0])
+            spanUltimaActualizacion.textContent = item["DIA"]+' a las '+item["ACTUALIZACION"];
+            userUpdate.textContent = item["USUARIO"]
         })
         .catch(error => {
             console.error('Error al cargar el archivo JSON:', error);
