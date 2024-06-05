@@ -8,7 +8,7 @@ def actualizarFecha(user):
     with open ("actualizado.json","r") as bjs:
         data = json.load(bjs)
 
-    if len(user) == 0:
+    if user is None:
         fechaActualizada = {"DIA":datetime.datetime.now().strftime("%d/%m/%Y"),"ACTUALIZACION":datetime.datetime.now().strftime("%H:%M:%S"),"USUARIO":data["USUARIO"]}
     else:
         fechaActualizada = {"DIA":datetime.datetime.now().strftime("%d/%m/%Y"),"ACTUALIZACION":datetime.datetime.now().strftime("%H:%M:%S"),"USUARIO":user}

@@ -4254,6 +4254,92 @@
                 "VEN10",
                 "VEN22"
             ]
+        },
+        {
+            "usuario": "FLOPPO",
+            "figusPedidas": [
+                "ARG1",
+                "ARG15",
+                "ARG19",
+                "INT1",
+                "INT3",
+                "LEG1",
+                "ROH1",
+                "ROH2",
+                "USA2"
+            ]
+        },
+        {
+            "usuario": "TABARESLUCIANA",
+            "figusPedidas": [
+                "CAN9",
+                "CHI10",
+                "CRC13",
+                "CRC17",
+                "ECU6",
+                "HCI10",
+                "INT4",
+                "JAM21",
+                "JAM6",
+                "LEG6",
+                "PAN3"
+            ]
+        },
+        {
+            "usuario": "SANTIAGODANTIOCHIA",
+            "figusPedidas": [
+                "ARG19",
+                "ARG3",
+                "HCI10",
+                "INT1",
+                "INT3",
+                "INT4",
+                "LEG15",
+                "LEG8",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "ELIESTER",
+            "figusPedidas": [
+                "ARG2",
+                "HCI1",
+                "HCI4",
+                "INT2",
+                "INT3",
+                "INT4",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "LAUCHA78",
+            "figusPedidas": [
+                "ECU1",
+                "INT2",
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "MAYRAMENALLED",
+            "figusPedidas": [
+                "ARG19"
+            ]
+        },
+        {
+            "usuario": "LAURA DALMAN",
+            "figusPedidas": [
+                "ARG1",
+                "ARG14",
+                "ARG18",
+                "ARG21",
+                "ARG4",
+                "ARG5",
+                "ARG7",
+                "INT1",
+                "INT2",
+                "INT3",
+                "INT4"
+            ]
         }
     ]
 }
