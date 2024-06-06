@@ -3876,6 +3876,30 @@
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "PENETRONARGENTINASRL",
+            "Vendidas": [
+                "CHI19",
+                "CHI20",
+                "PAN19",
+                "PAN21",
+                "BOL22",
+                "CAN1",
+                "CAN2",
+                "CAN11",
+                "CAN13",
+                "HON13",
+                "TRI7"
+            ],
+            "NoVendidas": [
+                "PAN15",
+                "TRI18"
+            ],
+            "Dia": "06/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
