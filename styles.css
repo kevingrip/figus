@@ -46,3 +46,13 @@ button.pressed {
     background-color: #2980b9;
     color: white;
 }
+
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    padding: 20px; /* Espacio interno del contenedor */
+    box-sizing: border-box; /* Incluir padding y border en el ancho del contenedor */
+}
+body {
+    font-family: Arial, sans-serif;
+}

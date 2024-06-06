@@ -3779,7 +3779,7 @@
             "Dia": "05/06/2024",
             "Cuenta": "Kevin",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ETCHARTMARAJULIETA",
@@ -3828,6 +3828,51 @@
             ],
             "Dia": "05/06/2024",
             "Cuenta": "Kevin",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "DOTERITO",
+            "Vendidas": [
+                "PER10",
+                "JAM19",
+                "USA14",
+                "USA16",
+                "URU2",
+                "BOL14",
+                "COL2",
+                "PAR1",
+                "PAR17",
+                "CAN2",
+                "CAN13",
+                "CRC12",
+                "HON1",
+                "HON13",
+                "LEG11",
+                "LEG12",
+                "LEG14"
+            ],
+            "NoVendidas": [],
+            "Dia": "05/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ELIESTER",
+            "Vendidas": [
+                "INT2",
+                "HCI1",
+                "HCI4",
+                "ARG2"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "INT4",
+                "ROH2"
+            ],
+            "Dia": "06/06/2024",
+            "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
             "PREPARADO": "NO"
         }
@@ -12133,9 +12178,8 @@
             "NoVendidas": [],
             "Dia": "05/06/2024",
             "Cuenta": "Kevin",
-            "Envio": "ACORDAR ENTREGA",
-            "Etiqueta": "San Justo",
-            "PREPARADO": "NO"
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [

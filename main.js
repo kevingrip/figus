@@ -131,46 +131,117 @@ const totalVentas = () =>{
     var totalVentasElement = document.getElementById('totalVentas');
     let filePath='./totalVentas.json';
     
+    
     fetch(filePath)
         .then(response => response.json())
         .then(data => {
             // Almacenar todas las figus
             
-            console.log(data)
+            // console.log(data)
             // console.log(actualizacion[0],actualizacion[0])
-            album = data["Copa America 2024"]
-            const noPrep = album.filter(prep =>prep.PREPARADO ==="NO")
-
-            console.log(noPrep)
-
-            noPrep.forEach(objeto => {
-                // Crear un elemento div para cada objeto
-                const objetoDiv = document.createElement('div');
-                const button = document.createElement('button');
-                // Mostrar cada propiedad del objeto en el elemento div
-                const nombreUsuario = document.createElement('h3');
-                const nombreCuenta = document.createElement('p');
-                const figusVendidas = document.createElement('h7');
-                nombreUsuario.textContent = objeto["usuario"]                
-                nombreCuenta.textContent = `MercadoLibre: ${objeto["Cuenta"]}`
-                figusVendidas.textContent = `Vendidas: ${objeto["Vendidas"]}`
-                objetoDiv.appendChild(nombreUsuario);
-                objetoDiv.appendChild(figusVendidas);
-                button.textContent="ARMADO"
-
+            // console.log(data)
+            for (let album in data){
+                console.log(album)
+            
+                eleccionAlbum = data[album]
                 
-                // Agregar el elemento div al contenedor totalVentasElement
-                totalVentasElement.appendChild(objetoDiv);
-                
-                button.addEventListener('click', () => {
-                    console.log(objeto["usuario"]);
+                const noPrep = eleccionAlbum.filter(prep =>prep.PREPARADO ==="NO")
 
+                // console.log(noPrep)
+
+                noPrep.forEach(objeto => {
+                    let count = 0
+                    // Crear un elemento div para cada objeto
+                    const objetoDiv = document.createElement('div');
+
+                    const nombreAlbum = document.createElement('h2');
+                    const nombreUsuario = document.createElement('h3');
+                    const dia = document.createElement('h5');
+                    const nombreCuenta = document.createElement('p');
+                    const figusVendidas = document.createElement('p');
+                    const tipoEnvio = document.createElement('h4');
+                    const cantidad = document.createElement('p')
+                    const button = document.createElement('button');
+
+                    nombreAlbum.textContent = album
+                    
+                    nombreUsuario.textContent = `USUARIO:\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0${objeto["usuario"]}`             
+                    nombreCuenta.textContent = `MercadoLibre: ${objeto["Cuenta"]}`
+                    dia.textContent = `${objeto["Dia"]}`
+                    let figuVend = objeto["Vendidas"].toString()
+                    const figuCont = objeto["Vendidas"]
+
+                    figuCont.forEach(()=>{count = count+1})
+                    cantidad.textContent = `Cantidad vendida: ${count}`
+                    
+                    // console.log(figuVend)
+                    let figuVenTab = figuVend.replace(/,/g,"\u00A0\u00A0\u00A0\u00A0")
+                    figusVendidas.textContent = `${figuVenTab}`
+                    tipoEnvio.textContent = `${objeto["Envio"]}`
+
+                    nombreAlbum.style.height = '100px' 
+                    nombreAlbum.style.display = 'flex';
+                    nombreAlbum.style.alignItems = 'center' 
+                    nombreAlbum.style.padding = '10px' 
+
+                    if (album==='Copa America 2024'){
+                        nombreAlbum.style.backgroundColor = 'skyblue' 
+                        objetoDiv.style.border = '3px solid skyblue'   
+                    }else if (album==='Mundial Qatar 2022'){
+                        nombreAlbum.style.backgroundColor = 'orangered'  
+                        objetoDiv.style.border = '3px solid orangered'  
+                    }else if (album==='Futbol Argentino 2023'){
+                        nombreAlbum.style.backgroundColor = 'blue' 
+                        objetoDiv.style.border = '3px solid blue'  
+
+                    }else if (album==='Copa Libertadores 2023'){
+                        nombreAlbum.style.backgroundColor = 'gold' 
+                        objetoDiv.style.border = '3px solid gold'  
+
+                    }
+
+                    figusVendidas.style.border = '1px solid lightgrey' 
+                    figusVendidas.style.padding = '10px'
+
+
+                    objetoDiv.appendChild(nombreAlbum);
+                    objetoDiv.appendChild(nombreUsuario);
+                    objetoDiv.appendChild(cantidad);
+                    objetoDiv.appendChild(figusVendidas);
+                    objetoDiv.appendChild(nombreCuenta);
+                    objetoDiv.appendChild(tipoEnvio);
+                    objetoDiv.appendChild(dia);
+                    objetoDiv.appendChild(button)
+                    
+                    button.textContent="ARMADO"
+
+                    figusVendidas.style.maxWidth = '90%';
+                    figusVendidas.style.minHeight = '100px';
+                    figusVendidas.style.wordWrap = 'break-word';
+                    objetoDiv.style.margin = '5px'
+                    objetoDiv.style.padding = '15px'
+
+                    
+
+
+                    
+                    // Agregar el elemento div al contenedor totalVentasElement
+                    totalVentasElement.appendChild(objetoDiv);
+                    
+                    button.addEventListener('click', () => {
+                        if (objetoDiv.style.backgroundColor === 'red'){
+                            objetoDiv.style.backgroundColor = 'white'                                                
+                        }else{
+                            objetoDiv.style.backgroundColor = 'red';
+                            nombreUsuario.style.backgroundColor = 'white';
+                            nombreAlbum.style.backgroundColor = 'red'    
+                        }                    
+                    });
+
+                    
+                    
                 });
-
-                totalVentasElement.appendChild(button)
-                
-            });
-            console.log(album)
+            }
         })
         .catch(error => {
             console.error('Error al cargar el archivo JSON:', error);
