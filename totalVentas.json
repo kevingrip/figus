@@ -3750,7 +3750,8 @@
                 "HCI10",
                 "LEG8",
                 "LEG15",
-                "ROH2"
+                "ROH2",
+                "ARG19"
             ],
             "NoVendidas": [
                 "INT1",
@@ -3760,7 +3761,7 @@
             "Dia": "05/06/2024",
             "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CYNFU",
@@ -3874,7 +3875,7 @@
             "Dia": "06/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -12178,6 +12179,52 @@
             "NoVendidas": [],
             "Dia": "05/06/2024",
             "Cuenta": "Kevin",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "GONZALOCALARCO",
+            "Vendidas": [
+                "FWC2",
+                "ARG1",
+                "ARG6",
+                "ARG10",
+                "ARG12",
+                "ARG17",
+                "AUS10",
+                "AUS17",
+                "BEL14",
+                "CAN19",
+                "CRC3",
+                "DEN1",
+                "DEN2",
+                "DEN12",
+                "ENG1",
+                "ENG17",
+                "ESP11",
+                "ESP15",
+                "FRA12",
+                "FRA18",
+                "GER1",
+                "GER17",
+                "GHA16",
+                "JPN5",
+                "MEX12",
+                "MAR10",
+                "NED1",
+                "POR17",
+                "QAT8",
+                "SEN10",
+                "TUN14",
+                "URU9",
+                "USA13",
+                "WAL1"
+            ],
+            "NoVendidas": [
+                "FWC3"
+            ],
+            "Dia": "06/06/2024",
+            "Cuenta": "LA ZUCU",
             "Envio": "FLEX",
             "PREPARADO": "SI"
         }
