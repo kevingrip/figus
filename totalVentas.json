@@ -14,7 +14,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NATALIADOLCE",
@@ -92,10 +92,10 @@
                 "527"
             ],
             "Dia": "19/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "Belgrano",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MEMA3732036",
@@ -266,10 +266,10 @@
                 "539"
             ],
             "Dia": "26/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SCO1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BEARHEAD",
@@ -282,10 +282,10 @@
                 "204"
             ],
             "Dia": "06/10/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "WEB202",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NICANORGULICH",
@@ -323,10 +323,10 @@
                 "449"
             ],
             "Dia": "22/10/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "SAN MARTIN",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NESTOR.TEDESCO2",
@@ -486,10 +486,10 @@
                 "389"
             ],
             "Dia": "01/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB162",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAB-NANO",
@@ -505,10 +505,10 @@
                 "458"
             ],
             "Dia": "13/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CORITO697",
@@ -604,10 +604,10 @@
                 "542"
             ],
             "Dia": "11/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "FLORIDA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FIORELAGAVOTTI",
@@ -647,10 +647,10 @@
                 "526"
             ],
             "Dia": "19/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "milfa1",
@@ -745,10 +745,10 @@
                 "542"
             ],
             "Dia": "14/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "milfa",
@@ -808,10 +808,10 @@
             ],
             "NoVendidas": [],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         }
     ],
     "Copa America 2024": [
@@ -823,10 +823,10 @@
             ],
             "NoVendidas": [],
             "Dia": "07/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LPEZCALVOMARCELO",
@@ -847,10 +847,10 @@
             ],
             "NoVendidas": [],
             "Dia": "10/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LADYISABEL",
@@ -860,10 +860,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GUNA8760829",
@@ -877,10 +877,10 @@
                 "HON14"
             ],
             "Dia": "19/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DOTERITO",
@@ -913,10 +913,10 @@
                 "PAR17"
             ],
             "Dia": "20/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PABLO.CARROZZA",
@@ -926,10 +926,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LINEA BLANCAOK",
@@ -947,10 +947,10 @@
                 "MEX1"
             ],
             "Dia": "20/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SANTIAGOESTEBANBISOGNO",
@@ -974,10 +974,10 @@
                 "HON2"
             ],
             "Dia": "22/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUKE993",
@@ -1014,10 +1014,10 @@
                 "ROH1"
             ],
             "Dia": "22/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AGUSTINNASO20220820210654",
@@ -1048,10 +1048,10 @@
                 "URU7"
             ],
             "Dia": "24/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VALCHACUR",
@@ -1087,10 +1087,10 @@
                 "TRI1"
             ],
             "Dia": "25/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VENTASREF",
@@ -1123,10 +1123,10 @@
                 "JAM6"
             ],
             "Dia": "25/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "M COBRETTI",
@@ -1138,10 +1138,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CAKA9118882",
@@ -1166,10 +1166,10 @@
                 "ARG13"
             ],
             "Dia": "30/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BEG_R",
@@ -1181,10 +1181,10 @@
             ],
             "NoVendidas": [],
             "Dia": "02/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FERRADANICO",
@@ -1195,10 +1195,10 @@
             ],
             "NoVendidas": [],
             "Dia": "02/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LAFLORDELPAGO2010",
@@ -1218,10 +1218,10 @@
                 "INT3"
             ],
             "Dia": "05/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CRISTIANFABIANSARANITI",
@@ -1232,10 +1232,10 @@
             ],
             "NoVendidas": [],
             "Dia": "05/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BRENROCAJALIL",
@@ -1253,10 +1253,10 @@
                 "CAN3"
             ],
             "Dia": "07/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALFISTA_07",
@@ -1297,10 +1297,10 @@
                 "LEG6"
             ],
             "Dia": "07/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "ASD",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "UNIVERSALSHOPS",
@@ -1310,10 +1310,10 @@
             ],
             "NoVendidas": [],
             "Dia": "09/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CAKA91188822",
@@ -1364,10 +1364,10 @@
                 "HON16"
             ],
             "Dia": "10/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROMINA HOFFMANN",
@@ -1382,10 +1382,10 @@
                 "INT3"
             ],
             "Dia": "10/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GERALDINESCHAMMAH",
@@ -1395,10 +1395,10 @@
             ],
             "NoVendidas": [],
             "Dia": "10/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SEBASSSG",
@@ -1428,10 +1428,10 @@
                 "ROH2"
             ],
             "Dia": "10/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CARLEA1972",
@@ -1441,10 +1441,10 @@
             ],
             "NoVendidas": [],
             "Dia": "12/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MORELLMARIO",
@@ -1459,10 +1459,10 @@
                 "ARG17"
             ],
             "Dia": "12/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LAFLORDELPAGO2010",
@@ -1471,10 +1471,10 @@
             ],
             "NoVendidas": [],
             "Dia": "12/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALEXISLUTZKY",
@@ -1513,10 +1513,10 @@
                 "PAN10"
             ],
             "Dia": "12/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DEBO10775",
@@ -1624,10 +1624,10 @@
             ],
             "NoVendidas": [],
             "Dia": "12/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "VENTA ALBUM 100 FIGUS",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOY_DE_LA_PATERNAL",
@@ -1638,10 +1638,10 @@
             ],
             "NoVendidas": [],
             "Dia": "13/05/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FERGROSENDO",
@@ -1672,10 +1672,10 @@
                 "TRI18"
             ],
             "Dia": "15/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RODRITZS",
@@ -1684,10 +1684,10 @@
             ],
             "NoVendidas": [],
             "Dia": "15/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JORGE LUIS FAZZINI",
@@ -1696,10 +1696,10 @@
             ],
             "NoVendidas": [],
             "Dia": "15/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VALERIATASCA",
@@ -1726,10 +1726,10 @@
                 "COL1"
             ],
             "Dia": "15/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ELTALLA2008",
@@ -1758,10 +1758,10 @@
                 "CRC6"
             ],
             "Dia": "15/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LILIANACUBILLA",
@@ -1770,10 +1770,10 @@
             ],
             "NoVendidas": [],
             "Dia": "15/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FARMACIA ABA",
@@ -1782,10 +1782,10 @@
             ],
             "NoVendidas": [],
             "Dia": "15/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAJU189560",
@@ -1806,10 +1806,10 @@
                 "ARG17"
             ],
             "Dia": "15/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARUJA832",
@@ -1831,10 +1831,10 @@
                 "TRI1"
             ],
             "Dia": "15/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CHRISRE",
@@ -1845,10 +1845,10 @@
             ],
             "NoVendidas": [],
             "Dia": "17/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MONICAVRIES",
@@ -1871,10 +1871,10 @@
                 "PER5"
             ],
             "Dia": "18/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VCHAHER",
@@ -1897,10 +1897,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAJU189560",
@@ -1919,10 +1919,10 @@
             ],
             "NoVendidas": [],
             "Dia": "19/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BENITEZLUCAS59",
@@ -1963,10 +1963,10 @@
                 "HON17"
             ],
             "Dia": "20/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DUTRAFREDY20220406165322",
@@ -1987,10 +1987,10 @@
                 "PAN11"
             ],
             "Dia": "20/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FERGROSENDO",
@@ -2001,10 +2001,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALMA8332451",
@@ -2016,10 +2016,10 @@
                 "ARG19"
             ],
             "Dia": "20/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "ASD",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARIAFRODO",
@@ -2028,10 +2028,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MEZA_JOR2013",
@@ -2091,10 +2091,10 @@
                 "HON16"
             ],
             "Dia": "21/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NICOLASYBOCA",
@@ -2139,10 +2139,10 @@
                 "JAM3"
             ],
             "Dia": "22/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "KROKPC",
@@ -2162,10 +2162,10 @@
                 "PER6"
             ],
             "Dia": "22/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LOPEZJASMIN20220825142001",
@@ -2174,10 +2174,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FEDERICOLUISMENA",
@@ -2209,10 +2209,10 @@
                 "HON9"
             ],
             "Dia": "22/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LACABAATHESTEAKHOUSESA",
@@ -2221,10 +2221,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GABRIELLEONSINI",
@@ -2241,10 +2241,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "ASD",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PVERRA",
@@ -2263,10 +2263,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOFBUGDADI",
@@ -2280,10 +2280,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARIALUZSANTAOLALLA",
@@ -2300,10 +2300,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "prueba",
@@ -2313,10 +2313,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/05/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "IVI 2016",
@@ -2355,10 +2355,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "YAMILA OVIEDO",
@@ -2378,10 +2378,10 @@
             ],
             "NoVendidas": [],
             "Dia": "24/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "YAMILA OVIEDO",
@@ -2401,10 +2401,10 @@
             ],
             "NoVendidas": [],
             "Dia": "24/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PEREZITURRASPEMONICA",
@@ -2429,10 +2429,10 @@
                 "INT4"
             ],
             "Dia": "25/05/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DANIELRI",
@@ -2452,10 +2452,10 @@
                 "USA16"
             ],
             "Dia": "25/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "HERANDICAMILLO",
@@ -2464,10 +2464,10 @@
             ],
             "NoVendidas": [],
             "Dia": "25/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MANUELALBERTOBOUCHOUX",
@@ -2480,10 +2480,10 @@
             ],
             "NoVendidas": [],
             "Dia": "25/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARLUC7",
@@ -2511,10 +2511,10 @@
                 "ARG19"
             ],
             "Dia": "25/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARCELOSANCHEZ2859",
@@ -2523,10 +2523,10 @@
             ],
             "NoVendidas": [],
             "Dia": "27/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AHALLBAND",
@@ -2546,10 +2546,10 @@
                 "TRI18"
             ],
             "Dia": "27/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GMOGUS",
@@ -2568,10 +2568,10 @@
                 "URU2"
             ],
             "Dia": "27/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "OVEJA2006",
@@ -2621,10 +2621,10 @@
                 "VEN10"
             ],
             "Dia": "27/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANGEL_SH56",
@@ -2657,10 +2657,10 @@
             ],
             "NoVendidas": [],
             "Dia": "27/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PULKKINENVELI20231008170921",
@@ -2700,10 +2700,10 @@
                 "VEN7"
             ],
             "Dia": "27/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NANA_NLS",
@@ -2718,10 +2718,10 @@
                 "INT1"
             ],
             "Dia": "28/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARCOSMAURO1981",
@@ -2764,10 +2764,10 @@
                 "JAM22"
             ],
             "Dia": "28/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GEMA27",
@@ -2782,10 +2782,10 @@
             ],
             "NoVendidas": [],
             "Dia": "28/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SANTIAGODANTIOCHIA",
@@ -2800,10 +2800,10 @@
                 "ARG19"
             ],
             "Dia": "28/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PROTEUS40",
@@ -2839,10 +2839,10 @@
                 "ROH1"
             ],
             "Dia": "29/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "KARINACASUSCELLI",
@@ -2868,10 +2868,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NATY PROCOPIO",
@@ -2890,10 +2890,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VIRO2075437",
@@ -2910,10 +2910,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "HERSILIAPEA",
@@ -2937,10 +2937,10 @@
                 "ROH1"
             ],
             "Dia": "30/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JUANA280807",
@@ -2969,10 +2969,10 @@
                 "ROH1"
             ],
             "Dia": "30/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CENTDIEZ",
@@ -2982,10 +2982,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JUANA2808072",
@@ -3003,10 +3003,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "prueba",
@@ -3021,10 +3021,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAUROKOZUR",
@@ -3042,10 +3042,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALEU9977980",
@@ -3061,10 +3061,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ELIESTER",
@@ -3079,10 +3079,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LEANDRODEDIEGO2022",
@@ -3093,10 +3093,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SILMDM",
@@ -3114,10 +3114,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "OVEJA2006",
@@ -3156,10 +3156,10 @@
                 "COL6"
             ],
             "Dia": "31/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PROTEUS40",
@@ -3168,10 +3168,10 @@
             ],
             "NoVendidas": [],
             "Dia": "31/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOLSANDRO",
@@ -3192,10 +3192,10 @@
                 "COL6"
             ],
             "Dia": "31/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MJBUFFAGNE",
@@ -3228,10 +3228,10 @@
                 "ROH1"
             ],
             "Dia": "31/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NBEMBIBRE",
@@ -3250,10 +3250,10 @@
                 "INT4"
             ],
             "Dia": "31/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FEDELEDESMA",
@@ -3266,10 +3266,10 @@
                 "ARG19"
             ],
             "Dia": "01/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NADIALGARRIDO",
@@ -3285,10 +3285,10 @@
                 "ROH2"
             ],
             "Dia": "01/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RHGSOL",
@@ -3301,10 +3301,10 @@
             ],
             "NoVendidas": [],
             "Dia": "01/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JOSESCHIOPETTO",
@@ -3313,10 +3313,10 @@
             ],
             "NoVendidas": [],
             "Dia": "01/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FADA1986813",
@@ -3332,10 +3332,10 @@
             ],
             "NoVendidas": [],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JULBUENHEART",
@@ -3346,10 +3346,10 @@
             ],
             "NoVendidas": [],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ARITOLU",
@@ -3366,10 +3366,10 @@
                 "INT1"
             ],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TINCHO2051",
@@ -3405,10 +3405,10 @@
                 "BOL4"
             ],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND026",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AGUSTINAYAEZARAUZ",
@@ -3437,10 +3437,10 @@
                 "COL20"
             ],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FER_HUR",
@@ -3460,10 +3460,10 @@
                 "ROH1"
             ],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SEKTECH",
@@ -3479,10 +3479,10 @@
             ],
             "NoVendidas": [],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CHECHU2005",
@@ -3498,10 +3498,10 @@
             ],
             "NoVendidas": [],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BARRYCOYLE",
@@ -3521,10 +3521,10 @@
                 "ROH2"
             ],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SEBASTINSCAGLIONE",
@@ -3533,10 +3533,10 @@
             ],
             "NoVendidas": [],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ELIANALURGO",
@@ -3550,10 +3550,10 @@
                 "INT3"
             ],
             "Dia": "03/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "HOLGADOMARCELO",
@@ -3574,10 +3574,10 @@
                 "LEG13"
             ],
             "Dia": "04/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FRANV2015",
@@ -3601,10 +3601,10 @@
                 "COL6"
             ],
             "Dia": "04/06/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GELMANSILVINA",
@@ -3617,10 +3617,10 @@
             ],
             "NoVendidas": [],
             "Dia": "04/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANDRESVICTOR20211019183603",
@@ -3641,10 +3641,10 @@
                 "HON3"
             ],
             "Dia": "04/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CRISTINAANTIANCO",
@@ -3672,10 +3672,10 @@
                 "ROH2"
             ],
             "Dia": "04/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BENITEZLUCAS59",
@@ -3685,10 +3685,10 @@
             ],
             "NoVendidas": [],
             "Dia": "04/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ARIELGDIAZ14",
@@ -3702,10 +3702,10 @@
             ],
             "NoVendidas": [],
             "Dia": "04/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VERONICAPELANDINO",
@@ -3738,10 +3738,10 @@
                 "VEN10"
             ],
             "Dia": "04/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SANTIAGODANTIOCHIA",
@@ -3759,10 +3759,77 @@
                 "ARG19"
             ],
             "Dia": "05/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
-            "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CYNFU",
+            "Vendidas": [
+                "ARG4",
+                "CHI21",
+                "LEG5",
+                "LEG9"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "JAM1",
+                "ROH2"
+            ],
+            "Dia": "05/06/2024",
+            "Cuenta": "Kevin",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ETCHARTMARAJULIETA",
+            "Vendidas": [
+                "INT4",
+                "HCI8",
+                "PER9",
+                "CHI1",
+                "CHI4",
+                "CHI6",
+                "CHI9",
+                "CHI19",
+                "MEX2",
+                "MEX9",
+                "MEX11",
+                "MEX19",
+                "ECU21",
+                "JAM7",
+                "USA7",
+                "PAN13",
+                "BOL8",
+                "BOL13",
+                "BRA3",
+                "BRA5",
+                "BRA9",
+                "BRA18",
+                "COL3",
+                "COL5",
+                "PAR19",
+                "CAN3",
+                "CAN21",
+                "CRC1",
+                "CRC2",
+                "CRC11",
+                "HON1",
+                "HON9",
+                "HON15",
+                "HON17",
+                "TRI1",
+                "TRI17",
+                "LEG7",
+                "LEG18"
+            ],
+            "NoVendidas": [
+                "HON19"
+            ],
+            "Dia": "05/06/2024",
+            "Cuenta": "Kevin",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -3774,7 +3841,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DENISE9427GE",
@@ -3784,7 +3851,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PASVAHL SA",
@@ -3794,7 +3861,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VICTORIACASALVIOTE",
@@ -3804,7 +3871,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "REVA8996557",
@@ -3814,7 +3881,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BALTO858",
@@ -3824,7 +3891,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DRATENAGLIAL",
@@ -3834,7 +3901,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JORGECOURTY",
@@ -3844,7 +3911,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RAGGIOMARIANO98",
@@ -3854,7 +3921,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "melimatijaqui",
@@ -3864,7 +3931,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SANTOROTOMAS",
@@ -3880,7 +3947,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUCIANODANE",
@@ -3890,7 +3957,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BOR222",
@@ -3900,7 +3967,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AANATALI",
@@ -3910,7 +3977,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CALA3525713",
@@ -3920,7 +3987,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PAOPEREZDIAZ71",
@@ -3930,7 +3997,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VICTORHUGOOJEA",
@@ -3947,7 +4014,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "elzuzu",
@@ -3957,7 +4024,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "matigrippo",
@@ -3967,7 +4034,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "EULOGIO81",
@@ -3977,7 +4044,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAURODICEMBRILE",
@@ -3993,7 +4060,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JOSEAMERICOGALVAN",
@@ -4003,7 +4070,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "EUGENIOPEREZCHADA",
@@ -4013,7 +4080,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NICOCROSETTO",
@@ -4144,7 +4211,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ADRIAN_LAF",
@@ -4156,7 +4223,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JGUYAMAS",
@@ -4205,7 +4272,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SAFR3740341",
@@ -4219,7 +4286,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "album",
@@ -4244,7 +4311,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FLAVIAREIN",
@@ -4276,7 +4343,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAGDAPERA",
@@ -4290,7 +4357,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LOCOPORLASMILLAS",
@@ -4309,7 +4376,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SERPONEJESICA",
@@ -4329,7 +4396,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RTESTASECCA",
@@ -4389,10 +4456,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SME1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MMALAV10",
@@ -4405,10 +4472,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SLA1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "IGNACIO.VIDAL",
@@ -4421,10 +4488,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SLA1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SCLU9696465",
@@ -4434,10 +4501,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCS064",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BEMA6355482",
@@ -4446,10 +4513,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "AND026",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BARRYCOYLE",
@@ -4475,10 +4542,10 @@
             ],
             "NoVendidas": [],
             "Dia": "17/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "Recoleta",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PAREDEZLAURANAIR",
@@ -4547,10 +4614,10 @@
             ],
             "NoVendidas": [],
             "Dia": "17/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "PCK350",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PELISCH_A",
@@ -4564,10 +4631,10 @@
             ],
             "NoVendidas": [],
             "Dia": "17/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TAMARIN!",
@@ -4577,10 +4644,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCS053",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GALERUS",
@@ -4664,10 +4731,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX MATI",
             "Etiqueta": "CABA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ADRIANAVIRGINIAPEREYRA",
@@ -4683,10 +4750,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SSF1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GALERUS",
@@ -4698,10 +4765,10 @@
             ],
             "NoVendidas": [],
             "Dia": "19/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX MATI",
             "Etiqueta": "CABA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TUTECAI",
@@ -4721,10 +4788,10 @@
             ],
             "NoVendidas": [],
             "Dia": "19/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RODRIGUEZLUCAS20230826183636",
@@ -4741,10 +4808,10 @@
             ],
             "NoVendidas": [],
             "Dia": "19/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "URB161",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROMEROIGNACIO20221027203000",
@@ -4774,10 +4841,10 @@
             ],
             "NoVendidas": [],
             "Dia": "19/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCS090",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VICTORHUGOOJEA",
@@ -4791,10 +4858,10 @@
                 "C8"
             ],
             "Dia": "19/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND040",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AVILAC3973_2",
@@ -4825,10 +4892,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "STD1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TELCHO07",
@@ -4856,10 +4923,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB162",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "EVI24",
@@ -4871,10 +4938,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "Lomas de Zamora",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DIEGO-SHOP",
@@ -4887,10 +4954,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PAREDEZLAURANAIR",
@@ -4984,10 +5051,10 @@
             ],
             "NoVendidas": [],
             "Dia": "21/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "PCK350",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ADRIAN_LAF",
@@ -4996,10 +5063,10 @@
             ],
             "NoVendidas": [],
             "Dia": "21/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "PCK350",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROMEROIGNACIO20221027203000_2",
@@ -5013,10 +5080,10 @@
             ],
             "NoVendidas": [],
             "Dia": "21/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCS062",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GABRIELHUMBERTOGERBINO",
@@ -5025,10 +5092,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB190",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CALAMAROQUERIDO1",
@@ -5037,10 +5104,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX KEVIN",
             "Etiqueta": "SANTOS LUGARES",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BCEHFAGDECFDBAHG20221209083150",
@@ -5049,10 +5116,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "PCK390",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CLAUCITO",
@@ -5063,10 +5130,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SCF2",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RODRIGOSERAVALLE",
@@ -5084,10 +5151,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SSF1_X",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROMINAXIMENAREYES",
@@ -5096,10 +5163,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "PCK390",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "REGALOSOS",
@@ -5110,10 +5177,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "COR140",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROANFRI",
@@ -5132,10 +5199,10 @@
             ],
             "NoVendidas": [],
             "Dia": "24/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "URB175",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LEONILAGALLEGO",
@@ -5144,10 +5211,10 @@
             ],
             "NoVendidas": [],
             "Dia": "24/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SRO1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AGUSTONGA",
@@ -5161,10 +5228,10 @@
             ],
             "NoVendidas": [],
             "Dia": "24/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCA291",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MATKONIG",
@@ -5184,10 +5251,10 @@
             ],
             "NoVendidas": [],
             "Dia": "25/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NANCYPECORELLI",
@@ -5203,10 +5270,10 @@
             ],
             "NoVendidas": [],
             "Dia": "26/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "ITUZAINGO",
-            "PrecioFlex": 2129
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUCAS-VMJA",
@@ -5219,10 +5286,10 @@
             ],
             "NoVendidas": [],
             "Dia": "26/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SBU3",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARIELABRUERAMARIELABRUERA",
@@ -5233,10 +5300,10 @@
             ],
             "NoVendidas": [],
             "Dia": "27/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCS062",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JAV_SAP",
@@ -5256,10 +5323,10 @@
             ],
             "NoVendidas": [],
             "Dia": "27/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "COR140",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MONINACASTRO",
@@ -5286,10 +5353,10 @@
             ],
             "NoVendidas": [],
             "Dia": "28/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SCO1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FEMA9305859",
@@ -5389,10 +5456,10 @@
                 "POL7"
             ],
             "Dia": "28/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LEITO747",
@@ -5414,10 +5481,10 @@
             ],
             "NoVendidas": [],
             "Dia": "28/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "MORON",
-            "PrecioFlex": 1345
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FUVI3049101",
@@ -5455,10 +5522,10 @@
                 "CRO17"
             ],
             "Dia": "28/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ELI 330",
@@ -5467,10 +5534,10 @@
             ],
             "NoVendidas": [],
             "Dia": "28/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX MATI",
             "Etiqueta": "SAN MARTIN",
-            "PrecioFlex": 1345
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LARATONERA",
@@ -5482,10 +5549,10 @@
             ],
             "NoVendidas": [],
             "Dia": "28/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SERGIOESPINOSA701",
@@ -5526,10 +5593,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND010",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TIKY1976",
@@ -5538,10 +5605,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "URB175",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NQNBASQUET",
@@ -5627,10 +5694,10 @@
                 "TUN18"
             ],
             "Dia": "29/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "OCA291",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MEDDLE2010",
@@ -5644,10 +5711,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "MORON",
-            "PrecioFlex": 1345
+            "PREPARADO": "SI"
         },
         {
             "usuario": "POLY_VILLA22",
@@ -5656,10 +5723,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "LA MATANZA SUR",
-            "PrecioFlex": 2900
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NATALIAMARCINKOWSKI",
@@ -5700,10 +5767,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "AVELLANEDA",
-            "PrecioFlex": 2900
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MONINACASTRO",
@@ -5712,10 +5779,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SCO1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LOPEZTOM\u00c1S20220427170807",
@@ -5724,10 +5791,10 @@
             ],
             "NoVendidas": [],
             "Dia": "02/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB150",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VANKI2014",
@@ -5777,10 +5844,10 @@
                 "C8"
             ],
             "Dia": "02/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SVI1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALBUM",
@@ -5791,10 +5858,10 @@
             ],
             "NoVendidas": [],
             "Dia": "03/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ESTUDIOCEIGUTIERREZ",
@@ -5816,10 +5883,10 @@
             ],
             "NoVendidas": [],
             "Dia": "03/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SCO1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AGUSTINLARAALE",
@@ -5832,10 +5899,10 @@
             ],
             "NoVendidas": [],
             "Dia": "03/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "MORON",
-            "PrecioFlex": 1345
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RODRIGUEZMARTIN20230302195635",
@@ -5844,10 +5911,10 @@
             ],
             "NoVendidas": [],
             "Dia": "04/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND011",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GERMANPABLO20220422144151",
@@ -5856,10 +5923,10 @@
             ],
             "NoVendidas": [],
             "Dia": "04/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCA291",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LEFT-83",
@@ -5904,10 +5971,10 @@
             ],
             "NoVendidas": [],
             "Dia": "05/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "SAN MARTIN",
-            "PrecioFlex": 1345
+            "PREPARADO": "SI"
         },
         {
             "usuario": "Natalia Amarilla",
@@ -5918,10 +5985,10 @@
             ],
             "NoVendidas": [],
             "Dia": "05/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 2130
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARUCHIDASCEN",
@@ -5939,10 +6006,10 @@
                 "SEN1"
             ],
             "Dia": "06/10/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX KEVIN",
             "Etiqueta": "HURLINGHAM",
-            "PrecioFlex": 2130
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FLAFEDEYCIRO",
@@ -5961,10 +6028,10 @@
             ],
             "NoVendidas": [],
             "Dia": "07/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB150",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RODRIGOSERAVALLE",
@@ -5999,10 +6066,10 @@
                 "MEX11"
             ],
             "Dia": "07/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GABRIELAGOMEZARPI",
@@ -6040,10 +6107,10 @@
                 "FRA1"
             ],
             "Dia": "08/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB162",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "mati910",
@@ -6072,10 +6139,10 @@
                 "TUN5"
             ],
             "Dia": "09/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LARATONERA",
@@ -6104,10 +6171,10 @@
                 "SEN1"
             ],
             "Dia": "09/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALBUM",
@@ -6123,10 +6190,10 @@
                 "SRB13"
             ],
             "Dia": "09/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FREILEMATEO20230821163127",
@@ -6140,10 +6207,10 @@
                 "FWC4"
             ],
             "Dia": "09/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "matilda2",
@@ -6166,10 +6233,10 @@
             ],
             "NoVendidas": [],
             "Dia": "09/10/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GIANGUAZZARONI",
@@ -6203,10 +6270,10 @@
             ],
             "NoVendidas": [],
             "Dia": "10/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VANEXXA2011",
@@ -6215,10 +6282,10 @@
             ],
             "NoVendidas": [],
             "Dia": "11/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "ESTEBAN ECHEVERRIA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "POGA7170248",
@@ -6234,10 +6301,10 @@
                 "IRN1"
             ],
             "Dia": "11/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ARGUELLESFACUNDOGRANATE",
@@ -6262,10 +6329,10 @@
                 "IRN1"
             ],
             "Dia": "11/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "nancy",
@@ -6296,10 +6363,10 @@
             ],
             "NoVendidas": [],
             "Dia": "11/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Hurlingham",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "IVANKESLER",
@@ -6308,10 +6375,10 @@
             ],
             "NoVendidas": [],
             "Dia": "11/10/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VIVIANADOBA",
@@ -6338,10 +6405,10 @@
             ],
             "NoVendidas": [],
             "Dia": "12/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "WILLY22",
@@ -6481,10 +6548,10 @@
                 "URU19"
             ],
             "Dia": "12/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "BELGRANO",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "YONATHANCADIROLA",
@@ -6505,10 +6572,10 @@
             ],
             "NoVendidas": [],
             "Dia": "14/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BASO1192163_VENTA",
@@ -6537,10 +6604,10 @@
             ],
             "NoVendidas": [],
             "Dia": "14/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GEORGINADELAGARZA",
@@ -6552,10 +6619,10 @@
             ],
             "NoVendidas": [],
             "Dia": "15/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB163",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SANCHEZLEONEL20231009202950",
@@ -6565,10 +6632,10 @@
             ],
             "NoVendidas": [],
             "Dia": "15/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SCO1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JORGEAAUFRANC",
@@ -6577,10 +6644,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCA291",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JORGEAAUFRANC",
@@ -6589,10 +6656,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCA291",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JORGEAAUFRANC",
@@ -6601,10 +6668,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCA291",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CARLOSJAVIERCARRASCO",
@@ -6618,10 +6685,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PRIETOSOLEDAD56",
@@ -6631,10 +6698,10 @@
             ],
             "NoVendidas": [],
             "Dia": "17/10/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NICOCROSETTO",
@@ -6643,10 +6710,10 @@
             ],
             "NoVendidas": [],
             "Dia": "17/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NICOCROSETTO",
@@ -6655,10 +6722,10 @@
             ],
             "NoVendidas": [],
             "Dia": "17/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DANI FULLETIQUETAS",
@@ -6667,10 +6734,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ESCL6373169",
@@ -6680,10 +6747,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "LANUS",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NADA3873326",
@@ -6737,10 +6804,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "COR140",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SPORTACUS80",
@@ -6754,10 +6821,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "DEVOTO",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "IGNINSINGER",
@@ -6768,10 +6835,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SSF1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CHOFI_S87",
@@ -6780,10 +6847,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "PCK390",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CHEV_400",
@@ -6806,10 +6873,10 @@
                 "FWC4"
             ],
             "Dia": "20/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOSAMARILYN",
@@ -6820,10 +6887,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "ESTEBAN ECHEVERRIA",
-            "PrecioFlex": 2900
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GLADISRAQUELSAUREL",
@@ -6893,10 +6960,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SANCHEZLEONEL20231009202950",
@@ -6907,10 +6974,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ARMENGROUP",
@@ -6938,30 +7005,30 @@
                 "C8"
             ],
             "Dia": "20/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCS053",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LORENAAVIO",
             "Vendidas": "GAVI",
             "NoVendidas": [],
             "Dia": "21/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LORENAAVIO",
             "Vendidas": "ALMOEZ ALI",
             "NoVendidas": [],
             "Dia": "21/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CIABATTONISANTINO2023042314575",
@@ -6979,10 +7046,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "AVELLANEDA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALICIAC.",
@@ -6995,10 +7062,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RTESTASECCA",
@@ -7049,10 +7116,10 @@
             ],
             "NoVendidas": [],
             "Dia": "24/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SME1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CLAUVANE2008",
@@ -7078,10 +7145,10 @@
             ],
             "NoVendidas": [],
             "Dia": "26/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "PCK390",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROJE6587141",
@@ -7090,10 +7157,10 @@
             ],
             "NoVendidas": [],
             "Dia": "27/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ERPA2004",
@@ -7135,10 +7202,10 @@
             ],
             "NoVendidas": [],
             "Dia": "28/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "INIAKILOPETEGUI",
@@ -7147,10 +7214,10 @@
             ],
             "NoVendidas": [],
             "Dia": "28/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAR_ROSSETTI2012",
@@ -7161,10 +7228,10 @@
             ],
             "NoVendidas": [],
             "Dia": "01/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCA291",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TELCHO07_2",
@@ -7181,10 +7248,10 @@
             ],
             "NoVendidas": [],
             "Dia": "01/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB162",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JOSEFINAHOURBEIGT",
@@ -7195,10 +7262,10 @@
             ],
             "NoVendidas": [],
             "Dia": "01/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "TIGRE",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FELICITASFORTNANNI",
@@ -7227,10 +7294,10 @@
             ],
             "NoVendidas": [],
             "Dia": "01/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SST",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANABABIA",
@@ -7248,10 +7315,10 @@
             ],
             "NoVendidas": [],
             "Dia": "02/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCS053",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANABELLACECI",
@@ -7261,10 +7328,10 @@
             ],
             "NoVendidas": [],
             "Dia": "02/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCS067",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BAMA6653661",
@@ -7419,10 +7486,10 @@
             ],
             "NoVendidas": [],
             "Dia": "02/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCA291",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ZUCR8481997",
@@ -7445,10 +7512,10 @@
             ],
             "NoVendidas": [],
             "Dia": "03/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LORENZO2707",
@@ -7498,10 +7565,10 @@
             ],
             "NoVendidas": [],
             "Dia": "06/11/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SSF1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUCOTERO",
@@ -7549,10 +7616,10 @@
             ],
             "NoVendidas": [],
             "Dia": "06/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROLDAN_CLA2010",
@@ -7572,10 +7639,10 @@
                 "ARG1"
             ],
             "Dia": "08/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SRO1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VELA7577090",
@@ -7663,10 +7730,10 @@
                 "C8"
             ],
             "Dia": "09/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB166",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "HUGOINVERNOZ",
@@ -7689,10 +7756,10 @@
                 "CAN1"
             ],
             "Dia": "10/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RUBENLB1821",
@@ -7759,10 +7826,10 @@
                 "ARG1"
             ],
             "Dia": "10/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCS060",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GIANGUAZZARONI",
@@ -7792,10 +7859,10 @@
             ],
             "NoVendidas": [],
             "Dia": "10/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CARLOSEB10",
@@ -7829,10 +7896,10 @@
             ],
             "NoVendidas": [],
             "Dia": "12/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB160",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOCH3706113",
@@ -7846,10 +7913,10 @@
             ],
             "NoVendidas": [],
             "Dia": "14/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "MORON",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALANEZEQUIELMAGRO",
@@ -7861,10 +7928,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/11/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "SAN FERNANDO",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MSCOOK",
@@ -7878,10 +7945,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/11/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "VICENTE LOPEZ",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "EDU160879",
@@ -7906,10 +7973,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SNQ1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROMA6730555",
@@ -7933,10 +8000,10 @@
                 "CAN1"
             ],
             "Dia": "18/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "EUGENIASOLOA",
@@ -7970,10 +8037,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/11/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX MATI",
             "Etiqueta": "ONCE",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SCAL7000325",
@@ -8023,10 +8090,10 @@
                 "CAN1"
             ],
             "Dia": "18/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB190",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VTEITEL",
@@ -8041,10 +8108,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND025",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FERRARIANGELES20220907151740",
@@ -8058,10 +8125,10 @@
                 "ARG1"
             ],
             "Dia": "20/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCS069",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FLAVIANATALIAYUQUICHMONTENEG",
@@ -8087,10 +8154,10 @@
             ],
             "NoVendidas": [],
             "Dia": "21/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SCO1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FLAVIAREIN",
@@ -8128,10 +8195,10 @@
             ],
             "NoVendidas": [],
             "Dia": "21/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB161",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FACUNDOGULTEMIRIAN",
@@ -8150,10 +8217,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND025",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "HSRUD",
@@ -8176,10 +8243,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX MATI",
             "Etiqueta": "MUNRO",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JUANIGNACIOARGUELLO",
@@ -8223,10 +8290,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX MATI",
             "Etiqueta": "BELGRANO",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JULIETAIRIARTE_",
@@ -8243,10 +8310,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ERIC NU\u00d1EZ",
@@ -8305,10 +8372,10 @@
             ],
             "NoVendidas": [],
             "Dia": "24/11/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "URB165",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARIAPAULAUSLENGHI",
@@ -8337,10 +8404,10 @@
             ],
             "NoVendidas": [],
             "Dia": "24/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCA291",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DAMVADER",
@@ -8350,10 +8417,10 @@
             ],
             "NoVendidas": [],
             "Dia": "27/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "COLORJETCOMPUTACION",
@@ -8372,10 +8439,10 @@
             ],
             "NoVendidas": [],
             "Dia": "27/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "LA MATANZA NORTE",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RODRIGOSERAVALLE",
@@ -8395,10 +8462,10 @@
             ],
             "NoVendidas": [],
             "Dia": "27/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FLAVIANATALIAYUQUICHMONTENEG",
@@ -8433,10 +8500,10 @@
             ],
             "NoVendidas": [],
             "Dia": "28/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCS061",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MNICAPATRICIARODRGUEZ",
@@ -8472,10 +8539,10 @@
             ],
             "NoVendidas": [],
             "Dia": "28/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND026",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CCLCHIEN",
@@ -8494,10 +8561,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "PCK390",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARIGABITAPIA",
@@ -8518,10 +8585,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SME1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALITASTARKE",
@@ -8540,10 +8607,10 @@
             ],
             "NoVendidas": [],
             "Dia": "02/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB175",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SCHVARZTMANLUCRECIA",
@@ -8568,10 +8635,10 @@
             ],
             "NoVendidas": [],
             "Dia": "03/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ELIESTER",
@@ -8590,10 +8657,10 @@
             ],
             "NoVendidas": [],
             "Dia": "04/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SBU1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PSALERNO2007",
@@ -8606,10 +8673,10 @@
             ],
             "NoVendidas": [],
             "Dia": "05/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "PCK390",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOLEDADRAMOSBLANCO",
@@ -8673,10 +8740,10 @@
             ],
             "NoVendidas": [],
             "Dia": "05/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "PCK390",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NICODIAZ78",
@@ -8705,10 +8772,10 @@
             ],
             "NoVendidas": [],
             "Dia": "05/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "HOP300",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SEPI3781533",
@@ -8734,10 +8801,10 @@
             ],
             "NoVendidas": [],
             "Dia": "07/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "VICENTE LOPEZ",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GRAZIANIMARTIN",
@@ -8749,10 +8816,10 @@
             ],
             "NoVendidas": [],
             "Dia": "07/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARTINTRAVASCIO90",
@@ -8787,10 +8854,10 @@
             ],
             "NoVendidas": [],
             "Dia": "08/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BATUKE1927",
@@ -8800,10 +8867,10 @@
             ],
             "NoVendidas": [],
             "Dia": "09/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND027",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "IAVIERMARUOTTOLO",
@@ -8812,10 +8879,10 @@
             ],
             "NoVendidas": [],
             "Dia": "11/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MOYANONORMABEATRZ",
@@ -8840,10 +8907,10 @@
             ],
             "NoVendidas": [],
             "Dia": "12/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FERNANDOFERNANDEZ2828",
@@ -8857,10 +8924,10 @@
             ],
             "NoVendidas": [],
             "Dia": "12/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "mdsolutions",
@@ -8918,10 +8985,10 @@
             ],
             "NoVendidas": [],
             "Dia": "13/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SBU3",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALMIRONSEBASTIAN20210205010535",
@@ -8945,10 +9012,10 @@
             ],
             "NoVendidas": [],
             "Dia": "13/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FLAVIAREIN",
@@ -8977,10 +9044,10 @@
             ],
             "NoVendidas": [],
             "Dia": "14/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "OMARLUISPASQUIER",
@@ -9018,10 +9085,10 @@
             ],
             "NoVendidas": [],
             "Dia": "14/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SME1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ERISCHNEIDER",
@@ -9039,10 +9106,10 @@
             ],
             "NoVendidas": [],
             "Dia": "14/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "OCA291",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARCELOISMAEL_MEL",
@@ -9056,10 +9123,10 @@
             ],
             "NoVendidas": [],
             "Dia": "15/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MANUELIRIARTE",
@@ -9127,10 +9194,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CECILIAJOSE",
@@ -9156,10 +9223,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "ESTEBAN ECHEVERRIA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CUELLOMARINA03",
@@ -9181,10 +9248,10 @@
                 "SEN1"
             ],
             "Dia": "17/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JESICA HOSENEN",
@@ -9205,10 +9272,10 @@
                 "QAT1"
             ],
             "Dia": "18/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GEOAGUSTIN",
@@ -9218,10 +9285,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VERO_CIMARELLI",
@@ -9245,10 +9312,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SCAL7000325",
@@ -9293,10 +9360,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PATAGONIANDREAMS",
@@ -9406,10 +9473,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "CABA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BLONDIS73",
@@ -9459,10 +9526,10 @@
                 "CMR1"
             ],
             "Dia": "19/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BGRIGION",
@@ -9473,10 +9540,10 @@
             ],
             "NoVendidas": [],
             "Dia": "19/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DEBORALORENABRITEZ",
@@ -9489,10 +9556,10 @@
             ],
             "NoVendidas": [],
             "Dia": "19/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARCEKRZ",
@@ -9508,10 +9575,10 @@
             ],
             "NoVendidas": [],
             "Dia": "19/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CARLOS_CHAVARRI",
@@ -9534,10 +9601,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "LANUS",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RAMIREZRONER",
@@ -9566,10 +9633,10 @@
                 "MRR1"
             ],
             "Dia": "20/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VERODELBO",
@@ -9578,10 +9645,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AGUSTINA2291",
@@ -9592,10 +9659,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "THE MOUTH",
@@ -9609,10 +9676,10 @@
                 "ARG1"
             ],
             "Dia": "20/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TERESAPOSSE",
@@ -9630,10 +9697,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "POAN8932404",
@@ -9652,10 +9719,10 @@
                 "FWC7"
             ],
             "Dia": "20/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX MATI",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROEL7565777",
@@ -9696,10 +9763,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROBINSONGUSTAVO20230619224644",
@@ -9728,10 +9795,10 @@
             ],
             "NoVendidas": [],
             "Dia": "24/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LGR9955071",
@@ -9750,10 +9817,10 @@
             ],
             "NoVendidas": [],
             "Dia": "24/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JUANIGNACIOPARIANI",
@@ -9767,10 +9834,10 @@
             ],
             "NoVendidas": [],
             "Dia": "25/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUJAN TONEATTI",
@@ -9793,10 +9860,10 @@
             ],
             "NoVendidas": [],
             "Dia": "26/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOLANGEYEZA",
@@ -9812,10 +9879,10 @@
             ],
             "NoVendidas": [],
             "Dia": "26/12/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "RAMOS MEJIA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DEFELIPP",
@@ -9836,10 +9903,10 @@
             ],
             "NoVendidas": [],
             "Dia": "27/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LAUTAROCMERA",
@@ -9855,10 +9922,10 @@
             ],
             "NoVendidas": [],
             "Dia": "28/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CARLOS_CHAVARRI",
@@ -9883,10 +9950,10 @@
                 "POL1"
             ],
             "Dia": "28/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROAN9055574",
@@ -9901,10 +9968,10 @@
             ],
             "NoVendidas": [],
             "Dia": "02/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BORD\u00d3NMELINA20220707104016_2",
@@ -9936,10 +10003,10 @@
             ],
             "NoVendidas": [],
             "Dia": "02/01/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AGUSTINABRYANT",
@@ -9953,10 +10020,10 @@
             ],
             "NoVendidas": [],
             "Dia": "04/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Hurlingham",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FABI0307",
@@ -9973,10 +10040,10 @@
             ],
             "NoVendidas": [],
             "Dia": "04/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "POCHIMONTE_2",
@@ -10027,10 +10094,10 @@
             ],
             "NoVendidas": [],
             "Dia": "04/01/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX MATI",
             "Etiqueta": "VICENTE LOPEZ",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUCASWEILLER1",
@@ -10048,10 +10115,10 @@
                 "POL1"
             ],
             "Dia": "05/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX MATI",
             "Etiqueta": "VICENTE LOPEZ",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BFECCIA",
@@ -10119,10 +10186,10 @@
             ],
             "NoVendidas": [],
             "Dia": "07/01/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SABRIDELAPUEBLA",
@@ -10151,10 +10218,10 @@
             ],
             "NoVendidas": [],
             "Dia": "07/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX MATI",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AREA-TECNOLOGICA",
@@ -10175,10 +10242,10 @@
             ],
             "NoVendidas": [],
             "Dia": "08/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX VERGUI",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "KRAUCHIII",
@@ -10240,10 +10307,10 @@
                 "MRR1"
             ],
             "Dia": "09/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "KIARA2014",
@@ -10257,10 +10324,10 @@
             ],
             "NoVendidas": [],
             "Dia": "09/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CALU3120872",
@@ -10288,10 +10355,10 @@
             ],
             "NoVendidas": [],
             "Dia": "10/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "URB165",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NAN_ZAPATA2010",
@@ -10302,10 +10369,10 @@
             ],
             "NoVendidas": [],
             "Dia": "10/01/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX MATI",
             "Etiqueta": "RECOLETA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RAM_CALDERON",
@@ -10316,10 +10383,10 @@
             ],
             "NoVendidas": [],
             "Dia": "12/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MIGUELANGELGALLEGOPERALTA",
@@ -10347,10 +10414,10 @@
             ],
             "NoVendidas": [],
             "Dia": "17/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FLAVIANATALIAYUQUICHMONTENEG",
@@ -10391,10 +10458,10 @@
             ],
             "NoVendidas": [],
             "Dia": "17/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RODRIGUEZNICOLAS20211111224639",
@@ -10418,10 +10485,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/01/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX MATI",
             "Etiqueta": "VICENTE LOPEZ",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FLAVIANATALIAYUQUICHMONTENEG",
@@ -10462,10 +10529,10 @@
             ],
             "NoVendidas": [],
             "Dia": "22/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SCO1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FLORIDA939",
@@ -10531,10 +10598,10 @@
             ],
             "NoVendidas": [],
             "Dia": "31/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX KEVIN",
             "Etiqueta": "RECOLETA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PSEVOZNIKIVAN20230828151629",
@@ -10586,20 +10653,20 @@
             ],
             "NoVendidas": [],
             "Dia": "31/01/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "HOP300",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": null,
             "Vendidas": "LEWANDOWSKI",
             "NoVendidas": [],
             "Dia": "05/02/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND026",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROME9356584",
@@ -10611,10 +10678,10 @@
             ],
             "NoVendidas": [],
             "Dia": "05/02/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "AND026",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CLAR2015",
@@ -10626,10 +10693,10 @@
             ],
             "NoVendidas": [],
             "Dia": "09/02/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PGALICCHIO",
@@ -10644,10 +10711,10 @@
             ],
             "NoVendidas": [],
             "Dia": "14/02/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TOMY568",
@@ -10666,10 +10733,10 @@
             ],
             "NoVendidas": [],
             "Dia": "14/02/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PEPELEO",
@@ -10733,10 +10800,10 @@
             ],
             "NoVendidas": [],
             "Dia": "14/02/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BREGILEONEL",
@@ -10786,10 +10853,10 @@
                 "KSA1"
             ],
             "Dia": "04/03/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "AND026",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GOMA6051712",
@@ -10801,10 +10868,10 @@
             ],
             "NoVendidas": [],
             "Dia": "04/03/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "STOREMDQ",
@@ -10818,10 +10885,10 @@
             ],
             "NoVendidas": [],
             "Dia": "11/03/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GEORGE MART\u00cdNEZ",
@@ -10831,10 +10898,10 @@
             ],
             "NoVendidas": [],
             "Dia": "11/03/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALBERTOADRIANGONZALEZ",
@@ -10874,10 +10941,10 @@
             ],
             "NoVendidas": [],
             "Dia": "18/03/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "AND027",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RENE HOU",
@@ -10891,10 +10958,10 @@
                 "POL1"
             ],
             "Dia": "20/03/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "COLU4118438",
@@ -10904,10 +10971,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/03/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALEJANDRA_BAI",
@@ -10919,10 +10986,10 @@
                 "ARG1"
             ],
             "Dia": "21/03/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MJAURE2008",
@@ -10932,10 +10999,10 @@
             ],
             "NoVendidas": [],
             "Dia": "27/03/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND026",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROKABLONDA",
@@ -10945,10 +11012,10 @@
             ],
             "NoVendidas": [],
             "Dia": "27/03/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BLLU3492456",
@@ -10960,10 +11027,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/03/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TANITAGIRASOL",
@@ -10974,10 +11041,10 @@
             ],
             "NoVendidas": [],
             "Dia": "01/04/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CECILIAINSCASALINO",
@@ -11006,10 +11073,10 @@
                 "GER1"
             ],
             "Dia": "04/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FAQ88",
@@ -11027,10 +11094,10 @@
             ],
             "NoVendidas": [],
             "Dia": "04/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LAGU4290515",
@@ -11053,10 +11120,10 @@
             ],
             "NoVendidas": [],
             "Dia": "06/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CORTESLEONEL20231006205345",
@@ -11076,10 +11143,10 @@
                 "POL1"
             ],
             "Dia": "08/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "REYNARICARDO20230626132041",
@@ -11373,10 +11440,10 @@
                 "TUN1"
             ],
             "Dia": "09/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ESTUDIOCGL",
@@ -11390,10 +11457,10 @@
             ],
             "NoVendidas": [],
             "Dia": "14/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GHOST_RIDER2009",
@@ -11447,10 +11514,10 @@
                 "POR1"
             ],
             "Dia": "14/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FRANCOANDURAN",
@@ -11460,10 +11527,10 @@
             ],
             "NoVendidas": [],
             "Dia": "15/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DANI13421342",
@@ -11482,10 +11549,10 @@
             ],
             "NoVendidas": [],
             "Dia": "16/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "HOLAMAGAFLORES",
@@ -11516,10 +11583,10 @@
                 "SEN1"
             ],
             "Dia": "19/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND027",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "prueba",
@@ -11532,10 +11599,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FERNANDOFIGLIOLA",
@@ -11567,10 +11634,10 @@
                 "JPN16"
             ],
             "Dia": "24/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUDMILAMACORETTA",
@@ -11581,10 +11648,10 @@
             ],
             "NoVendidas": [],
             "Dia": "26/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GUSLEPRA_DRA",
@@ -11595,10 +11662,10 @@
             ],
             "NoVendidas": [],
             "Dia": "26/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LEONARDOCARROZZO",
@@ -11630,10 +11697,10 @@
                 "FWC26"
             ],
             "Dia": "01/05/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALPABI",
@@ -11664,10 +11731,10 @@
                 "FWC22"
             ],
             "Dia": "02/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND027",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAMA34474",
@@ -11713,10 +11780,10 @@
             ],
             "NoVendidas": [],
             "Dia": "05/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FLOROCAMPO87",
@@ -11726,10 +11793,10 @@
             ],
             "NoVendidas": [],
             "Dia": "08/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RUFR5071983",
@@ -11753,10 +11820,10 @@
             ],
             "NoVendidas": [],
             "Dia": "08/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MDIZ13",
@@ -11768,10 +11835,10 @@
             ],
             "NoVendidas": [],
             "Dia": "10/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LAAL9603736",
@@ -11781,10 +11848,10 @@
             ],
             "NoVendidas": [],
             "Dia": "10/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "prueba",
@@ -11799,10 +11866,10 @@
             ],
             "NoVendidas": [],
             "Dia": "13/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "IGNACIOEZQUIAGA",
@@ -11823,10 +11890,10 @@
             ],
             "NoVendidas": [],
             "Dia": "13/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUCASRIVET22",
@@ -11890,10 +11957,10 @@
             ],
             "NoVendidas": [],
             "Dia": "20/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LICHA666",
@@ -11904,10 +11971,10 @@
             ],
             "NoVendidas": [],
             "Dia": "21/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "IVENTURINI",
@@ -11932,10 +11999,10 @@
             ],
             "NoVendidas": [],
             "Dia": "23/05/2024",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MERLOTSYRAH",
@@ -11949,10 +12016,10 @@
             ],
             "NoVendidas": [],
             "Dia": "28/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TRINI6",
@@ -11973,10 +12040,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AUCANC",
@@ -11987,10 +12054,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CIROBENDOV",
@@ -12006,10 +12073,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/05/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VANESALINGUA",
@@ -12053,10 +12120,10 @@
                 "FWC20"
             ],
             "Dia": "01/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MATIMENDEL",
@@ -12065,10 +12132,10 @@
             ],
             "NoVendidas": [],
             "Dia": "05/06/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
-            "PrecioFlex": 0
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
@@ -12114,7 +12181,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DANIELLANUSSE",
@@ -12153,7 +12220,7 @@
             "Cuenta": [],
             "Envio": [],
             "Etiqueta": [],
-            "PrecioFlex": []
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VICTORHUGOOJEA",
@@ -12269,10 +12336,10 @@
                 498
             ],
             "Dia": "19/09/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "AND040",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LOCA3011073",
@@ -12303,10 +12370,10 @@
                 489
             ],
             "Dia": "19/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MEHU87",
@@ -12315,10 +12382,10 @@
             ],
             "NoVendidas": [],
             "Dia": "24/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "COR140",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SANCHEZHERNANJOSE",
@@ -12337,10 +12404,10 @@
                 259
             ],
             "Dia": "25/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "AND026",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUCAVALDSTIETJEN",
@@ -12351,10 +12418,10 @@
             ],
             "NoVendidas": [],
             "Dia": "29/09/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SRO1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FEDERICOLUISMENA",
@@ -12392,10 +12459,10 @@
                 505
             ],
             "Dia": "02/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "WEB202",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GB1679",
@@ -12426,10 +12493,10 @@
                 379
             ],
             "Dia": "04/10/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX MATI",
             "Etiqueta": "BELGRANO",
-            "PrecioFlex": 1345
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARALECUNA",
@@ -12452,10 +12519,10 @@
                 434
             ],
             "Dia": "04/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "COR140",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FRANTED0416",
@@ -12477,10 +12544,10 @@
                 383
             ],
             "Dia": "16/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARGARITASERAFINI",
@@ -12508,10 +12575,10 @@
                 119
             ],
             "Dia": "20/10/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ORCO64",
@@ -12628,10 +12695,10 @@
                 467
             ],
             "Dia": "20/10/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DIDA3590364",
@@ -12654,10 +12721,10 @@
                 205
             ],
             "Dia": "20/10/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "BELGRANO",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GLADISRAQUELSAUREL",
@@ -12679,10 +12746,10 @@
                 346
             ],
             "Dia": "20/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARALECUNA",
@@ -12705,10 +12772,10 @@
                 430
             ],
             "Dia": "27/10/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "COR140",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DUPUYFACUNDOLUIS",
@@ -12718,10 +12785,10 @@
             ],
             "NoVendidas": [],
             "Dia": "01/11/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SLA1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FEDERICOLUISMENA",
@@ -12767,10 +12834,10 @@
                 442
             ],
             "Dia": "06/11/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "WEB202",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOSASORAYA",
@@ -12794,10 +12861,10 @@
                 488
             ],
             "Dia": "13/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "CORREO",
             "Etiqueta": "SRU1",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROBERTOTASSARA",
@@ -12817,10 +12884,10 @@
                 338
             ],
             "Dia": "13/11/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARALECUNA",
@@ -12850,10 +12917,10 @@
                 471
             ],
             "Dia": "18/11/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "CORREO",
             "Etiqueta": "SIN ETIQUETA",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUCIANOSZK",
@@ -12867,10 +12934,10 @@
                 322
             ],
             "Dia": "21/11/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROLANDOMICHAN",
@@ -12890,10 +12957,10 @@
             ],
             "NoVendidas": [],
             "Dia": "30/11/2023",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "CABA",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LAURYM007",
@@ -12974,10 +13041,10 @@
                 479
             ],
             "Dia": "14/12/2023",
-            "Cuenta": "LA ZUCU",
+            "Cuenta": "Mati",
             "Envio": "FLEX PELUCHE",
             "Etiqueta": "MORON",
-            "PrecioFlex": 1700
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ZOCCALIFEDERICO",
@@ -13005,10 +13072,10 @@
                 434
             ],
             "Dia": "16/03/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "Nu\u00f1ez",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANTONINISERGIO",
@@ -13023,10 +13090,10 @@
             ],
             "NoVendidas": [],
             "Dia": "26/04/2024",
-            "Cuenta": "LAFI GURITA",
+            "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
-            "PrecioFlex": 0
+            "PREPARADO": "SI"
         }
     ]
 }

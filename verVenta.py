@@ -20,7 +20,7 @@ def verVenta(usuario,llaveVentas,opcionElegida):
                 print("Dia de la venta: ",venta["Dia"])
                 print("Sucursal: ",venta["Cuenta"])
                 print("Envio: ",venta["Envio"])
-                print("Etiqueta: ",venta["Etiqueta"],"\n")
+                # print("Etiqueta: ",venta["Etiqueta"],"\n")
                 print("Cantidad de figuritas vendidas: ",len(venta["Vendidas"]),"\n")
                 if llaveVentas == "Mundial Qatar 2022":
                     listaVendidas = venta["Vendidas"]
@@ -62,7 +62,7 @@ def verVenta(usuario,llaveVentas,opcionElegida):
                 print("Sucursal: ",venta["Cuenta"])
                 print("Usuario: ",venta["usuario"])
                 print("Envio: ",venta["Envio"])
-                print("Etiqueta: ",venta["Etiqueta"],"\n")
+                # print("Etiqueta: ",venta["Etiqueta"],"\n")
                 print("Vendidas: ",venta["Vendidas"],"\n")
                 print("Cantidad de figuritas vendidas: ",len(venta["Vendidas"]),"\n")
                 print("No Vendidas",venta["NoVendidas"],"\n")   

@@ -130,16 +130,47 @@ const figusSinStock = (tipo, event) => {
 const totalVentas = () =>{
     var totalVentasElement = document.getElementById('totalVentas');
     let filePath='./totalVentas.json';
-
+    
     fetch(filePath)
         .then(response => response.json())
         .then(data => {
             // Almacenar todas las figus
             
             console.log(data)
-            const formattedData = JSON.stringify(data, null, 2);
             // console.log(actualizacion[0],actualizacion[0])
-            totalVentasElement.textContent = formattedData
+            album = data["Copa America 2024"]
+            const noPrep = album.filter(prep =>prep.PREPARADO ==="NO")
+
+            console.log(noPrep)
+
+            noPrep.forEach(objeto => {
+                // Crear un elemento div para cada objeto
+                const objetoDiv = document.createElement('div');
+                const button = document.createElement('button');
+                // Mostrar cada propiedad del objeto en el elemento div
+                const nombreUsuario = document.createElement('h3');
+                const nombreCuenta = document.createElement('p');
+                const figusVendidas = document.createElement('h7');
+                nombreUsuario.textContent = objeto["usuario"]                
+                nombreCuenta.textContent = `MercadoLibre: ${objeto["Cuenta"]}`
+                figusVendidas.textContent = `Vendidas: ${objeto["Vendidas"]}`
+                objetoDiv.appendChild(nombreUsuario);
+                objetoDiv.appendChild(figusVendidas);
+                button.textContent="ARMADO"
+
+                
+                // Agregar el elemento div al contenedor totalVentasElement
+                totalVentasElement.appendChild(objetoDiv);
+                
+                button.addEventListener('click', () => {
+                    console.log(objeto["usuario"]);
+
+                });
+
+                totalVentasElement.appendChild(button)
+                
+            });
+            console.log(album)
         })
         .catch(error => {
             console.error('Error al cargar el archivo JSON:', error);
