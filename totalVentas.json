@@ -4003,27 +4003,6 @@
             "PREPARADO": "SI"
         },
         {
-            "usuario": "VITTOPETRI",
-            "Vendidas": [
-                "VEN21",
-                "BOL4",
-                "BOL20",
-                "COL2",
-                "COL4",
-                "PAR20",
-                "CRC18"
-            ],
-            "NoVendidas": [
-                "INT1",
-                "PAN15",
-                "BRA3"
-            ],
-            "Dia": "07/06/2024",
-            "Cuenta": "LA ZUCU",
-            "Envio": "CORREO",
-            "PREPARADO": "NO"
-        },
-        {
             "usuario": "GABRIELLEONSINI",
             "Vendidas": [
                 "PER17",
@@ -4082,7 +4061,7 @@
             "Dia": "07/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VERONICAPELANDINO",
@@ -12446,6 +12425,17 @@
             "Cuenta": "LA ZUCU",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "BITTER-ML",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
