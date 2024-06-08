@@ -4112,6 +4112,62 @@
             "Cuenta": "LAFI GURITA",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ALEJANDRACOCUZZA",
+            "Vendidas": [
+                "INT4",
+                "JAM6"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "08/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "FUNDACIONFUNDACION202310051742",
+            "Vendidas": [
+                "INT4",
+                "BRA5",
+                "PAR13",
+                "PAR18",
+                "CAN14"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "08/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "DANIELFGARIMALDI",
+            "Vendidas": [
+                "ARG14",
+                "CHI10",
+                "VEN10",
+                "JAM4",
+                "JAM14",
+                "BRA9",
+                "CAN10",
+                "CRC4",
+                "HON18",
+                "TRI7",
+                "LEG6",
+                "LEG10",
+                "LEG15"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "08/06/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -12473,6 +12529,40 @@
             "Dia": "07/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "HUGWETSCHKY",
+            "Vendidas": [
+                "BEL1",
+                "DEN1",
+                "GHA1",
+                "WAL1"
+            ],
+            "NoVendidas": [
+                "QAT19"
+            ],
+            "Dia": "08/06/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MARILINAREBOLLAR",
+            "Vendidas": [
+                "FWC0",
+                "FWC17",
+                "FWC29",
+                "FRA18",
+                "MAR1",
+                "SRB1"
+            ],
+            "NoVendidas": [
+                "FWC7"
+            ],
+            "Dia": "08/06/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],

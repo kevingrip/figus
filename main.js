@@ -231,12 +231,10 @@ const totalVentas = () =>{
                     button.textContent="ARMADO"
 
                     figusVendidas.style.maxWidth = '90%';
-                    figusVendidas.style.minHeight = '100px';
+                    figusVendidas.style.minHeight = '20px';
                     figusVendidas.style.wordWrap = 'break-word';
                     objetoDiv.style.margin = '5px'
-                    objetoDiv.style.padding = '15px'
-
-                    
+                    objetoDiv.style.padding = '15px'                    
 
 
                     
