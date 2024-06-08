@@ -4168,6 +4168,18 @@
             "Cuenta": "LA ZUCU",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GODIE3",
+            "Vendidas": [
+                "ARG11",
+                "BOL22"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/06/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
