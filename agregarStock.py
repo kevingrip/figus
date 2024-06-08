@@ -122,7 +122,7 @@ def agregarStock(base):
                         cantidadTotal += int(1)
                         figuNueva = str(fila["CANT"])
                         # print("Precio acumulado: ",precioUyuni)
-                        print ("(+"+str(cantidadTotal)+") "+str(fila["NUM"])+": "+figuActual+" ==> "+figuNueva)
+                        print ("[+"+str(cantidadTotal)+"]       "+figuActual+' <<< '+str(fila["NUM"])+": >>> "+figuNueva)
             else:
                 print("Cantidad Total agregada: ",cantidadTotal)
 

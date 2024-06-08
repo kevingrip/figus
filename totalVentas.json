@@ -3900,6 +3900,201 @@
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ALEU9977980",
+            "Vendidas": [
+                "HCI2",
+                "ARG1",
+                "ARG8",
+                "ARG11",
+                "ARG13",
+                "ARG22",
+                "JAM3",
+                "JAM9",
+                "BRA15",
+                "HON5",
+                "HON8",
+                "TRI12",
+                "TRI15"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "FEDELEDESMA",
+            "Vendidas": [
+                "CHI1",
+                "CHI7",
+                "MEX12",
+                "MEX14",
+                "COL6",
+                "COL22",
+                "PAR4",
+                "PAR17",
+                "HON13",
+                "LEG16",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "ECU18"
+            ],
+            "Dia": "07/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "HUAICOS07",
+            "Vendidas": [
+                "CHI9"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "NICOLASFINKIELSTAIN",
+            "Vendidas": [
+                "ARG4",
+                "ARG20",
+                "CHI1",
+                "MEX20",
+                "ECU19",
+                "PAN6",
+                "PAN12",
+                "PAN20",
+                "BRA4",
+                "BRA20",
+                "BRA22",
+                "CAN10",
+                "CRC21",
+                "LEG10",
+                "LEG12",
+                "BASE",
+                "BRONCE"
+            ],
+            "NoVendidas": [
+                "ARG1",
+                "ARG19",
+                "LEG3",
+                "ROH1",
+                "ROH2"
+            ],
+            "Dia": "07/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "CRISTINAANTIANCO",
+            "Vendidas": [
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "VITTOPETRI",
+            "Vendidas": [
+                "VEN21",
+                "BOL4",
+                "BOL20",
+                "COL2",
+                "COL4",
+                "PAR20",
+                "CRC18"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "PAN15",
+                "BRA3"
+            ],
+            "Dia": "07/06/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GABRIELLEONSINI",
+            "Vendidas": [
+                "PER17",
+                "CHI9",
+                "CHI21",
+                "MEX7",
+                "ECU13",
+                "VEN3",
+                "VEN11",
+                "JAM1",
+                "PAN11",
+                "COL3",
+                "COL7",
+                "PAR7",
+                "CAN1",
+                "HON3",
+                "HON9",
+                "HON11",
+                "HON13",
+                "HON15",
+                "HON17",
+                "TRI13",
+                "TRI15",
+                "LEG5"
+            ],
+            "NoVendidas": [
+                "CHI1"
+            ],
+            "Dia": "07/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MARIAROSALARRICART",
+            "Vendidas": [
+                "HCI5",
+                "ARG14",
+                "MEX1",
+                "MEX20",
+                "VEN21",
+                "USA12",
+                "PAN12",
+                "COL11",
+                "COL20",
+                "CAN2",
+                "CRC4",
+                "HON6",
+                "HON7",
+                "HON11",
+                "TRI7",
+                "LEG18",
+                "INT4"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "VERONICAPELANDINO",
+            "Vendidas": [
+                "BOL1",
+                "BOL8"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/06/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

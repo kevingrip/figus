@@ -177,7 +177,22 @@ const totalVentas = () =>{
                     // console.log(figuVend)
                     let figuVenTab = figuVend.replace(/,/g,"\u00A0\u00A0\u00A0\u00A0")
                     figusVendidas.textContent = `${figuVenTab}`
-                    tipoEnvio.textContent = `${objeto["Envio"]}`
+                    
+                    if (objeto["Envio"]==='FLEX'){
+                        tipoEnvio.textContent = `ENVIOS FLEX`
+                        tipoEnvio.style.color = '#39ff14'
+                        tipoEnvio.style.fontSize  = '20px'
+                        tipoEnvio.style.fontStyle = 'italic';
+                        tipoEnvio.style.maxWidth = '150px';
+                        tipoEnvio.style.border = '2px solid black';
+                        tipoEnvio.style.borderRadius = '5px'
+                        tipoEnvio.style.display = 'flex';
+                        tipoEnvio.style.justifyContent = 'center';
+                    }else{
+                        tipoEnvio.textContent = `${objeto["Envio"]}`
+                        tipoEnvio.style.color = 'orange'
+                        tipoEnvio.style.fontSize  = '20px'
+                    }
 
                     nombreAlbum.style.height = '100px' 
                     nombreAlbum.style.display = 'flex';

@@ -98,7 +98,7 @@ def acomodar (fig,error,lista_paises):
                 lista_paises.append(pais)
                 pais=''
             num=num+letra
-        if letra==' ' or letra in (',','/','-'):
+        if letra==' ' or letra in (',','/','-','.'):
             lista.append(num)
             num=''
 
