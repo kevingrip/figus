@@ -5119,6 +5119,42 @@
                 "ARG11",
                 "BOL22"
             ]
+        },
+        {
+            "usuario": "JORGEAUGE",
+            "figusPedidas": [
+                "COL13",
+                "COL18",
+                "COL22",
+                "CRC4",
+                "ECU18",
+                "ECU8",
+                "HON7",
+                "MEX14",
+                "PAR17",
+                "ROH1",
+                "TRI9",
+                "USA1"
+            ]
+        },
+        {
+            "usuario": "LUCRESPINDOLA",
+            "figusPedidas": [
+                "ARG13",
+                "ARG15",
+                "ARG9",
+                "BOL10",
+                "BOL9",
+                "CHI5",
+                "ECU21",
+                "INT3",
+                "JAM13",
+                "MEX17",
+                "PAN13",
+                "URU1",
+                "USA12",
+                "VEN8"
+            ]
         }
     ]
 }

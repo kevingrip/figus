@@ -4180,6 +4180,54 @@
             "Cuenta": "LA ZUCU",
             "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "JORGEAUGE",
+            "Vendidas": [
+                "MEX14",
+                "ECU8",
+                "ECU18",
+                "USA1",
+                "COL13",
+                "COL18",
+                "COL22",
+                "PAR17",
+                "CRC4",
+                "HON7",
+                "TRI9"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "09/06/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LUCRESPINDOLA",
+            "Vendidas": [
+                "ARG9",
+                "ARG13",
+                "ARG15",
+                "CHI5",
+                "MEX17",
+                "ECU21",
+                "VEN8",
+                "JAM13",
+                "USA12",
+                "URU1",
+                "PAN13",
+                "BOL9",
+                "BOL10"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "09/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

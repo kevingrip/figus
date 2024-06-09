@@ -188,9 +188,13 @@ const totalVentas = () =>{
                         tipoEnvio.style.borderRadius = '5px'
                         tipoEnvio.style.display = 'flex';
                         tipoEnvio.style.justifyContent = 'center';
-                    }else{
+                    }else if (objeto["Envio"]==='CORREO'){
                         tipoEnvio.textContent = `${objeto["Envio"]}`
                         tipoEnvio.style.color = 'orange'
+                        tipoEnvio.style.fontSize  = '20px'
+                    }else {
+                        tipoEnvio.textContent = `${objeto["Envio"]}`
+                        tipoEnvio.style.color = 'blue'
                         tipoEnvio.style.fontSize  = '20px'
                     }
 
