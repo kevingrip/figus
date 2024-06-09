@@ -194,7 +194,7 @@ const totalVentas = () =>{
                         tipoEnvio.style.fontSize  = '20px'
                     }
 
-                    nombreAlbum.style.height = '100px' 
+                    nombreAlbum.style.height = '25px' 
                     nombreAlbum.style.display = 'flex';
                     nombreAlbum.style.alignItems = 'center' 
                     nombreAlbum.style.padding = '10px' 
