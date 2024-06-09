@@ -5155,6 +5155,33 @@
                 "USA12",
                 "VEN8"
             ]
+        },
+        {
+            "usuario": "DIVAFILU",
+            "figusPedidas": [
+                "ARG11",
+                "ARG18",
+                "ARG19",
+                "BRA19",
+                "BRA21",
+                "BRA3",
+                "CAN12",
+                "CAN4",
+                "CRC1",
+                "INT1",
+                "JAM10",
+                "PAR16",
+                "PAR18"
+            ]
+        },
+        {
+            "usuario": "JUCHINA09",
+            "figusPedidas": [
+                "COL8",
+                "HCI1",
+                "HON4",
+                "TRI1"
+            ]
         }
     ]
 }

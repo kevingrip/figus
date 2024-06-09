@@ -36,7 +36,7 @@ noTengo=[]
 
 for linea in ventasLali:
     if len(linea["NoVendidas"])>0:
-        if linea["usuario"] == 'milfa':
+        if linea["usuario"] == 'milfa1':
             print(linea["Dia"],"\n",linea["usuario"])
             for x in linea["NoVendidas"]:
                 for figu in base:
