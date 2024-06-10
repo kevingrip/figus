@@ -5374,6 +5374,77 @@
                 "COL14",
                 "INT1"
             ]
+        },
+        {
+            "usuario": "GAVI129763",
+            "figusPedidas": [
+                "BOL1",
+                "INT3",
+                "JAM1",
+                "ROH1",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "MAT_FUNES",
+            "figusPedidas": [
+                "BOL8",
+                "CAN10",
+                "CAN14",
+                "CAN18",
+                "CHI16",
+                "CHI22",
+                "COL18",
+                "COL20",
+                "COL22",
+                "ECU15",
+                "ECU5",
+                "JAM20",
+                "JAM6",
+                "PAN21",
+                "PAN5",
+                "PAR12",
+                "PAR17",
+                "TRI15",
+                "TRI17",
+                "TRI18",
+                "TRI5",
+                "USA13",
+                "USA15",
+                "USA8"
+            ]
+        },
+        {
+            "usuario": "JPBARBIERJPBARBIER",
+            "figusPedidas": [
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "MVA1905",
+            "figusPedidas": [
+                "COL9",
+                "CRC1",
+                "PAR9"
+            ]
+        },
+        {
+            "usuario": "TONA3371255",
+            "figusPedidas": [
+                "INT1",
+                "PAN11",
+                "ROH1",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "TONA3371255",
+            "figusPedidas": [
+                "INT1",
+                "PAN11",
+                "ROH1",
+                "ROH2"
+            ]
         }
     ]
 }

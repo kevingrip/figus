@@ -4372,6 +4372,35 @@
             "Cuenta": "LAFI GURITA",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MARCELOGRINB",
+            "Vendidas": [
+                "MEX8",
+                "MEX10",
+                "TRI17",
+                "LEG6",
+                "LEG10",
+                "LEG13"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MVA1905",
+            "Vendidas": [
+                "COL9",
+                "PAR9",
+                "CRC1"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
