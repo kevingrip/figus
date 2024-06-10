@@ -4313,6 +4313,51 @@
             "Dia": "10/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "PABLOIGNATTI",
+            "Vendidas": [
+                "HCI2",
+                "HCI4",
+                "HCI6",
+                "HCI7",
+                "ARG3",
+                "ARG11",
+                "CHI3",
+                "CHI6",
+                "CHI14"
+            ],
+            "NoVendidas": [
+                "ARG19"
+            ],
+            "Dia": "10/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MARTINTC253",
+            "Vendidas": [
+                "CHI11",
+                "CHI18",
+                "MEX19",
+                "ECU7",
+                "VEN9",
+                "JAM10",
+                "USA17",
+                "PAN14",
+                "COL16",
+                "CRC8",
+                "CRC17",
+                "HON5",
+                "HON16",
+                "TRI12"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],
@@ -12805,6 +12850,17 @@
             "Dia": "10/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MAPA7110274",
+            "Vendidas": [
+                "CAN19"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/06/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "SI"
         }
     ],
