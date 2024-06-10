@@ -5182,6 +5182,82 @@
                 "HON4",
                 "TRI1"
             ]
+        },
+        {
+            "usuario": "SIMONFER2003",
+            "figusPedidas": [
+                "INT3",
+                "INT4"
+            ]
+        },
+        {
+            "usuario": "CHICAGO84",
+            "figusPedidas": [
+                "CHI1",
+                "CHI10",
+                "ECU12",
+                "ECU18",
+                "LEG18",
+                "LEG6",
+                "TRI10",
+                "VEN4"
+            ]
+        },
+        {
+            "usuario": "VIMA7930866",
+            "figusPedidas": [
+                "ARG19",
+                "INT1",
+                "INT3",
+                "INT4"
+            ]
+        },
+        {
+            "usuario": "BELOFUENTES",
+            "figusPedidas": [
+                "ARG19",
+                "CAN15",
+                "CRC11",
+                "INT1",
+                "JAM11",
+                "JAM7",
+                "LEG11",
+                "LEG18",
+                "MEX3",
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "FRAN.BOUZAS",
+            "figusPedidas": [
+                "ARG1",
+                "ARG19",
+                "INT3",
+                "JAM3",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "IVANABORASI",
+            "figusPedidas": [
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "PMGOLDMAN",
+            "figusPedidas": [
+                "ARG1",
+                "ARG3",
+                "BOL1",
+                "CAN1",
+                "COL1",
+                "INT1",
+                "PER17",
+                "PER9",
+                "ROH1",
+                "TRI1",
+                "VEN13"
+            ]
         }
     ]
 }

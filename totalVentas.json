@@ -4142,7 +4142,7 @@
             "Dia": "08/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DANIELFGARIMALDI",
@@ -4179,7 +4179,7 @@
             "Dia": "08/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JORGEAUGE",
@@ -4241,6 +4241,25 @@
             "Dia": "09/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CHICAGO84",
+            "Vendidas": [
+                "CHI10",
+                "ECU12",
+                "ECU18",
+                "VEN4",
+                "TRI10",
+                "LEG6",
+                "LEG18"
+            ],
+            "NoVendidas": [
+                "CHI1"
+            ],
+            "Dia": "09/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],
@@ -12603,7 +12622,7 @@
             "Dia": "07/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "HUGWETSCHKY",
@@ -12637,6 +12656,79 @@
             "Dia": "08/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MOYANOCANDELA20230220152937",
+            "Vendidas": [
+                "FWC0",
+                "FWC2",
+                "FWC6",
+                "FWC11",
+                "FWC12",
+                "FWC13",
+                "FWC14",
+                "FWC15",
+                "FWC16",
+                "FWC18"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/06/2024",
+            "Cuenta": "LA ZUCU",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "B001989",
+            "Vendidas": [
+                "FWC8",
+                "FWC10",
+                "FWC18",
+                "FWC19",
+                "FWC21",
+                "FWC22",
+                "FWC24",
+                "FWC25",
+                "FWC29",
+                "AUS1",
+                "BEL13",
+                "CMR1",
+                "CRC1",
+                "CRC6",
+                "CRO1",
+                "CRO7",
+                "DEN16",
+                "ECU8",
+                "ECU14",
+                "ESP7",
+                "ESP9",
+                "ESP14",
+                "FRA1",
+                "FRA9",
+                "GER3",
+                "GHA1",
+                "GHA9",
+                "GHA17",
+                "JPN6",
+                "KSA4",
+                "MEX6",
+                "MEX10",
+                "POL11",
+                "QAT18",
+                "SEN15",
+                "SUI2",
+                "WAL11",
+                "WAL13",
+                "C8"
+            ],
+            "NoVendidas": [
+                "FWC23",
+                "JPN1",
+                "SEN1"
+            ],
+            "Dia": "09/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
         }
     ],
