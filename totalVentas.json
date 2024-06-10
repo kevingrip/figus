@@ -4034,7 +4034,7 @@
             "Dia": "07/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARIAROSALARRICART",
@@ -4073,7 +4073,7 @@
             "Dia": "07/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SILVINASALIWONCZYK",
@@ -4125,7 +4125,7 @@
             "Dia": "08/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FUNDACIONFUNDACION202310051742",
@@ -4167,7 +4167,7 @@
             "Dia": "08/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GODIE3",
@@ -4202,7 +4202,7 @@
             "Dia": "09/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUCRESPINDOLA",
@@ -4227,7 +4227,7 @@
             "Dia": "09/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JUCHINA09",
@@ -4241,7 +4241,7 @@
             "Dia": "09/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CHICAGO84",
@@ -4260,6 +4260,43 @@
             "Dia": "09/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "LACOUMEJORGE20221228221311",
+            "Vendidas": [
+                "ARG16",
+                "JAM8",
+                "USA20",
+                "BOL4",
+                "PAR21",
+                "HON20"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MAUROKOZUR",
+            "Vendidas": [
+                "ARG13",
+                "ARG14",
+                "ARG15",
+                "ARG16",
+                "URU1",
+                "URU15",
+                "LEG1",
+                "LEG2",
+                "LEG6",
+                "LEG11",
+                "LEG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],
@@ -12729,6 +12766,17 @@
             "Dia": "09/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "OJJO9573808",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],
