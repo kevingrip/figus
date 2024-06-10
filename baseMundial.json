@@ -271,7 +271,7 @@
     },
     {
         "NUM": "ARG1",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 6500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -4204,7 +4204,7 @@
     },
     {
         "NUM": "POR1",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 2500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",

@@ -4276,7 +4276,7 @@
             "Dia": "10/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAUROKOZUR",
@@ -4297,6 +4297,22 @@
             "Dia": "10/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "FRAN.BOUZAS",
+            "Vendidas": [
+                "ARG1",
+                "ARG19",
+                "JAM3",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "10/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],
@@ -12675,7 +12691,7 @@
             "Dia": "08/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARILINAREBOLLAR",
@@ -12693,7 +12709,7 @@
             "Dia": "08/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MOYANOCANDELA20230220152937",
@@ -12713,7 +12729,7 @@
             "Dia": "09/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "B001989",
@@ -12777,7 +12793,19 @@
             "Dia": "10/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "EDUARDO CORVALAN",
+            "Vendidas": [
+                "ARG1",
+                "POR1"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/06/2024",
+            "Cuenta": "LAFI GURITA",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
