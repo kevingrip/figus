@@ -4840,6 +4840,19 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "PAYARODIEGO",
+            "Vendidas": [
+                "CAN6",
+                "CRC12",
+                "LEG12"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

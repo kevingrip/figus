@@ -5859,6 +5859,51 @@
                 "JAM16",
                 "ROH2"
             ]
+        },
+        {
+            "usuario": "BENEMOBILI.COM",
+            "figusPedidas": [
+                "ARG19",
+                "ARG3",
+                "BOL19",
+                "BOL21",
+                "BRA14",
+                "INT2",
+                "INT3",
+                "VEN18"
+            ]
+        },
+        {
+            "usuario": "ROSSOMARIO76",
+            "figusPedidas": [
+                "ARG1",
+                "ARG19"
+            ]
+        },
+        {
+            "usuario": "PAYARODIEGO",
+            "figusPedidas": [
+                "CAN6",
+                "CRC12",
+                "LEG12"
+            ]
+        },
+        {
+            "usuario": "PMGOLDMAN",
+            "figusPedidas": [
+                "ARG1",
+                "BOL1",
+                "COL1",
+                "ROH1",
+                "VEN13"
+            ]
+        },
+        {
+            "usuario": "MIONIC",
+            "figusPedidas": [
+                "ARG1",
+                "INT3"
+            ]
         }
     ]
 }
