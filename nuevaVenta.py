@@ -9,7 +9,7 @@ def nuevaVenta(usuario,vendidas,noVendidas,llaveVentas):
 
     dia = datetime.datetime.now().strftime("%d/%m/%Y")
 
-    sucursal = easygui.buttonbox("Cuenta", choices=["LAFI GURITA", "LA ZUCU"], title="Confirmación")
+    sucursal = easygui.buttonbox("Cuenta", choices=["KEVIN", "MATI"], title="Confirmación")
 
     datoEnvio = easygui.buttonbox("Envio", choices=["CORREO", "FLEX", "ACORDAR ENTREGA"], title="Confirmación")
 
