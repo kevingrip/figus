@@ -4811,7 +4811,6 @@
         {
             "usuario": "RF MOTORSPORT",
             "figusPedidas": [
-                "ARG1",
                 "ARG10",
                 "ARG17",
                 "ARG19",
@@ -4863,7 +4862,6 @@
                 "CHI5",
                 "CHI6",
                 "CHI7",
-                "CHI9",
                 "COL1",
                 "COL10",
                 "COL11",
@@ -4902,12 +4900,10 @@
                 "HON3",
                 "HON5",
                 "HON7",
-                "HON9",
                 "INT1",
                 "INT2",
                 "INT3",
                 "INT4",
-                "JAM1",
                 "JAM13",
                 "JAM14",
                 "JAM15",
@@ -4916,7 +4912,6 @@
                 "JAM20",
                 "JAM21",
                 "JAM22",
-                "JAM3",
                 "JAM4",
                 "JAM5",
                 "JAM7",
@@ -4944,7 +4939,6 @@
                 "MEX8",
                 "MEX9",
                 "PAN13",
-                "PAN15",
                 "PAN20",
                 "PAN21",
                 "PAN3",
@@ -4977,7 +4971,6 @@
                 "URU8",
                 "USA1",
                 "USA10",
-                "USA11",
                 "USA13",
                 "USA17",
                 "USA2",
@@ -4998,6 +4991,18 @@
                 "VEN5",
                 "VEN7",
                 "VEN9"
+            ]
+        },
+        {
+            "usuario": "florio",
+            "figusPedidas": [
+                "ARG1",                
+                "CHI9",                
+                "HON9",                
+                "JAM1",                
+                "JAM3",                
+                "PAN15",                
+                "USA11"              
             ]
         },
         {
