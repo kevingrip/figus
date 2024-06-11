@@ -47,7 +47,7 @@ def renamePaises(listaOriginal,lista3LetrasPaises,variantesTotales):
     PAR = ['PAR','PARAGUA']
     HON = ['HON','HONDURAS']
     TRI = ['TRI','TRINIDADTOBAGO','TRINIDAD','TYT']
-    LEG = ['LEG','LEYENDAS']
+    LEG = ['LEG','LEYENDAS','LEENDA']
     ROH = ['ROH']
     paisesFigus = [FWC,ARG,AUS,BEL,BRA,CAN,CMR,CRC,CRO,DEN,ECU,ENG,ESP,FRA,GER,GHA,IRN,JPN,KOR,KSA,MEX,MRR,NED,POL,POR,QAT,SEN,SRB,SUI,TUN,URU,USA,WAL,COCA,INT,HCI,PER,CHI,VEN,JAM,PAN,BOL,COL,PAR,HON,TRI,LEG,ROH]
     listaDePaises = []

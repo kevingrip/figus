@@ -3,33 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultados Buscar</title>
+    <title>Lafi Gurita</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h5>// Hora de ultima actualizacion: <span id="ultimaActualizacion"></span></h5>
     <h5>// Usuario de ultima actualizacion: <span id="userUpdate"></span></h5>
     <h1 class="posBusc">Lafi Gurita</h1>
-    <h3 class="posBusc">Presione el album:</h3>
+    <h3 class="posBusc">Elija una opción:</h3>
     <div>
         <div class="posBtn">
-            <button class="bloqueAlbum pressed" onclick="tipoAlbum('baseMundial',event)">Mundial Qatar 2022</button>      
-            <button class="bloqueAlbum" onclick="tipoAlbum('baseFutarg',event)">Futbol Argentino 2023</button>
-            <button class="bloqueAlbum" onclick="tipoAlbum('baseLali',event)">Copa Libertadores 2023</button>
-            <button class="bloqueAlbum" onclick="tipoAlbum('base_copam',event)">Copa America 2024</button>
+            <button class="bloqueAlbum pressed" onclick="window.location.href='input.html'">Pregunta figus</button>      
+            <button class="bloqueAlbum" onclick="window.location.href='stock.html'">Chequear Stock</button>
+            <button class="bloqueAlbum" onclick="window.location.href='ventas.html'">Armar Ventas</button>
+            <button class="bloqueAlbum" onclick="tipoAlbum('base_copam',event)">Pregunta Usuario</button>
         </div>
     </div>
-    
-    <div class="posBusc">
-        <h3>Ingresa las figus:</h3>
-        <textarea type="text" id="entrada" class="inpt"></textarea>
-        <div class="espBtn">
-            <button class="btn" onclick="buscarFigus()">Buscar</button>
-        </div>
-    </div>
-    <ul id="resultados">
-        <!-- Aquí se mostrarán los resultados -->
-    </ul>
 
     <script src="main.js"></script>
 </body>
