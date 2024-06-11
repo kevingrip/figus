@@ -4358,7 +4358,7 @@
             "Dia": "10/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROCA5002928",
@@ -4371,7 +4371,7 @@
             "Dia": "10/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARCELOGRINB",
@@ -4400,7 +4400,7 @@
             "Dia": "10/06/2024",
             "Cuenta": "LAFI GURITA",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAT_FUNES",
@@ -4434,7 +4434,7 @@
             "Dia": "10/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MATSLOPEZ",
@@ -4486,7 +4486,7 @@
             "Dia": "10/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANDYCAP1",
@@ -4507,6 +4507,17 @@
             "NoVendidas": [],
             "Dia": "10/06/2024",
             "Cuenta": "LA ZUCU",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "JPBARBIERJPBARBIER",
+            "Vendidas": [
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/06/2024",
+            "Cuenta": "LAFI GURITA",
             "Envio": "FLEX",
             "PREPARADO": "NO"
         }
@@ -13031,7 +13042,7 @@
             "Dia": "10/06/2024",
             "Cuenta": "LA ZUCU",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
