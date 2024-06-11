@@ -13404,6 +13404,23 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "CNIVEIRO",
+            "Vendidas": [
+                "AUS1",
+                "CRC6",
+                "ESP8",
+                "MAR19",
+                "NED10",
+                "TUN1",
+                "WAL13"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [

@@ -53,9 +53,9 @@ def agregarStock(base):
 
             if mismoPais == False:  
                 if base=="base_copam.json":
-                    seleccionarPais = easygui.choicebox("Elija un pais", choices=sorted(paisesSinDuplicados), title="Confirmación")
+                    seleccionarPais = easygui.choicebox("Elija un pais", choices=sorted(paisesSinDuplicados), title="Seleccion Pais")
                 else:
-                    seleccionarPais = easygui.choicebox("Elija un pais", choices=paisesSinDuplicados, title="Confirmación")
+                    seleccionarPais = easygui.choicebox("Elija un pais", choices=paisesSinDuplicados, title="Seleccion Pais")
 
             if seleccionarPais == 'INTR':
                 seleccionarPais = 'INT'
@@ -73,7 +73,8 @@ def agregarStock(base):
             else:
                 eleccionFigurita.append("Cambiar Pais")
                 eleccionFigurita.append("Salir")
-            seleccionarFigurita = easygui.buttonbox("Elija una figurita", choices=eleccionFigurita, title="Confirmación")
+
+            seleccionarFigurita = easygui.buttonbox("Elija una figurita", choices=eleccionFigurita, title="Seleccion figurita")
 
             if seleccionarPais == 'Coca Cola':
                 if seleccionarFigurita == COCA_NOMBRE[0]:
@@ -92,8 +93,8 @@ def agregarStock(base):
                     seleccionarFigurita = COCA[6]
                 elif seleccionarFigurita == COCA_NOMBRE[7]:
                     seleccionarFigurita = COCA[7]
-                elif seleccionarFigurita == COCA_NOMBRE[8]:
-                    seleccionarFigurita = COCA[8]
+                # elif seleccionarFigurita == COCA_NOMBRE[8]:
+                #     seleccionarFigurita = COCA[8]
 
             if seleccionarFigurita !="Cambiar Pais":
                 for fila in baseTotal:
@@ -131,6 +132,11 @@ def agregarStock(base):
             with open(base, "w") as archivo:
                 archivo.write(actualizarBase)
 
+            if (seleccionarFigurita in eleccionFigurita) or (seleccionarPais == 'Coca Cola'):
+                mismoPais = True
+                seguirAgregando = True
+                eleccionFigurita = []
+
             if seleccionarFigurita =="Salir":
                 seguirAgregando = False
                 mismoPais = False
@@ -141,10 +147,9 @@ def agregarStock(base):
                 seguirAgregando = True
                 eleccionFigurita = []
 
-            if (seleccionarFigurita in eleccionFigurita) or (seleccionarPais == 'Coca Cola'):
-                mismoPais = True
-                seguirAgregando = True
-                eleccionFigurita = []
+
+            
+
         print("Cantidad de FWC y escudos: ",cantFWCesc)
         print("Cantidad de FWC comunes: ",cantFWCcomunes)
         print("Cantidad de figus comunes argentina:",cantArg)
