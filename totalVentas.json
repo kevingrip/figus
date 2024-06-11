@@ -4853,6 +4853,34 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PMGOLDMAN",
+            "Vendidas": [
+                "ARG1",
+                "VEN13",
+                "BOL1",
+                "COL1"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "11/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ALMOON2004",
+            "Vendidas": [
+                "LEG2",
+                "LEG6"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
