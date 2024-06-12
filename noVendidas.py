@@ -2,7 +2,7 @@ import json
 
 from bases import*
 
-base = baseLali()
+base = baseMundial()
 
 
 with open ("totalVentas.json","r") as vJson:
@@ -34,9 +34,9 @@ cant=0
 tengo=[]
 noTengo=[]
 
-for linea in ventasLali:
+for linea in ventasMundial:
     if len(linea["NoVendidas"])>0:
-        if linea["usuario"] == 'milfa1':
+        if linea["usuario"] == 'B001989':
             print(linea["Dia"],"\n",linea["usuario"])
             for x in linea["NoVendidas"]:
                 for figu in base:

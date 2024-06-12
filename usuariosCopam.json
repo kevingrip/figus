@@ -6307,6 +6307,40 @@
                 "USA7",
                 "VEN12"
             ]
+        },
+        {
+            "usuario": "CAMA5539591",
+            "figusPedidas": [
+                "ARG6",
+                "BOL3",
+                "CAN6",
+                "CHI19",
+                "CHI4",
+                "COL16",
+                "COL2",
+                "ECU11",
+                "ECU2",
+                "INT1",
+                "JAM13",
+                "JAM14",
+                "LEG13",
+                "LEG14",
+                "LEG4",
+                "ROH1",
+                "URU1",
+                "USA9"
+            ]
+        },
+        {
+            "usuario": "GODA831497",
+            "figusPedidas": [
+                "ARG1",
+                "ARG19",
+                "ARG21",
+                "LEG3",
+                "LEG6",
+                "USA1"
+            ]
         }
     ]
 }
