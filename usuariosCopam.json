@@ -2953,19 +2953,6 @@
             ]
         },
         {
-            "usuario": "ALEU9977980",
-            "figusPedidas": [
-                "INT2",
-                "INT3",
-                "LEG12",
-                "LEG14",
-                "LEG16",
-                "LEG4",
-                "LEG5",
-                "LEG7"
-            ]
-        },
-        {
             "usuario": "HERSILIAPEA",
             "figusPedidas": [
                 "ARG13",
@@ -3826,19 +3813,6 @@
             ]
         },
         {
-            "usuario": "ALEU9977980",
-            "figusPedidas": [
-                "ARG1",
-                "CHI2",
-                "ECU1",
-                "ECU2",
-                "HCI2",
-                "JAM3",
-                "JAM9",
-                "URU1"
-            ]
-        },
-        {
             "usuario": "AGUSTINAYAEZARAUZ",
             "figusPedidas": [
                 "BOL12",
@@ -4452,24 +4426,6 @@
                 "PAN21",
                 "TRI18",
                 "TRI7"
-            ]
-        },
-        {
-            "usuario": "ALEU9977980",
-            "figusPedidas": [
-                "ARG1",
-                "ARG11",
-                "ARG13",
-                "ARG22",
-                "ARG8",
-                "BRA15",
-                "HCI2",
-                "HON5",
-                "HON8",
-                "JAM3",
-                "JAM9",
-                "TRI12",
-                "TRI15"
             ]
         },
         {
@@ -6340,6 +6296,45 @@
                 "LEG3",
                 "LEG6",
                 "USA1"
+            ]
+        },
+        {
+            "usuario": "ANDRESVICTOR20211019183603",
+            "figusPedidas": [
+                "BOL1",
+                "CAN16",
+                "CHI9",
+                "COL10",
+                "COL17",
+                "COL7",
+                "CRC11",
+                "CRC17",
+                "CRC18",
+                "CRC22",
+                "ECU3",
+                "ECU7",
+                "INT2",
+                "PAN21",
+                "PAN3",
+                "PAN5",
+                "PER15",
+                "PER6",
+                "PER7",
+                "PER9",
+                "VEN11",
+                "VEN3"
+            ]
+        },
+        {
+            "usuario": "MASE7181105",
+            "figusPedidas": [
+                "BRA1",
+                "BRA16",
+                "BRA18",
+                "HON10",
+                "HON11",
+                "INT1",
+                "INT4"
             ]
         }
     ]

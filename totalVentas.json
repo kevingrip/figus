@@ -5013,6 +5013,25 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MASE7181105",
+            "Vendidas": [
+                "INT4",
+                "BRA1",
+                "BRA16",
+                "BRA18",
+                "HON10",
+                "HON11",
+                "HCI10"
+            ],
+            "NoVendidas": [
+                "INT1"
+            ],
+            "Dia": "12/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
