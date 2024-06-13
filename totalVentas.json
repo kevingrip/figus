@@ -5032,6 +5032,22 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GENTALORENA",
+            "Vendidas": [
+                "CHI16",
+                "BRA7",
+                "COL1",
+                "CRC1"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "13/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
