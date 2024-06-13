@@ -5149,6 +5149,28 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "FRANCOYABEN",
+            "Vendidas": [
+                "PER12",
+                "CHI19",
+                "MEX6",
+                "MEX8",
+                "MEX22",
+                "BOL5",
+                "BOL21",
+                "BRA1",
+                "HON12"
+            ],
+            "NoVendidas": [
+                "PER3",
+                "PAN21"
+            ],
+            "Dia": "13/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -13689,6 +13711,21 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "CARODRI86",
+            "Vendidas": [
+                "FWC21",
+                "BASE",
+                "BRONCE",
+                "SILVER",
+                "GOLD"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
