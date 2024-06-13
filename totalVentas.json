@@ -5171,6 +5171,36 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SOYDAZO",
+            "Vendidas": [
+                "MEX15",
+                "MEX16",
+                "VEN6",
+                "PAN1",
+                "COL18",
+                "HON12",
+                "TRI2",
+                "LEG9"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "JAZMINAZULDECO",
+            "Vendidas": [
+                "ARG2",
+                "DARWIN NUÑEZ BASE"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

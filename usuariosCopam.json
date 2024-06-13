@@ -6419,6 +6419,53 @@
                 "PER12",
                 "PER3"
             ]
+        },
+        {
+            "usuario": "BOSCHIMARIALAURA",
+            "figusPedidas": [
+                "ARG10",
+                "ARG11",
+                "ARG8",
+                "BOL13",
+                "BOL18",
+                "BRA13",
+                "BRA21",
+                "BRA22",
+                "BRA5",
+                "BRA7",
+                "BRA9",
+                "HON7",
+                "INT1",
+                "INT4",
+                "PER2",
+                "PER5"
+            ]
+        },
+        {
+            "usuario": "PULKKINENVELI20231008170921",
+            "figusPedidas": [
+                "INT1",
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "SOYDAZO",
+            "figusPedidas": [
+                "COL18",
+                "HON12",
+                "LEG9",
+                "MEX15",
+                "MEX16",
+                "PAN1",
+                "TRI2",
+                "VEN6"
+            ]
+        },
+        {
+            "usuario": "JAZMINAZULDECO",
+            "figusPedidas": [
+                "ARG2"
+            ]
         }
     ]
 }
