@@ -5048,6 +5048,53 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "NACHOSALLIQUELO",
+            "Vendidas": [
+                "INT4",
+                "ECU13"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "13/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ANDRESVICTOR20211019183603",
+            "Vendidas": [
+                "PER6",
+                "PER7",
+                "PER9",
+                "PER15",
+                "CHI9",
+                "ECU3",
+                "ECU7",
+                "VEN3",
+                "VEN11",
+                "PAN3",
+                "PAN5",
+                "PAN21",
+                "BOL1",
+                "COL7",
+                "COL10",
+                "COL17",
+                "CAN16",
+                "CRC11",
+                "CRC17",
+                "CRC18",
+                "CRC22"
+            ],
+            "NoVendidas": [
+                "INT2"
+            ],
+            "Dia": "13/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
