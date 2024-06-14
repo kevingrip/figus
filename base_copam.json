@@ -2,7 +2,7 @@
     {
         "NUM": "INT1",
         "TIPO": "INTRO",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 4000,
         "NOMBRE": "INTRODUCCION"
     },
@@ -870,7 +870,7 @@
     {
         "NUM": "VEN1",
         "TIPO": "ESCUDO",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 2000,
         "NOMBRE": "VEN ESC"
     },

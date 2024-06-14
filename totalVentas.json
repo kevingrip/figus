@@ -5194,11 +5194,23 @@
             "usuario": "JAZMINAZULDECO",
             "Vendidas": [
                 "ARG2",
-                "DARWIN NUÑEZ BASE"
+                "DARWIN NU\u00c3\u2018EZ BASE"
             ],
             "NoVendidas": [],
             "Dia": "13/06/2024",
             "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PULKKINENVELI20231008170921",
+            "Vendidas": [
+                "INT1",
+                "VEN1"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/06/2024",
+            "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "NO"
         }
