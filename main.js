@@ -148,12 +148,15 @@ const totalVentas = () =>{
                 const noPrep = eleccionAlbum.filter(prep =>prep.PREPARADO ==="NO")
 
                 // console.log(noPrep)
+                let cantFlex= 0
 
                 noPrep.forEach(objeto => {
                     let count = 0
                     // Crear un elemento div para cada objeto
+                    const ventasDiv = document.createElement('div');
                     const objetoDiv = document.createElement('div');
 
+                    const cantidadFlex = document.createElement('p');
                     const nombreAlbum = document.createElement('h2');
                     const nombreUsuario = document.createElement('h3');
                     const dia = document.createElement('h5');
@@ -188,6 +191,8 @@ const totalVentas = () =>{
                         tipoEnvio.style.borderRadius = '5px'
                         tipoEnvio.style.display = 'flex';
                         tipoEnvio.style.justifyContent = 'center';
+
+                        cantFlex+=1
                     }else if (objeto["Envio"]==='CORREO'){
                         tipoEnvio.textContent = `${objeto["Envio"]}`
                         tipoEnvio.style.color = 'orange'
@@ -221,7 +226,9 @@ const totalVentas = () =>{
 
                     figusVendidas.style.border = '1px solid lightgrey' 
                     figusVendidas.style.padding = '10px'
-
+                    
+                    cantidadFlex.textContent=`Cantidad Flex: ${cantFlex}`
+                    ventasDiv.appendChild(cantidadFlex)
 
                     objetoDiv.appendChild(nombreAlbum);
                     objetoDiv.appendChild(nombreUsuario);

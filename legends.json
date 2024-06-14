@@ -1,7 +1,7 @@
 [
     {
         "nombre": "VLAHOVIC",
-        "BASE": 7,
+        "BASE": 6,
         "BRONZE": 2,
         "SILVER": 0,
         "GOLD": 1
@@ -32,7 +32,7 @@
         "BASE": 9,
         "BRONZE": 6,
         "SILVER": 0,
-        "GOLD": 2
+        "GOLD": 1
     },
     {
         "nombre": "C RONALDO",
@@ -107,7 +107,7 @@
     {
         "nombre": "ERIKSEN",
         "BASE": 5,
-        "BRONZE": 4,
+        "BRONZE": 3,
         "SILVER": 2,
         "GOLD": 0
     },
@@ -121,7 +121,7 @@
     {
         "nombre": "DAVIES",
         "BASE": 2,
-        "BRONZE": 5,
+        "BRONZE": 4,
         "SILVER": 0,
         "GOLD": 0
     },
