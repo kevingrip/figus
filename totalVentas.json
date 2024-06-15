@@ -5287,6 +5287,41 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PULKKINENVELI20231008170921",
+            "Vendidas": [
+                "VEN7"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "OVEJA2006",
+            "Vendidas": [
+                "COL10",
+                "PAR10",
+                "CRC4",
+                "CRC8",
+                "HON10",
+                "TRI5",
+                "LEG5",
+                "LEG6",
+                "LEG9",
+                "LEG15",
+                "LEG17",
+                "LEG18"
+            ],
+            "NoVendidas": [
+                "VEN10"
+            ],
+            "Dia": "15/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
