@@ -6556,6 +6556,44 @@
                 "INT3",
                 "ROH2"
             ]
+        },
+        {
+            "usuario": "AGMAFAMSRL",
+            "figusPedidas": [
+                "BRA5",
+                "CRC2",
+                "VEN18",
+                "VEN6"
+            ]
+        },
+        {
+            "usuario": "NADIPI6",
+            "figusPedidas": [
+                "CRC5",
+                "HCI4",
+                "LEG15",
+                "LEG3",
+                "LEG6",
+                "LEG9",
+                "MEX22"
+            ]
+        },
+        {
+            "usuario": "BAILORETO",
+            "figusPedidas": [
+                "ARG13",
+                "ARG15",
+                "CHI4",
+                "ECU15",
+                "ECU3",
+                "MEX1",
+                "MEX7",
+                "PER11",
+                "PER13",
+                "VEN12",
+                "VEN5",
+                "VEN8"
+            ]
         }
     ]
 }

@@ -5256,6 +5256,37 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "AGMAFAMSRL",
+            "Vendidas": [
+                "VEN6",
+                "VEN18",
+                "BRA5",
+                "CRC2"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "NADIPI6",
+            "Vendidas": [
+                "HCI4",
+                "MEX22",
+                "CRC5",
+                "LEG3",
+                "LEG6",
+                "LEG9",
+                "LEG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
