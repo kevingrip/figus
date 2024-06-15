@@ -6473,6 +6473,89 @@
                 "INT2",
                 "ROH1"
             ]
+        },
+        {
+            "usuario": "NARO3312763",
+            "figusPedidas": [
+                "CAN3",
+                "CRC1",
+                "ECU15",
+                "INT4",
+                "JAM10",
+                "PER13",
+                "PER17",
+                "TRI5",
+                "USA19"
+            ]
+        },
+        {
+            "usuario": "GLENDARASCON",
+            "figusPedidas": [
+                "ARG10",
+                "ARG18",
+                "BOL12",
+                "BOL6",
+                "CAN21",
+                "CAN6",
+                "ECU4",
+                "LEG16",
+                "LEG18",
+                "PAR15",
+                "PER10",
+                "PER16",
+                "PER8"
+            ]
+        },
+        {
+            "usuario": "BORNEOARG",
+            "figusPedidas": [
+                "BOL1",
+                "BRA10",
+                "CHI1",
+                "COL10",
+                "COL19",
+                "ECU16",
+                "HON18",
+                "INT1",
+                "PAR10",
+                "PAR14",
+                "PAR4",
+                "PAR8",
+                "PER14",
+                "ROH2",
+                "TRI1",
+                "TRI2"
+            ]
+        },
+        {
+            "usuario": "WCOSTABEL10",
+            "figusPedidas": [
+                "LEG9"
+            ]
+        },
+        {
+            "usuario": "MANDRADE5226",
+            "figusPedidas": [
+                "ARG16",
+                "ARG19",
+                "LEG12",
+                "LEG14",
+                "PAR20",
+                "ROH1",
+                "ROH2",
+                "TRI1",
+                "USA17",
+                "VEN9"
+            ]
+        },
+        {
+            "usuario": "MEDIUM06",
+            "figusPedidas": [
+                "BRA20",
+                "COL16",
+                "INT3",
+                "ROH2"
+            ]
         }
     ]
 }

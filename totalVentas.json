@@ -5213,6 +5213,49 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "NARO3312763",
+            "Vendidas": [
+                "PER13",
+                "PER17",
+                "ECU15",
+                "JAM10",
+                "USA19",
+                "CAN3",
+                "CRC1",
+                "TRI5"
+            ],
+            "NoVendidas": [
+                "INT4"
+            ],
+            "Dia": "14/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "GLENDARASCON",
+            "Vendidas": [
+                "ARG10",
+                "ARG18",
+                "PER8",
+                "PER10",
+                "PER16",
+                "ECU4",
+                "BOL6",
+                "BOL12",
+                "PAR15",
+                "CAN6",
+                "CAN21",
+                "LEG16",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
