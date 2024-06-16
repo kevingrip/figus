@@ -5414,6 +5414,37 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LILASZULIK",
+            "Vendidas": [
+                "PER4",
+                "CHI6",
+                "MEX14",
+                "VEN16",
+                "JAM6",
+                "USA16",
+                "BOL16",
+                "BRA1",
+                "BRA3",
+                "BRA4",
+                "BRA5",
+                "BRA16",
+                "COL20",
+                "COL21",
+                "PAR8",
+                "TRI4",
+                "TRI8",
+                "TRI20",
+                "LEG6"
+            ],
+            "NoVendidas": [
+                "ECU18"
+            ],
+            "Dia": "16/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
