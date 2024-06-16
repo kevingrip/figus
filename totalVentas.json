@@ -5333,6 +5333,65 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MFIAMMACAMPOS",
+            "Vendidas": [
+                "INT3"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "BAILORETO",
+            "Vendidas": [
+                "ARG13",
+                "ARG15",
+                "PER11",
+                "PER13",
+                "CHI4",
+                "MEX1",
+                "MEX7",
+                "ECU3",
+                "VEN5",
+                "VEN8"
+            ],
+            "NoVendidas": [
+                "ECU15",
+                "VEN12"
+            ],
+            "Dia": "16/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "TINCHO2051",
+            "Vendidas": [
+                "PER2",
+                "JAM22",
+                "BOL4",
+                "LEG16"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CAROLINAQUEREDE",
+            "Vendidas": [
+                "INT1"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -13888,6 +13947,24 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "FACUM87",
+            "Vendidas": [
+                "ARG1",
+                "ARG2",
+                "ARG6",
+                "ARG19",
+                "BRA16",
+                "FRA18",
+                "POR17",
+                "URU1"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
