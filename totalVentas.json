@@ -5326,7 +5326,8 @@
         {
             "usuario": "JONASMELI",
             "Vendidas": [
-                "INT2"
+                "INT2",
+                "ARG19"
             ],
             "NoVendidas": [],
             "Dia": "15/06/2024",
@@ -5444,6 +5445,17 @@
             "Dia": "16/06/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ARMASJIMENA",
+            "Vendidas": [
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],
