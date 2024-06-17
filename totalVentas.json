@@ -5457,6 +5457,22 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CHARGLAM",
+            "Vendidas": [
+                "VEN14",
+                "PAN2",
+                "PAN12",
+                "PAR6",
+                "CRC4",
+                "HON16"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -14128,7 +14144,7 @@
             "PREPARADO": "NO"
         },
         {
-            "usuario": "prueba",
+            "usuario": "IVAN_VENTA_",
             "Vendidas": [
                 "AUS1",
                 "BEL6",
