@@ -14115,6 +14115,31 @@
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "RODRIM98",
+            "Vendidas": [
+                "FWC27"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "prueba",
+            "Vendidas": [
+                "AUS1",
+                "BEL6",
+                "CMR10",
+                "IRN6"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [

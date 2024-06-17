@@ -6802,6 +6802,44 @@
             "figusPedidas": [
                 "ROH1"
             ]
+        },
+        {
+            "usuario": "GAGU2844178",
+            "figusPedidas": [
+                "CAN18",
+                "CHI17",
+                "ECU16",
+                "INT1",
+                "INT2",
+                "JAM10",
+                "JAM17",
+                "LEG6",
+                "MEX22",
+                "MEX7",
+                "PAR8",
+                "PER11",
+                "PER12",
+                "PER13",
+                "TRI18",
+                "TRI4"
+            ]
+        },
+        {
+            "usuario": "REPUESTOSPARATODOSSOCIEDAD",
+            "figusPedidas": [
+                "CAN18",
+                "CHI19",
+                "CRC1",
+                "ECU15",
+                "HCI1",
+                "INT1",
+                "JAM8",
+                "LEG4",
+                "LEG8",
+                "PAR11",
+                "PAR15",
+                "VEN5"
+            ]
         }
     ]
 }
