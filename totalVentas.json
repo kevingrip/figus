@@ -5624,6 +5624,28 @@
             "Dia": "18/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "GENTALORENA",
+            "Vendidas": [
+                "HCI3"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SIMONFER2003",
+            "Vendidas": [
+                "BRA21"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],

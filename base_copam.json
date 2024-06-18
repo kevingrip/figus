@@ -44,7 +44,7 @@
     {
         "NUM": "HCI3",
         "TIPO": "CIUDAD",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 1000,
         "NOMBRE": "GLENDALE"
     },
@@ -1934,7 +1934,7 @@
     {
         "NUM": "BRA21",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "GABRIEL MARTINELLI"
     },
