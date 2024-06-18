@@ -17,6 +17,7 @@ from buscar_cosecha import*
 import time
 from bases import*
 from actualizarFecha import *
+from cantSuplentes import*
 
 datosIngresar = []
 
@@ -302,7 +303,7 @@ if (album == "Mundial Qatar 2022"):
             contarBase(baseMundial)
 
         elif subInicioBDD == "Agregar Stock":
-            agregarStock(baseMundial)
+            cantFigu = agregarStock(baseMundial)
             actualizarFecha(None)
                     
 elif (album == "Copa Libertadores 2023"):
@@ -401,7 +402,7 @@ elif (album == "Copa Libertadores 2023"):
             contarBase(baseLibertadores)
         
         elif subInicioBDD == "Agregar Stock":
-            agregarStock(baseLibertadores)
+            cantFigu = agregarStock(baseLibertadores)
             actualizarFecha(None)
         
         elif subInicioBDD == "Cosechar":
@@ -521,7 +522,7 @@ elif (album == "Futbol Argentino 2023"):
             contarBase(baseFutarg)
 
         elif subInicioBDD == "Agregar Stock":
-            agregarStock(baseFutarg)
+            cantFigu = agregarStock(baseFutarg)
             actualizarFecha(None)
 
         elif subInicioBDD == "Cosechar":
@@ -784,7 +785,8 @@ elif (album == "Copa America 2024"):
             contarBase(baseCopam)
 
         elif subInicioBDD == "Agregar Stock":
-            agregarStock(baseCopam)
+            cantFigu = agregarStock(baseCopam)
+            descSupl(cantFigu)
             actualizarFecha(None)
         elif subInicioBDD == "Cosechar":
             figuOk = False

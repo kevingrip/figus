@@ -6,10 +6,18 @@ import easygui
 
 def agregarStock(base):
 
-    cantFWCesc = 0
-    cantFWCcomunes = 0
+    cantFWCDoradas = 0
+    cantFWCComunes = 0
+    escudoArg = 0
     cantComunes = 0
     cantArg = 0
+    cantEsc=0
+    cantMessi=0
+    cantInt=0
+    cantROH=0
+    cantLEGD=0
+    cantLEGC=0
+    cantCoca=0
 
     figus = ''
 
@@ -93,32 +101,43 @@ def agregarStock(base):
                     seleccionarFigurita = COCA[6]
                 elif seleccionarFigurita == COCA_NOMBRE[7]:
                     seleccionarFigurita = COCA[7]
+                cantCoca+=1
                 # elif seleccionarFigurita == COCA_NOMBRE[8]:
                 #     seleccionarFigurita = COCA[8]
 
             if seleccionarFigurita !="Cambiar Pais":
                 for fila in baseTotal:
                     if seleccionarFigurita == fila["NUM"]:                        
-                        figuActual = str(fila["CANT"])
-                        if fila["TIPO"] in ("FWC","ESC"):
-                            if fila["NUM"] in (["FWC8","FWC9","FWC10","FWC11","FWC12","FWC13","FWC14","FWC15","FWC16","FWC17","FWC18"]):
-                                # precioUyuni += (100*(int(1)))
-                                #print("Precio Individual: $100")
-                                cantFWCcomunes +=1
-                            else:
-                                # precioUyuni += (300*(int(1)))
-                                #print("Precio Individual: $300")
-                                cantFWCesc +=1
-                        else:
-                            if (fila["NUM"])[:3] == "ARG":
-                                if (fila["TIPO"]!='ESC'):
-                                # precioUyuni += (200*(int(1)))
-                                #print("Precio Individual: $150")
+                        figuActual = str(fila["CANT"])                        
+                        if (fila["NUM"])[:3] == "ARG":
+                            if (fila["TIPO"]!='ESC'):
+                            # precioUyuni += (200*(int(1)))
+                            #print("Precio Individual: $150")
+                                if (fila["NUM"]=='ARG19'):
+                                    cantMessi+=1
+                                else:
                                     cantArg+=1
-                            else: 
-                                cantComunes+=1                               
-                                # precioUyuni += (80*(int(1)))
-                                #print("Precio Individual: $50")
+                            else:
+                                escudoArg+=1
+                        elif fila["TIPO"] == ("FWCC"):
+                            cantFWCComunes +=1
+                        elif fila["TIPO"] == ("FWCD"):
+                            cantFWCDoradas +=1
+                        elif fila["TIPO"] in ("ESC","ESCUDO"):
+                            cantEsc +=1
+                        elif fila["TIPO"] == 'INT':
+                            cantInt+=1
+                        elif 'ROH' in fila["NUM"]:
+                            cantROH+=1
+                        elif fila["TIPO"] == 'LEYENDA DORADA':
+                            cantLEGD+=1
+                        elif fila["TIPO"] == 'LEYENDA':
+                            cantLEGC+=1
+                            
+                        else: 
+                            cantComunes+=1                               
+                            # precioUyuni += (80*(int(1)))
+                            #print("Precio Individual: $50")
                         fila["CANT"] += int(1)
                         cantidadTotal += int(1)
                         figuNueva = str(fila["CANT"])
@@ -148,12 +167,31 @@ def agregarStock(base):
                 eleccionFigurita = []
 
 
-            
-
-        print("Cantidad de FWC y escudos: ",cantFWCesc)
-        print("Cantidad de FWC comunes: ",cantFWCcomunes)
-        print("Cantidad de figus comunes argentina:",cantArg)
-        print("Cantidad comunes:",cantComunes)
+        if (cantFWCDoradas)>0:
+            print("Cantidad de FWC doradas: ",cantFWCDoradas)
+        if (cantFWCComunes)>0:
+            print("Cantidad de FWC comunes: ",cantFWCComunes)
+        if (escudoArg)>0:
+            print("Cantidad de Escudos AFA: ",escudoArg)        
+        if (cantArg)>0:
+            print("Cantidad de jugadores AFA: ",cantArg)
+        if (cantMessi)>0:
+            print("Cantidad de Messi: ",cantMessi)
+        if (cantEsc)>0:
+            print("Cantidad de Escudos: ",cantEsc)      
+        if (cantCoca)>0:
+            print("Cantidad COCA: ", cantCoca)  
+        if (cantInt)>0:
+            print("Cantidad de INTR: ",cantInt)
+        if (cantROH)>0:
+            print("Cantidad de ROH: ",cantROH)
+        if (cantLEGD)>0:
+            print("Cantidad de LEG DORADA: ",cantLEGD)
+        if (cantLEGC)>0:
+            print("Cantidad de LEG COMUN: ",cantLEGC)
+        if (cantComunes)>0:
+            print("Cantidad comunes: ",cantComunes)        
+        
         
 
     elif (base in ("baseLali.json","baseFutarg.json")):
@@ -224,3 +262,5 @@ def agregarStock(base):
                 elegirCentena = easygui.buttonbox("Familia Figurita", choices=["0 a 99","100 a 199","200 a 299","300 a 399","400 a 499","500 a 599"], title="Confirmación")
                 
             eleccionFigurita = []
+    
+    return (cantidadTotal)
