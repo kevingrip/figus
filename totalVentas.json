@@ -5473,6 +5473,22 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ARIELAHEREDIA",
+            "Vendidas": [
+                "INT1",
+                "ARG7",
+                "ARG20",
+                "PAN17",
+                "CAN22",
+                "CRC3"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -13941,7 +13957,7 @@
             "Dia": "09/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "OJJO9573808",
@@ -14130,7 +14146,7 @@
             "Dia": "16/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RODRIM98",

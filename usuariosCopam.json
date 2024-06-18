@@ -7005,6 +7005,53 @@
                 "USA3",
                 "WAL12"
             ]
+        },
+        {
+            "usuario": "ELPIPA71",
+            "figusPedidas": [
+                "BOL15",
+                "BOL17",
+                "CAN19",
+                "CHI11",
+                "CHI13",
+                "CHI17",
+                "INT2",
+                "PAR6",
+                "PER15",
+                "ROH1",
+                "USA11"
+            ]
+        },
+        {
+            "usuario": "ARIELAHEREDIA",
+            "figusPedidas": [
+                "ARG20",
+                "ARG7",
+                "CAN22",
+                "CRC3",
+                "INT1",
+                "PAN17"
+            ]
+        },
+        {
+            "usuario": "DEACONJUANPABLO2014",
+            "figusPedidas": [
+                "ARG12",
+                "ARG5",
+                "BRA13",
+                "BRA19",
+                "CHI21",
+                "CHI5",
+                "COL19",
+                "HCI3",
+                "HON2",
+                "HON7",
+                "INT4",
+                "LEG18",
+                "LEG3",
+                "MEX1",
+                "VEN19"
+            ]
         }
     ]
 }

@@ -140,23 +140,60 @@ const totalVentas = () =>{
             // console.log(data)
             // console.log(actualizacion[0],actualizacion[0])
             // console.log(data)
+
+            const ventasDiv = document.createElement('div');
+            const cantidadFlex = document.createElement('h3');
+            const cantidadCorreo = document.createElement('h3');
+            const cantidadAcordar = document.createElement('h3');
+
+            let cantFlex= 0
+            let cantCorreo= 0
+            let cantAcordar= 0
+
             for (let album in data){
-                console.log(album)
+                eleccionAlbum = data[album]
+                
+                const EnviosFiltered = eleccionAlbum.filter(prep => prep.PREPARADO ==="NO")
+                
+                EnviosFiltered.forEach(filtered=>{
+                    if (filtered.Envio === "FLEX") {
+                        cantFlex++;
+                    } else if (filtered.Envio === "CORREO") {
+                        cantCorreo++;
+                    } else {
+                        // Si hay otros tipos de envío, puedes manejarlos aquí si es necesario
+                        cantAcordar++;
+                    }
+                });
+                }
+
+            cantidadFlex.textContent=`Cantidad Flex: ${cantFlex}`
+            ventasDiv.appendChild(cantidadFlex)
+            cantidadCorreo.textContent=`Cantidad Correo: ${cantCorreo}`
+            ventasDiv.appendChild(cantidadCorreo)
+            cantidadAcordar.textContent=`Cantidad Acordar: ${cantAcordar}`
+            ventasDiv.appendChild(cantidadAcordar)
+            
+            ventasDiv.style.color='purple'
+
+            totalVentasElement.appendChild(ventasDiv);
+
+            for (let album in data){
+                // console.log(album)
             
                 eleccionAlbum = data[album]
                 
                 const noPrep = eleccionAlbum.filter(prep =>prep.PREPARADO ==="NO")
 
                 // console.log(noPrep)
-                let cantFlex= 0
 
                 noPrep.forEach(objeto => {
                     let count = 0
                     // Crear un elemento div para cada objeto
-                    const ventasDiv = document.createElement('div');
+                    
                     const objetoDiv = document.createElement('div');
 
-                    const cantidadFlex = document.createElement('p');
+                    
                     const nombreAlbum = document.createElement('h2');
                     const nombreUsuario = document.createElement('h3');
                     const dia = document.createElement('h5');
@@ -180,6 +217,10 @@ const totalVentas = () =>{
                     // console.log(figuVend)
                     let figuVenTab = figuVend.replace(/,/g,"\u00A0\u00A0\u00A0\u00A0")
                     figusVendidas.textContent = `${figuVenTab}`
+
+                    if (objeto["usuario"].includes('SOYDAZO')||objeto["usuario"].includes('AGMAFAMSRL')||objeto["usuario"].includes('TINCHO2051')){
+                        objetoDiv.style.backgroundColor='skyblue'
+                    }
                     
                     if (objeto["Envio"]==='FLEX'){
                         tipoEnvio.textContent = `ENVIOS FLEX`
@@ -227,8 +268,7 @@ const totalVentas = () =>{
                     figusVendidas.style.border = '1px solid lightgrey' 
                     figusVendidas.style.padding = '10px'
                     
-                    cantidadFlex.textContent=`Cantidad Flex: ${cantFlex}`
-                    ventasDiv.appendChild(cantidadFlex)
+                    
 
                     objetoDiv.appendChild(nombreAlbum);
                     objetoDiv.appendChild(nombreUsuario);
