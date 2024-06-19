@@ -199,6 +199,7 @@ const totalVentas = () =>{
                     const dia = document.createElement('h5');
                     const nombreCuenta = document.createElement('p');
                     const figusVendidas = document.createElement('p');
+                    const figusNoVendidas = document.createElement('p');
                     const tipoEnvio = document.createElement('h4');
                     const cantidad = document.createElement('p')
                     const button = document.createElement('button');
@@ -209,6 +210,7 @@ const totalVentas = () =>{
                     nombreCuenta.textContent = `MercadoLibre: ${objeto["Cuenta"]}`
                     dia.textContent = `${objeto["Dia"]}`
                     let figuVend = objeto["Vendidas"].toString()
+                    let figuNoVend = objeto["NoVendidas"].toString()
                     const figuCont = objeto["Vendidas"]
 
                     figuCont.forEach(()=>{count = count+1})
@@ -217,6 +219,8 @@ const totalVentas = () =>{
                     // console.log(figuVend)
                     let figuVenTab = figuVend.replace(/,/g,"\u00A0\u00A0\u00A0\u00A0")
                     figusVendidas.textContent = `${figuVenTab}`
+                    figusNoVendidas.textContent = `${figuNoVend}`
+                    figusNoVendidas.style.color = 'red'
 
                     if (objeto["usuario"].includes('SOYDAZO')||objeto["usuario"].includes('AGMAFAMSRL')||objeto["usuario"].includes('TINCHO2051')){
                         objetoDiv.style.backgroundColor='skyblue'
@@ -274,6 +278,7 @@ const totalVentas = () =>{
                     objetoDiv.appendChild(nombreUsuario);
                     objetoDiv.appendChild(cantidad);
                     objetoDiv.appendChild(figusVendidas);
+                    objetoDiv.appendChild(figusNoVendidas);
                     objetoDiv.appendChild(nombreCuenta);
                     objetoDiv.appendChild(tipoEnvio);
                     objetoDiv.appendChild(dia);

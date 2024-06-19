@@ -35,7 +35,7 @@ def renamePaises(listaOriginal,lista3LetrasPaises,variantesTotales):
     WAL = ['WAL','GALES','WALES','GAL','GALS','WALLES']
     COCA = ['C','COCA','COC','COCACOLA']
     
-    INT = ['INT','INTR','INTRO']
+    INT = ['INT','INTR','INTRO','INRT']
     HCI = ['HCI','HCL']
     PER = ['PER','PERU']
     CHI = ['CHI','CHILE']
@@ -48,7 +48,7 @@ def renamePaises(listaOriginal,lista3LetrasPaises,variantesTotales):
     HON = ['HON','HONDURAS']
     TRI = ['TRI','TRINIDADTOBAGO','TRINIDAD','TYT']
     LEG = ['LEG','LEYENDAS','LEENDA','LEENDAS']
-    ROH = ['ROH']
+    ROH = ['ROH','RHO']
     paisesFigus = [FWC,ARG,AUS,BEL,BRA,CAN,CMR,CRC,CRO,DEN,ECU,ENG,ESP,FRA,GER,GHA,IRN,JPN,KOR,KSA,MEX,MRR,NED,POL,POR,QAT,SEN,SRB,SUI,TUN,URU,USA,WAL,COCA,INT,HCI,PER,CHI,VEN,JAM,PAN,BOL,COL,PAR,HON,TRI,LEG,ROH]
     listaDePaises = []
 
