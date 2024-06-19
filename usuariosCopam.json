@@ -7743,6 +7743,48 @@
                 "TRI11",
                 "TRI9"
             ]
+        },
+        {
+            "usuario": "DRSGUIDO",
+            "figusPedidas": [
+                "CAN12",
+                "CAN15",
+                "CAN21",
+                "COL1",
+                "COL10",
+                "COL11",
+                "COL16",
+                "COL17",
+                "COL19",
+                "COL22",
+                "COL3",
+                "COL9",
+                "CRC5",
+                "CRC7",
+                "HON11",
+                "HON12",
+                "HON13",
+                "HON15",
+                "HON17",
+                "HON7",
+                "INT4",
+                "LEG14",
+                "LEG9",
+                "PAR1",
+                "PAR13",
+                "PAR17",
+                "PAR2",
+                "PAR5",
+                "TRI10",
+                "TRI12",
+                "TRI4"
+            ]
+        },
+        {
+            "usuario": "GALMOZZIMARCELO",
+            "figusPedidas": [
+                "ARG19"
+            ]
         }
     ]
 }
