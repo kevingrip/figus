@@ -5647,6 +5647,26 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "RAMIROMENDIBURU",
+            "Vendidas": [
+                "INT3",
+                "JAM4",
+                "JAM7",
+                "USA20",
+                "PAN2",
+                "BOL2",
+                "BOL13",
+                "LEG15"
+            ],
+            "NoVendidas": [
+                "BOL4"
+            ],
+            "Dia": "18/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
