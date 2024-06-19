@@ -122,7 +122,7 @@
         "NUM": "ARG4",
         "TIPO": "AFA",
         "CANT": 2,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "FRANCO ARMANI"
     },
     {
@@ -143,7 +143,7 @@
         "NUM": "ARG7",
         "TIPO": "AFA",
         "CANT": 4,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "GERMAN PEZZELLA"
     },
     {
@@ -158,7 +158,7 @@
         "TIPO": "AFA",
         "CANT": 6,
         "PRECIO": 1500,
-        "NOMBRE": "MARCOS ACU\u00c3\u2018A"
+        "NOMBRE": "MARCOS ACUNA"
     },
     {
         "NUM": "ARG10",
@@ -171,14 +171,14 @@
         "NUM": "ARG11",
         "TIPO": "AFA",
         "CANT": 2,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "NICOLAS TAGLIAFICO"
     },
     {
         "NUM": "ARG12",
         "TIPO": "AFA",
         "CANT": 7,
-        "PRECIO": 2000,
+        "PRECIO": 1500,
         "NOMBRE": "EXEQUIEL PALACIOS"
     },
     {
@@ -192,14 +192,14 @@
         "NUM": "ARG14",
         "TIPO": "AFA",
         "CANT": 3,
-        "PRECIO": 2000,
+        "PRECIO": 2500,
         "NOMBRE": "RODRIGO DE PAUL"
     },
     {
         "NUM": "ARG15",
         "TIPO": "AFA",
         "CANT": 7,
-        "PRECIO": 2500,
+        "PRECIO": 2000,
         "NOMBRE": "ENZO FERNANDEZ"
     },
     {
@@ -213,7 +213,7 @@
         "NUM": "ARG17",
         "TIPO": "AFA",
         "CANT": 5,
-        "PRECIO": 2000,
+        "PRECIO": 1500,
         "NOMBRE": "PAULO DYBALA"
     },
     {
@@ -227,7 +227,7 @@
         "NUM": "ARG19",
         "TIPO": "AFA",
         "CANT": 0,
-        "PRECIO": 10000,
+        "PRECIO": 13000,
         "NOMBRE": "LIONEL MESSI"
     },
     {
@@ -262,7 +262,7 @@
         "NUM": "PER2",
         "TIPO": "EQUIPO",
         "CANT": 1,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "PER TEAM"
     },
     {
