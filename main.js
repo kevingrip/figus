@@ -222,7 +222,7 @@ const totalVentas = () =>{
                     figusNoVendidas.textContent = `${figuNoVend}`
                     figusNoVendidas.style.color = 'red'
 
-                    if (objeto["usuario"].includes('SOYDAZO')||objeto["usuario"].includes('AGMAFAMSRL')||objeto["usuario"].includes('TINCHO2051')){
+                    if (objeto["usuario"].includes('SOYDAZO')||objeto["usuario"].includes('AGMAFAMSRL')||objeto["usuario"].includes('TINCHO2051')||objeto["usuario"].includes('MAUROKOZUR')){
                         objetoDiv.style.backgroundColor='skyblue'
                     }
                     
@@ -476,7 +476,7 @@ const buscarFigus = () => {
             }
             
         } else if (totalPrecio>22999){
-            mensaje.textContent = `Si, la tengo en stock. El precio por la figurita original es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra con Envio Gratis!!`
+            mensaje.textContent = `Si, en este momento cuento con todas en stock y te damos el envio gratis por un total de ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra !!`
         }
         else{
             if (totalPrecio/cantFigusStock === 850){

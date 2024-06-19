@@ -85,7 +85,7 @@
     },
     {
         "nombre": "LEWANDOWSKI",
-        "BASE": 1,
+        "BASE": 2,
         "BRONZE": 0,
         "SILVER": 1,
         "GOLD": 1
@@ -121,7 +121,7 @@
     {
         "nombre": "DAVIES",
         "BASE": 2,
-        "BRONZE": 4,
+        "BRONZE": 5,
         "SILVER": 0,
         "GOLD": 0
     },
