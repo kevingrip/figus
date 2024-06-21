@@ -8184,6 +8184,36 @@
                 "VEN13",
                 "VEN18"
             ]
+        },
+        {
+            "usuario": "VIVI20240229132313",
+            "figusPedidas": [
+                "BOL4",
+                "ECU4",
+                "HON18",
+                "HON3",
+                "INT1",
+                "JAM10",
+                "LEG18",
+                "PAN10",
+                "PAR10",
+                "PAR16",
+                "PAR19",
+                "PER11",
+                "PER13",
+                "TRI18",
+                "TRI6",
+                "USA10",
+                "USA9",
+                "VEN2",
+                "VEN4"
+            ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                "LEG18"
+            ]
         }
     ]
 }

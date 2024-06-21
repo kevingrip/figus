@@ -5894,7 +5894,7 @@
             "Dia": "21/06/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AGUSTIN1900",
@@ -5910,7 +5910,7 @@
             "Dia": "21/06/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VILLONEMARCELA",
@@ -5938,7 +5938,7 @@
             "Dia": "21/06/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROCIOGAIDO",
@@ -5968,7 +5968,7 @@
             "Dia": "21/06/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BELU3425608",
@@ -5993,7 +5993,7 @@
             "Dia": "21/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PELA4857021",
@@ -6029,7 +6029,7 @@
             "Dia": "21/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GIMENEZLORENABEATRIZ",
@@ -6229,6 +6229,36 @@
             "Dia": "21/06/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "VIVI20240229132313",
+            "Vendidas": [
+                "PER11",
+                "ECU4",
+                "VEN2",
+                "VEN4",
+                "JAM10",
+                "USA10",
+                "PAN10",
+                "BOL4",
+                "PAR16",
+                "PAR19",
+                "HON3",
+                "HON18",
+                "TRI6",
+                "LEG18"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "PER13",
+                "USA9",
+                "PAR10",
+                "TRI18"
+            ],
+            "Dia": "21/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],
@@ -14913,6 +14943,19 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "EZE LISSANDRELLO",
+            "Vendidas": [
+                "BRA1",
+                "ECU1",
+                "FRA1"
+            ],
+            "NoVendidas": [],
+            "Dia": "21/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
