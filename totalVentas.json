@@ -6259,6 +6259,55 @@
             "Dia": "21/06/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MONIPUCHO",
+            "Vendidas": [
+                "HCI7",
+                "ARG15",
+                "ARG20",
+                "PER12",
+                "MEX1",
+                "JAM20",
+                "JAM22",
+                "BRA20",
+                "PAR15",
+                "PAR22",
+                "CAN11",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "COL16"
+            ],
+            "Dia": "22/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "57447002",
+            "Vendidas": [
+                "INT2",
+                "PAN15",
+                "PAN22",
+                "COL12",
+                "COL13",
+                "COL21",
+                "CRC12",
+                "CRC14",
+                "CRC16",
+                "HON7",
+                "HON8",
+                "TRI1"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "VEN12"
+            ],
+            "Dia": "22/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],

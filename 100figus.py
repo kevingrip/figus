@@ -7,7 +7,7 @@ cant=0
 vendidas=[]
 
 for figu in base:
-    if figu["CANT"]>6 and figu["NUM"] not in ('ROH2','LEG14','LEG9','URU1','PAN1','ARG6','ARG7','ARG12','ARG16','ARG18','ARG20','HCI8','CHI2','BOL2'):
+    if figu["CANT"]>2 and figu["NUM"] not in ('ROH2','LEG14','LEG9','URU1','PAN1','ARG6','ARG7','ARG12','ARG16','ARG18','ARG20','HCI8','CHI2','BOL2'):
         print(figu["NUM"],figu["NOMBRE"],figu["PRECIO"],figu["CANT"])
         cant+=1
         vendidas.append(figu["NUM"])

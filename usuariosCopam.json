@@ -8214,6 +8214,100 @@
             "figusPedidas": [
                 "LEG18"
             ]
+        },
+        {
+            "usuario": "MONIPUCHO",
+            "figusPedidas": [
+                "ARG15",
+                "ARG20",
+                "BRA20",
+                "CAN11",
+                "COL16",
+                "HCI7",
+                "JAM20",
+                "JAM22",
+                "MEX1",
+                "PAR15",
+                "PAR22",
+                "PER12",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "57447002",
+            "figusPedidas": [
+                "COL12",
+                "COL13",
+                "COL21",
+                "CRC12",
+                "CRC14",
+                "CRC16",
+                "HON7",
+                "HON8",
+                "INT1",
+                "INT2",
+                "PAN15",
+                "PAN22",
+                "TRI1",
+                "VEN12"
+            ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                "ARG10"
+            ]
+        },
+        {
+            "usuario": "NICOLSDEGRAZIA",
+            "figusPedidas": [
+                "BOL16",
+                "BOL19",
+                "BRA12",
+                "BRA14",
+                "BRA15",
+                "CAN10",
+                "CAN12",
+                "CAN5",
+                "CHI16",
+                "CHI17",
+                "COL1",
+                "CRC22",
+                "HON1",
+                "HON9",
+                "INT3",
+                "MEX12",
+                "MEX19",
+                "MEX22",
+                "PAR10",
+                "PER6",
+                "USA8",
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "LUISINAPIERUCCI",
+            "figusPedidas": [
+                "BOL21",
+                "CAN19",
+                "MEX2",
+                "PER7",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "MARIANOMANUELGOMEZ",
+            "figusPedidas": [
+                "ARG1",
+                "ARG16",
+                "ARG9",
+                "BRA1",
+                "INT3",
+                "INT4",
+                "PAR1",
+                "ROH1",
+                "ROH2"
+            ]
         }
     ]
 }

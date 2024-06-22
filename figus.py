@@ -1,7 +1,6 @@
 from Funciones import *
 from mundial.procesadorMundial import*
 from descontarFigus import*
-from actualizarGoogle import *
 from conversor_libertadores import *
 from procesadorLali import *
 from controlFutarg import *
@@ -18,6 +17,7 @@ import time
 from bases import*
 from actualizarFecha import *
 from cantSuplentes import*
+import pyperclip
 
 datosIngresar = []
 
@@ -284,21 +284,9 @@ if (album == "Mundial Qatar 2022"):
 
     elif inicio =="Base de datos":
 
-        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Actualizar en Google","Total de figuritas","Agregar Stock"], title=album)
+        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Total de figuritas","Agregar Stock"], title=album)
     
-        if subInicioBDD == "Actualizar en Google":
-
-            actualizarGoogle(baseMundial)
-
-            url='https://docs.google.com/spreadsheets/d/1Bax2cYBg9ijV640UvJGaRIxxp4JE1VnZrApZnU0JkC0/edit#gid=0'
-
-            abrir_url(url)
-
-            time.sleep(5)
-
-            pyautogui.hotkey('ctrl','v')
-
-        elif subInicioBDD == "Total de figuritas":
+        if subInicioBDD == "Total de figuritas":
 
             contarBase(baseMundial)
 
@@ -383,21 +371,9 @@ elif (album == "Copa Libertadores 2023"):
 
     elif inicio =="Base de datos":
 
-        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Agregar Stock","Total de figuritas","Cosechar","Actualizar en Google"], title=album)
+        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Agregar Stock","Total de figuritas","Cosechar"], title=album)
     
-        if subInicioBDD == "Actualizar en Google":
-
-            actualizarGoogle(baseLibertadores)
-
-            url='https://docs.google.com/spreadsheets/d/13hmHUwaHjUXLRCL_zNl5voooERbgDDhCX49EjizX7k0/edit#gid=0'
-
-            abrir_url(url)
-
-            time.sleep(5)
-
-            pyautogui.hotkey('ctrl','v')
-
-        elif subInicioBDD == "Total de figuritas":
+        if subInicioBDD == "Total de figuritas":
 
             contarBase(baseLibertadores)
         
@@ -503,21 +479,9 @@ elif (album == "Futbol Argentino 2023"):
 
     elif inicio =="Base de datos":
 
-        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Agregar Stock","Total de figuritas","Cosechar","Actualizar en Google"], title=album)
+        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Agregar Stock","Total de figuritas","Cosechar"], title=album)
     
-        if subInicioBDD == "Actualizar en Google":
-
-            actualizarGoogle(baseFutarg)
-
-            url='https://docs.google.com/spreadsheets/d/1TB_6yGecNUFHeaFfEX_RAj_85Sk1Dpu3JUHXniZeO0w/edit#gid=0'
-
-            abrir_url(url)
-
-            time.sleep(5)
-
-            pyautogui.hotkey('ctrl','v')
-    
-        elif subInicioBDD == "Total de figuritas":
+        if subInicioBDD == "Total de figuritas":
 
             contarBase(baseFutarg)
 
@@ -766,21 +730,9 @@ elif (album == "Copa America 2024"):
 
     elif inicio =="Base de datos":
 
-        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Actualizar en Google","Total de figuritas","Cosechar","Agregar Stock"], title=album)
+        subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Agregar Stock","Total de figuritas","Cosechar"], title=album)
     
-        if subInicioBDD == "Actualizar en Google":
-
-            actualizarGoogle(baseCopam)
-
-            url='https://docs.google.com/spreadsheets/d/1Bax2cYBg9ijV640UvJGaRIxxp4JE1VnZrApZnU0JkC0/edit#gid=0'
-
-            abrir_url(url)
-
-            time.sleep(5)
-
-            pyautogui.hotkey('ctrl','v')
-
-        elif subInicioBDD == "Total de figuritas":
+        if subInicioBDD == "Total de figuritas":
 
             contarBase(baseCopam)
 
