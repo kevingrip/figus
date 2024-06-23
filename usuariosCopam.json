@@ -8457,6 +8457,33 @@
                 "CHI1",
                 "ECU1"
             ]
+        },
+        {
+            "usuario": "ALAN_D91",
+            "figusPedidas": [
+                "BRA10",
+                "COL1",
+                "INT1",
+                "INT2",
+                "LEG3",
+                "PAN9",
+                "TRI15",
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "JMR0805",
+            "figusPedidas": [
+                "BOL14",
+                "BOL22",
+                "CAN18",
+                "CAN22",
+                "CAN8",
+                "CHI10",
+                "CHI22",
+                "CHI4",
+                "ECU21"
+            ]
         }
     ]
 }
