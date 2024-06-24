@@ -260,8 +260,8 @@ const totalVentas = () =>{
                         nombreAlbum.style.backgroundColor = 'orangered'  
                         objetoDiv.style.border = '3px solid orangered'  
                     }else if (album==='Futbol Argentino 2023'){
-                        nombreAlbum.style.backgroundColor = 'blue' 
-                        objetoDiv.style.border = '3px solid blue'  
+                        nombreAlbum.style.backgroundColor = '#d72bde' 
+                        objetoDiv.style.border = '3px solid #d72bde'  
 
                     }else if (album==='Copa Libertadores 2023'){
                         nombreAlbum.style.backgroundColor = 'gold' 

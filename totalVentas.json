@@ -6569,7 +6569,7 @@
             "Dia": "24/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANASUAR2002-FABINFONTANETTO",
@@ -6591,6 +6591,32 @@
                 "ARG19",
                 "MEX14",
                 "USA1"
+            ],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "OTAMENDIMAURICIO",
+            "Vendidas": [
+                "HCI1",
+                "HCI3",
+                "ARG8",
+                "ARG10",
+                "ARG21",
+                "PER15",
+                "PER18",
+                "CHI2",
+                "CHI9",
+                "CHI13",
+                "USA2",
+                "LEG5",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "CHI11",
+                "CHI12"
             ],
             "Dia": "24/06/2024",
             "Cuenta": "KEVIN",
@@ -16298,6 +16324,52 @@
             "Cuenta": "Kevin",
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "M.Coronado",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MARUCHIDASCEN",
+            "Vendidas": [
+                "202",
+                "234",
+                "247",
+                "268",
+                "277",
+                "292",
+                "295",
+                "308",
+                "355",
+                "412",
+                "417",
+                "429",
+                "457"
+            ],
+            "NoVendidas": [
+                "228",
+                "230",
+                "232",
+                "240",
+                "251",
+                "272",
+                "299",
+                "302",
+                "306",
+                "317",
+                "353",
+                "414",
+                "416",
+                "435",
+                "437",
+                "455",
+                "456",
+                "459",
+                "467",
+                "471",
+                "478",
+                "479"
+            ],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "PREPARADO": "SI"
         }
     ]
