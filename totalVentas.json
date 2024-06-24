@@ -5381,7 +5381,7 @@
             "Dia": "16/06/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CAROLINAQUEREDE",
@@ -5875,7 +5875,7 @@
             "Dia": "21/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SEBA.R84",
@@ -6103,7 +6103,7 @@
             "Dia": "21/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NATALIASOLEDADCARACOCHE",
@@ -6283,7 +6283,7 @@
             "Dia": "22/06/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "57447002",
@@ -6320,7 +6320,7 @@
             "Dia": "22/06/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TUFE4452918",
@@ -6405,7 +6405,7 @@
             "Dia": "22/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JMR0805",
@@ -6424,7 +6424,7 @@
             "Dia": "23/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FERRAMOLASOLANGE",
@@ -6457,7 +6457,7 @@
             "Dia": "24/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARIAEVAALBERGHINI",
@@ -6469,7 +6469,7 @@
             "Dia": "24/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CECILIACOCUZZA",
@@ -6493,7 +6493,7 @@
             "Dia": "24/06/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANGELAR2",
@@ -6506,6 +6506,95 @@
             "Dia": "24/06/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "BEBEHERZ",
+            "Vendidas": [
+                "MEX1",
+                "MEX15",
+                "VEN13",
+                "HON1",
+                "LEG9"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "DIEGODANIELTUNINETTI",
+            "Vendidas": [
+                "ECU17",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "DIEFONTE",
+            "Vendidas": [
+                "PAN22",
+                "PAR16"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LOFR8993915",
+            "Vendidas": [
+                "PER9",
+                "PER18",
+                "JAM17",
+                "PAN17",
+                "BOL14",
+                "BRA5",
+                "BRA8",
+                "CAN16",
+                "TRI7",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "USA1",
+                "USA20",
+                "PAR20"
+            ],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ANASUAR2002-FABINFONTANETTO",
+            "Vendidas": [
+                "HCI5",
+                "ARG20",
+                "ARG21",
+                "CHI12",
+                "ECU1",
+                "ECU8",
+                "JAM1",
+                "BRA1",
+                "HON1",
+                "HON22",
+                "TRI1"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "ARG19",
+                "MEX14",
+                "USA1"
+            ],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],
@@ -15202,7 +15291,7 @@
             "Dia": "21/06/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CRAVALERIAARIAS",
@@ -15213,7 +15302,7 @@
             "Dia": "22/06/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "KRYSTHIAN_XEN",
@@ -15241,6 +15330,17 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "NAYARIDANAYA",
+            "Vendidas": [
+                "CRO5"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [

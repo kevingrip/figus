@@ -7,10 +7,10 @@ with open ('suplentes.json','r') as sp:
 
 suma=0
 
-entero=2
+entero=1
 
 for x in base:
-    if (x["CANT"]>entero  and x["TIPO"]!='ESCUDO' and x["NUM"][:3]!='ARG' and x["TIPO"]!='LEYENDA DORADA') and suma<93:
+    if (x["CANT"]>entero and x["TIPO"]=='COMUNES' and x["NUM"][:3]=='JAM' and x["NUM"] not in ("BRA10","BRA11","BRA17")) :
         print(x["NUM"],x["CANT"]-entero)
         descontar = x["CANT"]-entero
         x["CANT"]-=descontar
@@ -21,8 +21,8 @@ for x in base:
 print(suma)
 
 
-with open ('base_copam.json',"w") as bcm:
-    json.dump(base,bcm,indent=4)
+# with open ('base_copam.json',"w") as bcm:
+#     json.dump(base,bcm,indent=4)
 
 # with open ('suplentes.json',"w") as sup:
 #     json.dump(supl,sup,indent=4)
