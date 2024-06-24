@@ -8484,6 +8484,90 @@
                 "CHI4",
                 "ECU21"
             ]
+        },
+        {
+            "usuario": "FERRAMOLASOLANGE",
+            "figusPedidas": [
+                "ARG1",
+                "ARG15",
+                "ARG16",
+                "ARG18",
+                "BOL10",
+                "BOL9",
+                "BRA14",
+                "BRA16",
+                "CAN14",
+                "CHI22",
+                "COL1",
+                "ECU1",
+                "ECU17",
+                "ECU18",
+                "LEG13",
+                "MEX14",
+                "MEX18",
+                "MEX20",
+                "MEX6",
+                "PER2",
+                "USA14",
+                "VEN18"
+            ]
+        },
+        {
+            "usuario": "MARIAEVAALBERGHINI",
+            "figusPedidas": [
+                "LEG12",
+                "USA1"
+            ]
+        },
+        {
+            "usuario": "CECILIACOCUZZA",
+            "figusPedidas": [
+                "ARG19",
+                "BOL6",
+                "BOL8",
+                "CAN13",
+                "CHI18",
+                "CHI4",
+                "CRC1",
+                "ECU15",
+                "JAM3",
+                "JAM9",
+                "LEG5",
+                "PAN5",
+                "TRI2"
+            ]
+        },
+        {
+            "usuario": "ANGELAR2",
+            "figusPedidas": [
+                "ARG1",
+                "CAN1",
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "DIEGODANIELTUNINETTI",
+            "figusPedidas": [
+                "ECU17",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "BEBEHERZ",
+            "figusPedidas": [
+                "HON1",
+                "LEG9",
+                "MEX1",
+                "MEX15",
+                "VEN13"
+            ]
+        },
+        {
+            "usuario": "DIEFONTE",
+            "figusPedidas": [
+                "PAN22",
+                "PAR16"
+            ]
         }
     ]
 }

@@ -6425,6 +6425,88 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "FERRAMOLASOLANGE",
+            "Vendidas": [
+                "ARG1",
+                "ARG15",
+                "ARG16",
+                "ARG18",
+                "CHI22",
+                "MEX6",
+                "MEX14",
+                "MEX18",
+                "MEX20",
+                "ECU1",
+                "ECU17",
+                "ECU18",
+                "USA14",
+                "BOL9",
+                "BRA14",
+                "COL1",
+                "CAN14",
+                "LEG13"
+            ],
+            "NoVendidas": [
+                "PER2",
+                "VEN18",
+                "BOL10",
+                "BRA16"
+            ],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MARIAEVAALBERGHINI",
+            "Vendidas": [
+                "USA1",
+                "LEG12"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CECILIACOCUZZA",
+            "Vendidas": [
+                "ARG19",
+                "CHI18",
+                "ECU15",
+                "JAM3",
+                "JAM9",
+                "PAN5",
+                "BOL6",
+                "BOL8",
+                "CAN13",
+                "CRC1",
+                "TRI2",
+                "LEG5"
+            ],
+            "NoVendidas": [
+                "CHI4"
+            ],
+            "Dia": "24/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ANGELAR2",
+            "Vendidas": [
+                "ARG1",
+                "CAN1",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -15130,6 +15212,33 @@
             "NoVendidas": [],
             "Dia": "22/06/2024",
             "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "KRYSTHIAN_XEN",
+            "Vendidas": [
+                "FWC0",
+                "FWC2",
+                "FWC28",
+                "CRC1",
+                "FRA1",
+                "GHA15",
+                "NED18",
+                "POL1",
+                "TUN1",
+                "C1",
+                "C2",
+                "C4",
+                "C7"
+            ],
+            "NoVendidas": [
+                "FWC20",
+                "JPN1",
+                "SEN1"
+            ],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
         }
