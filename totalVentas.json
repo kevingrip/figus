@@ -6710,6 +6710,43 @@
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "BRBARAFABENI",
+            "Vendidas": [
+                "ARG16",
+                "PAR17",
+                "LEG4"
+            ],
+            "NoVendidas": [],
+            "Dia": "25/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "DJRENTARGENTINA",
+            "Vendidas": [
+                "INT1",
+                "HCI4",
+                "HCI6",
+                "ARG7",
+                "MEX9",
+                "MEX10",
+                "JAM4",
+                "USA7",
+                "USA21",
+                "URU1",
+                "BRA1",
+                "HON1"
+            ],
+            "NoVendidas": [
+                "HON18"
+            ],
+            "Dia": "25/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
