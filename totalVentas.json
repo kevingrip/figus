@@ -6536,18 +6536,6 @@
             "PREPARADO": "SI"
         },
         {
-            "usuario": "DIEFONTE",
-            "Vendidas": [
-                "PAN22",
-                "PAR16"
-            ],
-            "NoVendidas": [],
-            "Dia": "24/06/2024",
-            "Cuenta": "KEVIN",
-            "Envio": "FLEX",
-            "PREPARADO": "NO"
-        },
-        {
             "usuario": "LOFR8993915",
             "Vendidas": [
                 "PER9",
@@ -6709,7 +6697,7 @@
             "Dia": "25/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BRBARAFABENI",
@@ -6747,6 +6735,24 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ALEU9977980",
+            "Vendidas": [
+                "ECU1",
+                "VEN3",
+                "USA17",
+                "BOL7",
+                "COL17",
+                "PAR19",
+                "CRC3",
+                "CRC21"
+            ],
+            "NoVendidas": [],
+            "Dia": "25/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
