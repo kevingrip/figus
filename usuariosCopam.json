@@ -8898,6 +8898,106 @@
                 "ECU12",
                 "HCI2"
             ]
+        },
+        {
+            "usuario": "LUCASS1414",
+            "figusPedidas": [
+                "ARG19",
+                "BRA10",
+                "BRA13",
+                "BRA22",
+                "COL17",
+                "COL18",
+                "COL2",
+                "COL6",
+                "ECU1",
+                "HCI2",
+                "INT1",
+                "JAM10",
+                "PAN8",
+                "VEN6"
+            ]
+        },
+        {
+            "usuario": "RENI9717975",
+            "figusPedidas": [
+                "CAN7",
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "MIAMI VICE",
+            "figusPedidas": [
+                "ARG1",
+                "BRA1",
+                "CHI1",
+                "COL1",
+                "CRC1",
+                "HON1",
+                "INT2",
+                "INT3",
+                "INT4",
+                "LEG12",
+                "LEG3",
+                "LEG6",
+                "LEG9",
+                "PAR1",
+                "ROH2",
+                "TRI1",
+                "URU1"
+            ]
+        },
+        {
+            "usuario": "DJRENTARGENTINA",
+            "figusPedidas": [
+                "ARG7",
+                "BRA1",
+                "HCI4",
+                "HCI6",
+                "HON1",
+                "INT1",
+                "JAM4",
+                "URU1"
+            ]
+        },
+        {
+            "usuario": "MAGAGIUD",
+            "figusPedidas": [
+                "HON13",
+                "INT2",
+                "INT4",
+                "PAN1",
+                "PAR1",
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "LAFLORDELPAGO2010",
+            "figusPedidas": [
+                "BOL4",
+                "CAN19",
+                "INT2",
+                "JAM14",
+                "LEG8",
+                "PAN1",
+                "PAN14",
+                "PAN9",
+                "TRI16",
+                "TRI16",
+                "TRI5",
+                "TRI5"
+            ]
+        },
+        {
+            "usuario": "+54 9 11 5944-8964",
+            "figusPedidas": [
+                "ECU9",
+                "HON5",
+                "INT4",
+                "JAM6",
+                "PAR10",
+                "USA9"
+            ]
         }
     ]
 }

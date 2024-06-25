@@ -6662,7 +6662,7 @@
             "Dia": "24/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JORGEAUGE",
@@ -6675,6 +6675,40 @@
             "Dia": "25/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "NANUMBAACCESORIOS",
+            "Vendidas": [
+                "CHI12",
+                "JAM7",
+                "JAM9",
+                "USA12",
+                "URU1",
+                "PAR2"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "25/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "+54 9 11 5944-8964",
+            "Vendidas": [
+                "INT4",
+                "ECU9",
+                "JAM6",
+                "USA9",
+                "PAR10",
+                "HON5"
+            ],
+            "NoVendidas": [],
+            "Dia": "25/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
         }
     ],
