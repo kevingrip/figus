@@ -6663,6 +6663,19 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "JORGEAUGE",
+            "Vendidas": [
+                "HCI2",
+                "ARG1",
+                "ECU12"
+            ],
+            "NoVendidas": [],
+            "Dia": "25/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
