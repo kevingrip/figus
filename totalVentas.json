@@ -5764,7 +5764,7 @@
             "Dia": "19/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOLEBARREYRO26",
@@ -6229,7 +6229,7 @@
             "Dia": "21/06/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VIVI20240229132313",
@@ -6533,7 +6533,7 @@
             "Dia": "24/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DIEFONTE",
@@ -6617,6 +6617,47 @@
             "NoVendidas": [
                 "CHI11",
                 "CHI12"
+            ],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "DANIELHUGOLUIS",
+            "Vendidas": [
+                "HCI1",
+                "MEX6",
+                "USA13"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ANTOTERROT",
+            "Vendidas": [
+                "LEG13",
+                "LEG14"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "TABARESLUCIANA",
+            "Vendidas": [
+                "JAM21",
+                "PAN3",
+                "CRC13",
+                "LEG6"
+            ],
+            "NoVendidas": [
+                "INT4"
             ],
             "Dia": "24/06/2024",
             "Cuenta": "KEVIN",
@@ -15355,7 +15396,7 @@
             "Dia": "24/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NAYARIDANAYA",

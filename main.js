@@ -222,7 +222,7 @@ const totalVentas = () =>{
                     figusNoVendidas.textContent = `${figuNoVend}`
                     figusNoVendidas.style.color = 'red'
 
-                    if (objeto["usuario"].includes('SOYDAZO')||objeto["usuario"].includes('AGMAFAMSRL')||objeto["usuario"].includes('TINCHO2051')||objeto["usuario"].includes('MAUROKOZUR')||objeto["usuario"].includes('NATALIASOLEDADCARACOCHE')||objeto["usuario"].includes('DIEGODANIELTUNINETTI')||objeto["usuario"].includes('DIEFONTE')){
+                    if (objeto["usuario"].includes('DIEFONTE')){
                         objetoDiv.style.backgroundColor='skyblue'
                     }
                     
