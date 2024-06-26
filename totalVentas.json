@@ -6681,7 +6681,7 @@
             "Dia": "25/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "+54 9 11 5944-8964",
@@ -6752,7 +6752,7 @@
             "Dia": "25/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LAFLORDELPAGO2010",
@@ -6767,6 +6767,92 @@
             "Dia": "26/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "CARLOSPADU",
+            "Vendidas": [
+                "USA7",
+                "LEG3",
+                "LEG12"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "26/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "+54 9 11 4940-4266",
+            "Vendidas": [
+                "ARG1",
+                "ECU1",
+                "TRI16"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "26/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "+54 9 11 6300-7365",
+            "Vendidas": [
+                "MEX2",
+                "LEG14"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "GASPERIPABLO",
+            "Vendidas": [
+                "LEG17"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "+54 9 11 5944-8964",
+            "Vendidas": [
+                "MEX16",
+                "MEX19",
+                "VEN8",
+                "VEN13",
+                "VEN22",
+                "PAN7",
+                "PAN21",
+                "BRA3",
+                "BRA5",
+                "BRA7",
+                "BRA9",
+                "BRA13",
+                "BRA18",
+                "BRA19",
+                "BRA21",
+                "COL12",
+                "COL15",
+                "CAN11",
+                "CAN12",
+                "CRC7",
+                "CRC9"
+            ],
+            "NoVendidas": [
+                "COL17"
+            ],
+            "Dia": "26/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
         }
     ],

@@ -7,7 +7,7 @@ with open ('suplentes.json','r') as sp:
 
 suma=0
 
-entero=2
+entero=3
 
 for x in base:
     if (x["CANT"]>entero and x["TIPO"]=='COMUNES' ) :
