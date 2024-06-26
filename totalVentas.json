@@ -6854,6 +6854,32 @@
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MHOMBRE",
+            "Vendidas": [
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MACAMATO1MACAMATO1",
+            "Vendidas": [
+                "JAM1",
+                "JAM16",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "CAN11"
+            ],
+            "Dia": "26/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
