@@ -121,7 +121,7 @@
     {
         "NUM": "ARG4",
         "TIPO": "AFA",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 2000,
         "NOMBRE": "FRANCO ARMANI"
     },
@@ -233,7 +233,7 @@
     {
         "NUM": "ARG20",
         "TIPO": "AFA",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 2500,
         "NOMBRE": "JULIAN ALVAREZ"
     },
@@ -261,7 +261,7 @@
     {
         "NUM": "PER2",
         "TIPO": "EQUIPO",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 2000,
         "NOMBRE": "PER TEAM"
     },
@@ -660,7 +660,7 @@
     {
         "NUM": "MEX15",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "EDSON ALVAREZ"
     },
@@ -842,7 +842,7 @@
     {
         "NUM": "ECU19",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "LEONARDO CAMPANA"
     },
@@ -856,7 +856,7 @@
     {
         "NUM": "ECU21",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "JORDY CAICEDO"
     },
@@ -1038,7 +1038,7 @@
     {
         "NUM": "JAM3",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "ANDRE BLAKE"
     },
@@ -1066,7 +1066,7 @@
     {
         "NUM": "JAM7",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "ETHAN PINNOCK"
     },
@@ -1164,7 +1164,7 @@
     {
         "NUM": "JAM21",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "LEON BAILEY"
     },
@@ -1178,7 +1178,7 @@
     {
         "NUM": "USA1",
         "TIPO": "ESCUDO",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 2000,
         "NOMBRE": "USA ESC"
     },
@@ -1570,7 +1570,7 @@
     {
         "NUM": "PAN13",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "CRISTIAN MARTINEZ"
     },
@@ -1794,7 +1794,7 @@
     {
         "NUM": "BRA1",
         "TIPO": "ESCUDO",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 2000,
         "NOMBRE": "BRA ESC"
     },
@@ -1913,14 +1913,14 @@
     {
         "NUM": "BRA18",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "VINI JR"
     },
     {
         "NUM": "BRA19",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "RAPHINHA"
     },
@@ -2214,7 +2214,7 @@
     {
         "NUM": "PAR17",
         "TIPO": "COMUNES",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "ANDRES CUBAS"
     },
@@ -2228,7 +2228,7 @@
     {
         "NUM": "PAR19",
         "TIPO": "COMUNES",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "GABRIEL AVALOS"
     },
@@ -2361,7 +2361,7 @@
     {
         "NUM": "CAN16",
         "TIPO": "COMUNES",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "ALI AHMED"
     },
@@ -2494,7 +2494,7 @@
     {
         "NUM": "CRC13",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "ROAN WILSON"
     },
@@ -2676,7 +2676,7 @@
     {
         "NUM": "HON17",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "KERVIN ARRIAGA"
     },
