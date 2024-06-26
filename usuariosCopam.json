@@ -9440,6 +9440,30 @@
             "figusPedidas": [
                 "INT2"
             ]
+        },
+        {
+            "usuario": "ILSAPOREITALIANO",
+            "figusPedidas": [
+                "ARG9",
+                "BOL19",
+                "BRA1",
+                "CAN1",
+                "CRC2",
+                "ECU1",
+                "INT1",
+                "INT3",
+                "JAM1",
+                "JAM17",
+                "LEG7",
+                "LEG8"
+            ]
+        },
+        {
+            "usuario": "ESTEBANCOLLO",
+            "figusPedidas": [
+                "INT4",
+                "ROH2"
+            ]
         }
     ]
 }

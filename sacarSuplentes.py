@@ -7,10 +7,10 @@ with open ('suplentes.json','r') as sp:
 
 suma=0
 
-entero=3
+entero=5
 
 for x in base:
-    if (x["CANT"]>entero and x["TIPO"]=='COMUNES' ) :
+    if (x["CANT"]>entero and x["TIPO"]!='COMUNES' ) :
         # print(x["NUM"],x["CANT"])
         print(x["NUM"],x["CANT"]-entero)
         descontar = x["CANT"]-entero
