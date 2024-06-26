@@ -6880,6 +6880,17 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ANGELAR2",
+            "Vendidas": [
+                "INT2"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
