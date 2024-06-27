@@ -9726,6 +9726,66 @@
                 "VEN6",
                 "VEN7"
             ]
+        },
+        {
+            "usuario": "RAMIREZMARIADELVALLE",
+            "figusPedidas": [
+                "USA8",
+                "VEN12"
+            ]
+        },
+        {
+            "usuario": "LAU-89",
+            "figusPedidas": [
+                "ARG1",
+                "ARG10",
+                "ARG16",
+                "ARG17",
+                "ARG18",
+                "ARG4",
+                "ARG7",
+                "ARG8",
+                "BOL1",
+                "BOL13",
+                "BOL16",
+                "BOL6",
+                "CAN10",
+                "CHI17",
+                "CHI7",
+                "COL10",
+                "CRC10",
+                "CRC11",
+                "CRC14",
+                "ECU3",
+                "HON17",
+                "JAM15",
+                "LEG11",
+                "LEG12",
+                "LEG6",
+                "LEG7",
+                "MEX17",
+                "MEX2",
+                "MEX21",
+                "MEX4",
+                "MEX5",
+                "PAN18",
+                "PAN20",
+                "PAR3",
+                "PAR8",
+                "PAR9",
+                "PER14",
+                "PER15",
+                "PER6",
+                "USA13",
+                "VEN18",
+                "VEN3"
+            ]
+        },
+        {
+            "usuario": "BAMBY2007",
+            "figusPedidas": [
+                "PAN1"
+            ]
         }
     ]
 }

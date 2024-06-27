@@ -7046,6 +7046,71 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "RAMIREZMARIADELVALLE",
+            "Vendidas": [
+                "VEN12",
+                "USA8"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LAU-89",
+            "Vendidas": [
+                "ARG1",
+                "ARG4",
+                "ARG7",
+                "ARG8",
+                "ARG10",
+                "ARG16",
+                "ARG17",
+                "ARG18",
+                "PER6",
+                "PER15",
+                "CHI7",
+                "CHI17",
+                "MEX2",
+                "MEX4",
+                "MEX5",
+                "MEX17",
+                "MEX21",
+                "ECU3",
+                "VEN3",
+                "VEN18",
+                "JAM15",
+                "USA13",
+                "PAN18",
+                "BOL1",
+                "BOL6",
+                "BOL13",
+                "BOL16",
+                "PAR3",
+                "PAR8",
+                "PAR9",
+                "CAN10",
+                "CRC10",
+                "CRC11",
+                "CRC14",
+                "HON17",
+                "LEG6",
+                "LEG7",
+                "LEG11",
+                "LEG12"
+            ],
+            "NoVendidas": [
+                "PER14",
+                "PAN20",
+                "COL10"
+            ],
+            "Dia": "27/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
