@@ -6845,15 +6845,14 @@
                 "CAN11",
                 "CAN12",
                 "CRC7",
-                "CRC9"
-            ],
-            "NoVendidas": [
+                "CRC9",
                 "COL17"
             ],
+            "NoVendidas": [],
             "Dia": "26/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MHOMBRE",
@@ -7045,7 +7044,7 @@
             "Dia": "26/06/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RAMIREZMARIADELVALLE",
@@ -7057,7 +7056,7 @@
             "Dia": "27/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LAU-89",
@@ -7110,7 +7109,119 @@
             "Dia": "27/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "LEVE3265361",
+            "Vendidas": [
+                "MEX11",
+                "HON20"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "BERNACHEAARIANA",
+            "Vendidas": [
+                "ARG10",
+                "PER6",
+                "CHI5",
+                "CHI6",
+                "MEX5",
+                "MEX13",
+                "MEX19",
+                "ECU15",
+                "ECU21",
+                "JAM15",
+                "JAM17",
+                "USA9",
+                "BOL14",
+                "CAN3",
+                "CAN6",
+                "CAN19",
+                "LEG6"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ROCCATAGLIATAFLORENCIA",
+            "Vendidas": [
+                "COL1",
+                "COL6",
+                "LEG6"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "PAULADONOFRIO",
+            "Vendidas": [
+                "ARG1",
+                "PER11",
+                "MEX17",
+                "JAM19",
+                "PAR10",
+                "CAN5",
+                "CRC15",
+                "CRC16",
+                "HON1",
+                "HON3",
+                "HON7",
+                "LEG9",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ROSALBASEQUEIRA",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "BASILELUISA20221030192830",
+            "Vendidas": [
+                "ECU1",
+                "JAM17",
+                "PAN5"
+            ],
+            "NoVendidas": [
+                "ARG19"
+            ],
+            "Dia": "27/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ARJE3911211",
+            "Vendidas": [
+                "INT4"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
