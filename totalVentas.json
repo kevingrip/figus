@@ -6782,7 +6782,7 @@
             "Dia": "26/06/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "+54 9 11 4940-4266",
@@ -6820,7 +6820,7 @@
             "Dia": "26/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "+54 9 11 5944-8964",
@@ -6864,7 +6864,7 @@
             "Dia": "26/06/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MACAMATO1MACAMATO1",
@@ -6879,7 +6879,7 @@
             "Dia": "26/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANGELAR2",
@@ -6890,7 +6890,7 @@
             "Dia": "26/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ILSAPOREITALIANO",
@@ -6913,7 +6913,7 @@
             "Dia": "26/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SANTI ANDRACCHI",
@@ -6952,6 +6952,99 @@
             "Dia": "26/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "LUCRECIACHILLURA",
+            "Vendidas": [
+                "ARG2",
+                "ARG11",
+                "ARG19",
+                "PER7",
+                "PER14",
+                "VEN13",
+                "BRA13",
+                "PAR21",
+                "TRI1"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "26/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MANURIVASM",
+            "Vendidas": [
+                "CHI3",
+                "CHI12",
+                "CHI13",
+                "ECU16",
+                "VEN7",
+                "VEN15",
+                "VEN19",
+                "USA15",
+                "USA19",
+                "PAN7",
+                "PAN20",
+                "BOL18",
+                "CAN8",
+                "CAN13",
+                "CAN17",
+                "CAN22",
+                "CRC1",
+                "CRC15",
+                "CRC17",
+                "CRC19",
+                "LEG12"
+            ],
+            "NoVendidas": [
+                "CHI6",
+                "TRI18"
+            ],
+            "Dia": "26/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "NERINAFALCO",
+            "Vendidas": [
+                "INT4",
+                "ARG7",
+                "CHI7",
+                "ECU15",
+                "ECU18",
+                "JAM10",
+                "JAM13",
+                "JAM18",
+                "USA11",
+                "URU2",
+                "PAN6",
+                "PAN8",
+                "PAN13",
+                "PAN20",
+                "BOL11",
+                "COL8",
+                "PAR2",
+                "PAR14",
+                "CRC14",
+                "HON4",
+                "HON17",
+                "LEG12",
+                "LEG13"
+            ],
+            "NoVendidas": [
+                "PER12",
+                "MEX14",
+                "CAN11",
+                "CAN18"
+            ],
+            "Dia": "26/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],

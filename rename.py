@@ -45,7 +45,7 @@ def renamePaises(listaOriginal,lista3LetrasPaises,variantesTotales):
     BOL = ['BOL','BOLIVIA','BOLIV']
     COL = ['COL','COLOMBIA']
     PAR = ['PAR','PARAGUA']
-    HON = ['HON','HONDURAS']
+    HON = ['HON','HONDURAS','HOND']
     TRI = ['TRI','TRINIDADTOBAGO','TRINIDAD','TYT']
     LEG = ['LEG','LEYENDAS','LEENDA','LEENDAS','LEGENDARIOS']
     ROH = ['ROH','RHO']

@@ -222,7 +222,7 @@ const totalVentas = () =>{
                     figusNoVendidas.textContent = `${figuNoVend}`
                     figusNoVendidas.style.color = 'red'
 
-                    if (objeto["usuario"].includes('DIEFONTE')){
+                    if (objeto["usuario"].includes('LUCRECIACHILLURA')||objeto["usuario"].includes('GASPERIPABLO')||objeto["usuario"].includes('MANURIVASM')){
                         objetoDiv.style.backgroundColor='skyblue'
                     }
                     
