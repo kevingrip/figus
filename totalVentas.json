@@ -7248,7 +7248,7 @@
             "Dia": "27/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TUFE4452918",
@@ -7270,6 +7270,94 @@
             "Dia": "27/06/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "CANUG",
+            "Vendidas": [
+                "VEN1",
+                "BOL13"
+            ],
+            "NoVendidas": [],
+            "Dia": "28/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "HER SANTALLA",
+            "Vendidas": [
+                "CHI3",
+                "CHI13",
+                "VEN19",
+                "VEN21",
+                "USA21",
+                "BOL9",
+                "BRA18",
+                "PAR11",
+                "CRC7"
+            ],
+            "NoVendidas": [
+                "INT4"
+            ],
+            "Dia": "28/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ELIESTER",
+            "Vendidas": [
+                "TRI2",
+                "TRI5",
+                "TRI15",
+                "TRI16",
+                "TRI17"
+            ],
+            "NoVendidas": [],
+            "Dia": "28/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "santiago",
+            "Vendidas": [
+                "MEX17",
+                "MEX18",
+                "BRA19",
+                "CAN22"
+            ],
+            "NoVendidas": [],
+            "Dia": "28/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ADELA",
+            "Vendidas": [
+                "HCI7",
+                "ARG15",
+                "PER2",
+                "ECU1",
+                "ECU20",
+                "VEN1",
+                "PAN11",
+                "COL2",
+                "COL5",
+                "CRC13",
+                "HON9",
+                "TRI1",
+                "TRI7",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "28/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
         }
     ],
