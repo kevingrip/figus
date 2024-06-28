@@ -7222,6 +7222,55 @@
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MOFMAN",
+            "Vendidas": [
+                "ECU14",
+                "BOL18",
+                "CRC1",
+                "CRC4",
+                "HON16",
+                "HON18"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "LORENZIAGUST\u00cdN20230913191751",
+            "Vendidas": [
+                "COL16"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "TUFE4452918",
+            "Vendidas": [
+                "ARG4",
+                "CHI10",
+                "VEN4",
+                "JAM7",
+                "JAM14",
+                "PAN10",
+                "HON16",
+                "TRI4"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "INT4",
+                "MEX16"
+            ],
+            "Dia": "27/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
