@@ -7377,6 +7377,218 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "JUANPICHLER",
+            "Vendidas": [
+                "INT3",
+                "PER1",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "29/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CAMA2352658",
+            "Vendidas": [
+                "HCI8",
+                "ARG10",
+                "ARG22",
+                "PER4",
+                "PER6",
+                "PER12",
+                "CHI3",
+                "CHI15",
+                "CHI16",
+                "CHI18",
+                "CHI19",
+                "MEX8",
+                "MEX12",
+                "ECU7",
+                "VEN12",
+                "VEN13",
+                "USA14",
+                "PAN3",
+                "PAN5",
+                "PAN6",
+                "PAN14",
+                "PAN16",
+                "BOL4",
+                "BOL20",
+                "BOL21",
+                "BRA8",
+                "BRA16",
+                "BRA20",
+                "COL9",
+                "COL14",
+                "COL18",
+                "COL21",
+                "PAR21",
+                "CAN2",
+                "CAN10",
+                "CRC14",
+                "CRC18",
+                "HON5",
+                "HON18",
+                "TRI2",
+                "TRI18",
+                "LEG1",
+                "LEG4",
+                "LEG9"
+            ],
+            "NoVendidas": [
+                "PAR10",
+                "CAN22"
+            ],
+            "Dia": "29/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ALESCHMITT80",
+            "Vendidas": [
+                "HCI6",
+                "ARG1",
+                "PER16",
+                "PER17",
+                "CHI7",
+                "MEX3",
+                "MEX8",
+                "MEX19",
+                "JAM1",
+                "JAM21",
+                "USA18",
+                "PAN19",
+                "BRA1",
+                "PAR14"
+            ],
+            "NoVendidas": [
+                "PER14",
+                "BRA13",
+                "COL17"
+            ],
+            "Dia": "29/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ALESCHMITT80",
+            "Vendidas": [
+                "CAN12",
+                "CRC3",
+                "CRC7",
+                "CRC9",
+                "CRC19",
+                "TRI1",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "29/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "STREAMSFROMSOL",
+            "Vendidas": [
+                "ARG13",
+                "PER11",
+                "CHI1",
+                "MEX3",
+                "MEX8",
+                "ECU2",
+                "ECU3",
+                "ECU19",
+                "ECU20",
+                "USA20",
+                "USA21",
+                "PAN5",
+                "PAN13",
+                "BRA7",
+                "BRA9",
+                "BRA14",
+                "BRA21",
+                "PAR5",
+                "CRC13",
+                "TRI2",
+                "LEG1",
+                "LEG3",
+                "LEG15"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "VEN13"
+            ],
+            "Dia": "29/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MITTINODANIELA20220621213741",
+            "Vendidas": [
+                "USA17",
+                "HON1"
+            ],
+            "NoVendidas": [],
+            "Dia": "29/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "YAMILANATALIAALONSO",
+            "Vendidas": [
+                "INT2",
+                "PER5",
+                "CHI5",
+                "MEX7",
+                "JAM4",
+                "JAM12",
+                "JAM15",
+                "USA15",
+                "USA17"
+            ],
+            "NoVendidas": [
+                "PER6",
+                "USA21",
+                "COL17"
+            ],
+            "Dia": "29/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "VANEALE_N",
+            "Vendidas": [
+                "PER1",
+                "PER11",
+                "PER13",
+                "PER17",
+                "USA15",
+                "COL20",
+                "COL22",
+                "PAR2",
+                "PAR3",
+                "PAR16",
+                "PAR21",
+                "CAN1",
+                "CAN13",
+                "TRI11",
+                "TRI14",
+                "TRI15"
+            ],
+            "NoVendidas": [],
+            "Dia": "29/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -17126,6 +17338,18 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "FEDERICODANIELRE",
+            "Vendidas": [
+                "46",
+                "229"
+            ],
+            "NoVendidas": [],
+            "Dia": "29/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ]
 }

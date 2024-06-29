@@ -6,7 +6,7 @@ with open ("legends.json","r") as jsonl:
 n=''
 
 for x in base:
-    if x["BASE"]>0:
+    if x["GOLD"]>0:
         n+= (x["nombre"]+', ').capitalize()
 
 print(n)
