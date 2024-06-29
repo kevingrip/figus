@@ -12,5 +12,5 @@ def descSupl(cantIng):
     print("Cantidad de suplentes en la cosecha: ",cantSup)
     print("Quedan: ",supl["suplentes"]," suplentes")
 
-    with open ("suplentes.json","w") as sup:
-        json.dump(supl,sup,indent=4)
+    # with open ("suplentes.json","w") as sup:
+    #     json.dump(supl,sup,indent=4)

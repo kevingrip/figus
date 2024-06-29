@@ -10609,9 +10609,96 @@
                 "USA13",
                 "USA15",
                 "USA8",
-                "VEN1",
-                "VEN17",
-                "VEN8"
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "DEFAGOTGASTON",
+            "figusPedidas": [
+                "INT2",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "MAZCOTY2007",
+            "figusPedidas": [
+                "ARG9",
+                "MEX14",
+                "PAR15",
+                "PER5"
+            ]
+        },
+        {
+            "usuario": "CRISTIANPRELLI",
+            "figusPedidas": [
+                "ARG1",
+                "BRA12",
+                "BRA13",
+                "MEX14",
+                "MEX9",
+                "PAN18",
+                "PAN20",
+                "URU1",
+                "USA18",
+                "VEN10"
+            ]
+        },
+        {
+            "usuario": "CRISTIANPRELLI",
+            "figusPedidas": [
+                "ARG1",
+                "BRA12",
+                "BRA13",
+                "CAN17",
+                "CAN18",
+                "COL1",
+                "COL11",
+                "COL17",
+                "COL8",
+                "CRC22",
+                "HON10",
+                "HON16",
+                "HON4",
+                "HON6",
+                "LEG17",
+                "MEX14",
+                "MEX9",
+                "PAN18",
+                "PAN20",
+                "PAR16",
+                "URU1",
+                "USA18",
+                "VEN10"
+            ]
+        },
+        {
+            "usuario": "MIRANDAMARAGUADALUPEMEX8",
+            "figusPedidas": [
+                "BRATRITRIROHROHLEGCANCANLEGLEGLEGLEG2281312210121015189",
+                "MEXECUECUURUBRA1421817"
+            ]
+        },
+        {
+            "usuario": "MIRANDAMARAGUADALUPE",
+            "figusPedidas": [
+                "BRA22",
+                "BRA7",
+                "CAN10",
+                "CAN12",
+                "ECU18",
+                "ECU2",
+                "LEG10",
+                "LEG15",
+                "LEG18",
+                "LEG2",
+                "LEG9",
+                "MEX14",
+                "MEX8",
+                "ROH1",
+                "ROH2",
+                "TRI13",
+                "TRI8",
+                "URU1"
             ]
         }
     ]

@@ -18,6 +18,7 @@ from bases import*
 from actualizarFecha import *
 from cantSuplentes import*
 import pyperclip
+from CosecharStock import*
 
 datosIngresar = []
 
@@ -738,20 +739,22 @@ elif (album == "Copa America 2024"):
 
         elif subInicioBDD == "Agregar Stock":
             cantFigu = agregarStock(baseCopam)
-            descSupl(cantFigu)
+            # descSupl(cantFigu)
             actualizarFecha(None)
         elif subInicioBDD == "Cosechar":
-            figuOk = False
-            figuCopam = easygui.enterbox("Ingrese una figurita",title="LAFI GURITA")
-            while len(figuCopam)>0:
-                bcam = baseCopamerica()
-                for figurita in bcam:
-                    if figuCopam == figurita["NUM"]:
-                        figuOk = True
-                        if figurita["CANT"]>0:
-                            print(figurita["NUM"]+": "+str(figurita["CANT"])+ " en STOCK")
-                        else:
-                            print(figurita["NUM"]+": Sin stock en la base")
-                if figuOk == False:
-                    print("Figurita mal escrita")
-                figuCopam = easygui.enterbox("Ingrese una figurita",title="LAFI GURITA")
+            cosecharStock(baseCopam)
+            
+            # figuOk = False
+            # figuCopam = easygui.enterbox("Ingrese una figurita",title="LAFI GURITA")
+            # while len(figuCopam)>0:
+            #     bcam = baseCopamerica()
+            #     for figurita in bcam:
+            #         if figuCopam == figurita["NUM"]:
+            #             figuOk = True
+            #             if figurita["CANT"]>0:
+            #                 print(figurita["NUM"]+": "+str(figurita["CANT"])+ " en STOCK")
+            #             else:
+            #                 print(figurita["NUM"]+": Sin stock en la base")
+            #     if figuOk == False:
+            #         print("Figurita mal escrita")
+            #     figuCopam = easygui.enterbox("Ingrese una figurita",title="LAFI GURITA")
