@@ -7668,6 +7668,138 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "RICKY41",
+            "Vendidas": [
+                "LEG6",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "30/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MAX75BALLAN",
+            "Vendidas": [
+                "PER2",
+                "ECU15",
+                "JAM10",
+                "USA16",
+                "USA18",
+                "USA20",
+                "CAN21",
+                "LEG15"
+            ],
+            "NoVendidas": [
+                "INT4"
+            ],
+            "Dia": "30/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "JOAKIN_1984",
+            "Vendidas": [
+                "PAN19",
+                "CRC3",
+                "CRC21"
+            ],
+            "NoVendidas": [],
+            "Dia": "30/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GUSHCHINAEVGENIIA2022072118451",
+            "Vendidas": [
+                "CHI4",
+                "JAM2",
+                "JAM22",
+                "USA16",
+                "BOL1",
+                "BOL15",
+                "BRA18",
+                "PAR1",
+                "PAR4",
+                "HON8"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "BRA16",
+                "COL17"
+            ],
+            "Dia": "30/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GOLFER75",
+            "Vendidas": [
+                "ARG16",
+                "ARG21",
+                "PER6",
+                "MEX1",
+                "ECU3",
+                "ECU11",
+                "VEN20",
+                "JAM3",
+                "JAM12",
+                "JAM17",
+                "JAM19",
+                "USA18",
+                "BRA4",
+                "COL12",
+                "PAR1",
+                "PAR8",
+                "PAR15",
+                "PAR17"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "BRA18"
+            ],
+            "Dia": "30/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ANTONELABANDIERI",
+            "Vendidas": [
+                "VEN15",
+                "VEN22",
+                "COL3",
+                "COL18",
+                "HON14",
+                "TRI11",
+                "LEG3"
+            ],
+            "NoVendidas": [
+                "BRA18",
+                "HON16"
+            ],
+            "Dia": "30/06/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "RAMOSJORGE20220822130627",
+            "Vendidas": [
+                "ARG19",
+                "ARG21"
+            ],
+            "NoVendidas": [],
+            "Dia": "30/06/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
