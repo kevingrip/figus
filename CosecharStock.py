@@ -138,7 +138,7 @@ def cosecharStock(base):
                             cantComunes+=1                               
                             # precioUyuni += (80*(int(1)))
                             #print("Precio Individual: $50")
-                        if fila["TIPO"]=='COMUNES' and fila["CANT"]<3:
+                        if fila["TIPO"]=='COMUNES' and fila["CANT"]<4:
                             fila["CANT"] += int(1)
                             cantidadTotal += int(1)
                             figuNueva = str(fila["CANT"])
