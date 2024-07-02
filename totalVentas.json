@@ -7358,7 +7358,7 @@
             "Dia": "28/06/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RAMBLASCOVICH",
@@ -7895,7 +7895,7 @@
             "Dia": "01/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PUED6262888",
@@ -7914,7 +7914,7 @@
             "Dia": "01/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ARI_UEM",
@@ -7966,7 +7966,7 @@
             "Dia": "01/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARUCHIDASCEN",
@@ -7978,7 +7978,7 @@
             "Dia": "01/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANDRESFAIRBAIRN",
@@ -8002,6 +8002,32 @@
             "NoVendidas": [],
             "Dia": "01/07/2024",
             "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ANALIAGAMBA",
+            "Vendidas": [
+                "INT2",
+                "HCI9",
+                "CHI15",
+                "JAM4",
+                "USA13",
+                "PAN4",
+                "PAN6",
+                "BOL15",
+                "BOL21",
+                "COL20",
+                "CRC18",
+                "CRC20",
+                "HON10",
+                "LEG9"
+            ],
+            "NoVendidas": [
+                "PAN5"
+            ],
+            "Dia": "01/07/2024",
+            "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
         }
