@@ -7991,6 +7991,19 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CAMA2352658",
+            "Vendidas": [
+                "PAR10",
+                "PAR20",
+                "CAN22"
+            ],
+            "NoVendidas": [],
+            "Dia": "01/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
