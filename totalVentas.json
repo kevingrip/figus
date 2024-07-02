@@ -7882,7 +7882,7 @@
             "Dia": "01/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUCRESPINDOLA",
@@ -7951,7 +7951,7 @@
             "Dia": "01/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FREYRERAMIRO",
@@ -8028,6 +8028,84 @@
             ],
             "Dia": "01/07/2024",
             "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "BARBARAPETZ",
+            "Vendidas": [
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GISELLEGARCIAGALEANO",
+            "Vendidas": [
+                "ARG20",
+                "CHI16",
+                "CHI18",
+                "CHI20",
+                "CHI22",
+                "MEX6",
+                "MEX18",
+                "MEX22",
+                "ECU4",
+                "ECU22",
+                "VEN8",
+                "VEN20",
+                "JAM10",
+                "PAN14",
+                "COL14",
+                "CAN4",
+                "CAN6",
+                "CAN22",
+                "CRC10",
+                "CRC12",
+                "CRC16",
+                "LEG14",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "DANILOJAVIERBROGLIA",
+            "Vendidas": [
+                "PER3",
+                "PER5",
+                "PER7",
+                "PER8",
+                "PER9",
+                "CHI3",
+                "CHI4",
+                "CHI5",
+                "CHI6",
+                "CHI9",
+                "CHI11",
+                "CHI13",
+                "CHI15",
+                "CHI18",
+                "MEX2",
+                "MEX7",
+                "MEX14",
+                "MEX17",
+                "MEX18",
+                "MEX19",
+                "MEX21",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "02/07/2024",
+            "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
         }
