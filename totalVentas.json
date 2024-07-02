@@ -8040,7 +8040,7 @@
             "Dia": "02/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GISELLEGARCIAGALEANO",
@@ -8107,6 +8107,39 @@
             "Dia": "02/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ROSANASIERRA43",
+            "Vendidas": [
+                "MEX20",
+                "JAM6",
+                "USA12",
+                "PAR4",
+                "CRC1",
+                "CRC7",
+                "HON12",
+                "HON14",
+                "LEG15"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "02/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "VONGOTTESHAUS",
+            "Vendidas": [
+                "ARG1",
+                "COL1"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],
