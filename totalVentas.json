@@ -8435,6 +8435,34 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MARIELAVRANKEN",
+            "Vendidas": [
+                "ARG11",
+                "PER13",
+                "CHI1",
+                "CHI7",
+                "MEX9",
+                "MEX15",
+                "MEX17",
+                "MEX19",
+                "JAM4",
+                "USA15",
+                "BRA21",
+                "CRC21",
+                "HON11",
+                "HON13",
+                "TRI4"
+            ],
+            "NoVendidas": [
+                "INT4",
+                "VEN13"
+            ],
+            "Dia": "03/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
