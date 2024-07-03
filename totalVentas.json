@@ -8206,6 +8206,33 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ROMINAQUAD",
+            "Vendidas": [
+                "PER8",
+                "MEX12",
+                "ECU3",
+                "ECU16",
+                "VEN22",
+                "JAM1",
+                "JAM10",
+                "JAM14",
+                "USA12",
+                "PAN15",
+                "COL13",
+                "COL16",
+                "COL20",
+                "CRC1",
+                "CRC15",
+                "CRC20",
+                "TRI18"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

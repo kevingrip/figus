@@ -11454,7 +11454,6 @@
                 "COL16",
                 "COL20",
                 "CRC1",
-                "CRC10",
                 "CRC15",
                 "CRC20",
                 "ECU16",
@@ -11498,6 +11497,15 @@
                 "ROH1",
                 "URU1",
                 "VEN11"
+            ]
+        },
+        {
+            "usuario": "MARTU1107",
+            "figusPedidas": [
+                "ARG1",
+                "INT2",
+                "INT3",
+                "ROH1"
             ]
         }
     ]
