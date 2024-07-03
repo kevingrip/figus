@@ -138,12 +138,14 @@ def cosecharStock(base):
                             cantComunes+=1                               
                             # precioUyuni += (80*(int(1)))
                             #print("Precio Individual: $50")
-                        if fila["TIPO"]=='COMUNES' and fila["CANT"]<3:
+                            # CANT COMUNES 
+                        if fila["TIPO"]=='COMUNES' and fila["CANT"]<4:
                             fila["CANT"] += int(1)
                             cantidadTotal += int(1)
                             figuNueva = str(fila["CANT"])
                             # print("Precio acumulado: ",precioUyuni)
                             print ("[+"+str(cantidadTotal)+"]       "+figuActual+' <<< '+str(fila["NUM"])+": >>> "+figuNueva)
+                        # CANT EQUIPOS 
                         elif fila["TIPO"]=='EQUIPOS' and fila["CANT"]<4:
                             fila["CANT"] += int(1)
                             cantidadTotal += int(1)
@@ -151,6 +153,12 @@ def cosecharStock(base):
                             # print("Precio acumulado: ",precioUyuni)
                             print ("[+"+str(cantidadTotal)+"]       "+figuActual+' <<< '+str(fila["NUM"])+": >>> "+figuNueva)
                         elif fila["TIPO"]=='AFA': 
+                            fila["CANT"] += int(1)
+                            cantidadTotal += int(1)
+                            figuNueva = str(fila["CANT"])
+                            # print("Precio acumulado: ",precioUyuni)
+                            print ("[+"+str(cantidadTotal)+"]       "+figuActual+' <<< '+str(fila["NUM"])+": >>> "+figuNueva)
+                        elif fila["TIPO"]=='ESCUDO': 
                             fila["CANT"] += int(1)
                             cantidadTotal += int(1)
                             figuNueva = str(fila["CANT"])

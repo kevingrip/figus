@@ -8128,7 +8128,7 @@
             "Dia": "02/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VONGOTTESHAUS",
@@ -8140,7 +8140,7 @@
             "Dia": "02/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BOSCAROLNOELIA",
@@ -8193,7 +8193,7 @@
             "Dia": "02/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CAMA2352658",
@@ -8205,7 +8205,7 @@
             "Dia": "02/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROMINAQUAD",
@@ -8247,6 +8247,129 @@
             "NoVendidas": [],
             "Dia": "02/07/2024",
             "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "GUSHCHINAEVGENIIA2022072118451",
+            "Vendidas": [
+                "INT1",
+                "BRA16",
+                "COL17"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "SANTIC9",
+            "Vendidas": [
+                "INT4",
+                "HCI5",
+                "ARG21",
+                "PER16",
+                "PER17",
+                "PER18",
+                "CHI7",
+                "CHI8",
+                "CHI9",
+                "CHI11",
+                "CHI17",
+                "CHI19",
+                "CHI21",
+                "MEX2",
+                "MEX6",
+                "MEX19",
+                "ECU2",
+                "VEN1",
+                "VEN9",
+                "VEN16",
+                "JAM6",
+                "JAM11",
+                "JAM13",
+                "JAM22",
+                "USA1",
+                "URU2",
+                "PAN4",
+                "PAN6",
+                "PAN20",
+                "PAN22",
+                "BOL8",
+                "BOL10",
+                "BOL15",
+                "BOL16",
+                "BOL18",
+                "BRA14",
+                "COL12",
+                "COL16",
+                "COL18",
+                "COL19",
+                "PAR9",
+                "PAR10",
+                "PAR18",
+                "CRC17",
+                "HON3",
+                "HON5",
+                "HON9",
+                "TRI2",
+                "TRI14",
+                "LEG7",
+                "LEG9",
+                "LEG10",
+                "USA21"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "ROH1",
+                "ROH2"
+            ],
+            "Dia": "03/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "GOEL6023901",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "BARBARAMEZZABOTTA",
+            "Vendidas": [
+                "ARG1",
+                "ARG21",
+                "MEX7",
+                "BOL8",
+                "CAN1"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "DANIELMRIBA",
+            "Vendidas": [
+                "VEN13",
+                "VEN14",
+                "BOL16",
+                "PAR16",
+                "PAR18",
+                "CAN14",
+                "LEG16"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/07/2024",
+            "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
         }
