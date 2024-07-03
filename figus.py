@@ -749,7 +749,7 @@ elif (album == "Copa America 2024"):
             # while len(figuCopam)>0:
             #     bcam = baseCopamerica()
             #     for figurita in bcam:
-            #         if figuCopam == figurita["NUM"]:
+            #         i f figuCopam == figurita["NUM"]:
             #             figuOk = True
             #             if figurita["CANT"]>0:
             #                 print(figurita["NUM"]+": "+str(figurita["CANT"])+ " en STOCK")

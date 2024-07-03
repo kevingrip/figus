@@ -8073,7 +8073,7 @@
             "Dia": "02/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DANILOJAVIERBROGLIA",
@@ -8179,7 +8179,7 @@
             "Dia": "02/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CARI_M",
@@ -8232,6 +8232,22 @@
             "Dia": "02/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "DORSAMARICEL20220110143320",
+            "Vendidas": [
+                "INT1",
+                "ARG6",
+                "CHI16",
+                "MEX1",
+                "BOL21",
+                "LEG6"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],

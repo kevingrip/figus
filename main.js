@@ -222,7 +222,7 @@ const totalVentas = () =>{
                     figusNoVendidas.textContent = `${figuNoVend}`
                     figusNoVendidas.style.color = 'red'
 
-                    if (objeto["usuario"].includes('LUCRECIACHILLURA')||objeto["usuario"].includes('HER SANTALLA')||objeto["usuario"].includes('ADELA')){
+                    if (objeto["usuario"].includes('BOSCAROLNOELIA')||objeto["usuario"].includes('DANILOJAVIERBROGLIA')||objeto["usuario"].includes('ADELA')){
                         objetoDiv.style.backgroundColor='skyblue'
                     }
                     
@@ -358,7 +358,7 @@ const buscarFigus = () => {
     let letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     let numeros = '1234567890'
 
-    valorInput = valorInput.replace("INTR", "INT");
+    valorInput = valorInput.replace(/INTR/g, "INT");
     valorInput = valorInput.replace(/y/gi, '')
     
     for (let i = 0; i < valorInput.length; i++) {
@@ -406,6 +406,7 @@ const buscarFigus = () => {
     let faltantes ='';
     let figuInd='';
     let figuRemp='';
+    let tipoFigu = ''
 
     filteredFigus.forEach(figu => {
         
@@ -413,6 +414,7 @@ const buscarFigus = () => {
 
         if (figu.CANT>0) {
             cantFigusStock+=1;
+            tipoFigu = figu.TIPO
             totalPrecio += figu.PRECIO;
             if (figu.NUM.includes('INT')){
                 figuRemp = figu.NUM.replace('INT','INTR')
@@ -470,7 +472,11 @@ const buscarFigus = () => {
     if (faltantes.length == 0){
         if (cantFigusStock==1){            
             if (totalPrecio<3500){
-                mensaje.textContent = `Si, la tengo en stock. El precio por la figurita original es 3900. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                if (tipoFigu!='ESCUDO'){
+                    mensaje.textContent = `Si, la tengo en stock. El precio por la figurita original es 3900. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                } else {
+                    mensaje.textContent = `Si, la tengo en stock. El precio por la figurita original es 5000. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                }
             }else{
                 mensaje.textContent = `Si, la tengo en stock. El precio por la figurita original es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
             }
