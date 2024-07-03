@@ -11807,6 +11807,96 @@
             "figusPedidas": [
                 "CRC6"
             ]
+        },
+        {
+            "usuario": "FAMA9172999",
+            "figusPedidas": [
+                "ARG14",
+                "ARG5",
+                "BOL6",
+                "BRA14",
+                "BRA16",
+                "CAN16",
+                "CHI12",
+                "CHI3",
+                "CHI4",
+                "COL11",
+                "CRC21",
+                "HCI10",
+                "HON12",
+                "PER15",
+                "PER17",
+                "PER5",
+                "TRI16",
+                "URU1",
+                "USA1",
+                "USA15"
+            ]
+        },
+        {
+            "usuario": "FAMA9172999",
+            "figusPedidas": [
+                "ARG14",
+                "ARG5",
+                "BOL6",
+                "BRA14",
+                "BRA16",
+                "CAN16",
+                "CHI12",
+                "CHI3",
+                "CHI4",
+                "COL1",
+                "CRC21",
+                "HCI10",
+                "HON12",
+                "PER15",
+                "PER17",
+                "PER5",
+                "TRI16",
+                "URU1",
+                "USA1",
+                "USA15"
+            ]
+        },
+        {
+            "usuario": "MARIELAVRANKEN",
+            "figusPedidas": [
+                "ARG11",
+                "BRA21",
+                "CHI1",
+                "CHI7",
+                "CRC21",
+                "HON11",
+                "HON13",
+                "INT4",
+                "JAM4",
+                "MEX15",
+                "MEX17",
+                "MEX19",
+                "MEX9",
+                "PER13",
+                "TRI4",
+                "USA15",
+                "VEN13"
+            ]
+        },
+        {
+            "usuario": "LUCASFERNNDEZJUVE",
+            "figusPedidas": [
+                "BOL13",
+                "INT1",
+                "PAN15",
+                "VEN7"
+            ]
+        },
+        {
+            "usuario": "AGUS_912010\n",
+            "figusPedidas": [
+                "BOL3",
+                "BOL7",
+                "CHI17",
+                "PAN14"
+            ]
         }
     ]
 }

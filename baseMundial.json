@@ -37,7 +37,7 @@
     },
     {
         "NUM": "FWC4",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 2500,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -46,7 +46,7 @@
     },
     {
         "NUM": "FWC5",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2500,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -64,7 +64,7 @@
     },
     {
         "NUM": "FWC7",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2500,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -172,7 +172,7 @@
     },
     {
         "NUM": "FWC19",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 2500,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -190,7 +190,7 @@
     },
     {
         "NUM": "FWC21",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 2500,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -199,7 +199,7 @@
     },
     {
         "NUM": "FWC22",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 2500,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -2152,7 +2152,7 @@
     },
     {
         "NUM": "ESP1",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 2500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -2494,7 +2494,7 @@
     },
     {
         "NUM": "GER1",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -5743,7 +5743,7 @@
     },
     {
         "NUM": "C1",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 2500,
         "TIPO": "COCA",
         "DIA": "04/06/2024",
@@ -5752,7 +5752,7 @@
     },
     {
         "NUM": "C2",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2500,
         "TIPO": "COCA",
         "DIA": "04/06/2024",
@@ -5761,7 +5761,7 @@
     },
     {
         "NUM": "C3",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2500,
         "TIPO": "COCA",
         "DIA": "04/06/2024",
@@ -5770,7 +5770,7 @@
     },
     {
         "NUM": "C4",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2500,
         "TIPO": "COCA",
         "DIA": "04/06/2024",
@@ -5779,7 +5779,7 @@
     },
     {
         "NUM": "C5",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2500,
         "TIPO": "COCA",
         "DIA": "04/06/2024",
@@ -5788,7 +5788,7 @@
     },
     {
         "NUM": "C6",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2500,
         "TIPO": "COCA",
         "DIA": "04/06/2024",
@@ -5797,7 +5797,7 @@
     },
     {
         "NUM": "C7",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2500,
         "TIPO": "COCA",
         "DIA": "04/06/2024",
@@ -5806,7 +5806,7 @@
     },
     {
         "NUM": "C8",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 2500,
         "TIPO": "COCA",
         "DIA": "04/06/2024",

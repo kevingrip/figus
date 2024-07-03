@@ -8383,6 +8383,36 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "FAMA9172999",
+            "Vendidas": [
+                "HCI10",
+                "ARG5",
+                "ARG14",
+                "PER5",
+                "PER15",
+                "PER17",
+                "CHI3",
+                "CHI4",
+                "CHI12",
+                "USA1",
+                "USA15",
+                "URU1",
+                "BOL6",
+                "BRA14",
+                "BRA16",
+                "COL1",
+                "CAN16",
+                "CRC21",
+                "HON12",
+                "TRI16"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -17147,6 +17177,32 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "VANEDANASINO",
+            "Vendidas": [
+                "FWC4",
+                "FWC5",
+                "FWC7",
+                "FWC19",
+                "FWC21",
+                "FWC22",
+                "ESP1",
+                "GER1",
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5",
+                "C6",
+                "C7",
+                "C8"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
