@@ -8637,6 +8637,58 @@
             "Dia": "04/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "BORSETTILUCIANO20230410214101",
+            "Vendidas": [
+                "PER1",
+                "PER16",
+                "JAM3",
+                "JAM21",
+                "PAN19",
+                "CRC3",
+                "CRC6",
+                "HON8",
+                "HON10",
+                "HON20",
+                "TRI2"
+            ],
+            "NoVendidas": [
+                "CRC20"
+            ],
+            "Dia": "04/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "PILARALVAREZB",
+            "Vendidas": [
+                "ARG4",
+                "ARG6",
+                "ARG12",
+                "ARG19"
+            ],
+            "NoVendidas": [
+                "INT4"
+            ],
+            "Dia": "04/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MELYCRESPI",
+            "Vendidas": [
+                "PER22",
+                "LEG3",
+                "LEG9"
+            ],
+            "NoVendidas": [],
+            "Dia": "04/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
         }
     ],

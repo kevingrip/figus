@@ -18,7 +18,7 @@ from bases import*
 from actualizarFecha import *
 from cantSuplentes import*
 import pyperclip
-from CosecharStock import*
+from CosecharStock import *
 
 datosIngresar = []
 
@@ -114,7 +114,7 @@ if (album == "Mundial Qatar 2022"):
             if len(paisesError)>0:
                 validacionPaises = False
             else:
-                ValidacionNum = checkNum(figulista)
+                ValidacionNum = checkNum(figulista,album)
 
 
             if validacionPaises == True and ValidacionNum == True:
@@ -560,7 +560,7 @@ elif (album == "Copa America 2024"):
             if len(paisesError)>0:
                 validacionPaises = False
             else:
-                ValidacionNum = True
+                ValidacionNum = checkNum(figulista,album)
 
 
             if validacionPaises == True and ValidacionNum == True:
@@ -659,6 +659,11 @@ elif (album == "Copa America 2024"):
                     validacionPaises = False
 
 
+            
+
+            if validacionPaises == True:
+
+
                 if validacionPaises == True:
 
                     nuevoUsuario = {"usuario": usuario, "figusPedidas": figulista_sorted}
@@ -739,22 +744,7 @@ elif (album == "Copa America 2024"):
 
         elif subInicioBDD == "Agregar Stock":
             cantFigu = agregarStock(baseCopam)
-            # descSupl(cantFigu)
+            descSupl(cantFigu)
             actualizarFecha(None)
         elif subInicioBDD == "Cosechar":
             cosecharStock(baseCopam)
-            
-            # figuOk = False
-            # figuCopam = easygui.enterbox("Ingrese una figurita",title="LAFI GURITA")
-            # while len(figuCopam)>0:
-            #     bcam = baseCopamerica()
-            #     for figurita in bcam:
-            #         i f figuCopam == figurita["NUM"]:
-            #             figuOk = True
-            #             if figurita["CANT"]>0:
-            #                 print(figurita["NUM"]+": "+str(figurita["CANT"])+ " en STOCK")
-            #             else:
-            #                 print(figurita["NUM"]+": Sin stock en la base")
-            #     if figuOk == False:
-            #         print("Figurita mal escrita")
-            #     figuCopam = easygui.enterbox("Ingrese una figurita",title="LAFI GURITA")
