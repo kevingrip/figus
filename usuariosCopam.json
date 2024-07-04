@@ -10572,6 +10572,39 @@
                 "LEG9",
                 "PER22"
             ]
+        },
+        {
+            "usuario": "PUAL3552049",
+            "figusPedidas": [
+                "COL5",
+                "CRC5",
+                "INT1",
+                "INT4",
+                "LEG16",
+                "PAN10",
+                "PAR5",
+                "ROH1",
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "MDQ SUR",
+            "figusPedidas": [
+                "ARG15",
+                "ARG2",
+                "CHI21",
+                "CHI6",
+                "COL9",
+                "ECU15",
+                "HCI10",
+                "HON5",
+                "INT3",
+                "PER1",
+                "PER2",
+                "PER3",
+                "URU1",
+                "USA12"
+            ]
         }
     ]
 }
