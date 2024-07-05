@@ -8707,6 +8707,98 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CAMA2352658",
+            "Vendidas": [
+                "PER8"
+            ],
+            "NoVendidas": [],
+            "Dia": "05/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PERASYMANZANAS",
+            "Vendidas": [
+                "ARG12",
+                "ARG13",
+                "MEX4",
+                "MEX6",
+                "BRA20"
+            ],
+            "NoVendidas": [],
+            "Dia": "05/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "NADIPI6",
+            "Vendidas": [
+                "PER6",
+                "PER16",
+                "CHI22",
+                "ECU11",
+                "JAM1",
+                "JAM14",
+                "BOL7",
+                "BOL9",
+                "BOL18",
+                "CRC22"
+            ],
+            "NoVendidas": [],
+            "Dia": "05/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SCPA871524",
+            "Vendidas": [
+                "HCI5",
+                "HCI8",
+                "HCI9",
+                "PER3",
+                "PER14",
+                "CHI3",
+                "CHI5",
+                "CHI8",
+                "MEX16",
+                "ECU3",
+                "ECU4",
+                "ECU22",
+                "JAM18",
+                "USA18",
+                "PAN5",
+                "PAN8",
+                "BOL7",
+                "BRA5",
+                "BRA7",
+                "BRA9",
+                "COL1",
+                "COL22",
+                "PAR6",
+                "PAR12",
+                "PAR14",
+                "PAR22",
+                "CAN20",
+                "CAN21",
+                "CRC14",
+                "HON3",
+                "HON5",
+                "HON7",
+                "HON11",
+                "HON12",
+                "LEG1",
+                "LEG12"
+            ],
+            "NoVendidas": [],
+            "Dia": "05/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
