@@ -10894,6 +10894,32 @@
                 "ECU17",
                 "PAR21"
             ]
+        },
+        {
+            "usuario": "JP_76",
+            "figusPedidas": [
+                "ARG1",
+                "CAN16",
+                "CHI1",
+                "CHI12",
+                "CHI13",
+                "CHI9",
+                "ECU17",
+                "ECU19",
+                "ECU21",
+                "ECU7",
+                "ECU9",
+                "LEG15",
+                "PAN17",
+                "PAN19",
+                "PAN3",
+                "PAN7",
+                "PAR21",
+                "PAR22",
+                "PAR8",
+                "PER13",
+                "PER7"
+            ]
         }
     ]
 }
