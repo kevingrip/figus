@@ -658,12 +658,6 @@ elif (album == "Copa America 2024"):
                 if len(paisesError)>0:
                     validacionPaises = False
 
-
-            
-
-            if validacionPaises == True:
-
-
                 if validacionPaises == True:
 
                     nuevoUsuario = {"usuario": usuario, "figusPedidas": figulista_sorted}
