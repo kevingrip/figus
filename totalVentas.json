@@ -8661,7 +8661,7 @@
             "Dia": "04/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "OCDA4277093",
@@ -8689,7 +8689,7 @@
             "Dia": "04/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BELLEZZA ARGENTINA",
@@ -8706,7 +8706,7 @@
             "Dia": "04/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CAMA2352658",
@@ -8717,7 +8717,7 @@
             "Dia": "05/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PERASYMANZANAS",
@@ -8732,7 +8732,7 @@
             "Dia": "05/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NADIPI6",
@@ -8752,7 +8752,7 @@
             "Dia": "05/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SCPA871524",
@@ -8798,7 +8798,20 @@
             "Dia": "05/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "WALROVER",
+            "Vendidas": [
+                "VEN3",
+                "VEN19",
+                "USA11"
+            ],
+            "NoVendidas": [],
+            "Dia": "05/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -17621,6 +17634,29 @@
             "Dia": "03/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "BECERRAMAURICIO20231010160300",
+            "Vendidas": [
+                "FWC3",
+                "FWC4",
+                "FWC19",
+                "FWC25",
+                "AUS1",
+                "CAN1",
+                "CMR1",
+                "CRO1",
+                "FRA1",
+                "KOR1",
+                "KSA1",
+                "SRB1",
+                "USA1"
+            ],
+            "NoVendidas": [],
+            "Dia": "05/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "PREPARADO": "SI"
         }
     ],
