@@ -8823,6 +8823,30 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "TENTEN30",
+            "Vendidas": [
+                "ARG4",
+                "ARG5",
+                "ARG6",
+                "ARG12",
+                "ARG13",
+                "ARG14",
+                "ARG16",
+                "ARG18",
+                "ARG19",
+                "ARG20",
+                "ARG22",
+                "URU13",
+                "PAR5",
+                "PAR11"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -17669,6 +17693,17 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "NICO_0122",
+            "Vendidas": [
+                "AUS17"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
