@@ -8847,6 +8847,20 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "DELFICASA CON MUNDIAL",
+            "Vendidas": [
+                "INT4",
+                "PER6",
+                "CRC8",
+                "CRC9"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -17703,6 +17717,18 @@
             "Dia": "06/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "DELFICASA CON COPA AMERICA",
+            "Vendidas": [
+                "IRN7",
+                "SUI3"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],
