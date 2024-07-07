@@ -9041,6 +9041,53 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "JDE234336",
+            "Vendidas": [
+                "INT1"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "VIRGINIA CANTORO",
+            "Vendidas": [
+                "INT1",
+                "ARG5",
+                "CHI1",
+                "JAM22",
+                "BOL5",
+                "CAN1",
+                "CRC15",
+                "TRI7",
+                "TRI11",
+                "LEG9",
+                "LEG13"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "FRANCOPEPPE",
+            "Vendidas": [
+                "INT2",
+                "ARG8",
+                "ARG19",
+                "VEN20",
+                "CAN20"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
