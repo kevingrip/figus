@@ -11137,6 +11137,20 @@
                 "VEN1",
                 "VEN10"
             ]
+        },
+        {
+            "usuario": "SAMA9150464",
+            "figusPedidas": [
+                "INT2",
+                "LEG13",
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "JDE234336",
+            "figusPedidas": [
+                "INT1"
+            ]
         }
     ]
 }

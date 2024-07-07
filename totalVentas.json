@@ -9028,6 +9028,19 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SAMA9150464",
+            "Vendidas": [
+                "INT2",
+                "LEG13",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
