@@ -9089,6 +9089,39 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "VEROS83",
+            "Vendidas": [
+                "INT4",
+                "PER1",
+                "CAN1",
+                "CRC21",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "JUANJOSPELLEGRINIBELLEZZA",
+            "Vendidas": [
+                "INT1",
+                "VEN1",
+                "VEN10",
+                "PAN6",
+                "BRA12",
+                "CAN10",
+                "CRC4",
+                "CRC6"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -17972,6 +18005,34 @@
             "Dia": "06/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "NIPA5121230 BASE SILVER GOLD",
+            "Vendidas": [
+                "FWC3",
+                "FWC26",
+                "AUS9",
+                "CRC1",
+                "ECU1",
+                "KSA10",
+                "MEX5",
+                "POR14",
+                "URU14",
+                "USA1",
+                "USA10",
+                "WAL1",
+                "C1",
+                "C4",
+                "C7"
+            ],
+            "NoVendidas": [
+                "ARG1",
+                "FRA1"
+            ],
+            "Dia": "07/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],

@@ -21782,6 +21782,45 @@
                 "FWC2",
                 "URU5"
             ]
+        },
+        {
+            "usuario": "MARINUNI_LM",
+            "figusPedidas": [
+                "C2",
+                "C4",
+                "C5",
+                "C6",
+                "C7",
+                "C8",
+                "ECU7",
+                "FWC21",
+                "FWC6",
+                "FWC7",
+                "MAR4",
+                "MEX1"
+            ]
+        },
+        {
+            "usuario": "NIPA5121230 BASE SILVER GOLD",
+            "figusPedidas": [
+                "ARG1",
+                "AUS9",
+                "C1",
+                "C4",
+                "C7",
+                "CRC1",
+                "ECU1",
+                "FRA1",
+                "FWC26",
+                "FWC3",
+                "KSA10",
+                "MEX5",
+                "POR14",
+                "URU14",
+                "USA1",
+                "USA10",
+                "WAL1"
+            ]
         }
     ]
 }

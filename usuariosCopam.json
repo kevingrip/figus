@@ -11183,6 +11183,45 @@
                 "PER1",
                 "ROH2"
             ]
+        },
+        {
+            "usuario": "ANTOFAGG",
+            "figusPedidas": [
+                "INT1",
+                "INT4",
+                "LEG13"
+            ]
+        },
+        {
+            "usuario": "VEROS83",
+            "figusPedidas": [
+                "CAN1",
+                "CRC21",
+                "INT4",
+                "PER1",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "JUANJOSPELLEGRINIBELLEZZA",
+            "figusPedidas": [
+                "BRA12",
+                "CAN10",
+                "CRC4",
+                "CRC6",
+                "INT1",
+                "PAN6",
+                "VEN1",
+                "VEN10"
+            ]
+        },
+        {
+            "usuario": "PAGANOL2018",
+            "figusPedidas": [
+                "ARG19",
+                "INT1",
+                "LEG6"
+            ]
         }
     ]
 }
