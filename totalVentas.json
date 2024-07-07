@@ -8861,6 +8861,173 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LETICIAFAL",
+            "Vendidas": [
+                "ARG2",
+                "ARG3",
+                "ARG4",
+                "ARG5",
+                "ARG8",
+                "ARG9",
+                "ARG12",
+                "ARG14",
+                "ARG16",
+                "ARG18",
+                "ARG19",
+                "ARG22"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PINATU",
+            "Vendidas": [
+                "USA1",
+                "PAR15",
+                "LEG17",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LOSKEPOS",
+            "Vendidas": [
+                "CHI5",
+                "VEN1",
+                "VEN16",
+                "JAM4",
+                "JAM7",
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ANDREUANDRES20231027130635",
+            "Vendidas": [
+                "HCI1",
+                "HCI2",
+                "HCI6",
+                "HCI8",
+                "ARG9",
+                "ARG15",
+                "CHI12",
+                "MEX5",
+                "MEX19",
+                "MEX20",
+                "ECU10",
+                "USA14",
+                "USA20",
+                "USA21",
+                "PAN1",
+                "PAN4",
+                "BOL8",
+                "BOL12",
+                "BRA16",
+                "BRA22",
+                "COL8",
+                "COL18",
+                "CRC1",
+                "HON1",
+                "HON2",
+                "HON4",
+                "HON17",
+                "LEG4",
+                "LEG5",
+                "LEG12",
+                "LEG16"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LUDMILAANDREAUNGARO",
+            "Vendidas": [
+                "VEN17",
+                "USA13",
+                "CAN9",
+                "CRC1",
+                "CRC7"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SABBADINANDREA",
+            "Vendidas": [
+                "INT4",
+                "HCI5",
+                "JAM7",
+                "JAM21",
+                "PAN5",
+                "COL17",
+                "CAN7",
+                "CAN17"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ARIROMERO2010",
+            "Vendidas": [
+                "HCI5",
+                "HCI6",
+                "HCI7",
+                "HCI9",
+                "HCI10",
+                "ARG5",
+                "ARG15",
+                "ARG17",
+                "ARG18",
+                "ARG20",
+                "URU1",
+                "URU12",
+                "BRA1",
+                "BRA3",
+                "BRA8",
+                "BRA9"
+            ],
+            "NoVendidas": [
+                "BRA7"
+            ],
+            "Dia": "06/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "TUFE4452918",
+            "Vendidas": [
+                "INT3",
+                "INT4",
+                "MEX16"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
