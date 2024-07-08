@@ -8846,7 +8846,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DELFICASA CON MUNDIAL",
@@ -8860,7 +8860,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LETICIAFAL",
@@ -8882,7 +8882,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PINATU",
@@ -8896,7 +8896,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LOSKEPOS",
@@ -8953,7 +8953,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUDMILAANDREAUNGARO",
@@ -8968,7 +8968,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SABBADINANDREA",
@@ -9009,13 +9009,11 @@
                 "BRA8",
                 "BRA9"
             ],
-            "NoVendidas": [
-                "BRA7"
-            ],
+            "NoVendidas": [],
             "Dia": "06/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TUFE4452918",
@@ -9028,7 +9026,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SAMA9150464",
@@ -9041,7 +9039,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JDE234336",
@@ -9052,7 +9050,7 @@
             "Dia": "07/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VIRGINIA CANTORO",
@@ -9073,7 +9071,7 @@
             "Dia": "07/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FRANCOPEPPE",
@@ -9088,7 +9086,7 @@
             "Dia": "07/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VEROS83",
@@ -9157,7 +9155,7 @@
             "Dia": "07/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARTINCALVO79",
@@ -9182,7 +9180,7 @@
             "Dia": "07/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JMA1989",
@@ -9193,7 +9191,7 @@
             "Dia": "07/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SUPERFEDE79",
@@ -9221,7 +9219,37 @@
             "Dia": "08/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "PEREZWHALA PAGA 8400",
+            "Vendidas": [
+                "CHI9",
+                "MEX8",
+                "JAM1",
+                "BRA1",
+                "PAR8",
+                "TRI3",
+                "CAN1"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MARTNGRASSI",
+            "Vendidas": [
+                "INT2",
+                "ARG22",
+                "TRI15"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -18078,7 +18106,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DELFICASA CON COPA AMERICA",
@@ -18090,7 +18118,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CARLOS MICCIULLO // BASE BRONCE SILVER GOLD",
@@ -18105,7 +18133,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NIPA5121230 // BASE SILVER GOLD",
@@ -18133,7 +18161,7 @@
             "Dia": "07/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RIAN7173608",
