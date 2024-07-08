@@ -1,7 +1,7 @@
 [
     {
         "NUM": "FWC0",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 4500,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -217,7 +217,7 @@
     },
     {
         "NUM": "FWC24",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 3500,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -235,7 +235,7 @@
     },
     {
         "NUM": "FWC26",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 3500,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -613,7 +613,7 @@
     },
     {
         "NUM": "BEL1",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 3500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -811,7 +811,7 @@
     },
     {
         "NUM": "BRA4",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 750,
         "TIPO": "Comunes",
         "DIA": "04/06/2024",
@@ -946,7 +946,7 @@
     },
     {
         "NUM": "BRA19",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 3500,
         "TIPO": "Comunes",
         "DIA": "04/06/2024",
@@ -4204,7 +4204,7 @@
     },
     {
         "NUM": "POR1",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 3500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
