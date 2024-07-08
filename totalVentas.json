@@ -9122,6 +9122,78 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SOLS1308",
+            "Vendidas": [
+                "INT2",
+                "INT3",
+                "USA14",
+                "USA18",
+                "BRA1",
+                "BRA12",
+                "BRA14",
+                "COL8",
+                "LEG2",
+                "LEG15",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SEBA.R84",
+            "Vendidas": [
+                "PER2",
+                "JAM14",
+                "CAN16",
+                "ROH1",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MARTINCALVO79",
+            "Vendidas": [
+                "INT1",
+                "INT2",
+                "HCI7",
+                "ARG10",
+                "ARG18",
+                "VEN14",
+                "USA22",
+                "URU1",
+                "PAN1",
+                "PAN10",
+                "BRA16",
+                "COL22",
+                "HON18",
+                "TRI10",
+                "LEG17"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "JMA1989",
+            "Vendidas": [
+                "ARG3"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -17993,7 +18065,7 @@
             "PREPARADO": "NO"
         },
         {
-            "usuario": "+54 9 11 2463-8233 // BASE BRONCE SILVER GOLD",
+            "usuario": "CARLOS MICCIULLO // BASE BRONCE SILVER GOLD",
             "Vendidas": [
                 "FWC2",
                 "CRO5",
@@ -18008,7 +18080,7 @@
             "PREPARADO": "NO"
         },
         {
-            "usuario": "NIPA5121230 BASE SILVER GOLD",
+            "usuario": "NIPA5121230 // BASE SILVER GOLD",
             "Vendidas": [
                 "FWC3",
                 "FWC26",
@@ -18033,6 +18105,17 @@
             "Dia": "07/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "RIAN7173608",
+            "Vendidas": [
+                "ESP1"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],
