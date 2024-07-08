@@ -9194,6 +9194,34 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SUPERFEDE79",
+            "Vendidas": [
+                "ARG2",
+                "VEN19",
+                "BOL3",
+                "COL1",
+                "LEG15",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PATRICIA_HOY",
+            "Vendidas": [
+                "LEG9",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

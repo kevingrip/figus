@@ -107,7 +107,7 @@
     {
         "NUM": "ARG2",
         "TIPO": "EQUIPO",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 3000,
         "NOMBRE": "TEAM ARG"
     },
@@ -996,7 +996,7 @@
     {
         "NUM": "VEN19",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "JEFFERSON SAVARINO"
     },
@@ -1654,7 +1654,7 @@
     {
         "NUM": "BOL3",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "CARLOS LAMPE"
     },
@@ -1948,7 +1948,7 @@
     {
         "NUM": "COL1",
         "TIPO": "ESCUDO",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2000,
         "NOMBRE": "COL ESC"
     },
@@ -2928,7 +2928,7 @@
     {
         "NUM": "LEG9",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 4500,
         "NOMBRE": "RONALDINHO"
     },
@@ -2970,7 +2970,7 @@
     {
         "NUM": "LEG15",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 3000,
         "NOMBRE": "PAOLO GUERRERO"
     },
@@ -2991,14 +2991,14 @@
     {
         "NUM": "LEG18",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 3000,
         "NOMBRE": "ALEXIS SANCHEZ"
     },
     {
         "NUM": "ROH1",
         "TIPO": "CAMPEON LEFT DORADA",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 6000,
         "NOMBRE": "Roll of Honor 1"
     },
