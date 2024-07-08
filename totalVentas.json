@@ -9360,6 +9360,41 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LUISCARROSCIA",
+            "Vendidas": [
+                "ARG1",
+                "ARG9",
+                "ECU1",
+                "VEN1",
+                "PAN1",
+                "BOL1",
+                "BRA1",
+                "CRC1",
+                "LEG8",
+                "LEG10",
+                "LEG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "DIPOIDE",
+            "Vendidas": [
+                "CHI12",
+                "VEN20",
+                "VEN22",
+                "PAR11"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
