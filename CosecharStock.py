@@ -29,6 +29,7 @@ def cosecharStock(base):
     eleccionFigurita = []
     paisesError = []
     listaPaises = []
+    suplentes = []
     
 
     seguirAgregando = True
@@ -39,7 +40,6 @@ def cosecharStock(base):
 
     with open(base,"r") as baseJson:
         baseTotal = json.load(baseJson)
-            
     
 
 
@@ -172,6 +172,7 @@ def cosecharStock(base):
                             print ("[+"+str(cantidadTotal)+"]       "+figuActual+' <<< '+str(fila["NUM"])+": >>> "+figuNueva)
                         else:
                             print("No agregar")
+                            suplentes.append(fila["NUM"])
             else:
                 print("Cantidad Total agregada: ",cantidadTotal)
 
@@ -189,6 +190,8 @@ def cosecharStock(base):
                 seguirAgregando = False
                 mismoPais = False
                 eleccionFigurita = []
+                with open ("suplentes.json","w") as sup:
+                    json.dump(suplentes,sup,indent=4)
             
             if seleccionarFigurita == "Cambiar Pais":
                 mismoPais = False

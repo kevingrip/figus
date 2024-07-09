@@ -11995,6 +11995,131 @@
                 "CAN14",
                 "CRC18"
             ]
+        },
+        {
+            "usuario": "APMALE",
+            "figusPedidas": [
+                "CHI13",
+                "CHI21",
+                "CHI9",
+                "ECU11",
+                "ECU9",
+                "MEX15",
+                "MEX4",
+                "PER18",
+                "PER3",
+                "PER5"
+            ]
+        },
+        {
+            "usuario": "MARIALUJANGT",
+            "figusPedidas": [
+                "ARG8",
+                "BOL10",
+                "HON1",
+                "HON22",
+                "INT2",
+                "INT3",
+                "PAN17",
+                "PAR1",
+                "PAR8",
+                "PER1",
+                "ROH1",
+                "ROH2",
+                "TRI1"
+            ]
+        },
+        {
+            "usuario": "GVV_C",
+            "figusPedidas": [
+                "INT3",
+                "INT4",
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "ARNA9286725",
+            "figusPedidas": [
+                "ROH1",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "PALM8",
+            "figusPedidas": [
+                "ARG19",
+                "ARG4",
+                "COL18",
+                "URU1",
+                "URU2"
+            ]
+        },
+        {
+            "usuario": "OLGAPIOPPO",
+            "figusPedidas": [
+                "ARG10",
+                "ARG18",
+                "ARG22",
+                "ARG8",
+                "CHI10",
+                "COL17",
+                "COL5",
+                "JAM1",
+                "JAM7",
+                "MEX1",
+                "MEX16",
+                "MEX20",
+                "MEX22",
+                "MEX7",
+                "MEX8",
+                "PAN5",
+                "PAN8",
+                "PAR12",
+                "PAR6",
+                "PAR7",
+                "PER4",
+                "URU2",
+                "USA17",
+                "VEN18"
+            ]
+        },
+        {
+            "usuario": "RAULKARO",
+            "figusPedidas": [
+                "BOL13"
+            ]
+        },
+        {
+            "usuario": "LULUZU_DRA",
+            "figusPedidas": [
+                "BRA16",
+                "CHI13",
+                "CHI17",
+                "HON3",
+                "INT4",
+                "TRI10",
+                "TRI5"
+            ]
+        },
+        {
+            "usuario": "GOLFER75",
+            "figusPedidas": [
+                "CRC16",
+                "CRC21",
+                "INT1",
+                "LEG14",
+                "LEG9"
+            ]
+        },
+        {
+            "usuario": "GOLFER75",
+            "figusPedidas": [
+                "CRC16",
+                "CRC21",
+                "INT1",
+                "LEG14",
+                "LEG9"
+            ]
         }
     ]
 }
