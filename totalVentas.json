@@ -9395,6 +9395,44 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "FERNANCARVAJAL",
+            "Vendidas": [
+                "PER16",
+                "MEX10",
+                "MEX22",
+                "USA7",
+                "USA13",
+                "USA21",
+                "PAN6",
+                "PAN20"
+            ],
+            "NoVendidas": [
+                "JAM4",
+                "HON1"
+            ],
+            "Dia": "09/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PABLOBELTRAMO",
+            "Vendidas": [
+                "ARG5",
+                "ARG13",
+                "COL2",
+                "TRI1",
+                "LEG6",
+                "LEG13",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
