@@ -199,7 +199,7 @@
     },
     {
         "NUM": "FWC22",
-        "CANT": 0,
+        "CANT": 4,
         "PRECIO": 3500,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -208,7 +208,7 @@
     },
     {
         "NUM": "FWC23",
-        "CANT": 1,
+        "CANT": 3,
         "PRECIO": 3500,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -784,7 +784,7 @@
     },
     {
         "NUM": "BRA1",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 3500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -955,7 +955,7 @@
     },
     {
         "NUM": "CAN1",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 3500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -1126,7 +1126,7 @@
     },
     {
         "NUM": "CMR1",
-        "CANT": 0,
+        "CANT": 3,
         "PRECIO": 3500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -1297,7 +1297,7 @@
     },
     {
         "NUM": "CRC1",
-        "CANT": 1,
+        "CANT": 3,
         "PRECIO": 3500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -1468,7 +1468,7 @@
     },
     {
         "NUM": "CRO1",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 3500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -3007,7 +3007,7 @@
     },
     {
         "NUM": "JPN1",
-        "CANT": 0,
+        "CANT": 5,
         "PRECIO": 3500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -4546,7 +4546,7 @@
     },
     {
         "NUM": "SEN1",
-        "CANT": 0,
+        "CANT": 5,
         "PRECIO": 3500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -4717,7 +4717,7 @@
     },
     {
         "NUM": "SRB1",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 3500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -5059,7 +5059,7 @@
     },
     {
         "NUM": "TUN1",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 3500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
