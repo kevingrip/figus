@@ -9322,17 +9322,6 @@
             "PREPARADO": "NO"
         },
         {
-            "usuario": "gustavo",
-            "Vendidas": [
-                "CHI19"
-            ],
-            "NoVendidas": [],
-            "Dia": "08/07/2024",
-            "Cuenta": "KEVIN",
-            "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
-        },
-        {
             "usuario": "GUADALUPEPEREZMOYANO",
             "Vendidas": [
                 "INT1",
@@ -9431,6 +9420,81 @@
             "NoVendidas": [],
             "Dia": "09/07/2024",
             "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "VALLANSRL",
+            "Vendidas": [
+                "HCI6",
+                "ARG16",
+                "ARG18",
+                "PER3",
+                "PER5",
+                "PER6",
+                "PER14",
+                "CHI4",
+                "CHI6",
+                "CHI10",
+                "CHI14",
+                "CHI22",
+                "MEX1",
+                "MEX8",
+                "MEX10",
+                "MEX12",
+                "MEX20",
+                "MEX22",
+                "ECU10",
+                "ECU12",
+                "VEN10",
+                "JAM2",
+                "JAM20",
+                "USA1",
+                "PAN6",
+                "PAN12",
+                "PAN14",
+                "PAN16",
+                "PAN22",
+                "BOL8",
+                "BOL10",
+                "BRA4",
+                "BRA8",
+                "BRA10",
+                "BRA12",
+                "BRA22",
+                "COL2",
+                "COL4",
+                "COL8",
+                "COL10",
+                "COL12",
+                "COL14",
+                "COL16",
+                "COL22",
+                "PAR3",
+                "PAR7",
+                "PAR12",
+                "PAR16",
+                "PAR19",
+                "CAN4",
+                "CAN12"
+            ],
+            "NoVendidas": [
+                "PAR18"
+            ],
+            "Dia": "09/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "CAYA1373717",
+            "Vendidas": [
+                "CAN14",
+                "CRC18"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/07/2024",
+            "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
         }

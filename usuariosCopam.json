@@ -11931,6 +11931,70 @@
                 "LEG12",
                 "MEX13"
             ]
+        },
+        {
+            "usuario": "VALLANSRL",
+            "figusPedidas": [
+                "ARG16",
+                "ARG18",
+                "BOL10",
+                "BOL8",
+                "BRA10",
+                "BRA12",
+                "BRA22",
+                "BRA4",
+                "BRA8",
+                "CAN12",
+                "CAN4",
+                "CHI10",
+                "CHI14",
+                "CHI22",
+                "CHI4",
+                "CHI6",
+                "COL10",
+                "COL12",
+                "COL14",
+                "COL16",
+                "COL2",
+                "COL22",
+                "COL4",
+                "COL8",
+                "ECU10",
+                "ECU12",
+                "HCI6",
+                "JAM2",
+                "JAM20",
+                "MEX1",
+                "MEX10",
+                "MEX12",
+                "MEX20",
+                "MEX22",
+                "MEX8",
+                "PAN12",
+                "PAN14",
+                "PAN16",
+                "PAN22",
+                "PAN6",
+                "PAR12",
+                "PAR16",
+                "PAR18",
+                "PAR19",
+                "PAR3",
+                "PAR7",
+                "PER14",
+                "PER3",
+                "PER5",
+                "PER6",
+                "USA1",
+                "VEN10"
+            ]
+        },
+        {
+            "usuario": "CAYA1373717",
+            "figusPedidas": [
+                "CAN14",
+                "CRC18"
+            ]
         }
     ]
 }
