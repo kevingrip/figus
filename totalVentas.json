@@ -9653,6 +9653,70 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LUNAELISA09",
+            "Vendidas": [
+                "MEX8",
+                "PAR1",
+                "PAR4",
+                "PAR17",
+                "LEG9"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ROMA2306500",
+            "Vendidas": [
+                "HCI6",
+                "ARG1",
+                "ARG13",
+                "PER3",
+                "PER10",
+                "PER15",
+                "CHI5",
+                "CHI21",
+                "MEX14",
+                "ECU3",
+                "ECU18",
+                "ECU21",
+                "VEN5",
+                "VEN22",
+                "JAM7",
+                "JAM12",
+                "JAM14",
+                "USA15",
+                "PAN3",
+                "PAN17",
+                "BOL12",
+                "BRA11",
+                "COL7",
+                "COL11",
+                "PAR3",
+                "PAR20",
+                "CAN3",
+                "CAN5",
+                "CAN9",
+                "CAN21",
+                "CRC2",
+                "CRC5",
+                "CRC11",
+                "CRC18",
+                "TRI16",
+                "TRI17"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "CHI7"
+            ],
+            "Dia": "09/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
