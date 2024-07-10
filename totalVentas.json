@@ -9652,7 +9652,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUNAELISA09",
@@ -9795,6 +9795,18 @@
             "Dia": "10/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MAXITOXL",
+            "Vendidas": [
+                "BRA10",
+                "BRA18"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],

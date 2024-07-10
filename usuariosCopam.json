@@ -12891,6 +12891,93 @@
                 "USA16",
                 "VEN21"
             ]
+        },
+        {
+            "usuario": "MAXITOXL",
+            "figusPedidas": [
+                "BRA10",
+                "BRA18"
+            ]
+        },
+        {
+            "usuario": "VANEMAR1980",
+            "figusPedidas": [
+                "CHI6",
+                "CRC12",
+                "CRC16",
+                "CRC3",
+                "ECU12",
+                "HCI4",
+                "JAM17",
+                "MEX10",
+                "MEX15",
+                "ROH1",
+                "TRI1",
+                "TRI10",
+                "TRI2",
+                "TRI4"
+            ]
+        },
+        {
+            "usuario": "ROCIOPECHINENDA",
+            "figusPedidas": [
+                "LEG12",
+                "ROH1",
+                "VEN21"
+            ]
+        },
+        {
+            "usuario": "SEBA PAGNUCCO",
+            "figusPedidas": [
+                "ARG1",
+                "ARG19",
+                "ARG2",
+                "ECU13",
+                "HON21",
+                "JAM9",
+                "PAN19",
+                "PAN5"
+            ]
+        },
+        {
+            "usuario": "VALE_SAN3",
+            "figusPedidas": [
+                "ARG11",
+                "ARG14",
+                "ARG15",
+                "ARG21",
+                "ARG5",
+                "ARG6",
+                "ARG9",
+                "BRA18",
+                "LEG10",
+                "LEG11",
+                "LEG13",
+                "ROH1",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "MAJOVILE",
+            "figusPedidas": [
+                "ARG20",
+                "ARG22",
+                "ARG7",
+                "INT1"
+            ]
+        },
+        {
+            "usuario": "DMD84",
+            "figusPedidas": [
+                "COL3",
+                "ECU2",
+                "HCI2",
+                "HON21",
+                "LEG14",
+                "MEX15",
+                "ROH1",
+                "USA2"
+            ]
         }
     ]
 }

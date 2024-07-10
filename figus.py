@@ -742,3 +742,5 @@ elif (album == "Copa America 2024"):
             actualizarFecha(None)
         elif subInicioBDD == "Cosechar":
             cosecharStock(baseCopam)
+            actualizarFecha(None)
+
