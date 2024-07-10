@@ -9534,6 +9534,125 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LULUZU_DRA",
+            "Vendidas": [
+                "CHI13",
+                "CHI17",
+                "BRA16",
+                "HON3",
+                "TRI5",
+                "TRI10"
+            ],
+            "NoVendidas": [
+                "INT4"
+            ],
+            "Dia": "09/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PABLOAA86",
+            "Vendidas": [
+                "VEN5",
+                "USA7",
+                "USA17",
+                "BOL17",
+                "BRA14",
+                "LEG3"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ALEGREMARIA20230829111539",
+            "Vendidas": [
+                "HCI3",
+                "ARG3",
+                "CHI7",
+                "CHI11",
+                "CHI16",
+                "MEX3",
+                "MEX21",
+                "JAM5",
+                "JAM11",
+                "USA2",
+                "PAN3",
+                "PAN9",
+                "PAN21",
+                "BOL8",
+                "BRA9",
+                "BRA14",
+                "BRA21",
+                "COL1",
+                "COL3",
+                "COL21",
+                "PAR9",
+                "PAR17",
+                "CAN3",
+                "CAN20",
+                "CRC6",
+                "CRC8",
+                "HON15",
+                "TRI5",
+                "TRI13",
+                "LEG8"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT4",
+                "PAR16",
+                "ROH2"
+            ],
+            "Dia": "09/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MALENA6",
+            "Vendidas": [
+                "HCI6",
+                "ARG1",
+                "ARG4",
+                "ARG17",
+                "LEG1",
+                "LEG6",
+                "LEG10",
+                "LEG11"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT4"
+            ],
+            "Dia": "09/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PAOLAFORTI",
+            "Vendidas": [
+                "ARG4",
+                "ARG6",
+                "ARG14",
+                "ARG16",
+                "ARG18",
+                "ARG21",
+                "ARG22"
+            ],
+            "NoVendidas": [
+                "ARG19"
+            ],
+            "Dia": "09/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
