@@ -9717,6 +9717,32 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CLAUDINE2020",
+            "Vendidas": [
+                "LEG3",
+                "LEG6",
+                "LEG8",
+                "LEG13"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "DINU",
+            "Vendidas": [
+                "TRI11",
+                "TRI15"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
