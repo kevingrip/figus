@@ -1,14 +1,14 @@
 [
     {
         "nombre": "VLAHOVIC",
-        "BASE": 6,
+        "BASE": 5,
         "BRONZE": 2,
         "SILVER": 0,
         "GOLD": 0
     },
     {
         "nombre": "VARANE",
-        "BASE": 6,
+        "BASE": 5,
         "BRONZE": 1,
         "SILVER": 0,
         "GOLD": 0
@@ -25,7 +25,7 @@
         "BASE": 0,
         "BRONZE": 1,
         "SILVER": 0,
-        "GOLD": 1
+        "GOLD": 0
     },
     {
         "nombre": "REYNA",
@@ -106,7 +106,7 @@
     },
     {
         "nombre": "ERIKSEN",
-        "BASE": 5,
+        "BASE": 4,
         "BRONZE": 3,
         "SILVER": 0,
         "GOLD": 0

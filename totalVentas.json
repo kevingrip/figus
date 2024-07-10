@@ -8912,7 +8912,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANDREUANDRES20231027130635",
@@ -9289,7 +9289,7 @@
             "Dia": "08/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "THEPINKLOVE",
@@ -9319,7 +9319,7 @@
             "Dia": "08/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GUADALUPEPEREZMOYANO",
@@ -9369,7 +9369,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DIPOIDE",
@@ -9383,7 +9383,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANGELA",
@@ -9415,7 +9415,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PABLOBELTRAMO",
@@ -9633,7 +9633,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PAOLAFORTI",
@@ -9716,7 +9716,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "CLAUDINE2020",
@@ -9742,7 +9742,26 @@
             "Dia": "10/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "LUNAFELIPE20210915152228",
+            "Vendidas": [
+                "INT3",
+                "HCI3",
+                "ARG8",
+                "CHI13",
+                "BOL17",
+                "CRC22",
+                "HON19",
+                "TRI8",
+                "JAM4"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
