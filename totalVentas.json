@@ -9807,6 +9807,18 @@
             "Dia": "10/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MARIASOLEDAD15",
+            "Vendidas": [
+                "INT1",
+                "HON16"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],
