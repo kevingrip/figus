@@ -12803,6 +12803,94 @@
                 "VEN2",
                 "VEN5"
             ]
+        },
+        {
+            "usuario": "GASTONCOHENCA",
+            "figusPedidas": [
+                "BRA18",
+                "BRA6",
+                "CAN13",
+                "CAN4",
+                "CAN6",
+                "COL14",
+                "COL16",
+                "CRC10",
+                "INT2",
+                "INT3",
+                "INT4",
+                "JAM10",
+                "LEG18",
+                "LEG5",
+                "LEG9",
+                "PAN6",
+                "PAR7",
+                "ROH1",
+                "ROH2",
+                "VEN14",
+                "VEN18",
+                "VEN22"
+            ]
+        },
+        {
+            "usuario": "ROCOSOFIALORENZO",
+            "figusPedidas": [
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "MILAGROSLABAYEN1984",
+            "figusPedidas": [
+                "ARG12",
+                "CAN2",
+                "COL10",
+                "CRC13",
+                "CRC17",
+                "ECU18",
+                "ECU5",
+                "HON11",
+                "INT3",
+                "INT4",
+                "LEG10",
+                "LEG3",
+                "MEX14",
+                "PAN11",
+                "PAN7",
+                "PAR9",
+                "PER8",
+                "TRI12",
+                "URU2",
+                "USA15",
+                "USA16",
+                "VEN21"
+            ]
+        },
+        {
+            "usuario": "MILAGROSLABAYEN1984",
+            "figusPedidas": [
+                "ARG12",
+                "BOL4",
+                "CAN2",
+                "COL10",
+                "CRC13",
+                "CRC17",
+                "ECU18",
+                "ECU5",
+                "HON11",
+                "INT3",
+                "INT4",
+                "LEG10",
+                "LEG3",
+                "MEX14",
+                "PAN11",
+                "PAN7",
+                "PAR9",
+                "PER8",
+                "TRI12",
+                "URU2",
+                "USA15",
+                "USA16",
+                "VEN21"
+            ]
         }
     ]
 }

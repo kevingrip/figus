@@ -8986,7 +8986,7 @@
             "Dia": "06/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ARIROMERO2010",
@@ -9507,7 +9507,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RAULKARO",
@@ -9533,7 +9533,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LULUZU_DRA",
@@ -9567,7 +9567,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ALEGREMARIA20230829111539",
@@ -9612,7 +9612,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MALENA6",
@@ -9667,7 +9667,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROMA2306500",
@@ -9730,7 +9730,7 @@
             "Dia": "10/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DINU",
@@ -9762,6 +9762,40 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MILAGROSLABAYEN1984",
+            "Vendidas": [
+                "INT4",
+                "ARG12",
+                "PER8",
+                "MEX14",
+                "ECU5",
+                "ECU18",
+                "VEN21",
+                "USA15",
+                "USA16",
+                "URU2",
+                "PAN7",
+                "PAN11",
+                "BOL4",
+                "COL10",
+                "PAR9",
+                "CAN2",
+                "CRC13",
+                "CRC17",
+                "HON11",
+                "TRI12",
+                "LEG3",
+                "LEG10"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "10/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -18700,6 +18734,17 @@
             "NoVendidas": [],
             "Dia": "08/07/2024",
             "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "CAMI1266736",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/07/2024",
+            "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "SI"
         }
