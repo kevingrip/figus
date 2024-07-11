@@ -9843,6 +9843,37 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GOLIADOR",
+            "Vendidas": [
+                "BRA5",
+                "CRC17"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "DIANA_S_",
+            "Vendidas": [
+                "ARG1",
+                "CHI21",
+                "USA10",
+                "PAN18",
+                "PAR13",
+                "CRC19",
+                "HON3",
+                "HON19",
+                "LEG2"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
