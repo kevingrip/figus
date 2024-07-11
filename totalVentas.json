@@ -9819,7 +9819,7 @@
             "Dia": "10/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VANEMAR1980",
@@ -9842,7 +9842,7 @@
             "Dia": "10/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GOLIADOR",
@@ -9885,7 +9885,7 @@
             "Dia": "11/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOFIACOLOTTO",
@@ -9924,7 +9924,7 @@
             "Dia": "11/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "AGUILARNALEX",
@@ -9960,6 +9960,95 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "AGONALDIEGO",
+            "Vendidas": [
+                "ARG11",
+                "JAM6",
+                "JAM22",
+                "USA12",
+                "PAN3",
+                "BOL1"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ZUCCOSANTIAGO20210922184738",
+            "Vendidas": [
+                "ARG7",
+                "CHI1",
+                "CHI2",
+                "MEX10",
+                "ECU6",
+                "JAM1",
+                "USA2",
+                "USA7",
+                "PAN16",
+                "BOL13",
+                "BRA15",
+                "COL8",
+                "COL9",
+                "PAR2",
+                "CAN3",
+                "CAN14",
+                "CRC8",
+                "CRC13",
+                "HON12",
+                "TRI4",
+                "TRI6",
+                "LEG2"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "BRA14",
+                "LEG6",
+                "JAM3"
+            ],
+            "Dia": "11/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CASTROANAHI60",
+            "Vendidas": [
+                "HCI6",
+                "HCI7",
+                "ARG13",
+                "ECU15",
+                "VEN13",
+                "USA13",
+                "PAR1",
+                "CAN9",
+                "CAN21",
+                "CRC5",
+                "CRC11",
+                "CRC13",
+                "HON4",
+                "HON9",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GAGU5701996",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -18911,6 +19000,21 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "RDMTILESGROUP",
+            "Vendidas": [
+                "FWC27",
+                "FWC28",
+                "CAN1",
+                "CRC1",
+                "GER1"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [

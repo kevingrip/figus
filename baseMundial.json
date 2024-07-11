@@ -244,7 +244,7 @@
     },
     {
         "NUM": "FWC27",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 3000,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -253,7 +253,7 @@
     },
     {
         "NUM": "FWC28",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 3000,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -955,7 +955,7 @@
     },
     {
         "NUM": "CAN1",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 3000,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -1297,7 +1297,7 @@
     },
     {
         "NUM": "CRC1",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 3000,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -2494,7 +2494,7 @@
     },
     {
         "NUM": "GER1",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 3000,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
