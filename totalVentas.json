@@ -10059,7 +10059,7 @@
             "Dia": "11/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GABY1479",
@@ -10070,6 +10070,50 @@
                 "COL2",
                 "COL15",
                 "PAR16"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "DIEGOFABIANGONZALEZ",
+            "Vendidas": [
+                "USA17"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PATRICIA_HOY",
+            "Vendidas": [
+                "HON13"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GURFEINEDGARDO",
+            "Vendidas": [
+                "PER9",
+                "CHI19",
+                "CHI21",
+                "MEX13",
+                "VEN21",
+                "JAM1",
+                "BOL11",
+                "BOL19",
+                "COL17",
+                "HON13",
+                "TRI3",
+                "TRI9"
             ],
             "NoVendidas": [],
             "Dia": "11/07/2024",
@@ -19042,6 +19086,17 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "CUEVASLUCAS20220107222323",
+            "Vendidas": [
+                "AUS4"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
