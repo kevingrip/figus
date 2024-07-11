@@ -9854,7 +9854,7 @@
             "Dia": "10/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DIANA_S_",
@@ -9873,7 +9873,7 @@
             "Dia": "11/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROSALBASEQUEIRA",
@@ -9937,7 +9937,29 @@
             "Dia": "11/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MAX2003_866",
+            "Vendidas": [
+                "INT1",
+                "ECU5",
+                "CAN9",
+                "CAN13",
+                "LEG2",
+                "LEG4",
+                "LEG9",
+                "LEG13",
+                "LEG14",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "INT4"
+            ],
+            "Dia": "11/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
