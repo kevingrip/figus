@@ -13986,6 +13986,72 @@
                 "CRC10",
                 "CRC21"
             ]
+        },
+        {
+            "usuario": "LOR_P2008",
+            "figusPedidas": [
+                "COL1",
+                "LEG13",
+                "LEG3",
+                "LEG4"
+            ]
+        },
+        {
+            "usuario": "LOR_P2008",
+            "figusPedidas": [
+                "COL1",
+                "ECU18",
+                "LEG13",
+                "LEG3",
+                "LEG4",
+                "USA12",
+                "VEN12",
+                "VEN21"
+            ]
+        },
+        {
+            "usuario": "NATIICEBALLOS",
+            "figusPedidas": [
+                "BOL13",
+                "BRA16",
+                "BRA17",
+                "BRA18",
+                "CAN12",
+                "CAN14",
+                "CHI13",
+                "CHI17",
+                "COL14",
+                "COL16",
+                "COL2",
+                "CRC11",
+                "CRC15",
+                "CRC17",
+                "ECU12",
+                "ECU5",
+                "HON14",
+                "HON15",
+                "JAM7",
+                "JAM8",
+                "LEG18",
+                "PAN12",
+                "PAN14",
+                "PAN16",
+                "PAR12",
+                "USA1",
+                "USA4",
+                "VEN1",
+                "VEN12",
+                "VEN19",
+                "VEN2",
+                "VEN20",
+                "VEN21"
+            ]
+        },
+        {
+            "usuario": "VANEMAR1980",
+            "figusPedidas": [
+                "CAN5"
+            ]
         }
     ]
 }
