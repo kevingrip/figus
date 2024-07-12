@@ -10131,6 +10131,140 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "RUSA6",
+            "Vendidas": [
+                "ARG12",
+                "BOL21",
+                "BRA11",
+                "CRC10",
+                "CRC21"
+            ],
+            "NoVendidas": [],
+            "Dia": "12/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "JMA1989",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "12/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ROMANDEGESE2008",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "12/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "TATUTITE2007",
+            "Vendidas": [
+                "INT1",
+                "CHI14",
+                "CRC14"
+            ],
+            "NoVendidas": [
+                "LEG14"
+            ],
+            "Dia": "12/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "NOELIASPONTON",
+            "Vendidas": [
+                "INT3",
+                "ECU16",
+                "VEN3",
+                "VEN15",
+                "JAM15",
+                "BOL22",
+                "PAR9",
+                "PAR10"
+            ],
+            "NoVendidas": [],
+            "Dia": "12/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ELDAFCOSSINI",
+            "Vendidas": [
+                "PER13",
+                "CHI3",
+                "MEX9",
+                "MEX13",
+                "MEX19",
+                "JAM17",
+                "JAM19",
+                "PAN3",
+                "BOL1",
+                "BOL3",
+                "BOL5",
+                "BOL13",
+                "BRA13",
+                "COL9",
+                "COL19",
+                "CRC17",
+                "LEG2",
+                "LEG15",
+                "LAPADULA BASE"
+            ],
+            "NoVendidas": [],
+            "Dia": "12/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ARIROMERO2010",
+            "Vendidas": [
+                "PER2",
+                "PER8",
+                "PER9",
+                "PER10",
+                "PER14",
+                "PER16",
+                "PER18",
+                "CHI1",
+                "CHI2",
+                "CHI3",
+                "CHI4",
+                "CHI11",
+                "CHI13",
+                "CHI17",
+                "CHI19",
+                "CHI22",
+                "ECU7",
+                "ECU9",
+                "ECU10",
+                "ECU11",
+                "ECU13",
+                "ECU17",
+                "ECU18",
+                "ECU20",
+                "ECU22"
+            ],
+            "NoVendidas": [],
+            "Dia": "12/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
