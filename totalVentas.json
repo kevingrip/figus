@@ -10326,6 +10326,97 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LUMAZA11",
+            "Vendidas": [
+                "CHI1",
+                "CHI20",
+                "VEN15",
+                "PAN5",
+                "BOL3",
+                "COL17",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "13/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ALDANAJUDITGIROTTI",
+            "Vendidas": [
+                "VEN7",
+                "USA2",
+                "BRA11",
+                "PAR20",
+                "HON5",
+                "HON17",
+                "TRI5"
+            ],
+            "NoVendidas": [
+                "INT1"
+            ],
+            "Dia": "13/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GONZALO.GSG",
+            "Vendidas": [
+                "ARG12",
+                "ARG19",
+                "MEX1",
+                "MEX13",
+                "ECU4",
+                "ECU21",
+                "VEN15",
+                "JAM19",
+                "JAM22",
+                "USA15"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CATY_MAINARDI",
+            "Vendidas": [
+                "MEX17",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LUMA2862279",
+            "Vendidas": [
+                "HCI4",
+                "ARG6",
+                "ARG8",
+                "ARG10",
+                "ARG17",
+                "ARG22",
+                "JAM16",
+                "JAM20",
+                "URU2",
+                "LEG18",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
