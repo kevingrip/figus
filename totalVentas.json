@@ -10417,6 +10417,75 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SOLCYTO65",
+            "Vendidas": [
+                "HCI2",
+                "ARG3",
+                "ARG7",
+                "ARG19",
+                "ARG20",
+                "CHI2",
+                "MEX2",
+                "URU1",
+                "PAN2",
+                "PAN6",
+                "BOL1",
+                "BOL15",
+                "BRA1",
+                "BRA2",
+                "PAR1",
+                "CRC3",
+                "HON5",
+                "HON7",
+                "HON18",
+                "TRI2",
+                "TRI7",
+                "TRI9",
+                "LEG1",
+                "LEG9",
+                "LEG15",
+                "LEG16",
+                "LEG17",
+                "LEG18",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT4",
+                "COL2",
+                "ROH1"
+            ],
+            "Dia": "13/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "NACHO_SCELATTO",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GUSTAVOALEJANDROZELAYA",
+            "Vendidas": [
+                "ARG1",
+                "ARG6",
+                "ARG11",
+                "ARG20"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
