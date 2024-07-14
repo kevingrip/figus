@@ -10145,7 +10145,7 @@
             "Dia": "12/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JMA1989",
@@ -10167,7 +10167,7 @@
             "Dia": "12/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TATUTITE2007",
@@ -10229,7 +10229,7 @@
             "Dia": "12/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ARIROMERO2010",
@@ -10471,7 +10471,7 @@
             "Dia": "13/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GUSTAVOALEJANDROZELAYA",
@@ -10645,6 +10645,37 @@
             "Dia": "14/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "OLGAPIOPPO",
+            "Vendidas": [
+                "ARG8",
+                "MEX1",
+                "VEN18",
+                "USA17",
+                "PAR12",
+                "TRI5"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "VENUSYATENEA",
+            "Vendidas": [
+                "ARG1",
+                "ARG3",
+                "ARG5",
+                "ARG15",
+                "TRI1"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],
