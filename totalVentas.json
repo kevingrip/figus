@@ -10625,6 +10625,27 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GENA1642",
+            "Vendidas": [
+                "ARG1 (X2)",
+                "ARG3",
+                "ARG5 (X2)",
+                "ARG6",
+                "ARG8",
+                "ARG12",
+                "ARG14",
+                "ARG16"
+            ],
+            "NoVendidas": [
+                "INT4",
+                "ARG19"
+            ],
+            "Dia": "14/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
