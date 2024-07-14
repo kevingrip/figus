@@ -15210,6 +15210,65 @@
                 "ECU3",
                 "INT2"
             ]
+        },
+        {
+            "usuario": "AJB370",
+            "figusPedidas": [
+                "CRC9",
+                "HCI1",
+                "HON11",
+                "HON14",
+                "HON18",
+                "INT2",
+                "LEG12",
+                "LEG18",
+                "LEG4",
+                "PAN18",
+                "PAR20",
+                "TRI13",
+                "TRI17",
+                "VEN12"
+            ]
+        },
+        {
+            "usuario": "MELISABONACCI",
+            "figusPedidas": [
+                "ARG1",
+                "ARG18",
+                "CHI10",
+                "CHI13",
+                "CHI14",
+                "CHI15",
+                "CHI18",
+                "CHI20",
+                "CHI22",
+                "INT1",
+                "INT3",
+                "MEX18",
+                "MEX20",
+                "MEX22",
+                "MEX3",
+                "MEX4",
+                "MEX6",
+                "PER14",
+                "PER4",
+                "PER6",
+                "PER9"
+            ]
+        },
+        {
+            "usuario": "FLORENCIASALEME",
+            "figusPedidas": [
+                "ARG10",
+                "ARG14",
+                "ARG21",
+                "ARG7",
+                "ARG8",
+                "CAN1",
+                "CAN20",
+                "INT1",
+                "INT3"
+            ]
         }
     ]
 }
