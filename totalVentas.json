@@ -10504,6 +10504,102 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MARIANOSCHLEGEL",
+            "Vendidas": [
+                "ECU1",
+                "JAM17",
+                "PAN5"
+            ],
+            "NoVendidas": [
+                "ARG19"
+            ],
+            "Dia": "14/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SAMPERPAULA",
+            "Vendidas": [
+                "ARG12",
+                "ARG13",
+                "ARG20",
+                "PER2",
+                "ECU2",
+                "ECU3",
+                "ECU14",
+                "VEN15",
+                "JAM2",
+                "JAM3",
+                "JAM5",
+                "PAN3",
+                "PAN19",
+                "BOL2",
+                "BOL3",
+                "BOL22",
+                "CRC4",
+                "CRC5",
+                "CRC8",
+                "CRC10",
+                "CRC13",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GUILLERMOCUTULI",
+            "Vendidas": [
+                "VEN15",
+                "PAN18",
+                "HON10"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "CALIGARISSACHERI",
+            "Vendidas": [
+                "HON16",
+                "LEG9"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SOLESCA",
+            "Vendidas": [
+                "HCI4",
+                "HCI9",
+                "VEN5",
+                "VEN12",
+                "JAM16",
+                "USA17",
+                "BOL16",
+                "BOL21",
+                "COL8",
+                "CAN14",
+                "CRC8",
+                "CRC10",
+                "CRC20",
+                "CRC22"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

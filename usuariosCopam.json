@@ -14832,6 +14832,127 @@
                 "TRI14",
                 "VEN3"
             ]
+        },
+        {
+            "usuario": "MARIANOSCHLEGEL",
+            "figusPedidas": [
+                "ARG19",
+                "ECU1",
+                "JAM17",
+                "PAN5"
+            ]
+        },
+        {
+            "usuario": "SAMPERPAULA",
+            "figusPedidas": [
+                "ARG12",
+                "ARG13",
+                "ARG20",
+                "BOL2",
+                "BOL22",
+                "BOL3",
+                "CRC10",
+                "CRC13",
+                "CRC4",
+                "CRC5",
+                "CRC8",
+                "ECU14",
+                "ECU2",
+                "ECU3",
+                "JAM2",
+                "JAM3",
+                "JAM5",
+                "PAN19",
+                "PAN3",
+                "PER2",
+                "ROH2",
+                "VEN15"
+            ]
+        },
+        {
+            "usuario": "GUILLERMOCUTULI",
+            "figusPedidas": [
+                "HON10",
+                "PAN18",
+                "VEN15"
+            ]
+        },
+        {
+            "usuario": "DAY_B_07",
+            "figusPedidas": [
+                "ARG7",
+                "BRA11",
+                "BRA3",
+                "CAN1",
+                "CAN14",
+                "COL14",
+                "CRC2",
+                "HON6",
+                "INT1",
+                "LEG18",
+                "MEX9",
+                "PAN12",
+                "PAN2",
+                "PAN5"
+            ]
+        },
+        {
+            "usuario": "TORIBIOR2013",
+            "figusPedidas": [
+                "ARG19",
+                "ARG20",
+                "BOL6",
+                "BOL7",
+                "BRA11",
+                "CAN4",
+                "CHI19",
+                "COL18",
+                "COL20",
+                "INT2",
+                "JAM18",
+                "JAM4",
+                "LEG4",
+                "MEX11",
+                "MEX4",
+                "PAR17",
+                "PAR22",
+                "PAR5",
+                "PER16",
+                "ROH2",
+                "USA10",
+                "USA15",
+                "USA7",
+                "VEN11",
+                "VEN15",
+                "VEN19",
+                "VEN7"
+            ]
+        },
+        {
+            "usuario": "CALIGARISSACHERI",
+            "figusPedidas": [
+                "HON16",
+                "LEG9"
+            ]
+        },
+        {
+            "usuario": "SOLESCA",
+            "figusPedidas": [
+                "BOL16",
+                "BOL21",
+                "CAN14",
+                "COL8",
+                "CRC10",
+                "CRC20",
+                "CRC22",
+                "CRC8",
+                "HCI4",
+                "HCI9",
+                "JAM16",
+                "USA17",
+                "VEN12",
+                "VEN5"
+            ]
         }
     ]
 }
