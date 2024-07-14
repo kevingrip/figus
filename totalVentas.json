@@ -10773,7 +10773,7 @@
             "Dia": "14/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MCYVG",
@@ -10799,6 +10799,23 @@
             "Dia": "14/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "HERNANJULIOCAUGETHERNANJULI",
+            "Vendidas": [                
+                "CHI9",
+                "PAN2",
+                "HON8",
+                "LEG17"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "INT4"
+            ],
+            "Dia": "14/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],
