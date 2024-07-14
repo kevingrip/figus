@@ -10363,7 +10363,7 @@
             "Dia": "13/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GONZALO.GSG",
@@ -10395,7 +10395,7 @@
             "Dia": "13/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUMA2862279",
@@ -10416,7 +10416,7 @@
             "Dia": "13/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOLCYTO65",
@@ -10460,7 +10460,7 @@
             "Dia": "13/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NACHO_SCELATTO",
@@ -10503,7 +10503,7 @@
             "Dia": "13/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARIANOSCHLEGEL",
@@ -10518,7 +10518,7 @@
             "Dia": "14/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SAMPERPAULA",
@@ -10575,7 +10575,7 @@
             "Dia": "14/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOLESCA",
@@ -10599,7 +10599,7 @@
             "Dia": "14/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DAY_B_07",
@@ -10694,6 +10694,44 @@
             "NoVendidas": [],
             "Dia": "14/07/2024",
             "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "TORIBIOR2013",
+            "Vendidas": [
+                "ARG20",
+                "PER16",
+                "CHI19",
+                "MEX4",
+                "MEX11",
+                "VEN7",
+                "VEN11",
+                "VEN19",
+                "JAM4",
+                "JAM18",
+                "USA7",
+                "USA10",
+                "BOL6",
+                "BOL7",
+                "BRA11",
+                "COL20",
+                "PAR5",
+                "PAR17",
+                "PAR22",
+                "CAN4",
+                "LEG4",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "ARG19",
+                "VEN15",
+                "USA15",
+                "COL18"
+            ],
+            "Dia": "14/07/2024",
+            "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
         }
