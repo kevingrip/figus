@@ -10600,6 +10600,31 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "DAY_B_07",
+            "Vendidas": [
+                "ARG7",
+                "MEX9",
+                "PAN2",
+                "PAN12",
+                "BRA3",
+                "BRA11",
+                "COL14",
+                "CAN1",
+                "CAN14",
+                "CRC2",
+                "HON6",
+                "LEG18"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "PAN5"
+            ],
+            "Dia": "14/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -19601,6 +19626,17 @@
             "Dia": "13/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "NATUMIRANDA311286",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],

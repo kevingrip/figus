@@ -16,8 +16,8 @@ for x in (totalVentas["Copa America 2024"]):
 
 totalfigus=sorted(totalfigus)
 
-# for x in totalfigus:
-#     print(x)
+for x in totalfigus:
+    print(x)
 
 print(cant)
 print(totalfigus)
