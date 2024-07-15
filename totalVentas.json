@@ -10979,7 +10979,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GKAONLINE",
@@ -10999,7 +10999,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PCZEMBORAIN",
@@ -11011,7 +11011,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ZUCCOSANTIAGO20210922184738",
@@ -11035,7 +11035,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SEBA PAGNUCCO",
@@ -11048,7 +11048,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "SOLEG_DRA",
@@ -11059,6 +11059,34 @@
                 "LEG17"
             ],
             "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "CASI2250434",
+            "Vendidas": [
+                "INT4",
+                "ARG18",
+                "ARG20",
+                "ECU2",
+                "JAM11",
+                "JAM17",
+                "URU1",
+                "URU2",
+                "BRA8",
+                "BRA19",
+                "BRA21",
+                "PAR20",
+                "CAN7",
+                "TRI12",
+                "LEG5",
+                "LEG9"
+            ],
+            "NoVendidas": [
+                "COL2"
+            ],
             "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
@@ -20126,6 +20154,65 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "AGUSC",
+            "Vendidas": [
+                "FWC19",
+                "ECU1",
+                "FRA1",
+                "SEN1",
+                "SRB1"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "BIGOTE-64",
+            "Vendidas": [
+                "FWC23",
+                "FWC25",
+                "FWC27",
+                "ARG9",
+                "ARG18",
+                "AUS1",
+                "AUS16",
+                "BEL3",
+                "CMR12",
+                "CRC11",
+                "DEN2",
+                "ENG8",
+                "ESP11",
+                "ESP14",
+                "FRA13",
+                "GER1",
+                "GHA1",
+                "GHA2",
+                "JPN13",
+                "KOR9",
+                "MEX6",
+                "NED3",
+                "NED8",
+                "POL16",
+                "POR4",
+                "QAT1",
+                "QAT4",
+                "QAT7",
+                "URU13",
+                "USA18",
+                "WAL1"
+            ],
+            "NoVendidas": [
+                "FRA1",
+                "POR1"
+            ],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [

@@ -22306,6 +22306,52 @@
                 "SEN1",
                 "SRB1"
             ]
+        },
+        {
+            "usuario": "MBPITTALUGA",
+            "figusPedidas": [
+                "ARG12",
+                "ARG14",
+                "ARG7"
+            ]
+        },
+        {
+            "usuario": "BIGOTE-64",
+            "figusPedidas": [
+                "ARG18",
+                "ARG9",
+                "AUS1",
+                "AUS16",
+                "BEL3",
+                "CMR12",
+                "CRC11",
+                "DEN2",
+                "ENG8",
+                "ESP11",
+                "ESP14",
+                "FRA1",
+                "FRA13",
+                "FWC23",
+                "FWC25",
+                "FWC27",
+                "GER1",
+                "GHA1",
+                "GHA2",
+                "JPN13",
+                "KOR9",
+                "MEX6",
+                "NED3",
+                "NED8",
+                "POL16",
+                "POR1",
+                "POR4",
+                "QAT1",
+                "QAT4",
+                "QAT7",
+                "URU13",
+                "USA18",
+                "WAL1"
+            ]
         }
     ]
 }

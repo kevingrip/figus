@@ -728,7 +728,7 @@ elif (album == "Copa America 2024"):
                 usuario_venta=''
                 verVenta(usuario_venta,album,subInicioHistorial)      
 
-    elif inicio =="Base de datos": 
+    elif inicio =="Base de datoss": 
 
         subInicioBDD = easygui.buttonbox("Elija una opción", choices=["Agregar Stock","Total de figuritas","Cosechar"], title=album)
     

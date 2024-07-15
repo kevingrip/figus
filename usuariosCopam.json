@@ -16177,6 +16177,53 @@
                 "ARG7",
                 "ARG9"
             ]
+        },
+        {
+            "usuario": "DIRTYSEBAS",
+            "figusPedidas": [
+                "INT4"
+            ]
+        },
+        {
+            "usuario": "CASI2250434",
+            "figusPedidas": [
+                "ARG18",
+                "ARG20",
+                "BRA19",
+                "BRA21",
+                "BRA8",
+                "CAN7",
+                "COL2",
+                "ECU2",
+                "INT4",
+                "JAM11",
+                "JAM17",
+                "LEG5",
+                "LEG9",
+                "PAR20",
+                "TRI12",
+                "URU1",
+                "URU2"
+            ]
+        },
+        {
+            "usuario": "AGUSC",
+            "figusPedidas": [
+                "ECU1",
+                "FRA1",
+                "FWC19",
+                "SEN1",
+                "SRB1"
+            ]
+        },
+        {
+            "usuario": "NOEMICARLAARRIZURIETA",
+            "figusPedidas": [
+                "ARG19",
+                "LEG18",
+                "LEG6",
+                "ROH2"
+            ]
         }
     ]
 }
