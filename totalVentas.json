@@ -11012,6 +11012,43 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ZUCCOSANTIAGO20210922184738",
+            "Vendidas": [
+                "INT2",
+                "CHI16",
+                "JAM4",
+                "JAM14",
+                "JAM22",
+                "USA22",
+                "BRA14",
+                "COL10",
+                "CAN15",
+                "CAN19",
+                "CAN20",
+                "CAN22",
+                "CRC16",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SEBA PAGNUCCO",
+            "Vendidas": [
+                "ARG1",
+                "ARG2",
+                "HON21"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
