@@ -10485,7 +10485,7 @@
             "Dia": "13/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MELANIAMONT",
@@ -10964,7 +10964,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GIS_CANO",
@@ -10998,6 +10998,18 @@
             "NoVendidas": [],
             "Dia": "15/07/2024",
             "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PCZEMBORAIN",
+            "Vendidas": [
+                "CHI16",
+                "TRI6"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
         }
@@ -20046,6 +20058,17 @@
             "usuario": "MARTINDC",
             "Vendidas": [
                 "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "PELONARAMAURICIO",
+            "Vendidas": [
+                "AUS6"
             ],
             "NoVendidas": [],
             "Dia": "15/07/2024",

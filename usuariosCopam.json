@@ -15966,6 +15966,46 @@
                 "PER15",
                 "PER17"
             ]
+        },
+        {
+            "usuario": "SOLEG_DRA",
+            "figusPedidas": [
+                "LEG17",
+                "TRI1",
+                "TRI7",
+                "VEN8"
+            ]
+        },
+        {
+            "usuario": "MARIAJOSEARTIGAU",
+            "figusPedidas": [
+                "ARG1",
+                "ARG10",
+                "ARG11",
+                "ARG12",
+                "ARG13",
+                "ARG14",
+                "ARG16",
+                "ARG19",
+                "ARG2",
+                "ARG20",
+                "ARG21",
+                "ARG22",
+                "ARG4",
+                "ARG6",
+                "ARG7",
+                "ARG8",
+                "ARG9",
+                "HCI1",
+                "HCI2",
+                "HCI5",
+                "HCI7",
+                "HCI8",
+                "HCI9",
+                "INT1",
+                "INT2",
+                "INT3"
+            ]
         }
     ]
 }
