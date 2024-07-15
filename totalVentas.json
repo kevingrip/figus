@@ -10751,11 +10751,10 @@
                 "CRC21",
                 "HON5",
                 "LEG4",
-                "LEG9"
-            ],
-            "NoVendidas": [
+                "LEG9",
                 "ROH2"
             ],
+            "NoVendidas": [],
             "Dia": "14/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
@@ -10814,6 +10813,62 @@
                 "INT4"
             ],
             "Dia": "14/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ROM_AR2009",
+            "Vendidas": [
+                "BRA17"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "DAVIDPORCIELLO22",
+            "Vendidas": [
+                "USA9",
+                "HON13",
+                "TRI9"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ARIELKISSNER",
+            "Vendidas": [
+                "INT2",
+                "PER14",
+                "ECU9",
+                "VEN14",
+                "VEN22",
+                "USA8",
+                "URU2",
+                "BOL1",
+                "BRA13",
+                "BRA18",
+                "BRA22",
+                "COL13",
+                "CAN11",
+                "CAN21",
+                "TRI7",
+                "LEG7",
+                "LEG15"
+            ],
+            "NoVendidas": [
+                "CHI12",
+                "COL2",
+                "LEG14",
+                "ROH2"
+            ],
+            "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
@@ -19840,6 +19895,34 @@
             "Dia": "14/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MARIANADORR",
+            "Vendidas": [
+                "FWC20",
+                "FWC23",
+                "BEL3",
+                "CAN16",
+                "DEN7",
+                "JPN1",
+                "URU1"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MARTINDC",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],
