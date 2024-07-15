@@ -11049,6 +11049,20 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "SOLEG_DRA",
+            "Vendidas": [
+                "VEN8",
+                "TRI1",
+                "TRI7",
+                "LEG17"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

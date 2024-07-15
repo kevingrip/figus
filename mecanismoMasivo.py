@@ -9,7 +9,7 @@ cant=0
 
 for x in (totalVentas["Copa America 2024"]):
     if x["PREPARADO"]=="NO" and x["usuario"] not in ('SAMPERPAULA','GUILLERMOCUTULI','BREN1985'):
-        if x["Dia"]>"13/07/2024":
+        if x["Dia"]>"14/07/2024":
             for x in (x["Vendidas"]):            
                 cant+=1
                 totalfigus.append(x)
