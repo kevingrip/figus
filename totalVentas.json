@@ -10952,6 +10952,54 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "GURFEINEDGARDO",
+            "Vendidas": [
+                "MEX7",
+                "PAN1",
+                "PAN9"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GIS_CANO",
+            "Vendidas": [
+                "ARG19",
+                "PER1",
+                "VEN17",
+                "HON19",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GKAONLINE",
+            "Vendidas": [
+                "HCI2",
+                "HCI10",
+                "PER13",
+                "PER15",
+                "PER17",
+                "CHI7",
+                "CHI13",
+                "CHI18",
+                "MEX4",
+                "MEX5"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
