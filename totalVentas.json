@@ -10264,7 +10264,7 @@
             "Dia": "12/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TODOPILAS ONLINE",
@@ -10550,7 +10550,7 @@
             "Dia": "14/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GUILLERMOCUTULI",
@@ -10758,7 +10758,7 @@
             "Dia": "14/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARCOSLUCI",
@@ -10815,7 +10815,7 @@
             "Dia": "14/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROM_AR2009",
@@ -10826,7 +10826,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DAVIDPORCIELLO22",
@@ -10839,7 +10839,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ARIELKISSNER",
@@ -10871,7 +10871,87 @@
             "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MARIANADONADINI",
+            "Vendidas": [
+                "ECU1",
+                "ECU8",
+                "VEN7",
+                "USA9",
+                "USA21",
+                "BOL5",
+                "BOL13",
+                "COL1",
+                "COL9",
+                "PAR16",
+                "CAN7",
+                "CAN14",
+                "HON7",
+                "HON20",
+                "TRI16",
+                "LEG6",
+                "LEG9"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "INT4"
+            ],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ARIROMERO2010",
+            "Vendidas": [
+                "MEX2",
+                "MEX4",
+                "MEX6",
+                "MEX7",
+                "MEX8",
+                "MEX9",
+                "MEX12",
+                "MEX15",
+                "MEX16",
+                "MEX17",
+                "VEN3",
+                "VEN5",
+                "VEN8",
+                "VEN9",
+                "VEN11",
+                "VEN13",
+                "VEN14",
+                "VEN17",
+                "VEN21",
+                "JAM9",
+                "JAM10",
+                "JAM13",
+                "JAM16",
+                "JAM18",
+                "JAM20",
+                "USA7",
+                "USA9",
+                "USA18",
+                "USA20",
+                "USA22",
+                "BRA10",
+                "BRA11",
+                "BRA12",
+                "BRA13",
+                "BRA17"
+            ],
+            "NoVendidas": [
+                "VEN15",
+                "USA15",
+                "BRA14",
+                "BRA16"
+            ],
+            "Dia": "15/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -19859,7 +19939,7 @@
             "Dia": "12/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FAUSTINO SFORZA",
@@ -19873,7 +19953,7 @@
             "Dia": "13/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NATUMIRANDA311286",
@@ -19884,7 +19964,7 @@
             "Dia": "14/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BAREIROOSVALDO",
@@ -19895,7 +19975,7 @@
             "Dia": "14/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARIANADORR",
@@ -19912,7 +19992,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARTINDC",
@@ -19923,7 +20003,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
