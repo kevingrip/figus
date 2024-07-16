@@ -11188,7 +11188,7 @@
             "Dia": "16/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BREN1985",
@@ -11213,7 +11213,7 @@
             "Dia": "16/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PAOLAGAN",
@@ -11224,7 +11224,7 @@
             "Dia": "16/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MATKONIG",
@@ -11247,7 +11247,43 @@
             "Dia": "16/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "NIJUMALA",
+            "Vendidas": [
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GABRIELAGOMEZARPI",
+            "Vendidas": [
+                "INT1",
+                "INT2",
+                "INT3",
+                "INT4",
+                "HCI2",
+                "HCI6",
+                "HCI10",
+                "ARG6",
+                "ARG9",
+                "ARG18",
+                "PER1",
+                "PER12",
+                "PER16",
+                "PER18",
+                "CHI18"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -20373,7 +20409,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MBPITTALUGA",
