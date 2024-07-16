@@ -11091,6 +11091,19 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ELEINSUMOSDESCARTABLES",
+            "Vendidas": [
+                "TRI7"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "15/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
