@@ -11103,7 +11103,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANDREAMELISAALARCON",
@@ -11141,6 +11141,84 @@
                 "TRI3",
                 "TRI5",
                 "LEG2"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ENRICOK",
+            "Vendidas": [
+                "ARG6",
+                "MEX3",
+                "MEX16",
+                "ECU3",
+                "ECU4",
+                "ECU5",
+                "ECU6",
+                "ECU8",
+                "ECU21",
+                "VEN6",
+                "VEN18",
+                "VEN21",
+                "JAM20",
+                "USA7",
+                "USA19",
+                "USA21",
+                "PAN18",
+                "BOL15",
+                "PAR20",
+                "TRI12",
+                "LEG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "RUGGIPABLO",
+            "Vendidas": [
+                "PAR22"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "BREN1985",
+            "Vendidas": [
+                "PER13",
+                "HON15"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "HERNANWITKOVSKI",
+            "Vendidas": [
+                "USA16",
+                "TRI6",
+                "LEG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PAOLAGAN",
+            "Vendidas": [
+                "ARG15"
             ],
             "NoVendidas": [],
             "Dia": "16/07/2024",
@@ -20281,7 +20359,7 @@
             "Dia": "15/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
