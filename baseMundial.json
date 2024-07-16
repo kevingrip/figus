@@ -19,7 +19,7 @@
     },
     {
         "NUM": "FWC2",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 3000,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -28,7 +28,7 @@
     },
     {
         "NUM": "FWC3",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 3000,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -46,7 +46,7 @@
     },
     {
         "NUM": "FWC5",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 3000,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",
@@ -64,7 +64,7 @@
     },
     {
         "NUM": "FWC7",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 3000,
         "TIPO": "FWCD",
         "DIA": "04/06/2024",

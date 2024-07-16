@@ -11225,6 +11225,29 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MATKONIG",
+            "Vendidas": [
+                "INT2",
+                "INT3",
+                "INT4",
+                "ARG20",
+                "CHI16",
+                "BOL16",
+                "BOL20",
+                "CAN15",
+                "CAN16",
+                "CAN18",
+                "HON4",
+                "HON16",
+                "LEG6"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -20307,6 +20330,10 @@
         {
             "usuario": "BIGOTE-64",
             "Vendidas": [
+                "FWC2",
+                "FWC3",
+                "FWC5",
+                "FWC7",
                 "FWC23",
                 "FWC25",
                 "FWC27",
