@@ -100,7 +100,7 @@
     {
         "NUM": "ARG1",
         "TIPO": "ESCUDO",
-        "CANT": 10,
+        "CANT": 9,
         "PRECIO": 6500,
         "NOMBRE": "ARG ESC"
     },
@@ -114,7 +114,7 @@
     {
         "NUM": "ARG3",
         "TIPO": "AFA",
-        "CANT": 12,
+        "CANT": 11,
         "PRECIO": 5000,
         "NOMBRE": "EMILIANO MARTINEZ"
     },
@@ -170,7 +170,7 @@
     {
         "NUM": "ARG11",
         "TIPO": "AFA",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 2000,
         "NOMBRE": "NICOLAS TAGLIAFICO"
     },
@@ -198,7 +198,7 @@
     {
         "NUM": "ARG15",
         "TIPO": "AFA",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 2000,
         "NOMBRE": "ENZO FERNANDEZ"
     },
@@ -212,7 +212,7 @@
     {
         "NUM": "ARG17",
         "TIPO": "AFA",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 1500,
         "NOMBRE": "PAULO DYBALA"
     },
@@ -464,7 +464,7 @@
     {
         "NUM": "CHI9",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "MATIAS CATALAN"
     },
@@ -534,7 +534,7 @@
     {
         "NUM": "CHI19",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "DIEGO RUBIO"
     },
@@ -940,7 +940,7 @@
     {
         "NUM": "VEN11",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "NAHUEL FERRARESI"
     },
@@ -1122,7 +1122,7 @@
     {
         "NUM": "JAM15",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "DANIEL JOHNSON"
     },
@@ -1178,7 +1178,7 @@
     {
         "NUM": "USA1",
         "TIPO": "ESCUDO",
-        "CANT": 10,
+        "CANT": 9,
         "PRECIO": 2000,
         "NOMBRE": "USA ESC"
     },
@@ -1339,7 +1339,7 @@
     {
         "NUM": "URU2",
         "TIPO": "EQUIPO",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 2000,
         "NOMBRE": "URU TEAM"
     },
@@ -1486,7 +1486,7 @@
     {
         "NUM": "PAN1",
         "TIPO": "ESCUDO",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 2000,
         "NOMBRE": "PAN ESC"
     },
@@ -1528,7 +1528,7 @@
     {
         "NUM": "PAN7",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "MICHAEL MURILLO"
     },
@@ -1556,7 +1556,7 @@
     {
         "NUM": "PAN11",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "ADALBERTO CARRASQUILLA"
     },
@@ -1570,7 +1570,7 @@
     {
         "NUM": "PAN13",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "CRISTIAN MARTINEZ"
     },
@@ -1612,14 +1612,14 @@
     {
         "NUM": "PAN19",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "EDGAR BARCENAS"
     },
     {
         "NUM": "PAN20",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "CESAR YANIS"
     },
@@ -1654,7 +1654,7 @@
     {
         "NUM": "BOL3",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "CARLOS LAMPE"
     },
@@ -2060,7 +2060,7 @@
     {
         "NUM": "COL17",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "JUAN CUADRADO"
     },
@@ -2074,7 +2074,7 @@
     {
         "NUM": "COL19",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "JHON DURAN"
     },
@@ -2165,7 +2165,7 @@
     {
         "NUM": "PAR10",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "OMAR ALDERETE"
     },
@@ -2256,7 +2256,7 @@
     {
         "NUM": "CAN1",
         "TIPO": "ESCUDO",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 2000,
         "NOMBRE": "CAN ESC"
     },
@@ -2340,7 +2340,7 @@
     {
         "NUM": "CAN13",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "STEPHEN EUSTAQUIO"
     },
@@ -2354,7 +2354,7 @@
     {
         "NUM": "CAN15",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "SAMUEL PIETTE"
     },
@@ -2410,7 +2410,7 @@
     {
         "NUM": "CRC1",
         "TIPO": "ESCUDO",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 2000,
         "NOMBRE": "CRC ESC"
     },
@@ -2536,7 +2536,7 @@
     {
         "NUM": "CRC19",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "MANFRED UGALDE"
     },
@@ -2578,7 +2578,7 @@
     {
         "NUM": "HON3",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "ENDRICK MENJIVAR"
     },
@@ -2606,7 +2606,7 @@
     {
         "NUM": "HON7",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "LUIS VEGA"
     },
@@ -2634,7 +2634,7 @@
     {
         "NUM": "HON11",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "JORGE ALVAREZ"
     },
@@ -2648,7 +2648,7 @@
     {
         "NUM": "HON13",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "RIGOBERTO RIVAS"
     },
@@ -2732,7 +2732,7 @@
     {
         "NUM": "TRI3",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "DENZIL SMITH"
     },
@@ -2746,7 +2746,7 @@
     {
         "NUM": "TRI5",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "ROSS RUSSELL JR"
     },
@@ -2879,7 +2879,7 @@
     {
         "NUM": "LEG2",
         "TIPO": "LEYENDA",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 2500,
         "NOMBRE": "BATISTUTA RIGHT"
     },
