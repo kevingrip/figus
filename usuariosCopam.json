@@ -16986,6 +16986,74 @@
                 "ROH2",
                 "VEN2"
             ]
+        },
+        {
+            "usuario": "PATTO_MATHIAS",
+            "figusPedidas": [
+                "ARG11",
+                "ARG8",
+                "BOL20",
+                "BRA22",
+                "CHI1",
+                "CRC1",
+                "CRC11",
+                "CRC13",
+                "ECU7",
+                "ECU9",
+                "HCI1",
+                "HON1",
+                "HON14",
+                "HON16",
+                "HON17",
+                "INT2",
+                "INT4",
+                "LEG4",
+                "LEG6",
+                "LEG9",
+                "MEX1",
+                "MEX17",
+                "MEX18",
+                "MEX6",
+                "PAN13",
+                "PAN9",
+                "PAR1",
+                "PAR5",
+                "PER20",
+                "URU20",
+                "VEN2",
+                "VEN22"
+            ]
+        },
+        {
+            "usuario": "GERMPASC",
+            "figusPedidas": [
+                "CHI13",
+                "ECU13",
+                "ECU4",
+                "ECU9",
+                "MEX14",
+                "PAN13",
+                "VEN18"
+            ]
+        },
+        {
+            "usuario": "MARMAINI2010",
+            "figusPedidas": [
+                "ARG19",
+                "LEG12",
+                "LEG14",
+                "LEG16"
+            ]
+        },
+        {
+            "usuario": "MARMAINI2010",
+            "figusPedidas": [
+                "ARG19",
+                "LEG12",
+                "LEG14",
+                "LEG16",
+                "TRI4"
+            ]
         }
     ]
 }

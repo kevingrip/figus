@@ -11473,6 +11473,39 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GERMPASC",
+            "Vendidas": [
+                "CHI13",
+                "MEX14",
+                "ECU4",
+                "ECU9",
+                "ECU13",
+                "VEN18",
+                "PAN13"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MARMAINI2010",
+            "Vendidas": [
+                "ARG19",
+                "TRI4",
+                "LEG12",
+                "LEG16"
+            ],
+            "NoVendidas": [
+                "LEG14"
+            ],
+            "Dia": "17/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
