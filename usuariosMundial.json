@@ -22390,6 +22390,60 @@
                 "URU5",
                 "URU7"
             ]
+        },
+        {
+            "usuario": "MACARREGLOS",
+            "figusPedidas": [
+                "CAN16",
+                "CMR19",
+                "MAR10",
+                "MAR4",
+                "SEN18"
+            ]
+        },
+        {
+            "usuario": "TABOSSILUCA",
+            "figusPedidas": [
+                "ARG1",
+                "ARG10",
+                "ARG12",
+                "BRA1",
+                "CRO1",
+                "ECU4",
+                "ENG1",
+                "ESP1",
+                "FWC25",
+                "FWC29",
+                "FWC3",
+                "FWC5",
+                "FWC7",
+                "GHA1",
+                "IRN1",
+                "IRN10",
+                "KSA1",
+                "MAR1",
+                "MAR7",
+                "POL1",
+                "SRB1",
+                "SRB12",
+                "USA1",
+                "USA18"
+            ]
+        },
+        {
+            "usuario": "ISOLABELLAVALENTIN202207102056",
+            "figusPedidas": [
+                "ECU1",
+                "ECU2",
+                "FWC0",
+                "FWC1",
+                "FWC2",
+                "FWC25",
+                "FWC27",
+                "FWC5",
+                "QAT1",
+                "QAT2"
+            ]
         }
     ]
 }

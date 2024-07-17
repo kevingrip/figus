@@ -11357,6 +11357,17 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ROSANAPENNO",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -20496,6 +20507,21 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MACARREGLOS",
+            "Vendidas": [
+                "CAN16",
+                "CMR19",
+                "MAR4",
+                "MAR10",
+                "SEN18"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
