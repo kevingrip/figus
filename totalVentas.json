@@ -11401,6 +11401,25 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MARIANOGOMAR",
+            "Vendidas": [
+                "HCI1",
+                "ARG6",
+                "ARG13",
+                "ARG19",
+                "PER1",
+                "CHI1",
+                "ECU5"
+            ],
+            "NoVendidas": [
+                "INT2"
+            ],
+            "Dia": "16/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
