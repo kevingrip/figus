@@ -11368,6 +11368,39 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "EMILIANOTAMAGNINI",
+            "Vendidas": [
+                "HCI2",
+                "ARG8",
+                "ARG18",
+                "PER18",
+                "VEN1",
+                "VEN20",
+                "JAM8",
+                "JAM14",
+                "JAM16",
+                "PAN16",
+                "BOL21",
+                "BRA18",
+                "PAR6",
+                "PAR16",
+                "PAR18",
+                "CAN1",
+                "CAN10",
+                "CAN20",
+                "TRI4",
+                "LEG3"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "LEG14"
+            ],
+            "Dia": "16/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -20521,6 +20554,24 @@
             "Dia": "16/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "TOMASCAMUSSI",
+            "Vendidas": [
+                "FWC28",
+                "CRC1",
+                "CRC14",
+                "ENG1",
+                "JPN1",
+                "TUN1",
+                "URU5",
+                "URU7"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],
