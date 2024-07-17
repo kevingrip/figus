@@ -11420,6 +11420,59 @@
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "VIAPAOLA",
+            "Vendidas": [
+                "ARG22",
+                "MEX11",
+                "MEX12",
+                "ECU16",
+                "VEN2",
+                "BOL7",
+                "BOL8",
+                "COL12",
+                "CRC18",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "17/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "NADIASOLECRUZ",
+            "Vendidas": [
+                "HCI3",
+                "CHI1",
+                "CHI18",
+                "MEX1",
+                "MEX4",
+                "MEX20",
+                "ECU20",
+                "USA17",
+                "PAN9",
+                "BOL4",
+                "BOL6",
+                "BOL20",
+                "COL1",
+                "COL5",
+                "PAR1",
+                "CRC11",
+                "HON2",
+                "TRI15",
+                "LEG8"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "17/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
