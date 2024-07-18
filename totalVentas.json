@@ -11652,6 +11652,20 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "JULIANA QUIROGA",
+            "Vendidas": [
+                "INT1",
+                "INT4",
+                "BRA1",
+                "BRA12"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

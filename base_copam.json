@@ -2,7 +2,7 @@
     {
         "NUM": "INT1",
         "TIPO": "INTRO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 6000,
         "NOMBRE": "INTRODUCCION"
     },
@@ -23,7 +23,7 @@
     {
         "NUM": "INT4",
         "TIPO": "INTRO",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 6000,
         "NOMBRE": "PELOTA"
     },
@@ -114,7 +114,7 @@
     {
         "NUM": "ARG3",
         "TIPO": "AFA",
-        "CANT": 13,
+        "CANT": 14,
         "PRECIO": 5000,
         "NOMBRE": "EMILIANO MARTINEZ"
     },
@@ -1794,7 +1794,7 @@
     {
         "NUM": "BRA1",
         "TIPO": "ESCUDO",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 2000,
         "NOMBRE": "BRA ESC"
     },
@@ -1871,7 +1871,7 @@
     {
         "NUM": "BRA12",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "BRUNO GUIMARAES"
     },
@@ -2991,7 +2991,7 @@
     {
         "NUM": "LEG18",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 3000,
         "NOMBRE": "ALEXIS SANCHEZ"
     },
