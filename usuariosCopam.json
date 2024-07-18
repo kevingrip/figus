@@ -18099,6 +18099,82 @@
             "figusPedidas": [
                 "INT2"
             ]
+        },
+        {
+            "usuario": "REPALO",
+            "figusPedidas": [
+                "BOL3"
+            ]
+        },
+        {
+            "usuario": "ROMI-2013",
+            "figusPedidas": [
+                "ARG18",
+                "INT4",
+                "LEG1",
+                "LEG5",
+                "LEG7",
+                "PER4",
+                "USA1",
+                "USA10",
+                "USA21",
+                "USA4"
+            ]
+        },
+        {
+            "usuario": "DIMA6074924",
+            "figusPedidas": [
+                "ARG19",
+                "BRA13",
+                "HON7",
+                "INT2",
+                "LEG3",
+                "ROH2"
+            ]
+        },
+        {
+            "usuario": "ROMI-2013",
+            "figusPedidas": [
+                "ARG18",
+                "INT4",
+                "LEG1",
+                "LEG5",
+                "LEG7",
+                "PER4",
+                "USA1",
+                "USA10",
+                "USA21",
+                "USA4"
+            ]
+        },
+        {
+            "usuario": "NOEEBAEZ1416",
+            "figusPedidas": [
+                "ARG19",
+                "CHI1",
+                "COL14",
+                "CRC12",
+                "HON19",
+                "JAM18",
+                "LEG13",
+                "LEG3",
+                "MEX11",
+                "MEX2"
+            ]
+        },
+        {
+            "usuario": "TOSCANOMARIASOL",
+            "figusPedidas": [
+                "ARG15",
+                "ARG3",
+                "BRA13",
+                "BRA17",
+                "MEX9",
+                "USA09",
+                "USA15",
+                "USA16",
+                "USA21"
+            ]
         }
     ]
 }

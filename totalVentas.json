@@ -11765,6 +11765,36 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "REPALO",
+            "Vendidas": [
+                "BOL3"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "TOSCANOMARIASOL",
+            "Vendidas": [
+                "ARG3",
+                "ARG15",
+                "MEX9",
+                "USA16",
+                "USA21",
+                "BRA13",
+                "BRA17"
+            ],
+            "NoVendidas": [
+                "USA15"
+            ],
+            "Dia": "18/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
