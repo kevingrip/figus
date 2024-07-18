@@ -11356,7 +11356,7 @@
             "Dia": "16/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROSANAPENNO",
@@ -11367,7 +11367,7 @@
             "Dia": "16/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "EMILIANOTAMAGNINI",
@@ -11400,7 +11400,7 @@
             "Dia": "16/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MARIANOGOMAR",
@@ -11441,7 +11441,7 @@
             "Dia": "17/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NADIASOLECRUZ",
@@ -11472,7 +11472,7 @@
             "Dia": "17/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GERMPASC",
@@ -11501,6 +11501,152 @@
             ],
             "NoVendidas": [
                 "LEG14"
+            ],
+            "Dia": "17/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "CAMIFIGUEROA73",
+            "Vendidas": [
+                "ARG5",
+                "ARG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MARIELADANASINO",
+            "Vendidas": [
+                "HCI1",
+                "HCI2",
+                "HCI9",
+                "JAM7",
+                "JAM15",
+                "PAN7",
+                "PAN9",
+                "PAN11",
+                "PAN13",
+                "BOL11",
+                "BOL13",
+                "BOL14",
+                "BOL15",
+                "BOL18",
+                "PAR1",
+                "PAR3",
+                "PAR11",
+                "PAR14",
+                "HON7",
+                "HON11",
+                "HON13",
+                "LEG3",
+                "LEG4",
+                "LEG5",
+                "LEG8",
+                "LEG17",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "INT2"
+            ],
+            "Dia": "17/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MARIELADANASINO2",
+            "Vendidas": [
+                "PER1",
+                "PER11",
+                "PER13",
+                "CHI9",
+                "CHI13",
+                "CHI16",
+                "MEX5",
+                "MEX15",
+                "MEX17",
+                "MEX18",
+                "MEX22",
+                "COL13",
+                "COL16",
+                "COL17",
+                "CAN8",
+                "CAN13",
+                "TRI1",
+                "TRI2",
+                "TRI3",
+                "TRI4",
+                "TRI5",
+                "TRI9",
+                "TRI15"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "SILAU22",
+            "Vendidas": [
+                "HCI10",
+                "PER7",
+                "PER11",
+                "PER17",
+                "CHI13",
+                "CHI18",
+                "CHI21",
+                "MEX1",
+                "MEX5",
+                "MEX15",
+                "MEX18",
+                "MEX19",
+                "ECU9",
+                "ECU15",
+                "ECU20",
+                "USA4",
+                "USA13",
+                "USA14",
+                "USA15",
+                "BOL12",
+                "BOL17",
+                "BRA7",
+                "BRA9",
+                "BRA19",
+                "COL6",
+                "COL15",
+                "PAR3",
+                "PAR9",
+                "CAN5",
+                "CRC1",
+                "CRC11",
+                "CRC13",
+                "TRI7",
+                "LEG7",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "DANIELARUTHERFORD",
+            "Vendidas": [
+                "HCI1",
+                "JAM9",
+                "PAR10",
+                "CRC15",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "URU2"
             ],
             "Dia": "17/07/2024",
             "Cuenta": "MATI",
@@ -20677,7 +20823,7 @@
             "Dia": "16/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
