@@ -11419,7 +11419,7 @@
             "Dia": "16/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "VIAPAOLA",
@@ -11651,7 +11651,7 @@
             "Dia": "17/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "JULIANA QUIROGA",
@@ -11664,6 +11664,94 @@
             "NoVendidas": [],
             "Dia": "18/07/2024",
             "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MAGALI ALVES",
+            "Vendidas": [
+                "INT3",
+                "INT4",
+                "ECU6"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MARILENASIMONCINI",
+            "Vendidas": [
+                "ARG16",
+                "CHI10",
+                "VEN13",
+                "JAM2",
+                "PAR7",
+                "PAR21",
+                "CAN3",
+                "LEG17"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "NOEMICARLAARRIZURIETA",
+            "Vendidas": [
+                "INT1",
+                "INT3",
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "AGBE8724478",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ENRIQUECORDON",
+            "Vendidas": [
+                "ARG4",
+                "ARG6",
+                "ARG7",
+                "ARG8",
+                "ARG15",
+                "ARG17",
+                "ARG19",
+                "ARG21",
+                "ARG22"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "EVELYN ARNO",
+            "Vendidas": [
+                "CHI14",
+                "ECU20",
+                "CRC20",
+                "TRI13"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "PREPARADO": "NO"
         }
