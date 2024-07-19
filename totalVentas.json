@@ -11932,6 +11932,20 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "MAXIMILIANOCABALEYRO",
+            "Vendidas": [
+                "BRA11",
+                "CRC3",
+                "LEG9",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -21175,6 +21189,17 @@
             "Dia": "18/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "BENJARAMI",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "PREPARADO": "NO"
         }
     ],
