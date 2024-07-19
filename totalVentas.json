@@ -11799,7 +11799,6 @@
         {
             "usuario": "ROMI-2013",
             "Vendidas": [
-                "INT4",
                 "ARG18",
                 "PER4",
                 "USA1",
@@ -11808,7 +11807,8 @@
                 "USA21",
                 "LEG1",
                 "LEG5",
-                "LEG7"
+                "LEG7",
+                "LEG12"
             ],
             "NoVendidas": [],
             "Dia": "18/07/2024",
@@ -11838,6 +11838,18 @@
             "Dia": "18/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ARTICULOSDIVERSOS",
+            "Vendidas": [
+                "INT4",
+                "HON1"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],
