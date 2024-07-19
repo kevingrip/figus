@@ -842,7 +842,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         }
     ],
     "Copa America 2024": [
@@ -11289,7 +11289,7 @@
             "Dia": "16/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "GABRIELAGOMEZARPI",
@@ -11977,7 +11977,7 @@
             "Dia": "19/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "gomar",
@@ -11993,7 +11993,7 @@
             "Dia": "19/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "LUMAZA11",
@@ -12005,6 +12005,38 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "agustin",
+            "Vendidas": [
+                "PER1",
+                "ECU12",
+                "ECU16",
+                "VEN7",
+                "VEN13",
+                "COL7",
+                "CAN3",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "IBA\u00d1EZCARLOS20230910210044",
+            "Vendidas": [
+                "MEX3",
+                "JAM20",
+                "PAN8",
+                "BRA14"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -21248,7 +21280,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "BENJARAMI",
@@ -21274,7 +21306,7 @@
             "Dia": "19/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
