@@ -16,7 +16,7 @@
     {
         "NUM": "INT3",
         "TIPO": "INTRO",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 6000,
         "NOMBRE": "COPA"
     },
@@ -30,7 +30,7 @@
     {
         "NUM": "HCI1",
         "TIPO": "CIUDAD",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 1500,
         "NOMBRE": "KANSAS CITY"
     },
@@ -170,7 +170,7 @@
     {
         "NUM": "ARG11",
         "TIPO": "AFA",
-        "CANT": 11,
+        "CANT": 10,
         "PRECIO": 2000,
         "NOMBRE": "NICOLAS TAGLIAFICO"
     },
@@ -184,7 +184,7 @@
     {
         "NUM": "ARG13",
         "TIPO": "AFA",
-        "CANT": 11,
+        "CANT": 10,
         "PRECIO": 2000,
         "NOMBRE": "LEANDRO PAREDES"
     },
@@ -198,7 +198,7 @@
     {
         "NUM": "ARG15",
         "TIPO": "AFA",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 2000,
         "NOMBRE": "ENZO FERNANDEZ"
     },
@@ -226,7 +226,7 @@
     {
         "NUM": "ARG19",
         "TIPO": "AFA",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 13000,
         "NOMBRE": "LIONEL MESSI"
     },
@@ -254,7 +254,7 @@
     {
         "NUM": "PER1",
         "TIPO": "ESCUDO",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 2000,
         "NOMBRE": "PER ESC"
     },
@@ -408,7 +408,7 @@
     {
         "NUM": "CHI1",
         "TIPO": "ESCUDO",
-        "CANT": 10,
+        "CANT": 9,
         "PRECIO": 2000,
         "NOMBRE": "CHI ESC"
     },
@@ -744,7 +744,7 @@
     {
         "NUM": "ECU5",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "PIERO HINCAPIE"
     },
@@ -1024,7 +1024,7 @@
     {
         "NUM": "JAM1",
         "TIPO": "ESCUDO",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2000,
         "NOMBRE": "JAM ESC"
     },
@@ -1129,7 +1129,7 @@
     {
         "NUM": "JAM16",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "KEVON LAMBERT"
     },
@@ -1290,7 +1290,7 @@
     {
         "NUM": "USA17",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "BRENDEN AARONSON"
     },
@@ -1542,7 +1542,7 @@
     {
         "NUM": "PAN9",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "JOSE CORDOBA"
     },
@@ -2340,7 +2340,7 @@
     {
         "NUM": "CAN13",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "STEPHEN EUSTAQUIO"
     },
@@ -2354,7 +2354,7 @@
     {
         "NUM": "CAN15",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "SAMUEL PIETTE"
     },
@@ -2410,7 +2410,7 @@
     {
         "NUM": "CRC1",
         "TIPO": "ESCUDO",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 2000,
         "NOMBRE": "CRC ESC"
     },
@@ -2536,7 +2536,7 @@
     {
         "NUM": "CRC19",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "MANFRED UGALDE"
     },
@@ -2585,7 +2585,7 @@
     {
         "NUM": "HON4",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "LUIS LOPEZ"
     },
@@ -2956,7 +2956,7 @@
     {
         "NUM": "LEG13",
         "TIPO": "LEYENDA",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 3500,
         "NOMBRE": "MARADONA LEFT"
     },

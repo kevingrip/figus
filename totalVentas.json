@@ -11665,7 +11665,7 @@
             "Dia": "17/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "DANIELARUTHERFORD",
@@ -11696,7 +11696,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAGALI ALVES",
@@ -11727,7 +11727,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NOEMICARLAARRIZURIETA",
@@ -11784,7 +11784,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "RASORESOFIA",
@@ -11795,7 +11795,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "REPALO",
@@ -11806,7 +11806,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "TOSCANOMARIASOL",
@@ -11825,7 +11825,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ROMI-2013",
@@ -11845,7 +11845,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "NOELIAROMINABALDASI",
@@ -11869,7 +11869,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ARTICULOSDIVERSOS",
@@ -11881,7 +11881,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "FIKA2011572",
@@ -11919,7 +11919,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "ANALIAGAMBA",
@@ -11931,7 +11931,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "MAXIMILIANOCABALEYRO",
@@ -11945,7 +11945,66 @@
             "Dia": "18/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "MPHS10",
+            "Vendidas": [
+                "CRC1",
+                "HON4",
+                "LEG13"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "LUAN TORO",
+            "Vendidas": [
+                "ARG11",
+                "ARG15",
+                "JAM1",
+                "JAM16",
+                "USA17",
+                "PAN9",
+                "CAN13",
+                "CAN15",
+                "CRC19"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "gomar",
+            "Vendidas": [
+                "HCI1",
+                "ARG13",
+                "ARG19",
+                "PER1",
+                "CHI1",
+                "ECU5"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "LUMAZA11",
+            "Vendidas": [
+                "INT3"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -21173,7 +21232,7 @@
             "Dia": "18/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
         },
         {
             "usuario": "PEINADOJULIAN20231201222704",
@@ -21200,6 +21259,21 @@
             "Dia": "18/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "DHANIEL77",
+            "Vendidas": [
+                "CAN5",
+                "CRC6",
+                "CRC17",
+                "GHA19",
+                "WAL18"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],
