@@ -7,7 +7,7 @@ totalfigus=[]
 
 cant=0
 
-for x in (totalVentas["Mundial Qatar 2022"]):
+for x in (totalVentas["Copa America 2024"]):
     if x["PREPARADO"]=="NO" and x["Envio"]!="ACORDAR ENTREGA":
         if x["Dia"]>"17/07/2024":
             for x in (x["Vendidas"]):            
@@ -33,6 +33,7 @@ for x in totalfigus:
         pais=(x[:3])        
         numeros = []
         numeros.append(int(x[3:]))
+print(" (",len(numeros),")",pais,sorted(numeros))
     
 
 

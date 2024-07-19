@@ -12036,7 +12036,22 @@
             "Dia": "19/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "PREPARADO": "NO"
+            "PREPARADO": "SI"
+        },
+        {
+            "usuario": "ROMI-2013",
+            "Vendidas": [
+                "ECU2",
+                "ECU5",
+                "ECU6",
+                "ECU8",
+                "ECU10"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
