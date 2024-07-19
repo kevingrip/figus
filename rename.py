@@ -36,7 +36,7 @@ def renamePaises(listaOriginal,lista3LetrasPaises,variantesTotales):
     COCA = ['C','COCA','COC','COCACOLA']
     
     INT = ['INT','INTR','INTRO','INRT']
-    HCI = ['HCI','HCL']
+    HCI = ['HCI','HCL','HC1']
     PER = ['PER','PERU']
     CHI = ['CHI','CHILE']
     VEN = ['VEN','VENEZUELA','VENEZ']

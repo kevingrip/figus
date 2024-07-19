@@ -16,8 +16,25 @@ for x in (totalVentas["Copa America 2024"]):
 
 totalfigus=sorted(totalfigus)
 
+pais=''
+
+numeros = []
+
 for x in totalfigus:
     print(x)
+
+for x in totalfigus:
+    if pais == '':
+        pais=(x[:3])
+    if x[:3] == pais:
+        numeros.append(int(x[3:]))
+    else:
+        print(pais,sorted(numeros),"--------->",len(numeros),"Figuritas")
+        pais=(x[:3])        
+        numeros = []
+        numeros.append(int(x[3:]))
+    
+
 
 print(cant)
 print(totalfigus)

@@ -183,7 +183,7 @@
         "ID": 21,
         "NUM": "8",
         "EQUIPO": "SD Aucas",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "KSK",
         "PRECIO": 2000,
         "NOMBRE": "Aucas Jersey 1 and 2"
@@ -471,7 +471,7 @@
         "ID": 53,
         "NUM": "40",
         "EQUIPO": "CD \u00c3\u2018ublense",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Rafael Caroca"
@@ -516,7 +516,7 @@
         "ID": 58,
         "NUM": "45",
         "EQUIPO": "CD \u00c3\u2018ublense",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Lorenzo Reyes"
@@ -642,7 +642,7 @@
         "ID": 72,
         "NUM": "59",
         "EQUIPO": "Racing Club",
-        "CANT": 3,
+        "CANT": 2,
         "TIPO": "KSK",
         "PRECIO": 2000,
         "NOMBRE": "Racing Jersey 1 and 2"
@@ -669,7 +669,7 @@
         "ID": 75,
         "NUM": "62",
         "EQUIPO": "Racing Club",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Juan Nardoni"
@@ -678,7 +678,7 @@
         "ID": 76,
         "NUM": "63",
         "EQUIPO": "Racing Club",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Matias Rojas"
@@ -705,7 +705,7 @@
         "ID": 79,
         "NUM": "66",
         "EQUIPO": "Racing Club",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Gabriel Hauche"
@@ -714,7 +714,7 @@
         "ID": 80,
         "NUM": "67",
         "EQUIPO": "Racing Club",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Maxi Romero"
@@ -723,7 +723,7 @@
         "ID": 81,
         "NUM": "68",
         "EQUIPO": "Racing Club",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Paolo Guerrero"
@@ -795,7 +795,7 @@
         "ID": 89,
         "NUM": "76",
         "EQUIPO": "Independiente Medellin",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "KSK",
         "PRECIO": 2000,
         "NOMBRE": "Independiente Medellin Jersey 1 and 2"
@@ -1020,7 +1020,7 @@
         "ID": 114,
         "NUM": "101",
         "EQUIPO": "Sport Club Internacional",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Pedro Henrique"
@@ -1101,7 +1101,7 @@
         "ID": 123,
         "NUM": "110",
         "EQUIPO": "Metropolitanos FC",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "KSK",
         "PRECIO": 2000,
         "NOMBRE": "Metropolitanos Jersey 1 and 2"
@@ -1344,7 +1344,7 @@
         "ID": 150,
         "NUM": "137",
         "EQUIPO": "Barcelona SC Guayaquil",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "ESC",
         "PRECIO": 2000,
         "NOMBRE": "Barcelona S.C. Team Logo"
@@ -1614,7 +1614,7 @@
         "ID": 180,
         "NUM": "167",
         "EQUIPO": "Bolivar La Paz",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Ramiro Vaca"
@@ -1659,7 +1659,7 @@
         "ID": 185,
         "NUM": "172",
         "EQUIPO": "Club Cerro Porte\u00c3\u00b1o",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Jean"
@@ -1740,7 +1740,7 @@
         "ID": 194,
         "NUM": "181",
         "EQUIPO": "Club Cerro Porte\u00c3\u00b1o",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Piris da Motta"
@@ -1785,7 +1785,7 @@
         "ID": 199,
         "NUM": "186",
         "EQUIPO": "Club Cerro Porte\u00c3\u00b1o",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Braian Samudio"
@@ -1803,7 +1803,7 @@
         "ID": 201,
         "NUM": "188",
         "EQUIPO": "SE Palmeiras",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "ESC",
         "PRECIO": 2000,
         "NOMBRE": "Palmeiras Team Logo"
@@ -1911,7 +1911,7 @@
         "ID": 213,
         "NUM": "200",
         "EQUIPO": "SE Palmeiras",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Z\u00c3\u00a9 Rafael"
@@ -2019,7 +2019,7 @@
         "ID": 225,
         "NUM": "212",
         "EQUIPO": "Fluminense Football Club",
-        "CANT": 2,
+        "CANT": 1,
         "TIPO": "KSK",
         "PRECIO": 2000,
         "NOMBRE": "Fluminense Jersey 1 and 2"
@@ -2460,7 +2460,7 @@
         "ID": 274,
         "NUM": "261",
         "EQUIPO": "The Strongest La Paz",
-        "CANT": 1,
+        "CANT": 0,
         "TIPO": "Comunes",
         "PRECIO": 900,
         "NOMBRE": "Carlos Roca"

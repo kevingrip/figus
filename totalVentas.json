@@ -812,6 +812,37 @@
             "Envio": "ACORDAR ENTREGA",
             "Etiqueta": "San Justo",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "POFE7919966",
+            "Vendidas": [
+                "8",
+                "40",
+                "45",
+                "59",
+                "62",
+                "63",
+                "66",
+                "67",
+                "68",
+                "76",
+                "101",
+                "110",
+                "137",
+                "167",
+                "172",
+                "181",
+                "186",
+                "188",
+                "200",
+                "212",
+                "261"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Copa America 2024": [
@@ -11851,6 +11882,56 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "NO"
+        },
+        {
+            "usuario": "FIKA2011572",
+            "Vendidas": [
+                "ARG3",
+                "ARG18",
+                "ARG19",
+                "PER7",
+                "PER16",
+                "MEX14",
+                "VEN15",
+                "JAM1",
+                "JAM12",
+                "JAM14",
+                "USA12",
+                "PAN5",
+                "BOL2",
+                "BOL17",
+                "BRA1",
+                "BRA7",
+                "BRA13",
+                "COL3",
+                "COL21",
+                "PAR7",
+                "PAR8",
+                "CAN4",
+                "CAN20",
+                "CRC21",
+                "HON5",
+                "LEG14"
+            ],
+            "NoVendidas": [
+                "USA15"
+            ],
+            "Dia": "18/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "ANALIAGAMBA",
+            "Vendidas": [
+                "PAN5",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -21078,6 +21159,22 @@
             "Dia": "18/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "PEINADOJULIAN20231201222704",
+            "Vendidas": [
+                "CMR7",
+                "CRO17",
+                "KOR1",
+                "KOR11",
+                "SRB1",
+                "SRB5"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
             "PREPARADO": "NO"
         }
     ],
