@@ -8,7 +8,7 @@ totalfigus=[]
 cant=0
 
 for x in (totalVentas["Copa America 2024"]):
-    if x["PREPARADO"]=="NO" and x["Envio"]!="ACORDAR ENTREGA":
+    if x["PREARMADO"]=="NO" and x["Envio"]!="ACORDAR ENTREGA":
         if x["Dia"]>"17/07/2024":
             for x in (x["Vendidas"]):            
                 cant+=1
@@ -20,8 +20,6 @@ pais=''
 
 numeros = []
 
-for x in totalfigus:
-    print(x)
 
 for x in totalfigus:
     if pais == '':
@@ -38,4 +36,4 @@ print(" (",len(numeros),")",pais,sorted(numeros))
 
 
 print(cant)
-print(totalfigus)
+# print(totalfigus)

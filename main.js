@@ -153,7 +153,7 @@ const totalVentas = () =>{
             for (let album in data){
                 eleccionAlbum = data[album]
                 
-                const EnviosFiltered = eleccionAlbum.filter(prep => prep.PREPARADO ==="NO")
+                const EnviosFiltered = eleccionAlbum.filter(prep => prep.ARMADO ==="NO")
                 
                 EnviosFiltered.forEach(filtered=>{
                     if (filtered.Envio === "FLEX") {
@@ -183,7 +183,7 @@ const totalVentas = () =>{
             
                 eleccionAlbum = data[album]
                 
-                const noPrep = eleccionAlbum.filter(prep =>prep.PREPARADO ==="NO")
+                const noPrep = eleccionAlbum.filter(prep =>prep.ARMADO ==="NO")
 
                 // console.log(noPrep)
 

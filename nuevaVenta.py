@@ -44,7 +44,7 @@ def nuevaVenta(usuario,vendidas,noVendidas,llaveVentas):
     #     valorFlex = 0
 
     # nuevaVenta = {"usuario": usuario, "Vendidas": vendidas, "NoVendidas": noVendidas, "Dia": dia,"Cuenta": sucursal,"Envio": datoEnvio,"Etiqueta": datoEtiqueta,"PrecioFlex": valorFlex}
-    nuevaVenta = {"usuario": usuario, "Vendidas": vendidas, "NoVendidas": noVendidas, "Dia": dia,"Cuenta": sucursal,"Envio": datoEnvio,"PREPARADO": "NO"}
+    nuevaVenta = {"usuario": usuario, "Vendidas": vendidas, "NoVendidas": noVendidas, "Dia": dia,"Cuenta": sucursal,"Envio": datoEnvio,"ARMADO": "NO","PREARMADO": "NO"}
 
     cargarVenta[llaveVentas].append(nuevaVenta)
                                     
