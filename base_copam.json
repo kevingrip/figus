@@ -723,7 +723,7 @@
     {
         "NUM": "ECU2",
         "TIPO": "EQUIPO",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 1200,
         "NOMBRE": "ECU TEAM"
     },
@@ -800,7 +800,7 @@
     {
         "NUM": "ECU13",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "MOISES CAICEDO"
     },
@@ -2480,7 +2480,7 @@
     {
         "NUM": "CRC11",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "JIMMY MARIN"
     },
@@ -2956,7 +2956,7 @@
     {
         "NUM": "LEG13",
         "TIPO": "LEYENDA",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 3500,
         "NOMBRE": "MARADONA LEFT"
     },
