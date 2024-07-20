@@ -12052,6 +12052,58 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "NATALIALAURADELGADO",
+            "Vendidas": [
+                "INT2",
+                "ARG10",
+                "ARG16",
+                "VEN5",
+                "JAM5",
+                "JAM16",
+                "BRA4",
+                "COL2"
+            ],
+            "NoVendidas": [
+                "VEN20"
+            ],
+            "Dia": "20/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
+        },
+        {
+            "usuario": "GROSSO2015",
+            "Vendidas": [
+                "PER1",
+                "CHI6",
+                "CHI14",
+                "MEX2",
+                "MEX18",
+                "ECU2",
+                "JAM1",
+                "JAM12",
+                "USA22",
+                "PAN3",
+                "PAN5",
+                "PAN14",
+                "PAN16",
+                "PAN18",
+                "PAN20",
+                "BOL12",
+                "BRA3",
+                "COL4",
+                "COL5",
+                "CAN12",
+                "CAN22",
+                "HON19"
+            ],
+            "NoVendidas": [],
+            "Dia": "20/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "PREPARADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -21322,6 +21374,22 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "PREPARADO": "SI"
+        },
+        {
+            "usuario": "STEURRA",
+            "Vendidas": [
+                "AUS9",
+                "BEL12",
+                "BEL15",
+                "CRC6",
+                "KOR17",
+                "URU8"
+            ],
+            "NoVendidas": [],
+            "Dia": "20/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "PREPARADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
