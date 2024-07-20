@@ -19142,6 +19142,47 @@
                 "LEG3",
                 "USA2"
             ]
+        },
+        {
+            "usuario": "RIOSELBIA20230107114209",
+            "figusPedidas": [
+                "ARG11",
+                "MEX4",
+                "PAN1",
+                "PAR4"
+            ]
+        },
+        {
+            "usuario": "GAYEGO03",
+            "figusPedidas": [
+                "ARG9",
+                "BOL17",
+                "CAN22",
+                "CAN3",
+                "CHI11",
+                "CHI5",
+                "CRC5",
+                "ECU13",
+                "ECU7",
+                "HCI9",
+                "HON3",
+                "INT1",
+                "PAN11",
+                "PAN18",
+                "PAR16",
+                "PAR17",
+                "PAR21"
+            ]
+        },
+        {
+            "usuario": "PAUSA82",
+            "figusPedidas": [
+                "INT1",
+                "INT3",
+                "INT4",
+                "LEG15",
+                "ROH2"
+            ]
         }
     ]
 }
