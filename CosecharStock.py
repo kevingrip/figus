@@ -160,7 +160,7 @@ def cosecharStock(base):
                             # print("Precio acumulado: ",precioUyuni)
                             print ("[+"+str(cantidadTotal)+"]       "+figuActual+' <<< '+str(fila["NUM"])+": >>> "+figuNueva)
                         
-                        elif fila["TIPO"]=='ESCUDO': 
+                        elif fila["TIPO"]=='ESCUDO' or fila["TIPO"]=='CIUDAD': 
                             fila["CANT"] += int(1)
                             cantidadTotal += int(1)
                             figuNueva = str(fila["CANT"])

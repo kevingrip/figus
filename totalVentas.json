@@ -12580,7 +12580,7 @@
             "Dia": "20/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -12613,7 +12613,7 @@
             "Dia": "20/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -12626,7 +12626,7 @@
             "Dia": "20/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -12639,7 +12639,7 @@
             "Dia": "20/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -12673,8 +12673,8 @@
             "Dia": "21/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "FERNANDEZA1984L",
@@ -12692,8 +12692,8 @@
             "Dia": "21/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "OLMOSRAIDEN2008",
@@ -12721,8 +12721,8 @@
             "Dia": "21/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "hurlingham palomar",
@@ -12740,7 +12740,7 @@
             "Dia": "21/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "NO"
         },
         {
@@ -12775,8 +12775,8 @@
             "Dia": "21/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ESTEQUEOK",
@@ -12815,6 +12815,97 @@
             "Dia": "21/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MILLIERYB2",
+            "Vendidas": [
+                "PER6",
+                "COL13",
+                "PAR1",
+                "LEG18",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "NURIJAKIM",
+            "Vendidas": [
+                "ARG2",
+                "ECU3"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LUCASDAVIDBORGIATTINO",
+            "Vendidas": [
+                "INT1",
+                "ARG21",
+                "CHI8",
+                "MEX1",
+                "MEX22",
+                "VEN2",
+                "PAN3",
+                "PAR5",
+                "CAN1",
+                "LEG14"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ARIROMERO2010",
+            "Vendidas": [
+                "CHI7",
+                "VEN15",
+                "USA15",
+                "PAN1",
+                "PAN2",
+                "PAN6",
+                "PAN7",
+                "PAN8",
+                "PAN9",
+                "PAN11",
+                "PAN22",
+                "BOL5",
+                "BOL10",
+                "BOL11",
+                "BOL13",
+                "BOL15",
+                "BOL18",
+                "BRA14",
+                "BRA16",
+                "CAN3",
+                "CAN13",
+                "CAN14",
+                "CAN16",
+                "LEG1",
+                "LEG4",
+                "LEG6",
+                "LEG15",
+                "LEG17"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "22/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
@@ -22449,7 +22540,7 @@
             "Dia": "20/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -22461,7 +22552,20 @@
             "Dia": "20/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "JUANPABLOLERRO",
+            "Vendidas": [
+                "BEL1",
+                "WAL1"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         }
     ],
