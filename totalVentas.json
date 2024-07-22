@@ -12865,8 +12865,8 @@
             "Dia": "22/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ARIROMERO2010",
@@ -12906,8 +12906,8 @@
             "Dia": "22/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DIEGOK2006",
@@ -12946,8 +12946,8 @@
             "Dia": "22/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "PAOLAFORTI",
@@ -13024,8 +13024,8 @@
             "Dia": "22/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "FEDESPESOT1983",
@@ -13041,8 +13041,20 @@
             "Dia": "22/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CAMIFIGUEROA73",
+            "Vendidas": [
+                "ARG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -22700,6 +22712,19 @@
             "Dia": "22/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "DEVALUZ",
+            "Vendidas": [
+                "ENG1",
+                "GER1"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
         }
