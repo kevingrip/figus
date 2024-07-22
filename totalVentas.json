@@ -12564,13 +12564,15 @@
             "usuario": "NATALIALAURADELGADO",
             "Vendidas": [
                 "INT2",
-                "ARG10",
+                "ARG14",
                 "ARG16",
                 "VEN5",
                 "JAM5",
                 "JAM16",
                 "BRA4",
-                "COL2"
+                "COL2",
+                "TRI1",
+                "MEX20"
             ],
             "NoVendidas": [
                 "VEN20"
@@ -12639,6 +12641,107 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "NERINAFALCO",
+            "Vendidas": [
+                "CHI10",
+                "CHI22",
+                "MEX21",
+                "ECU19",
+                "JAM4",
+                "USA9",
+                "PAN9",
+                "PAN19",
+                "BOL3",
+                "BOL17",
+                "BOL19",
+                "BRA1",
+                "BRA8",
+                "BRA14",
+                "BRA15",
+                "COL22",
+                "CAN8",
+                "HON8",
+                "HON17",
+                "HON21",
+                "TRI18",
+                "LEG12",
+                "LEG13"
+            ],
+            "NoVendidas": [],
+            "Dia": "21/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "FERNANDEZA1984L",
+            "Vendidas": [
+                "ARG9",
+                "CHI15",
+                "BOL15",
+                "BRA5",
+                "BRA17",
+                "PAR19",
+                "CAN1",
+                "CAN19"
+            ],
+            "NoVendidas": [],
+            "Dia": "21/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "OLMOSRAIDEN2008",
+            "Vendidas": [
+                "ARG1",
+                "ARG3",
+                "ARG4",
+                "ARG5",
+                "ARG6",
+                "ARG7",
+                "ARG8",
+                "ARG9",
+                "ARG10",
+                "ARG11",
+                "ARG12",
+                "ARG13",
+                "ARG15",
+                "ARG17",
+                "ARG18",
+                "ARG19",
+                "ARG20",
+                "ARG22"
+            ],
+            "NoVendidas": [],
+            "Dia": "21/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "hurlingham palomar",
+            "Vendidas": [
+                "ARG4",
+                "ARG5",
+                "ARG10",
+                "ARG11",
+                "ARG12",
+                "ARG14",
+                "ARG16",
+                "LEG3"
+            ],
+            "NoVendidas": [],
+            "Dia": "21/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
