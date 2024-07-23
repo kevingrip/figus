@@ -513,7 +513,7 @@
     {
         "NUM": "CHI16",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "VICTOR MENDEZ"
     },
@@ -527,7 +527,7 @@
     {
         "NUM": "CHI18",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "BRUNO BARTICCIOTTO"
     },
@@ -709,7 +709,7 @@
     {
         "NUM": "MEX22",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "RAUL JIMENEZ"
     },
@@ -793,7 +793,7 @@
     {
         "NUM": "ECU12",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "ALAN FRANCO"
     },
@@ -905,7 +905,7 @@
     {
         "NUM": "VEN6",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "WILKER ANGEL"
     },
@@ -1017,7 +1017,7 @@
     {
         "NUM": "VEN22",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "SALOMON RONDON"
     },
@@ -1073,7 +1073,7 @@
     {
         "NUM": "JAM8",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "ADRIAN MARIAPPA"
     },
@@ -1269,7 +1269,7 @@
     {
         "NUM": "USA14",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "WESTON MCKENNIE"
     },
@@ -1521,7 +1521,7 @@
     {
         "NUM": "PAN6",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "FIDEL ESCOBAR"
     },
@@ -1591,7 +1591,7 @@
     {
         "NUM": "PAN16",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "EDUARDO GUERRERO"
     },
@@ -1647,7 +1647,7 @@
     {
         "NUM": "BOL2",
         "TIPO": "EQUIPO",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 1200,
         "NOMBRE": "BOL TEAM"
     },
@@ -2256,7 +2256,7 @@
     {
         "NUM": "CAN1",
         "TIPO": "ESCUDO",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 2000,
         "NOMBRE": "CAN ESC"
     },
@@ -2753,7 +2753,7 @@
     {
         "NUM": "TRI6",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "AUBREY DAVID"
     },
