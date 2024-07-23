@@ -12740,8 +12740,8 @@
             "Dia": "21/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "EMILIANA GIACOMI",
@@ -12844,8 +12844,8 @@
             "Dia": "22/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LUCASDAVIDBORGIATTINO",
@@ -13065,8 +13065,8 @@
             "Dia": "22/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "RONA8976112",
@@ -13080,8 +13080,8 @@
             "Dia": "22/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "GABY_GONZALEZ5",
@@ -13106,21 +13106,22 @@
             "Dia": "22/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "GIS_CANO",
             "Vendidas": [
                 "CAN11",
-                "TRI11"
+                "TRI11",
+                "ECU1"
             ],
             "NoVendidas": [],
             "Dia": "22/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "NATIICEBALLOS",
@@ -13164,8 +13165,8 @@
             "Dia": "23/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DAIANAMORALES051",
@@ -13180,6 +13181,97 @@
             "NoVendidas": [],
             "Dia": "23/07/2024",
             "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ANGELESBRIEND",
+            "Vendidas": [
+                "ARG1",
+                "ARG4",
+                "ARG6",
+                "ARG16",
+                "ARG18",
+                "PER2",
+                "PER5",
+                "PER7",
+                "CHI3",
+                "CHI4",
+                "CHI5",
+                "MEX9",
+                "MEX10",
+                "MEX16",
+                "ECU11",
+                "ECU12",
+                "ECU14",
+                "ECU15",
+                "VEN1",
+                "VEN3",
+                "VEN4",
+                "VEN6",
+                "JAM6",
+                "JAM16",
+                "JAM22",
+                "USA1",
+                "USA9",
+                "USA12",
+                "PAN8",
+                "PAN10",
+                "PAN12",
+                "BOL3",
+                "BOL5",
+                "BOL6",
+                "BOL7",
+                "BOL9",
+                "BRA2",
+                "BRA15",
+                "BRA20",
+                "COL2",
+                "COL4",
+                "COL7",
+                "COL10",
+                "CAN10",
+                "CAN22",
+                "HON1",
+                "HON4"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ESPOLSINSERGIO20210504212907",
+            "Vendidas": [
+                "HCI9",
+                "CHI8",
+                "ECU10",
+                "ECU18",
+                "ECU20",
+                "ECU22",
+                "VEN8",
+                "JAM2",
+                "JAM10",
+                "USA9",
+                "USA10",
+                "BOL10",
+                "BOL22",
+                "COL4",
+                "COL6",
+                "COL9",
+                "PAR6",
+                "CAN16",
+                "LEG13",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "INT1"
+            ],
+            "Dia": "23/07/2024",
+            "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
