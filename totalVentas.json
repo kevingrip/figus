@@ -13273,6 +13273,19 @@
             "Dia": "23/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CHMA86344",
+            "Vendidas": [
+                "COL18",
+                "HON18"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
