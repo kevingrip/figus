@@ -13478,6 +13478,24 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MARIELADANASINO",
+            "Vendidas": [
+                "VEN1",
+                "VEN3",
+                "VEN9",
+                "VEN15",
+                "VEN17",
+                "VEN20",
+                "VEN21"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
