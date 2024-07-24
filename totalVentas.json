@@ -13312,6 +13312,34 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "PAJU5343169",
+            "Vendidas": [
+                "CHI15",
+                "ECU4",
+                "VEN5",
+                "VEN7",
+                "JAM2",
+                "JAM11",
+                "JAM12",
+                "USA21",
+                "BRA12",
+                "PAR9",
+                "PAR19",
+                "CAN3",
+                "CRC3",
+                "CRC21"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "CAN2"
+            ],
+            "Dia": "23/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
