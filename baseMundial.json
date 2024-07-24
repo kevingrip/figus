@@ -1,5816 +1,3012 @@
 [
     {
-        "NUM": "FWC0",
-        "CANT": 2,
-        "PRECIO": 4500,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "PANINI LOGO"
+        "NUM": "INT1",
+        "TIPO": "INTRO",
+        "CANT": 1,
+        "PRECIO": 7500,
+        "NOMBRE": "INTRODUCCION"
     },
     {
-        "NUM": "FWC1",
+        "NUM": "INT2",
+        "TIPO": "INTRO",
+        "CANT": 0,
+        "PRECIO": 7500,
+        "NOMBRE": "MASCOTA"
+    },
+    {
+        "NUM": "INT3",
+        "TIPO": "INTRO",
+        "CANT": 0,
+        "PRECIO": 7500,
+        "NOMBRE": "COPA"
+    },
+    {
+        "NUM": "INT4",
+        "TIPO": "INTRO",
+        "CANT": 0,
+        "PRECIO": 7500,
+        "NOMBRE": "PELOTA"
+    },
+    {
+        "NUM": "HCI1",
+        "TIPO": "CIUDAD",
+        "CANT": 6,
+        "PRECIO": 2000,
+        "NOMBRE": "KANSAS CITY"
+    },
+    {
+        "NUM": "HCI2",
+        "TIPO": "CIUDAD",
+        "CANT": 3,
+        "PRECIO": 2000,
+        "NOMBRE": "LAS VEGAS"
+    },
+    {
+        "NUM": "HCI3",
+        "TIPO": "CIUDAD",
         "CANT": 11,
-        "PRECIO": 750,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "FIFA Logo"
+        "PRECIO": 2000,
+        "NOMBRE": "GLENDALE"
     },
     {
-        "NUM": "FWC2",
-        "CANT": 1,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Official Trophy /1"
-    },
-    {
-        "NUM": "FWC3",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Official Trophy /2"
-    },
-    {
-        "NUM": "FWC4",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Official Mascot /1"
-    },
-    {
-        "NUM": "FWC5",
-        "CANT": 5,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Official Mascot /2"
-    },
-    {
-        "NUM": "FWC6",
-        "CANT": 5,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Official Emblem /1"
-    },
-    {
-        "NUM": "FWC7",
-        "CANT": 0,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Official Emblem /2"
-    },
-    {
-        "NUM": "FWC8",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ahmad Bin Ali Stadium"
-    },
-    {
-        "NUM": "FWC9",
-        "CANT": 44,
-        "PRECIO": 750,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Al Janoub Stadium"
-    },
-    {
-        "NUM": "FWC10",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Al Thumama Stadium"
-    },
-    {
-        "NUM": "FWC11",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Education City Stadium"
-    },
-    {
-        "NUM": "FWC12",
+        "NUM": "HCI4",
+        "TIPO": "CIUDAD",
         "CANT": 10,
-        "PRECIO": 750,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Khalifa International Stadium"
+        "PRECIO": 2000,
+        "NOMBRE": "AUSTIN"
     },
     {
-        "NUM": "FWC13",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Stadium 974"
-    },
-    {
-        "NUM": "FWC14",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Al Bayt Stadium outdoor"
-    },
-    {
-        "NUM": "FWC15",
+        "NUM": "HCI5",
+        "TIPO": "CIUDAD",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Al Bayt Stadium indoor"
+        "PRECIO": 2000,
+        "NOMBRE": "HOUSTON"
     },
     {
-        "NUM": "FWC16",
+        "NUM": "HCI6",
+        "TIPO": "CIUDAD",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Lusail Stadium outdoor"
+        "PRECIO": 2000,
+        "NOMBRE": "EAST RUTHERFORD"
     },
     {
-        "NUM": "FWC17",
-        "CANT": 14,
-        "PRECIO": 750,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Lusail Stadium indoor"
+        "NUM": "HCI7",
+        "TIPO": "CIUDAD",
+        "CANT": 6,
+        "PRECIO": 2000,
+        "NOMBRE": "CHARLOTTE"
     },
     {
-        "NUM": "FWC18",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "FWCC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Official Matchball"
-    },
-    {
-        "NUM": "FWC19",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Uruguay 1930"
-    },
-    {
-        "NUM": "FWC20",
-        "CANT": 0,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Italy 1938"
-    },
-    {
-        "NUM": "FWC21",
+        "NUM": "HCI8",
+        "TIPO": "CIUDAD",
         "CANT": 5,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Brazil 1958"
+        "PRECIO": 2000,
+        "NOMBRE": "ATALANTA"
     },
     {
-        "NUM": "FWC22",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "England 1966"
-    },
-    {
-        "NUM": "FWC23",
-        "CANT": 1,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Brazil 1970"
-    },
-    {
-        "NUM": "FWC24",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Argentina 1978"
-    },
-    {
-        "NUM": "FWC25",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Italy 1982"
-    },
-    {
-        "NUM": "FWC26",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Germany FR 1990"
-    },
-    {
-        "NUM": "FWC27",
+        "NUM": "HCI9",
+        "TIPO": "CIUDAD",
         "CANT": 4,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "France 1998"
+        "PRECIO": 2000,
+        "NOMBRE": "ORLANDO"
     },
     {
-        "NUM": "FWC28",
-        "CANT": 1,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Spain 2010"
-    },
-    {
-        "NUM": "FWC29",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "FWCD",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "France 2018"
+        "NUM": "HCI10",
+        "TIPO": "CIUDAD",
+        "CANT": 4,
+        "PRECIO": 2000,
+        "NOMBRE": "MIAMI GARDENS"
     },
     {
         "NUM": "ARG1",
-        "CANT": 9,
-        "PRECIO": 6500,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Argentina Team Shot"
+        "TIPO": "ESCUDO",
+        "CANT": 7,
+        "PRECIO": 7500,
+        "NOMBRE": "ARG ESC"
     },
     {
         "NUM": "ARG2",
-        "CANT": 1,
+        "TIPO": "AFA",
+        "CANT": 13,
         "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Emiliano Martinez"
+        "NOMBRE": "TEAM ARG"
     },
     {
         "NUM": "ARG3",
-        "CANT": 4,
+        "TIPO": "AFA",
+        "CANT": 14,
         "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Franco Armani"
+        "NOMBRE": "EMILIANO MARTINEZ"
     },
     {
         "NUM": "ARG4",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Marcos Acuna"
+        "TIPO": "AFA",
+        "CANT": 11,
+        "PRECIO": 2500,
+        "NOMBRE": "FRANCO ARMANI"
     },
     {
         "NUM": "ARG5",
-        "CANT": 7,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nahuel Molina"
+        "TIPO": "AFA",
+        "CANT": 8,
+        "PRECIO": 2500,
+        "NOMBRE": "NICOLAS OTAMENDI"
     },
     {
         "NUM": "ARG6",
-        "CANT": 4,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nicolas Otamendi"
+        "TIPO": "AFA",
+        "CANT": 7,
+        "PRECIO": 2500,
+        "NOMBRE": "CRISTIAN ROMERO"
     },
     {
         "NUM": "ARG7",
-        "CANT": 1,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "German Pezzella"
+        "TIPO": "AFA",
+        "CANT": 14,
+        "PRECIO": 2000,
+        "NOMBRE": "GERMAN PEZZELLA"
     },
     {
         "NUM": "ARG8",
-        "CANT": 6,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Cristian Romero"
+        "TIPO": "AFA",
+        "CANT": 11,
+        "PRECIO": 2500,
+        "NOMBRE": "LISANDRO MARTINEZ"
     },
     {
         "NUM": "ARG9",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Rodrigo De Paul"
+        "TIPO": "AFA",
+        "CANT": 15,
+        "PRECIO": 1500,
+        "NOMBRE": "MARCOS ACUNA"
     },
     {
         "NUM": "ARG10",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Angel Di Maria"
+        "TIPO": "AFA",
+        "CANT": 12,
+        "PRECIO": 2500,
+        "NOMBRE": "NAHUEL MOLINA"
     },
     {
         "NUM": "ARG11",
-        "CANT": 35,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Giovani Lo Celso"
+        "TIPO": "AFA",
+        "CANT": 13,
+        "PRECIO": 2500,
+        "NOMBRE": "NICOLAS TAGLIAFICO"
     },
     {
         "NUM": "ARG12",
-        "CANT": 3,
+        "TIPO": "AFA",
+        "CANT": 6,
         "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Leandro Paredes"
+        "NOMBRE": "EXEQUIEL PALACIOS"
     },
     {
         "NUM": "ARG13",
-        "CANT": 5,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Guido Rodriguez"
+        "TIPO": "AFA",
+        "CANT": 12,
+        "PRECIO": 2500,
+        "NOMBRE": "LEANDRO PAREDES"
     },
     {
         "NUM": "ARG14",
-        "CANT": 0,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Julian Alvarez"
+        "TIPO": "AFA",
+        "CANT": 13,
+        "PRECIO": 2500,
+        "NOMBRE": "RODRIGO DE PAUL"
     },
     {
         "NUM": "ARG15",
-        "CANT": 3,
+        "TIPO": "AFA",
+        "CANT": 8,
         "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Joaquin Correa"
+        "NOMBRE": "ENZO FERNANDEZ"
     },
     {
         "NUM": "ARG16",
-        "CANT": 6,
+        "TIPO": "AFA",
+        "CANT": 8,
         "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alejandro Gomez"
+        "NOMBRE": "ALEXIS MAC ALLISTER"
     },
     {
         "NUM": "ARG17",
-        "CANT": 8,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nicolas Gonzalez"
+        "TIPO": "AFA",
+        "CANT": 10,
+        "PRECIO": 2500,
+        "NOMBRE": "PAULO DYBALA"
     },
     {
         "NUM": "ARG18",
-        "CANT": 3,
+        "TIPO": "AFA",
+        "CANT": 7,
         "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Lautaro Martinez"
+        "NOMBRE": "NICOLAS GONZALEZ"
     },
     {
         "NUM": "ARG19",
-        "CANT": 4,
-        "PRECIO": 7000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Lionel Messi"
-    },
-    {
-        "NUM": "AUS1",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Australia Team Shot"
-    },
-    {
-        "NUM": "AUS2",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mathew Ryan"
-    },
-    {
-        "NUM": "AUS3",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Andrew Redmayne"
-    },
-    {
-        "NUM": "AUS4",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Aziz Behich"
-    },
-    {
-        "NUM": "AUS5",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Milos Degenek"
-    },
-    {
-        "NUM": "AUS6",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Rhyan Grant"
-    },
-    {
-        "NUM": "AUS7",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Joel King"
-    },
-    {
-        "NUM": "AUS8",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Trent Sainsbury"
-    },
-    {
-        "NUM": "AUS9",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Harry Souttar"
-    },
-    {
-        "NUM": "AUS10",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ajdin Hrustic"
-    },
-    {
-        "NUM": "AUS11",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jackson Irvine"
-    },
-    {
-        "NUM": "AUS12",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "James Jeggo"
-    },
-    {
-        "NUM": "AUS13",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Awer Mabil"
-    },
-    {
-        "NUM": "AUS14",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Aaron Mooy"
-    },
-    {
-        "NUM": "AUS15",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Martin Boyle"
-    },
-    {
-        "NUM": "AUS16",
-        "CANT": 12,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mitchell Duke"
-    },
-    {
-        "NUM": "AUS17",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Craig Goodwin"
-    },
-    {
-        "NUM": "AUS18",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mathew Leckie"
-    },
-    {
-        "NUM": "AUS19",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Adam Taggart"
-    },
-    {
-        "NUM": "BEL1",
-        "CANT": 5,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Belgium Team Shot"
-    },
-    {
-        "NUM": "BEL2",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Thibaut Courtois"
-    },
-    {
-        "NUM": "BEL3",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Simon Mignolet"
-    },
-    {
-        "NUM": "BEL4",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Toby Alderweireld"
-    },
-    {
-        "NUM": "BEL5",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Timothy Castagne"
-    },
-    {
-        "NUM": "BEL6",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jason Denayer"
-    },
-    {
-        "NUM": "BEL7",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Thomas Meunier"
-    },
-    {
-        "NUM": "BEL8",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jan Vertonghen"
-    },
-    {
-        "NUM": "BEL9",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yannick Carrasco"
-    },
-    {
-        "NUM": "BEL10",
-        "CANT": 41,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kevin De Bruyne"
-    },
-    {
-        "NUM": "BEL11",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Charles De Ketelaere"
-    },
-    {
-        "NUM": "BEL12",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Thorgan Hazard"
-    },
-    {
-        "NUM": "BEL13",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Youri Tielemans"
-    },
-    {
-        "NUM": "BEL14",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hans Vanaken"
-    },
-    {
-        "NUM": "BEL15",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Axel Witsel"
-    },
-    {
-        "NUM": "BEL16",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jeremy Doku"
-    },
-    {
-        "NUM": "BEL17",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Eden Hazard"
-    },
-    {
-        "NUM": "BEL18",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Romelu Lukaku"
-    },
-    {
-        "NUM": "BEL19",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Dries Mertens"
-    },
-    {
-        "NUM": "BRA1",
-        "CANT": 1,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Brazil Team Shot"
-    },
-    {
-        "NUM": "BRA2",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alisson"
-    },
-    {
-        "NUM": "BRA3",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ederson"
-    },
-    {
-        "NUM": "BRA4",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alex Sandro"
-    },
-    {
-        "NUM": "BRA5",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Danilo"
-    },
-    {
-        "NUM": "BRA6",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Eder Militao"
-    },
-    {
-        "NUM": "BRA7",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Marquinhos"
-    },
-    {
-        "NUM": "BRA8",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Thiago Silva"
-    },
-    {
-        "NUM": "BRA9",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Casemiro"
-    },
-    {
-        "NUM": "BRA10",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Philippe Coutinho"
-    },
-    {
-        "NUM": "BRA11",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Fabinho"
-    },
-    {
-        "NUM": "BRA12",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Fred"
-    },
-    {
-        "NUM": "BRA13",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Lucas Paqueta"
-    },
-    {
-        "NUM": "BRA14",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Antony"
-    },
-    {
-        "NUM": "BRA15",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Gabriel Jesus"
-    },
-    {
-        "NUM": "BRA16",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Neymar Jr"
-    },
-    {
-        "NUM": "BRA17",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Raphinha"
-    },
-    {
-        "NUM": "BRA18",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Richarlison"
-    },
-    {
-        "NUM": "BRA19",
-        "CANT": 4,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Vinicius Jr"
-    },
-    {
-        "NUM": "CAN1",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Canada Team Shot"
-    },
-    {
-        "NUM": "CAN2",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Milan Borjan"
-    },
-    {
-        "NUM": "CAN3",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Maxime Crepeau"
-    },
-    {
-        "NUM": "CAN4",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Samuel Adekugbe"
-    },
-    {
-        "NUM": "CAN5",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Doneil Henry"
-    },
-    {
-        "NUM": "CAN6",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alistair Johnston"
-    },
-    {
-        "NUM": "CAN7",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Richie Laryea"
-    },
-    {
-        "NUM": "CAN8",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kamal Miller"
-    },
-    {
-        "NUM": "CAN9",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Steven Vitoria"
-    },
-    {
-        "NUM": "CAN10",
-        "CANT": 28,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Tajon Buchanan"
-    },
-    {
-        "NUM": "CAN11",
-        "CANT": 19,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alphonso Davies"
-    },
-    {
-        "NUM": "CAN12",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Stephen Eustaquio"
-    },
-    {
-        "NUM": "CAN13",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Atiba Hutchinson"
-    },
-    {
-        "NUM": "CAN14",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mark"
-    },
-    {
-        "NUM": "CAN15",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jonathan Osorio"
-    },
-    {
-        "NUM": "CAN16",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Samuel Piette"
-    },
-    {
-        "NUM": "CAN17",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jonathan David"
-    },
-    {
-        "NUM": "CAN18",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "David Junior Hoilett"
-    },
-    {
-        "NUM": "CAN19",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Cyle Larin"
-    },
-    {
-        "NUM": "CMR1",
-        "CANT": 7,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Cameroon Team Shot"
-    },
-    {
-        "NUM": "CMR2",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Andre Onana"
-    },
-    {
-        "NUM": "CMR3",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Devis Epassy"
-    },
-    {
-        "NUM": "CMR4",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jean"
-    },
-    {
-        "NUM": "CMR5",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Collins Fai"
-    },
-    {
-        "NUM": "CMR6",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Olivier Mbaizo"
-    },
-    {
-        "NUM": "CMR7",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Harold Moukoudi"
-    },
-    {
-        "NUM": "CMR8",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Michael Ngadeu"
-    },
-    {
-        "NUM": "CMR9",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nouhou"
-    },
-    {
-        "NUM": "CMR10",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Martin Hongla"
-    },
-    {
-        "NUM": "CMR11",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Pierre Kunde"
-    },
-    {
-        "NUM": "CMR12",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "James Lea Siliki"
-    },
-    {
-        "NUM": "CMR13",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Samuel Oum Gouet"
-    },
-    {
-        "NUM": "CMR14",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Andre"
-    },
-    {
-        "NUM": "CMR15",
-        "CANT": 10,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Vincent Aboubakar"
-    },
-    {
-        "NUM": "CMR16",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Stephane Bahoken"
-    },
-    {
-        "NUM": "CMR17",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Eric Maxim Choupo"
-    },
-    {
-        "NUM": "CMR18",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nicolas Moumi Ngamaleu"
-    },
-    {
-        "NUM": "CMR19",
-        "CANT": 13,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Karl Toko Ekambi"
-    },
-    {
-        "NUM": "CRC1",
-        "CANT": 1,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Costa Rica Team Shot"
-    },
-    {
-        "NUM": "CRC2",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Keylor Navas"
-    },
-    {
-        "NUM": "CRC3",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Leonel Moreira"
-    },
-    {
-        "NUM": "CRC4",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ricardo Blanco"
-    },
-    {
-        "NUM": "CRC5",
-        "CANT": 15,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Francisco Calvo"
-    },
-    {
-        "NUM": "CRC6",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Oscar Duarte"
-    },
-    {
-        "NUM": "CRC7",
-        "CANT": 10,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Keysher Fuller"
-    },
-    {
-        "NUM": "CRC8",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Bryan Oviedo"
-    },
-    {
-        "NUM": "CRC9",
-        "CANT": 10,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Juan Pablo Vargas"
-    },
-    {
-        "NUM": "CRC10",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kendall Waston"
-    },
-    {
-        "NUM": "CRC11",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Celso Borges"
-    },
-    {
-        "NUM": "CRC12",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Orlando Galo"
-    },
-    {
-        "NUM": "CRC13",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Bryan Ruiz"
-    },
-    {
-        "NUM": "CRC14",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yeltsin Tejeda"
-    },
-    {
-        "NUM": "CRC15",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jewison Bennette"
-    },
-    {
-        "NUM": "CRC16",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Joel Campbell"
-    },
-    {
-        "NUM": "CRC17",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Anthony Contreras"
-    },
-    {
-        "NUM": "CRC18",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Gerson Torres"
-    },
-    {
-        "NUM": "CRC19",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Johan Venegas"
-    },
-    {
-        "NUM": "CRO1",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Croatia Team Shot"
-    },
-    {
-        "NUM": "CRO2",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Dominik Livakovic"
-    },
-    {
-        "NUM": "CRO3",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ivica Ivusic"
-    },
-    {
-        "NUM": "CRO4",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Duje Caleta"
-    },
-    {
-        "NUM": "CRO5",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Josko Gvardiol"
-    },
-    {
-        "NUM": "CRO6",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Josip Juranovic"
-    },
-    {
-        "NUM": "CRO7",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Dejan Lovren"
-    },
-    {
-        "NUM": "CRO8",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Borna Sosa"
-    },
-    {
-        "NUM": "CRO9",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Domagoj Vida"
-    },
-    {
-        "NUM": "CRO10",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Marcelo Brozovic"
-    },
-    {
-        "NUM": "CRO11",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mateo Kovacic"
-    },
-    {
-        "NUM": "CRO12",
-        "CANT": 4,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Luka Modric"
-    },
-    {
-        "NUM": "CRO13",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mario Pasalic"
-    },
-    {
-        "NUM": "CRO14",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ivan Perisic"
-    },
-    {
-        "NUM": "CRO15",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nikola Vlasic"
-    },
-    {
-        "NUM": "CRO16",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Josip Brekalo"
-    },
-    {
-        "NUM": "CRO17",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Andrej Kramaric"
-    },
-    {
-        "NUM": "CRO18",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Marko Livaja"
-    },
-    {
-        "NUM": "CRO19",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mislav Orsic"
-    },
-    {
-        "NUM": "DEN1",
-        "CANT": 6,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Denmark Team Shot"
-    },
-    {
-        "NUM": "DEN2",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kasper Schmeichel"
-    },
-    {
-        "NUM": "DEN3",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Frederik Ronnow"
-    },
-    {
-        "NUM": "DEN4",
-        "CANT": 13,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Andreas Christensen"
-    },
-    {
-        "NUM": "DEN5",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Simon Kjaer"
-    },
-    {
-        "NUM": "DEN6",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Joakim Maehle"
-    },
-    {
-        "NUM": "DEN7",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jens Stryger Larsen"
-    },
-    {
-        "NUM": "DEN8",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jannik Vestergaard"
-    },
-    {
-        "NUM": "DEN9",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mikkel Damsgaard"
-    },
-    {
-        "NUM": "DEN10",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Thomas Delaney"
-    },
-    {
-        "NUM": "DEN11",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Christian Eriksen"
-    },
-    {
-        "NUM": "DEN12",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Pierre Emile Hojbjerg"
-    },
-    {
-        "NUM": "DEN13",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Christian Norgaard"
-    },
-    {
-        "NUM": "DEN14",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Daniel Wass"
-    },
-    {
-        "NUM": "DEN15",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Martin Braithwaite"
-    },
-    {
-        "NUM": "DEN16",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kasper Dolberg"
-    },
-    {
-        "NUM": "DEN17",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yussuf Poulsen"
-    },
-    {
-        "NUM": "DEN18",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Andreas Skov Olsen"
-    },
-    {
-        "NUM": "DEN19",
-        "CANT": 11,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jonas Wind"
-    },
-    {
-        "NUM": "ECU1",
-        "CANT": 1,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ecuador Team Shot"
-    },
-    {
-        "NUM": "ECU2",
-        "CANT": 25,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hernan Galindez"
-    },
-    {
-        "NUM": "ECU3",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alexander Dominguez"
-    },
-    {
-        "NUM": "ECU4",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Robert Arboleda"
-    },
-    {
-        "NUM": "ECU5",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Byron Castillo"
-    },
-    {
-        "NUM": "ECU6",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Pervis Estupi\u00c3\u00b1an"
-    },
-    {
-        "NUM": "ECU7",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Piero Hincapie"
-    },
-    {
-        "NUM": "ECU8",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Angelo Preciado"
-    },
-    {
-        "NUM": "ECU9",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Felix Torres"
-    },
-    {
-        "NUM": "ECU10",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Moises Caicedo"
-    },
-    {
-        "NUM": "ECU11",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alan Franco"
-    },
-    {
-        "NUM": "ECU12",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Carlos Gruezo"
-    },
-    {
-        "NUM": "ECU13",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jhegson Mendez"
-    },
-    {
-        "NUM": "ECU14",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jeremy Sarmiento"
-    },
-    {
-        "NUM": "ECU15",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Michael Estrada"
-    },
-    {
-        "NUM": "ECU16",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Angel Mena"
-    },
-    {
-        "NUM": "ECU17",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Gonzalo Plata"
-    },
-    {
-        "NUM": "ECU18",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ayrton Preciado"
-    },
-    {
-        "NUM": "ECU19",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Enner Valencia"
-    },
-    {
-        "NUM": "ENG1",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "England Team Shot"
-    },
-    {
-        "NUM": "ENG2",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jordan Pickford"
-    },
-    {
-        "NUM": "ENG3",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Aaron Ramsdale"
-    },
-    {
-        "NUM": "ENG4",
-        "CANT": 28,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Trent Alexander"
-    },
-    {
-        "NUM": "ENG5",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Conor Coady"
-    },
-    {
-        "NUM": "ENG6",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Harry Maguire"
-    },
-    {
-        "NUM": "ENG7",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Luke Shaw"
-    },
-    {
-        "NUM": "ENG8",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "John Stones"
-    },
-    {
-        "NUM": "ENG9",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kyle Walker"
-    },
-    {
-        "NUM": "ENG10",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jude Bellingham"
-    },
-    {
-        "NUM": "ENG11",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jack Grealish"
-    },
-    {
-        "NUM": "ENG12",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jordan Henderson"
-    },
-    {
-        "NUM": "ENG13",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mason Mount"
-    },
-    {
-        "NUM": "ENG14",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kalvin Phillips"
-    },
-    {
-        "NUM": "ENG15",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Declan Rice"
-    },
-    {
-        "NUM": "ENG16",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Phil Foden"
-    },
-    {
-        "NUM": "ENG17",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Harry Kane"
-    },
-    {
-        "NUM": "ENG18",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Bukayo Saka"
-    },
-    {
-        "NUM": "ENG19",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Raheem Sterling"
-    },
-    {
-        "NUM": "ESP1",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Spain Team Shot"
-    },
-    {
-        "NUM": "ESP2",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Unai Simon"
-    },
-    {
-        "NUM": "ESP3",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Robert Sanchez"
-    },
-    {
-        "NUM": "ESP4",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Cesar Azpilicueta"
-    },
-    {
-        "NUM": "ESP5",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Eric Garcia"
-    },
-    {
-        "NUM": "ESP6",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jordi Alba"
-    },
-    {
-        "NUM": "ESP7",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Aymeric Laporte"
-    },
-    {
-        "NUM": "ESP8",
-        "CANT": 11,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Pau Torres"
-    },
-    {
-        "NUM": "ESP9",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Gavi"
-    },
-    {
-        "NUM": "ESP10",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Koke"
-    },
-    {
-        "NUM": "ESP11",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Marcos Llorente"
-    },
-    {
-        "NUM": "ESP12",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Pedri"
-    },
-    {
-        "NUM": "ESP13",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Rodri"
-    },
-    {
-        "NUM": "ESP14",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sergio Busquets"
-    },
-    {
-        "NUM": "ESP15",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Dani Olmo"
-    },
-    {
-        "NUM": "ESP16",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ansu Fati"
-    },
-    {
-        "NUM": "ESP17",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ferran Torres"
-    },
-    {
-        "NUM": "ESP18",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alvaro Morata"
-    },
-    {
-        "NUM": "ESP19",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Pablo Sarabia"
-    },
-    {
-        "NUM": "FRA1",
+        "TIPO": "AFA",
         "CANT": 0,
-        "PRECIO": 900,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "France Team Shot"
+        "PRECIO": 15000,
+        "NOMBRE": "LIONEL MESSI"
     },
     {
-        "NUM": "FRA2",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hugo Lloris"
-    },
-    {
-        "NUM": "FRA3",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mike Maignan"
-    },
-    {
-        "NUM": "FRA4",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Lucas Hernandez"
-    },
-    {
-        "NUM": "FRA5",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Theo Hernandez"
-    },
-    {
-        "NUM": "FRA6",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Presnel Kimpembe"
-    },
-    {
-        "NUM": "FRA7",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jules Kounde"
-    },
-    {
-        "NUM": "FRA8",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Benjamin Pavard"
-    },
-    {
-        "NUM": "FRA9",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Raphael Varane"
-    },
-    {
-        "NUM": "FRA10",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "NGolo Kante"
-    },
-    {
-        "NUM": "FRA11",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Paul Pogba"
-    },
-    {
-        "NUM": "FRA12",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Adrien Rabiot"
-    },
-    {
-        "NUM": "FRA13",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Aurelien Tchouameni"
-    },
-    {
-        "NUM": "FRA14",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Wissam Ben Yedder"
-    },
-    {
-        "NUM": "FRA15",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Karim Benzema"
-    },
-    {
-        "NUM": "FRA16",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kingsley Coman"
-    },
-    {
-        "NUM": "FRA17",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Antoine Griezmann"
-    },
-    {
-        "NUM": "FRA18",
-        "CANT": 4,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kylian Mbappe"
-    },
-    {
-        "NUM": "FRA19",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Christopher Nkunku"
-    },
-    {
-        "NUM": "GER1",
-        "CANT": 4,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Germany Team Shot"
-    },
-    {
-        "NUM": "GER2",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Manuel Neuer"
-    },
-    {
-        "NUM": "GER3",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Marc"
-    },
-    {
-        "NUM": "GER4",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Matthias Ginter"
-    },
-    {
-        "NUM": "GER5",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Robin Gosens"
-    },
-    {
-        "NUM": "GER6",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Thilo Kehrer"
-    },
-    {
-        "NUM": "GER7",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "David Raum"
-    },
-    {
-        "NUM": "GER8",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Antonio Rudiger"
-    },
-    {
-        "NUM": "GER9",
-        "CANT": 17,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Niklas Sule"
-    },
-    {
-        "NUM": "GER10",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Leon Goretzka"
-    },
-    {
-        "NUM": "GER11",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ilkay Gundogan"
-    },
-    {
-        "NUM": "GER12",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kai Havertz"
-    },
-    {
-        "NUM": "GER13",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jonas Hofmann"
-    },
-    {
-        "NUM": "GER14",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Joshua Kimmich"
-    },
-    {
-        "NUM": "GER15",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Serge Gnabry"
-    },
-    {
-        "NUM": "GER16",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Thomas Muller"
-    },
-    {
-        "NUM": "GER17",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Marco Reus"
-    },
-    {
-        "NUM": "GER18",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Leroy Sane"
-    },
-    {
-        "NUM": "GER19",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Timo Werner"
-    },
-    {
-        "NUM": "GHA1",
-        "CANT": 6,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ghana Team Shot"
-    },
-    {
-        "NUM": "GHA2",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Joe Wollacott"
-    },
-    {
-        "NUM": "GHA3",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Richard Ofori"
-    },
-    {
-        "NUM": "GHA4",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Daniel Amartey"
-    },
-    {
-        "NUM": "GHA5",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Abdul"
-    },
-    {
-        "NUM": "GHA6",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alexander Djiku"
-    },
-    {
-        "NUM": "GHA7",
-        "CANT": 41,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Gideon Mensah"
-    },
-    {
-        "NUM": "GHA8",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jonathan Mensah"
-    },
-    {
-        "NUM": "GHA9",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Andy Yiadom"
-    },
-    {
-        "NUM": "GHA10",
-        "CANT": 10,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Iddrisu Baba"
-    },
-    {
-        "NUM": "GHA11",
-        "CANT": 13,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mohammed Kudus"
-    },
-    {
-        "NUM": "GHA12",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Daniel-Kofi Kyereh"
-    },
-    {
-        "NUM": "GHA13",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Thomas Partey"
-    },
-    {
-        "NUM": "GHA14",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mubarak Wakaso"
-    },
-    {
-        "NUM": "GHA15",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Felix Afena"
-    },
-    {
-        "NUM": "GHA16",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Andre Ayew"
-    },
-    {
-        "NUM": "GHA17",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jordan Ayew"
-    },
-    {
-        "NUM": "GHA18",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Issahaku Abdul Fatawu"
-    },
-    {
-        "NUM": "GHA19",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kamaldeen Sulemana"
-    },
-    {
-        "NUM": "IRN1",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "IR Iran Team Shot"
-    },
-    {
-        "NUM": "IRN2",
+        "NUM": "ARG20",
+        "TIPO": "AFA",
         "CANT": 11,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Amir Abedzadeh"
+        "PRECIO": 2500,
+        "NOMBRE": "JULIAN ALVAREZ"
     },
     {
-        "NUM": "IRN3",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alireza Beiranvand"
+        "NUM": "ARG21",
+        "TIPO": "AFA",
+        "CANT": 21,
+        "PRECIO": 2000,
+        "NOMBRE": "ANGEL DI MARIA"
     },
     {
-        "NUM": "IRN4",
+        "NUM": "ARG22",
+        "TIPO": "AFA",
+        "CANT": 12,
+        "PRECIO": 2500,
+        "NOMBRE": "LAUTARO MARTINEZ"
+    },
+    {
+        "NUM": "PER1",
+        "TIPO": "ESCUDO",
+        "CANT": 5,
+        "PRECIO": 2500,
+        "NOMBRE": "PER ESC"
+    },
+    {
+        "NUM": "PER2",
+        "TIPO": "EQUIPO",
         "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ehsan Hajsafi"
+        "PRECIO": 2000,
+        "NOMBRE": "PER TEAM"
     },
     {
-        "NUM": "IRN5",
+        "NUM": "PER3",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "PEDRO GALLESE"
+    },
+    {
+        "NUM": "PER4",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Majid Hosseini"
+        "PRECIO": 850,
+        "NOMBRE": "MIGUEL ARAUJO"
     },
     {
-        "NUM": "IRN6",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hossein Kanaani"
-    },
-    {
-        "NUM": "IRN7",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Shoja Khalilzadeh"
-    },
-    {
-        "NUM": "IRN8",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Milad Mohammadi"
-    },
-    {
-        "NUM": "IRN9",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sadegh Moharrami"
-    },
-    {
-        "NUM": "IRN10",
+        "NUM": "PER5",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Omid Noorafkan"
+        "PRECIO": 850,
+        "NOMBRE": "LUIS ADVINCULA"
     },
     {
-        "NUM": "IRN11",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Vahid Amiri"
-    },
-    {
-        "NUM": "IRN12",
-        "CANT": 11,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Saeid Ezatolahi"
-    },
-    {
-        "NUM": "IRN13",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ali Gholizadeh"
-    },
-    {
-        "NUM": "IRN14",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alireza Jahanbakhsh"
-    },
-    {
-        "NUM": "IRN15",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ahmad Nourollahi"
-    },
-    {
-        "NUM": "IRN16",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Karim Ansarifard"
-    },
-    {
-        "NUM": "IRN17",
-        "CANT": 11,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sardar Azmoun"
-    },
-    {
-        "NUM": "IRN18",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Saman Ghoddos"
-    },
-    {
-        "NUM": "IRN19",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mehdi Taremi"
-    },
-    {
-        "NUM": "JPN1",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Japan Team Shot"
-    },
-    {
-        "NUM": "JPN2",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Shuichi Gonda"
-    },
-    {
-        "NUM": "JPN3",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Eiji Kawashima"
-    },
-    {
-        "NUM": "JPN4",
-        "CANT": 28,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yuto Nagatomo"
-    },
-    {
-        "NUM": "JPN5",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yuta Nakayama"
-    },
-    {
-        "NUM": "JPN6",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Takehiro Tomiyasu"
-    },
-    {
-        "NUM": "JPN7",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Miki Yamane"
-    },
-    {
-        "NUM": "JPN8",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Maya Yoshida"
-    },
-    {
-        "NUM": "JPN9",
-        "CANT": 15,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Wataru Endo"
-    },
-    {
-        "NUM": "JPN10",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Genki Haraguchi"
-    },
-    {
-        "NUM": "JPN11",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hidemasa Morita"
-    },
-    {
-        "NUM": "JPN12",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Gaku Shibasaki"
-    },
-    {
-        "NUM": "JPN13",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ao Tanaka"
-    },
-    {
-        "NUM": "JPN14",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Takuma Asano"
-    },
-    {
-        "NUM": "JPN15",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kyogo Furuhashi"
-    },
-    {
-        "NUM": "JPN16",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Junya Ito"
-    },
-    {
-        "NUM": "JPN17",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Takumi Minamino"
-    },
-    {
-        "NUM": "JPN18",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kaoru Mitoma"
-    },
-    {
-        "NUM": "JPN19",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yuya Osako"
-    },
-    {
-        "NUM": "KOR1",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Korea Republic Team Shot"
-    },
-    {
-        "NUM": "KOR2",
-        "CANT": 10,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Seung"
-    },
-    {
-        "NUM": "KOR3",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hyeon"
-    },
-    {
-        "NUM": "KOR4",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Chul Hong"
-    },
-    {
-        "NUM": "KOR5",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Tae"
-    },
-    {
-        "NUM": "KOR6",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Min"
-    },
-    {
-        "NUM": "KOR7",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Young"
-    },
-    {
-        "NUM": "KOR8",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jin"
-    },
-    {
-        "NUM": "KOR9",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yong Lee"
-    },
-    {
-        "NUM": "KOR10",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "In"
-    },
-    {
-        "NUM": "KOR11",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Woo"
-    },
-    {
-        "NUM": "KOR12",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jae"
-    },
-    {
-        "NUM": "KOR13",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Seung"
-    },
-    {
-        "NUM": "KOR14",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Gue"
-    },
-    {
-        "NUM": "KOR15",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hee"
-    },
-    {
-        "NUM": "KOR16",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ui"
-    },
-    {
-        "NUM": "KOR17",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Chang"
-    },
-    {
-        "NUM": "KOR18",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Heung"
-    },
-    {
-        "NUM": "KOR19",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Min"
-    },
-    {
-        "NUM": "KSA1",
+        "NUM": "PER6",
+        "TIPO": "COMUNES",
         "CANT": 1,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Saudi Arabia Team Shot"
+        "PRECIO": 850,
+        "NOMBRE": "CARLOS ZAMBRANO"
     },
     {
-        "NUM": "KSA2",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mohammed Al"
-    },
-    {
-        "NUM": "KSA3",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mohammed Al"
-    },
-    {
-        "NUM": "KSA4",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Abdulelah Al"
-    },
-    {
-        "NUM": "KSA5",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ali Al"
-    },
-    {
-        "NUM": "KSA6",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mohammed Al"
-    },
-    {
-        "NUM": "KSA7",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sultan Al"
-    },
-    {
-        "NUM": "KSA8",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yasser Al"
-    },
-    {
-        "NUM": "KSA9",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hassan Al"
-    },
-    {
-        "NUM": "KSA10",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Abdullah Madu"
-    },
-    {
-        "NUM": "KSA11",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Salman Al"
-    },
-    {
-        "NUM": "KSA12",
+        "NUM": "PER7",
+        "TIPO": "COMUNES",
         "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Abdulelah Al"
+        "PRECIO": 850,
+        "NOMBRE": "ALDO CORZO"
     },
     {
-        "NUM": "KSA13",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sami Al"
+        "NUM": "PER8",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "LUIS ABRAM"
     },
     {
-        "NUM": "KSA14",
-        "CANT": 36,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hattan Bahebri"
-    },
-    {
-        "NUM": "KSA15",
+        "NUM": "PER9",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mohamed Kanno"
+        "PRECIO": 850,
+        "NOMBRE": "MARCOS LOPEZ"
     },
     {
-        "NUM": "KSA16",
+        "NUM": "PER10",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "ALEXANDER CALLENS"
+    },
+    {
+        "NUM": "PER11",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Abdullah Otayf"
+        "PRECIO": 850,
+        "NOMBRE": "WILDER CARTAGENA"
     },
     {
-        "NUM": "KSA17",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Firas Al"
-    },
-    {
-        "NUM": "KSA18",
+        "NUM": "PER12",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Salem Al"
+        "PRECIO": 850,
+        "NOMBRE": "CHRISTOFER GONZALES"
     },
     {
-        "NUM": "KSA19",
+        "NUM": "PER13",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Khalid Al"
+        "PRECIO": 850,
+        "NOMBRE": "MIGUEL TRAUCO"
+    },
+    {
+        "NUM": "PER14",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "RENATO TAPIA"
+    },
+    {
+        "NUM": "PER15",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "YOSHIMAR YOTUN"
+    },
+    {
+        "NUM": "PER16",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "PEDRO AQUINO"
+    },
+    {
+        "NUM": "PER17",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CHRISTIAN CUEVA"
+    },
+    {
+        "NUM": "PER18",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "BRYAN REYNA"
+    },
+    {
+        "NUM": "PER19",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "GIANLUCA LAPADULA"
+    },
+    {
+        "NUM": "PER20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ANDY POLO"
+    },
+    {
+        "NUM": "PER21",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ANDRE CARRILLO"
+    },
+    {
+        "NUM": "PER22",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "PAOLO GUERRERO"
+    },
+    {
+        "NUM": "CHI1",
+        "TIPO": "ESCUDO",
+        "CANT": 10,
+        "PRECIO": 2500,
+        "NOMBRE": "CHI ESC"
+    },
+    {
+        "NUM": "CHI2",
+        "TIPO": "EQUIPO",
+        "CANT": 10,
+        "PRECIO": 1200,
+        "NOMBRE": "CHI TEAM"
+    },
+    {
+        "NUM": "CHI3",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "BRAYAN CORTES"
+    },
+    {
+        "NUM": "CHI4",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CLAUDIO BRAVO"
+    },
+    {
+        "NUM": "CHI5",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "GABRIEL SUAZO"
+    },
+    {
+        "NUM": "CHI6",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "BENJAMIN KUSCEVIC"
+    },
+    {
+        "NUM": "CHI7",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "GUILLERMO MARIPAN"
+    },
+    {
+        "NUM": "CHI8",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "PAULO DIAZ"
+    },
+    {
+        "NUM": "CHI9",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MATIAS CATALAN"
+    },
+    {
+        "NUM": "CHI10",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "GARY MEDEL"
+    },
+    {
+        "NUM": "CHI11",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "NAYEL MEHSSATOU"
+    },
+    {
+        "NUM": "CHI12",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "GUILLERMO SOTO"
+    },
+    {
+        "NUM": "CHI13",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "MARCELINO NUNEZ"
+    },
+    {
+        "NUM": "CHI14",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "DIEGO VALDES"
+    },
+    {
+        "NUM": "CHI15",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "ARTURO VIDAL"
+    },
+    {
+        "NUM": "CHI16",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "VICTOR MENDEZ"
+    },
+    {
+        "NUM": "CHI17",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ESTEBAN PAVEZ"
+    },
+    {
+        "NUM": "CHI18",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "BRUNO BARTICCIOTTO"
+    },
+    {
+        "NUM": "CHI19",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DIEGO RUBIO"
+    },
+    {
+        "NUM": "CHI20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ALEXANDER ARAVENA"
+    },
+    {
+        "NUM": "CHI21",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "ALEXIS SANCHEZ"
+    },
+    {
+        "NUM": "CHI22",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "BEN BRERETON"
     },
     {
         "NUM": "MEX1",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mexico Team Shot"
+        "TIPO": "ESCUDO",
+        "CANT": 5,
+        "PRECIO": 2500,
+        "NOMBRE": "MEX ESC"
     },
     {
         "NUM": "MEX2",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Guillermo Ochoa"
+        "TIPO": "EQUIPO",
+        "CANT": 5,
+        "PRECIO": 1200,
+        "NOMBRE": "MEX TEAM"
     },
     {
         "NUM": "MEX3",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alfredo Talavera"
+        "PRECIO": 850,
+        "NOMBRE": "GUILLERMO OCHOA"
     },
     {
         "NUM": "MEX4",
-        "CANT": 14,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nestor Araujo"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "LUIS MALAGON"
     },
     {
         "NUM": "MEX5",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jesus Gallardo"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JESUS GALLARDO"
     },
     {
         "NUM": "MEX6",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Cesar Montes"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CESAR MONTES"
     },
     {
         "NUM": "MEX7",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hector Moreno"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JORGE SANCHEZ"
     },
     {
         "NUM": "MEX8",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Luis Romo"
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "GERARDO ARTEAGA"
     },
     {
         "NUM": "MEX9",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jorge Sanchez"
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "JOHAN VASQUEZ"
     },
     {
         "NUM": "MEX10",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Edson Alvarez"
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "RAMON JUAREZ"
     },
     {
         "NUM": "MEX11",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jesus Manuel Corona"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MARCEL RUIZ"
     },
     {
         "NUM": "MEX12",
-        "CANT": 1,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Andres Guardado"
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "ERICK SANCHEZ"
     },
     {
         "NUM": "MEX13",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Erick Gutierrez"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "LUIS CHAVEZ"
     },
     {
         "NUM": "MEX14",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hector Herrera"
+        "PRECIO": 850,
+        "NOMBRE": "LUIS ROMO"
     },
     {
         "NUM": "MEX15",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Diego Lainez"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "EDSON ALVAREZ"
     },
     {
         "NUM": "MEX16",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Carlos Rodriguez"
+        "PRECIO": 850,
+        "NOMBRE": "ORBELIN PINEDA"
     },
     {
         "NUM": "MEX17",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Rogelio Funes Mori"
+        "PRECIO": 850,
+        "NOMBRE": "JORDI CORTIZO"
     },
     {
         "NUM": "MEX18",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Raul Jimenez"
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "SANTIAGO GIMENEZ"
     },
     {
         "NUM": "MEX19",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hirving Lozano"
-    },
-    {
-        "NUM": "MAR1",
-        "CANT": 4,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Morocco Team Shot"
-    },
-    {
-        "NUM": "MAR2",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yassine Bounou"
-    },
-    {
-        "NUM": "MAR3",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Munir Mohamedi"
-    },
-    {
-        "NUM": "MAR4",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nayef Aguerd"
-    },
-    {
-        "NUM": "MAR5",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Achraf Hakimi"
+        "PRECIO": 850,
+        "NOMBRE": "HENRY MARTIN"
     },
     {
-        "NUM": "MAR6",
+        "NUM": "MEX20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "URIEL ANTUNA"
+    },
+    {
+        "NUM": "MEX21",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "HIRVING LOZANO"
+    },
+    {
+        "NUM": "MEX22",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "RAUL JIMENEZ"
+    },
+    {
+        "NUM": "ECU1",
+        "TIPO": "ESCUDO",
         "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Adam Masina"
+        "PRECIO": 2500,
+        "NOMBRE": "ECU ESC"
     },
     {
-        "NUM": "MAR7",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Samy Mmaee"
+        "NUM": "ECU2",
+        "TIPO": "EQUIPO",
+        "CANT": 3,
+        "PRECIO": 1200,
+        "NOMBRE": "ECU TEAM"
     },
     {
-        "NUM": "MAR8",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Romain Saiss"
-    },
-    {
-        "NUM": "MAR9",
+        "NUM": "ECU3",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Selim Amallah"
+        "PRECIO": 850,
+        "NOMBRE": "ALEXANDER DOMINGUEZ"
     },
     {
-        "NUM": "MAR10",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sofyan Amrabat"
+        "NUM": "ECU4",
+        "TIPO": "COMUNES",
+        "CANT": 2,
+        "PRECIO": 850,
+        "NOMBRE": "HERNAN GALINDEZ"
     },
     {
-        "NUM": "MAR11",
+        "NUM": "ECU5",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "PIERO HINCAPIE"
+    },
+    {
+        "NUM": "ECU6",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "FELIZ TORRES"
+    },
+    {
+        "NUM": "ECU7",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Aymen Barkok"
+        "PRECIO": 850,
+        "NOMBRE": "ANGELO PRECIADO"
     },
     {
-        "NUM": "MAR12",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ilias Chair"
+        "NUM": "ECU8",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "WILLIAN PACHO"
     },
     {
-        "NUM": "MAR13",
+        "NUM": "ECU9",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Imran Louza"
+        "PRECIO": 850,
+        "NOMBRE": "PERVIS ESTUPINAN"
     },
     {
-        "NUM": "MAR14",
+        "NUM": "ECU10",
+        "TIPO": "COMUNES",
+        "CANT": 2,
+        "PRECIO": 850,
+        "NOMBRE": "ROBERT ARBOLEDA"
+    },
+    {
+        "NUM": "ECU11",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JHOANNER CHAVEZ"
+    },
+    {
+        "NUM": "ECU12",
+        "TIPO": "COMUNES",
+        "CANT": 2,
+        "PRECIO": 850,
+        "NOMBRE": "ALAN FRANCO"
+    },
+    {
+        "NUM": "ECU13",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MOISES CAICEDO"
+    },
+    {
+        "NUM": "ECU14",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CARLOS GRUEZO"
+    },
+    {
+        "NUM": "ECU15",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JOSE CIFUENTES"
+    },
+    {
+        "NUM": "ECU16",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "JUNIOR SORNOZA"
+    },
+    {
+        "NUM": "ECU17",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sofiane Boufal"
+        "PRECIO": 850,
+        "NOMBRE": "KENDRY PAEZ"
     },
     {
-        "NUM": "MAR15",
-        "CANT": 12,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ayoub El Kaabi"
+        "NUM": "ECU18",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ANGEL MENA"
     },
     {
-        "NUM": "MAR16",
-        "CANT": 14,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Youssef En-Nesyri"
+        "NUM": "ECU19",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "LEONARDO CAMPANA"
     },
     {
-        "NUM": "MAR17",
+        "NUM": "ECU20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "KEVIN RODRIGUEZ"
+    },
+    {
+        "NUM": "ECU21",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JORDY CAICEDO"
+    },
+    {
+        "NUM": "ECU22",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ENNER VALENCIA"
+    },
+    {
+        "NUM": "VEN1",
+        "TIPO": "ESCUDO",
+        "CANT": 7,
+        "PRECIO": 2500,
+        "NOMBRE": "VEN ESC"
+    },
+    {
+        "NUM": "VEN2",
+        "TIPO": "EQUIPO",
+        "CANT": 5,
+        "PRECIO": 1200,
+        "NOMBRE": "VEN TEAM"
+    },
+    {
+        "NUM": "VEN3",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ryan Mmaee"
+        "PRECIO": 850,
+        "NOMBRE": "RAFAEL ROMO"
     },
     {
-        "NUM": "MAR18",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Munir"
-    },
-    {
-        "NUM": "MAR19",
+        "NUM": "VEN4",
+        "TIPO": "COMUNES",
         "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Tarik Tissoudali"
+        "PRECIO": 850,
+        "NOMBRE": "JOEL GRATEROL"
     },
     {
-        "NUM": "NED1",
-        "CANT": 7,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Netherlands Team Shot"
+        "NUM": "VEN5",
+        "TIPO": "COMUNES",
+        "CANT": 2,
+        "PRECIO": 850,
+        "NOMBRE": "ALEXANDER GONZALEZ"
     },
     {
-        "NUM": "NED2",
+        "NUM": "VEN6",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "WILKER ANGEL"
+    },
+    {
+        "NUM": "VEN7",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "YORDAN OSORIO"
+    },
+    {
+        "NUM": "VEN8",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "MIGUEL NAVARRO"
+    },
+    {
+        "NUM": "VEN9",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CHRISTIAN MAKOUN"
+    },
+    {
+        "NUM": "VEN10",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "JHON CHANCELLOR"
+    },
+    {
+        "NUM": "VEN11",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "NAHUEL FERRARESI"
+    },
+    {
+        "NUM": "VEN12",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JOSE MARTINEZ"
+    },
+    {
+        "NUM": "VEN13",
+        "TIPO": "COMUNES",
         "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Justin Bijlow"
+        "PRECIO": 850,
+        "NOMBRE": "CRISTIAN CASSERES"
     },
     {
-        "NUM": "NED3",
+        "NUM": "VEN14",
+        "TIPO": "COMUNES",
         "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jasper Cillessen"
+        "PRECIO": 850,
+        "NOMBRE": "YANGEL HERRERA"
     },
     {
-        "NUM": "NED4",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Daley Blind"
-    },
-    {
-        "NUM": "NED5",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Matthijs de Ligt"
-    },
-    {
-        "NUM": "NED6",
+        "NUM": "VEN15",
+        "TIPO": "COMUNES",
         "CANT": 1,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Stefan de Vrij"
+        "PRECIO": 850,
+        "NOMBRE": "TOMAS RINCON"
     },
     {
-        "NUM": "NED7",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Denzel Dumfries"
-    },
-    {
-        "NUM": "NED8",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Virgil van Dijk"
-    },
-    {
-        "NUM": "NED9",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Steven Berghuis"
-    },
-    {
-        "NUM": "NED10",
+        "NUM": "VEN16",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Frenkie de Jong"
+        "PRECIO": 850,
+        "NOMBRE": "EDUARD BELLO"
     },
     {
-        "NUM": "NED11",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ryan Gravenberch"
-    },
-    {
-        "NUM": "NED12",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Davy Klaassen"
-    },
-    {
-        "NUM": "NED13",
+        "NUM": "VEN17",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Teun Koopmeiners"
+        "PRECIO": 850,
+        "NOMBRE": "SAMUEL SOSA"
     },
     {
-        "NUM": "NED14",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Georginio Wijnaldum"
-    },
-    {
-        "NUM": "NED15",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Steven Bergwijn"
-    },
-    {
-        "NUM": "NED16",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Arnaut Danjuma"
-    },
-    {
-        "NUM": "NED17",
+        "NUM": "VEN18",
+        "TIPO": "COMUNES",
         "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Memphis Depay"
+        "PRECIO": 850,
+        "NOMBRE": "YEFERSON SOTELDO"
     },
     {
-        "NUM": "NED18",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Cody Gakpo"
-    },
-    {
-        "NUM": "NED19",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Donyell Malen"
-    },
-    {
-        "NUM": "POL1",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Poland Team Shot"
-    },
-    {
-        "NUM": "POL2",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Wojciech Szczesny"
-    },
-    {
-        "NUM": "POL3",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Lukasz Skorupski"
-    },
-    {
-        "NUM": "POL4",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jan Bednarek"
-    },
-    {
-        "NUM": "POL5",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Bartosz Bereszynski"
-    },
-    {
-        "NUM": "POL6",
-        "CANT": 31,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Matty Cash"
-    },
-    {
-        "NUM": "POL7",
+        "NUM": "VEN19",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kamil Glik"
+        "PRECIO": 850,
+        "NOMBRE": "JEFFERSON SAVARINO"
     },
     {
-        "NUM": "POL8",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Tymoteusz Puchacz"
+        "NUM": "VEN20",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "DARWIN MACHIS"
     },
     {
-        "NUM": "POL9",
+        "NUM": "VEN21",
+        "TIPO": "COMUNES",
         "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Maciej Rybus"
+        "PRECIO": 850,
+        "NOMBRE": "JOSEF MARTINEZ"
     },
     {
-        "NUM": "POL10",
+        "NUM": "VEN22",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kamil Jozwiak"
+        "PRECIO": 850,
+        "NOMBRE": "SALOMON RONDON"
     },
     {
-        "NUM": "POL11",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mateusz Klich"
-    },
-    {
-        "NUM": "POL12",
+        "NUM": "JAM1",
+        "TIPO": "ESCUDO",
         "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Grzegorz Krychowiak"
+        "PRECIO": 2500,
+        "NOMBRE": "JAM ESC"
     },
     {
-        "NUM": "POL13",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jakub Moder"
-    },
-    {
-        "NUM": "POL14",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sebastian Szymanski"
-    },
-    {
-        "NUM": "POL15",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Piotr Zielinski"
-    },
-    {
-        "NUM": "POL16",
-        "CANT": 3,
-        "PRECIO": 2000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Robert Lewandowski"
-    },
-    {
-        "NUM": "POL17",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Arkadiusz Milik"
-    },
-    {
-        "NUM": "POL18",
+        "NUM": "JAM2",
+        "TIPO": "EQUIPO",
         "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Krzysztof Piatek"
+        "PRECIO": 1200,
+        "NOMBRE": "JAM TEAM"
     },
     {
-        "NUM": "POL19",
+        "NUM": "JAM3",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Karol Swiderski"
+        "PRECIO": 850,
+        "NOMBRE": "ANDRE BLAKE"
     },
     {
-        "NUM": "POR1",
-        "CANT": 0,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Portugal Team Shot"
+        "NUM": "JAM4",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JAHMALI WAITE"
     },
     {
-        "NUM": "POR2",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Diogo Costa"
+        "NUM": "JAM5",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DAMION LOWE"
     },
     {
-        "NUM": "POR3",
+        "NUM": "JAM6",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MICHAEL HECTOR"
+    },
+    {
+        "NUM": "JAM7",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Rui Patricio"
+        "PRECIO": 850,
+        "NOMBRE": "ETHAN PINNOCK"
     },
     {
-        "NUM": "POR4",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Joao Cancelo"
+        "NUM": "JAM8",
+        "TIPO": "COMUNES",
+        "CANT": 2,
+        "PRECIO": 850,
+        "NOMBRE": "ADRIAN MARIAPPA"
     },
     {
-        "NUM": "POR5",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jose Fonte"
-    },
-    {
-        "NUM": "POR6",
-        "CANT": 15,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nuno Mendes"
-    },
-    {
-        "NUM": "POR7",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Pepe"
-    },
-    {
-        "NUM": "POR8",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Raphael Guerreiro"
-    },
-    {
-        "NUM": "POR9",
+        "NUM": "JAM9",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ruben Dias"
+        "PRECIO": 850,
+        "NOMBRE": "DEXTER LEMBIKISA"
     },
     {
-        "NUM": "POR10",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Bernardo Silva"
+        "NUM": "JAM10",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "DI'SHON BERNARD"
     },
     {
-        "NUM": "POR11",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Bruno Fernandes"
-    },
-    {
-        "NUM": "POR12",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Danilo Pereira"
-    },
-    {
-        "NUM": "POR13",
+        "NUM": "JAM11",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Joao Moutinho"
+        "PRECIO": 850,
+        "NOMBRE": "AMAR'I BELL"
     },
     {
-        "NUM": "POR14",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Renato Sanches"
-    },
-    {
-        "NUM": "POR15",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ruben Neves"
-    },
-    {
-        "NUM": "POR16",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Andre Silva"
-    },
-    {
-        "NUM": "POR17",
-        "CANT": 8,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Cristiano Ronaldo"
-    },
-    {
-        "NUM": "POR18",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Diogo Jota"
-    },
-    {
-        "NUM": "POR19",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Gonzalo Guedes"
-    },
-    {
-        "NUM": "QAT1",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Qatar Team Logo"
-    },
-    {
-        "NUM": "QAT2",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Saad Al Sheeb"
-    },
-    {
-        "NUM": "QAT3",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Meshaal Barsham"
-    },
-    {
-        "NUM": "QAT4",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Homam Ahmed"
-    },
-    {
-        "NUM": "QAT5",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Bassam Alrawi"
-    },
-    {
-        "NUM": "QAT6",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Abdulkarim Hassan"
-    },
-    {
-        "NUM": "QAT7",
-        "CANT": 10,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Musaab Khidir"
-    },
-    {
-        "NUM": "QAT8",
+        "NUM": "JAM12",
+        "TIPO": "COMUNES",
         "CANT": 1,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Boualem Khoukhi"
+        "PRECIO": 850,
+        "NOMBRE": "GREG LEIGH"
     },
     {
-        "NUM": "QAT9",
-        "CANT": 45,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Pedro Miguel"
-    },
-    {
-        "NUM": "QAT10",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Tarek Salman"
-    },
-    {
-        "NUM": "QAT11",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Karim Boudiaf"
-    },
-    {
-        "NUM": "QAT12",
+        "NUM": "JAM13",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Abdulaziz Hatem"
+        "PRECIO": 850,
+        "NOMBRE": "JOEL LATIBEAUDIERE"
     },
     {
-        "NUM": "QAT13",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Assim Omer Madibo"
-    },
-    {
-        "NUM": "QAT14",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yousuf Abdurisag"
-    },
-    {
-        "NUM": "QAT15",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Akram Hassan Afif"
-    },
-    {
-        "NUM": "QAT16",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ahmad Alaaeldin"
-    },
-    {
-        "NUM": "QAT17",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hasan Al"
-    },
-    {
-        "NUM": "QAT18",
+        "NUM": "JAM14",
+        "TIPO": "COMUNES",
         "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Almoez Ali"
+        "PRECIO": 850,
+        "NOMBRE": "KAROY ANDERSON"
     },
     {
-        "NUM": "QAT19",
+        "NUM": "JAM15",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "DANIEL JOHNSON"
+    },
+    {
+        "NUM": "JAM16",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "KEVON LAMBERT"
+    },
+    {
+        "NUM": "JAM17",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mohammed Muntari"
+        "PRECIO": 850,
+        "NOMBRE": "MICHAIL ANTONIO"
     },
     {
-        "NUM": "SEN1",
-        "CANT": 3,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Senegal Team Shot"
-    },
-    {
-        "NUM": "SEN2",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Edouard Mendy"
-    },
-    {
-        "NUM": "SEN3",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Alfred Gomis"
-    },
-    {
-        "NUM": "SEN4",
-        "CANT": 10,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Saliou Ciss"
-    },
-    {
-        "NUM": "SEN5",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Pape Abou Cisse"
-    },
-    {
-        "NUM": "SEN6",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Abdou Diallo"
-    },
-    {
-        "NUM": "SEN7",
+        "NUM": "JAM18",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kalidou Koulibaly"
+        "PRECIO": 850,
+        "NOMBRE": "DEMARAI GRAY"
     },
     {
-        "NUM": "SEN8",
+        "NUM": "JAM19",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ibrahima Mbaye"
+        "PRECIO": 850,
+        "NOMBRE": "ROMARIO WILLIAMS"
     },
     {
-        "NUM": "SEN9",
+        "NUM": "JAM20",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "BOBBY DE CORDOVA-REID"
+    },
+    {
+        "NUM": "JAM21",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "LEON BAILEY"
+    },
+    {
+        "NUM": "JAM22",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Bouna Sarr"
-    },
-    {
-        "NUM": "SEN10",
-        "CANT": 2,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Krepin Diatta"
-    },
-    {
-        "NUM": "SEN11",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Idrissa Gueye"
-    },
-    {
-        "NUM": "SEN12",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Pape Gueye"
-    },
-    {
-        "NUM": "SEN13",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Cheikhou Kouyate"
-    },
-    {
-        "NUM": "SEN14",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nampalys Mendy"
-    },
-    {
-        "NUM": "SEN15",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Boulaye Dia"
-    },
-    {
-        "NUM": "SEN16",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Famara Diedhiou"
-    },
-    {
-        "NUM": "SEN17",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Bamba Dieng"
-    },
-    {
-        "NUM": "SEN18",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sadio Mane"
-    },
-    {
-        "NUM": "SEN19",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ismaila Sarr"
-    },
-    {
-        "NUM": "SRB1",
-        "CANT": 1,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Serbia Team Shot"
-    },
-    {
-        "NUM": "SRB2",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Predrag Rajkovic"
-    },
-    {
-        "NUM": "SRB3",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Vanja Milinkovic"
-    },
-    {
-        "NUM": "SRB4",
-        "CANT": 23,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nikola Milenkovic"
-    },
-    {
-        "NUM": "SRB5",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Strahinja Pavlovic"
-    },
-    {
-        "NUM": "SRB6",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Milos Veljkovic"
-    },
-    {
-        "NUM": "SRB7",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Filip Duricic"
-    },
-    {
-        "NUM": "SRB8",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nemanja Gudelj"
-    },
-    {
-        "NUM": "SRB9",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Filip Kostic"
-    },
-    {
-        "NUM": "SRB10",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Darko Lazovic"
-    },
-    {
-        "NUM": "SRB11",
-        "CANT": 13,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sasa Lukic"
-    },
-    {
-        "NUM": "SRB12",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nemanja Maksimovic"
-    },
-    {
-        "NUM": "SRB13",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sergej Milinkovic"
-    },
-    {
-        "NUM": "SRB14",
-        "CANT": 10,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nemanja Radonjic"
-    },
-    {
-        "NUM": "SRB15",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Andrija Zivkovic"
-    },
-    {
-        "NUM": "SRB16",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Luka Jovic"
-    },
-    {
-        "NUM": "SRB17",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Aleksandar Mitrovic"
-    },
-    {
-        "NUM": "SRB18",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Dusan Tadic"
-    },
-    {
-        "NUM": "SRB19",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Dusan Vlahovic"
-    },
-    {
-        "NUM": "SUI1",
-        "CANT": 4,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Switzerland Team Shot"
-    },
-    {
-        "NUM": "SUI2",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yann Sommer"
-    },
-    {
-        "NUM": "SUI3",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Gregor Kobel"
-    },
-    {
-        "NUM": "SUI4",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Manuel Akanji"
-    },
-    {
-        "NUM": "SUI5",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nico Elvedi"
-    },
-    {
-        "NUM": "SUI6",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kevin Mbabu"
-    },
-    {
-        "NUM": "SUI7",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ricardo Rodriguez"
-    },
-    {
-        "NUM": "SUI8",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Fabian Schar"
-    },
-    {
-        "NUM": "SUI9",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Silvan Widmer"
-    },
-    {
-        "NUM": "SUI10",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Remo Freuler"
-    },
-    {
-        "NUM": "SUI11",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Xherdan Shaqiri"
-    },
-    {
-        "NUM": "SUI12",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Djibril Sow"
-    },
-    {
-        "NUM": "SUI13",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Granit Xhaka"
-    },
-    {
-        "NUM": "SUI14",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Denis Zakaria"
-    },
-    {
-        "NUM": "SUI15",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Steven Zuber"
-    },
-    {
-        "NUM": "SUI16",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Breel Embolo"
-    },
-    {
-        "NUM": "SUI17",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Noah Okafor"
-    },
-    {
-        "NUM": "SUI18",
-        "CANT": 10,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Haris Seferovic"
-    },
-    {
-        "NUM": "SUI19",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ruben Vargas"
-    },
-    {
-        "NUM": "TUN1",
-        "CANT": 8,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Tunisia Team Shot"
-    },
-    {
-        "NUM": "TUN2",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Bechir Ben Said"
-    },
-    {
-        "NUM": "TUN3",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Farouk Ben Mustapha"
-    },
-    {
-        "NUM": "TUN4",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Dylan Bronn"
-    },
-    {
-        "NUM": "TUN5",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mohamed Drager"
-    },
-    {
-        "NUM": "TUN6",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Bilel Ifa"
-    },
-    {
-        "NUM": "TUN7",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ali Maaloul"
-    },
-    {
-        "NUM": "TUN8",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Hamza Mathlouthi"
-    },
-    {
-        "NUM": "TUN9",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yassine Meriah"
-    },
-    {
-        "NUM": "TUN10",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Montassar Talbi"
-    },
-    {
-        "NUM": "TUN11",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mohamed Ali Ben Romdhane"
-    },
-    {
-        "NUM": "TUN12",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Wahbi Khazri"
-    },
-    {
-        "NUM": "TUN13",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Aissa Laidouni"
-    },
-    {
-        "NUM": "TUN14",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ferjani Sassi"
-    },
-    {
-        "NUM": "TUN15",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ellyes Skhiri"
-    },
-    {
-        "NUM": "TUN16",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Anis Slimane"
-    },
-    {
-        "NUM": "TUN17",
-        "CANT": 11,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Seifeddine Jaziri"
-    },
-    {
-        "NUM": "TUN18",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Youssef Msakni"
-    },
-    {
-        "NUM": "TUN19",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Naim Sliti"
-    },
-    {
-        "NUM": "URU1",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Uruguay Team Shot"
-    },
-    {
-        "NUM": "URU2",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Fernando Muslera"
-    },
-    {
-        "NUM": "URU3",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sergio Rochet"
-    },
-    {
-        "NUM": "URU4",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ronald Araujo"
-    },
-    {
-        "NUM": "URU5",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Martin Caceres"
-    },
-    {
-        "NUM": "URU6",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jose Maria Gimenez"
-    },
-    {
-        "NUM": "URU7",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Diego Godin"
-    },
-    {
-        "NUM": "URU8",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Mathias Olivera"
-    },
-    {
-        "NUM": "URU9",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Matias Vi\u00c3\u00b1a"
-    },
-    {
-        "NUM": "URU10",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Rodrigo Bentancur"
-    },
-    {
-        "NUM": "URU11",
-        "CANT": 8,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Giorgian De Arrascaeta"
-    },
-    {
-        "NUM": "URU12",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Nicolas De La Cruz"
-    },
-    {
-        "NUM": "URU13",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Lucas Torreira"
-    },
-    {
-        "NUM": "URU14",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Federico Valverde"
-    },
-    {
-        "NUM": "URU15",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Matias Vecino"
-    },
-    {
-        "NUM": "URU16",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Edinson Cavani"
-    },
-    {
-        "NUM": "URU17",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Darwin Nu\u00c3\u00b1ez"
-    },
-    {
-        "NUM": "URU18",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Facundo Pellistri"
-    },
-    {
-        "NUM": "URU19",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Luis Suarez"
+        "PRECIO": 850,
+        "NOMBRE": "SHAMAR NICHOLSON"
     },
     {
         "NUM": "USA1",
-        "CANT": 2,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Usa Team Logo"
+        "TIPO": "ESCUDO",
+        "CANT": 10,
+        "PRECIO": 2500,
+        "NOMBRE": "USA ESC"
     },
     {
         "NUM": "USA2",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Matt Turner"
+        "TIPO": "EQUIPO",
+        "CANT": 4,
+        "PRECIO": 1200,
+        "NOMBRE": "USA TEAM"
     },
     {
         "NUM": "USA3",
-        "CANT": 12,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Zack Steffen"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MATT TURNER"
     },
     {
         "NUM": "USA4",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Sergi\u00c3\u00b1o Dest"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ETHAN HORVATH"
     },
     {
         "NUM": "USA5",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Aaron Long"
+        "TIPO": "COMUNES",
+        "CANT": 6,
+        "PRECIO": 850,
+        "NOMBRE": "CHRIS RICHARDS"
     },
     {
         "NUM": "USA6",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Chris Richards"
+        "PRECIO": 850,
+        "NOMBRE": "MILES ROBINSON"
     },
     {
         "NUM": "USA7",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Antonee Robinson"
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "CAMERON CARTER-VICKERS"
     },
     {
         "NUM": "USA8",
-        "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "DeAndre Yedlin"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "TIM REAM"
     },
     {
         "NUM": "USA9",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Walker Zimmerman"
+        "TIPO": "COMUNES",
+        "CANT": 1,
+        "PRECIO": 850,
+        "NOMBRE": "ANTONEE ROBINSON"
     },
     {
         "NUM": "USA10",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Brenden Aaronson"
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "SERGINO DEST"
     },
     {
         "NUM": "USA11",
-        "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kellyn Acosta"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JOE SCALLY"
     },
     {
         "NUM": "USA12",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Tyler Adams"
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "TYLER ADAMS"
     },
     {
         "NUM": "USA13",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Weston McKennie"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "YUNUS MUSAH"
     },
     {
         "NUM": "USA14",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Yunus Musah"
+        "PRECIO": 850,
+        "NOMBRE": "WESTON MCKENNIE"
     },
     {
         "NUM": "USA15",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jesus Ferreira"
+        "PRECIO": 850,
+        "NOMBRE": "LUCA DE LA TORRE"
     },
     {
         "NUM": "USA16",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ricardo Pepi"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "GIO REYNA"
     },
     {
         "NUM": "USA17",
-        "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Christian Pulisic"
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "BRENDEN AARONSON"
     },
     {
         "NUM": "USA18",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Giovanni Reyna"
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "TIMOTHY WEAH"
     },
     {
         "NUM": "USA19",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Timothy Weah"
+        "PRECIO": 850,
+        "NOMBRE": "MALIK TILLMAN"
     },
     {
-        "NUM": "WAL1",
-        "CANT": 0,
-        "PRECIO": 3000,
-        "TIPO": "ESC",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Wales Team Shot"
+        "NUM": "USA20",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "CHRISTIAN PULISIC"
     },
     {
-        "NUM": "WAL2",
+        "NUM": "USA21",
+        "TIPO": "COMUNES",
+        "CANT": 1,
+        "PRECIO": 850,
+        "NOMBRE": "FOLARIN BALOGUN"
+    },
+    {
+        "NUM": "USA22",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "RICARDO PEPI"
+    },
+    {
+        "NUM": "URU1",
+        "TIPO": "ESCUDO",
         "CANT": 10,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Danny Ward"
+        "PRECIO": 2500,
+        "NOMBRE": "URU ESC"
     },
     {
-        "NUM": "WAL3",
-        "CANT": 12,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Wayne Hennessey"
-    },
-    {
-        "NUM": "WAL4",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ethan Ampadu"
-    },
-    {
-        "NUM": "WAL5",
+        "NUM": "URU2",
+        "TIPO": "EQUIPO",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Ben Davies"
+        "PRECIO": 2000,
+        "NOMBRE": "URU TEAM"
     },
     {
-        "NUM": "WAL6",
-        "CANT": 3,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Chris Gunter"
-    },
-    {
-        "NUM": "WAL7",
+        "NUM": "URU3",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Chris Mepham"
+        "PRECIO": 850,
+        "NOMBRE": "SERGIO ROCHET"
     },
     {
-        "NUM": "WAL8",
+        "NUM": "URU4",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "FRANCO ISRAEL"
+    },
+    {
+        "NUM": "URU5",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "RONALD ARAUJO"
+    },
+    {
+        "NUM": "URU6",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JOSE GIMENEZ"
+    },
+    {
+        "NUM": "URU7",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "SEBASTIAN CACERES"
+    },
+    {
+        "NUM": "URU8",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "GUILLERMO VARELA"
+    },
+    {
+        "NUM": "URU9",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MATIAS VINA"
+    },
+    {
+        "NUM": "URU10",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JOAQUIN PIQUEREZ"
+    },
+    {
+        "NUM": "URU11",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MATHIAS OLIVERA"
+    },
+    {
+        "NUM": "URU12",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MANUEL UGARTE"
+    },
+    {
+        "NUM": "URU13",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 1000,
+        "NOMBRE": "FEDERICO VALVERDE"
+    },
+    {
+        "NUM": "URU14",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "RODRIGO BENTANCUR"
+    },
+    {
+        "NUM": "URU15",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "NICOLAS DE LA CRUZ"
+    },
+    {
+        "NUM": "URU16",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "NAHITAN NANDEZ"
+    },
+    {
+        "NUM": "URU17",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MATIAS VECINO"
+    },
+    {
+        "NUM": "URU18",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "GIORGIAN DE ARRASCAETA"
+    },
+    {
+        "NUM": "URU19",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MAXIMILIANO ARAUJO"
+    },
+    {
+        "NUM": "URU20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "FACUNDO PELLISTRI"
+    },
+    {
+        "NUM": "URU21",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DARWIN NUNEZ"
+    },
+    {
+        "NUM": "URU22",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 1500,
+        "NOMBRE": "LUIS SUAREZ"
+    },
+    {
+        "NUM": "PAN1",
+        "TIPO": "ESCUDO",
+        "CANT": 6,
+        "PRECIO": 2500,
+        "NOMBRE": "PAN ESC"
+    },
+    {
+        "NUM": "PAN2",
+        "TIPO": "EQUIPO",
+        "CANT": 5,
+        "PRECIO": 1200,
+        "NOMBRE": "PAN TEAM"
+    },
+    {
+        "NUM": "PAN3",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "LUIS MEJIA"
+    },
+    {
+        "NUM": "PAN4",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ORLANDO MOSQUERA"
+    },
+    {
+        "NUM": "PAN5",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ERIC DAVIS"
+    },
+    {
+        "NUM": "PAN6",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "FIDEL ESCOBAR"
+    },
+    {
+        "NUM": "PAN7",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MICHAEL MURILLO"
+    },
+    {
+        "NUM": "PAN8",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ANDRES ANDRADE"
+    },
+    {
+        "NUM": "PAN9",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "JOSE CORDOBA"
+    },
+    {
+        "NUM": "PAN10",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CESAR BLACKMAN"
+    },
+    {
+        "NUM": "PAN11",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "ADALBERTO CARRASQUILLA"
+    },
+    {
+        "NUM": "PAN12",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ALFREDO STEPHENS"
+    },
+    {
+        "NUM": "PAN13",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CRISTIAN MARTINEZ"
+    },
+    {
+        "NUM": "PAN14",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "ANIBAL GODOY"
+    },
+    {
+        "NUM": "PAN15",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ALBERTO QUINTERO"
+    },
+    {
+        "NUM": "PAN16",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "EDUARDO GUERRERO"
+    },
+    {
+        "NUM": "PAN17",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ISMAEL DIAZ"
+    },
+    {
+        "NUM": "PAN18",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JOSE LUIS RODRIGUEZ"
+    },
+    {
+        "NUM": "PAN19",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "EDGAR BARCENAS"
+    },
+    {
+        "NUM": "PAN20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CESAR YANIS"
+    },
+    {
+        "NUM": "PAN21",
+        "TIPO": "COMUNES",
+        "CANT": 6,
+        "PRECIO": 850,
+        "NOMBRE": "CECILIO WATERMAN"
+    },
+    {
+        "NUM": "PAN22",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "JOSE FAJARDO"
+    },
+    {
+        "NUM": "BOL1",
+        "TIPO": "ESCUDO",
+        "CANT": 10,
+        "PRECIO": 2500,
+        "NOMBRE": "BOL ESC"
+    },
+    {
+        "NUM": "BOL2",
+        "TIPO": "EQUIPO",
         "CANT": 7,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Connor Roberts"
+        "PRECIO": 1200,
+        "NOMBRE": "BOL TEAM"
     },
     {
-        "NUM": "WAL9",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Joe Rodon"
+        "NUM": "BOL3",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "CARLOS LAMPE"
     },
     {
-        "NUM": "WAL10",
-        "CANT": 18,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Neco Williams"
-    },
-    {
-        "NUM": "WAL11",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Joe Allen"
-    },
-    {
-        "NUM": "WAL12",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Joe Morrell"
-    },
-    {
-        "NUM": "WAL13",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Aaron Ramsey"
-    },
-    {
-        "NUM": "WAL14",
-        "CANT": 9,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Jonathan Williams"
-    },
-    {
-        "NUM": "WAL15",
+        "NUM": "BOL4",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Harry Wilson"
+        "PRECIO": 850,
+        "NOMBRE": "GUILLERMO VISCARRA"
     },
     {
-        "NUM": "WAL16",
+        "NUM": "BOL5",
+        "TIPO": "COMUNES",
         "CANT": 5,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Gareth Bale"
+        "PRECIO": 850,
+        "NOMBRE": "JOSE SAGREDO"
     },
     {
-        "NUM": "WAL17",
+        "NUM": "BOL6",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DIEGO BEJARANO"
+    },
+    {
+        "NUM": "BOL7",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Daniel James"
+        "PRECIO": 850,
+        "NOMBRE": "LUIS HAQUIN"
     },
     {
-        "NUM": "WAL18",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Brennan Johnson"
+        "NUM": "BOL8",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JAIRO QUINTEROS"
     },
     {
-        "NUM": "WAL19",
-        "CANT": 6,
-        "PRECIO": 750,
-        "TIPO": "Comunes",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "Kieffer Moore"
-    },
-    {
-        "NUM": "C1",
+        "NUM": "BOL9",
+        "TIPO": "COMUNES",
         "CANT": 4,
-        "PRECIO": 6000,
-        "TIPO": "COCA",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "GNABRY"
+        "PRECIO": 850,
+        "NOMBRE": "DIEGO MEDINA"
     },
     {
-        "NUM": "C2",
+        "NUM": "BOL10",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "CARLOS ROCA"
+    },
+    {
+        "NUM": "BOL11",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ROBERTO FERNANDEZ"
+    },
+    {
+        "NUM": "BOL12",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ADRIAN JUSINO"
+    },
+    {
+        "NUM": "BOL13",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MIGUEL TERCEROS"
+    },
+    {
+        "NUM": "BOL14",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MOISES VILLARROEL"
+    },
+    {
+        "NUM": "BOL15",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "RAMIRO VACA"
+    },
+    {
+        "NUM": "BOL16",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "GABRIEL VILLAMIL"
+    },
+    {
+        "NUM": "BOL17",
+        "TIPO": "COMUNES",
+        "CANT": 2,
+        "PRECIO": 850,
+        "NOMBRE": "LEONEL JUSTINIANO"
+    },
+    {
+        "NUM": "BOL18",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "JAIME ARRASCAITA"
+    },
+    {
+        "NUM": "BOL19",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JAUME CUELLAR"
+    },
+    {
+        "NUM": "BOL20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "HENRY VACA"
+    },
+    {
+        "NUM": "BOL21",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "RODRIGO RAMALLO"
+    },
+    {
+        "NUM": "BOL22",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "VICTOR ABREGO"
+    },
+    {
+        "NUM": "BRA1",
+        "TIPO": "ESCUDO",
+        "CANT": 7,
+        "PRECIO": 2500,
+        "NOMBRE": "BRA ESC"
+    },
+    {
+        "NUM": "BRA2",
+        "TIPO": "EQUIPO",
+        "CANT": 7,
+        "PRECIO": 1200,
+        "NOMBRE": "BRA TEAM"
+    },
+    {
+        "NUM": "BRA3",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "EDERSON"
+    },
+    {
+        "NUM": "BRA4",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ALLISON"
+    },
+    {
+        "NUM": "BRA5",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MARQUINHOS"
+    },
+    {
+        "NUM": "BRA6",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DANILO"
+    },
+    {
+        "NUM": "BRA7",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "GABRIEL MAGALHAES"
+    },
+    {
+        "NUM": "BRA8",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "NINO"
+    },
+    {
+        "NUM": "BRA9",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CARLOS AUGUSTO"
+    },
+    {
+        "NUM": "BRA10",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "EMERSON ROYAL"
+    },
+    {
+        "NUM": "BRA11",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "ANDRE"
+    },
+    {
+        "NUM": "BRA12",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "BRUNO GUIMARAES"
+    },
+    {
+        "NUM": "BRA13",
+        "TIPO": "COMUNES",
+        "CANT": 2,
+        "PRECIO": 850,
+        "NOMBRE": "CASEMIRO"
+    },
+    {
+        "NUM": "BRA14",
+        "TIPO": "COMUNES",
+        "CANT": 1,
+        "PRECIO": 850,
+        "NOMBRE": "JOELINTON"
+    },
+    {
+        "NUM": "BRA15",
+        "TIPO": "COMUNES",
+        "CANT": 2,
+        "PRECIO": 850,
+        "NOMBRE": "RAPHAEL VEIGA"
+    },
+    {
+        "NUM": "BRA16",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "VITOR ROQUE"
+    },
+    {
+        "NUM": "BRA17",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "RODRYGO"
+    },
+    {
+        "NUM": "BRA18",
+        "TIPO": "COMUNES",
+        "CANT": 8,
+        "PRECIO": 850,
+        "NOMBRE": "VINI JR"
+    },
+    {
+        "NUM": "BRA19",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "RAPHINHA"
+    },
+    {
+        "NUM": "BRA20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "GABRIEL JESUS"
+    },
+    {
+        "NUM": "BRA21",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "GABRIEL MARTINELLI"
+    },
+    {
+        "NUM": "BRA22",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ENDRICK"
+    },
+    {
+        "NUM": "COL1",
+        "TIPO": "ESCUDO",
+        "CANT": 11,
+        "PRECIO": 2500,
+        "NOMBRE": "COL ESC"
+    },
+    {
+        "NUM": "COL2",
+        "TIPO": "EQUIPO",
+        "CANT": 2,
+        "PRECIO": 1200,
+        "NOMBRE": "COL TEAM"
+    },
+    {
+        "NUM": "COL3",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DAVID OSPINA"
+    },
+    {
+        "NUM": "COL4",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "CAMILO VARGAS"
+    },
+    {
+        "NUM": "COL5",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DEIVER MACHADO"
+    },
+    {
+        "NUM": "COL6",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "FRANK FABRA"
+    },
+    {
+        "NUM": "COL7",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "DAVINSON SANCHEZ"
+    },
+    {
+        "NUM": "COL8",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JHON LUCUMI"
+    },
+    {
+        "NUM": "COL9",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "CARLOS CUESTA"
+    },
+    {
+        "NUM": "COL10",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "DANIEL MUNOZ"
+    },
+    {
+        "NUM": "COL11",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "YERRY MINA"
+    },
+    {
+        "NUM": "COL12",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JORGE CARRASCAL"
+    },
+    {
+        "NUM": "COL13",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "KEVIN CASTANO"
+    },
+    {
+        "NUM": "COL14",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JHON ARIAS"
+    },
+    {
+        "NUM": "COL15",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MATEUS URIBE"
+    },
+    {
+        "NUM": "COL16",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "JEFFERSON LERMA"
+    },
+    {
+        "NUM": "COL17",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JUAN CUADRADO"
+    },
+    {
+        "NUM": "COL18",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "JAMES RODRIGUEZ"
+    },
+    {
+        "NUM": "COL19",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JHON DURAN"
+    },
+    {
+        "NUM": "COL20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "LUIS SINISTERRA"
+    },
+    {
+        "NUM": "COL21",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "RAFAEL BORRE"
+    },
+    {
+        "NUM": "COL22",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "LUIS DIAZ"
+    },
+    {
+        "NUM": "PAR1",
+        "TIPO": "ESCUDO",
+        "CANT": 8,
+        "PRECIO": 2500,
+        "NOMBRE": "PAR ESC"
+    },
+    {
+        "NUM": "PAR2",
+        "TIPO": "EQUIPO",
+        "CANT": 7,
+        "PRECIO": 1200,
+        "NOMBRE": "PAR TEAM"
+    },
+    {
+        "NUM": "PAR3",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CARLOS CORONEL"
+    },
+    {
+        "NUM": "PAR4",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "SANTIAGO ROJAS"
+    },
+    {
+        "NUM": "PAR5",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "GUSTAVO GOMEZ"
+    },
+    {
+        "NUM": "PAR6",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "JUNIOR ALONSO"
+    },
+    {
+        "NUM": "PAR7",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "FABIAN BALBUENA"
+    },
+    {
+        "NUM": "PAR8",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ROBERT ROJAS"
+    },
+    {
+        "NUM": "PAR9",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "SANTIAGO ARZAMENDIA"
+    },
+    {
+        "NUM": "PAR10",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "OMAR ALDERETE"
+    },
+    {
+        "NUM": "PAR11",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MATIAS ESPINOZA"
+    },
+    {
+        "NUM": "PAR12",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "MATIAS ROJAS"
+    },
+    {
+        "NUM": "PAR13",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "KAKU"
+    },
+    {
+        "NUM": "PAR14",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MATHIAS VILLASANTI"
+    },
+    {
+        "NUM": "PAR15",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MIGUEL ALMIRON"
+    },
+    {
+        "NUM": "PAR16",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "RICHARD SANCHEZ"
+    },
+    {
+        "NUM": "PAR17",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ANDRES CUBAS"
+    },
+    {
+        "NUM": "PAR18",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "BRAIAN OJEDA"
+    },
+    {
+        "NUM": "PAR19",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "GABRIEL AVALOS"
+    },
+    {
+        "NUM": "PAR20",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "JULIO ENCISO"
+    },
+    {
+        "NUM": "PAR21",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ANTONIO SANABRIA"
+    },
+    {
+        "NUM": "PAR22",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "RAMON SOSA"
+    },
+    {
+        "NUM": "CAN1",
+        "TIPO": "ESCUDO",
+        "CANT": 4,
+        "PRECIO": 2500,
+        "NOMBRE": "CAN ESC"
+    },
+    {
+        "NUM": "CAN2",
+        "TIPO": "EQUIPO",
+        "CANT": 0,
+        "PRECIO": 1200,
+        "NOMBRE": "CAN TEAM"
+    },
+    {
+        "NUM": "CAN3",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "MILAN BORJAN"
+    },
+    {
+        "NUM": "CAN4",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "MAXIME CREPEAU"
+    },
+    {
+        "NUM": "CAN5",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "KAMAL MILLER"
+    },
+    {
+        "NUM": "CAN6",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "RICHIE LARYEA"
+    },
+    {
+        "NUM": "CAN7",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "STEVEN VITORIA"
+    },
+    {
+        "NUM": "CAN8",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "ALPTHONSO DAVIES"
+    },
+    {
+        "NUM": "CAN9",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ALISTAIR JOHNSTON"
+    },
+    {
+        "NUM": "CAN10",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DEREK CORNELIUS"
+    },
+    {
+        "NUM": "CAN11",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "SAM ADEKUGBE"
+    },
+    {
+        "NUM": "CAN12",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "JONATHAN OSORIO"
+    },
+    {
+        "NUM": "CAN13",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "STEPHEN EUSTAQUIO"
+    },
+    {
+        "NUM": "CAN14",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "ISMAEL KONE"
+    },
+    {
+        "NUM": "CAN15",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "SAMUEL PIETTE"
+    },
+    {
+        "NUM": "CAN16",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ALI AHMED"
+    },
+    {
+        "NUM": "CAN17",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "TAJON BUCHANAN"
+    },
+    {
+        "NUM": "CAN18",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "JUNIOR HOILETT"
+    },
+    {
+        "NUM": "CAN19",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "CYLE LARIN"
+    },
+    {
+        "NUM": "CAN20",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "JONATHAN DAVID"
+    },
+    {
+        "NUM": "CAN21",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "LIAM MILLAR"
+    },
+    {
+        "NUM": "CAN22",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "LUCAS CAVALLINI"
+    },
+    {
+        "NUM": "CRC1",
+        "TIPO": "ESCUDO",
+        "CANT": 8,
+        "PRECIO": 2500,
+        "NOMBRE": "CRC ESC"
+    },
+    {
+        "NUM": "CRC2",
+        "TIPO": "EQUIPO",
+        "CANT": 3,
+        "PRECIO": 1200,
+        "NOMBRE": "CRC TEAM"
+    },
+    {
+        "NUM": "CRC3",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "KEYLOR NAVAS"
+    },
+    {
+        "NUM": "CRC4",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "KENDALL WASTON"
+    },
+    {
+        "NUM": "CRC5",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "FRANCISCO CALVO"
+    },
+    {
+        "NUM": "CRC6",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "JUAN VARGAS"
+    },
+    {
+        "NUM": "CRC7",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JULIO CASCANTE"
+    },
+    {
+        "NUM": "CRC8",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "BRYAN OVIEDO"
+    },
+    {
+        "NUM": "CRC9",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "OSCAR DUARTE"
+    },
+    {
+        "NUM": "CRC10",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "RONALD MATARRITA"
+    },
+    {
+        "NUM": "CRC11",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "JIMMY MARIN"
+    },
+    {
+        "NUM": "CRC12",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "JEWISON BENNETTE"
+    },
+    {
+        "NUM": "CRC13",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ROAN WILSON"
+    },
+    {
+        "NUM": "CRC14",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JEFRY VALVERDE"
+    },
+    {
+        "NUM": "CRC15",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CELSO BORGES"
+    },
+    {
+        "NUM": "CRC16",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "RANDALL LEAL"
+    },
+    {
+        "NUM": "CRC17",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "BRANDON AGUILERA"
+    },
+    {
+        "NUM": "CRC18",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "SEBASTIAN ACUNA"
+    },
+    {
+        "NUM": "CRC19",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MANFRED UGALDE"
+    },
+    {
+        "NUM": "CRC20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JOSIMAR ALCOCER"
+    },
+    {
+        "NUM": "CRC21",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "ANTHONY CONTRERAS"
+    },
+    {
+        "NUM": "CRC22",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JOEL CAMPBELL"
+    },
+    {
+        "NUM": "HON1",
+        "TIPO": "ESCUDO",
+        "CANT": 5,
+        "PRECIO": 2500,
+        "NOMBRE": "HON ESC"
+    },
+    {
+        "NUM": "HON2",
+        "TIPO": "EQUIPO",
+        "CANT": 9,
+        "PRECIO": 1200,
+        "NOMBRE": "HON TEAM"
+    },
+    {
+        "NUM": "HON3",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ENDRICK MENJIVAR"
+    },
+    {
+        "NUM": "HON4",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "LUIS LOPEZ"
+    },
+    {
+        "NUM": "HON5",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "ANDY NAJAR"
+    },
+    {
+        "NUM": "HON6",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DENIL MALDONADO"
+    },
+    {
+        "NUM": "HON7",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "LUIS VEGA"
+    },
+    {
+        "NUM": "HON8",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ELISON RIVAS"
+    },
+    {
+        "NUM": "HON9",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MARCELO SANTOS"
+    },
+    {
+        "NUM": "HON10",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JOSEPH ROSALES"
+    },
+    {
+        "NUM": "HON11",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JORGE ALVAREZ"
+    },
+    {
+        "NUM": "HON12",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "EDWIN RODRIGUEZ"
+    },
+    {
+        "NUM": "HON13",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "RIGOBERTO RIVAS"
+    },
+    {
+        "NUM": "HON14",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "BRYAN ACOSTA"
+    },
+    {
+        "NUM": "HON15",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "ALEXANDER LOPEZ"
+    },
+    {
+        "NUM": "HON16",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DEIBY FLORES"
+    },
+    {
+        "NUM": "HON17",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "KERVIN ARRIAGA"
+    },
+    {
+        "NUM": "HON18",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "LUIS PALMA"
+    },
+    {
+        "NUM": "HON19",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "BRYAN ROCHEZ"
+    },
+    {
+        "NUM": "HON20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ANTHONY LOZANO"
+    },
+    {
+        "NUM": "HON21",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ALBERTH ELIS"
+    },
+    {
+        "NUM": "HON22",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ROMELL QUIOTO"
+    },
+    {
+        "NUM": "TRI1",
+        "TIPO": "ESCUDO",
+        "CANT": 11,
+        "PRECIO": 2500,
+        "NOMBRE": "TRI ESC"
+    },
+    {
+        "NUM": "TRI2",
+        "TIPO": "EQUIPO",
+        "CANT": 5,
+        "PRECIO": 1200,
+        "NOMBRE": "TRI TEAM"
+    },
+    {
+        "NUM": "TRI3",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DENZIL SMITH"
+    },
+    {
+        "NUM": "TRI4",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "CHRISTOPHER BIGGETTE"
+    },
+    {
+        "NUM": "TRI5",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ROSS RUSSELL JR"
+    },
+    {
+        "NUM": "TRI6",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "AUBREY DAVID"
+    },
+    {
+        "NUM": "TRI7",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "JUSTIN GARCIA"
+    },
+    {
+        "NUM": "TRI8",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "NEVEAL HACKSHAW"
+    },
+    {
+        "NUM": "TRI9",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "SHANNON GOMEZ"
+    },
+    {
+        "NUM": "TRI10",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ALVIN JONES"
+    },
+    {
+        "NUM": "TRI11",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "ANDRE RAYMOND"
+    },
+    {
+        "NUM": "TRI12",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "NOAH POWDER"
+    },
+    {
+        "NUM": "TRI13",
+        "TIPO": "COMUNES",
+        "CANT": 3,
+        "PRECIO": 850,
+        "NOMBRE": "NATHANIEL JAMES"
+    },
+    {
+        "NUM": "TRI14",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MICHEL POON-ANGERON"
+    },
+    {
+        "NUM": "TRI15",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "KAILE AUVRAY"
+    },
+    {
+        "NUM": "TRI16",
+        "TIPO": "COMUNES",
+        "CANT": 4,
+        "PRECIO": 850,
+        "NOMBRE": "ANDRE RAMPERSAD"
+    },
+    {
+        "NUM": "TRI17",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "RYAN TELFER"
+    },
+    {
+        "NUM": "TRI18",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "KRISTIAN LEE-HIM"
+    },
+    {
+        "NUM": "TRI19",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "LEVI GARCIA"
+    },
+    {
+        "NUM": "TRI20",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "DANIEL PHILLIPS"
+    },
+    {
+        "NUM": "TRI21",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "MALCOM SHAW"
+    },
+    {
+        "NUM": "TRI22",
+        "TIPO": "COMUNES",
+        "CANT": 5,
+        "PRECIO": 850,
+        "NOMBRE": "REON MOORE"
+    },
+    {
+        "NUM": "LEG1",
+        "TIPO": "LEYENDA",
+        "CANT": 5,
+        "PRECIO": 2500,
+        "NOMBRE": "BATISTUTA LEFT"
+    },
+    {
+        "NUM": "LEG2",
+        "TIPO": "LEYENDA",
+        "CANT": 6,
+        "PRECIO": 2500,
+        "NOMBRE": "BATISTUTA RIGHT"
+    },
+    {
+        "NUM": "LEG3",
+        "TIPO": "LEYENDA DORADA",
+        "CANT": 9,
+        "PRECIO": 5000,
+        "NOMBRE": "PELE"
+    },
+    {
+        "NUM": "LEG4",
+        "TIPO": "LEYENDA",
+        "CANT": 6,
+        "PRECIO": 1500,
+        "NOMBRE": "FRANCESCOLI LEFT"
+    },
+    {
+        "NUM": "LEG5",
+        "TIPO": "LEYENDA",
+        "CANT": 7,
+        "PRECIO": 1500,
+        "NOMBRE": "FRANCESCOLI RIGHT"
+    },
+    {
+        "NUM": "LEG6",
+        "TIPO": "LEYENDA DORADA",
+        "CANT": 6,
+        "PRECIO": 7000,
+        "NOMBRE": "MESSI LG"
+    },
+    {
+        "NUM": "LEG7",
+        "TIPO": "LEYENDA",
+        "CANT": 6,
+        "PRECIO": 1500,
+        "NOMBRE": "FORLAN LEFT"
+    },
+    {
+        "NUM": "LEG8",
+        "TIPO": "LEYENDA",
+        "CANT": 9,
+        "PRECIO": 1500,
+        "NOMBRE": "FORLAN RIGHT"
+    },
+    {
+        "NUM": "LEG9",
+        "TIPO": "LEYENDA DORADA",
+        "CANT": 9,
+        "PRECIO": 4500,
+        "NOMBRE": "RONALDINHO"
+    },
+    {
+        "NUM": "LEG10",
+        "TIPO": "LEYENDA",
+        "CANT": 0,
+        "PRECIO": 2500,
+        "NOMBRE": "RONALDO LEFT"
+    },
+    {
+        "NUM": "LEG11",
+        "TIPO": "LEYENDA",
+        "CANT": 5,
+        "PRECIO": 2500,
+        "NOMBRE": "RONALDO RIGHT"
+    },
+    {
+        "NUM": "LEG12",
+        "TIPO": "LEYENDA DORADA",
+        "CANT": 4,
+        "PRECIO": 3000,
+        "NOMBRE": "MORENO MARTINS"
+    },
+    {
+        "NUM": "LEG13",
+        "TIPO": "LEYENDA",
+        "CANT": 3,
+        "PRECIO": 3500,
+        "NOMBRE": "MARADONA LEFT"
+    },
+    {
+        "NUM": "LEG14",
+        "TIPO": "LEYENDA",
+        "CANT": 2,
+        "PRECIO": 3500,
+        "NOMBRE": "MARADONA RIGHT"
+    },
+    {
+        "NUM": "LEG15",
+        "TIPO": "LEYENDA DORADA",
+        "CANT": 4,
+        "PRECIO": 3000,
+        "NOMBRE": "PAOLO GUERRERO"
+    },
+    {
+        "NUM": "LEG16",
+        "TIPO": "LEYENDA",
+        "CANT": 7,
+        "PRECIO": 2000,
+        "NOMBRE": "CAFU UP"
+    },
+    {
+        "NUM": "LEG17",
+        "TIPO": "LEYENDA",
+        "CANT": 2,
+        "PRECIO": 2000,
+        "NOMBRE": "CAFU DOWN"
+    },
+    {
+        "NUM": "LEG18",
+        "TIPO": "LEYENDA DORADA",
+        "CANT": 7,
+        "PRECIO": 3000,
+        "NOMBRE": "ALEXIS SANCHEZ"
+    },
+    {
+        "NUM": "ROH1",
+        "TIPO": "CAMPEON LEFT DORADA",
         "CANT": 1,
         "PRECIO": 6000,
-        "TIPO": "COCA",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "DIBU"
+        "NOMBRE": "Roll of Honor 1"
     },
     {
-        "NUM": "C3",
-        "CANT": 2,
-        "PRECIO": 6000,
-        "TIPO": "COCA",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "DE BRUYNE"
-    },
-    {
-        "NUM": "C4",
-        "CANT": 1,
-        "PRECIO": 6000,
-        "TIPO": "COCA",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "MODRIC"
-    },
-    {
-        "NUM": "C5",
-        "CANT": 2,
-        "PRECIO": 6000,
-        "TIPO": "COCA",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "DECLAN RICE"
-    },
-    {
-        "NUM": "C6",
-        "CANT": 2,
-        "PRECIO": 6000,
-        "TIPO": "COCA",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "GAVI"
-    },
-    {
-        "NUM": "C7",
+        "NUM": "ROH2",
+        "TIPO": "CAMPEON RIGHT DORADA",
         "CANT": 0,
         "PRECIO": 6000,
-        "TIPO": "COCA",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "LOZANO"
-    },
-    {
-        "NUM": "C8",
-        "CANT": 0,
-        "PRECIO": 6000,
-        "TIPO": "COCA",
-        "DIA": "04/06/2024",
-        "ACTUALIZACION": "21:17:46",
-        "NOMBRE": "H M SON"
+        "NOMBRE": "Roll of Honor 2"
     }
 ]

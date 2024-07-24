@@ -3,105 +3,105 @@
         "NUM": "INT1",
         "TIPO": "INTRO",
         "CANT": 1,
-        "PRECIO": 6000,
+        "PRECIO": 7500,
         "NOMBRE": "INTRODUCCION"
     },
     {
         "NUM": "INT2",
         "TIPO": "INTRO",
         "CANT": 0,
-        "PRECIO": 6000,
+        "PRECIO": 7500,
         "NOMBRE": "MASCOTA"
     },
     {
         "NUM": "INT3",
         "TIPO": "INTRO",
         "CANT": 0,
-        "PRECIO": 6000,
+        "PRECIO": 7500,
         "NOMBRE": "COPA"
     },
     {
         "NUM": "INT4",
         "TIPO": "INTRO",
         "CANT": 0,
-        "PRECIO": 6000,
+        "PRECIO": 7500,
         "NOMBRE": "PELOTA"
     },
     {
         "NUM": "HCI1",
         "TIPO": "CIUDAD",
         "CANT": 6,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "KANSAS CITY"
     },
     {
         "NUM": "HCI2",
         "TIPO": "CIUDAD",
         "CANT": 3,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "LAS VEGAS"
     },
     {
         "NUM": "HCI3",
         "TIPO": "CIUDAD",
         "CANT": 11,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "GLENDALE"
     },
     {
         "NUM": "HCI4",
         "TIPO": "CIUDAD",
         "CANT": 10,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "AUSTIN"
     },
     {
         "NUM": "HCI5",
         "TIPO": "CIUDAD",
         "CANT": 5,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "HOUSTON"
     },
     {
         "NUM": "HCI6",
         "TIPO": "CIUDAD",
         "CANT": 5,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "EAST RUTHERFORD"
     },
     {
         "NUM": "HCI7",
         "TIPO": "CIUDAD",
         "CANT": 6,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "CHARLOTTE"
     },
     {
         "NUM": "HCI8",
         "TIPO": "CIUDAD",
         "CANT": 5,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "ATALANTA"
     },
     {
         "NUM": "HCI9",
         "TIPO": "CIUDAD",
         "CANT": 4,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "ORLANDO"
     },
     {
         "NUM": "HCI10",
         "TIPO": "CIUDAD",
         "CANT": 4,
-        "PRECIO": 1500,
+        "PRECIO": 2000,
         "NOMBRE": "MIAMI GARDENS"
     },
     {
         "NUM": "ARG1",
         "TIPO": "ESCUDO",
         "CANT": 7,
-        "PRECIO": 6500,
+        "PRECIO": 7500,
         "NOMBRE": "ARG ESC"
     },
     {
@@ -115,28 +115,28 @@
         "NUM": "ARG3",
         "TIPO": "AFA",
         "CANT": 14,
-        "PRECIO": 5000,
+        "PRECIO": 3000,
         "NOMBRE": "EMILIANO MARTINEZ"
     },
     {
         "NUM": "ARG4",
         "TIPO": "AFA",
         "CANT": 11,
-        "PRECIO": 2000,
+        "PRECIO": 2500,
         "NOMBRE": "FRANCO ARMANI"
     },
     {
         "NUM": "ARG5",
         "TIPO": "AFA",
         "CANT": 8,
-        "PRECIO": 2000,
+        "PRECIO": 2500,
         "NOMBRE": "NICOLAS OTAMENDI"
     },
     {
         "NUM": "ARG6",
         "TIPO": "AFA",
         "CANT": 7,
-        "PRECIO": 2000,
+        "PRECIO": 2500,
         "NOMBRE": "CRISTIAN ROMERO"
     },
     {
@@ -150,7 +150,7 @@
         "NUM": "ARG8",
         "TIPO": "AFA",
         "CANT": 11,
-        "PRECIO": 2000,
+        "PRECIO": 2500,
         "NOMBRE": "LISANDRO MARTINEZ"
     },
     {
@@ -164,28 +164,28 @@
         "NUM": "ARG10",
         "TIPO": "AFA",
         "CANT": 12,
-        "PRECIO": 1500,
+        "PRECIO": 2500,
         "NOMBRE": "NAHUEL MOLINA"
     },
     {
         "NUM": "ARG11",
         "TIPO": "AFA",
         "CANT": 13,
-        "PRECIO": 2000,
+        "PRECIO": 2500,
         "NOMBRE": "NICOLAS TAGLIAFICO"
     },
     {
         "NUM": "ARG12",
         "TIPO": "AFA",
         "CANT": 6,
-        "PRECIO": 1500,
+        "PRECIO": 3000,
         "NOMBRE": "EXEQUIEL PALACIOS"
     },
     {
         "NUM": "ARG13",
         "TIPO": "AFA",
         "CANT": 12,
-        "PRECIO": 2000,
+        "PRECIO": 2500,
         "NOMBRE": "LEANDRO PAREDES"
     },
     {
@@ -199,35 +199,35 @@
         "NUM": "ARG15",
         "TIPO": "AFA",
         "CANT": 8,
-        "PRECIO": 2000,
+        "PRECIO": 3000,
         "NOMBRE": "ENZO FERNANDEZ"
     },
     {
         "NUM": "ARG16",
         "TIPO": "AFA",
         "CANT": 8,
-        "PRECIO": 2000,
+        "PRECIO": 3000,
         "NOMBRE": "ALEXIS MAC ALLISTER"
     },
     {
         "NUM": "ARG17",
         "TIPO": "AFA",
         "CANT": 10,
-        "PRECIO": 1500,
+        "PRECIO": 2500,
         "NOMBRE": "PAULO DYBALA"
     },
     {
         "NUM": "ARG18",
         "TIPO": "AFA",
         "CANT": 7,
-        "PRECIO": 1500,
+        "PRECIO": 3000,
         "NOMBRE": "NICOLAS GONZALEZ"
     },
     {
         "NUM": "ARG19",
         "TIPO": "AFA",
         "CANT": 0,
-        "PRECIO": 13000,
+        "PRECIO": 15000,
         "NOMBRE": "LIONEL MESSI"
     },
     {
@@ -241,21 +241,21 @@
         "NUM": "ARG21",
         "TIPO": "AFA",
         "CANT": 21,
-        "PRECIO": 2500,
+        "PRECIO": 2000,
         "NOMBRE": "ANGEL DI MARIA"
     },
     {
         "NUM": "ARG22",
         "TIPO": "AFA",
         "CANT": 12,
-        "PRECIO": 2000,
+        "PRECIO": 2500,
         "NOMBRE": "LAUTARO MARTINEZ"
     },
     {
         "NUM": "PER1",
         "TIPO": "ESCUDO",
         "CANT": 5,
-        "PRECIO": 2000,
+        "PRECIO": 2500,
         "NOMBRE": "PER ESC"
     },
     {

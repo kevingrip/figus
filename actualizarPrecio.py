@@ -2,14 +2,14 @@ import json
 
 from bases import*
 
-base = baseMundial()
+base = baseCopamerica()
 
 for linea in base:
-    if linea["PRECIO"]==3500:
-        linea["PRECIO"]=3000
+    if linea["TIPO"]=='ESCUDO' and linea["PRECIO"]==2000:
+        linea["PRECIO"]=2500
+        print(linea)
 
-for linea in base:
-    print(linea)
+    
 
 with open ("baseMundial.json","w") as baseEditarJson:
     json.dump (base,baseEditarJson,indent=4)
