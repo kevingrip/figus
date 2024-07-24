@@ -13287,7 +13287,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "SI"
+            "PREARMADO": "NO"
         },
         {
             "usuario": "MILEZA2016",
@@ -13311,7 +13311,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "SI"
+            "PREARMADO": "NO"
         },
         {
             "usuario": "PAJU5343169",
@@ -13339,7 +13339,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "SI"
+            "PREARMADO": "NO"
         },
         {
             "usuario": "LAURACASTRO PLOTTIER",
@@ -13356,7 +13356,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "SI"
+            "PREARMADO": "NO"
         },
         {
             "usuario": "GRARODALDX",
@@ -13406,6 +13406,27 @@
             "NoVendidas": [],
             "Dia": "24/07/2024",
             "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "YAMILADAIANASUAREZ",
+            "Vendidas": [
+                "INT1",
+                "ARG3",
+                "ARG6",
+                "ARG7",
+                "PER16",
+                "JAM1",
+                "CAN18",
+                "LEG13"
+            ],
+            "NoVendidas": [
+                "INT4"
+            ],
+            "Dia": "24/07/2024",
+            "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"

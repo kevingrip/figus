@@ -2,7 +2,7 @@
     {
         "NUM": "INT1",
         "TIPO": "INTRO",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 7500,
         "NOMBRE": "INTRODUCCION"
     },
@@ -114,7 +114,7 @@
     {
         "NUM": "ARG3",
         "TIPO": "AFA",
-        "CANT": 14,
+        "CANT": 13,
         "PRECIO": 3000,
         "NOMBRE": "EMILIANO MARTINEZ"
     },
@@ -135,14 +135,14 @@
     {
         "NUM": "ARG6",
         "TIPO": "AFA",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 2500,
         "NOMBRE": "CRISTIAN ROMERO"
     },
     {
         "NUM": "ARG7",
         "TIPO": "AFA",
-        "CANT": 14,
+        "CANT": 13,
         "PRECIO": 2000,
         "NOMBRE": "GERMAN PEZZELLA"
     },
@@ -359,7 +359,7 @@
     {
         "NUM": "PER16",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "PEDRO AQUINO"
     },
@@ -1024,7 +1024,7 @@
     {
         "NUM": "JAM1",
         "TIPO": "ESCUDO",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2000,
         "NOMBRE": "JAM ESC"
     },
@@ -2375,7 +2375,7 @@
     {
         "NUM": "CAN18",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "JUNIOR HOILETT"
     },
@@ -2956,7 +2956,7 @@
     {
         "NUM": "LEG13",
         "TIPO": "LEYENDA",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 3500,
         "NOMBRE": "MARADONA LEFT"
     },

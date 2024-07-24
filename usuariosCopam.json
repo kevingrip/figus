@@ -21003,6 +21003,41 @@
                 "TRI16",
                 "TRI2"
             ]
+        },
+        {
+            "usuario": "DAVID_2610",
+            "figusPedidas": [
+                "INT4",
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "YAMILADAIANASUAREZ",
+            "figusPedidas": [
+                "ARG3",
+                "ARG6",
+                "ARG7",
+                "CAN18",
+                "INT1",
+                "INT4",
+                "JAM1",
+                "LEG13",
+                "PER16"
+            ]
+        },
+        {
+            "usuario": "JUANJOBRESSO",
+            "figusPedidas": [
+                "BOL12",
+                "BOL22",
+                "BOL6",
+                "COL6",
+                "INT2",
+                "INT3",
+                "INT4",
+                "JAM12",
+                "LEG11"
+            ]
         }
     ]
 }
