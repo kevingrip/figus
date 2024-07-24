@@ -12934,7 +12934,7 @@
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DUPUYGISELA",
@@ -13287,7 +13287,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MILEZA2016",
@@ -13311,7 +13311,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "PAJU5343169",
@@ -13339,7 +13339,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LAURACASTRO PLOTTIER",
@@ -13349,8 +13349,62 @@
                 "BOL9",
                 "BRA11"
             ],
-            "NoVendidas": ["INT1"],
+            "NoVendidas": [
+                "INT1"
+            ],
             "Dia": "23/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GRARODALDX",
+            "Vendidas": [
+                "INT4",
+                "CHI12",
+                "MEX2",
+                "MEX21",
+                "ECU4",
+                "JAM15",
+                "CRC2",
+                "HON12"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "SEBACAFF1983",
+            "Vendidas": [
+                "CHI14",
+                "CHI21",
+                "MEX1",
+                "ECU5",
+                "ECU9",
+                "ECU12",
+                "BOL3",
+                "BOL10",
+                "PAR5",
+                "CAN1",
+                "CAN4",
+                "CAN19",
+                "CRC3",
+                "CRC10",
+                "CRC11",
+                "HON1",
+                "HON2",
+                "TRI2",
+                "TRI13",
+                "TRI16",
+                "LEG15",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
