@@ -13430,6 +13430,24 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "GASTI81",
+            "Vendidas": [
+                "HCI9",
+                "BRA1",
+                "PAR1",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "INT3"
+            ],
+            "Dia": "24/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
