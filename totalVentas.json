@@ -13340,6 +13340,21 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LAURACASTRO PLOTTIER",
+            "Vendidas": [
+                "ARG19",
+                "JAM21",
+                "BOL9",
+                "BRA11"
+            ],
+            "NoVendidas": ["INT1"],
+            "Dia": "23/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
