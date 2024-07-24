@@ -11,5 +11,5 @@ for linea in base:
 
     
 
-with open ("baseMundial.json","w") as baseEditarJson:
+with open ("base_copam.json","w") as baseEditarJson:
     json.dump (base,baseEditarJson,indent=4)

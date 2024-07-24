@@ -21222,6 +21222,48 @@
                 "VEN3",
                 "VEN9"
             ]
+        },
+        {
+            "usuario": "ANYALELOPEZ",
+            "figusPedidas": [
+                "BRA1",
+                "CHI20",
+                "CRC14",
+                "ECU18",
+                "HCI7",
+                "HCI9",
+                "INT3",
+                "LEG11",
+                "PAN17",
+                "PAN22",
+                "PER17"
+            ]
+        },
+        {
+            "usuario": "ELMIRIAM",
+            "figusPedidas": [
+                "CHI1",
+                "INT3",
+                "INT4",
+                "LEG5",
+                "VEN20"
+            ]
+        },
+        {
+            "usuario": "PATUZCO",
+            "figusPedidas": [
+                "ARG19",
+                "HCI5",
+                "LEG15"
+            ]
+        },
+        {
+            "usuario": "LAU-89",
+            "figusPedidas": [
+                "HON3",
+                "INT2",
+                "PER14"
+            ]
         }
     ]
 }
