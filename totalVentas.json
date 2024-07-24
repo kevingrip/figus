@@ -13286,8 +13286,8 @@
             "Dia": "23/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MILEZA2016",
@@ -13310,8 +13310,8 @@
             "Dia": "23/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "PAJU5343169",
@@ -13338,8 +13338,8 @@
             "Dia": "23/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LAURACASTRO PLOTTIER",
@@ -13356,7 +13356,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "GRARODALDX",
@@ -13374,8 +13374,8 @@
             "Dia": "24/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "SEBACAFF1983",
@@ -13407,8 +13407,8 @@
             "Dia": "24/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "YAMILADAIANASUAREZ",
@@ -13428,8 +13428,8 @@
             "Dia": "24/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "GASTI81",
@@ -13445,6 +13445,18 @@
             ],
             "Dia": "24/07/2024",
             "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ZOE_DIAZ",
+            "Vendidas": [
+                "ARG3"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/07/2024",
+            "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
