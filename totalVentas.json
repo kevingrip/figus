@@ -12933,7 +12933,7 @@
             "Dia": "22/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -13531,8 +13531,8 @@
             "Dia": "24/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MATEOSD2013",
@@ -13563,8 +13563,8 @@
             "Dia": "25/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MELIRONO",
@@ -13580,6 +13580,22 @@
             "Dia": "25/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "SWEET DREAMS20",
+            "Vendidas": [
+                "ECU22",
+                "URU1",
+                "PAR21"
+            ],
+            "NoVendidas": [
+                "INT1"
+            ],
+            "Dia": "25/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
@@ -23281,6 +23297,34 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "RD20240722174253",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "25/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MAIZTEGUIPEDRO",
+            "Vendidas": [
+                "BRA7",
+                "CMR14",
+                "ECU9",
+                "IRN1",
+                "TUN1"
+            ],
+            "NoVendidas": [],
+            "Dia": "25/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
