@@ -13533,6 +13533,55 @@
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MATEOSD2013",
+            "Vendidas": [
+                "ECU14",
+                "VEN8",
+                "PAN16",
+                "COL20"
+            ],
+            "NoVendidas": [],
+            "Dia": "25/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MARACELIABURGHIANI",
+            "Vendidas": [
+                "ARG10",
+                "ARG14",
+                "ARG18",
+                "ARG20"
+            ],
+            "NoVendidas": [
+                "ARG19"
+            ],
+            "Dia": "25/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MELIRONO",
+            "Vendidas": [
+                "CHI7",
+                "ECU5",
+                "BOL11",
+                "PAR6",
+                "PAR18",
+                "PAR22"
+            ],
+            "NoVendidas": [],
+            "Dia": "25/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
