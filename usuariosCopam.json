@@ -21377,6 +21377,71 @@
                 "INT2",
                 "INT4"
             ]
+        },
+        {
+            "usuario": "SEGURADOANALIA20220125132645",
+            "figusPedidas": [
+                "ARG11",
+                "ARG19",
+                "ARG4",
+                "ARG5",
+                "ARG7",
+                "CHI14",
+                "CHI2",
+                "CHI3",
+                "ECU1",
+                "ECU17",
+                "ECU18",
+                "ECU9",
+                "INT2",
+                "INT3",
+                "PER2",
+                "PER5"
+            ]
+        },
+        {
+            "usuario": "MARAEUGENIABARBIERI",
+            "figusPedidas": [
+                "ARG20",
+                "ARG4",
+                "HCI7",
+                "PAR4",
+                "PAR8",
+                "PER4",
+                "USA8",
+                "VEN12"
+            ]
+        },
+        {
+            "usuario": "MARIASUSANARAVOTTI",
+            "figusPedidas": [
+                "ARG20",
+                "ARG22"
+            ]
+        },
+        {
+            "usuario": "ANDREASMINETTI",
+            "figusPedidas": [
+                "ARG1",
+                "ARG10",
+                "ARG13",
+                "ARG15",
+                "ARG16",
+                "ARG17",
+                "ARG18",
+                "ARG19",
+                "ARG2",
+                "ARG20",
+                "ARG21",
+                "ARG3",
+                "ARG5",
+                "HCI3",
+                "HCI5",
+                "INT1",
+                "INT2",
+                "INT3",
+                "INT4"
+            ]
         }
     ]
 }
