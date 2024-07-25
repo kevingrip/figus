@@ -13679,6 +13679,29 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LUCILAGPISTINER",
+            "Vendidas": [
+                "JAM16",
+                "PAN5",
+                "PAN8",
+                "PAN20",
+                "BOL21",
+                "COL16",
+                "CRC18",
+                "HON6",
+                "HON8",
+                "TRI7"
+            ],
+            "NoVendidas": [
+                "JAM12"
+            ],
+            "Dia": "25/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
