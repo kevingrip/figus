@@ -13702,6 +13702,26 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "DEELIZALDEJUAN",
+            "Vendidas": [
+                "PER2",
+                "USA20",
+                "USA21",
+                "COL11",
+                "CAN21",
+                "TRI3"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "ARG19"
+            ],
+            "Dia": "25/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
