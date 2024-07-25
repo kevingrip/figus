@@ -149,7 +149,7 @@
     {
         "NUM": "ARG8",
         "TIPO": "AFA",
-        "CANT": 11,
+        "CANT": 10,
         "PRECIO": 2500,
         "NOMBRE": "LISANDRO MARTINEZ"
     },
@@ -716,7 +716,7 @@
     {
         "NUM": "ECU1",
         "TIPO": "ESCUDO",
-        "CANT": 9,
+        "CANT": 8,
         "PRECIO": 2500,
         "NOMBRE": "ECU ESC"
     },
@@ -779,7 +779,7 @@
     {
         "NUM": "ECU10",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "ROBERT ARBOLEDA"
     },
@@ -898,7 +898,7 @@
     {
         "NUM": "VEN5",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "ALEXANDER GONZALEZ"
     },
@@ -961,7 +961,7 @@
     {
         "NUM": "VEN14",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "YANGEL HERRERA"
     },
@@ -1080,7 +1080,7 @@
     {
         "NUM": "JAM9",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "DEXTER LEMBIKISA"
     },
@@ -2144,7 +2144,7 @@
     {
         "NUM": "PAR7",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "FABIAN BALBUENA"
     },
