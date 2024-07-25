@@ -198,7 +198,7 @@
     {
         "NUM": "ARG15",
         "TIPO": "AFA",
-        "CANT": 8,
+        "CANT": 9,
         "PRECIO": 3000,
         "NOMBRE": "ENZO FERNANDEZ"
     },
@@ -296,7 +296,7 @@
     {
         "NUM": "PER7",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "ALDO CORZO"
     },
@@ -1220,7 +1220,7 @@
     {
         "NUM": "USA7",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 850,
         "NOMBRE": "CAMERON CARTER-VICKERS"
     },
@@ -2004,7 +2004,7 @@
     {
         "NUM": "COL9",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 850,
         "NOMBRE": "CARLOS CUESTA"
     },
@@ -2389,14 +2389,14 @@
     {
         "NUM": "CAN20",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 850,
         "NOMBRE": "JONATHAN DAVID"
     },
     {
         "NUM": "CAN21",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 850,
         "NOMBRE": "LIAM MILLAR"
     },
@@ -2424,7 +2424,7 @@
     {
         "NUM": "CRC3",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 850,
         "NOMBRE": "KEYLOR NAVAS"
     },
