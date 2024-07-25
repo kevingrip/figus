@@ -13446,20 +13446,8 @@
             "Dia": "24/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
-        },
-        {
-            "usuario": "ZOE_DIAZ",
-            "Vendidas": [
-                "ARG3"
-            ],
-            "NoVendidas": [],
-            "Dia": "24/07/2024",
-            "Cuenta": "KEVIN",
-            "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
         },
         {
             "usuario": "LUCASFOLATTI",
@@ -13476,8 +13464,8 @@
             "Dia": "24/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MARIELADANASINO",
@@ -13494,8 +13482,8 @@
             "Dia": "24/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LAU-89",
@@ -13509,6 +13497,40 @@
             "Dia": "24/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "SOLZERBINO",
+            "Vendidas": [
+                "ARG3",
+                "ARG13",
+                "ARG14",
+                "ARG21"
+            ],
+            "NoVendidas": [
+                "ARG19"
+            ],
+            "Dia": "24/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "JUANJOBRESSO",
+            "Vendidas": [
+                "JAM12",
+                "BOL6",
+                "BOL12",
+                "BOL22",
+                "COL6",
+                "LEG11"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
@@ -23196,8 +23218,20 @@
             "Dia": "24/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "LIGA8028185",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
