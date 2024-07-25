@@ -16,7 +16,7 @@
     {
         "NUM": "INT3",
         "TIPO": "INTRO",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 7500,
         "NOMBRE": "COPA"
     },
@@ -65,7 +65,7 @@
     {
         "NUM": "HCI6",
         "TIPO": "CIUDAD",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 2000,
         "NOMBRE": "EAST RUTHERFORD"
     },
@@ -121,7 +121,7 @@
     {
         "NUM": "ARG4",
         "TIPO": "AFA",
-        "CANT": 11,
+        "CANT": 10,
         "PRECIO": 2500,
         "NOMBRE": "FRANCO ARMANI"
     },
@@ -2039,7 +2039,7 @@
     {
         "NUM": "COL14",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "JHON ARIAS"
     },
@@ -2935,7 +2935,7 @@
     {
         "NUM": "LEG10",
         "TIPO": "LEYENDA",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 2500,
         "NOMBRE": "RONALDO LEFT"
     },
