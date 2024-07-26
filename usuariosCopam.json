@@ -21601,6 +21601,28 @@
                 "VEN21",
                 "VEN9"
             ]
+        },
+        {
+            "usuario": "BEERG",
+            "figusPedidas": [
+                "ARG1",
+                "BRA1",
+                "CRC22",
+                "INT2",
+                "INT3",
+                "INT4",
+                "LEG12",
+                "LEG18",
+                "LEG3",
+                "USA7"
+            ]
+        },
+        {
+            "usuario": "AGUSBELTRAN",
+            "figusPedidas": [
+                "LEG3",
+                "ROH1"
+            ]
         }
     ]
 }
