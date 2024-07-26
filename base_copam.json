@@ -639,7 +639,7 @@
     {
         "NUM": "MEX12",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "ERICK SANCHEZ"
     },
@@ -709,14 +709,14 @@
     {
         "NUM": "MEX22",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "RAUL JIMENEZ"
     },
     {
         "NUM": "ECU1",
         "TIPO": "ESCUDO",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 2500,
         "NOMBRE": "ECU ESC"
     },
@@ -765,7 +765,7 @@
     {
         "NUM": "ECU8",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "WILLIAN PACHO"
     },
@@ -863,7 +863,7 @@
     {
         "NUM": "ECU22",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "ENNER VALENCIA"
     },
@@ -877,7 +877,7 @@
     {
         "NUM": "VEN2",
         "TIPO": "EQUIPO",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 1200,
         "NOMBRE": "VEN TEAM"
     },
@@ -919,7 +919,7 @@
     {
         "NUM": "VEN8",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "MIGUEL NAVARRO"
     },
@@ -975,7 +975,7 @@
     {
         "NUM": "VEN16",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "EDUARD BELLO"
     },
@@ -1003,7 +1003,7 @@
     {
         "NUM": "VEN20",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "DARWIN MACHIS"
     },
@@ -1248,7 +1248,7 @@
     {
         "NUM": "USA11",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "JOE SCALLY"
     },
@@ -1332,7 +1332,7 @@
     {
         "NUM": "URU1",
         "TIPO": "ESCUDO",
-        "CANT": 9,
+        "CANT": 8,
         "PRECIO": 2500,
         "NOMBRE": "URU ESC"
     },
@@ -1948,7 +1948,7 @@
     {
         "NUM": "COL1",
         "TIPO": "ESCUDO",
-        "CANT": 11,
+        "CANT": 10,
         "PRECIO": 2500,
         "NOMBRE": "COL ESC"
     },
@@ -2053,7 +2053,7 @@
     {
         "NUM": "COL16",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "JEFFERSON LERMA"
     },
@@ -2242,7 +2242,7 @@
     {
         "NUM": "PAR21",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "ANTONIO SANABRIA"
     },
@@ -2270,7 +2270,7 @@
     {
         "NUM": "CAN3",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "MILAN BORJAN"
     },
@@ -2389,7 +2389,7 @@
     {
         "NUM": "CAN20",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "JONATHAN DAVID"
     },
@@ -2648,7 +2648,7 @@
     {
         "NUM": "HON13",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "RIGOBERTO RIVAS"
     },
@@ -2767,7 +2767,7 @@
     {
         "NUM": "TRI8",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "NEVEAL HACKSHAW"
     },
