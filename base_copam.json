@@ -65,14 +65,14 @@
     {
         "NUM": "HCI6",
         "TIPO": "CIUDAD",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 2000,
         "NOMBRE": "EAST RUTHERFORD"
     },
     {
         "NUM": "HCI7",
         "TIPO": "CIUDAD",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 2000,
         "NOMBRE": "CHARLOTTE"
     },
@@ -408,7 +408,7 @@
     {
         "NUM": "CHI1",
         "TIPO": "ESCUDO",
-        "CANT": 10,
+        "CANT": 9,
         "PRECIO": 2500,
         "NOMBRE": "CHI ESC"
     },
@@ -926,7 +926,7 @@
     {
         "NUM": "VEN9",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "CHRISTIAN MAKOUN"
     },
@@ -1010,7 +1010,7 @@
     {
         "NUM": "VEN21",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 850,
         "NOMBRE": "JOSEF MARTINEZ"
     },
@@ -1066,7 +1066,7 @@
     {
         "NUM": "JAM7",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "ETHAN PINNOCK"
     },
@@ -1493,7 +1493,7 @@
     {
         "NUM": "PAN2",
         "TIPO": "EQUIPO",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 1200,
         "NOMBRE": "PAN TEAM"
     },
@@ -1654,7 +1654,7 @@
     {
         "NUM": "BOL3",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "CARLOS LAMPE"
     },
@@ -1808,7 +1808,7 @@
     {
         "NUM": "BRA3",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "EDERSON"
     },
@@ -1836,7 +1836,7 @@
     {
         "NUM": "BRA7",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "GABRIEL MAGALHAES"
     },
@@ -1976,7 +1976,7 @@
     {
         "NUM": "COL5",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "DEIVER MACHADO"
     },
@@ -2123,7 +2123,7 @@
     {
         "NUM": "PAR4",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "SANTIAGO ROJAS"
     },
@@ -2298,7 +2298,7 @@
     {
         "NUM": "CAN7",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "STEVEN VITORIA"
     },
@@ -2914,7 +2914,7 @@
     {
         "NUM": "LEG7",
         "TIPO": "LEYENDA",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 1500,
         "NOMBRE": "FORLAN LEFT"
     },
