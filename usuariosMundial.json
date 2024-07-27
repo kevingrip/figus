@@ -23333,6 +23333,45 @@
                 "WAL2",
                 "WAL3"
             ]
+        },
+        {
+            "usuario": "MACU_093",
+            "figusPedidas": [
+                "ARG16",
+                "AUS1",
+                "CRC6",
+                "ENG14",
+                "ENG17",
+                "FRA2",
+                "FWC19",
+                "FWC28",
+                "FWC3",
+                "GHA11",
+                "KSA3",
+                "MAR1",
+                "MAR9",
+                "NED10",
+                "POR1",
+                "SEN17",
+                "URU14",
+                "USA1"
+            ]
+        },
+        {
+            "usuario": "ROSARIOUSSHER",
+            "figusPedidas": [
+                "BRA1",
+                "CAN1",
+                "CMR1",
+                "DEN1",
+                "FWC19",
+                "FWC2",
+                "FWC27",
+                "GER1",
+                "JPN1",
+                "NED1",
+                "TUN1"
+            ]
         }
     ]
 }

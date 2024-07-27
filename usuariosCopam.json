@@ -21700,6 +21700,81 @@
                 "LEG13",
                 "URU2"
             ]
+        },
+        {
+            "usuario": "HEJO9135988",
+            "figusPedidas": [
+                "ARG16",
+                "ARG7",
+                "ARG9",
+                "BRA13",
+                "CAN3",
+                "CHI1",
+                "CHI14",
+                "COL11",
+                "COL2",
+                "HCI10",
+                "HON12",
+                "HON7",
+                "HON9",
+                "INT1",
+                "INT2",
+                "INT4",
+                "JAM1",
+                "JAM10",
+                "JAM3",
+                "LEG13",
+                "LEG14",
+                "PAN1",
+                "PAN5",
+                "PAR22",
+                "PER8",
+                "ROH1",
+                "TRI10",
+                "USA2",
+                "VEN1",
+                "VEN11",
+                "VEN16"
+            ]
+        },
+        {
+            "usuario": "NUJU6818348",
+            "figusPedidas": [
+                "ARG19",
+                "CAN20",
+                "COL22",
+                "CRC20",
+                "CRC22",
+                "CRC6",
+                "HON5",
+                "INT3",
+                "JAM9",
+                "LEG13",
+                "LEG15",
+                "LEG16",
+                "LEG6",
+                "LEG8",
+                "PAN2",
+                "PAR11",
+                "PER3",
+                "TRI14",
+                "TRI18"
+            ]
+        },
+        {
+            "usuario": "JMTIGNANELLI",
+            "figusPedidas": [
+                "CHI17",
+                "CHI19",
+                "PER11",
+                "PER13",
+                "PER15",
+                "PER5",
+                "PER7",
+                "VEN1",
+                "VEN3",
+                "VEN5"
+            ]
         }
     ]
 }
