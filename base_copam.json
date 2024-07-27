@@ -16,7 +16,7 @@
     {
         "NUM": "INT3",
         "TIPO": "INTRO",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 7500,
         "NOMBRE": "COPA"
     },
@@ -457,7 +457,7 @@
     {
         "NUM": "CHI8",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "PAULO DIAZ"
     },
@@ -989,7 +989,7 @@
     {
         "NUM": "VEN18",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "YEFERSON SOTELDO"
     },
@@ -1647,7 +1647,7 @@
     {
         "NUM": "BOL2",
         "TIPO": "EQUIPO",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 1200,
         "NOMBRE": "BOL TEAM"
     },
@@ -1801,7 +1801,7 @@
     {
         "NUM": "BRA2",
         "TIPO": "EQUIPO",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 1200,
         "NOMBRE": "BRA TEAM"
     },
@@ -1871,7 +1871,7 @@
     {
         "NUM": "BRA12",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "BRUNO GUIMARAES"
     },
@@ -2956,7 +2956,7 @@
     {
         "NUM": "LEG13",
         "TIPO": "LEYENDA",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 3500,
         "NOMBRE": "MARADONA LEFT"
     },

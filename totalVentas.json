@@ -13804,6 +13804,35 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MARIANOLIZATOVICH",
+            "Vendidas": [
+                "INT3",
+                "VEN18",
+                "BRA2",
+                "BRA12"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MARCELOMUNUTTI",
+            "Vendidas": [
+                "CHI8",
+                "BOL2",
+                "LEG13"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
