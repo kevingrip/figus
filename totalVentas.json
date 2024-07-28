@@ -13896,6 +13896,49 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NESTORAMBROGIOSRL",
+            "Vendidas": [
+                "ARG12",
+                "JAM1",
+                "JAM3",
+                "JAM6",
+                "JAM9",
+                "PAN7",
+                "PAN9",
+                "PAN17",
+                "PAR11",
+                "CAN1",
+                "CAN7",
+                "CAN8",
+                "CAN21",
+                "CRC5",
+                "HON5"
+            ],
+            "NoVendidas": [],
+            "Dia": "28/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "CARADONNAJONATAN20220411183634",
+            "Vendidas": [
+                "INT1",
+                "JAM20",
+                "USA1",
+                "BRA3"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "28/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
