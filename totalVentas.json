@@ -14013,6 +14013,28 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "5OLCITOS",
+            "Vendidas": [
+                "PER13",
+                "PER17",
+                "CHI5",
+                "MEX5",
+                "ECU7",
+                "VEN13",
+                "USA10",
+                "USA13",
+                "BOL6",
+                "BRA19",
+                "COL12"
+            ],
+            "NoVendidas": [],
+            "Dia": "29/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -23899,7 +23921,7 @@
         },
         {
             "usuario": "GASTONFABIO",
-            "Vendidas": [                
+            "Vendidas": [
                 "FWC27",
                 "AUS1",
                 "CAN15",
