@@ -44,7 +44,7 @@
     {
         "NUM": "HCI3",
         "TIPO": "CIUDAD",
-        "CANT": 11,
+        "CANT": 12,
         "PRECIO": 2000,
         "NOMBRE": "GLENDALE"
     },
@@ -2928,7 +2928,7 @@
     {
         "NUM": "LEG9",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 9,
+        "CANT": 10,
         "PRECIO": 4500,
         "NOMBRE": "RONALDINHO"
     },
@@ -2991,7 +2991,7 @@
     {
         "NUM": "LEG18",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 9,
+        "CANT": 10,
         "PRECIO": 3000,
         "NOMBRE": "ALEXIS SANCHEZ"
     },
