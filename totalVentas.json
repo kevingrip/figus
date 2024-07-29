@@ -14009,6 +14009,23 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "TOJU1877359",
+            "Vendidas": [
+                "ARG3",
+                "ARG6",
+                "ARG15",
+                "ARG21"
+            ],
+            "NoVendidas": [
+                "ARG19"
+            ],
+            "Dia": "29/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -23834,6 +23851,64 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "FLEMAXX77",
+            "Vendidas": [
+                "FWC6",
+                "FWC16",
+                "FWC17",
+                "ARG4",
+                "AUS1",
+                "AUS9",
+                "AUS12",
+                "AUS14",
+                "BEL7",
+                "BEL14",
+                "BRA1",
+                "BRA12",
+                "CMR13",
+                "CMR14",
+                "CRC1",
+                "CRO10",
+                "DEN1",
+                "DEN7",
+                "ECU8",
+                "ECU17",
+                "ENG6",
+                "ENG8",
+                "ESP1",
+                "ESP15",
+                "IRN6",
+                "JPN1",
+                "JPN5",
+                "KSA16",
+                "MEX9",
+                "MEX16",
+                "MAR13",
+                "MAR17",
+                "NED10",
+                "POL8",
+                "POR9",
+                "POR11",
+                "QAT6",
+                "QAT13",
+                "SEN1",
+                "SEN15",
+                "SRB5",
+                "SRB16",
+                "TUN1",
+                "TUN5",
+                "URU3",
+                "URU7",
+                "WAL1"
+            ],
+            "NoVendidas": [],
+            "Dia": "29/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
