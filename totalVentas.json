@@ -13818,7 +13818,7 @@
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MARCELOMUNUTTI",
@@ -13831,8 +13831,8 @@
             "Dia": "26/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "NATALIASOLEDADROTTOLI",
@@ -13864,7 +13864,7 @@
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "NUJU6818348",
@@ -13894,8 +13894,8 @@
             "Dia": "27/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "NESTORAMBROGIOSRL",
@@ -13920,8 +13920,8 @@
             "Dia": "28/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "CARADONNAJONATAN20220411183634",
@@ -13937,8 +13937,8 @@
             "Dia": "28/07/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "CARRILPABLO20221216143443",
@@ -13965,8 +13965,8 @@
             "Dia": "28/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LNMARTINEZ",
@@ -13995,20 +13995,7 @@
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
-        },
-        {
-            "usuario": "SEBA.R84",
-            "Vendidas": [
-                "BOL3",
-                "BOL21"
-            ],
-            "NoVendidas": [],
-            "Dia": "29/07/2024",
-            "Cuenta": "MATI",
-            "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "TOJU1877359",
@@ -14024,8 +14011,8 @@
             "Dia": "29/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -23907,8 +23894,8 @@
             "Dia": "29/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
