@@ -14035,6 +14035,22 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "RACKY___",
+            "Vendidas": [
+                "INT4",
+                "PAR7",
+                "CRC11",
+                "TRI1",
+                "LEG8"
+            ],
+            "NoVendidas": [],
+            "Dia": "29/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
