@@ -23469,6 +23469,71 @@
                 "QAT8",
                 "SRB13"
             ]
+        },
+        {
+            "usuario": "ADRIAN_A72",
+            "figusPedidas": [
+                "ARG1",
+                "ARG16",
+                "ARG2",
+                "ARG9",
+                "AUS10",
+                "AUS2",
+                "BEL7",
+                "BRA1",
+                "CAN6",
+                "CMR2",
+                "CRC4",
+                "CRC8",
+                "DEN1",
+                "DEN15",
+                "ECU1",
+                "ECU6",
+                "ENG1",
+                "ENG14",
+                "ESP1",
+                "ESP19",
+                "FRA16",
+                "FRA2",
+                "FWC22",
+                "FWC8",
+                "GHA1",
+                "GHA19",
+                "JPN1",
+                "JPN9",
+                "KSA10",
+                "KSA16",
+                "MAR16",
+                "MEX13",
+                "POL17",
+                "POR1",
+                "POR13",
+                "POR18",
+                "QAT10",
+                "SEN1",
+                "SEN2",
+                "SEN6",
+                "SUI15",
+                "URU1",
+                "URU6",
+                "URU9",
+                "WAL1",
+                "WAL12",
+                "WAL8"
+            ]
+        },
+        {
+            "usuario": "FAGNA10",
+            "figusPedidas": [
+                "FRA1",
+                "FWC17",
+                "FWC21",
+                "FWC26",
+                "FWC27",
+                "FWC28",
+                "FWC6",
+                "GER1"
+            ]
         }
     ]
 }
