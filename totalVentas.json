@@ -13863,7 +13863,7 @@
             "Dia": "27/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -14145,6 +14145,23 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ROMIMARA2008",
+            "Vendidas": [
+                "INT3",
+                "ARG5",
+                "MEX3",
+                "JAM19",
+                "BOL6",
+                "LEG9"
+            ],
+            "NoVendidas": [],
+            "Dia": "30/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

@@ -16,7 +16,7 @@
     {
         "NUM": "INT3",
         "TIPO": "INTRO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 7500,
         "NOMBRE": "COPA"
     },
@@ -128,7 +128,7 @@
     {
         "NUM": "ARG5",
         "TIPO": "AFA",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 2500,
         "NOMBRE": "NICOLAS OTAMENDI"
     },
@@ -576,7 +576,7 @@
     {
         "NUM": "MEX3",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "GUILLERMO OCHOA"
     },
@@ -1150,7 +1150,7 @@
     {
         "NUM": "JAM19",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "ROMARIO WILLIAMS"
     },
@@ -1675,7 +1675,7 @@
     {
         "NUM": "BOL6",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "DIEGO BEJARANO"
     },
@@ -2928,7 +2928,7 @@
     {
         "NUM": "LEG9",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 10,
+        "CANT": 9,
         "PRECIO": 4500,
         "NOMBRE": "RONALDINHO"
     },
