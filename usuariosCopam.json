@@ -22538,6 +22538,55 @@
                 "INT2",
                 "ROH2"
             ]
+        },
+        {
+            "usuario": "ELIESTER",
+            "figusPedidas": [
+                "CHI12",
+                "CHI6",
+                "MEX14",
+                "MEX15",
+                "MEX16",
+                "MEX18",
+                "MEX20",
+                "MEX7",
+                "PER11",
+                "PER14",
+                "PER16",
+                "PER17",
+                "PER18",
+                "PER6"
+            ]
+        },
+        {
+            "usuario": "MATKONIG",
+            "figusPedidas": [
+                "BRA10",
+                "BRA12",
+                "BRA16",
+                "BRA3",
+                "CRC14",
+                "CRC15",
+                "CRC19",
+                "ECU19",
+                "MEX17",
+                "PAN22",
+                "PER8"
+            ]
+        },
+        {
+            "usuario": "RUTHBAJDACZ",
+            "figusPedidas": [
+                "ECU2"
+            ]
+        },
+        {
+            "usuario": "SEBASTIANJURGELAITIS",
+            "figusPedidas": [
+                "BRA22",
+                "LEG6",
+                "ROH1"
+            ]
         }
     ]
 }
