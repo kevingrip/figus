@@ -14063,8 +14063,8 @@
             "Dia": "30/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ARIROMERO2010",
@@ -14079,6 +14079,52 @@
             "NoVendidas": [],
             "Dia": "30/07/2024",
             "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ARIELXXXBARRIO",
+            "Vendidas": [
+                "HCI10",
+                "ARG17",
+                "ARG21",
+                "PER11",
+                "CHI9",
+                "MEX10",
+                "ECU1",
+                "ECU12",
+                "VEN6",
+                "VEN16",
+                "JAM3",
+                "JAM12",
+                "JAM14",
+                "URU1",
+                "PAN1",
+                "PAN3",
+                "PAN13",
+                "BOL3",
+                "BRA1",
+                "BRA11",
+                "BRA14",
+                "BRA16",
+                "COL7",
+                "PAR19",
+                "CAN9",
+                "CAN15",
+                "CRC4",
+                "CRC6",
+                "CRC9",
+                "CRC10",
+                "CRC18",
+                "HON5",
+                "HON9",
+                "HON16",
+                "HON18"
+            ],
+            "NoVendidas": [],
+            "Dia": "30/07/2024",
+            "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
@@ -24045,8 +24091,8 @@
             "Dia": "30/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
