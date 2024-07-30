@@ -13817,7 +13817,7 @@
             "Dia": "26/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -14080,8 +14080,8 @@
             "Dia": "30/07/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ARIELXXXBARRIO",
@@ -14126,8 +14126,25 @@
             "Dia": "30/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ALEJANDRODANIELUNZAGAMOYANO",
+            "Vendidas": [
+                "INT4",
+                "HCI6",
+                "LEG12"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "ROH2"
+            ],
+            "Dia": "30/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
