@@ -14051,6 +14051,37 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "FACENDINIEUGENIA20221011090643",
+            "Vendidas": [
+                "ARG1",
+                "BRA8",
+                "LEG14"
+            ],
+            "NoVendidas": [],
+            "Dia": "30/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ARIROMERO2010",
+            "Vendidas": [
+                "COL21",
+                "TRI12",
+                "TRI16",
+                "TRI17",
+                "TRI18",
+                "TRI22"
+            ],
+            "NoVendidas": [],
+            "Dia": "30/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -23952,6 +23983,70 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "DOFANIDOFANI20230518144956",
+            "Vendidas": [
+                "FWC6",
+                "FWC23",
+                "ARG6",
+                "ARG14",
+                "AUS16",
+                "BEL1",
+                "BEL5",
+                "BEL13",
+                "BEL15",
+                "BEL16",
+                "BRA7",
+                "CAN1",
+                "CAN6",
+                "CRC15",
+                "DEN12",
+                "ECU1",
+                "FRA12",
+                "GER8",
+                "GER11",
+                "GHA4",
+                "GHA19",
+                "KOR4",
+                "KOR13",
+                "KSA2",
+                "KSA12",
+                "MEX7",
+                "MAR2",
+                "MAR10",
+                "MAR13",
+                "MAR18",
+                "MAR19",
+                "POL10",
+                "POL15",
+                "POR8",
+                "POR16",
+                "QAT13",
+                "SEN1",
+                "SEN4",
+                "SUI8",
+                "SUI16",
+                "TUN8",
+                "TUN14",
+                "URU15",
+                "URU18",
+                "USA9",
+                "WAL14",
+                "WAL17",
+                "C6",
+                "C7"
+            ],
+            "NoVendidas": [
+                "FWC2",
+                "FWC20",
+                "BRA1"
+            ],
+            "Dia": "30/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
