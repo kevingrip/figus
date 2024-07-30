@@ -12,3 +12,4 @@ def contarBase(base):
         print(cant)
 
 
+contarBase("base_copam.json")
