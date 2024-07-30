@@ -14221,6 +14221,24 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "VIAG4096574",
+            "Vendidas": [
+                "INT4",
+                "ARG1",
+                "ARG2",
+                "ARG3"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "ARG19"
+            ],
+            "Dia": "30/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
