@@ -14254,6 +14254,55 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "PELA4857021",
+            "Vendidas": [
+                "JAM2",
+                "JAM3",
+                "JAM7",
+                "JAM16",
+                "JAM21",
+                "BOL3",
+                "BRA6",
+                "BRA7",
+                "BRA19",
+                "BRA21",
+                "HON10",
+                "HON12",
+                "HON20",
+                "HON22"
+            ],
+            "NoVendidas": [],
+            "Dia": "31/07/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NICO_SARAGUSTI",
+            "Vendidas": [
+                "PER1",
+                "CHI1",
+                "CHI21",
+                "ECU13",
+                "ECU16",
+                "VEN10",
+                "USA8",
+                "USA15",
+                "BOL2",
+                "BOL10",
+                "COL3",
+                "TRI7",
+                "LEG17"
+            ],
+            "NoVendidas": [],
+            "Dia": "31/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

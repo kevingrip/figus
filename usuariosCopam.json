@@ -22724,6 +22724,43 @@
             "figusPedidas": [
                 "INT4"
             ]
+        },
+        {
+            "usuario": "PELA4857021",
+            "figusPedidas": [
+                "BOL3",
+                "BRA19",
+                "BRA21",
+                "BRA6",
+                "BRA7",
+                "HON10",
+                "HON12",
+                "HON20",
+                "HON22",
+                "JAM16",
+                "JAM2",
+                "JAM21",
+                "JAM3",
+                "JAM7"
+            ]
+        },
+        {
+            "usuario": "NICO_SARAGUSTI",
+            "figusPedidas": [
+                "BOL10",
+                "BOL2",
+                "CHI1",
+                "CHI21",
+                "COL3",
+                "ECU13",
+                "ECU16",
+                "LEG17",
+                "PER1",
+                "TRI7",
+                "USA15",
+                "USA8",
+                "VEN10"
+            ]
         }
     ]
 }
