@@ -22699,6 +22699,31 @@
                 "CHI2",
                 "ROH2"
             ]
+        },
+        {
+            "usuario": "NELSAUCEDO",
+            "figusPedidas": [
+                "INT1",
+                "INT2",
+                "INT4",
+                "LEG16",
+                "LEG6",
+                "MEX1"
+            ]
+        },
+        {
+            "usuario": "CLAMUSCHIETTI",
+            "figusPedidas": [
+                "INT3",
+                "INT4",
+                "ROH1"
+            ]
+        },
+        {
+            "usuario": "LAURBARC",
+            "figusPedidas": [
+                "INT4"
+            ]
         }
     ]
 }
