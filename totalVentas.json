@@ -14382,6 +14382,56 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "EMILIANOVITALE",
+            "Vendidas": [
+                "ARG2",
+                "ARG4",
+                "ARG6",
+                "MEX1",
+                "VEN8",
+                "USA18",
+                "PAN16",
+                "BRA1",
+                "BRA7",
+                "BRA14",
+                "TRI12",
+                "LEG3",
+                "LEG6",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "31/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "CHR_PERGOLINI",
+            "Vendidas": [
+                "ECU10",
+                "ECU11",
+                "BOL10",
+                "BOL18",
+                "COL10",
+                "PAR11",
+                "CAN6",
+                "CAN8",
+                "CRC18",
+                "TRI5",
+                "TRI14",
+                "LEG6"
+            ],
+            "NoVendidas": [
+                "INT2"
+            ],
+            "Dia": "31/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
