@@ -14468,8 +14468,8 @@
             "Dia": "01/08/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "TINI",
@@ -14480,8 +14480,8 @@
             "Dia": "01/08/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DOLORESZ2012",
@@ -14497,6 +14497,52 @@
             "Dia": "01/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "LUCIANAANTONIETTI",
+            "Vendidas": [
+                "LEG8"
+            ],
+            "NoVendidas": [],
+            "Dia": "01/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MARACELIABURGHIANI",
+            "Vendidas": [
+                "BRA13",
+                "LEG6",
+                "LEG9",
+                "LEG10"
+            ],
+            "NoVendidas": [],
+            "Dia": "01/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "JULICATTA",
+            "Vendidas": [
+                "INT3",
+                "HCI2",
+                "ARG15",
+                "PER12",
+                "PAN1",
+                "BOL15",
+                "TRI17",
+                "LEG5"
+            ],
+            "NoVendidas": [],
+            "Dia": "01/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
@@ -24510,6 +24556,18 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "JORGEE ZARATEE",
+            "Vendidas": [
+                "CMR6"
+            ],
+            "NoVendidas": [],
+            "Dia": "01/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
