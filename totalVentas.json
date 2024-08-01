@@ -13994,7 +13994,7 @@
             "Dia": "28/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -14314,7 +14314,7 @@
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "TALISAAMENDOLARA",
@@ -14355,8 +14355,8 @@
             "Dia": "31/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "CAMILEMARCHANDCAMILEMARCHAND",
@@ -14380,8 +14380,8 @@
             "Dia": "31/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "EMILIANOVITALE",
@@ -14405,8 +14405,8 @@
             "Dia": "31/07/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "CHR_PERGOLINI",
@@ -14428,6 +14428,73 @@
                 "INT2"
             ],
             "Dia": "31/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "RECOFSKYMARCOS",
+            "Vendidas": [
+                "MEX4",
+                "JAM4",
+                "JAM6",
+                "JAM10",
+                "JAM22",
+                "BOL8",
+                "COL22",
+                "CRC6",
+                "CRC8"
+            ],
+            "NoVendidas": [],
+            "Dia": "01/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CORINAANDREAGOMEZ",
+            "Vendidas": [
+                "ARG3",
+                "ARG6",
+                "ARG17",
+                "ARG20",
+                "ARG21",
+                "ECU1",
+                "CRC1"
+            ],
+            "NoVendidas": [],
+            "Dia": "01/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "TINI",
+            "Vendidas": [
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "01/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "DOLORESZ2012",
+            "Vendidas": [
+                "INT4",
+                "ARG6",
+                "ARG13",
+                "JAM5",
+                "URU2",
+                "COL17"
+            ],
+            "NoVendidas": [],
+            "Dia": "01/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "ARMADO": "NO",
