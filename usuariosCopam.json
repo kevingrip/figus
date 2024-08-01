@@ -23044,6 +23044,76 @@
                 "USA14",
                 "USA15"
             ]
+        },
+        {
+            "usuario": "TODO_EN_SECO",
+            "figusPedidas": [
+                "CHI11",
+                "CHI12",
+                "CHI16",
+                "CHI7",
+                "CHI9",
+                "PER11",
+                "PER13",
+                "PER15",
+                "PER17",
+                "PER19",
+                "PER3"
+            ]
+        },
+        {
+            "usuario": "CHR_PERGOLINI",
+            "figusPedidas": [
+                "BOL10",
+                "BOL18",
+                "CAN6",
+                "CAN8",
+                "COL10",
+                "CRC18",
+                "ECU10",
+                "ECU11",
+                "INT2",
+                "LEG6",
+                "PAR11",
+                "TRI14",
+                "TRI5"
+            ]
+        },
+        {
+            "usuario": "RODRIGUEZFLORENCIAALEJANDRA",
+            "figusPedidas": [
+                "ARG1",
+                "ARG18",
+                "COL6",
+                "CRC1",
+                "LEG18",
+                "LEG3"
+            ]
+        },
+        {
+            "usuario": "BIKOSS",
+            "figusPedidas": [
+                "ARG2",
+                "BOL1",
+                "CHI8",
+                "CRC11",
+                "ECU4",
+                "ECU8",
+                "HCI10",
+                "HON1",
+                "HON3",
+                "LEG2",
+                "MEX20",
+                "PAN9",
+                "PAR1",
+                "PAR21"
+            ]
+        },
+        {
+            "usuario": "ALDANAJUDITGIROTTI",
+            "figusPedidas": [
+                "INT1"
+            ]
         }
     ]
 }
