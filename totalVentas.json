@@ -14303,6 +14303,85 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "FOBARRIO",
+            "Vendidas": [
+                "BRA5"
+            ],
+            "NoVendidas": [],
+            "Dia": "31/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "TALISAAMENDOLARA",
+            "Vendidas": [
+                "ARG12",
+                "PER13",
+                "CHI10",
+                "CHI14",
+                "MEX15",
+                "ECU7",
+                "ECU9",
+                "PAN6",
+                "BOL1",
+                "BOL16",
+                "BOL18",
+                "BRA3",
+                "COL7",
+                "COL8",
+                "COL10",
+                "LEG9",
+                "LEG14"
+            ],
+            "NoVendidas": [],
+            "Dia": "31/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MALELUTO",
+            "Vendidas": [
+                "ARG14",
+                "PAN22",
+                "TRI8"
+            ],
+            "NoVendidas": [],
+            "Dia": "31/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "CAMILEMARCHANDCAMILEMARCHAND",
+            "Vendidas": [
+                "HCI5",
+                "HCI9",
+                "MEX2",
+                "ECU17",
+                "VEN11",
+                "BOL1",
+                "BOL8",
+                "BRA9",
+                "COL22",
+                "PAR10",
+                "CRC16",
+                "CRC18",
+                "HON12",
+                "LEG9"
+            ],
+            "NoVendidas": [],
+            "Dia": "31/07/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
