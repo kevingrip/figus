@@ -14545,6 +14545,46 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MARE6",
+            "Vendidas": [
+                "CHI7",
+                "CHI13",
+                "MEX8",
+                "MEX12",
+                "MEX19",
+                "VEN1",
+                "VEN11",
+                "VEN12",
+                "JAM19",
+                "USA8",
+                "USA11",
+                "USA17",
+                "PAN3",
+                "PAN16",
+                "BOL17",
+                "PAR15",
+                "PAR17",
+                "CAN7",
+                "CAN21",
+                "CRC9",
+                "HON9",
+                "HON13",
+                "TRI7",
+                "TRI13",
+                "TRI15",
+                "LEG3"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "ARG19"
+            ],
+            "Dia": "01/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

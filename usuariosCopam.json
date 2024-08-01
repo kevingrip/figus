@@ -23237,6 +23237,75 @@
             "figusPedidas": [
                 "CMR6"
             ]
+        },
+        {
+            "usuario": "MARTINMARTINEZ 85",
+            "figusPedidas": [
+                "BOL9",
+                "BRA8",
+                "ECU1",
+                "ECU12",
+                "ECU18",
+                "HCI9",
+                "HON16",
+                "HON21",
+                "INT2",
+                "INT3",
+                "LEG12",
+                "MEX16",
+                "TRI5",
+                "VEN13",
+                "VEN14",
+                "VEN5"
+            ]
+        },
+        {
+            "usuario": "MARE6",
+            "figusPedidas": [
+                "ARG19",
+                "BOL17",
+                "CAN21",
+                "CAN7",
+                "CHI13",
+                "CHI7",
+                "CRC9",
+                "HON13",
+                "HON9",
+                "INT2",
+                "JAM19",
+                "LEG3",
+                "MEX12",
+                "MEX19",
+                "MEX8",
+                "PAN16",
+                "PAN3",
+                "PAR15",
+                "PAR17",
+                "TRI13",
+                "TRI15",
+                "TRI7",
+                "USA11",
+                "USA17",
+                "USA8",
+                "VEN1",
+                "VEN11",
+                "VEN12"
+            ]
+        },
+        {
+            "usuario": "MARIELAAREVALOS",
+            "figusPedidas": [
+                "ARG1",
+                "ARG22",
+                "ECU19",
+                "HCI6",
+                "HCI9",
+                "INT1",
+                "INT2",
+                "INT3",
+                "INT4",
+                "PER2"
+            ]
         }
     ]
 }
