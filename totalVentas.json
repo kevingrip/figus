@@ -14793,7 +14793,7 @@
             "PREARMADO": "NO"
         },
         {
-            "usuario": "PILI_EDA_89\n                \"ARG11\",\n                \"ARG17\",\n                \"ARG19\"",
+            "usuario": "PILI_EDA_89",
             "Vendidas": [
                 "ARG1",
                 "ARG11",
@@ -14803,6 +14803,66 @@
             "NoVendidas": [],
             "Dia": "02/08/2024",
             "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "TODO_EN_SECO",
+            "Vendidas": [
+                "PER3",
+                "PER11",
+                "PER13",
+                "PER15",
+                "PER17",
+                "PER19",
+                "CHI7",
+                "CHI9",
+                "CHI11",
+                "CHI12",
+                "CHI16"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ZOCCALIFEDERICO",
+            "Vendidas": [
+                "HCI1",
+                "HCI4",
+                "ARG6",
+                "CHI22",
+                "MEX15",
+                "JAM19",
+                "PAN10",
+                "PAN21",
+                "BOL12",
+                "BOL15",
+                "BOL17",
+                "BRA17",
+                "COL5",
+                "COL8",
+                "COL11",
+                "CAN11",
+                "CRC4",
+                "CRC19",
+                "HON1",
+                "HON3",
+                "HON4",
+                "HON13",
+                "HON17",
+                "TRI17",
+                "LEG15"
+            ],
+            "NoVendidas": [
+                "INT2"
+            ],
+            "Dia": "02/08/2024",
+            "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
