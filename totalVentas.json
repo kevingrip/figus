@@ -14600,6 +14600,46 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ROMIFERM2008",
+            "Vendidas": [
+                "ARG8",
+                "ARG21",
+                "VEN16",
+                "VEN20",
+                "USA16",
+                "COL1",
+                "CAN15",
+                "CRC8",
+                "LEG6",
+                "LEG12"
+            ],
+            "NoVendidas": [],
+            "Dia": "01/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "TRJO9738725",
+            "Vendidas": [
+                "INT1",
+                "HCI9",
+                "CHI5",
+                "CHI21",
+                "MEX3",
+                "CAN16"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "01/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
