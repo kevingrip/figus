@@ -12,4 +12,4 @@ def contarBase(base):
         print(cant)
 
 
-contarBase("baseMundial.json")
+contarBase("base_copam.json")
