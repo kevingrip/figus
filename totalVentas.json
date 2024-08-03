@@ -14866,6 +14866,55 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "DCALFA",
+            "Vendidas": [
+                "CHI8",
+                "CAN15",
+                "TRI7",
+                "TRI8",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "L.S2012",
+            "Vendidas": [
+                "HCI5",
+                "HCI10",
+                "ARG16",
+                "ECU1",
+                "VEN9",
+                "VEN15",
+                "JAM10",
+                "USA8",
+                "USA21",
+                "URU1",
+                "PAN1",
+                "PAN14",
+                "PAN22",
+                "COL19",
+                "CRC15",
+                "CRC22",
+                "HON15",
+                "HON20",
+                "LEG12",
+                "LEG18"
+            ],
+            "NoVendidas": [
+                "INT1"
+            ],
+            "Dia": "03/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -24889,6 +24938,67 @@
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ANABELENCAMINITO",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "BEEL7860665",
+            "Vendidas": [
+                "FWC3",
+                "FWC19",
+                "FWC21",
+                "FWC22",
+                "FWC26",
+                "BRA6",
+                "BRA9",
+                "CMR2",
+                "CMR16",
+                "CRO18",
+                "DEN13",
+                "DEN16",
+                "ENG6",
+                "FRA7",
+                "FRA8",
+                "GER1",
+                "GER10",
+                "GHA14",
+                "IRN5",
+                "IRN14",
+                "JPN14",
+                "KSA13",
+                "MAR4",
+                "MAR16",
+                "NED6",
+                "POL1",
+                "QAT18",
+                "SEN1",
+                "SEN15",
+                "SRB8",
+                "URU6",
+                "URU14",
+                "WAL8"
+            ],
+            "NoVendidas": [
+                "FWC2",
+                "FWC20",
+                "FWC23",
+                "CRC1"
+            ],
+            "Dia": "03/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
