@@ -24346,6 +24346,52 @@
                 "MEX6",
                 "VEN12"
             ]
+        },
+        {
+            "usuario": "INMA20240114180054",
+            "figusPedidas": [
+                "COL12",
+                "COL5",
+                "HCI8",
+                "LEG18",
+                "LEG2",
+                "LEG9",
+                "VEN20"
+            ]
+        },
+        {
+            "usuario": "SELSOLUCIANO",
+            "figusPedidas": [
+                "BRA14",
+                "CRC19",
+                "CRC2",
+                "HCI8",
+                "HON17",
+                "HON8",
+                "INT3",
+                "LEG4",
+                "PAR2",
+                "PER10",
+                "TRI17",
+                "USA14",
+                "VEN17",
+                "VEN18",
+                "VEN19"
+            ]
+        },
+        {
+            "usuario": "MAGA_FAJARDO",
+            "figusPedidas": [
+                "INT1"
+            ]
+        },
+        {
+            "usuario": "ANTONKIDSOFICIAL",
+            "figusPedidas": [
+                "INT1",
+                "INT3",
+                "INT4"
+            ]
         }
     ]
 }

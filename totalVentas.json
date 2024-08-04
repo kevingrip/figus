@@ -14915,6 +14915,51 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "INMA20240114180054",
+            "Vendidas": [
+                "HCI8",
+                "VEN20",
+                "COL5",
+                "COL12",
+                "LEG2",
+                "LEG9",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "04/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "SELSOLUCIANO",
+            "Vendidas": [
+                "HCI8",
+                "PER10",
+                "VEN17",
+                "VEN18",
+                "VEN19",
+                "USA14",
+                "BRA14",
+                "PAR2",
+                "CRC2",
+                "CRC19",
+                "HON8",
+                "HON17",
+                "TRI17",
+                "LEG4"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "04/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -24938,18 +24983,6 @@
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "SI",
             "PREARMADO": "SI"
-        },
-        {
-            "usuario": "ANABELENCAMINITO",
-            "Vendidas": [
-                "ARG19"
-            ],
-            "NoVendidas": [],
-            "Dia": "02/08/2024",
-            "Cuenta": "KEVIN",
-            "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
         },
         {
             "usuario": "BEEL7860665",
