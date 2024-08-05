@@ -24392,6 +24392,128 @@
                 "INT3",
                 "INT4"
             ]
+        },
+        {
+            "usuario": "PED_IAN",
+            "figusPedidas": [
+                "BOL13"
+            ]
+        },
+        {
+            "usuario": "CASABONNEVALERIA",
+            "figusPedidas": [
+                "CAN2",
+                "COL10",
+                "COL20",
+                "COL9",
+                "ECU16",
+                "ECU2",
+                "HCI2",
+                "HCI4",
+                "LEG11",
+                "LEG13",
+                "LEG15",
+                "LEG9",
+                "PAN17",
+                "USA17"
+            ]
+        },
+        {
+            "usuario": "PED_IAN",
+            "figusPedidas": [
+                "BOL3",
+                "TRI7"
+            ]
+        },
+        {
+            "usuario": "SEB_GOLAN",
+            "figusPedidas": [
+                "CHI8",
+                "HON18",
+                "PAR4",
+                "PER9",
+                "ROH1",
+                "VEN22"
+            ]
+        },
+        {
+            "usuario": "LUMA2862279",
+            "figusPedidas": [
+                "BRA18",
+                "ECU6",
+                "MEX6",
+                "MEX8",
+                "PAR14",
+                "PAR16",
+                "PAR18",
+                "PER2",
+                "PER4",
+                "TRI16",
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "GUILLERMOLEGLISE",
+            "figusPedidas": [
+                "ARG10",
+                "ARG11",
+                "ARG13",
+                "ARG15",
+                "ARG17",
+                "ARG19",
+                "ARG7",
+                "BOL15",
+                "BOL17",
+                "BOL19",
+                "BOL21",
+                "BOL5",
+                "BRA19",
+                "BRA3",
+                "BRA5",
+                "BRA7",
+                "CAN1",
+                "CAN11",
+                "CAN13",
+                "CAN17",
+                "CAN6",
+                "CAN7",
+                "CAN9",
+                "CHI15",
+                "CHI19",
+                "CHI21",
+                "CHI7",
+                "COL11",
+                "COL13",
+                "COL7",
+                "CRC10",
+                "CRC3",
+                "CRC5",
+                "CRC7",
+                "ECU9",
+                "HCI5",
+                "HON3",
+                "JAM3",
+                "LEG1",
+                "LEG2",
+                "LEG4",
+                "LEG8",
+                "MEX2",
+                "MEX22",
+                "PER1",
+                "PER3",
+                "TRI1",
+                "TRI3",
+                "TRI7",
+                "TRI9",
+                "USA13",
+                "USA18",
+                "USA19",
+                "USA2",
+                "VEN11",
+                "VEN13",
+                "VEN15",
+                "VEN21"
+            ]
         }
     ]
 }
