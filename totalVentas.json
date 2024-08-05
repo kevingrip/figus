@@ -14789,8 +14789,8 @@
             "Dia": "02/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "PILI_EDA_89",
@@ -14804,8 +14804,8 @@
             "Dia": "02/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "TODO_EN_SECO",
@@ -14826,8 +14826,8 @@
             "Dia": "02/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ZOCCALIFEDERICO",
@@ -14864,8 +14864,8 @@
             "Dia": "02/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DCALFA",
@@ -14880,8 +14880,8 @@
             "Dia": "03/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "L.S2012",
@@ -14914,7 +14914,7 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "INMA20240114180054",
@@ -14931,8 +14931,8 @@
             "Dia": "04/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "SELSOLUCIANO",
@@ -14958,8 +14958,8 @@
             "Dia": "04/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "SEB_GOLAN",
@@ -14975,8 +14975,8 @@
             "Dia": "05/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "VEMA1215081",
@@ -15040,8 +15040,8 @@
             "Dia": "05/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LUMA2862279",
@@ -15062,6 +15062,76 @@
             "Dia": "05/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "NOELIA1235",
+            "Vendidas": [
+                "ARG17",
+                "CHI13",
+                "JAM16",
+                "BOL11",
+                "BRA3",
+                "LEG7",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "05/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NICOLASYBOCA",
+            "Vendidas": [
+                "PER6",
+                "USA15",
+                "USA17",
+                "URU2",
+                "PAN15",
+                "PAN18",
+                "PAN20",
+                "BOL7",
+                "BOL22",
+                "BRA7",
+                "BRA9",
+                "BRA10",
+                "BRA13",
+                "BRA15",
+                "BRA17",
+                "BRA22",
+                "COL6",
+                "COL14",
+                "COL22",
+                "CRC21"
+            ],
+            "NoVendidas": [
+                "INT2"
+            ],
+            "Dia": "05/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NICOLAS_AGOPIAN",
+            "Vendidas": [
+                "CHI4",
+                "CHI12",
+                "CHI19",
+                "MEX8",
+                "CAN14"
+            ],
+            "NoVendidas": [
+                "ROH1",
+                "ROH2"
+            ],
+            "Dia": "05/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
@@ -25134,8 +25204,8 @@
             "Dia": "03/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
