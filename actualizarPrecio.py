@@ -5,8 +5,8 @@ from bases import*
 base = baseCopamerica()
 
 for linea in base:
-    if linea["TIPO"]=='ESCUDO' and linea["PRECIO"]==2000:
-        linea["PRECIO"]=2500
+    if linea["TIPO"]=='EQUIPO':
+        linea["PRECIO"]=2000
         print(linea)
 
     

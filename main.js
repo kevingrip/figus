@@ -225,6 +225,10 @@ const totalVentas = () =>{
                     if (objeto["usuario"].includes('BOSCAROLNOELIA')||objeto["usuario"].includes('DANILOJAVIERBROGLIA')||objeto["usuario"].includes('ADELA')){
                         objetoDiv.style.backgroundColor='skyblue'
                     }
+
+                    if (objeto["PREARMADO"]==="SI"){
+                        objetoDiv.style.backgroundColor='#58d68d'
+                    }
                     
                     if (objeto["Envio"]==='FLEX'){
                         tipoEnvio.textContent = `ENVIOS FLEX`

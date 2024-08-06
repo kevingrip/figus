@@ -3,28 +3,28 @@
         "NUM": "INT1",
         "TIPO": "INTRO",
         "CANT": 4,
-        "PRECIO": 7500,
+        "PRECIO": 8000,
         "NOMBRE": "INTRODUCCION"
     },
     {
         "NUM": "INT2",
         "TIPO": "INTRO",
         "CANT": 1,
-        "PRECIO": 7500,
+        "PRECIO": 8000,
         "NOMBRE": "MASCOTA"
     },
     {
         "NUM": "INT3",
         "TIPO": "INTRO",
         "CANT": 0,
-        "PRECIO": 7500,
+        "PRECIO": 8000,
         "NOMBRE": "COPA"
     },
     {
         "NUM": "INT4",
         "TIPO": "INTRO",
         "CANT": 0,
-        "PRECIO": 7500,
+        "PRECIO": 8000,
         "NOMBRE": "PELOTA"
     },
     {
@@ -101,7 +101,7 @@
         "NUM": "ARG1",
         "TIPO": "ESCUDO",
         "CANT": 7,
-        "PRECIO": 7500,
+        "PRECIO": 3000,
         "NOMBRE": "ARG ESC"
     },
     {
@@ -255,7 +255,7 @@
         "NUM": "PER1",
         "TIPO": "ESCUDO",
         "CANT": 6,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "PER ESC"
     },
     {
@@ -409,14 +409,14 @@
         "NUM": "CHI1",
         "TIPO": "ESCUDO",
         "CANT": 10,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "CHI ESC"
     },
     {
         "NUM": "CHI2",
         "TIPO": "EQUIPO",
         "CANT": 9,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "CHI TEAM"
     },
     {
@@ -563,14 +563,14 @@
         "NUM": "MEX1",
         "TIPO": "ESCUDO",
         "CANT": 6,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "MEX ESC"
     },
     {
         "NUM": "MEX2",
         "TIPO": "EQUIPO",
         "CANT": 6,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "MEX TEAM"
     },
     {
@@ -717,14 +717,14 @@
         "NUM": "ECU1",
         "TIPO": "ESCUDO",
         "CANT": 5,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "ECU ESC"
     },
     {
         "NUM": "ECU2",
         "TIPO": "EQUIPO",
         "CANT": 9,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "ECU TEAM"
     },
     {
@@ -871,14 +871,14 @@
         "NUM": "VEN1",
         "TIPO": "ESCUDO",
         "CANT": 4,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "VEN ESC"
     },
     {
         "NUM": "VEN2",
         "TIPO": "EQUIPO",
         "CANT": 5,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "VEN TEAM"
     },
     {
@@ -1025,14 +1025,14 @@
         "NUM": "JAM1",
         "TIPO": "ESCUDO",
         "CANT": 6,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "JAM ESC"
     },
     {
         "NUM": "JAM2",
         "TIPO": "EQUIPO",
         "CANT": 8,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "JAM TEAM"
     },
     {
@@ -1179,14 +1179,14 @@
         "NUM": "USA1",
         "TIPO": "ESCUDO",
         "CANT": 8,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "USA ESC"
     },
     {
         "NUM": "USA2",
         "TIPO": "EQUIPO",
         "CANT": 5,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "USA TEAM"
     },
     {
@@ -1333,7 +1333,7 @@
         "NUM": "URU1",
         "TIPO": "ESCUDO",
         "CANT": 7,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "URU ESC"
     },
     {
@@ -1487,14 +1487,14 @@
         "NUM": "PAN1",
         "TIPO": "ESCUDO",
         "CANT": 8,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "PAN ESC"
     },
     {
         "NUM": "PAN2",
         "TIPO": "EQUIPO",
         "CANT": 5,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "PAN TEAM"
     },
     {
@@ -1641,14 +1641,14 @@
         "NUM": "BOL1",
         "TIPO": "ESCUDO",
         "CANT": 8,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "BOL ESC"
     },
     {
         "NUM": "BOL2",
         "TIPO": "EQUIPO",
         "CANT": 5,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "BOL TEAM"
     },
     {
@@ -1795,14 +1795,14 @@
         "NUM": "BRA1",
         "TIPO": "ESCUDO",
         "CANT": 4,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "BRA ESC"
     },
     {
         "NUM": "BRA2",
         "TIPO": "EQUIPO",
         "CANT": 9,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "BRA TEAM"
     },
     {
@@ -1949,14 +1949,14 @@
         "NUM": "COL1",
         "TIPO": "ESCUDO",
         "CANT": 11,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "COL ESC"
     },
     {
         "NUM": "COL2",
         "TIPO": "EQUIPO",
         "CANT": 6,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "COL TEAM"
     },
     {
@@ -2103,14 +2103,14 @@
         "NUM": "PAR1",
         "TIPO": "ESCUDO",
         "CANT": 8,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "PAR ESC"
     },
     {
         "NUM": "PAR2",
         "TIPO": "EQUIPO",
         "CANT": 7,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "PAR TEAM"
     },
     {
@@ -2257,14 +2257,14 @@
         "NUM": "CAN1",
         "TIPO": "ESCUDO",
         "CANT": 7,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "CAN ESC"
     },
     {
         "NUM": "CAN2",
         "TIPO": "EQUIPO",
         "CANT": 8,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "CAN TEAM"
     },
     {
@@ -2411,14 +2411,14 @@
         "NUM": "CRC1",
         "TIPO": "ESCUDO",
         "CANT": 6,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "CRC ESC"
     },
     {
         "NUM": "CRC2",
         "TIPO": "EQUIPO",
         "CANT": 3,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "CRC TEAM"
     },
     {
@@ -2565,14 +2565,14 @@
         "NUM": "HON1",
         "TIPO": "ESCUDO",
         "CANT": 6,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "HON ESC"
     },
     {
         "NUM": "HON2",
         "TIPO": "EQUIPO",
         "CANT": 9,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "HON TEAM"
     },
     {
@@ -2719,14 +2719,14 @@
         "NUM": "TRI1",
         "TIPO": "ESCUDO",
         "CANT": 8,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "TRI ESC"
     },
     {
         "NUM": "TRI2",
         "TIPO": "EQUIPO",
         "CANT": 7,
-        "PRECIO": 1200,
+        "PRECIO": 2000,
         "NOMBRE": "TRI TEAM"
     },
     {
@@ -2873,14 +2873,14 @@
         "NUM": "LEG1",
         "TIPO": "LEYENDA",
         "CANT": 7,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "BATISTUTA LEFT"
     },
     {
         "NUM": "LEG2",
         "TIPO": "LEYENDA",
         "CANT": 5,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "BATISTUTA RIGHT"
     },
     {
@@ -2894,14 +2894,14 @@
         "NUM": "LEG4",
         "TIPO": "LEYENDA",
         "CANT": 5,
-        "PRECIO": 1500,
+        "PRECIO": 3000,
         "NOMBRE": "FRANCESCOLI LEFT"
     },
     {
         "NUM": "LEG5",
         "TIPO": "LEYENDA",
         "CANT": 6,
-        "PRECIO": 1500,
+        "PRECIO": 3000,
         "NOMBRE": "FRANCESCOLI RIGHT"
     },
     {
@@ -2915,14 +2915,14 @@
         "NUM": "LEG7",
         "TIPO": "LEYENDA",
         "CANT": 3,
-        "PRECIO": 1500,
+        "PRECIO": 3000,
         "NOMBRE": "FORLAN LEFT"
     },
     {
         "NUM": "LEG8",
         "TIPO": "LEYENDA",
         "CANT": 5,
-        "PRECIO": 1500,
+        "PRECIO": 3000,
         "NOMBRE": "FORLAN RIGHT"
     },
     {
@@ -2936,77 +2936,77 @@
         "NUM": "LEG10",
         "TIPO": "LEYENDA",
         "CANT": 6,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "RONALDO LEFT"
     },
     {
         "NUM": "LEG11",
         "TIPO": "LEYENDA",
         "CANT": 4,
-        "PRECIO": 2500,
+        "PRECIO": 3000,
         "NOMBRE": "RONALDO RIGHT"
     },
     {
         "NUM": "LEG12",
         "TIPO": "LEYENDA DORADA",
         "CANT": 8,
-        "PRECIO": 3000,
+        "PRECIO": 3500,
         "NOMBRE": "MORENO MARTINS"
     },
     {
         "NUM": "LEG13",
         "TIPO": "LEYENDA",
         "CANT": 6,
-        "PRECIO": 3500,
+        "PRECIO": 3000,
         "NOMBRE": "MARADONA LEFT"
     },
     {
         "NUM": "LEG14",
         "TIPO": "LEYENDA",
         "CANT": 3,
-        "PRECIO": 3500,
+        "PRECIO": 3000,
         "NOMBRE": "MARADONA RIGHT"
     },
     {
         "NUM": "LEG15",
         "TIPO": "LEYENDA DORADA",
         "CANT": 7,
-        "PRECIO": 3000,
+        "PRECIO": 3500,
         "NOMBRE": "PAOLO GUERRERO"
     },
     {
         "NUM": "LEG16",
         "TIPO": "LEYENDA",
         "CANT": 9,
-        "PRECIO": 2000,
+        "PRECIO": 3000,
         "NOMBRE": "CAFU UP"
     },
     {
         "NUM": "LEG17",
         "TIPO": "LEYENDA",
         "CANT": 8,
-        "PRECIO": 2000,
+        "PRECIO": 3000,
         "NOMBRE": "CAFU DOWN"
     },
     {
         "NUM": "LEG18",
         "TIPO": "LEYENDA DORADA",
         "CANT": 7,
-        "PRECIO": 3000,
+        "PRECIO": 3500,
         "NOMBRE": "ALEXIS SANCHEZ"
     },
     {
         "NUM": "ROH1",
         "TIPO": "CAMPEON LEFT DORADA",
         "CANT": 0,
-        "PRECIO": 6000,
+        "PRECIO": 8000,
         "NOMBRE": "Roll of Honor 1"
     },
     {
         "NUM": "ROH2",
         "TIPO": "CAMPEON RIGHT DORADA",
         "CANT": 1,
-        "PRECIO": 6000,
+        "PRECIO": 8000,
         "NOMBRE": "Roll of Honor 2"
     }
 ]
