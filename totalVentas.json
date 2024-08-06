@@ -9932,7 +9932,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -14197,7 +14197,7 @@
             "Dia": "30/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -14524,7 +14524,7 @@
             "Dia": "01/08/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -15215,6 +15215,35 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "LUCA BRAVII",
+            "Vendidas": [
+                "ARG13",
+                "PER1",
+                "PER16",
+                "MEX5",
+                "VEN7",
+                "VEN17",
+                "VEN19",
+                "JAM1",
+                "BRA19",
+                "PAR11",
+                "PAR12",
+                "PAR15",
+                "CAN1",
+                "TRI1",
+                "LEG8",
+                "LEG15"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "06/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
             "PREARMADO": "SI"
         }
     ],

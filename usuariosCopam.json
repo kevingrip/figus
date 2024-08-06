@@ -24794,6 +24794,47 @@
                 "TRI1",
                 "VEN22"
             ]
+        },
+        {
+            "usuario": "LUCA BRAVII",
+            "figusPedidas": [
+                "ARG13",
+                "BRA19",
+                "CAN1",
+                "JAM1",
+                "LEG15",
+                "LEG8",
+                "MEX5",
+                "PAR11",
+                "PAR12",
+                "PAR15",
+                "PER1",
+                "PER16",
+                "ROH1",
+                "TRI1",
+                "VEN17",
+                "VEN19",
+                "VEN7"
+            ]
+        },
+        {
+            "usuario": "TRUCK-CAR PARTS",
+            "figusPedidas": [
+                "ARG11",
+                "CHI1",
+                "CHI11",
+                "CHI12",
+                "CHI15",
+                "MEX13",
+                "MEX14",
+                "MEX15",
+                "MEX20",
+                "MEX7",
+                "MEX8",
+                "PER21",
+                "PER4",
+                "PER7"
+            ]
         }
     ]
 }

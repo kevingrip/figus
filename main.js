@@ -511,7 +511,7 @@ const buscarFigus = () => {
     } else {
         if (cantFigusStock==1){
             if (totalPrecio<3000){
-                mensaje.textContent = `Hola! No tengo stock en ${faltantes}. El precio por ${figuInd} es 3700. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                mensaje.textContent = `Hola! No tengo en stock ${faltantes}. El precio por ${figuInd} es 3700. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
             }else{
                 mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por ${figuInd} es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
             }
@@ -522,7 +522,7 @@ const buscarFigus = () => {
             }else{
             
                 if (totalPrecio<3500){
-                    mensaje.textContent = `Hola! No tengo stock en ${faltantes}. El precio por las ${cantFigusStock} figuritas originales es ${cantFigusStock*1200}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                    mensaje.textContent = `Hola! No tengo en stock ${faltantes}. El precio por las ${cantFigusStock} figuritas originales es ${cantFigusStock*1200}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
                 }else if (totalPrecio>22999){
                     mensaje.textContent = `Las tengo excepto ${faltantes}. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra con Envio Gratis!!`
                 }else{
