@@ -15134,6 +15134,73 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "POCH20240207211539",
+            "Vendidas": [
+                "INT1"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MONTANERJUANIGNACIO",
+            "Vendidas": [
+                "HCI1",
+                "HCI6",
+                "HCI10",
+                "ARG9",
+                "USA11",
+                "URU2",
+                "BOL12",
+                "HON7",
+                "LEG1",
+                "LEG3",
+                "LEG13"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ESTHERSPOKOJNY",
+            "Vendidas": [
+                "HCI10",
+                "ARG6",
+                "ARG11",
+                "ARG15",
+                "ARG18",
+                "PER13",
+                "MEX18",
+                "VEN15",
+                "JAM1",
+                "USA14",
+                "URU7",
+                "URU22",
+                "BOL6",
+                "BOL12",
+                "BRA5",
+                "BRA20",
+                "PAR3",
+                "CAN13",
+                "CRC2",
+                "LEG8",
+                "LEG9",
+                "LEG14"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
