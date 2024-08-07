@@ -35,5 +35,5 @@ print(" (",len(numeros),")",pais,sorted(numeros))
     
 
 
-print(cant)
+print("CANTIDAD TOTAL DE FIGURITAS: ",cant)
 # print(totalfigus)

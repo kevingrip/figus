@@ -15245,6 +15245,71 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "FECA3413848",
+            "Vendidas": [
+                "INT1",
+                "HCI1",
+                "HCI2",
+                "ARG3",
+                "ARG8",
+                "PER2",
+                "JAM1",
+                "USA20",
+                "PAN1",
+                "BOL1",
+                "CRC21",
+                "LEG8"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "ROH1"
+            ],
+            "Dia": "06/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LORENAZIBECCHI",
+            "Vendidas": [
+                "PER4",
+                "PER10",
+                "CHI9",
+                "MEX6",
+                "MEX12",
+                "ECU16",
+                "ECU22",
+                "VEN6",
+                "JAM6",
+                "JAM12",
+                "USA9",
+                "USA18",
+                "BOL8",
+                "BOL10",
+                "BRA6",
+                "BRA13",
+                "COL8",
+                "COL15",
+                "PAR8",
+                "PAR14",
+                "CAN11",
+                "CAN21",
+                "CRC7",
+                "CRC14",
+                "HON5",
+                "HON6",
+                "TRI6",
+                "TRI10"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

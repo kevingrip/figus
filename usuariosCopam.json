@@ -24835,6 +24835,110 @@
                 "PER4",
                 "PER7"
             ]
+        },
+        {
+            "usuario": "FECA3413848",
+            "figusPedidas": [
+                "ARG3",
+                "ARG8",
+                "BOL1",
+                "CRC21",
+                "HCI1",
+                "HCI2",
+                "INT1",
+                "INT3",
+                "JAM1",
+                "PAN1",
+                "PER2",
+                "ROH1",
+                "USA20",
+                "LEG8"
+            ]
+        },
+        {
+            "usuario": "ASUNCIONASUNCION20230708203605",
+            "figusPedidas": [
+                "BRA11",
+                "HON13"
+            ]
+        },
+        {
+            "usuario": "LORENAZIBECCHI",
+            "figusPedidas": [
+                "BOL10",
+                "BOL8",
+                "BRA13",
+                "BRA6",
+                "CAN11",
+                "CAN20",
+                "CAN21",
+                "CAN8",
+                "CHI20",
+                "CHI9",
+                "COL13",
+                "COL15",
+                "COL8",
+                "CRC12",
+                "CRC14",
+                "CRC7",
+                "ECU16",
+                "ECU22",
+                "HON5",
+                "HON6",
+                "JAM12",
+                "JAM6",
+                "JAM8",
+                "MEX12",
+                "MEX13",
+                "MEX20",
+                "MEX6",
+                "PAR14",
+                "PAR8",
+                "PER10",
+                "PER4",
+                "PER7",
+                "PER9",
+                "TRI10",
+                "TRI11",
+                "TRI6",
+                "USA14",
+                "USA18",
+                "USA9",
+                "VEN6"
+            ]
+        },
+        {
+            "usuario": "LORENAZIBECCHI",
+            "figusPedidas": [
+                "BOL10",
+                "BOL8",
+                "BRA13",
+                "BRA6",
+                "CAN11",
+                "CAN21",
+                "CHI9",
+                "COL15",
+                "COL8",
+                "CRC14",
+                "CRC7",
+                "ECU16",
+                "ECU22",
+                "HON5",
+                "HON6",
+                "JAM12",
+                "JAM6",
+                "MEX12",
+                "MEX6",
+                "PAR14",
+                "PAR8",
+                "PER10",
+                "PER4",
+                "TRI10",
+                "TRI6",
+                "USA18",
+                "USA9",
+                "VEN6"
+            ]
         }
     ]
 }
