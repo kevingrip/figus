@@ -25206,6 +25206,94 @@
                 "PER8",
                 "PER9"
             ]
+        },
+        {
+            "usuario": "FLOORENCIAGUERRA",
+            "figusPedidas": [
+                "ARG15",
+                "ARG17",
+                "ARG19",
+                "ARG21"
+            ]
+        },
+        {
+            "usuario": "DALIBONSOLEDAD20230214172803",
+            "figusPedidas": [
+                "ARG2",
+                "ARG8",
+                "BRA22",
+                "CAN15",
+                "COL4",
+                "INT4",
+                "JAM2",
+                "PAN1",
+                "PAN11",
+                "PAN12",
+                "PAR10",
+                "PER10",
+                "VEN21",
+                "VEN9"
+            ]
+        },
+        {
+            "usuario": "DALIBONSOLEDAD20230214172803",
+            "figusPedidas": [
+                "ARG2",
+                "ARG8",
+                "BRA22",
+                "CAN15",
+                "COL4",
+                "HCI3",
+                "HCI4",
+                "HCI8",
+                "HON2",
+                "HON3",
+                "HON6",
+                "INT4",
+                "JAM2",
+                "LEG3",
+                "LEG8",
+                "PAN1",
+                "PAN11",
+                "PAN12",
+                "PAR10",
+                "PER10",
+                "TRI7",
+                "TRI9",
+                "VEN21",
+                "VEN9"
+            ]
+        },
+        {
+            "usuario": "LASI880859",
+            "figusPedidas": [
+                "ARG1",
+                "ARG10",
+                "ARG12",
+                "ARG14",
+                "ARG16",
+                "ARG17",
+                "ARG19",
+                "ARG20",
+                "ARG21",
+                "ARG22",
+                "ARG3",
+                "ARG5",
+                "ARG6",
+                "ARG7",
+                "ARG8",
+                "ARG9"
+            ]
+        },
+        {
+            "usuario": "BARLASINAJAVIER20221011145943",
+            "figusPedidas": [
+                "BRA1",
+                "CAN1",
+                "ECU21",
+                "JAM6",
+                "ROH1"
+            ]
         }
     ]
 }
