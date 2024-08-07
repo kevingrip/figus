@@ -14913,7 +14913,7 @@
             "Dia": "03/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -15243,7 +15243,7 @@
             "Dia": "06/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -15269,8 +15269,8 @@
             "Dia": "06/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LORENAZIBECCHI",
@@ -15308,8 +15308,8 @@
             "Dia": "06/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "GOMA4946232",
@@ -15339,6 +15339,48 @@
                 "CAN14"
             ],
             "NoVendidas": [],
+            "Dia": "07/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "AZAB4791238",
+            "Vendidas": [
+                "INT1",
+                "INT2",
+                "HCI1",
+                "HCI2",
+                "HCI3",
+                "HCI4",
+                "HCI5",
+                "HCI9",
+                "ARG3",
+                "ARG5",
+                "ARG10",
+                "ARG12",
+                "ARG14",
+                "ARG15",
+                "ARG16",
+                "ARG18",
+                "ARG20",
+                "ARG22",
+                "COL2",
+                "COL4",
+                "COL7",
+                "COL10",
+                "COL12",
+                "COL14",
+                "COL15",
+                "COL16",
+                "COL18",
+                "COL20",
+                "COL22"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
             "Dia": "07/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
