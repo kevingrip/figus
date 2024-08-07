@@ -24939,6 +24939,51 @@
                 "USA9",
                 "VEN6"
             ]
+        },
+        {
+            "usuario": "ALOYSANTIAGO20220402162011",
+            "figusPedidas": [
+                "INT1"
+            ]
+        },
+        {
+            "usuario": "GOMA4946232",
+            "figusPedidas": [
+                "BOL15",
+                "BOL21",
+                "BRA11",
+                "CAN1",
+                "CAN14",
+                "CAN3",
+                "CHI15",
+                "CHI17",
+                "CHI19",
+                "CHI3",
+                "CHI5",
+                "COL1",
+                "ECU15",
+                "JAM20",
+                "MEX11",
+                "MEX7",
+                "PAN1",
+                "PAR12",
+                "PAR13",
+                "PAR16",
+                "PER3",
+                "PER7",
+                "USA22"
+            ]
+        },
+        {
+            "usuario": "VIMA2035816",
+            "figusPedidas": [
+                "CAN21",
+                "CAN8",
+                "CHI22",
+                "INT2",
+                "MEX16",
+                "ROH1"
+            ]
         }
     ]
 }
