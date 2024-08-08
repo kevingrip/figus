@@ -9803,7 +9803,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -9967,7 +9967,7 @@
             "Dia": "09/07/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -15571,6 +15571,76 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MARIACONSTANZA_GAR",
+            "Vendidas": [
+                "VEN14",
+                "COL5",
+                "TRI3",
+                "LEG10",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "INT4"
+            ],
+            "Dia": "08/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LUCIANOZADICOF",
+            "Vendidas": [
+                "PER4",
+                "ECU18",
+                "VEN8",
+                "VEN10",
+                "VEN16",
+                "BOL22",
+                "COL2",
+                "PAR20",
+                "CAN10",
+                "CAN14",
+                "CRC8",
+                "LEG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ENRICOK",
+            "Vendidas": [
+                "CHI1",
+                "CHI7",
+                "CHI14",
+                "MEX17",
+                "ECU10",
+                "VEN22",
+                "USA14",
+                "USA20",
+                "BRA4",
+                "BRA22",
+                "PAR6",
+                "PAR14",
+                "PAR16",
+                "HON17",
+                "LEG16"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "08/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
