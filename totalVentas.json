@@ -15531,6 +15531,46 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "SOSAMARIA20220811103913",
+            "Vendidas": [
+                "INT1",
+                "HCI10",
+                "PER10",
+                "CHI10",
+                "MEX11",
+                "ECU1",
+                "JAM2",
+                "JAM18",
+                "JAM22",
+                "PAN4",
+                "PAN10",
+                "PAN18",
+                "BOL12",
+                "BRA22",
+                "COL15",
+                "COL16",
+                "COL20",
+                "PAR8",
+                "PAR18",
+                "CAN1",
+                "CAN8",
+                "CAN15",
+                "CRC4",
+                "CRC8",
+                "TRI6",
+                "TRI10",
+                "LEG10"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "08/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -25603,6 +25643,19 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MAWA2703373",
+            "Vendidas": [
+                "ESP7",
+                "ESP18"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
