@@ -15745,6 +15745,26 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MAR_RODRIGUEZJURADO",
+            "Vendidas": [
+                "MEX12",
+                "JAM14",
+                "USA19",
+                "BOL18",
+                "CRC1",
+                "CRC4",
+                "CRC14"
+            ],
+            "NoVendidas": [
+                "BOL10"
+            ],
+            "Dia": "09/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
