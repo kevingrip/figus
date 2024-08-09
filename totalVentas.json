@@ -15733,7 +15733,7 @@
             "PREARMADO": "SI"
         },
         {
-            "usuario": "CPBMZA",
+            "usuario": "EHOUSE_MARKET",
             "Vendidas": [
                 "MEX10",
                 "ECU1",
@@ -15743,27 +15743,6 @@
             "Dia": "09/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
-        },
-        {
-            "usuario": "CAMILOTSIS",
-            "Vendidas": [
-                "ARG12",
-                "CHI20",
-                "JAM9",
-                "USA8",
-                "URU1",
-                "PAR7",
-                "LEG18"
-            ],
-            "NoVendidas": [
-                "INT3",
-                "ROH1"
-            ],
-            "Dia": "09/08/2024",
-            "Cuenta": "MATI",
-            "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
@@ -25861,8 +25840,8 @@
             "Dia": "09/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
