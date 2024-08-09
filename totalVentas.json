@@ -15691,8 +15691,8 @@
             "Dia": "09/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DELORENZOFLAVIA",
@@ -15728,6 +15728,41 @@
             "NoVendidas": [],
             "Dia": "09/08/2024",
             "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CPBMZA",
+            "Vendidas": [
+                "MEX10",
+                "ECU1",
+                "USA11"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "CAMILOTSIS",
+            "Vendidas": [
+                "ARG12",
+                "CHI20",
+                "JAM9",
+                "USA8",
+                "URU1",
+                "PAR7",
+                "LEG18"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "ROH1"
+            ],
+            "Dia": "09/08/2024",
+            "Cuenta": "MATI",
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
@@ -25816,6 +25851,18 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GUSA9749261",
+            "Vendidas": [
+                "SEN11"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
