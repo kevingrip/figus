@@ -2,7 +2,7 @@
     {
         "NUM": "INT1",
         "TIPO": "INTRO",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 8000,
         "NOMBRE": "INTRODUCCION"
     },
@@ -128,7 +128,7 @@
     {
         "NUM": "ARG5",
         "TIPO": "AFA",
-        "CANT": 9,
+        "CANT": 10,
         "PRECIO": 2500,
         "NOMBRE": "NICOLAS OTAMENDI"
     },
@@ -1178,7 +1178,7 @@
     {
         "NUM": "USA1",
         "TIPO": "ESCUDO",
-        "CANT": 10,
+        "CANT": 11,
         "PRECIO": 3000,
         "NOMBRE": "USA ESC"
     },
@@ -1332,7 +1332,7 @@
     {
         "NUM": "URU1",
         "TIPO": "ESCUDO",
-        "CANT": 7,
+        "CANT": 8,
         "PRECIO": 3000,
         "NOMBRE": "URU ESC"
     },
@@ -3005,7 +3005,7 @@
     {
         "NUM": "ROH2",
         "TIPO": "CAMPEON RIGHT DORADA",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 8000,
         "NOMBRE": "Roll of Honor 2"
     }
