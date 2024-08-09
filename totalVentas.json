@@ -15588,8 +15588,8 @@
             "Dia": "08/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LUCIANOZADICOF",
@@ -15611,8 +15611,8 @@
             "Dia": "08/08/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ENRICOK",
@@ -15639,6 +15639,58 @@
             "Dia": "08/08/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "DANICHEZZIO",
+            "Vendidas": [
+                "ARG5",
+                "ARG9",
+                "MEX16",
+                "MEX18",
+                "MEX19",
+                "MEX20",
+                "MEX21",
+                "JAM7",
+                "BOL11",
+                "CAN3",
+                "TRI4"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ALGO6545814",
+            "Vendidas": [
+                "URU1",
+                "LEG9",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GT20240601115659",
+            "Vendidas": [
+                "ARG1",
+                "ARG2",
+                "ARG5",
+                "LEG6",
+                "LEG9"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
