@@ -15778,7 +15778,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MA.ALCIRA",
@@ -15823,8 +15823,8 @@
             "Dia": "10/08/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ARIEL_CACHAZO",
@@ -15871,6 +15871,86 @@
             ],
             "Dia": "10/08/2024",
             "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NADIPI6",
+            "Vendidas": [
+                "HCI3",
+                "HCI4",
+                "ARG8",
+                "ARG9",
+                "ARG11",
+                "ARG15",
+                "MEX20",
+                "ECU7",
+                "VEN3",
+                "USA2",
+                "USA9",
+                "USA13",
+                "USA20",
+                "PAN16",
+                "CAN2",
+                "CRC9",
+                "HON10",
+                "HON11",
+                "HON13",
+                "HON20",
+                "HON21",
+                "TRI2"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "INT4"
+            ],
+            "Dia": "10/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "BEVA217950",
+            "Vendidas": [
+                "ARG9",
+                "CHI3",
+                "CHI19",
+                "MEX9",
+                "MEX13",
+                "ECU17",
+                "JAM9",
+                "BRA19",
+                "PAR5",
+                "CRC15",
+                "HON15"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "TOLEDODIEGO06",
+            "Vendidas": [
+                "HCI3",
+                "HCI9",
+                "ARG2",
+                "CHI7",
+                "MEX11",
+                "ECU1",
+                "VEN13",
+                "JAM11",
+                "USA1",
+                "USA15",
+                "RONDON-GOLD"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/08/2024",
+            "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"

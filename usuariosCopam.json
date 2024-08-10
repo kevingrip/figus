@@ -25675,6 +25675,89 @@
                 "CRC21",
                 "TRI14"
             ]
+        },
+        {
+            "usuario": "NADIPI6",
+            "figusPedidas": [
+                "ARG11",
+                "ARG15",
+                "ARG8",
+                "ARG9",
+                "CAN2",
+                "CRC9",
+                "ECU7",
+                "HCI3",
+                "HCI4",
+                "HON10",
+                "HON11",
+                "HON13",
+                "HON20",
+                "HON21",
+                "INT3",
+                "INT4",
+                "MEX20",
+                "PAN16",
+                "TRI2",
+                "USA13",
+                "USA2",
+                "USA20",
+                "USA9",
+                "VEN3"
+            ]
+        },
+        {
+            "usuario": "BEVA217950",
+            "figusPedidas": [
+                "ARG9",
+                "BRA19",
+                "CHI19",
+                "CHI3",
+                "CRC15",
+                "ECU17",
+                "HON15",
+                "JAM9",
+                "MEX13",
+                "MEX9",
+                "PAR5"
+            ]
+        },
+        {
+            "usuario": "TOLEDODIEGO06",
+            "figusPedidas": [
+                "ARG2",
+                "CHI7",
+                "ECU1",
+                "HCI3",
+                "HCI9",
+                "JAM11",
+                "MEX11",
+                "USA1",
+                "USA15",
+                "VEN13"
+            ]
+        },
+        {
+            "usuario": "TOLEDODIEGO06",
+            "figusPedidas": [
+                "ARG2",
+                "CHI7",
+                "ECU1",
+                "HCI3",
+                "HCI9",
+                "JAM11",
+                "MEX11",
+                "USA1",
+                "USA15",
+                "VEN13"
+            ]
+        },
+        {
+            "usuario": "AND_GUERRINA",
+            "figusPedidas": [
+                "USA13",
+                "VEN3",
+                "VEN4"
+            ]
         }
     ]
 }
