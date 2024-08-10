@@ -15954,6 +15954,20 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "AND_GUERRINA",
+            "Vendidas": [
+                "VEN3",
+                "VEN4",
+                "USA13"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
