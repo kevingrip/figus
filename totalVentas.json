@@ -15968,6 +15968,82 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "CYNTHIGM",
+            "Vendidas": [
+                "VEN13"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "FAVIOVIOLA",
+            "Vendidas": [
+                "HCI2",
+                "HCI6",
+                "HCI8",
+                "HCI9",
+                "ARG4",
+                "ARG12",
+                "ARG22",
+                "ECU17",
+                "VEN17",
+                "VEN18",
+                "USA13",
+                "USA16",
+                "USA21",
+                "BOL16",
+                "BRA14",
+                "COL8",
+                "COL10",
+                "COL11",
+                "COL12",
+                "COL14",
+                "PAR8",
+                "PAR13",
+                "PAR20",
+                "CAN8",
+                "CAN16",
+                "CRC11",
+                "CRC15",
+                "HON6",
+                "HON8",
+                "HON10",
+                "TRI2",
+                "TRI18"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "INT4",
+                "MEX10"
+            ],
+            "Dia": "11/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "GOMA4946232",
+            "Vendidas": [
+                "USA7",
+                "CAN9",
+                "CRC10",
+                "CRC18",
+                "HON1",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
