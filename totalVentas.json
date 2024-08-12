@@ -16082,6 +16082,33 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "DIEGO.WEYLER",
+            "Vendidas": [
+                "ARG7",
+                "PER17",
+                "CHI1",
+                "CHI18",
+                "MEX2",
+                "ECU6",
+                "ECU14",
+                "JAM4",
+                "BRA11",
+                "COL17",
+                "PAR9",
+                "CAN21",
+                "CRC2",
+                "CRC11",
+                "TRI1",
+                "TRI9"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
