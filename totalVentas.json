@@ -16159,6 +16159,102 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MARIDAPIC",
+            "Vendidas": [
+                "HCI1",
+                "ARG6",
+                "PER8",
+                "PER11",
+                "PER13",
+                "CHI13",
+                "MEX12",
+                "MEX17",
+                "ECU8",
+                "ECU14",
+                "ECU18",
+                "ECU19",
+                "VEN4",
+                "VEN16",
+                "VEN18",
+                "JAM20",
+                "USA2",
+                "PAN5",
+                "PAN21",
+                "BOL4",
+                "BOL13",
+                "BRA10",
+                "BRA12",
+                "PAR7",
+                "PAR13",
+                "CAN10",
+                "CAN12",
+                "CRC4",
+                "CRC9",
+                "CRC10",
+                "CRC13",
+                "CRC19",
+                "CRC20",
+                "LEG14"
+            ],
+            "NoVendidas": [
+                "MEX3"
+            ],
+            "Dia": "12/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "EDGARCIDES24",
+            "Vendidas": [
+                "HCI3",
+                "HCI5",
+                "ARG12",
+                "JAM17",
+                "PAN12"
+            ],
+            "NoVendidas": [],
+            "Dia": "12/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "INGENIERA_BSAS",
+            "Vendidas": [
+                "HCI2",
+                "PER6",
+                "PER12",
+                "MEX8",
+                "ECU2",
+                "ECU5",
+                "ECU7",
+                "ECU20",
+                "ECU21",
+                "VEN1",
+                "BOL9",
+                "COL1",
+                "COL19",
+                "CAN4",
+                "CAN15",
+                "CAN19",
+                "CAN22",
+                "HON7",
+                "TRI2",
+                "TRI11"
+            ],
+            "NoVendidas": [
+                "USA11"
+            ],
+            "Dia": "12/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

@@ -26002,6 +26002,82 @@
                 "LEG18",
                 "ROH2"
             ]
+        },
+        {
+            "usuario": "MARIDAPIC",
+            "figusPedidas": [
+                "ARG6",
+                "BOL13",
+                "BOL4",
+                "BRA10",
+                "BRA12",
+                "CAN10",
+                "CAN12",
+                "CHI13",
+                "CRC10",
+                "CRC13",
+                "CRC19",
+                "CRC20",
+                "CRC4",
+                "CRC9",
+                "ECU14",
+                "ECU18",
+                "ECU19",
+                "ECU8",
+                "HCI1",
+                "JAM20",
+                "LEG14",
+                "MEX12",
+                "MEX17",
+                "MEX3",
+                "PAN21",
+                "PAN5",
+                "PAR13",
+                "PAR7",
+                "PER11",
+                "PER13",
+                "PER8",
+                "USA2",
+                "VEN16",
+                "VEN18",
+                "VEN4"
+            ]
+        },
+        {
+            "usuario": "EDGARCIDES24",
+            "figusPedidas": [
+                "ARG12",
+                "HCI3",
+                "HCI5",
+                "JAM17",
+                "PAN12"
+            ]
+        },
+        {
+            "usuario": "INGENIERA_BSAS",
+            "figusPedidas": [
+                "BOL9",
+                "CAN15",
+                "CAN19",
+                "CAN22",
+                "CAN4",
+                "COL1",
+                "COL19",
+                "ECU2",
+                "ECU20",
+                "ECU21",
+                "ECU5",
+                "ECU7",
+                "HCI2",
+                "HON7",
+                "MEX8",
+                "PER12",
+                "PER6",
+                "TRI11",
+                "TRI2",
+                "USA11",
+                "VEN1"
+            ]
         }
     ]
 }
