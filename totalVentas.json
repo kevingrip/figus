@@ -16123,7 +16123,7 @@
             "Dia": "11/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -16204,7 +16204,7 @@
             "Dia": "12/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -16253,7 +16253,7 @@
             "Dia": "12/08/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -16307,12 +16307,22 @@
                 "VEN16",
                 "USA11"
             ],
-            "NoVendidas": [
-                
-            ],
+            "NoVendidas": [],
             "Dia": "12/08/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "VICTORIAGRANDONI",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "12/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
@@ -26438,6 +26448,21 @@
             "NoVendidas": [],
             "Dia": "12/08/2024",
             "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NASHKEVIN",
+            "Vendidas": [
+                "AUS1",
+                "GER1"
+            ],
+            "NoVendidas": [
+                "CRC1"
+            ],
+            "Dia": "12/08/2024",
+            "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
