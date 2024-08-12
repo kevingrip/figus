@@ -15764,7 +15764,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "CAPOCARLOSALBERTO",
@@ -15805,7 +15805,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DIDAMIAN20230622174103",
@@ -15873,7 +15873,7 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "NADIPI6",
@@ -15909,7 +15909,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "BEVA217950",
@@ -15931,7 +15931,7 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "TOLEDODIEGO06",
@@ -15953,7 +15953,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "AND_GUERRINA",
@@ -15967,7 +15967,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "CYNTHIGM",
@@ -15979,7 +15979,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "FAVIOVIOLA",
@@ -16026,7 +16026,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "GOMA4946232",
@@ -16043,7 +16043,7 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ESTEBANITURRIA",
@@ -16066,7 +16066,7 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "YANU_BEBY",
@@ -16081,7 +16081,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DIEGO.WEYLER",
@@ -16108,7 +16108,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "IGNACIOJOSEAGUIRRE",
@@ -16124,7 +16124,7 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DEBORASWIBOWICZCORDOBA",
@@ -16158,7 +16158,7 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MARIDAPIC",
@@ -16205,7 +16205,7 @@
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "EDGARCIDES24",
@@ -16221,7 +16221,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "INGENIERA_BSAS",
@@ -16249,6 +16249,66 @@
             ],
             "NoVendidas": [
                 "USA11"
+            ],
+            "Dia": "12/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ROMINA.F",
+            "Vendidas": [
+                "ARG11",
+                "MEX12",
+                "VEN12",
+                "VEN16",
+                "VEN16"
+            ],
+            "NoVendidas": [],
+            "Dia": "12/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ISM_ZENON",
+            "Vendidas": [
+                "HCI2",
+                "ARG9",
+                "PER6",
+                "PER8",
+                "PER10",
+                "MEX14",
+                "ECU16",
+                "VEN9",
+                "VEN10",
+                "VEN21",
+                "VEN22",
+                "JAM1",
+                "JAM17",
+                "USA10",
+                "USA18",
+                "USA19",
+                "PAN16",
+                "PAN18",
+                "PAN20",
+                "BOL22",
+                "COL9",
+                "COL16",
+                "PAR15",
+                "CAN2",
+                "HON1",
+                "HON22",
+                "TRI4",
+                "LEG7",
+                "LEG10",
+                "VEN16",
+                "USA11"
+            ],
+            "NoVendidas": [
+                
             ],
             "Dia": "12/08/2024",
             "Cuenta": "MATI",
@@ -26352,6 +26412,35 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CARLOS_CHAVARRI",
+            "Vendidas": [
+                "DEN13",
+                "DEN14",
+                "DEN17",
+                "DEN19",
+                "ESP2",
+                "ESP5",
+                "ESP13",
+                "ESP17",
+                "GER1",
+                "GER12",
+                "KSA5",
+                "KSA8",
+                "KSA16",
+                "KSA17",
+                "POL7",
+                "POL19",
+                "TUN3",
+                "TUN18"
+            ],
+            "NoVendidas": [],
+            "Dia": "12/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [

@@ -26078,6 +26078,51 @@
                 "USA11",
                 "VEN1"
             ]
+        },
+        {
+            "usuario": "ROMINA.F",
+            "figusPedidas": [
+                "ARG11",
+                "MEX12",
+                "VEN12",
+                "VEN16"
+            ]
+        },
+        {
+            "usuario": "ISM_ZENON",
+            "figusPedidas": [
+                "ARG9",
+                "BOL22",
+                "CAN2",
+                "COL16",
+                "COL9",
+                "ECU16",
+                "HCI2",
+                "HON1",
+                "HON22",
+                "JAM1",
+                "JAM17",
+                "LEG10",
+                "LEG7",
+                "MEX14",
+                "PAN16",
+                "PAN18",
+                "PAN20",
+                "PAR15",
+                "PER10",
+                "PER6",
+                "PER8",
+                "TRI4",
+                "USA10",
+                "USA11",
+                "USA18",
+                "USA19",
+                "VEN10",
+                "VEN16",
+                "VEN21",
+                "VEN22",
+                "VEN9"
+            ]
         }
     ]
 }
