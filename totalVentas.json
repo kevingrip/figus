@@ -16109,6 +16109,22 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "IGNACIOJOSEAGUIRRE",
+            "Vendidas": [
+                "INT1",
+                "PER8",
+                "PAN11",
+                "LEG6",
+                "LEG9"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
