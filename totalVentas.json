@@ -16065,7 +16065,7 @@
             "Dia": "11/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -16323,7 +16323,7 @@
             "Dia": "12/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -16446,6 +16446,47 @@
             "NoVendidas": [],
             "Dia": "12/08/2024",
             "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "CPBMZA",
+            "Vendidas": [
+                "INT3",
+                "CAN5",
+                "CRC7"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "CHINO 26",
+            "Vendidas": [
+                "INT3",
+                "ARG19",
+                "CHI10",
+                "CHI16",
+                "ECU1",
+                "VEN2",
+                "VEN4",
+                "PAN11",
+                "BOL4",
+                "COL20",
+                "TRI2",
+                "TRI6",
+                "TRI10",
+                "TRI16"
+            ],
+            "NoVendidas": [
+                "ECU6"
+            ],
+            "Dia": "13/08/2024",
+            "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
@@ -26573,7 +26614,7 @@
             "Dia": "12/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -26588,7 +26629,7 @@
             "Dia": "12/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -26627,7 +26668,7 @@
             "Dia": "12/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         }
     ],
