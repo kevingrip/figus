@@ -26691,6 +26691,33 @@
                 "MEX9",
                 "USA19"
             ]
+        },
+        {
+            "usuario": "FEPA1105888",
+            "figusPedidas": [
+                "CRC16",
+                "CRC17",
+                "CRC18",
+                "HON10",
+                "HON20"
+            ]
+        },
+        {
+            "usuario": "ROCIOLUCCHETTA",
+            "figusPedidas": [
+                "ARG1",
+                "ARG12",
+                "ARG16",
+                "ARG19",
+                "ARG2",
+                "ARG20",
+                "ARG22",
+                "ARG3",
+                "ARG4",
+                "ARG6",
+                "ARG7",
+                "ARG8"
+            ]
         }
     ]
 }
