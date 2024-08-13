@@ -16435,8 +16435,8 @@
             "Dia": "12/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ROBERTAMACHICOTE",
@@ -16447,8 +16447,8 @@
             "Dia": "12/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "CPBMZA",
@@ -16461,8 +16461,8 @@
             "Dia": "13/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "CHINO 26",
@@ -16534,6 +16534,53 @@
             "NoVendidas": [
                 "INT3"
             ],
+            "Dia": "13/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NOE_DURO",
+            "Vendidas": [
+                "CHI7"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "SEPULVEDAJORGE88",
+            "Vendidas": [
+                "HCI3",
+                "ECU2",
+                "ECU8",
+                "VEN13",
+                "VEN21",
+                "PAN14",
+                "BOL5",
+                "BRA19",
+                "LEG1",
+                "LEG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "BCN9885",
+            "Vendidas": [
+                "ARG1",
+                "ARG19",
+                "ARG21"
+            ],
+            "NoVendidas": [],
             "Dia": "13/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
