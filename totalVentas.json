@@ -16672,6 +16672,31 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "DAMISTAVROS",
+            "Vendidas": [
+                "ARG1",
+                "ARG11",
+                "USA13",
+                "PAN6",
+                "PAN9",
+                "PAN19",
+                "BRA10",
+                "PAR22",
+                "CAN2",
+                "CAN21",
+                "HON16",
+                "TRI15"
+            ],
+            "NoVendidas": [
+                "VEN16"
+            ],
+            "Dia": "14/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
