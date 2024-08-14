@@ -16617,6 +16617,61 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ALEJO JC",
+            "Vendidas": [
+                "PER1",
+                "JAM7",
+                "COL3",
+                "CRC9"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ROMINAMERETA",
+            "Vendidas": [
+                "ARG2",
+                "ARG14",
+                "CHI7",
+                "CHI13",
+                "CHI18",
+                "CHI20",
+                "JAM2",
+                "JAM4",
+                "JAM18",
+                "JAM21",
+                "JAM22",
+                "USA2",
+                "USA10",
+                "USA15",
+                "PAN7",
+                "PAN10",
+                "PAN11",
+                "BOL11",
+                "BOL13",
+                "CAN5",
+                "CAN10",
+                "CAN15",
+                "CAN19",
+                "HON10",
+                "HON14",
+                "HON16",
+                "HON17",
+                "HON19",
+                "HON22"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
