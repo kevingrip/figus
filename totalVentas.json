@@ -16615,8 +16615,8 @@
             "Dia": "13/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ALEJO JC",
@@ -16631,7 +16631,7 @@
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ROMINAMERETA",
@@ -16670,8 +16670,8 @@
             "Dia": "14/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DAMISTAVROS",
@@ -16696,7 +16696,7 @@
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "AYBU2009",
@@ -16712,6 +16712,20 @@
             "Dia": "14/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "TONI7018871",
+            "Vendidas": [
+                "USA1",
+                "CAN7",
+                "LEG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
