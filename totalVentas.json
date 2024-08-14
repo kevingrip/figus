@@ -16586,6 +16586,37 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "NATALIAFLEITAS",
+            "Vendidas": [
+                "INT1",
+                "INT4",
+                "HCI5",
+                "PER5",
+                "PER11",
+                "PER15",
+                "CHI2",
+                "CHI4",
+                "CHI5",
+                "CHI6",
+                "CHI13",
+                "MEX2",
+                "MEX6",
+                "MEX7",
+                "MEX11",
+                "ECU10",
+                "ECU19",
+                "ECU21"
+            ],
+            "NoVendidas": [
+                "MEX20"
+            ],
+            "Dia": "13/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
