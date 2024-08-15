@@ -16778,6 +16778,55 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MARIANA ANDREAPAGANI",
+            "Vendidas": [
+                "ARG7",
+                "ARG11",
+                "PAR7",
+                "PAR17",
+                "CAN1"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "FL20240530115033",
+            "Vendidas": [
+                "INT1",
+                "ARG19",
+                "PER10"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "BCDFEHAGBFEGHCDA",
+            "Vendidas": [
+                "HCI7",
+                "ARG7",
+                "ARG13",
+                "PER6",
+                "PER6",
+                "ECU14",
+                "HON16",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
