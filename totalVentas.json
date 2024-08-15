@@ -16748,6 +16748,36 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "POMOCECILIA",
+            "Vendidas": [
+                "HCI9",
+                "ARG11",
+                "ARG20",
+                "ARG21",
+                "MEX5",
+                "MEX9",
+                "MEX12",
+                "VEN4",
+                "VEN12",
+                "BOL14",
+                "COL9",
+                "COL13",
+                "PAR15",
+                "CRC11",
+                "TRI8",
+                "TRI10",
+                "LEG17"
+            ],
+            "NoVendidas": [
+                "INT4"
+            ],
+            "Dia": "15/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
