@@ -16922,8 +16922,50 @@
             "Dia": "16/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MPFERNAND",
+            "Vendidas": [
+                "INT1",
+                "USA9",
+                "USA15",
+                "PAN20",
+                "BOL16",
+                "BOL22",
+                "COL1",
+                "COL19",
+                "PAR1",
+                "CAN1",
+                "CRC19",
+                "HON16"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "16/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ANABELAC2009",
+            "Vendidas": [
+                "ARG9",
+                "ARG17",
+                "ARG20",
+                "MEX6"
+            ],
+            "NoVendidas": [
+                "LEG9"
+            ],
+            "Dia": "16/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -27159,6 +27201,19 @@
                 "SEN1"
             ],
             "Dia": "15/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "RUAL3032315",
+            "Vendidas": [
+                "FWC1",
+                "CRO12"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "SI",
