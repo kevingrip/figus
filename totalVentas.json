@@ -16695,7 +16695,7 @@
             "Dia": "14/08/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -16966,6 +16966,39 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "DAMIAN DIEGO140",
+            "Vendidas": [
+                "INT1",
+                "ARG3",
+                "ARG14",
+                "ARG22",
+                "PER9",
+                "CHI6",
+                "MEX1",
+                "MEX4",
+                "MEX6",
+                "MEX17",
+                "ECU10",
+                "ECU12",
+                "JAM14",
+                "USA10",
+                "PAN2",
+                "PAN8",
+                "BOL13",
+                "COL3",
+                "HON12",
+                "LEG14"
+            ],
+            "NoVendidas": [
+                "VEN16"
+            ],
+            "Dia": "16/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
