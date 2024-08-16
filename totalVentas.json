@@ -16839,6 +16839,91 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MARELLIANDREA1405",
+            "Vendidas": [
+                "ECU15"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "TERESAPRESAS",
+            "Vendidas": [
+                "INT2",
+                "ARG15",
+                "CHI14",
+                "MEX1",
+                "VEN19",
+                "USA13",
+                "BOL17",
+                "BRA15",
+                "BRA17",
+                "COL11",
+                "COL13",
+                "PAR2",
+                "HON20"
+            ],
+            "NoVendidas": [
+                "ECU6"
+            ],
+            "Dia": "16/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "AZAB4791238",
+            "Vendidas": [
+                "URU2",
+                "URU5",
+                "URU6",
+                "URU12",
+                "URU15",
+                "URU18",
+                "URU21",
+                "CAN1",
+                "CAN2",
+                "CAN4",
+                "CAN5",
+                "CAN6",
+                "CAN8",
+                "CAN9",
+                "CAN10",
+                "CAN12",
+                "CAN14",
+                "CAN16",
+                "CAN20",
+                "CAN21",
+                "CAN22",
+                "LEG1",
+                "LEG2",
+                "LEG4",
+                "LEG6",
+                "LEG9",
+                "LEG10",
+                "LEG12",
+                "LEG13",
+                "LEG14",
+                "LEG16",
+                "LEG17",
+                "LEG18",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "16/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
