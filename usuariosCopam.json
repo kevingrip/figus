@@ -27922,6 +27922,54 @@
                 "PER4",
                 "PER7"
             ]
+        },
+        {
+            "usuario": "STUCHIROBERTO",
+            "figusPedidas": [
+                "ARG11",
+                "ARG7",
+                "BOL3",
+                "BOL9",
+                "CAN19",
+                "CHI2",
+                "COL2",
+                "CRC12",
+                "ECU2",
+                "HCI2",
+                "HON14",
+                "HON7",
+                "INT1",
+                "JAM11",
+                "LEG13",
+                "LEG5",
+                "MEX6",
+                "PAN10",
+                "PAR16",
+                "PER1",
+                "PER6",
+                "PER9",
+                "TRI11",
+                "TRI8",
+                "URU1",
+                "USA22",
+                "VEN2",
+                "VEN3"
+            ]
+        },
+        {
+            "usuario": "EMAGURI",
+            "figusPedidas": [
+                "USA11"
+            ]
+        },
+        {
+            "usuario": "NAIARANU",
+            "figusPedidas": [
+                "ARG19",
+                "ARG20",
+                "ARG7",
+                "ARG9"
+            ]
         }
     ]
 }

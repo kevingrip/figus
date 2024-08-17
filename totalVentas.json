@@ -16999,6 +16999,73 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "STUCHIROBERTO",
+            "Vendidas": [
+                "INT1",
+                "HCI2",
+                "ARG7",
+                "ARG11",
+                "PER1",
+                "PER6",
+                "PER9",
+                "CHI2",
+                "ECU2",
+                "VEN2",
+                "VEN3",
+                "JAM11",
+                "USA22",
+                "URU1",
+                "PAN10",
+                "BOL3",
+                "BOL9",
+                "COL2",
+                "PAR16",
+                "CAN19",
+                "CRC12",
+                "HON7",
+                "HON14",
+                "TRI8",
+                "TRI11",
+                "LEG5",
+                "LEG13"
+            ],
+            "NoVendidas": [
+                "MEX6"
+            ],
+            "Dia": "17/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "EMAGURI",
+            "Vendidas": [
+                "USA11"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NAIARANU",
+            "Vendidas": [
+                "ARG7",
+                "ARG9",
+                "ARG19",
+                "ARG20"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
