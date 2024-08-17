@@ -2,28 +2,28 @@
     {
         "NUM": "INT1",
         "TIPO": "INTRO",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 8000,
         "NOMBRE": "INTRODUCCION"
     },
     {
         "NUM": "INT2",
         "TIPO": "INTRO",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 8000,
         "NOMBRE": "MASCOTA"
     },
     {
         "NUM": "INT3",
         "TIPO": "INTRO",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 8000,
         "NOMBRE": "COPA"
     },
     {
         "NUM": "INT4",
         "TIPO": "INTRO",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 8000,
         "NOMBRE": "PELOTA"
     },
@@ -2998,14 +2998,14 @@
     {
         "NUM": "ROH1",
         "TIPO": "CAMPEON LEFT DORADA",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 8000,
         "NOMBRE": "Roll of Honor 1"
     },
     {
         "NUM": "ROH2",
         "TIPO": "CAMPEON RIGHT DORADA",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 8000,
         "NOMBRE": "Roll of Honor 2"
     }
