@@ -17103,6 +17103,25 @@
             "Dia": "18/08/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "EUGENIAJAZUN",
+            "Vendidas": [
+                "INT1",
+                "MEX6",
+                "BRA9",
+                "PAR16",
+                "CAN19",
+                "LEG6",
+                "LEG13",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }

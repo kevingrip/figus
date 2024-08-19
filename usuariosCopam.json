@@ -27997,6 +27997,41 @@
                 "TRI16",
                 "VEN21"
             ]
+        },
+        {
+            "usuario": "NYM06",
+            "figusPedidas": [
+                "ARG5",
+                "BOL12",
+                "BRA1",
+                "CAN4",
+                "CAN8",
+                "ECU4",
+                "HON13",
+                "JAM19",
+                "JAM5",
+                "LEG6",
+                "MEX6",
+                "PAN7",
+                "PAR1",
+                "PAR14",
+                "PAR18",
+                "USA12",
+                "VEN11"
+            ]
+        },
+        {
+            "usuario": "EUGENIAJAZUN",
+            "figusPedidas": [
+                "BRA9",
+                "CAN19",
+                "INT1",
+                "LEG13",
+                "LEG18",
+                "LEG6",
+                "MEX6",
+                "PAR16"
+            ]
         }
     ]
 }
