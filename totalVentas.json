@@ -17076,7 +17076,7 @@
             "Dia": "18/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -17123,6 +17123,48 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "DANTE3529",
+            "Vendidas": [
+                "PAR9",
+                "CAN22",
+                "TRI6"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MELISAKSI",
+            "Vendidas": [
+                "ARG2",
+                "ARG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CAUDILLOS",
+            "Vendidas": [
+                "USA11",
+                "CRC21",
+                "LEG2",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
             "PREARMADO": "SI"
         }
     ],
