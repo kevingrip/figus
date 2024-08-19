@@ -177,7 +177,7 @@
     {
         "NUM": "ARG12",
         "TIPO": "AFA",
-        "CANT": 7,
+        "CANT": 8,
         "PRECIO": 3000,
         "NOMBRE": "EXEQUIEL PALACIOS"
     },
@@ -1234,7 +1234,7 @@
     {
         "NUM": "USA9",
         "TIPO": "COMUNES",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "ANTONEE ROBINSON"
     },
@@ -1794,7 +1794,7 @@
     {
         "NUM": "BRA1",
         "TIPO": "ESCUDO",
-        "CANT": 9,
+        "CANT": 10,
         "PRECIO": 3000,
         "NOMBRE": "BRA ESC"
     },
@@ -2319,7 +2319,7 @@
     {
         "NUM": "CAN10",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "DEREK CORNELIUS"
     },
@@ -2929,7 +2929,7 @@
         "NUM": "LEG9",
         "TIPO": "LEYENDA DORADA",
         "CANT": 2,
-        "PRECIO": 4500,
+        "PRECIO": 5000,
         "NOMBRE": "RONALDINHO"
     },
     {
