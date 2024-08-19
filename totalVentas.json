@@ -17066,6 +17066,45 @@
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "VEVA3862916",
+            "Vendidas": [
+                "TRI16"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "EMANUEL_PEC",
+            "Vendidas": [
+                "PER11",
+                "CHI19",
+                "ECU7",
+                "ECU19",
+                "VEN21",
+                "JAM18",
+                "PAN1",
+                "PAN4",
+                "PAN18",
+                "PAR1",
+                "CAN13",
+                "CRC17",
+                "HON2",
+                "HON20",
+                "TRI12",
+                "TRI16"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

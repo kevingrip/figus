@@ -324,7 +324,7 @@
     {
         "NUM": "PER11",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "WILDER CARTAGENA"
     },
@@ -534,7 +534,7 @@
     {
         "NUM": "CHI19",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "DIEGO RUBIO"
     },
@@ -758,7 +758,7 @@
     {
         "NUM": "ECU7",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "ANGELO PRECIADO"
     },
@@ -842,7 +842,7 @@
     {
         "NUM": "ECU19",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "LEONARDO CAMPANA"
     },
@@ -1010,7 +1010,7 @@
     {
         "NUM": "VEN21",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 850,
         "NOMBRE": "JOSEF MARTINEZ"
     },
@@ -1143,7 +1143,7 @@
     {
         "NUM": "JAM18",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "DEMARAI GRAY"
     },
@@ -1486,7 +1486,7 @@
     {
         "NUM": "PAN1",
         "TIPO": "ESCUDO",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 3000,
         "NOMBRE": "PAN ESC"
     },
@@ -1507,7 +1507,7 @@
     {
         "NUM": "PAN4",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "ORLANDO MOSQUERA"
     },
@@ -1605,7 +1605,7 @@
     {
         "NUM": "PAN18",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "JOSE LUIS RODRIGUEZ"
     },
@@ -2102,7 +2102,7 @@
     {
         "NUM": "PAR1",
         "TIPO": "ESCUDO",
-        "CANT": 12,
+        "CANT": 11,
         "PRECIO": 3000,
         "NOMBRE": "PAR ESC"
     },
@@ -2340,7 +2340,7 @@
     {
         "NUM": "CAN13",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "STEPHEN EUSTAQUIO"
     },
@@ -2522,7 +2522,7 @@
     {
         "NUM": "CRC17",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "BRANDON AGUILERA"
     },
@@ -2571,7 +2571,7 @@
     {
         "NUM": "HON2",
         "TIPO": "EQUIPO",
-        "CANT": 9,
+        "CANT": 8,
         "PRECIO": 2000,
         "NOMBRE": "HON TEAM"
     },
@@ -2697,7 +2697,7 @@
     {
         "NUM": "HON20",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "ANTHONY LOZANO"
     },
@@ -2795,7 +2795,7 @@
     {
         "NUM": "TRI12",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "NOAH POWDER"
     },
@@ -2823,7 +2823,7 @@
     {
         "NUM": "TRI16",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "ANDRE RAMPERSAD"
     },
