@@ -17049,7 +17049,7 @@
             "Dia": "17/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -17325,6 +17325,22 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MARAVICTORIAGOZO",
+            "Vendidas": [
+                "ARG4",
+                "ARG11",
+                "ARG14",
+                "ARG19",
+                "ARG20"
+            ],
+            "NoVendidas": [],
+            "Dia": "20/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
