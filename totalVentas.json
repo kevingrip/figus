@@ -17215,6 +17215,45 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "POLOTITO",
+            "Vendidas": [
+                "ARG1",
+                "ARG9",
+                "CHI17",
+                "MEX13",
+                "ECU9",
+                "ECU19",
+                "JAM17",
+                "USA16",
+                "BOL6",
+                "BOL6",
+                "BOL14",
+                "BOL19",
+                "BOL20",
+                "CAN4",
+                "CAN9",
+                "CAN11",
+                "CAN13",
+                "CRC12",
+                "HON6",
+                "HON6",
+                "HON8",
+                "HON10",
+                "HON11",
+                "HON17",
+                "TRI12",
+                "LEG7"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "20/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
