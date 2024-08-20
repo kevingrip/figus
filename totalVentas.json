@@ -17166,6 +17166,33 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GONZA ALBITE",
+            "Vendidas": [
+                "CAN1",
+                "LEG12",
+                "LEG18",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "BARLASINAJAVIER20221011145943",
+            "Vendidas": [
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
