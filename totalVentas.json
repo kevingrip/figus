@@ -17136,7 +17136,7 @@
             "Dia": "19/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -17164,7 +17164,7 @@
             "Dia": "19/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -17179,8 +17179,8 @@
             "Dia": "19/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "BARLASINAJAVIER20221011145943",
@@ -17191,8 +17191,8 @@
             "Dia": "19/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MARIALUZAGOSTA",
@@ -17213,8 +17213,8 @@
             "Dia": "19/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "POLOTITO",
@@ -17252,8 +17252,79 @@
             "Dia": "20/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "NICOMAZA",
+            "Vendidas": [
+                "INT1",
+                "HCI2",
+                "HCI3",
+                "HCI7",
+                "HCI9",
+                "ARG1",
+                "ARG7",
+                "ARG12",
+                "ARG14",
+                "ARG20",
+                "PER7",
+                "PER9",
+                "PER10",
+                "PER15",
+                "CHI1",
+                "CHI3",
+                "CHI7",
+                "CHI14",
+                "ECU1",
+                "ECU2",
+                "ECU19",
+                "VEN2",
+                "VEN4",
+                "VEN5",
+                "VEN6",
+                "VEN13",
+                "VEN17",
+                "JAM5",
+                "JAM7",
+                "JAM9",
+                "JAM11",
+                "USA13",
+                "USA21",
+                "PAN7",
+                "PAN10",
+                "PAN12",
+                "BRA8",
+                "COL1",
+                "COL2",
+                "COL11",
+                "COL17",
+                "PAR8",
+                "PAR10",
+                "PAR18",
+                "CAN12",
+                "CAN16",
+                "CAN18",
+                "CRC2",
+                "CRC9",
+                "HON1",
+                "HON8",
+                "HON10",
+                "HON13",
+                "TRI11",
+                "LEG4",
+                "LEG7",
+                "LEG8",
+                "LEG12"
+            ],
+            "NoVendidas": [
+                "CHI10"
+            ],
+            "Dia": "20/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
