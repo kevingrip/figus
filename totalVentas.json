@@ -17529,8 +17529,8 @@
             "Dia": "22/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "PODI1517551",
@@ -17573,6 +17573,58 @@
             "Dia": "22/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "OROZCOROSANA71",
+            "Vendidas": [
+                "INT1",
+                "PER1",
+                "PER9",
+                "PER10",
+                "CHI5",
+                "CHI10",
+                "MEX2",
+                "MEX13",
+                "ECU1",
+                "ECU4",
+                "ECU6",
+                "ECU8",
+                "ECU13",
+                "VEN2",
+                "VEN9",
+                "VEN12",
+                "VEN13",
+                "VEN21",
+                "VEN22",
+                "JAM14",
+                "USA13",
+                "URU1",
+                "PAN22",
+                "BOL7",
+                "BOL8",
+                "BOL10",
+                "BOL12",
+                "BOL15",
+                "BRA7",
+                "BRA9",
+                "BRA21",
+                "COL2",
+                "COL3",
+                "CAN7",
+                "CRC11",
+                "LEG5",
+                "LEG15"
+            ],
+            "NoVendidas": [
+                "USA16",
+                "ROH1",
+                "ROH2"
+            ],
+            "Dia": "22/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
@@ -27914,8 +27966,8 @@
             "Dia": "22/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
