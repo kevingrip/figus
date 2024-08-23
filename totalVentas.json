@@ -17625,8 +17625,8 @@
             "Dia": "22/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MYM AMBIENTAL",
@@ -17650,8 +17650,78 @@
             "Dia": "23/08/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "DOLORESMARAROQUE",
+            "Vendidas": [
+                "HCI3",
+                "PER7",
+                "PER10",
+                "MEX5",
+                "MEX20",
+                "ECU11",
+                "ECU19",
+                "ECU20",
+                "VEN2",
+                "VEN20",
+                "PAN3",
+                "BRA6",
+                "BRA10",
+                "COL16",
+                "PAR8",
+                "PAR17",
+                "CAN8"
+            ],
+            "NoVendidas": [
+                "ECU8"
+            ],
+            "Dia": "23/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "JIMENABRASI",
+            "Vendidas": [
+                "INT2",
+                "ARG3",
+                "ARG6",
+                "ARG19",
+                "ARG21"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ELRAFAGOL",
+            "Vendidas": [
+                "ECU14"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "FERRETERIA IGLESIAS",
+            "Vendidas": [
+                "CHI9"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -27993,6 +28063,36 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GUADALUPEPEREZMOYANO",
+            "Vendidas": [
+                "ARG1",
+                "ARG2",
+                "C3"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MAR_MOGLIA",
+            "Vendidas": [
+                "FWC29",
+                "ARG8",
+                "ARG17",
+                "BEL16",
+                "CMR11"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
