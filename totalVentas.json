@@ -28140,6 +28140,20 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ANCIEC",
+            "Vendidas": [
+                "FWC6",
+                "ENG1",
+                "MEX1"
+            ],
+            "NoVendidas": [],
+            "Dia": "24/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
