@@ -17722,6 +17722,19 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "TOMASMADERO",
+            "Vendidas": [
+                "INT3",
+                "CRC15"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
