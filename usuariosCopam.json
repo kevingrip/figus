@@ -28994,6 +28994,33 @@
                 "CRC15",
                 "INT3"
             ]
+        },
+        {
+            "usuario": "LSRUR",
+            "figusPedidas": [
+                "ARG7",
+                "BOL5",
+                "CAN3",
+                "CRC1",
+                "ECU22",
+                "ECU4",
+                "HCI7",
+                "HON16",
+                "HON18",
+                "INT2",
+                "INT4",
+                "MEX10",
+                "MEX15",
+                "MEX18",
+                "MEX20",
+                "PAN6",
+                "PAR17",
+                "PER10",
+                "PER16",
+                "PER2",
+                "TRI1",
+                "USA12"
+            ]
         }
     ]
 }

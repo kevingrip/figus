@@ -17735,6 +17735,40 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LSRUR",
+            "Vendidas": [
+                "INT4",
+                "HCI7",
+                "ARG7",
+                "PER2",
+                "PER10",
+                "PER16",
+                "MEX10",
+                "MEX15",
+                "MEX18",
+                "MEX20",
+                "ECU4",
+                "ECU22",
+                "USA12",
+                "PAN6",
+                "BOL5",
+                "PAR17",
+                "CAN3",
+                "CRC1",
+                "HON16",
+                "HON18",
+                "TRI1"
+            ],
+            "NoVendidas": [
+                "INT2"
+            ],
+            "Dia": "24/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
