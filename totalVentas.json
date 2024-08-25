@@ -17805,6 +17805,18 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "GRABADOS.2020",
+            "Vendidas": [
+                "LEG15"
+            ],
+            "NoVendidas": ["INT3"],
+            "Dia": "25/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
