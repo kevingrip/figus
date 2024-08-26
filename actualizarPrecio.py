@@ -5,8 +5,8 @@ from bases import*
 base = baseMundial()
 
 for linea in base:
-    if linea["TIPO"]=='Comunes' and linea["PRECIO"]==750:
-        linea["PRECIO"]=1000
+    if linea["TIPO"]=='FWCD' and linea["PRECIO"]==4500:
+        linea["PRECIO"]=6000
         print(linea)
 
     
