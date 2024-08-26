@@ -17905,6 +17905,20 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "OMAR_FREIRE",
+            "Vendidas": [
+                "INT2",
+                "VEN15",
+                "LEG6"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
