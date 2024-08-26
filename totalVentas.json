@@ -17811,8 +17811,71 @@
             "Vendidas": [
                 "LEG15"
             ],
-            "NoVendidas": ["INT3"],
+            "NoVendidas": [
+                "INT3"
+            ],
             "Dia": "25/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LEANDRO2177",
+            "Vendidas": [
+                "INT1",
+                "ARG3",
+                "CHI15",
+                "CHI19",
+                "USA2",
+                "URU1",
+                "PAN14",
+                "BOL3",
+                "BOL8",
+                "TRI10",
+                "LEG9",
+                "LEG9",
+                "LEG14",
+                "LEG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "SOLFI2014",
+            "Vendidas": [
+                "INT4",
+                "CHI11",
+                "MEX4",
+                "MEX8",
+                "MEX17",
+                "VEN17",
+                "PAN8",
+                "BOL8",
+                "COL10",
+                "PAR19",
+                "CAN6",
+                "CRC14",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MARIAN_CAPO",
+            "Vendidas": [
+                "HCI6"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/08/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
