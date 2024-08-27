@@ -18053,7 +18053,6 @@
                 "CHI14",
                 "MEX1",
                 "ECU1",
-                "ECU7",
                 "VEN17",
                 "VEN19",
                 "JAM2",
@@ -18063,6 +18062,7 @@
                 "USA2",
                 "USA7",
                 "USA10",
+                "USA17",
                 "BRA5",
                 "PAR2",
                 "PAR6",
@@ -18076,6 +18076,19 @@
             "Dia": "27/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "TITIDIPAOLA",
+            "Vendidas": [
+                "ARG13",
+                "VEN15"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }

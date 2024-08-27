@@ -184,7 +184,7 @@
     {
         "NUM": "ARG13",
         "TIPO": "AFA",
-        "CANT": 16,
+        "CANT": 15,
         "PRECIO": 2500,
         "NOMBRE": "LEANDRO PAREDES"
     },
@@ -758,7 +758,7 @@
     {
         "NUM": "ECU7",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "ANGELO PRECIADO"
     },
@@ -968,7 +968,7 @@
     {
         "NUM": "VEN15",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "TOMAS RINCON"
     },
@@ -1290,7 +1290,7 @@
     {
         "NUM": "USA17",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "BRENDEN AARONSON"
     },
