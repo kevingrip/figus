@@ -17919,6 +17919,35 @@
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "FERNANDAPIERUZZINI",
+            "Vendidas": [
+                "HON5",
+                "TRI6"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MARCE8275",
+            "Vendidas": [
+                "ARG1",
+                "ARG18"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT2"
+            ],
+            "Dia": "26/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
