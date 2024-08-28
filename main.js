@@ -219,7 +219,7 @@ const totalVentas = () =>{
                     // console.log(figuVend)
                     let figuVenTab = figuVend.replace(/,/g,"\u00A0\u00A0\u00A0\u00A0")
                     figusVendidas.textContent = `${figuVenTab}`
-                    figusNoVendidas.textContent = `${figuNoVend}`
+                    figusNoVendidas.textContent = figuNoVend.length>0?`No Vendidas: ${figuNoVend}`:'';
                     figusNoVendidas.style.color = 'red'
 
                     if (objeto["usuario"].includes('BOSCAROLNOELIA')||objeto["usuario"].includes('DANILOJAVIERBROGLIA')||objeto["usuario"].includes('ADELA')){
@@ -281,10 +281,10 @@ const totalVentas = () =>{
                     objetoDiv.appendChild(nombreAlbum);
                     objetoDiv.appendChild(nombreUsuario);
                     objetoDiv.appendChild(cantidad);
-                    objetoDiv.appendChild(figusVendidas);
+                    objetoDiv.appendChild(figusVendidas);                    
+                    objetoDiv.appendChild(tipoEnvio);
                     objetoDiv.appendChild(figusNoVendidas);
                     objetoDiv.appendChild(nombreCuenta);
-                    objetoDiv.appendChild(tipoEnvio);
                     objetoDiv.appendChild(dia);
                     objetoDiv.appendChild(button)
                     
