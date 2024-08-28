@@ -18091,6 +18091,33 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "VANIVAZQ",
+            "Vendidas": [
+                "VEN19",
+                "USA2",
+                "USA7",
+                "USA8",
+                "USA14",
+                "PAN20",
+                "PAN22",
+                "BOL15",
+                "BOL18",
+                "PAR22",
+                "TRI17",
+                "TRI18"
+            ],
+            "NoVendidas": [
+                "VEN20",
+                "USA16",
+                "ROH1"
+            ],
+            "Dia": "27/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
