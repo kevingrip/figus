@@ -18250,6 +18250,27 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GORO8234502",
+            "Vendidas": [
+                "ECU11",
+                "USA21",
+                "BOL4",
+                "BOL5",
+                "BRA4",
+                "BRA22",
+                "COL13",
+                "PAR14",
+                "PAR19",
+                "CAN3"
+            ],
+            "NoVendidas": [],
+            "Dia": "29/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
