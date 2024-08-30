@@ -18310,6 +18310,65 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "COVUCCIVERONICA",
+            "Vendidas": [
+                "INT4",
+                "VEN7",
+                "VEN19",
+                "JAM16",
+                "COL7",
+                "PAR14",
+                "CRC10",
+                "TRI4",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "30/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "FEDEROCAMPO",
+            "Vendidas": [
+                "INT4",
+                "ARG22",
+                "VEN12",
+                "BRA14"
+            ],
+            "NoVendidas": [],
+            "Dia": "30/08/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "HEJO9135988",
+            "Vendidas": [
+                "INT4",
+                "HCI10",
+                "ARG9",
+                "VEN1",
+                "VEN11",
+                "VEN16",
+                "JAM10",
+                "PAN1",
+                "PAN5",
+                "COL11",
+                "PAR22"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "30/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
