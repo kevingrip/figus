@@ -18269,6 +18269,45 @@
             "Dia": "29/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "LAFASE",
+            "Vendidas": [
+                "HCI1",
+                "HCI6",
+                "PER3",
+                "PER5",
+                "CHI10",
+                "MEX4",
+                "MEX14",
+                "ECU6",
+                "ECU10",
+                "ECU18",
+                "VEN15",
+                "JAM10",
+                "USA7",
+                "USA19",
+                "BOL18",
+                "BRA4",
+                "CAN18",
+                "CRC10",
+                "CRC13",
+                "CRC17",
+                "HON8",
+                "TRI3",
+                "TRI5",
+                "LEG14"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "INT3",
+                "USA10"
+            ],
+            "Dia": "30/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
