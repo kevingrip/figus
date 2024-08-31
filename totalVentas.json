@@ -18743,6 +18743,25 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "SILVANA CUTULI",
+            "Vendidas": [
+                "CHI15",
+                "PAN9",
+                "COL1",
+                "COL9",
+                "COL18"
+            ],
+            "NoVendidas": [                
+                "LEG9",
+                "col 9 sin stock"
+            ],
+            "Dia": "31/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
