@@ -18822,6 +18822,29 @@
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "JOSEFINADONOFRIO",
+            "Vendidas": [
+                "INT1",
+                "ARG2",
+                "ARG14",
+                "PER17",
+                "VEN3",
+                "JAM17",
+                "USA1",
+                "PAN2",
+                "LEG1",
+                "LEG13"
+            ],
+            "NoVendidas": [
+                "INT2"
+            ],
+            "Dia": "01/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
