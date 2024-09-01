@@ -18694,8 +18694,7 @@
         },
         {
             "usuario": "GAEF730",
-            "Vendidas": [
-                "ARG17",
+            "Vendidas": [                
                 "PER2",
                 "PER9",
                 "CHI1",
@@ -18735,7 +18734,8 @@
                 "TRI15",
                 "TRI17",
                 "LEG9",
-                "LEG10"
+                "LEG10",
+                "LEG13"
             ],
             "NoVendidas": [],
             "Dia": "31/08/2024",
