@@ -18694,7 +18694,7 @@
         },
         {
             "usuario": "GAEF730",
-            "Vendidas": [                
+            "Vendidas": [
                 "PER2",
                 "PER9",
                 "CHI1",
@@ -18753,11 +18753,57 @@
                 "COL9",
                 "COL18"
             ],
-            "NoVendidas": [                
+            "NoVendidas": [
                 "LEG9",
                 "col 9 sin stock"
             ],
             "Dia": "31/08/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "GUZMNSILVINA",
+            "Vendidas": [
+                "PER5",
+                "PER9",
+                "PER13",
+                "MEX15",
+                "MEX20",
+                "ECU11",
+                "ECU12",
+                "ECU14",
+                "ECU16",
+                "ECU18",
+                "ECU21",
+                "JAM13",
+                "USA10",
+                "USA13",
+                "USA20",
+                "CAN6",
+                "HON10",
+                "TRI11",
+                "LEG7"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "ROH1"
+            ],
+            "Dia": "01/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ROCHITASP",
+            "Vendidas": [
+                "INT4",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "01/09/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",

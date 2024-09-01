@@ -30339,6 +30339,39 @@
                 "USA20",
                 "VEN19"
             ]
+        },
+        {
+            "usuario": "GUZMNSILVINA",
+            "figusPedidas": [
+                "CAN6",
+                "ECU11",
+                "ECU12",
+                "ECU14",
+                "ECU16",
+                "ECU18",
+                "ECU21",
+                "HON10",
+                "INT2",
+                "JAM13",
+                "LEG7",
+                "MEX15",
+                "MEX20",
+                "PER13",
+                "PER5",
+                "PER9",
+                "ROH1",
+                "TRI11",
+                "USA10",
+                "USA13",
+                "USA20"
+            ]
+        },
+        {
+            "usuario": "ROCHITASP",
+            "figusPedidas": [
+                "INT4",
+                "LEG18"
+            ]
         }
     ]
 }
