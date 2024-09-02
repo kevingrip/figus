@@ -30552,6 +30552,51 @@
                 "JAM19",
                 "PAR17"
             ]
+        },
+        {
+            "usuario": "ROMA2260",
+            "figusPedidas": [
+                "INT1",
+                "INT2",
+                "INT3"
+            ]
+        },
+        {
+            "usuario": "MEMA6718589",
+            "figusPedidas": [
+                "INT4"
+            ]
+        },
+        {
+            "usuario": "MAGDAOK",
+            "figusPedidas": [
+                "ARG2",
+                "CAN4",
+                "CHI10",
+                "INT1",
+                "INT2",
+                "LEG12",
+                "ROH1",
+                "USA16"
+            ]
+        },
+        {
+            "usuario": "FERMINLEGUINECHE",
+            "figusPedidas": [
+                "BRA11",
+                "BRA17",
+                "LEG15",
+                "MEX14",
+                "VEN13"
+            ]
+        },
+        {
+            "usuario": "MFBLANCO",
+            "figusPedidas": [
+                "BRA16",
+                "CAN19",
+                "VEN12"
+            ]
         }
     ]
 }

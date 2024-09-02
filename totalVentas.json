@@ -18862,6 +18862,7 @@
                 "PER3",
                 "PER5",
                 "PER8",
+                "PER10",
                 "PER22",
                 "CHI1",
                 "CHI2",
@@ -18956,7 +18957,6 @@
             ],
             "NoVendidas": [
                 "CRC10",
-                "PER10",
                 "VEN12",
                 "USA20"
             ],
