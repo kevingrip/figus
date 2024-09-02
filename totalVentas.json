@@ -18935,20 +18935,7 @@
                 "LEG1",
                 "LEG4",
                 "LEG12",
-                "LEG13"
-            ],
-            "NoVendidas": [
-                "CRC10"
-            ],
-            "Dia": "01/09/2024",
-            "Cuenta": "KEVIN",
-            "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
-        },
-        {
-            "usuario": "Gustavo Daniel Abdelnur",
-            "Vendidas": [
+                "LEG13",
                 "VEN2",
                 "VEN4",
                 "VEN5",
@@ -18970,10 +18957,11 @@
                 "ROH2"
             ],
             "NoVendidas": [
+                "CRC10",
                 "VEN12",
                 "USA20"
             ],
-            "Dia": "02/09/2024",
+            "Dia": "01/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
