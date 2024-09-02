@@ -18945,6 +18945,39 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "Gustavo Daniel Abdelnur",
+            "Vendidas": [
+                "VEN2",
+                "VEN4",
+                "VEN5",
+                "VEN17",
+                "JAM6",
+                "JAM7",
+                "JAM8",
+                "JAM10",
+                "JAM12",
+                "JAM14",
+                "JAM15",
+                "JAM20",
+                "USA2",
+                "USA8",
+                "USA11",
+                "USA12",
+                "USA13",
+                "USA17",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "VEN12",
+                "USA20"
+            ],
+            "Dia": "02/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

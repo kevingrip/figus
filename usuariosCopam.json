@@ -30534,7 +30534,8 @@
                 "VEN17",
                 "VEN2",
                 "VEN4",
-                "VEN5"
+                "VEN5",
+                "ROH2"
             ]
         },
         {
@@ -30542,6 +30543,14 @@
             "figusPedidas": [
                 "INT1",
                 "INT2"
+            ]
+        },
+        {
+            "usuario": "NECO6649305",
+            "figusPedidas": [
+                "INT2",
+                "JAM19",
+                "PAR17"
             ]
         }
     ]
