@@ -18617,8 +18617,8 @@
             "Dia": "30/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "AZAB4791238",
@@ -18628,6 +18628,7 @@
                 "PER4",
                 "PER6",
                 "PER8",
+                "PER10",
                 "PER11",
                 "PER12",
                 "PER14",
@@ -18670,14 +18671,12 @@
                 "TRI18",
                 "TRI22"
             ],
-            "NoVendidas": [
-                "PER10"
-            ],
+            "NoVendidas": [],
             "Dia": "30/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "jonathanProst",
@@ -18741,8 +18740,8 @@
             "Dia": "31/08/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "SILVANA CUTULI",
@@ -18761,7 +18760,7 @@
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "GUZMNSILVINA",
@@ -18793,8 +18792,8 @@
             "Dia": "01/09/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ROCHITASP",
@@ -18807,7 +18806,7 @@
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DIEGAA2003",
@@ -18821,7 +18820,7 @@
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "JOSEFINADONOFRIO",
@@ -18843,8 +18842,8 @@
             "Dia": "01/09/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "GUS_ABD",
@@ -18863,7 +18862,6 @@
                 "PER3",
                 "PER5",
                 "PER8",
-                "PER10",
                 "PER22",
                 "CHI1",
                 "CHI2",
@@ -18958,6 +18956,7 @@
             ],
             "NoVendidas": [
                 "CRC10",
+                "PER10",
                 "VEN12",
                 "USA20"
             ],
@@ -18965,7 +18964,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -29349,7 +29348,7 @@
             "Dia": "24/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
