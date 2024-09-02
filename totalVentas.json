@@ -18965,6 +18965,22 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GABI8A",
+            "Vendidas": [
+                "ARG18",
+                "ARG21",
+                "BOL1",
+                "PAR13",
+                "CAN5"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
