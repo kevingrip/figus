@@ -18753,8 +18753,7 @@
                 "COL18"
             ],
             "NoVendidas": [
-                "LEG9",
-                "col 9 sin stock"
+                "LEG9"
             ],
             "Dia": "31/08/2024",
             "Cuenta": "MATI",
@@ -18805,7 +18804,7 @@
             "Dia": "01/09/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -18953,17 +18952,16 @@
                 "USA12",
                 "USA13",
                 "USA17",
-                "ROH2"
-            ],
-            "NoVendidas": [
+                "ROH2",
                 "CRC10",
                 "VEN12",
                 "USA20"
             ],
+            "NoVendidas": [],
             "Dia": "01/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
