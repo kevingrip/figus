@@ -18977,7 +18977,7 @@
             "Dia": "02/09/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -19005,6 +19005,27 @@
             "Dia": "02/09/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GABRIELAAAIELLO15",
+            "Vendidas": [
+                "INT3",
+                "INT4",
+                "ARG6",
+                "ARG11",
+                "ARG14",
+                "ARG19",
+                "ARG22",
+                "CHI1",
+                "CHI6",
+                "ROH1"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
