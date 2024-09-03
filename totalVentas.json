@@ -18978,7 +18978,7 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "FERNANDEZ MICA",
@@ -18989,6 +18989,22 @@
             "Dia": "02/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "FERMINLEGUINECHE",
+            "Vendidas": [
+                "MEX14",
+                "VEN13",
+                "BRA11",
+                "BRA17",
+                "LEG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
