@@ -18989,8 +18989,8 @@
             "Dia": "02/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "FERMINLEGUINECHE",
@@ -19026,8 +19026,8 @@
             "Dia": "03/09/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "VERONICALORENASANTORO",
@@ -19038,6 +19038,25 @@
                 "LEG10",
                 "LEG11",
                 "LEG14"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "SANTICIL",
+            "Vendidas": [
+                "CHI19",
+                "USA19",
+                "URU2",
+                "BOL7",
+                "BOL8",
+                "PAR11",
+                "CRC7",
+                "TRI12"
             ],
             "NoVendidas": [],
             "Dia": "03/09/2024",
