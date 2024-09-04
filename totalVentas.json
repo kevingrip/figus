@@ -19062,8 +19062,8 @@
             "Dia": "03/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LUCIAPAULINAFAGUNDEZ",
@@ -19085,8 +19085,8 @@
             "Dia": "03/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "NICOSJ",
@@ -19099,8 +19099,8 @@
             "Dia": "03/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "RIALIGNACIO",
@@ -19145,8 +19145,8 @@
             "Dia": "03/09/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "FERYAV",
@@ -19160,8 +19160,8 @@
             "Dia": "04/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "VIRGINIACASTELLA",
@@ -19192,8 +19192,38 @@
             "Dia": "04/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GUILLERMOCARRIZO",
+            "Vendidas": [
+                "ARG6",
+                "PER12",
+                "PER18",
+                "CHI2",
+                "CHI8",
+                "CHI16",
+                "CHI20",
+                "ECU4",
+                "VEN3",
+                "VEN14",
+                "JAM7",
+                "JAM11",
+                "BOL20",
+                "BOL22",
+                "HON13",
+                "TRI2",
+                "LEG5"
+            ],
+            "NoVendidas": [
+                "USA7"
+            ],
+            "Dia": "04/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
