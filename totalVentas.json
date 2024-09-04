@@ -19064,6 +19064,89 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LUCIAPAULINAFAGUNDEZ",
+            "Vendidas": [
+                "PER1",
+                "PER7",
+                "CHI1",
+                "CHI19",
+                "ECU17",
+                "USA1",
+                "BOL1",
+                "CRC13",
+                "TRI1"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT2"
+            ],
+            "Dia": "03/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NICOSJ",
+            "Vendidas": [
+                "PAR1",
+                "CRC2",
+                "LEG6"
+            ],
+            "NoVendidas": [],
+            "Dia": "03/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "RIALIGNACIO",
+            "Vendidas": [
+                "HCI5",
+                "HCI9",
+                "HCI10",
+                "PER7",
+                "PER11",
+                "PER13",
+                "PER15",
+                "CHI2",
+                "CHI12",
+                "MEX1",
+                "MEX2",
+                "MEX9",
+                "MEX15",
+                "MEX17",
+                "JAM9",
+                "BOL12",
+                "BOL16",
+                "PAR16",
+                "PAR22",
+                "CAN5",
+                "CAN10",
+                "CAN11",
+                "CAN12",
+                "CAN22",
+                "CRC3",
+                "CRC6",
+                "CRC9",
+                "LEG1",
+                "LEG6",
+                "LEG7",
+                "LEG8",
+                "LEG15"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "INT4"
+            ],
+            "Dia": "03/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
