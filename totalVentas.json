@@ -19224,6 +19224,24 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MAMA6604498",
+            "Vendidas": [
+                "ECU1",
+                "BOL1",
+                "HON4",
+                "TRI12"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "ROH2"
+            ],
+            "Dia": "04/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
