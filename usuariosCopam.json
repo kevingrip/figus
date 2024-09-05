@@ -30876,6 +30876,55 @@
                 "JAM17",
                 "USA21"
             ]
+        },
+        {
+            "usuario": "GOMEZBELEN20231207151422",
+            "figusPedidas": [
+                "ARG10",
+                "ARG12",
+                "ARG19",
+                "ARG21",
+                "ARG22",
+                "ARG8"
+            ]
+        },
+        {
+            "usuario": "FECE6816559",
+            "figusPedidas": [
+                "CAN10",
+                "CRC2",
+                "HCI10",
+                "HON10",
+                "HON12",
+                "HON6",
+                "INT3",
+                "MEX4",
+                "PAN16",
+                "PAR16",
+                "PAR4",
+                "TRI17",
+                "USA15",
+                "VEN10",
+                "VEN2",
+                "VEN20"
+            ]
+        },
+        {
+            "usuario": "NANGRAVOL",
+            "figusPedidas": [
+                "ARG12",
+                "BRA20",
+                "CRC2",
+                "CRC4",
+                "HCI10",
+                "INT1",
+                "INT3",
+                "PER14",
+                "URU2",
+                "VEN12",
+                "VEN18",
+                "VEN5"
+            ]
         }
     ]
 }

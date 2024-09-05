@@ -19258,6 +19258,58 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "FECE6816559",
+            "Vendidas": [
+                "HCI10",
+                "MEX4",
+                "VEN2",
+                "VEN10",
+                "VEN20",
+                "USA15",
+                "PAN16",
+                "PAR4",
+                "PAR16",
+                "CAN10",
+                "CRC2",
+                "HON10",
+                "HON12",
+                "TRI17"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "HON6"
+            ],
+            "Dia": "04/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NANGRAVOL",
+            "Vendidas": [
+                "HCI10",
+                "ARG12",
+                "PER14",
+                "VEN5",
+                "VEN12",
+                "VEN18",
+                "URU2",
+                "BRA20",
+                "CRC2",
+                "CRC4"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT3"
+            ],
+            "Dia": "04/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
