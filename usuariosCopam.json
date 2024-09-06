@@ -30982,6 +30982,61 @@
                 "PAN9",
                 "VEN7"
             ]
+        },
+        {
+            "usuario": "MQSALBERTO",
+            "figusPedidas": [
+                "ARG19",
+                "ARG21",
+                "PAR2"
+            ]
+        },
+        {
+            "usuario": "DANIELACHAHER",
+            "figusPedidas": [
+                "BRA21",
+                "BRA9",
+                "ECU17",
+                "HCI5",
+                "HON11",
+                "JAM13",
+                "PAN11",
+                "PAN22",
+                "PER7",
+                "TRI5"
+            ]
+        },
+        {
+            "usuario": "TIENDAFABRIC",
+            "figusPedidas": [
+                "ARG12",
+                "ARG17",
+                "ARG19",
+                "ARG21",
+                "ARG3",
+                "ARG57",
+                "ARG9",
+                "HCI1",
+                "HCI10",
+                "HCI2",
+                "HCI8",
+                "LEG12",
+                "LEG13",
+                "LEG14",
+                "LEG17",
+                "LEG2",
+                "LEG3",
+                "LEG6",
+                "LEG7"
+            ]
+        },
+        {
+            "usuario": "ARMESTOLETICIA",
+            "figusPedidas": [
+                "INT1",
+                "INT4",
+                "JAM4"
+            ]
         }
     ]
 }

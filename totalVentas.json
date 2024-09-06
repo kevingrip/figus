@@ -19333,8 +19333,8 @@
             "Dia": "05/09/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "SEBAMAX",
@@ -19381,6 +19381,57 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "DANIELACHAHER",
+            "Vendidas": [
+                "HCI5",
+                "PER7",
+                "ECU17",
+                "JAM13",
+                "PAN11",
+                "PAN22",
+                "BRA9",
+                "BRA21",
+                "HON11",
+                "TRI5"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "TIENDAFABRIC",
+            "Vendidas": [
+                "HCI1",
+                "HCI2",
+                "HCI8",
+                "ARG3",
+                "ARG9",
+                "ARG12",
+                "ARG17",
+                "ARG19",
+                "ARG21",
+                "LEG2",
+                "LEG3",
+                "LEG6",
+                "LEG7",
+                "LEG12",
+                "LEG13",
+                "LEG14",
+                "LEG17"
+            ],
+            "NoVendidas": [
+                "HCI10"
+            ],
+            "Dia": "06/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
