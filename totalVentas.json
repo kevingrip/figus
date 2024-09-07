@@ -19432,6 +19432,34 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "ROMINACALZAS",
+            "Vendidas": [
+                "VEN2",
+                "VEN14",
+                "JAM17",
+                "BOL2",
+                "BOL5",
+                "COL14",
+                "PAR2",
+                "PAR15",
+                "PAR21",
+                "CRC21",
+                "HON4",
+                "HON21",
+                "TRI12",
+                "TRI15",
+                "LEG11"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "07/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
