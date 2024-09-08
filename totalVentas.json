@@ -19474,6 +19474,33 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "SALU2606894",
+            "Vendidas": [
+                "HCI3",
+                "PER4",
+                "MEX4",
+                "JAM2",
+                "PAN8",
+                "BRA20",
+                "COL1",
+                "CAN6",
+                "CRC5",
+                "CRC12",
+                "HON15",
+                "LEG1",
+                "LEG18"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "HCI10"
+            ],
+            "Dia": "07/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
