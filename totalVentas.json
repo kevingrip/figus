@@ -19458,6 +19458,20 @@
             "Dia": "07/09/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GONZALO.GSG",
+            "Vendidas": [
+                "PAN7",
+                "LEG2",
+                "LEG8"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
