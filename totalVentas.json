@@ -19471,7 +19471,7 @@
             "NoVendidas": [],
             "Dia": "07/09/2024",
             "Cuenta": "KEVIN",
-            "Envio": "CORREO",
+            "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         },
@@ -19543,6 +19543,20 @@
             "Dia": "09/09/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NICOLASPETRUZZI",
+            "Vendidas": [
+                "MEX17",
+                "ECU6",
+                "CAN12"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
