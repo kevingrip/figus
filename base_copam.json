@@ -44,7 +44,7 @@
     {
         "NUM": "HCI3",
         "TIPO": "CIUDAD",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 2000,
         "NOMBRE": "GLENDALE"
     },
@@ -100,7 +100,7 @@
     {
         "NUM": "ARG1",
         "TIPO": "ESCUDO",
-        "CANT": 9,
+        "CANT": 8,
         "PRECIO": 6000,
         "NOMBRE": "ARG ESC"
     },
@@ -149,14 +149,14 @@
     {
         "NUM": "ARG8",
         "TIPO": "AFA",
-        "CANT": 11,
+        "CANT": 10,
         "PRECIO": 2500,
         "NOMBRE": "LISANDRO MARTINEZ"
     },
     {
         "NUM": "ARG9",
         "TIPO": "AFA",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 2500,
         "NOMBRE": "MARCOS ACUNA"
     },
@@ -562,7 +562,7 @@
     {
         "NUM": "MEX1",
         "TIPO": "ESCUDO",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 3000,
         "NOMBRE": "MEX ESC"
     },
@@ -695,7 +695,7 @@
     {
         "NUM": "MEX20",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "URIEL ANTUNA"
     },
@@ -716,7 +716,7 @@
     {
         "NUM": "ECU1",
         "TIPO": "ESCUDO",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 3000,
         "NOMBRE": "ECU ESC"
     },
@@ -751,7 +751,7 @@
     {
         "NUM": "ECU6",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "FELIZ TORRES"
     },
@@ -870,7 +870,7 @@
     {
         "NUM": "VEN1",
         "TIPO": "ESCUDO",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 3000,
         "NOMBRE": "VEN ESC"
     },
@@ -1003,7 +1003,7 @@
     {
         "NUM": "VEN20",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "DARWIN MACHIS"
     },
@@ -1178,7 +1178,7 @@
     {
         "NUM": "USA1",
         "TIPO": "ESCUDO",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 3000,
         "NOMBRE": "USA ESC"
     },
@@ -1227,7 +1227,7 @@
     {
         "NUM": "USA8",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "TIM REAM"
     },
@@ -1486,7 +1486,7 @@
     {
         "NUM": "PAN1",
         "TIPO": "ESCUDO",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 3000,
         "NOMBRE": "PAN ESC"
     },
@@ -1661,7 +1661,7 @@
     {
         "NUM": "BOL4",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "GUILLERMO VISCARRA"
     },
@@ -1689,7 +1689,7 @@
     {
         "NUM": "BOL8",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "JAIRO QUINTEROS"
     },
@@ -2151,7 +2151,7 @@
     {
         "NUM": "PAR8",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "ROBERT ROJAS"
     },
@@ -2970,7 +2970,7 @@
     {
         "NUM": "LEG15",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 3500,
         "NOMBRE": "PAOLO GUERRERO"
     },

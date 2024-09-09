@@ -19472,8 +19472,8 @@
             "Dia": "07/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "SALU2606894",
@@ -19499,8 +19499,8 @@
             "Dia": "07/09/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "RODRIGUEZMACKRELL_R",
@@ -19557,6 +19557,34 @@
             "Dia": "09/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "DRAVEROH2011",
+            "Vendidas": [
+                "HCI3",
+                "ARG1",
+                "ARG8",
+                "ARG9",
+                "MEX1",
+                "MEX20",
+                "ECU1",
+                "ECU6",
+                "VEN1",
+                "VEN20",
+                "USA1",
+                "USA8",
+                "PAN1",
+                "BOL4",
+                "BOL8",
+                "PAR8",
+                "LEG15"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
