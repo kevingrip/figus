@@ -19430,8 +19430,8 @@
             "Dia": "06/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ROMINACALZAS",
@@ -19515,8 +19515,8 @@
             "Dia": "09/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "VAIV4149846",
@@ -19543,8 +19543,8 @@
             "Dia": "09/09/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "NICOLASPETRUZZI",
@@ -19585,8 +19585,8 @@
             "Dia": "09/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -30038,6 +30038,66 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "FACUM87",
+            "Vendidas": [
+                "AUS3",
+                "AUS14",
+                "AUS19",
+                "BEL1",
+                "BEL11",
+                "BEL12",
+                "BEL13",
+                "BEL16",
+                "CAN1",
+                "CAN3",
+                "CAN4",
+                "CAN6",
+                "CAN8",
+                "CAN13",
+                "CAN19",
+                "CRC1",
+                "CRC11",
+                "CRC15",
+                "CRC16",
+                "CRC19",
+                "CRO12",
+                "DEN1",
+                "DEN4",
+                "DEN6",
+                "DEN8",
+                "DEN15",
+                "DEN17",
+                "GER2",
+                "GER3",
+                "GER4",
+                "GER8",
+                "GER17",
+                "GER19",
+                "JPN6",
+                "JPN7",
+                "JPN11",
+                "JPN13",
+                "JPN16",
+                "JPN18",
+                "MAR1",
+                "MAR2",
+                "MAR11",
+                "MAR15",
+                "MAR17",
+                "MAR19",
+                "TUN4",
+                "TUN13",
+                "TUN14",
+                "TUN17"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
