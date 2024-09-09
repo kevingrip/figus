@@ -19517,6 +19517,34 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "VAIV4149846",
+            "Vendidas": [
+                "INT3",
+                "HCI4",
+                "HCI9",
+                "CHI19",
+                "ECU11",
+                "JAM4",
+                "PAN10",
+                "PAN12",
+                "BOL4",
+                "BRA2",
+                "PAR1",
+                "CAN17",
+                "CRC1",
+                "HON18",
+                "TRI1",
+                "TRI14",
+                "LEG18"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
