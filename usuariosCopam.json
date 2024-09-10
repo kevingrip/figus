@@ -31164,6 +31164,24 @@
                 "PER3",
                 "PER5"
             ]
+        },
+        {
+            "usuario": "LILI_MER",
+            "figusPedidas": [
+                "BOL13",
+                "CRC16",
+                "CRC8",
+                "ECU4",
+                "INT1",
+                "INT2",
+                "LEG15",
+                "LEG16",
+                "PAN14",
+                "PAN5",
+                "PAN8",
+                "TRI2",
+                "USA11"
+            ]
         }
     ]
 }

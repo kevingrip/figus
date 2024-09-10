@@ -737,7 +737,7 @@
     {
         "NUM": "ECU4",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "HERNAN GALINDEZ"
     },
@@ -1248,7 +1248,7 @@
     {
         "NUM": "USA11",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "JOE SCALLY"
     },
@@ -1514,7 +1514,7 @@
     {
         "NUM": "PAN5",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "ERIC DAVIS"
     },
@@ -1535,7 +1535,7 @@
     {
         "NUM": "PAN8",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 850,
         "NOMBRE": "ANDRES ANDRADE"
     },
@@ -1577,7 +1577,7 @@
     {
         "NUM": "PAN14",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "ANIBAL GODOY"
     },
@@ -1724,7 +1724,7 @@
     {
         "NUM": "BOL13",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "MIGUEL TERCEROS"
     },
@@ -2459,7 +2459,7 @@
     {
         "NUM": "CRC8",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "BRYAN OVIEDO"
     },
@@ -2515,7 +2515,7 @@
     {
         "NUM": "CRC16",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "RANDALL LEAL"
     },
@@ -2725,7 +2725,7 @@
     {
         "NUM": "TRI2",
         "TIPO": "EQUIPO",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 2000,
         "NOMBRE": "TRI TEAM"
     },
@@ -2970,14 +2970,14 @@
     {
         "NUM": "LEG15",
         "TIPO": "LEYENDA DORADA",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 3500,
         "NOMBRE": "PAOLO GUERRERO"
     },
     {
         "NUM": "LEG16",
         "TIPO": "LEYENDA",
-        "CANT": 10,
+        "CANT": 9,
         "PRECIO": 3000,
         "NOMBRE": "CAFU UP"
     },

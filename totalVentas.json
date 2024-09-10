@@ -18818,7 +18818,7 @@
             "Dia": "01/09/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -19587,6 +19587,31 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "LILI_MER",
+            "Vendidas": [
+                "ECU4",
+                "USA11",
+                "PAN5",
+                "PAN8",
+                "PAN14",
+                "BOL13",
+                "CRC8",
+                "CRC16",
+                "TRI2",
+                "LEG15",
+                "LEG16"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT2"
+            ],
+            "Dia": "10/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
