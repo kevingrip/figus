@@ -55,7 +55,7 @@ def procesadorMundial(figuritas,nombre,baseMundial):
         respuesta="Hola"+nombre+", "+hora()+"! No las tengo en stock en este momento. Consultame nuevamente en estos dias por si ingresan, saludos!"
     else:
         if len(excepto)>0:
-            if precio_total>=23000:
+            if precio_total>=28000:
                 if len(excepto) == 1:
                     respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+resto+" El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(precio_total) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación con envio gratis!"
                 else:
@@ -91,7 +91,7 @@ def procesadorMundial(figuritas,nombre,baseMundial):
                     else:
                         respuesta="Hola"+nombre+", "+hora()+"! De tu lista me "+falta+" "+excepto+resto+" El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(precio_total) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación. Saludos!"
         else:
-            if precio_total>=23000:
+            if precio_total>=28000:
                 respuesta="Hola"+nombre+", "+hora()+"! Si, las tengo todas en stock. El precio por las "+ str(cantidadTengo) + " figuritas originales es " + str(precio_total) + ". Confirmame si te sirve y actualizo el precio para que puedas realizar la compra en esta misma publicación con envio gratis!"
             else:
                 if (precio_total/cantidadTengo) == 750:

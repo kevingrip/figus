@@ -31204,36 +31204,6 @@
         {
             "usuario": "AISAJAVIER20230107181303",
             "figusPedidas": [
-                "ECU1",
-                "ECU12",
-                "ECU21",
-                "ECU3",
-                "INT2",
-                "INT3",
-                "INT4",
-                "JAM13",
-                "JAM14",
-                "JAM21",
-                "JAM22",
-                "JAM3",
-                "JAM8",
-                "MEX11",
-                "MEX12",
-                "MEX14",
-                "MEX17",
-                "USA11",
-                "VEN10",
-                "VEN13",
-                "VEN15",
-                "VEN17",
-                "VEN22",
-                "VEN3",
-                "VEN8"
-            ]
-        },
-        {
-            "usuario": "AISAJAVIER20230107181303",
-            "figusPedidas": [
                 "BOL11",
                 "BOL18",
                 "BOL19",
@@ -31338,6 +31308,20 @@
             "figusPedidas": [
                 "INT1",
                 "PAN10"
+            ]
+        },
+        {
+            "usuario": "NATALIACARINELLI",
+            "figusPedidas": [
+                "ARG2",
+                "ARG21",
+                "ARG3",
+                "HCI4",
+                "HCI8",
+                "HCI9",
+                "LEG1",
+                "LEG14",
+                "LEG8"
             ]
         }
     ]
