@@ -19612,6 +19612,30 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LSCORZA",
+            "Vendidas": [
+                "CHI8",
+                "ECU18",
+                "JAM18",
+                "JAM21",
+                "USA8",
+                "USA20",
+                "COL2",
+                "PAR9",
+                "CRC6",
+                "CRC15",
+                "CRC16",
+                "CRC17",
+                "CRC18"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
