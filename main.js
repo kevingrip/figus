@@ -501,8 +501,11 @@ const buscarFigus = () => {
                     mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio*2}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
                 }else if (totalPrecio<4000){
                     mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio+1500}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
-                }else{
+                }else if (totalPrecio<=25500){
                     mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio+2000}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                }
+                else{
+                    mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
                 }
                 
             }
