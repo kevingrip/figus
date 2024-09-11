@@ -211,6 +211,8 @@ if (album == "Mundial Qatar 2022"):
 
                 if len(paisesError)>0:
                     validacionPaises = False
+                else:
+                    ValidacionNum = checkNum(figulista,album)
 
 
                 if validacionPaises == True:
@@ -660,7 +662,7 @@ elif (album == "Copa America 2024"):
                 else:
                     ValidacionNum = checkNum(figulista,album)
 
-                if validacionPaises == True:
+                if validacionPaises == True and ValidacionNum == True:
 
                     nuevoUsuario = {"usuario": usuario, "figusPedidas": figulista_sorted}
 
