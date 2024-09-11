@@ -657,6 +657,8 @@ elif (album == "Copa America 2024"):
 
                 if len(paisesError)>0:
                     validacionPaises = False
+                else:
+                    ValidacionNum = checkNum(figulista,album)
 
                 if validacionPaises == True:
 
