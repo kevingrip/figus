@@ -19610,8 +19610,8 @@
             "Dia": "10/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LSCORZA",
@@ -19634,8 +19634,8 @@
             "Dia": "10/09/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "AISAJAVIER20230107181303",
@@ -19687,8 +19687,8 @@
             "Dia": "11/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "NATALIACARINELLI",
@@ -19779,6 +19779,26 @@
             ],
             "Dia": "11/09/2024",
             "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "CINTHI22",
+            "Vendidas": [
+                "PER3",
+                "PAN12",
+                "BRA13",
+                "COL7",
+                "COL13",
+                "CRC8",
+                "HON18",
+                "TRI2",
+                "TRI5"
+            ],
+            "NoVendidas": [],
+            "Dia": "11/09/2024",
+            "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
