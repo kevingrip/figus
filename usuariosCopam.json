@@ -31502,6 +31502,78 @@
                 "LEG5",
                 "USA14"
             ]
+        },
+        {
+            "usuario": "MELISAKSI",
+            "figusPedidas": [
+                "BOL19",
+                "COL1",
+                "CRC6",
+                "ECU11",
+                "ECU8",
+                "JAM21",
+                "JAM5",
+                "LEG12",
+                "LEG4",
+                "PAR14",
+                "PAR17",
+                "PAR9",
+                "USA11",
+                "USA7",
+                "VEN11",
+                "VEN5",
+                "VEN7"
+            ]
+        },
+        {
+            "usuario": "LIMAAGUSTIN09",
+            "figusPedidas": [
+                "ARG16",
+                "BOL14",
+                "BOL18",
+                "BOL19",
+                "BOL21",
+                "CAN5",
+                "CHI5",
+                "COL12",
+                "COL17",
+                "COL18",
+                "CRC22",
+                "CRC9",
+                "ECU10",
+                "ECU11",
+                "ECU13",
+                "ECU18",
+                "ECU2",
+                "HCI6",
+                "HCI9",
+                "HON10",
+                "JAM14",
+                "JAM18",
+                "JAM6",
+                "LEG13",
+                "MEX12",
+                "MEX18",
+                "MEX9",
+                "PAN17",
+                "PER11",
+                "PER3",
+                "TRI18"
+            ]
+        },
+        {
+            "usuario": "SUERO_ML",
+            "figusPedidas": [
+                "BOL2",
+                "CAN4",
+                "CRC6",
+                "CRC7",
+                "JAM1",
+                "USA18",
+                "USA8",
+                "VEN1",
+                "VEN6"
+            ]
         }
     ]
 }
