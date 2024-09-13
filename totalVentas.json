@@ -19883,8 +19883,8 @@
             "Dia": "12/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "SUERO_ML",
@@ -19916,8 +19916,8 @@
             "Dia": "12/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DUTTOANALIA20230801184818",
@@ -19930,6 +19930,25 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CRISTIANDMM",
+            "Vendidas": [
+                "ARG16",
+                "ARG17",
+                "PAN1",
+                "CRC1",
+                "LEG6"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "LEG14"
+            ],
+            "Dia": "13/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
