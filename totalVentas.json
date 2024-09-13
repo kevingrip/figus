@@ -855,6 +855,19 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "RAPAPORTEGUSTAVO",
+            "Vendidas": [
+                "351",
+                "511"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Copa America 2024": [
@@ -19892,7 +19905,7 @@
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "PEZLOPEZAGUILAR",
@@ -19905,6 +19918,18 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "DUTTOANALIA20230801184818",
+            "Vendidas": [
+                "ARG3"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
