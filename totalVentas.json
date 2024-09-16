@@ -18618,7 +18618,7 @@
             "Dia": "30/08/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -20019,6 +20019,23 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ANGELERIANSELMO",
+            "Vendidas": [
+                "ARG1",
+                "ARG2",
+                "ARG6",
+                "ARG9",
+                "ARG10",
+                "ARG16"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
