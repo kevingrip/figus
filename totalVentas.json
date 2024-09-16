@@ -19986,6 +19986,39 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "HIELODEYACOBISA",
+            "Vendidas": [
+                "ARG1",
+                "ARG3",
+                "ARG8",
+                "ARG9",
+                "ARG10",
+                "ARG17",
+                "ARG19",
+                "ARG21"
+            ],
+            "NoVendidas": [],
+            "Dia": "16/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "GAMA7974783",
+            "Vendidas": [
+                "ARG19"
+            ],
+            "NoVendidas": [
+                "INT3"
+            ],
+            "Dia": "16/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
