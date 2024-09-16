@@ -31699,6 +31699,38 @@
                 "ARG6",
                 "ARG9"
             ]
+        },
+        {
+            "usuario": "MAU1754",
+            "figusPedidas": [
+                "HCI8",
+                "PAN11",
+                "PER2",
+                "VEN5"
+            ]
+        },
+        {
+            "usuario": "LILIBARRA2010",
+            "figusPedidas": [
+                "BRA12",
+                "CAN17",
+                "MEX7",
+                "ROH2",
+                "USA8",
+                "VEN10",
+                "VEN22"
+            ]
+        },
+        {
+            "usuario": "LILIBARRA2010",
+            "figusPedidas": [
+                "ARG19",
+                "BRA12",
+                "CAN17",
+                "MEX7",
+                "VEN10",
+                "VEN22"
+            ]
         }
     ]
 }
