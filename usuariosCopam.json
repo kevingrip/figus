@@ -31655,6 +31655,39 @@
                 "ARG19",
                 "INT3"
             ]
+        },
+        {
+            "usuario": "QUIMDECOHOME",
+            "figusPedidas": [
+                "ARG10",
+                "ARG11",
+                "ARG12",
+                "ARG14",
+                "ARG19",
+                "ARG21",
+                "ARG3",
+                "ARG5",
+                "ARG8"
+            ]
+        },
+        {
+            "usuario": "MELISAKSI",
+            "figusPedidas": [
+                "COL12",
+                "CRC2",
+                "CRC6",
+                "ECU11",
+                "HON12",
+                "HON9",
+                "LEG16",
+                "LEG4",
+                "LEG6",
+                "PAN15",
+                "PAR21",
+                "ROH1",
+                "VEN17",
+                "VEN5"
+            ]
         }
     ]
 }
