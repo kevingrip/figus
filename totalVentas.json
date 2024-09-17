@@ -20034,8 +20034,8 @@
             "Dia": "16/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LILIBARRA2010",
@@ -20051,8 +20051,8 @@
             "Dia": "16/09/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ANARASCH87",
@@ -20063,6 +20063,23 @@
             "Dia": "16/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GEMPLATA925",
+            "Vendidas": [
+                "MEX7",
+                "JAM16",
+                "COL6",
+                "CAN17",
+                "LEG4",
+                "LEG7"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
