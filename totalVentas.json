@@ -20141,6 +20141,32 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MABIJULI2014",
+            "Vendidas": [
+                "CHI5",
+                "CHI7",
+                "VEN9",
+                "VEN19",
+                "JAM4",
+                "JAM6",
+                "USA9",
+                "BOL7",
+                "BOL8",
+                "BOL12",
+                "COL21",
+                "PAR5",
+                "CRC5",
+                "CRC7",
+                "HON21"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
