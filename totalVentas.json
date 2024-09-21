@@ -20245,6 +20245,40 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "FLACOGERMAN",
+            "Vendidas": [
+                "INT2",
+                "HCI10",
+                "ARG5",
+                "ARG7",
+                "PER10",
+                "PER11",
+                "CHI2",
+                "CHI7",
+                "MEX1",
+                "MEX2",
+                "MEX6",
+                "MEX8",
+                "MEX18",
+                "ECU2",
+                "ECU3",
+                "JAM1",
+                "URU1",
+                "BOL7",
+                "BRA1",
+                "COL1",
+                "COL3"
+            ],
+            "NoVendidas": [
+                "PER12"
+            ],
+            "Dia": "21/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
