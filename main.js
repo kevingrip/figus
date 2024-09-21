@@ -492,8 +492,9 @@ const buscarFigus = () => {
             if (totalPrecio/cantFigusStock === 850){
                 if (cantFigusStock<=3){
                     mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${cantFigusStock*2100}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
-                }else{
-                    mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${cantFigusStock*1100}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                }
+                else{
+                    mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${3*2100+(1000*(cantFigusStock-3))}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
                 }
                 
             }else{
@@ -502,7 +503,7 @@ const buscarFigus = () => {
                 }else if (totalPrecio<4000){
                     mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio+1500}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
                 }else if (totalPrecio<=25500){
-                    mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio+2000}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                    mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio+3000}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
                 }
                 else{
                     mensaje.textContent = `Si, las tengo en stock. El precio por las ${cantFigusStock} figuritas originales es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
