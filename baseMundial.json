@@ -73,7 +73,7 @@
     },
     {
         "NUM": "FWC8",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "TIPO": "FWCC",
         "DIA": "04/06/2024",
@@ -2323,8 +2323,8 @@
     },
     {
         "NUM": "FRA1",
-        "CANT": 1,
-        "PRECIO": 900,
+        "CANT": 0,
+        "PRECIO": 4500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
         "ACTUALIZACION": "21:17:46",
@@ -4204,7 +4204,7 @@
     },
     {
         "NUM": "POR1",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 4500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
