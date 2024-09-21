@@ -919,7 +919,7 @@
     {
         "NUM": "VEN8",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "MIGUEL NAVARRO"
     },
@@ -1549,7 +1549,7 @@
     {
         "NUM": "PAN10",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "CESAR BLACKMAN"
     },
@@ -1808,7 +1808,7 @@
     {
         "NUM": "BRA3",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "EDERSON"
     },
