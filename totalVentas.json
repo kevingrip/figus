@@ -20186,7 +20186,7 @@
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MALU9316805",
@@ -20292,7 +20292,7 @@
             "Cuenta": "MATI",
             "Envio": "FLEX",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LUCIANOPOTES",
@@ -20383,6 +20383,34 @@
             "Dia": "22/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LAFORZA",
+            "Vendidas": [
+                "HCI1",
+                "ARG1",
+                "VEN13",
+                "BOL11",
+                "BRA7",
+                "PAR17",
+                "PAR21",
+                "PAR22",
+                "CAN4",
+                "CAN13",
+                "CAN20",
+                "CRC6",
+                "CRC9",
+                "CRC17",
+                "LEG8"
+            ],
+            "NoVendidas": [
+                "CAN22"
+            ],
+            "Dia": "22/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
@@ -30909,7 +30937,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "JAQUELINAMORICONI",
@@ -30929,7 +30957,7 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "descontar",
