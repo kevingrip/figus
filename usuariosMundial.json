@@ -24882,6 +24882,26 @@
                 "KSA1",
                 "POR19"
             ]
+        },
+        {
+            "usuario": "descontar",
+            "figusPedidas": [
+                "ARG1",
+                "CRC1",
+                "FRA8",
+                "GER1",
+                "GER12",
+                "GHA4",
+                "JPN1",
+                "KOR11",
+                "KOR2",
+                "MAR18",
+                "MEX2",
+                "NED12",
+                "POL11",
+                "TUN3",
+                "WAL14"
+            ]
         }
     ]
 }

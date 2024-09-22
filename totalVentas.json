@@ -20293,6 +20293,47 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LUCIANOPOTES",
+            "Vendidas": [
+                "INT2",
+                "HCI4",
+                "ARG6",
+                "ARG7",
+                "ARG9",
+                "ARG10",
+                "ARG16",
+                "ARG18",
+                "ARG22",
+                "CHI8",
+                "MEX1",
+                "ECU22",
+                "VEN2",
+                "VEN20",
+                "JAM2",
+                "JAM14",
+                "USA20",
+                "PAN22",
+                "BOL2",
+                "BOL13",
+                "BOL20",
+                "PAR19",
+                "PAR22",
+                "CAN6",
+                "CAN22",
+                "CRC1",
+                "HON1",
+                "LEG12",
+                "LEG13",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -30838,6 +30879,32 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "descontar",
+            "Vendidas": [
+                "ARG1",
+                "CRC1",
+                "FRA8",
+                "GER1",
+                "GER12",
+                "GHA4",
+                "JPN1",
+                "KOR2",
+                "KOR11",
+                "MEX2",
+                "MAR18",
+                "NED12",
+                "POL11",
+                "TUN3",
+                "WAL14"
+            ],
+            "NoVendidas": [],
+            "Dia": "22/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
