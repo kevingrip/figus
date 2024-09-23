@@ -20433,6 +20433,46 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MONTESNADIA20221229105722",
+            "Vendidas": [
+                "BRA1",
+                "BRA22",
+                "COL2",
+                "CRC6"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "IRMIKLADDE",
+            "Vendidas": [
+                "ARG12",
+                "ARG14",
+                "ARG17",
+                "CHI1",
+                "MEX20",
+                "ECU16",
+                "PAN15",
+                "BRA1",
+                "PAR9",
+                "LEG2",
+                "LEG3"
+            ],
+            "NoVendidas": [
+                "INT2",
+                "ROH2"
+            ],
+            "Dia": "23/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
