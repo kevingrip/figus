@@ -107,14 +107,14 @@
     {
         "NUM": "ARG2",
         "TIPO": "AFA",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 3000,
         "NOMBRE": "TEAM ARG"
     },
     {
         "NUM": "ARG3",
         "TIPO": "AFA",
-        "CANT": 6,
+        "CANT": 5,
         "PRECIO": 3000,
         "NOMBRE": "EMILIANO MARTINEZ"
     },
@@ -128,7 +128,7 @@
     {
         "NUM": "ARG5",
         "TIPO": "AFA",
-        "CANT": 12,
+        "CANT": 11,
         "PRECIO": 2500,
         "NOMBRE": "NICOLAS OTAMENDI"
     },
@@ -1297,14 +1297,14 @@
     {
         "NUM": "USA18",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "TIMOTHY WEAH"
     },
     {
         "NUM": "USA19",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "MALIK TILLMAN"
     },
@@ -1486,7 +1486,7 @@
     {
         "NUM": "PAN1",
         "TIPO": "ESCUDO",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 3000,
         "NOMBRE": "PAN ESC"
     },
@@ -2410,7 +2410,7 @@
     {
         "NUM": "CRC1",
         "TIPO": "ESCUDO",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 3000,
         "NOMBRE": "CRC ESC"
     },
@@ -2620,7 +2620,7 @@
     {
         "NUM": "HON9",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "MARCELO SANTOS"
     },
@@ -2746,7 +2746,7 @@
     {
         "NUM": "TRI5",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "ROSS RUSSELL JR"
     },

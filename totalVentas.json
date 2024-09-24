@@ -20446,8 +20446,8 @@
             "Dia": "23/09/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "IRMIKLADDE",
@@ -20471,6 +20471,29 @@
             "Dia": "23/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ROBERTORAMOS84",
+            "Vendidas": [
+                "ARG2",
+                "ARG3",
+                "ARG5",
+                "USA18",
+                "USA19",
+                "PAN1",
+                "CRC1",
+                "HON9",
+                "TRI5"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT4"
+            ],
+            "Dia": "24/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
