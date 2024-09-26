@@ -20531,6 +20531,19 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "YSALAS2013",
+            "Vendidas": [
+                "ARG19",
+                "ARG22"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
