@@ -20542,8 +20542,23 @@
             "Dia": "26/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "GUIDONSM",
+            "Vendidas": [
+                "ARG14",
+                "PAN20",
+                "BRA1",
+                "TRI18"
+            ],
+            "NoVendidas": [],
+            "Dia": "26/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -31221,8 +31236,8 @@
             "Dia": "26/09/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
