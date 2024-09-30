@@ -43,7 +43,7 @@ def cosecharStock(base):
     
 
 
-    if (base in ("baseMundial.json","albumExtra.json","base_copam.json")):
+    if (base in ("baseMundial.json","albumExtra.json","base_copam.json","baseFutarg24.json")):
         
 
         for fila in baseTotal:
