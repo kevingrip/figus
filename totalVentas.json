@@ -20559,6 +20559,21 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ROMEROMARCELOALEJANDRO69",
+            "Vendidas": [
+                "USA16",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "30/09/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -31236,6 +31251,23 @@
             "Dia": "26/09/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "YAMILPEDRO",
+            "Vendidas": [
+                "BRA10",
+                "IRN7",
+                "KSA15",
+                "C1",
+                "C6",
+                "C7"
+            ],
+            "NoVendidas": [],
+            "Dia": "30/09/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
             "ARMADO": "SI",
             "PREARMADO": "SI"
         }
