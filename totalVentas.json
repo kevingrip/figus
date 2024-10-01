@@ -20574,6 +20574,94 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "EUGENIACANOSA",
+            "Vendidas": [
+                "HCI1",
+                "HCI10",
+                "MEX1",
+                "MEX8",
+                "JAM2",
+                "USA12",
+                "BRA1",
+                "PAR8",
+                "PAR16",
+                "CRC1",
+                "HON1",
+                "HON6",
+                "LEG4",
+                "LEG10",
+                "LEG18",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "CRC22"
+            ],
+            "Dia": "01/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LACOMIQUERIA",
+            "Vendidas": [
+                "MEX14",
+                "MEX18",
+                "ECU18",
+                "BRA14",
+                "CAN17",
+                "TRI8"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "01/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "LANDGREBEROXANA",
+            "Vendidas": [
+                "HCI3",
+                "HCI4",
+                "PER1",
+                "PER4",
+                "CHI6",
+                "CHI20",
+                "CHI22",
+                "MEX5",
+                "MEX6",
+                "MEX10",
+                "ECU2",
+                "ECU12",
+                "ECU14",
+                "ECU16",
+                "JAM2",
+                "JAM4",
+                "JAM6",
+                "JAM20",
+                "USA1",
+                "USA15",
+                "USA16",
+                "USA20",
+                "BRA5",
+                "PAR8"
+            ],
+            "NoVendidas": [
+                "HCI10",
+                "MEX12",
+                "MEX14"
+            ],
+            "Dia": "01/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

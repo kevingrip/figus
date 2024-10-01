@@ -32269,6 +32269,73 @@
                 "ROH2",
                 "USA16"
             ]
+        },
+        {
+            "usuario": "EUGENIACANOSA",
+            "figusPedidas": [
+                "BRA1",
+                "CRC1",
+                "CRC22",
+                "HCI1",
+                "HCI10",
+                "HON1",
+                "HON6",
+                "INT3",
+                "JAM2",
+                "LEG10",
+                "LEG18",
+                "LEG4",
+                "MEX1",
+                "MEX8",
+                "PAR16",
+                "PAR8",
+                "ROH1",
+                "USA12"
+            ]
+        },
+        {
+            "usuario": "LANDGREBEROXANA",
+            "figusPedidas": [
+                "BRA5",
+                "CHI20",
+                "CHI22",
+                "CHI6",
+                "ECU12",
+                "ECU14",
+                "ECU16",
+                "ECU2",
+                "HCI10",
+                "HCI3",
+                "HCI4",
+                "JAM2",
+                "JAM20",
+                "JAM4",
+                "JAM6",
+                "MEX10",
+                "MEX12",
+                "MEX14",
+                "MEX5",
+                "MEX6",
+                "PAR8",
+                "PER1",
+                "PER4",
+                "USA1",
+                "USA15",
+                "USA16",
+                "USA20"
+            ]
+        },
+        {
+            "usuario": "LACOMIQUERIA",
+            "figusPedidas": [
+                "BRA14",
+                "CAN17",
+                "ECU18",
+                "MEX14",
+                "MEX18",
+                "ROH2",
+                "TRI8"
+            ]
         }
     ]
 }
