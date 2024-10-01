@@ -20688,6 +20688,26 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MARINONISABRINA",
+            "Vendidas": [
+                "JAM13",
+                "BOL9",
+                "CAN12",
+                "TRI2",
+                "TRI13",
+                "TRI14",
+                "TRI15"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "01/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

@@ -1108,7 +1108,7 @@
     {
         "NUM": "JAM13",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "JOEL LATIBEAUDIERE"
     },
@@ -1696,7 +1696,7 @@
     {
         "NUM": "BOL9",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "DIEGO MEDINA"
     },
@@ -2333,7 +2333,7 @@
     {
         "NUM": "CAN12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 850,
         "NOMBRE": "JONATHAN OSORIO"
     },
@@ -2725,7 +2725,7 @@
     {
         "NUM": "TRI2",
         "TIPO": "EQUIPO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2000,
         "NOMBRE": "TRI TEAM"
     },
@@ -2802,21 +2802,21 @@
     {
         "NUM": "TRI13",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "NATHANIEL JAMES"
     },
     {
         "NUM": "TRI14",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "MICHEL POON-ANGERON"
     },
     {
         "NUM": "TRI15",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "KAILE AUVRAY"
     },
