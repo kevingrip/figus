@@ -20642,9 +20642,9 @@
                 "ECU14",
                 "ECU16",
                 "JAM2",
-                "JAM4",
-                "JAM6",
+                "JAM4",                
                 "JAM20",
+                "TRI6",
                 "USA1",
                 "USA15",
                 "USA16",
@@ -20655,10 +20655,37 @@
             "NoVendidas": [
                 "HCI10",
                 "MEX12",
-                "MEX14"
+                "MEX14",
+                "JAM6"
             ],
             "Dia": "01/10/2024",
             "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "SABINATURRINI",
+            "Vendidas": [
+                "PER1",
+                "PER3",
+                "PER5",
+                "MEX5",
+                "MEX6",
+                "MEX7",
+                "MEX18",
+                "JAM6",
+                "VEN1",
+                "VEN13",
+                "BOL9",
+                "BOL13",
+                "HON2",
+                "LEG13"
+            ],
+            "NoVendidas": [
+            ],
+            "Dia": "01/10/2024",
+            "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
