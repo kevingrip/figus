@@ -20602,8 +20602,8 @@
             "Dia": "01/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LACOMIQUERIA",
@@ -20621,8 +20621,8 @@
             "Dia": "01/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LANDGREBEROXANA",
@@ -20642,7 +20642,7 @@
                 "ECU14",
                 "ECU16",
                 "JAM2",
-                "JAM4",                
+                "JAM4",
                 "JAM20",
                 "TRI6",
                 "USA1",
@@ -20661,8 +20661,8 @@
             "Dia": "01/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "SABINATURRINI",
@@ -20682,13 +20682,12 @@
                 "HON2",
                 "LEG13"
             ],
-            "NoVendidas": [
-            ],
+            "NoVendidas": [],
             "Dia": "01/10/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
