@@ -20718,6 +20718,26 @@
             "Dia": "02/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "JESICA95",
+            "Vendidas": [
+                "ARG1",
+                "PER1",
+                "ECU13",
+                "VEN13",
+                "JAM1",
+                "CAN4",
+                "TRI5"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "02/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
