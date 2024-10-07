@@ -20821,6 +20821,46 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ADRISASO",
+            "Vendidas": [
+                "ARG13",
+                "PER13",
+                "JAM11",
+                "JAM21",
+                "USA8",
+                "USA16",
+                "PAN1",
+                "PAN9",
+                "BOL2",
+                "COL7",
+                "PAR2",
+                "PAR10",
+                "PAR20",
+                "CAN1",
+                "CAN7",
+                "CAN13",
+                "CAN16",
+                "CRC15",
+                "HON3",
+                "HON5",
+                "HON9",
+                "HON13",
+                "HON17",
+                "LEG11",
+                "LEG12"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "ROH1",
+                "ROH2"
+            ],
+            "Dia": "07/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
