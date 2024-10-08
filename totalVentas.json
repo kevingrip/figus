@@ -20826,7 +20826,7 @@
             "usuario": "ADRISASO",
             "Vendidas": [
                 "ARG13",
-                "PER13",
+                "PER3",
                 "JAM11",
                 "JAM21",
                 "USA8",
@@ -20859,8 +20859,52 @@
             "Dia": "07/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "BERNARDODESTASI",
+            "Vendidas": [
+                "PER1",
+                "PER10",
+                "MEX1",
+                "ECU11",
+                "VEN1",
+                "VEN6",
+                "USA21",
+                "URU1",
+                "BOL10",
+                "BRA2",
+                "BRA14",
+                "BRA16",
+                "BRA18",
+                "BRA18",
+                "BRA19",
+                "COL10",
+                "COL14",
+                "PAR17",
+                "CRC11",
+                "HON1",
+                "HON6",
+                "HON17",
+                "HON17",
+                "TRI17",
+                "LEG1",
+                "LEG2"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT3",
+                "INT4",
+                "VEN13",
+                "BOL22",
+                "ROH2"
+            ],
+            "Dia": "07/10/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
