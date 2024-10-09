@@ -45,10 +45,11 @@ baseLibertadores = "baseLali.json"
 usuariosFutarg = "usuariosFutarg"
 baseFutarg = "baseFutarg.json"
 
-#FUTBOL ARGENTINO 2023
-usuariosFut24 = "usuariosFut24"
 usuariosCopam = "usuariosCopam"
 baseCopam = "base_copam.json"
+
+#FUTBOL ARGENTINO 2024
+usuariosFut24 = "usuariosFut24"
 baseFut24 = "baseFutarg24.json"
 
 
