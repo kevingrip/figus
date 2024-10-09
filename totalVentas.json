@@ -20905,6 +20905,28 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MARIMEDRA127",
+            "Vendidas": [
+                "PER1",
+                "VEN11",
+                "PAN5",
+                "BRA12",
+                "COL5",
+                "COL9",
+                "CAN1",
+                "CAN13",
+                "LEG12"
+            ],
+            "NoVendidas": [
+                "BOL22"
+            ],
+            "Dia": "08/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
