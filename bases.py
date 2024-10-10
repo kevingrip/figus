@@ -24,3 +24,9 @@ def baseFutarg():
         base= json.load(bjson)
 
     return base
+
+def baseFutarg24():
+    with open ("baseFutarg24.json") as bjson:
+        base= json.load(bjson)
+
+    return base

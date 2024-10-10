@@ -32971,6 +32971,31 @@
                 "PER1",
                 "VEN11"
             ]
+        },
+        {
+            "usuario": "MIGUEL3058",
+            "figusPedidas": [
+                "ARG15",
+                "ARG19",
+                "ARG21",
+                "ARG9",
+                "CRC3",
+                "LEG12",
+                "LEG3"
+            ]
+        },
+        {
+            "usuario": "MIGUEL3058",
+            "figusPedidas": [
+                "ARG15",
+                "ARG19",
+                "ARG21",
+                "ARG9",
+                "CRC3",
+                "JAM3",
+                "LEG12",
+                "LEG3"
+            ]
         }
     ]
 }

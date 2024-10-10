@@ -20927,6 +20927,25 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MIGUEL3058",
+            "Vendidas": [
+                "ARG9",
+                "ARG15",
+                "ARG19",
+                "ARG21",
+                "JAM3",
+                "CRC3",
+                "LEG3",
+                "LEG12"
+            ],
+            "NoVendidas": [],
+            "Dia": "10/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
