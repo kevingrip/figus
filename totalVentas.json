@@ -20946,6 +20946,74 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "LANDGREBEROXANA",
+            "Vendidas": [
+                "VEN4",
+                "VEN7",
+                "VEN8",
+                "VEN13",
+                "VEN16",
+                "VEN22",
+                "PAN1",
+                "PAN6",
+                "PAN10",
+                "PAN12",
+                "PAN14",
+                "PAN20",
+                "BOL4",
+                "BOL6",
+                "BOL22",
+                "COL1",
+                "COL8",
+                "COL9",
+                "COL12",
+                "CAN1",
+                "CAN4",
+                "CAN16",
+                "CAN18",
+                "CRC14",
+                "CRC18",
+                "HON2",
+                "HON4",
+                "HON8",
+                "HON11",
+                "HON13",
+                "HON14",
+                "HON15",
+                "HON18"
+            ],
+            "NoVendidas": [
+                "HON6"
+            ],
+            "Dia": "11/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "PABLOANDRES_77",
+            "Vendidas": [
+                "ARG1",
+                "ARG18",
+                "VEN2",
+                "VEN12",
+                "JAM1",
+                "CAN13",
+                "CAN14"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "INT2",
+                "ROH2"
+            ],
+            "Dia": "11/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
