@@ -21039,6 +21039,42 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "NICOLASARENA20220804171024",
+            "Vendidas": [
+                "PER11",
+                "MEX1",
+                "ECU2",
+                "ECU4",
+                "ECU13",
+                "ECU17",
+                "ECU21",
+                "VEN17",
+                "VEN20",
+                "JAM5",
+                "JAM21",
+                "PAN9",
+                "PAN13",
+                "PAN21",
+                "COL4",
+                "PAR17",
+                "CRC4",
+                "CRC19",
+                "HON21",
+                "TRI3",
+                "TRI11",
+                "TRI13"
+            ],
+            "NoVendidas": [
+                "INT3",
+                "INT4"
+            ],
+            "Dia": "12/10/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
