@@ -21014,6 +21014,31 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "IRAPORDAFLORENCIA",
+            "Vendidas": [
+                "HCI7",
+                "HCI9",
+                "CHI8",
+                "ECU6",
+                "JAM15",
+                "JAM17",
+                "PAN19",
+                "CRC7",
+                "CRC15",
+                "CRC17",
+                "HON21",
+                "TRI11"
+            ],
+            "NoVendidas": [
+                "ROH1"
+            ],
+            "Dia": "11/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
