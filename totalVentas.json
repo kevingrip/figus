@@ -21095,6 +21095,30 @@
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "DIAZZBELEN96",
+            "Vendidas": [
+                "ARG12",
+                "ARG16",
+                "PER5",
+                "USA2",
+                "USA8",
+                "USA21",
+                "BOL19",
+                "BRA11",
+                "COL11",
+                "COL15",
+                "PAR15",
+                "HON7",
+                "TRI6"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/10/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -31791,6 +31815,18 @@
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "JOSEMTORRALBA81",
+            "Vendidas": [
+                "ECU1"
+            ],
+            "NoVendidas": [],
+            "Dia": "13/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
