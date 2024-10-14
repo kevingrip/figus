@@ -20990,8 +20990,8 @@
             "Dia": "11/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "PABLOANDRES_77",
@@ -21012,8 +21012,8 @@
             "Dia": "11/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "IRAPORDAFLORENCIA",
@@ -21037,8 +21037,8 @@
             "Dia": "11/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "NICOLASARENA20220804171024",
@@ -21073,8 +21073,8 @@
             "Dia": "12/10/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "JAVI79",
@@ -21094,7 +21094,7 @@
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "DIAZZBELEN96",
@@ -21118,7 +21118,7 @@
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "GUSTAVOMARCELORIEGER",
@@ -21149,8 +21149,75 @@
             "Dia": "14/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "JAPUBO",
+            "Vendidas": [
+                "HCI3",
+                "HCI6",
+                "ARG14",
+                "ARG16",
+                "ARG18",
+                "CHI12",
+                "ECU13",
+                "VEN21",
+                "JAM2",
+                "JAM4",
+                "JAM16",
+                "JAM21",
+                "USA15",
+                "USA17",
+                "USA22",
+                "BOL16",
+                "COL2",
+                "COL11",
+                "PAR12",
+                "CAN10",
+                "CAN14",
+                "CRC6",
+                "CRC8",
+                "HON1",
+                "HON11",
+                "TRI4",
+                "LEG3",
+                "LEG11",
+                "LEG15",
+                "LEG16"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "HCI10",
+                "ECU8",
+                "PAN20",
+                "COL12",
+                "LEG14"
+            ],
+            "Dia": "14/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ANABOLENA2012",
+            "Vendidas": [
+                "ARG3",
+                "ARG5",
+                "ARG8",
+                "ARG13",
+                "ARG17",
+                "ARG19",
+                "ARG20",
+                "ARG21"
+            ],
+            "NoVendidas": [],
+            "Dia": "14/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -31754,7 +31821,7 @@
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
             "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MAGGIPIRISORUE",
@@ -31857,8 +31924,8 @@
             "Dia": "13/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [
