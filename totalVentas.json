@@ -21218,6 +21218,28 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "RIOS GONZALO EMANUEL",
+            "Vendidas": [
+                "HCI4",
+                "ARG12",
+                "ARG14",
+                "PER10",
+                "CHI6",
+                "CHI18",
+                "ECU20"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "ROH1",
+                "ROH2"
+            ],
+            "Dia": "15/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -31926,6 +31948,22 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CBOTELLO23",
+            "Vendidas": [
+                "MEX19",
+                "NED12",
+                "NED13",
+                "NED14",
+                "+EXTRAS"
+            ],
+            "NoVendidas": [],
+            "Dia": "15/10/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
