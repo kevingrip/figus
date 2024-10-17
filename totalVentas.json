@@ -21117,7 +21117,7 @@
             "Dia": "13/10/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -21252,6 +21252,68 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "SUPPESFEDERICO",
+            "Vendidas": [
+                "USA8",
+                "PAN2",
+                "BOL13",
+                "BRA22",
+                "COL4",
+                "COL16",
+                "TRI8"
+            ],
+            "NoVendidas": [
+                "ECU8"
+            ],
+            "Dia": "17/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ARMA5548884",
+            "Vendidas": [
+                "CHI9",
+                "ECU7"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/10/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "GALE2272738",
+            "Vendidas": [
+                "HCI6",
+                "ARG10",
+                "PER7",
+                "MEX3",
+                "MEX11",
+                "VEN13",
+                "VEN16",
+                "VEN21",
+                "USA17",
+                "BOL11",
+                "BOL19",
+                "BRA4",
+                "BRA20",
+                "BRA21",
+                "COL10",
+                "CAN16",
+                "HON11",
+                "LEG14"
+            ],
+            "NoVendidas": [],
+            "Dia": "17/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -31854,7 +31916,7 @@
             "Dia": "26/09/2024",
             "Cuenta": "KEVIN",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
