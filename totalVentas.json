@@ -21314,6 +21314,18 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MAUROFRANCISCO",
+            "Vendidas": [
+                "INT1"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
