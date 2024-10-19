@@ -21326,6 +21326,18 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MALU9316805",
+            "Vendidas": [
+                "ECU10"
+            ],
+            "NoVendidas": [],
+            "Dia": "19/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
@@ -32050,6 +32062,32 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MGPJIP",
+            "Vendidas": [
+                "FWC2",
+                "FWC5",
+                "FWC26",
+                "ARG1",
+                "BEL1",
+                "CAN1",
+                "KOR1",
+                "QAT1",
+                "C1",
+                "C2",
+                "C6",
+                "C7",
+                "C8"
+            ],
+            "NoVendidas": [
+                "FRA1"
+            ],
+            "Dia": "19/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Argentino 2023": [
