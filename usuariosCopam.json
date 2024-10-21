@@ -33477,6 +33477,15 @@
             "figusPedidas": [
                 "ECU10"
             ]
+        },
+        {
+            "usuario": "POMA1288942",
+            "figusPedidas": [
+                "HCI2",
+                "INT3",
+                "JAM1",
+                "VEN1"
+            ]
         }
     ]
 }
