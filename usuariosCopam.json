@@ -33486,6 +33486,115 @@
                 "JAM1",
                 "VEN1"
             ]
+        },
+        {
+            "usuario": "BENHDIEGO",
+            "figusPedidas": [
+                "BOL13",
+                "BOL2",
+                "BOL21",
+                "BRA1",
+                "BRA11",
+                "BRA17",
+                "CHI11",
+                "CHI17",
+                "COL13",
+                "COL2",
+                "COL7",
+                "ECU14",
+                "ECU5",
+                "HCI3",
+                "HCI6",
+                "HCI8",
+                "HON13",
+                "HON2",
+                "HON3",
+                "HON9",
+                "INT1",
+                "JAM2",
+                "LEG8",
+                "MEX2",
+                "PAR20",
+                "PAR22",
+                "PER8",
+                "ROH1",
+                "URU1",
+                "URU2",
+                "USA2",
+                "USA20",
+                "USA8",
+                "VEN1",
+                "VEN12"
+            ]
+        },
+        {
+            "usuario": "BENHDIEGO2",
+            "figusPedidas": [
+                "ARG1",
+                "BRA22",
+                "COL11",
+                "COL7",
+                "HON3",
+                "HON5",
+                "HON7",
+                "LEG11",
+                "LEG8",
+                "PAR21",
+                "USA15",
+                "VEN1"
+            ]
+        },
+        {
+            "usuario": "ARAYAGABRIELA28",
+            "figusPedidas": [
+                "COL21",
+                "COL9",
+                "CRC12",
+                "CRC14",
+                "HCI5",
+                "LEG14",
+                "MEX8",
+                "PAN11",
+                "VEN12"
+            ]
+        },
+        {
+            "usuario": "INSAURRALDERUBEN",
+            "figusPedidas": [
+                "BOL17",
+                "CAN19",
+                "CHI2",
+                "COL5",
+                "COL7",
+                "CRC1",
+                "CRC3",
+                "HCI1",
+                "HON15",
+                "HON17",
+                "JAM1",
+                "JAM7",
+                "LEG5",
+                "LEG6",
+                "LEG8",
+                "PAN11",
+                "PAN21",
+                "TRI5",
+                "USA12",
+                "VEN18"
+            ]
+        },
+        {
+            "usuario": "BENSASON",
+            "figusPedidas": [
+                "CAN2",
+                "CRC13",
+                "CRC18",
+                "HON11",
+                "ROH1",
+                "ROH2",
+                "VEN10",
+                "VEN14"
+            ]
         }
     ]
 }
