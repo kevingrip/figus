@@ -21429,8 +21429,21 @@
             "Dia": "21/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "LUCASJOSEURANGA",
+            "Vendidas": [
+                "ARG2",
+                "CHI2"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/10/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
