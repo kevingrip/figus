@@ -45,7 +45,8 @@ print(cant)
 
 for i in baseft:
     if (i["CANT"]==1):
-        restantes.append(i["NUM"])
+        if (i["NUM"][:3]!='YPF'):
+            restantes.append(i["NUM"])
 
 print("Cant Total: ", cantTotal)
 

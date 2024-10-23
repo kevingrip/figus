@@ -21444,6 +21444,24 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "TANOFABRI",
+            "Vendidas": [
+                "ARG14",
+                "BOL17",
+                "TRI15",
+                "TRI17",
+                "LEG5"
+            ],
+            "NoVendidas": [
+                "ROH2"
+            ],
+            "Dia": "23/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
