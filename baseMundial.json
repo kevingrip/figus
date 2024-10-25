@@ -433,7 +433,7 @@
     },
     {
         "NUM": "ARG19",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 10000,
         "TIPO": "Comunes",
         "DIA": "04/06/2024",
@@ -1810,7 +1810,7 @@
     },
     {
         "NUM": "ECU1",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 4500,
         "TIPO": "ESC",
         "DIA": "04/06/2024",
@@ -5797,7 +5797,7 @@
     },
     {
         "NUM": "C7",
-        "CANT": 2,
+        "CANT": 4,
         "PRECIO": 6000,
         "TIPO": "COCA",
         "DIA": "04/06/2024",
