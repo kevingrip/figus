@@ -21549,8 +21549,8 @@
             "Dia": "25/10/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ADRIANALOSSI",
@@ -21604,6 +21604,73 @@
             "Dia": "26/10/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CBOTELLO23",
+            "Vendidas": [
+                "INT3",
+                "HCI6",
+                "HCI9",
+                "LEG5",
+                "LEG10",
+                "LEG18"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "ROH1"
+            ],
+            "Dia": "26/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "INSAURRALDERUBEN",
+            "Vendidas": [
+                "HCI1",
+                "CHI2",
+                "VEN18",
+                "JAM1",
+                "JAM7",
+                "USA12",
+                "PAN11",
+                "PAN21",
+                "BOL17",
+                "COL5",
+                "COL7",
+                "CAN19",
+                "CRC3",
+                "HON15",
+                "HON17",
+                "TRI5",
+                "LEG5",
+                "LEG6",
+                "LEG8"
+            ],
+            "NoVendidas": [
+                "CRC1"
+            ],
+            "Dia": "26/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "BOGI20240229144612",
+            "Vendidas": [
+                "ARG2",
+                "ARG6",
+                "ARG7",
+                "ARG19"
+            ],
+            "NoVendidas": [],
+            "Dia": "28/10/2024",
+            "Cuenta": "MATI",
+            "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
