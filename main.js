@@ -363,7 +363,7 @@ const buscarFigus = () => {
     let numeros = '1234567890'
 
     valorInput = valorInput.replace(/INTR/g, "INT");
-    valorInput = valorInput.replace(/y/gi, '')
+    valorInput = valorInput.replace(/ y /gi, '')
     
     for (let i = 0; i < valorInput.length; i++) {
         if (letras.includes(valorInput[i])){
@@ -400,6 +400,7 @@ const buscarFigus = () => {
 
     // Filtrar las figus seleccionadas
     const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas.includes(figu.NUM));
+
 
     console.log(filteredFigus)
 
