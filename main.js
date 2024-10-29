@@ -271,6 +271,11 @@ const totalVentas = () =>{
                         nombreAlbum.style.backgroundColor = 'gold' 
                         objetoDiv.style.border = '3px solid gold'  
 
+                    }else if (album==='Futbol Arg 2024'){
+                        nombreAlbum.style.backgroundColor = 'green' 
+                        objetoDiv.style.border = '3px solid green' 
+                        nombreAlbum.style.color='white'
+
                     }
 
                     figusVendidas.style.border = '1px solid lightgrey' 

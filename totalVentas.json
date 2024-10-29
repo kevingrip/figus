@@ -21673,6 +21673,51 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CYNTHIARIGONI2",
+            "Vendidas": [
+                "INTR 3",
+                "HCI 2",
+                "HCI 4",
+                "HCI 5",
+                "HCI 8",
+                "PER 2",
+                "MEX 1",
+                "MEX 3",
+                "MEX 13",
+                "VEN 16",
+                "CRC 16",
+                "TRI 1",
+                "LEG 6",
+                "LEG 11",
+                "LEG 13",
+                "LEG 14",
+                "LEG 16"
+            ],
+            "NoVendidas": [],
+            "Dia": "29/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        }
+    ],
+    "Futbol Arg 2024": [
+        {
+            "usuario": "JUANPABLOYOGNA",
+            "Vendidas": [
+                "BAN7",
+                "RIE13",
+                "RIV4",
+                "RIV6"
+            ],
+            "NoVendidas": [],
+            "Dia": "29/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

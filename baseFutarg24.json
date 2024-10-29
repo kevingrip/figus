@@ -373,7 +373,7 @@
     {
         "NUM": "BAN7",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1129,7 +1129,7 @@
     {
         "NUM": "RIE13",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -2557,7 +2557,7 @@
     {
         "NUM": "RIV4",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 1000,
         "NOMBRE": ""
     },
@@ -2571,7 +2571,7 @@
     {
         "NUM": "RIV6",
         "TIPO": "COMUN",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1000,
         "NOMBRE": ""
     },
