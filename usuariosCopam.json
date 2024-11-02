@@ -33958,6 +33958,39 @@
                 "NED2",
                 "WAL4"
             ]
+        },
+        {
+            "usuario": "PIMA4901914",
+            "figusPedidas": [
+                "ARG7",
+                "ARG8",
+                "CAN11",
+                "CAN3",
+                "CHI1",
+                "COL5",
+                "CRC17",
+                "CRC22",
+                "CRC7",
+                "HCI7",
+                "INT1",
+                "LEG7",
+                "MEX3",
+                "PAN21",
+                "PAR21",
+                "PER15",
+                "VEN1",
+                "VEN21",
+                "VEN9"
+            ]
+        },
+        {
+            "usuario": "VECR5050511",
+            "figusPedidas": [
+                "CHI13",
+                "COL8",
+                "PAN15",
+                "VEN16"
+            ]
         }
     ]
 }

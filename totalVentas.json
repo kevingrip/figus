@@ -21783,6 +21783,52 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "PIMA4901914",
+            "Vendidas": [
+                "HCI7",
+                "ARG7",
+                "ARG8",
+                "PER15",
+                "CHI1",
+                "MEX3",
+                "VEN1",
+                "VEN9",
+                "VEN21",
+                "PAN21",
+                "COL5",
+                "PAR21",
+                "CAN3",
+                "CAN11",
+                "CRC7",
+                "CRC17",
+                "LEG7"
+            ],
+            "NoVendidas": [
+                "INT1",
+                "CRC22"
+            ],
+            "Dia": "31/10/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "VECR5050511",
+            "Vendidas": [
+                "CHI13",
+                "VEN16",
+                "PAN15",
+                "COL8"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
