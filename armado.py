@@ -6,7 +6,7 @@ with open ('totalVentas.json','r') as tv:
 
 usuario = easygui.enterbox("Ingrese usuario")
 
-for venta in totalVentas["Futbol Arg 2024"]:
+for venta in totalVentas["Copa America 2024"]:
     
     if (venta["usuario"]) ==usuario and venta["ARMADO"]=='NO':
         venta["ARMADO"]='SI'
