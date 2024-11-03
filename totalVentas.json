@@ -21829,6 +21829,39 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "BEWA2566677",
+            "Vendidas": [
+                "INT2",
+                "INT4",
+                "HCI2",
+                "HCI8",
+                "MEX9",
+                "ECU11",
+                "VEN4",
+                "VEN6",
+                "VEN18",
+                "USA9",
+                "URU2",
+                "COL2",
+                "PAR7",
+                "PAR21",
+                "CAN9",
+                "HON10",
+                "LEG3",
+                "LEG12"
+            ],
+            "NoVendidas": [
+                "VEN16",
+                "COL11",
+                "ROH1"
+            ],
+            "Dia": "02/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
@@ -21846,6 +21879,48 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "DANIELFGARIMALDI",
+            "Vendidas": [
+                "LPF2",
+                "COP2",
+                "ARJ17",
+                "ATU3",
+                "BAR7",
+                "RIE8",
+                "RIE9",
+                "RIE10",
+                "RIE11",
+                "RIE16",
+                "RIE17",
+                "EST3",
+                "EST5",
+                "EST7",
+                "EST9",
+                "EST11",
+                "EST13",
+                "EST15",
+                "GIM9",
+                "IND6",
+                "IND14",
+                "IRM2",
+                "IRM6",
+                "IRM10",
+                "SAR1",
+                "VEL8"
+            ],
+            "NoVendidas": [
+                "RIE13",
+                "EST17",
+                "GOD11",
+                "NOB9"
+            ],
+            "Dia": "03/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

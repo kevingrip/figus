@@ -53,8 +53,21 @@ def renamePaises(listaOriginal,lista3LetrasPaises,variantesTotales):
     RIV = ['RIV']
     RIE = ['RIE']
     BAN = ['BAN']
+    LPF = ['LPF']
+    COP = ['COP']
+    ARJ = ['ARJ']
+    ATU = ['ATU']
+    BAR = ['BAR']
+    EST = ['EST']
+    GIM = ['GIM']
+    GOD = ['GOD']
+    IND = ['IND']
+    IRM = ['IRM']
+    NOB = ['NOB']
+    SAR = ['SAR']
+    VEL = ['VEL']
 
-    paisesFigus = [FWC,ARG,AUS,BEL,BRA,CAN,CMR,CRC,CRO,DEN,ECU,ENG,ESP,FRA,GER,GHA,IRN,JPN,KOR,KSA,MEX,MRR,NED,POL,POR,QAT,SEN,SRB,SUI,TUN,URU,USA,WAL,COCA,INT,HCI,PER,CHI,VEN,JAM,PAN,BOL,COL,PAR,HON,TRI,LEG,ROH,RIV,RIE,BAN]
+    paisesFigus = [FWC,ARG,AUS,BEL,BRA,CAN,CMR,CRC,CRO,DEN,ECU,ENG,ESP,FRA,GER,GHA,IRN,JPN,KOR,KSA,MEX,MRR,NED,POL,POR,QAT,SEN,SRB,SUI,TUN,URU,USA,WAL,COCA,INT,HCI,PER,CHI,VEN,JAM,PAN,BOL,COL,PAR,HON,TRI,LEG,ROH,RIV,RIE,BAN,LPF,COP,ARJ,ATU,BAR,EST,GIM,GOD,IND,IRM,NOB,SAR,VEL]
     listaDePaises = []
 
     for listas in paisesFigus:

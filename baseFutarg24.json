@@ -9,7 +9,7 @@
     {
         "NUM": "LPF2",
         "TIPO": "LPF",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -30,7 +30,7 @@
     {
         "NUM": "COP2",
         "TIPO": "COPA",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -205,7 +205,7 @@
     {
         "NUM": "ARJ17",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -226,7 +226,7 @@
     {
         "NUM": "ATU3",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -492,7 +492,7 @@
     {
         "NUM": "BAR7",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1094,28 +1094,28 @@
     {
         "NUM": "RIE8",
         "TIPO": "COMUN",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 0,
         "NOMBRE": ""
     },
     {
         "NUM": "RIE9",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
     {
         "NUM": "RIE10",
         "TIPO": "COMUN",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 0,
         "NOMBRE": ""
     },
     {
         "NUM": "RIE11",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1150,14 +1150,14 @@
     {
         "NUM": "RIE16",
         "TIPO": "COMUN",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 0,
         "NOMBRE": ""
     },
     {
         "NUM": "RIE17",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 5500,
         "NOMBRE": "Ivan Buharejuk SPREEN"
     },
@@ -1178,7 +1178,7 @@
     {
         "NUM": "EST3",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1192,7 +1192,7 @@
     {
         "NUM": "EST5",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1206,7 +1206,7 @@
     {
         "NUM": "EST7",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1220,7 +1220,7 @@
     {
         "NUM": "EST9",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1234,7 +1234,7 @@
     {
         "NUM": "EST11",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1248,7 +1248,7 @@
     {
         "NUM": "EST13",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1262,7 +1262,7 @@
     {
         "NUM": "EST15",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1339,7 +1339,7 @@
     {
         "NUM": "GIM9",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1675,7 +1675,7 @@
     {
         "NUM": "IND6",
         "TIPO": "COMUN",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1731,7 +1731,7 @@
     {
         "NUM": "IND14",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1829,7 +1829,7 @@
     {
         "NUM": "IRM2",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1857,7 +1857,7 @@
     {
         "NUM": "IRM6",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -1885,7 +1885,7 @@
     {
         "NUM": "IRM10",
         "TIPO": "COMUN",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -2893,7 +2893,7 @@
     {
         "NUM": "SAR1",
         "TIPO": "ESCUDO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 0,
         "NOMBRE": ""
     },
@@ -3418,7 +3418,7 @@
     {
         "NUM": "VEL8",
         "TIPO": "COMUN",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 0,
         "NOMBRE": ""
     },
