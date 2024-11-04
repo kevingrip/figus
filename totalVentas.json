@@ -21897,6 +21897,46 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MERCEDES_LINGUA",
+            "Vendidas": [
+                "ARG13",
+                "PER13",
+                "CHI17",
+                "MEX17",
+                "MEX19",
+                "MEX22",
+                "VEN9",
+                "VEN11",
+                "VEN15",
+                "USA9",
+                "USA21",
+                "URU1",
+                "BOL1",
+                "BOL11",
+                "COL15",
+                "COL22",
+                "PAR11",
+                "PAR22",
+                "CAN2",
+                "CAN6",
+                "CAN9",
+                "CAN15",
+                "CAN21",
+                "HON4",
+                "HON6",
+                "HON13",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "HON11"
+            ],
+            "Dia": "03/11/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [

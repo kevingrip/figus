@@ -513,7 +513,7 @@ elif (album == "Futbol Argentino 2023"):
             with open("cosechas.json","w") as AgregarcosechasJSON:
                 json.dump(agregarCosecha,AgregarcosechasJSON,indent=4)
 
-            print(figuFutarg,'\n')
+            #print(figuFutarg,'\n')
 
             cosechar(figuFutarg,baseFutarg)
 elif (album == "Copa America 2024"):
