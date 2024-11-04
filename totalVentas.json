@@ -21827,8 +21827,8 @@
             "Dia": "02/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "BEWA2566677",
@@ -21860,6 +21860,41 @@
             "Dia": "02/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "AGBRI",
+            "Vendidas": [
+                "ARG3",
+                "ARG19",
+                "PER12",
+                "CHI3",
+                "CHI4",
+                "CHI13",
+                "CHI18",
+                "MEX10",
+                "ECU10",
+                "ECU21",
+                "VEN1",
+                "VEN14",
+                "VEN15",
+                "USA11",
+                "BOL6",
+                "BOL19",
+                "BOL20",
+                "COL22",
+                "PAR3",
+                "PAR7",
+                "CAN15",
+                "CRC14"
+            ],
+            "NoVendidas": [
+                "LEG18"
+            ],
+            "Dia": "03/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
@@ -21919,8 +21954,8 @@
             "Dia": "03/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
