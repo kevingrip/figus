@@ -34045,6 +34045,53 @@
                 "VEN14",
                 "VEN15"
             ]
+        },
+        {
+            "usuario": "MERCEDES_LINGUA",
+            "figusPedidas": [
+                "ARG13",
+                "BOL1",
+                "BOL11",
+                "CAN15",
+                "CAN2",
+                "CAN21",
+                "CAN22",
+                "CAN6",
+                "CAN9",
+                "CHI17",
+                "COL15",
+                "COL22",
+                "JAM11",
+                "JAM13",
+                "JAM4",
+                "JAM6",
+                "MEX17",
+                "MEX19",
+                "MEX22",
+                "PAR11",
+                "PAR22",
+                "PER13",
+                "ROH2",
+                "URU1",
+                "USA21",
+                "USA9",
+                "VEN11",
+                "VEN15",
+                "VEN9"
+            ]
+        },
+        {
+            "usuario": "ADRIANALOSSI",
+            "figusPedidas": [
+                "COL1",
+                "CRC1",
+                "ECU1",
+                "JAM1",
+                "LEG13",
+                "PAN2",
+                "ROH1",
+                "USA1"
+            ]
         }
     ]
 }
