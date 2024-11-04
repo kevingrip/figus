@@ -21937,6 +21937,24 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "RO COUTO",
+            "Vendidas": [
+                "JAM21",
+                "BOL21",
+                "BRA20",
+                "PAR17",
+                "TRI3"
+            ],
+            "NoVendidas": [
+                "LEG8"
+            ],
+            "Dia": "04/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
