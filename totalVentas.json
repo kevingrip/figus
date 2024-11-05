@@ -21901,33 +21901,33 @@
         {
             "usuario": "MERCEDES_LINGUA",
             "Vendidas": [
-                "ARG13",
-                "PER13",
-                "CHI17",
-                "MEX17",
-                "MEX19",
-                "MEX22",
-                "VEN9",
-                "VEN11",
-                "VEN15",
-                "USA9",
-                "USA21",
-                "URU1",
-                "BOL1",
-                "BOL11",
-                "COL15",
-                "COL22",
-                "PAR11",
-                "PAR22",
-                "CAN2",
-                "CAN6",
-                "CAN9",
-                "CAN15",
-                "CAN21",
-                "HON4",
-                "HON6",
-                "HON13",
-                "ROH2"
+                "ARG 13",
+                "PER 13",
+                "CHI 17",
+                "MEX 17",
+                "MEX 19",
+                "MEX 22",
+                "VEN 9",
+                "VEN 11",
+                "VEN 15",
+                "USA 9",
+                "USA 21",
+                "URU 1",
+                "BOL 1",
+                "BOL 11",
+                "COL 15",
+                "COL 22",
+                "PAR 11",
+                "PAR 22",
+                "CAN 2",
+                "CAN 6",
+                "CAN 9",
+                "CAN 15",
+                "CAN 21",
+                "HON 4",
+                "HON 6",
+                "HON 13",
+                "ROH 2"
             ],
             "NoVendidas": [
                 "HON11"
@@ -21935,8 +21935,8 @@
             "Dia": "03/11/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "RO COUTO",
@@ -21953,8 +21953,8 @@
             "Dia": "04/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Arg 2024": [
