@@ -21955,6 +21955,26 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ADRIANALOSSI",
+            "Vendidas": [
+                "JAM1",
+                "USA1",
+                "PAN2",
+                "COL1",
+                "CRC1",
+                "LEG13",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "ECU1"
+            ],
+            "Dia": "05/11/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
