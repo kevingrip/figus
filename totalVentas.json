@@ -21973,13 +21973,26 @@
             "Dia": "05/11/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "SIBILASOLEDADTONINA",
             "Vendidas": [
                 "LEG3"
+            ],
+            "NoVendidas": [],
+            "Dia": "06/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "VERONICACASILLI",
+            "Vendidas": [
+                "ARG3",
+                "MEX15"
             ],
             "NoVendidas": [],
             "Dia": "06/11/2024",
