@@ -35,7 +35,6 @@ def cosecharStock(base):
     seguirAgregando = True
     mismoPais = False
 
-    precioUyuni = 0
     cantidadTotal = 0
 
     with open(base,"r") as baseJson:
@@ -44,6 +43,11 @@ def cosecharStock(base):
 
 
     if (base in ("baseMundial.json","albumExtra.json","base_copam.json","baseFutarg24.json")):
+
+        if (base =="base_copam.json"):
+            maxFigusCosecha=5
+        else:
+            maxFigusCosecha=3
         
 
         for fila in baseTotal:
@@ -139,7 +143,7 @@ def cosecharStock(base):
                             # precioUyuni += (80*(int(1)))
                             #print("Precio Individual: $50")
                             # CANT COMUNES 
-                        if fila["TIPO"]=='COMUNES' and fila["CANT"]<5:
+                        if fila["TIPO"]=='COMUNES' and fila["CANT"]<maxFigusCosecha:
                             fila["CANT"] += int(1)
                             cantidadTotal += int(1)
                             figuNueva = str(fila["CANT"])
