@@ -72,6 +72,62 @@
                 "SAR1",
                 "VEL8"
             ]
+        },
+        {
+            "usuario": "PAINEFILVANESA",
+            "figusPedidas": [
+                "BOC1",
+                "BOC10",
+                "BOC12",
+                "BOC14",
+                "BOC16",
+                "BOC2",
+                "BOC3",
+                "BOC4",
+                "BOC5",
+                "BOC6",
+                "BOC8",
+                "INS1",
+                "INS12",
+                "INS14",
+                "INS15",
+                "INS7",
+                "IRM1",
+                "IRM4",
+                "IRM6",
+                "IRM8",
+                "IRM9",
+                "LAN10",
+                "LAN12",
+                "LAN14",
+                "LAN2",
+                "LAN4",
+                "LAN6",
+                "LAN8",
+                "LPF1",
+                "LPF3",
+                "RIV1",
+                "RIV10",
+                "RIV12",
+                "RIV16",
+                "RIV17",
+                "RIV2",
+                "RIV3",
+                "RIV4",
+                "RIV5",
+                "RIV6",
+                "RIV7",
+                "RIV9"
+            ]
+        },
+        {
+            "usuario": "+54 9 387 509-0246",
+            "figusPedidas": [
+                "CCO3",
+                "HUR4",
+                "PLA7",
+                "YPF2"
+            ]
         }
     ]
 }

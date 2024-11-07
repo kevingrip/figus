@@ -21998,8 +21998,8 @@
             "Dia": "06/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Arg 2024": [
@@ -22059,6 +22059,75 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "PAINEFILVANESA",
+            "Vendidas": [
+                "LPF1",
+                "LPF3",
+                "BOC1",
+                "BOC2",
+                "BOC3",
+                "BOC4",
+                "BOC6",
+                "BOC8",
+                "BOC10",
+                "BOC12",
+                "BOC14",
+                "BOC16",
+                "IRM1",
+                "IRM4",
+                "IRM8",
+                "IRM9",
+                "INS1",
+                "INS7",
+                "INS12",
+                "INS14",
+                "INS15",
+                "LAN2",
+                "LAN4",
+                "LAN6",
+                "LAN8",
+                "LAN10",
+                "LAN12",
+                "LAN14",
+                "RIV1",
+                "RIV2",
+                "RIV3",
+                "RIV6",
+                "RIV7",
+                "RIV9",
+                "RIV10",
+                "RIV12",
+                "RIV16"
+            ],
+            "NoVendidas": [
+                "BOC5",
+                "IRM6",
+                "RIV4",
+                "RIV5",
+                "RIV17"
+            ],
+            "Dia": "07/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "+54 9 387 509-0246",
+            "Vendidas": [
+                "CCO3",
+                "HUR4",
+                "PLA7",
+                "YPF2"
+            ],
+            "NoVendidas": [],
+            "Dia": "07/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
