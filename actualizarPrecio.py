@@ -5,8 +5,8 @@ from bases import*
 base = baseFutarg24()
 
 for linea in base:
-    if linea["TIPO"]=='COPA':
-        linea["PRECIO"]=2000
+    if linea["TIPO"]=='ESP':
+        linea["PRECIO"]=1500
         print(linea)
 
     
