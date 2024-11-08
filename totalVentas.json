@@ -22050,6 +22050,41 @@
             "Dia": "07/11/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ASTILLERO22",
+            "Vendidas": [
+                "ARG13",
+                "JAM9",
+                "BRA1",
+                "CAN18",
+                "CAN20"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "VEHA2008",
+            "Vendidas": [
+                "HCI2",
+                "ARG2",
+                "USA19",
+                "COL9",
+                "COL11",
+                "CRC17",
+                "CRC20",
+                "ROH2"
+            ],
+            "NoVendidas": [],
+            "Dia": "08/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
@@ -22163,8 +22198,8 @@
             "Dia": "07/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "+54 9 387 509-0246",
@@ -22178,8 +22213,8 @@
             "Dia": "07/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
