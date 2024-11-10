@@ -22085,6 +22085,20 @@
             "Dia": "08/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MILLERYOLANDA20231103110603",
+            "Vendidas": [
+                "ARG3",
+                "ECU16",
+                "LEG6"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/11/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
