@@ -22101,6 +22101,36 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "LANDGREBEROXANA",
+            "Vendidas": [
+                "INT3",
+                "HCI10",
+                "ARG4",
+                "ARG20",
+                "ARG22",
+                "MEX12",
+                "MEX14",
+                "JAM6",
+                "PAR18",
+                "HON6",
+                "TRI12",
+                "TRI14",
+                "LEG5",
+                "LEG6",
+                "LEG17"
+            ],
+            "NoVendidas": [
+                "LEG8",
+                "ROH1",
+                "ROH2"
+            ],
+            "Dia": "13/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
