@@ -22131,6 +22131,33 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "JAVIER2617",
+            "Vendidas": [
+                "HCI4",
+                "CHI7",
+                "CHI22",
+                "ECU5",
+                "ECU12",
+                "BOL6",
+                "BOL14",
+                "BOL20",
+                "BRA16",
+                "COL1",
+                "COL4",
+                "COL15",
+                "COL18",
+                "CRC16"
+            ],
+            "NoVendidas": [
+                "BOL22"
+            ],
+            "Dia": "14/11/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
