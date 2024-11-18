@@ -34434,6 +34434,90 @@
                 "PAR5",
                 "ROH2"
             ]
+        },
+        {
+            "usuario": "JAGUILAR1989",
+            "figusPedidas": [
+                "ARG6",
+                "BOL1",
+                "BOL12",
+                "BOL3",
+                "BOL7",
+                "BRA1",
+                "BRA3",
+                "BRA5",
+                "CAN2",
+                "CAN20",
+                "COL15",
+                "COL4",
+                "COL6",
+                "CRC11",
+                "CRC13",
+                "CRC15",
+                "CRC17",
+                "CRC19",
+                "CRC21",
+                "CRC4",
+                "ECU13",
+                "ECU17",
+                "ECU6",
+                "ECU8",
+                "HON1",
+                "HON10",
+                "HON11",
+                "HON13",
+                "HON16",
+                "HON18",
+                "HON22",
+                "INT3",
+                "JAM10",
+                "JAM11",
+                "JAM13",
+                "JAM2",
+                "JAM7",
+                "LEG10",
+                "LEG12",
+                "LEG16",
+                "LEG6",
+                "MEX11",
+                "MEX9",
+                "PAN1",
+                "PAN22",
+                "PAR7",
+                "ROH1",
+                "USA10",
+                "USA13",
+                "USA14",
+                "USA16",
+                "VEN14",
+                "VEN8"
+            ]
+        },
+        {
+            "usuario": "GUSRUDA",
+            "figusPedidas": [
+                "HCI7",
+                "LEG4",
+                "PAR20",
+                "USA17"
+            ]
+        },
+        {
+            "usuario": "ALQUIMEYA",
+            "figusPedidas": [
+                "ARG10",
+                "ARG3",
+                "ARG8",
+                "ARG9",
+                "BOL18",
+                "BRA10",
+                "CAN18",
+                "CAN22",
+                "HCI9",
+                "HON8",
+                "JAM4",
+                "USA14"
+            ]
         }
     ]
 }
