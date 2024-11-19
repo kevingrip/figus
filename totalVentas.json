@@ -22331,6 +22331,36 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "GUZMNSILVINA",
+            "Vendidas": [
+                "INT2",
+                "VEN9",
+                "VEN11",
+                "VEN12",
+                "VEN15",
+                "BOL3",
+                "BOL19",
+                "COL2",
+                "COL3",
+                "COL4",
+                "COL7",
+                "COL19",
+                "PAR9",
+                "PAR19",
+                "PAR22",
+                "CRC12"
+            ],
+            "NoVendidas": [
+                "CRC22",
+                "ROH1"
+            ],
+            "Dia": "19/11/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
