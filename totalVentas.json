@@ -22202,8 +22202,8 @@
             "Dia": "16/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "JAGUILAR1989",
@@ -22282,8 +22282,8 @@
             "Dia": "18/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ALQUIMEYA",
@@ -22305,8 +22305,8 @@
             "Dia": "18/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "ACTA6516283",
@@ -22329,8 +22329,8 @@
             "Dia": "18/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "GUZMNSILVINA",
@@ -22359,8 +22359,25 @@
             "Dia": "19/11/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "FERRACUTIVICTOR20210522191402",
+            "Vendidas": [
+                "ARG19",
+                "CHI7",
+                "CHI13",
+                "USA7",
+                "BRA9",
+                "CAN21"
+            ],
+            "NoVendidas": [],
+            "Dia": "20/11/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Arg 2024": [
@@ -22536,8 +22553,8 @@
             "Dia": "18/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [

@@ -226,7 +226,7 @@
     {
         "NUM": "ARG19",
         "TIPO": "AFA",
-        "CANT": 7,
+        "CANT": 6,
         "PRECIO": 15000,
         "NOMBRE": "LIONEL MESSI"
     },
@@ -492,7 +492,7 @@
     {
         "NUM": "CHI13",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "MARCELINO NUNEZ"
     },
@@ -1220,7 +1220,7 @@
     {
         "NUM": "USA7",
         "TIPO": "COMUNES",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "CAMERON CARTER-VICKERS"
     },
@@ -1850,7 +1850,7 @@
     {
         "NUM": "BRA9",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "CARLOS AUGUSTO"
     },
@@ -2396,7 +2396,7 @@
     {
         "NUM": "CAN21",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "LIAM MILLAR"
     },
