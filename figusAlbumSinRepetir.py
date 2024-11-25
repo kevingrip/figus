@@ -37,16 +37,20 @@ for i in baseft:
 
 
 for i in baseft:
-    if (i["CANT"]>1) and i["NUM"] not in lista:
+    if (i["CANT"]>2) and i["NUM"] not in lista and i["NUM"] not in ("YPF6","LPF1","LPF3"):
         cant+=1
         lista.append(i["NUM"])
-print(lista)
-print(cant)
+
+
+
 
 for i in baseft:
-    if (i["CANT"]==1):
+    if (i["CANT"]==2 and i["NUM"] not in ("YPF6","LPF1","LPF3")):
         if (i["NUM"][:3]!='YPF'):
             restantes.append(i["NUM"])
+
+print("list",len(lista))
+print("rest",len(restantes))
 
 print("Cant Total: ", cantTotal)
 
