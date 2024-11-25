@@ -51,14 +51,14 @@
     {
         "NUM": "COP5",
         "TIPO": "COPA",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2000,
         "NOMBRE": ""
     },
     {
         "NUM": "COP6",
         "TIPO": "COPA",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2000,
         "NOMBRE": ""
     },
@@ -79,28 +79,28 @@
     {
         "NUM": "COP9",
         "TIPO": "COPA",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2000,
         "NOMBRE": ""
     },
     {
         "NUM": "COP10",
         "TIPO": "COPA",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2000,
         "NOMBRE": ""
     },
     {
         "NUM": "ARJ1",
         "TIPO": "ESCUDO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2500,
         "NOMBRE": ""
     },
     {
         "NUM": "ARJ2",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -142,14 +142,14 @@
     {
         "NUM": "ARJ8",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "ARJ9",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -184,21 +184,21 @@
     {
         "NUM": "ARJ14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "ARJ15",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "ARJ16",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -219,7 +219,7 @@
     {
         "NUM": "ATU2",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -233,21 +233,21 @@
     {
         "NUM": "ATU4",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "ATU5",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "ATU6",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -261,7 +261,7 @@
     {
         "NUM": "ATU8",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -275,7 +275,7 @@
     {
         "NUM": "ATU10",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -289,7 +289,7 @@
     {
         "NUM": "ATU12",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -303,7 +303,7 @@
     {
         "NUM": "ATU14",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -317,14 +317,14 @@
     {
         "NUM": "ATU16",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "ATU17",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -338,21 +338,21 @@
     {
         "NUM": "BAN2",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "BAN3",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "BAN4",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -366,7 +366,7 @@
     {
         "NUM": "BAN6",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -380,7 +380,7 @@
     {
         "NUM": "BAN8",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -394,7 +394,7 @@
     {
         "NUM": "BAN10",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -408,7 +408,7 @@
     {
         "NUM": "BAN12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -422,7 +422,7 @@
     {
         "NUM": "BAN14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -436,7 +436,7 @@
     {
         "NUM": "BAN16",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -457,7 +457,7 @@
     {
         "NUM": "BAR2",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -569,7 +569,7 @@
     {
         "NUM": "BEL1",
         "TIPO": "ESCUDO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2500,
         "NOMBRE": ""
     },
@@ -625,7 +625,7 @@
     {
         "NUM": "BEL9",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -646,7 +646,7 @@
     {
         "NUM": "BEL12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -737,7 +737,7 @@
     {
         "NUM": "BOC8",
         "TIPO": "ESP",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
@@ -765,7 +765,7 @@
     {
         "NUM": "BOC12",
         "TIPO": "ESP",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
@@ -793,28 +793,28 @@
     {
         "NUM": "BOC16",
         "TIPO": "ESP",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
     {
         "NUM": "BOC17",
         "TIPO": "ESP",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
     {
         "NUM": "CCO1",
         "TIPO": "ESCUDO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2500,
         "NOMBRE": ""
     },
     {
         "NUM": "CCO2",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -828,7 +828,7 @@
     {
         "NUM": "CCO4",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -842,7 +842,7 @@
     {
         "NUM": "CCO6",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -856,21 +856,21 @@
     {
         "NUM": "CCO8",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "CCO9",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "CCO10",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -884,7 +884,7 @@
     {
         "NUM": "CCO12",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -898,7 +898,7 @@
     {
         "NUM": "CCO14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -933,7 +933,7 @@
     {
         "NUM": "DYJ2",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -947,7 +947,7 @@
     {
         "NUM": "DYJ4",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -961,7 +961,7 @@
     {
         "NUM": "DYJ6",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1003,7 +1003,7 @@
     {
         "NUM": "DYJ12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1017,7 +1017,7 @@
     {
         "NUM": "DYJ14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1031,7 +1031,7 @@
     {
         "NUM": "DYJ16",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1052,7 +1052,7 @@
     {
         "NUM": "RIE2",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1066,7 +1066,7 @@
     {
         "NUM": "RIE4",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1080,7 +1080,7 @@
     {
         "NUM": "RIE6",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1122,7 +1122,7 @@
     {
         "NUM": "RIE12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1164,14 +1164,14 @@
     {
         "NUM": "EST1",
         "TIPO": "ESCUDO",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2500,
         "NOMBRE": ""
     },
     {
         "NUM": "EST2",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1185,7 +1185,7 @@
     {
         "NUM": "EST4",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1213,7 +1213,7 @@
     {
         "NUM": "EST8",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1227,7 +1227,7 @@
     {
         "NUM": "EST10",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1241,7 +1241,7 @@
     {
         "NUM": "EST12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1255,7 +1255,7 @@
     {
         "NUM": "EST14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1304,14 +1304,14 @@
     {
         "NUM": "GIM4",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "GIM5",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1332,7 +1332,7 @@
     {
         "NUM": "GIM8",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1346,7 +1346,7 @@
     {
         "NUM": "GIM10",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1367,14 +1367,14 @@
     {
         "NUM": "GIM13",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "GIM14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1423,7 +1423,7 @@
     {
         "NUM": "GOD4",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1451,7 +1451,7 @@
     {
         "NUM": "GOD8",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1465,7 +1465,7 @@
     {
         "NUM": "GOD10",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1479,14 +1479,14 @@
     {
         "NUM": "GOD12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "GOD13",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1500,14 +1500,14 @@
     {
         "NUM": "GOD15",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "GOD16",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1528,7 +1528,7 @@
     {
         "NUM": "HUR2",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1542,7 +1542,7 @@
     {
         "NUM": "HUR4",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1556,7 +1556,7 @@
     {
         "NUM": "HUR6",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1570,7 +1570,7 @@
     {
         "NUM": "HUR8",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1584,7 +1584,7 @@
     {
         "NUM": "HUR10",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1598,7 +1598,7 @@
     {
         "NUM": "HUR12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1612,7 +1612,7 @@
     {
         "NUM": "HUR14",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1626,14 +1626,14 @@
     {
         "NUM": "HUR16",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "HUR17",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1647,7 +1647,7 @@
     {
         "NUM": "IND2",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1668,7 +1668,7 @@
     {
         "NUM": "IND5",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1710,7 +1710,7 @@
     {
         "NUM": "IND11",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1724,7 +1724,7 @@
     {
         "NUM": "IND13",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1794,7 +1794,7 @@
     {
         "NUM": "SEM6",
         "TIPO": "SEMILLERO",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
@@ -1836,7 +1836,7 @@
     {
         "NUM": "IRM3",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1850,7 +1850,7 @@
     {
         "NUM": "IRM5",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -1948,7 +1948,7 @@
     {
         "NUM": "INS2",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2214,7 +2214,7 @@
     {
         "NUM": "NOB6",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2298,7 +2298,7 @@
     {
         "NUM": "PLA1",
         "TIPO": "ESCUDO",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 2500,
         "NOMBRE": ""
     },
@@ -2389,7 +2389,7 @@
     {
         "NUM": "PLA14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2424,7 +2424,7 @@
     {
         "NUM": "RAC2",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2466,7 +2466,7 @@
     {
         "NUM": "RAC8",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2522,7 +2522,7 @@
     {
         "NUM": "RAC16",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2585,7 +2585,7 @@
     {
         "NUM": "RIV8",
         "TIPO": "ESP",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
@@ -2599,14 +2599,14 @@
     {
         "NUM": "RIV10",
         "TIPO": "ESP",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
     {
         "NUM": "RIV11",
         "TIPO": "ESP",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
@@ -2662,7 +2662,7 @@
     {
         "NUM": "CEN2",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2676,7 +2676,7 @@
     {
         "NUM": "CEN4",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2718,7 +2718,7 @@
     {
         "NUM": "CEN10",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2781,7 +2781,7 @@
     {
         "NUM": "SLO2",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2795,21 +2795,21 @@
     {
         "NUM": "SLO4",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "SLO5",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "SLO6",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2823,7 +2823,7 @@
     {
         "NUM": "SLO8",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2837,21 +2837,21 @@
     {
         "NUM": "SLO10",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "SLO11",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "SLO12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2865,28 +2865,28 @@
     {
         "NUM": "SLO14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "SLO15",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "SLO16",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "SLO17",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2942,7 +2942,7 @@
     {
         "NUM": "SAR8",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2956,7 +2956,7 @@
     {
         "NUM": "SAR10",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2970,7 +2970,7 @@
     {
         "NUM": "SAR12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2984,7 +2984,7 @@
     {
         "NUM": "SAR14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2998,7 +2998,7 @@
     {
         "NUM": "SAR16",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3019,7 +3019,7 @@
     {
         "NUM": "TAL2",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3033,7 +3033,7 @@
     {
         "NUM": "TAL4",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3061,7 +3061,7 @@
     {
         "NUM": "TAL8",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3075,7 +3075,7 @@
     {
         "NUM": "TAL10",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3089,7 +3089,7 @@
     {
         "NUM": "TAL12",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3103,7 +3103,7 @@
     {
         "NUM": "TAL14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3117,7 +3117,7 @@
     {
         "NUM": "TAL16",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3138,7 +3138,7 @@
     {
         "NUM": "TIG2",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3180,7 +3180,7 @@
     {
         "NUM": "TIG8",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3208,7 +3208,7 @@
     {
         "NUM": "TIG12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3236,7 +3236,7 @@
     {
         "NUM": "TIG16",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3257,7 +3257,7 @@
     {
         "NUM": "UNI2",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3271,7 +3271,7 @@
     {
         "NUM": "UNI4",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3299,21 +3299,21 @@
     {
         "NUM": "UNI8",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "UNI9",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "UNI10",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3327,21 +3327,21 @@
     {
         "NUM": "UNI12",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "UNI13",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "UNI14",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3355,14 +3355,14 @@
     {
         "NUM": "UNI16",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
     {
         "NUM": "UNI17",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3390,7 +3390,7 @@
     {
         "NUM": "VEL4",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3404,7 +3404,7 @@
     {
         "NUM": "VEL6",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3446,7 +3446,7 @@
     {
         "NUM": "VEL12",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3460,7 +3460,7 @@
     {
         "NUM": "VEL14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3481,7 +3481,7 @@
     {
         "NUM": "VEL17",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -3551,7 +3551,7 @@
     {
         "NUM": "YPF10",
         "TIPO": "YPF",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 2500,
         "NOMBRE": ""
     }
