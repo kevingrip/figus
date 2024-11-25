@@ -1703,7 +1703,7 @@
     {
         "NUM": "BOL10",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "CARLOS ROCA"
     },
@@ -1878,7 +1878,7 @@
     {
         "NUM": "BRA13",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 850,
         "NOMBRE": "CASEMIRO"
     },
@@ -2263,7 +2263,7 @@
     {
         "NUM": "CAN2",
         "TIPO": "EQUIPO",
-        "CANT": 8,
+        "CANT": 9,
         "PRECIO": 2000,
         "NOMBRE": "CAN TEAM"
     },
@@ -2473,7 +2473,7 @@
     {
         "NUM": "CRC10",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 850,
         "NOMBRE": "RONALD MATARRITA"
     },
@@ -2872,7 +2872,7 @@
     {
         "NUM": "LEG1",
         "TIPO": "LEYENDA",
-        "CANT": 7,
+        "CANT": 8,
         "PRECIO": 3000,
         "NOMBRE": "BATISTUTA LEFT"
     },
