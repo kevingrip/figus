@@ -22598,6 +22598,32 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "SALAMONEMARIAPIA",
+            "Vendidas": [
+                "RIV8",
+                "RIV10",
+                "RIV11",
+                "RIV12",
+                "RIV14",
+                "RIV15",
+                "RIV16"
+            ],
+            "NoVendidas": [
+                "RIV3",
+                "RIV4",
+                "RIV5",
+                "RIV6",
+                "RIV7",
+                "RIV9",
+                "RIV13"
+            ],
+            "Dia": "26/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

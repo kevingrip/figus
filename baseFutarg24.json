@@ -2585,7 +2585,7 @@
     {
         "NUM": "RIV8",
         "TIPO": "ESP",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
@@ -2599,21 +2599,21 @@
     {
         "NUM": "RIV10",
         "TIPO": "ESP",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
     {
         "NUM": "RIV11",
         "TIPO": "ESP",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
     {
         "NUM": "RIV12",
         "TIPO": "ESP",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
@@ -2627,21 +2627,21 @@
     {
         "NUM": "RIV14",
         "TIPO": "ESP",
-        "CANT": 2,
+        "CANT": 1,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
     {
         "NUM": "RIV15",
         "TIPO": "ESP",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
     {
         "NUM": "RIV16",
         "TIPO": "ESP",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 1500,
         "NOMBRE": ""
     },
