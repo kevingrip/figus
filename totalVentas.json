@@ -22156,8 +22156,8 @@
             "Dia": "14/11/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "MAGRICRISTIAN20230131092737",
@@ -22389,8 +22389,8 @@
             "Dia": "22/11/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LOGU2239923",
@@ -22417,6 +22417,56 @@
             ],
             "NoVendidas": [],
             "Dia": "25/11/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CARMARGUELLO",
+            "Vendidas": [
+                "ARG19",
+                "LEG6"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/11/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "MARIABELENESCOBEDO",
+            "Vendidas": [
+                "VEN2",
+                "VEN11",
+                "VEN21",
+                "JAM17",
+                "JAM18",
+                "USA11",
+                "USA12",
+                "USA16",
+                "BRA12",
+                "BRA20",
+                "BRA22",
+                "PAR8",
+                "PAR21"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/11/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "TREIYERJESIE",
+            "Vendidas": [
+                "ARG12",
+                "USA19"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/11/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
             "ARMADO": "SI",
@@ -22622,8 +22672,8 @@
             "Dia": "26/11/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
@@ -33386,6 +33436,28 @@
             "Dia": "31/10/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "TREIYERJESIE",
+            "Vendidas": [
+                "FWC8",
+                "FWC18",
+                "FWC20",
+                "ARG1",
+                "BEL1",
+                "CRC1",
+                "IRN1",
+                "MEX1",
+                "POL1",
+                "SEN1",
+                "C2"
+            ],
+            "NoVendidas": [],
+            "Dia": "27/11/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
         }
