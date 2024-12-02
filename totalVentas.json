@@ -22604,6 +22604,19 @@
             "Dia": "02/12/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "FUBE20240419150138",
+            "Vendidas": [
+                "INT4",
+                "ARG1"
+            ],
+            "NoVendidas": [],
+            "Dia": "02/12/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }
