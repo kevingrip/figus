@@ -45,7 +45,7 @@ def cosecharStock(base):
     if (base in ("baseMundial.json","albumExtra.json","base_copam.json","baseFutarg24.json")):
 
         if (base =="base_copam.json"):
-            maxFigusCosecha=5
+            maxFigusCosecha=7
         else:
             maxFigusCosecha=3
         
