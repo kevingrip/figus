@@ -2,14 +2,14 @@ import json
 
 from bases import*
 
-base = baseFutarg24()
+base = baseMundial()
 
 for linea in base:
-    if linea["TIPO"]=='ESP':
-        linea["PRECIO"]=1500
+    if linea["TIPO"]=='Comunes' and linea["CANT"]>5:
+        linea["PRECIO"]=750
         print(linea)
 
     
 
-with open ("baseFutarg24.json","w") as baseEditarJson:
+with open ("baseMundial.json","w") as baseEditarJson:
     json.dump (base,baseEditarJson,indent=4)
