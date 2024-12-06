@@ -13,6 +13,8 @@ def procesadorMundial(figuritas,nombre,baseMundial):
     tengo = ''
     cantidadTengo = 0
     cantidadFaltan = 0
+    cantComunes=0
+    precioComunes=0
 
     precio1Comun = 2500
     precio2Comun = 1500
@@ -24,6 +26,10 @@ def procesadorMundial(figuritas,nombre,baseMundial):
 
 
     for fila in datos:
+        if fila["NUM"] in figuritas and fila["TIPO"]=="Comunes" and fila["CANT"]>0:
+            cantComunes+=1
+            precioComunes+=fila["PRECIO"]
+            print("check:",fila["NUM"],fila["TIPO"],fila["PRECIO"])
         if fila.get('NUM') in figuritas and int(fila.get('CANT')) > 0:
             precio_total += int(fila.get('PRECIO'))
             cantidadTengo += 1
@@ -50,6 +56,9 @@ def procesadorMundial(figuritas,nombre,baseMundial):
 
     if len(nombre)>0:
         nombre=" "+nombre
+
+    print("CantComunes: ",cantComunes)
+    print("PrecioComunes: ",precioComunes)
 
     if cantidadTengo == 0:
         respuesta="Hola"+nombre+", "+hora()+"! No las tengo en stock en este momento. Consultame nuevamente en estos dias por si ingresan, saludos!"
