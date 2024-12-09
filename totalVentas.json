@@ -22794,6 +22794,18 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ELIASPIGNONE",
+            "Vendidas": [
+                "VEN20"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/12/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
@@ -22997,6 +23009,19 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "FERNANDEZCARLOS20211216030350",
+            "Vendidas": [
+                "HUR16",
+                "CEN3"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/12/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [

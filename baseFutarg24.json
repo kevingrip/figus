@@ -1626,7 +1626,7 @@
     {
         "NUM": "HUR16",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2291,7 +2291,7 @@
     {
         "NUM": "NOB17",
         "TIPO": "COMUNES",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2319,7 +2319,7 @@
     {
         "NUM": "PLA4",
         "TIPO": "COMUNES",
-        "CANT": 0,
+        "CANT": 1,
         "PRECIO": 750,
         "NOMBRE": ""
     },
@@ -2669,7 +2669,7 @@
     {
         "NUM": "CEN3",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 0,
         "PRECIO": 750,
         "NOMBRE": ""
     },
