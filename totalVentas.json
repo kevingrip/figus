@@ -22806,6 +22806,18 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "LIAT KANT",
+            "Vendidas": [
+                "TRI2"
+            ],
+            "NoVendidas": [],
+            "Dia": "09/12/2024",
+            "Cuenta": "MATI",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
