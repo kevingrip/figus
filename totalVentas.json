@@ -22841,8 +22841,8 @@
             "Dia": "11/12/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "RODRIGUEZAYE73",
@@ -22909,6 +22909,18 @@
             "NoVendidas": [
                 "LEG8"
             ],
+            "Dia": "11/12/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "COILLAN",
+            "Vendidas": [
+                "VEN18"
+            ],
+            "NoVendidas": [],
             "Dia": "11/12/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
