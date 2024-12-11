@@ -34968,6 +34968,77 @@
             "figusPedidas": [
                 "BOL18"
             ]
+        },
+        {
+            "usuario": "PLUSULTRASEGURIDADSA",
+            "figusPedidas": [
+                "INT2",
+                "INT4"
+            ]
+        },
+        {
+            "usuario": "RODRIGUEZAYE73",
+            "figusPedidas": [
+                "ARG1",
+                "ARG13",
+                "ARG19",
+                "ARG20",
+                "ARG21",
+                "ARG3",
+                "ARG4",
+                "ARG8",
+                "BOL1",
+                "BOL5",
+                "BRA13",
+                "BRA16",
+                "BRA18",
+                "BRA2",
+                "BRA3",
+                "BRA7",
+                "CAN3",
+                "CAN9",
+                "CHI19",
+                "CHI3",
+                "COL1",
+                "COL10",
+                "CRC10",
+                "CRC19",
+                "CRC21",
+                "ECU17",
+                "ECU3",
+                "HCI3",
+                "HCI5",
+                "HON4",
+                "INT2",
+                "JAM14",
+                "JAM17",
+                "LEG1",
+                "LEG8",
+                "LEG9",
+                "MEX2",
+                "PAN1",
+                "PAN16",
+                "PAN17",
+                "PAN18",
+                "PAN19",
+                "PAN21",
+                "PAR11",
+                "PAR17",
+                "PAR9",
+                "PER13",
+                "PER5",
+                "PER9",
+                "TRI11",
+                "TRI12",
+                "TRI14",
+                "TRI15",
+                "TRI17",
+                "TRI2",
+                "TRI8",
+                "USA17",
+                "VEN5",
+                "VEN9"
+            ]
         }
     ]
 }
