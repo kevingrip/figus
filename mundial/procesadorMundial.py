@@ -29,7 +29,6 @@ def procesadorMundial(figuritas,nombre,baseMundial):
         if fila["NUM"] in figuritas and fila["TIPO"]=="Comunes" and fila["CANT"]>0:
             cantComunes+=1
             precioComunes+=fila["PRECIO"]
-            print("check:",fila["NUM"],fila["TIPO"],fila["PRECIO"])
         if fila.get('NUM') in figuritas and int(fila.get('CANT')) > 0:
             precio_total += int(fila.get('PRECIO'))
             cantidadTengo += 1
