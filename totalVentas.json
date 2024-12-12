@@ -22912,8 +22912,8 @@
             "Dia": "11/12/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "COILLAN",
@@ -22924,8 +22924,18 @@
             "Dia": "11/12/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "VICTOREDGARDORAMALLO",
+            "Vendidas": [],
+            "NoVendidas": [],
+            "Dia": "12/12/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Arg 2024": [
@@ -23142,6 +23152,40 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "VICTOREDGARDORAMALLO",
+            "Vendidas": [
+                "ATU4",
+                "ATU6",
+                "ATU8",
+                "ATU10",
+                "ATU12",
+                "ATU14",
+                "BAN2",
+                "BAN4",
+                "BAN6",
+                "BOC1",
+                "EST16",
+                "GIM2",
+                "GIM7",
+                "GIM8",
+                "GIM10",
+                "GIM15",
+                "GOD2",
+                "GOD7",
+                "RAC7",
+                "RAC13",
+                "RAC15",
+                "RIV5",
+                "RIV7"
+            ],
+            "NoVendidas": [],
+            "Dia": "12/12/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Mundial Qatar 2022": [
