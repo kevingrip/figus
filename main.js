@@ -442,9 +442,9 @@ const buscarFigus = () => {
     let letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     let numeros = '1234567890'
 
-    valorInput = valorInput.replace(/INTR|INTRO/g, "INT");
+    valorInput = valorInput.replace(/INTRO|INTR/g, "INT");
     valorInput = valorInput.replace(/MEXICO|MEJICO|MXICO|MÉXICO|MX|MEXIVO|MÉX/g, "MEX");
-    valorInput = valorInput.replace(/URUGUAY|URUGUA|URUGUAYO|URUGUAO|URUG|URGUA/g, "URU");
+    valorInput = valorInput.replace(/URUGUAYO|URUGUAY|URUGUAO|URUGUA|URGUA|URUG/g, "URU");
     valorInput = valorInput.replace(/ESTADOSUNIDOS|EEUU|EE.UU/g, "USA");
     valorInput = valorInput.replace(/BRASIL|BRAZIL/g, "BRA");
     valorInput = valorInput.replace(/CANADA|CANAD|CANA|CAADA/g, "CAN");
@@ -499,7 +499,9 @@ const buscarFigus = () => {
 
     // Filtrar las figus seleccionadas
     const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas.includes(figu.NUM));
+    
     errorEscritura=false;
+    let error="";
 
     figusSeleccionadas.forEach(figuNum => {
         // Buscar si la figura está en el array de figuras encontradas
@@ -508,6 +510,7 @@ const buscarFigus = () => {
         // Si no está en el array, se muestra un mensaje en consola
         if (!figu) {
             errorEscritura = true;
+            error+=figuNum+" ";
         }
     });
 
@@ -653,7 +656,7 @@ const buscarFigus = () => {
         resultados.appendChild(mensaje);
     }else{
         const errorEscritura = document.createElement('p');
-        errorEscritura.textContent = `Error de escritura. Corregir para continuar`;
+        errorEscritura.innerHTML = `Error de escritura. Corregir para continuar.<br> Posible error: ${error}`;
         resultados.appendChild(errorEscritura);
     }
 
