@@ -22816,8 +22816,8 @@
             "Dia": "09/12/2024",
             "Cuenta": "MATI",
             "Envio": "ACORDAR ENTREGA",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "VEOS6896249",
@@ -23050,6 +23050,7 @@
                 "CRC9",
                 "CRC16",
                 "CRC21",
+                "CHI7",
                 "HON2",
                 "HON3",
                 "HON5",
@@ -23065,7 +23066,6 @@
                 "ROH2"
             ],
             "NoVendidas": [
-                "CHI7",
                 "TRI2",
                 "LEG8"
             ],
