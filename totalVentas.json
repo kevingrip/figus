@@ -23072,6 +23072,37 @@
             "Dia": "13/12/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "LANDGREBEROXANA",
+            "Vendidas": [
+                "ROH1",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "LEG8"
+            ],
+            "Dia": "16/12/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
+        },
+        {
+            "usuario": "MARKITOXXXS",
+            "Vendidas": [
+                "ARG19",
+                "ECU8",
+                "COL17"
+            ],
+            "NoVendidas": [
+                "INT4"
+            ],
+            "Dia": "16/12/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
         }

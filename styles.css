@@ -7,6 +7,26 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
+.Vendidas {
+    line-height: 2;         /* Aumentar el espacio entre las líneas */
+}
+
+.fVendidas{
+    display: flex;
+    flex-direction: row;    
+    font-family: Lucida Console;
+    
+}
+
+.fVendidas1{
+    min-width: 50%;
+    margin-right: 50px;  
+}
+
+.fVendidas2{
+    min-width: 50%;
+    margin-left: 50px;  
+}
 
 
 .espBtn{

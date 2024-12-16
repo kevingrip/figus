@@ -198,7 +198,9 @@ const totalVentas = () =>{
                     const nombreUsuario = document.createElement('h3');
                     const dia = document.createElement('h5');
                     const nombreCuenta = document.createElement('p');
-                    const figusVendidas = document.createElement('p');
+                    const figusVendidas = document.createElement('div');
+                    const fVendidas1 = document.createElement('p');
+                    const fVendidas2 = document.createElement('p');
                     const figusNoVendidas = document.createElement('p');
                     const tipoEnvio = document.createElement('h4');
                     const cantidad = document.createElement('p')
@@ -209,7 +211,6 @@ const totalVentas = () =>{
                     nombreUsuario.textContent = `USUARIO:\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0${objeto["usuario"]}`             
                     nombreCuenta.textContent = `MercadoLibre: ${objeto["Cuenta"]}`
                     dia.textContent = `${objeto["Dia"]}`
-                    let figuVend = objeto["Vendidas"].toString()
                     let figuNoVend = objeto["NoVendidas"].toString()
                     const figuCont = objeto["Vendidas"]
 
@@ -217,14 +218,88 @@ const totalVentas = () =>{
                     cantidad.textContent = `Cantidad vendida: ${count}`
                     
                     // console.log(figuVend)
-                    let figuVenTab = figuVend.replace(/,/g,"\u00A0\u00A0\u00A0\u00A0")
-                    figusVendidas.textContent = `${figuVenTab}`
+                    //let figuVenTab = figuVend.replace(/,/g,"\u00A0\u00A0\u00A0\u00A0")
+                    //let figuVenTab = figuVend.replace(/,/g,"<br>")
+                    let ant;
+                    let cont=0;
+                    let result="";
+                    let result2="";
+                    let fila=0;
+                    let cantPaises=0;
+                    let contFil=0;
+
+                    objeto["Vendidas"].forEach(figu=>{
+                        if (figu.substring(0,3)!=ant){
+                            cantPaises++;
+                        }
+                        ant=figu.substring(0,3)
+                    }
+                )
+
+                    objeto["Vendidas"].forEach(figu=>{
+                        
+
+                            if (cont==0){
+
+                                ant=figu.substring(0,3)    
+                                if (figu.substring(0,3)=="INT"){
+                                    result+=figu.substring(0,3)+": "+figu.substring(3,5)
+                                }else{
+                                    result+=figu.substring(0,3)+" : "+figu.substring(3,5)
+                                }                      
+                                
+
+                            }else{
+
+                                if (figu.substring(0,3)!=ant){
+
+                                    if (fila<(cantPaises/2)-1 || fila<9){
+                                        result+="<br>"+figu.substring(0,3)+" :\u00A0"+figu.substring(3,5);
+                                    }else{
+                                        if (contFil==0){
+                                            result2+=figu.substring(0,3)+" :\u00A0"+figu.substring(3,5);
+                                            contFil++;
+                                        }else{
+                                            result2+="<br>"+figu.substring(0,3)+" :\u00A0"+figu.substring(3,5);
+                                        }
+                                        
+                                    }
+                                    
+                                    fila++;                                    
+                                }else{
+
+                                    if (fila<(cantPaises/2) || fila<10){
+                                        result+=", "+figu.substring(3,5);       
+                                    }else{
+                                        result2+=", "+figu.substring(3,5);       
+                                    }
+                                                                 
+                                    
+                                }
+                            }
+                                               
+                        
+                        ant=figu.substring(0,3)
+                        cont++
+                    })
+
+                    result = result.replace("INT","INTR")
+
+                    figusVendidas.classList.add('fVendidas')
+
+                    if (result2.length>0){
+                        fVendidas1.classList.add('fVendidas1')
+                        fVendidas2.classList.add('fVendidas2')
+                    }
+                    
+
+                    fVendidas1.innerHTML = `${result}`
+                    fVendidas2.innerHTML = `${result2}`
+                    figusVendidas.appendChild(fVendidas1)
+                    figusVendidas.appendChild(fVendidas2)
                     figusNoVendidas.textContent = figuNoVend.length>0?`Faltantes : ${figuNoVend}`:'';
                     figusNoVendidas.style.color = 'red'
 
-                    if (objeto["usuario"].includes('BOSCAROLNOELIA')||objeto["usuario"].includes('DANILOJAVIERBROGLIA')||objeto["usuario"].includes('ADELA')){
-                        objetoDiv.style.backgroundColor='skyblue'
-                    }
 
                     if (objeto["PREARMADO"]==="SI"){
                         objetoDiv.style.backgroundColor='#58d68d'
@@ -285,8 +360,8 @@ const totalVentas = () =>{
 
                     objetoDiv.appendChild(nombreAlbum);
                     objetoDiv.appendChild(nombreUsuario);
-                    objetoDiv.appendChild(cantidad);
-                    objetoDiv.appendChild(figusVendidas);                    
+                    objetoDiv.appendChild(figusVendidas);     
+                    objetoDiv.appendChild(cantidad);               
                     objetoDiv.appendChild(tipoEnvio);
                     objetoDiv.appendChild(figusNoVendidas);
                     objetoDiv.appendChild(nombreCuenta);
