@@ -54,7 +54,7 @@ li {
 }
 
 
-.inptDiv2{
+.inptDiv{
     display: flex;
     flex-direction: column;
     justify-content: center;

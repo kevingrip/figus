@@ -23159,6 +23159,47 @@
             "Envio": "FLEX",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "ISABELCARMEN20230810105513",
+            "Vendidas": [
+                "INT2",
+                "ARG10",
+                "ARG15",
+                "PER8",
+                "PER16",
+                "CHI6",
+                "CHI17",
+                "MEX13",
+                "MEX14",
+                "MEX21",
+                "ECU14",
+                "ECU15",
+                "ECU16",
+                "ECU18",
+                "VEN15",
+                "VEN22",
+                "JAM3",
+                "URU1",
+                "BOL10",
+                "BRA5",
+                "BRA9",
+                "BRA10",
+                "COL22",
+                "PAR1",
+                "CAN11",
+                "CAN22",
+                "HON2",
+                "LEG4",
+                "LEG9",
+                "LEG17"
+            ],
+            "NoVendidas": [],
+            "Dia": "18/12/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
@@ -23846,8 +23887,8 @@
             "Dia": "18/12/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Mundial Qatar 2022": [
