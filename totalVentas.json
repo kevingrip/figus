@@ -23142,6 +23142,23 @@
             "Envio": "FLEX",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "CEVERCHELLI",
+            "Vendidas": [
+                "INT1",
+                "INT3",
+                "LEG3",
+                "ROH1"
+            ],
+            "NoVendidas": [
+                "INT4"
+            ],
+            "Dia": "18/12/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
