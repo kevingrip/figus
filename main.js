@@ -453,6 +453,8 @@ const buscarFigus = () => {
     
     valorInput = valorInput.replace(/ Y/g, "")
     valorInput = valorInput.replace(/ DE /g, "")
+    valorInput = valorInput.replace(/YPF/g, "YPF");
+
     
     for (let i = 0; i < valorInput.length; i++) {
         if (letras.includes(valorInput[i])){
@@ -681,8 +683,7 @@ const albumInput = (tipo, event) => {
 };
 
 const buscarCliente = () => {
-    let valorInput = document.getElementById('entrada').value.toUpperCase();
-    
+    let valorInput = document.getElementById('entrada').value.toUpperCase();    
 
     const mostrarEnHtml = document.getElementById('figuUsers');
     mostrarEnHtml.innerHTML = ''; // Limpiar resultados anteriores
@@ -721,6 +722,112 @@ const buscarCliente = () => {
         })    
 }
 
+const albumFigu = (tipo, event) => {
+    tipoAlbum(tipo, event)
+        .then(() => {
+            armarAlbumFigus(); 
+        });
+};
+
+const armarAlbumFigus = () =>{
+    const mostrarEnHtml = document.getElementById('figuUsers');
+    mostrarEnHtml.innerHTML = ''; // Limpiar resultados anteriores
+
+    const tituloMayor2 = document.createElement('h2')
+    const figusMayor2Com = document.createElement('p')
+    const figusMayor2Esp = document.createElement('p')
+    const figusMayor2Esc = document.createElement('p')
+    const figusMayor2Riv = document.createElement('p')
+    const figusMayor2Boc = document.createElement('p')
+
+    const tituloIgual2 = document.createElement('h2')
+    const figusIgual2Com = document.createElement('p')
+    const figusIgual2Esp = document.createElement('p')
+    const figusIgual2Esc = document.createElement('p')
+    const figusIgual2Riv = document.createElement('p')
+    const figusIgual2Boc = document.createElement('p')
+
+    figusMayor2Esc.innerHTML='Escudos: '
+    figusMayor2Com.innerHTML='Comunes: '
+    figusMayor2Riv.innerHTML='River: '
+    figusMayor2Boc.innerHTML='Boca: '
+    figusMayor2Esp.innerHTML='Especiales: '
+
+    figusIgual2Esc.innerHTML='Escudos: '
+    figusIgual2Com.innerHTML='Comunes: '
+    figusIgual2Riv.innerHTML='River: '
+    figusIgual2Boc.innerHTML='Boca: '
+    figusIgual2Esp.innerHTML='Especiales: '
+
+    cantMayor2Esc=0
+    cantMayor2Com=0
+    cantMayor2Riv=0
+    cantMayor2Boc=0
+    cantMayor2Esp=0
+
+
+    fetch(filePath)
+        .then(response => response.json())
+        .then(data => {
+
+            data.forEach(figu=>{
+                if (figu.CANT>2){
+                    tituloMayor2.innerHTML='Cant = 3 o MAS'
+                    
+                    if (figu.TIPO=='ESCUDO'){
+                        figusMayor2Esc.innerHTML+=figu.NUM+" "
+                    }else if (figu.TIPO=='COMUNES'){
+                        figusMayor2Com.innerHTML+=figu.NUM+" "
+                    }else{
+                        if (figu.NUM.substring(0,3)=='RIV'){
+                            figusMayor2Riv.innerHTML+=figu.NUM+" "
+                        }else if (figu.NUM.substring(0,3)=='BOC'){
+                            figusMayor2Boc.innerHTML+=figu.NUM+" "
+                        }
+                        else{
+                            figusMayor2Esp.innerHTML+=figu.NUM+" "
+                        }                        
+                    }
+                }else if (figu.CANT==2){
+                    tituloIgual2.innerHTML='Cant = 2'
+                    if (figu.TIPO=='ESCUDO'){
+                        figusIgual2Esc.innerHTML+=figu.NUM+" "
+                    }else if (figu.TIPO=='COMUNES'){
+                        figusIgual2Com.innerHTML+=figu.NUM+" "
+                    }else{
+                        if (figu.NUM.substring(0,3)=="RIV"){
+                            figusIgual2Riv.innerHTML+=figu.NUM+" "
+                        }else if (figu.NUM.substring(0,3)=="BOC"){
+                            figusIgual2Boc.innerHTML+=figu.NUM+" "
+                        }
+                        else{
+                            figusIgual2Esp.innerHTML+=figu.NUM+" "
+                        }                        
+                    }
+                }
+                
+            //navigator.clipboard.writeText(clientFigus.textContent) 
+            })
+             
+            mostrarEnHtml.appendChild(tituloMayor2) 
+            mostrarEnHtml.appendChild(figusMayor2Esc) 
+            mostrarEnHtml.appendChild(figusMayor2Esp) 
+            mostrarEnHtml.appendChild(figusMayor2Riv) 
+            mostrarEnHtml.appendChild(figusMayor2Boc) 
+            mostrarEnHtml.appendChild(figusMayor2Com) 
+
+
+            mostrarEnHtml.appendChild(tituloIgual2) 
+            mostrarEnHtml.appendChild(figusIgual2Esc)    
+            mostrarEnHtml.appendChild(figusIgual2Esp)     
+            mostrarEnHtml.appendChild(figusIgual2Riv)    
+            mostrarEnHtml.appendChild(figusIgual2Boc) 
+            mostrarEnHtml.appendChild(figusIgual2Com) 
+ 
+ 
+        })
+
+    }
 // Cargar las figus iniciales al cargar la página
 
 cargarFigus();

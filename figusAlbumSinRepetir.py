@@ -49,15 +49,6 @@ for i in baseft:
 
 
 
-canti=0
-while(canti<46):
-    aleat= random.randint(0,61)
-    if (randomX1[aleat] not in figusOk):
-        figusOk.append(randomX1[aleat])
-        canti+=1
-
-print(sorted(figusOk))
-print(len(figusOk))
 
 for i in baseft:
     if (i["CANT"]>2) and i["NUM"] not in lista and i["NUM"] not in ("YPF6"):
@@ -101,5 +92,3 @@ listaOrdenada= sorted(lista, key=lambda x: (x[:3], int(x[3:])))
 
 print(listaOrdenada)
 print(len(lista))
-
-
