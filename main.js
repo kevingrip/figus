@@ -628,13 +628,15 @@ const buscarFigus = () => {
         if (faltantes.length == 0){
             if (cantFigusStock==1){
                 if (totalPrecio<3500){
-                    if (tipoFigu!='ESCUDO'){
+                    if (tipoFigu=='ESCUDO'){
+                        mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 5000${confirmacion}`                        
+                    } else if (totalPrecio==850){
                         mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 3900${confirmacion}`
-                    } else {
-                        mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 5000${confirmacion}`
+                    } else{
+                        mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 4500${confirmacion}`
                     }
                 }else{
-                    mensaje.textContent = textFinal(cantFigusStock,totalPrecio)
+                    mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es ${totalPrecio}${confirmacion}`
                 }
                 
             } else if (totalPrecio>=costoEnvioGratis){
