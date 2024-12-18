@@ -191,12 +191,12 @@ const totalVentas = () =>{
                     let count = 0
                     // Crear un elemento div para cada objeto
                     
-                    const objetoDiv = document.createElement('div');
+                    const pantallaVenta = document.createElement('div');
 
                     
                     const nombreAlbum = document.createElement('h2');
                     const nombreUsuario = document.createElement('h3');
-                    const dia = document.createElement('h5');
+                    const fecha = document.createElement('h5');
                     const nombreCuenta = document.createElement('p');
                     const figusVendidas = document.createElement('div');
                     const fVendidas1 = document.createElement('p');
@@ -204,13 +204,12 @@ const totalVentas = () =>{
                     const figusNoVendidas = document.createElement('p');
                     const tipoEnvio = document.createElement('h4');
                     const cantidad = document.createElement('p')
-                    const button = document.createElement('button');
 
                     nombreAlbum.textContent = album
                     
                     nombreUsuario.textContent = `USUARIO:\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0${objeto["usuario"]}`             
                     nombreCuenta.textContent = `MercadoLibre: ${objeto["Cuenta"]}`
-                    dia.textContent = `${objeto["Dia"]}`
+                    fecha.textContent = `${objeto["Dia"]}`
                     let figuNoVend = objeto["NoVendidas"].toString()
                     const figuCont = objeto["Vendidas"]
 
@@ -297,12 +296,12 @@ const totalVentas = () =>{
                     fVendidas2.innerHTML = `${result2}`
                     figusVendidas.appendChild(fVendidas1)
                     figusVendidas.appendChild(fVendidas2)
-                    figusNoVendidas.textContent = figuNoVend.length>0?`Faltantes : ${figuNoVend}`:'';
+                    figusNoVendidas.textContent = figuNoVend.length>0?`Sin Stock : ${figuNoVend}`:'';
                     figusNoVendidas.style.color = 'red'
 
 
                     if (objeto["PREARMADO"]==="SI"){
-                        objetoDiv.style.backgroundColor='#58d68d'
+                        pantallaVenta.style.backgroundColor='#58d68d'
                     }
                     
                     if (objeto["Envio"]==='FLEX'){
@@ -334,21 +333,21 @@ const totalVentas = () =>{
 
                     if (album==='Copa America 2024'){
                         nombreAlbum.style.backgroundColor = 'skyblue' 
-                        objetoDiv.style.border = '3px solid skyblue'   
+                        pantallaVenta.style.border = '3px solid skyblue'   
                     }else if (album==='Mundial Qatar 2022'){
                         nombreAlbum.style.backgroundColor = 'orangered'  
-                        objetoDiv.style.border = '3px solid orangered'  
+                        pantallaVenta.style.border = '3px solid orangered'  
                     }else if (album==='Futbol Argentino 2023'){
                         nombreAlbum.style.backgroundColor = '#d72bde' 
-                        objetoDiv.style.border = '3px solid #d72bde'  
+                        pantallaVenta.style.border = '3px solid #d72bde'  
 
                     }else if (album==='Copa Libertadores 2023'){
                         nombreAlbum.style.backgroundColor = 'gold' 
-                        objetoDiv.style.border = '3px solid gold'  
+                        pantallaVenta.style.border = '3px solid gold'  
 
                     }else if (album==='Futbol Arg 2024'){
                         nombreAlbum.style.backgroundColor = 'green' 
-                        objetoDiv.style.border = '3px solid green' 
+                        pantallaVenta.style.border = '3px solid green' 
                         nombreAlbum.style.color='white'
 
                     }
@@ -358,38 +357,29 @@ const totalVentas = () =>{
                     
                     
 
-                    objetoDiv.appendChild(nombreAlbum);
-                    objetoDiv.appendChild(nombreUsuario);
-                    objetoDiv.appendChild(figusVendidas);     
-                    objetoDiv.appendChild(cantidad);               
-                    objetoDiv.appendChild(tipoEnvio);
-                    objetoDiv.appendChild(figusNoVendidas);
-                    objetoDiv.appendChild(nombreCuenta);
-                    objetoDiv.appendChild(dia);
-                    objetoDiv.appendChild(button)
+                    pantallaVenta.appendChild(nombreAlbum);
+                    pantallaVenta.appendChild(nombreUsuario);
+                    pantallaVenta.appendChild(figusVendidas);     
+                    pantallaVenta.appendChild(cantidad);               
+                    pantallaVenta.appendChild(tipoEnvio);
+                    pantallaVenta.appendChild(fecha);
+                    pantallaVenta.appendChild(figusNoVendidas);
+                    pantallaVenta.appendChild(nombreCuenta);
                     
-                    button.textContent="ARMADO"
+                    
 
                     figusVendidas.style.maxWidth = '90%';
                     figusVendidas.style.minHeight = '20px';
                     figusVendidas.style.wordWrap = 'break-word';
-                    objetoDiv.style.margin = '5px'
-                    objetoDiv.style.padding = '15px'                    
+                    pantallaVenta.style.margin = '5px'
+                    pantallaVenta.style.padding = '15px'                 
 
 
                     
                     // Agregar el elemento div al contenedor totalVentasElement
-                    totalVentasElement.appendChild(objetoDiv);
+                    totalVentasElement.appendChild(pantallaVenta);
                     
-                    button.addEventListener('click', () => {
-                        if (objetoDiv.style.backgroundColor === 'red'){
-                            objetoDiv.style.backgroundColor = 'white'                                                
-                        }else{
-                            objetoDiv.style.backgroundColor = 'red';
-                            nombreUsuario.style.backgroundColor = 'white';
-                            nombreAlbum.style.backgroundColor = 'red'    
-                        }                    
-                    });                                       
+                                                          
                 });
             }
         })
