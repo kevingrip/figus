@@ -1,6 +1,15 @@
 .inpt {
-    width: 300px;
+    width: 800px;
     height: 100px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.inptUs {
+    width: 250px;
+    height: 20px;
     padding: 10px;
     background-color: #f0f0f0; /* Color de fondo */
     border-radius: 10px; /* Bordes redondeados */
@@ -15,6 +24,41 @@
     display: flex;
     flex-direction: row;    
     font-family: Lucida Console;
+    
+}
+
+.listaClass{
+    font-family: Lucida Console;
+}
+
+li {
+    border: 1px solid #000;  /* Borde de 1px de grosor, color negro */
+    padding: 10px;            /* Espacio interior del cuadro */
+    margin: 5px 0;            /* Espacio fuera del cuadro (por ejemplo, 5px arriba y abajo) */
+    background-color: #f9f9f9; /* Color de fondo del cuadro */
+    border-radius: 8px;       /* Bordes redondeados */
+    box-sizing: border-box;   /* Para que el padding no afecte el tamaño total del cuadro */
+    display: flex;            /* Opcional: usaremos flexbox si quieres alinear los elementos dentro */
+    justify-content: space-between; /* Distribuye el contenido */
+    align-items: center;      /* Alinea verticalmente */
+    font-family: Arial, sans-serif; /* Establece la fuente para el texto */
+    font-size: 14px; 
+}
+
+.inptCuadro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.479);
+}
+
+
+.inptDiv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -56,11 +100,7 @@
     align-items: center;
 }
 
-.bgc{
-    background-color: orangered;
-    color: white;
-    height: 30px;
-}
+
 
 button.pressed {
     background-color: #2980b9;
@@ -75,4 +115,41 @@ button.pressed {
 }
 body {
     font-family: Arial, sans-serif;
+}
+
+.clientFigu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.clientFigu p {
+    white-space: normal;  /* Permite que el texto se divida en varias líneas */
+    word-wrap: break-word; /* Permite que las palabras largas se rompan si es necesario */
+    word-break: break-word; /* Asegura que el texto largo se divida */
+    padding: 10px; /* Para asegurarse de que el contenido tenga espacio alrededor */
+    max-width: 100%; /* Asegura que el contenedor no se expanda más allá de su contenedor */
+}
+
+.clientUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    
+}
+
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 746px) {
+    .fVendidas{
+        flex-direction: column;           
+    }
+    .fVendidas2{
+        margin-left: 0px;
+    }
 }

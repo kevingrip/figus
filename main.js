@@ -1,5 +1,5 @@
 
-let filePath='./baseMundial.json';
+let filePath='./base_copam.json';
 const tipoAlbum = (tipo, event) => {
     return new Promise((resolve, reject) => {
         filePath = `./${tipo}.json`;
@@ -389,10 +389,7 @@ const totalVentas = () =>{
                             nombreUsuario.style.backgroundColor = 'white';
                             nombreAlbum.style.backgroundColor = 'red'    
                         }                    
-                    });
-
-                    
-                    
+                    });                                       
                 });
             }
         })
@@ -553,55 +550,78 @@ const buscarFigus = () => {
 
     // Mostrar resultados en el HTML
     const resultados = document.getElementById('resultados');
-    resultados.innerHTML = ''; // Limpiar resultados anteriores
-
+    const unionDiv = document.createElement('div');
+    const separacionDiv1 = document.createElement('div');
+    const separacionDiv2 = document.createElement('div');
     
+
+    unionDiv.classList.add('inptCuadro')
+    separacionDiv1.classList.add=('inptDiv1')        
+    separacionDiv2.classList.add('inptDiv2')    
+    
+    resultados.innerHTML = ''; // Limpiar resultados anteriores
 
     if (errorEscritura==false){
 
         const cantLi = document.createElement('p');
         cantLi.textContent = `Cantidad figus contadas en la pregunta: ${cantFigusConsult}`;
-        resultados.appendChild(cantLi);
+        separacionDiv2.appendChild(cantLi);
 
         filteredFigus.forEach(figu => {
             const li = document.createElement('li');
-            const p = document.createElement('p')
-            li.textContent = `${figu.NUM}${figu.NUM.length===5 ? ':\u00A0' : '\u00A0\u00A0:\u00A0'} $${figu.PRECIO.toString().length===3 ? `${figu.PRECIO}\u00A0\u00A0\u00A0` : `${figu.PRECIO.toString().length===4 ? `${figu.PRECIO}\u00A0\u00A0` : figu.PRECIO}`} | Stock: ${figu.CANT.toString().length==1 ? `${figu.CANT}\u00A0\u00A0` : figu.CANT}` ;
-            p.textContent = `\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0${figu.NOMBRE}`
-            resultados.appendChild(li);
-            resultados.appendChild(p);
+            li.classList.add('listaClass')
+            if (figu.CANT==0){
+                li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                li.style.color='red'
+            }else{
+                li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+            }
+            
+            separacionDiv1.appendChild(li);            
         });
     
         const totalFi = document.createElement('p');
         totalFi.textContent = `Cant figus en Stock: ${cantFigusStock}`;
-        resultados.appendChild(totalFi);
+        separacionDiv2.appendChild(totalFi);
     
         const totalSi = document.createElement('p');
         totalSi.textContent = `Cant figus sin Stock: ${cantFigusSinStock}`;
-        resultados.appendChild(totalSi);
-    
+        separacionDiv2.appendChild(totalSi);    
         
     
         const totalLi = document.createElement('p');
         totalLi.textContent = `Total Precio: $${totalPrecio}`;
-        resultados.appendChild(totalLi);
-    
+        separacionDiv2.appendChild(totalLi);
+
+        unionDiv.appendChild(separacionDiv1)
+        unionDiv.appendChild(separacionDiv2)
         
+        resultados.style.padding='0px'
+        resultados.appendChild(unionDiv)
+        
+        let singPlur='la';
+        let precioFinal='3900';
+
+        const textFinal = (singPlur,precioFinal) =>{
+            return `Hola! Si, ${singPlur} tengo en stock. El precio por ${singPlur} figurita original es ${precioFinal}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`;
+        }
     
         const mensaje = document.createElement('h3');
         if (faltantes.length == 0){
             if (cantFigusStock==1){            
                 if (totalPrecio<3500){
                     if (tipoFigu!='ESCUDO'){
-                        mensaje.textContent = `Hola! Si, la tengo en stock. El precio por la figurita original es 3900. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                        mensaje.textContent = textFinal(singPlur,precioFinal)
                     } else {
-                        mensaje.textContent = `Hola! Si, la tengo en stock. El precio por la figurita original es 5000. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                        precioFinal='5000'
+                        mensaje.textContent = textFinal(singPlur,precioFinal)
                     }
                 }else{
-                    mensaje.textContent = `Hola! Si, la tengo en stock. El precio por la figurita original es ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra. Saludos!`
+                    precioFinal=totalPrecio;
+                    mensaje.textContent = textFinal(singPlur,precioFinal)
                 }
                 
-            } else if (totalPrecio>=28000){
+            } else if (totalPrecio>=30000){
                 mensaje.textContent = `Hola! Si, en este momento cuento con todas en stock y te damos el envio gratis por un total de ${totalPrecio}. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra !!`
             }
             else{
@@ -652,16 +672,75 @@ const buscarFigus = () => {
             }
             
         }
-        
+        mensaje.style.margin='50px'
         resultados.appendChild(mensaje);
+        navigator.clipboard.writeText(mensaje.textContent)  // Usa .textContent para acceder al texto
+            
+
     }else{
         const errorEscritura = document.createElement('p');
-        errorEscritura.innerHTML = `Error de escritura. Corregir para continuar.<br> Posible error: ${error}`;
+        errorEscritura.innerHTML = `Error de escritura. Presta atencion loro.<br> Posible error: ${error}`;
+        errorEscritura.classList.add('clientFigu')
         resultados.appendChild(errorEscritura);
-    }
-
-    
+    }   
 };
+
+const albumCliente = (tipo, event) => {
+    tipoAlbum(tipo, event)
+        .then(() => {
+            buscarCliente(); 
+        });
+};
+
+const albumInput = (tipo, event) => {
+    tipoAlbum(tipo, event)
+        .then(() => {
+            buscarFigus(); 
+        });
+};
+
+const buscarCliente = () => {
+    let valorInput = document.getElementById('entrada').value.toUpperCase();
+    
+
+    const mostrarEnHtml = document.getElementById('figuUsers');
+    mostrarEnHtml.innerHTML = ''; // Limpiar resultados anteriores
+    existeUsuario=false;
+    
+    fetch(filePath)
+        .then(response => response.json())
+        .then(data => {
+
+            Object.keys(data).forEach(llave=>{
+                data[llave].forEach(usuario =>{
+                    if (usuario.usuario==valorInput){
+                        existeUsuario=true;
+                        const clientUser = document.createElement('h3');
+                        const clientFigus = document.createElement('p');
+                        clientUser.classList.add('clientUser')
+                        clientFigus.classList.add('clientFigu')
+                        clientUser.innerHTML = `${usuario.usuario}`;
+                        clientFigus.innerHTML = `${usuario.figusPedidas.join(', ')}`; // Si las figus son un array, unirlas con comas
+                        mostrarEnHtml.appendChild(clientUser);
+                        mostrarEnHtml.appendChild(clientFigus);
+                        console.log(`${usuario.usuario}: ${usuario.figusPedidas}`);
+                        navigator.clipboard.writeText(clientFigus.textContent)
+                    }
+                    
+                }) 
+            })
+            
+                
+            if  (existeUsuario==false){
+                
+                const figuUsuario = document.createElement('p');
+                figuUsuario.classList.add('clientFigu')
+                figuUsuario.innerHTML = `No se encuentra el usuario`;
+                mostrarEnHtml.appendChild(figuUsuario);
+            }      
+        })    
+    
+}
 
 // Cargar las figus iniciales al cargar la página
 

@@ -31885,14 +31885,6 @@
             ]
         },
         {
-            "usuario": "BIGOTE-64",
-            "figusPedidas": [
-                "FRA1",
-                "FWC8",
-                "POR1"
-            ]
-        },
-        {
             "usuario": "MARIELAAREVALOS",
             "figusPedidas": [
                 "ARG1",
@@ -35227,6 +35219,29 @@
                 "ARG19",
                 "COL17",
                 "ECU8",
+                "INT4"
+            ]
+        },
+        {
+            "usuario": "DEVICENZI",
+            "figusPedidas": [
+                "BOL7",
+                "CAN8",
+                "COL21",
+                "COL4",
+                "INT3",
+                "JAM14",
+                "PAN16",
+                "PAN8",
+                "PAR19",
+                "ROH2",
+                "TRI4"
+            ]
+        },
+        {
+            "usuario": "REES2585518",
+            "figusPedidas": [
+                "INT3",
                 "INT4"
             ]
         }

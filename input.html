@@ -12,27 +12,24 @@
     <div class="posBtn" >
         <button onclick="window.location.href='index.html'">Menu</button>
     </div>
-    <h1 class="posBusc">Lafi Gurita</h1>
+    <h1 class="posBusc">Lafi Gurita</h1>    
     
-    <h3 class="posBusc">Presione el album:</h3>
-    <div>
-        <div class="posBtn">
-            <button class="bloqueAlbum pressed" onclick="tipoAlbum('baseMundial',event)">Mundial Qatar 2022</button>              
-            <button class="bloqueAlbum" onclick="tipoAlbum('base_copam',event)">Copa America 2024</button>
-            
-        </div>
-        <div class="posBtn">
-            <button class="bloqueAlbum" onclick="tipoAlbum('baseFutarg',event)">Futbol Argentino 2023</button>
-            <button class="bloqueAlbum" onclick="tipoAlbum('baseLali',event)">Copa Libertadores 2023</button>
-            <button class="bloqueAlbum" onclick="tipoAlbum('baseFutarg24',event)">Futbol Argentino 2024</button>
-        </div>
-    </div>
     
     <div class="posBusc">
         <h3>Ingresa las figus:</h3>
         <textarea type="text" id="entrada" class="inpt"></textarea>
-        <div class="espBtn">
-            <button class="btn" onclick="buscarFigus()">Buscar</button>
+        <h3 class="posBusc">Presione el album:</h3>
+        <div>
+            <div class="posBtn">
+                <button class="bloqueAlbum" onclick="albumInput('baseMundial',event)">Mundial Qatar 2022</button>              
+                <button class="bloqueAlbum pressed" onclick="albumInput('base_copam',event)">Copa America 2024</button>
+                
+            </div>
+            <div class="posBtn">
+                <button class="bloqueAlbum" onclick="albumInput('baseFutarg',event)">Futbol Argentino 2023</button>
+                <button class="bloqueAlbum" onclick="albumInput('baseLali',event)">Copa Libertadores 2023</button>
+                <button class="bloqueAlbum" onclick="albumInput('baseFutarg24',event)">Futbol Argentino 2024</button>
+            </div>
         </div>
     </div>
     <ul id="resultados">
