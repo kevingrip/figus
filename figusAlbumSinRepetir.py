@@ -49,26 +49,16 @@ for i in baseft:
 
 
 
-canti=0
-while(canti<46):
-    aleat= random.randint(0,61)
-    if (randomX1[aleat] not in figusOk):
-        figusOk.append(randomX1[aleat])
-        canti+=1
-
-print(sorted(figusOk))
-print(len(figusOk))
 
 for i in baseft:
-    if (i["CANT"]>2) and i["NUM"] not in lista and i["NUM"] not in ("YPF6","LPF1","LPF3"):
+    if (i["CANT"]>2) and i["NUM"] not in lista and i["NUM"] not in ("YPF6"):
         cant+=1
         lista.append(i["NUM"])
 
 
 
-
 for i in baseft:
-    if (i["CANT"]==2 and i["NUM"] not in ("YPF6","LPF1","LPF3")):
+    if (i["CANT"]==2 and i["NUM"] not in ("YPF6","LPF1","LPF2","LPF3")):
         if (i["NUM"][:3]!='YPF'):
             restantes.append(i["NUM"])
 
@@ -95,12 +85,10 @@ while (cantTotal>FIGUSALBUM and agregado<FIGUSALBUM-cant):
         agregado+=1
         # nuevas.append(restantes[aleatorio])
 
-
-
-
 lista.sort()
-print(lista)
+
+listaOrdenada= sorted(lista, key=lambda x: (x[:3], int(x[3:])))
+
+
+print(listaOrdenada)
 print(len(lista))
-print("nuevas:",nuevas)
-
-
