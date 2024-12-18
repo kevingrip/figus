@@ -444,7 +444,7 @@ const buscarFigus = () => {
     valorInput = valorInput.replace(/URUGUAYO|URUGUAY|URUGUAO|URUGUA|URGUA|URUG/g, "URU");
     valorInput = valorInput.replace(/ESTADOSUNIDOS|EEUU|EE.UU/g, "USA");
     valorInput = valorInput.replace(/BRASIL|BRAZIL/g, "BRA");
-    valorInput = valorInput.replace(/CANADA|CANAD|CANA|CAADA/g, "CAN");
+    valorInput = valorInput.replace(/CANADA|CANADÁ|CANAD|CANA|CAADA/g, "CAN");
     valorInput = valorInput.replace(/ARGENTINA|AFA|ARH/g, "ARG");
     valorInput = valorInput.replace(/HCL|HC1|ESTADIO|ESTADIOS/g, "HCI");
     valorInput = valorInput.replace(/PERU|PERÚ|PERO/g, "PER");
@@ -454,11 +454,12 @@ const buscarFigus = () => {
     valorInput = valorInput.replace(/PANAM|PANAMA/g, "PAN");
     valorInput = valorInput.replace(/BOLIVIA|BOLIV/g, "BOL");
     valorInput = valorInput.replace(/COLOMBIA|COLOM|COLO/g, "COL");
-    valorInput = valorInput.replace(/PARAGUA|PARA/g, "PAR");
+    valorInput = valorInput.replace(/PARAGUAY|PARAGUA|PARA/g, "PAR");
     valorInput = valorInput.replace(/HONDURAS|HOND|HONDURA/g, "HON");
     valorInput = valorInput.replace(/TRINIDADTOBAGO|TRINIDAD|TYT|TRINIDADANDTOBAGO|TRT|TRIN/g, "TRI");
-    valorInput = valorInput.replace(/LEYENDAS|LEENDA|LEENDAS|LEGENDARIOS|LEGEND|LEGENDA|LEGENDARIA|LEGENDARIAS/g, "LEG");
+    valorInput = valorInput.replace(/LEGENDARIA|LEYENDAS|LEENDA|LEENDAS|LEGENDARIOS|LEGEND|LEGENDA|LEGENDARIAS/g, "LEG");
     valorInput = valorInput.replace(/RHO/g, "ROH");
+    valorInput = valorInput.replace(/ECUADOR/g, "ECU");
     
     valorInput = valorInput.replace(/ Y/g, "")
     
