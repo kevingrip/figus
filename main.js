@@ -318,7 +318,7 @@ const totalVentas = () =>{
                         cantFlex+=1
                     }else if (objeto["Envio"]==='CORREO'){
                         tipoEnvio.textContent = `${objeto["Envio"]}`
-                        tipoEnvio.style.color = 'orange'
+                        tipoEnvio.style.color = '#e5d100'
                         tipoEnvio.style.fontSize  = '20px'
                     }else {
                         tipoEnvio.textContent = `${objeto["Envio"]}`
@@ -335,8 +335,8 @@ const totalVentas = () =>{
                         nombreAlbum.style.backgroundColor = 'skyblue' 
                         pantallaVenta.style.border = '3px solid skyblue'   
                     }else if (album==='Mundial Qatar 2022'){
-                        nombreAlbum.style.backgroundColor = 'orangered'  
-                        pantallaVenta.style.border = '3px solid orangered'  
+                        nombreAlbum.style.backgroundColor = '#e5d100red'  
+                        pantallaVenta.style.border = '3px solid #e5d100red'  
                     }else if (album==='Futbol Argentino 2023'){
                         nombreAlbum.style.backgroundColor = '#d72bde' 
                         pantallaVenta.style.border = '3px solid #d72bde'  
@@ -575,7 +575,7 @@ const buscarFigus = () => {
             mostrarFiguLimp+=figu.NUM+" "
             const li = document.createElement('li');
             li.classList.add('listaClass')
-            if (figu.CANT==0){
+            if (figu.CANT==0){                
                 li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
                 li.style.color='red'
             }else{
@@ -762,7 +762,7 @@ const armarAlbumFigus = () =>{
             data.forEach(figu=>{
                     if (figu.CANT>2 && figu.TIPO=="COMUNES" && cantComunes<130 && !figusAlbum.includes(figu.NUM)){
                         figusAlbum.push(figu["NUM"])
-                        comunesAlbum.innerHTML+=figu.NUM+" "
+                        comunesAlbum.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `
                         cantComunes++
                         cantComunesMayor1++
                     }                   
@@ -771,7 +771,7 @@ const armarAlbumFigus = () =>{
             data.forEach(figu=>{
                     if (figu.CANT==2 && figu.TIPO=="COMUNES" && cantComunes<130 && !figusAlbum.includes(figu.NUM)){
                         figusAlbum.push(figu["NUM"])
-                        comunesAlbum.innerHTML+=figu.NUM+" "
+                        comunesAlbum.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `
                         cantComunes++
                         cantComunesMayor1++
                     }
@@ -796,7 +796,7 @@ const armarAlbumFigus = () =>{
                         }
                         randomsX1.push(randomInt)
                         figusAlbum.push(cantComunesX1[randomInt])
-                        comunesAlbum.innerHTML+=cantComunesX1[randomInt]+" "
+                        comunesAlbum.innerHTML+=`<span style="color: red;">${cantComunesX1[randomInt]}</span> `
                         cantComunes++
                     }
                 }
@@ -834,37 +834,37 @@ const armarAlbumFigus = () =>{
                 if (figu.CANT>2){
                     if (figu.TIPO=="YPF" && cantFiguYPF<2){
                         cantFiguYPF++    
-                        figusYPF.innerHTML+=  figu.NUM+" "    
+                        figusYPF.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])   
                     }
                     if (figu.TIPO=="COPA" && cantFiguCopa<2){
                         cantFiguCopa++
-                        figusCopa.innerHTML+=  figu.NUM+" " 
+                        figusCopa.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="SEMILLERO" && cantFiguSem<2){
                         cantFiguSem++
-                        figusSem.innerHTML+=  figu.NUM+" " 
+                        figusSem.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="LPF" && cantFiguLPF<1){
                         cantFiguLPF++
-                        figusLPF.innerHTML+=  figu.NUM+" " 
+                        figusLPF.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="ESCUDO" && cantFiguEscudos<7){
                         cantFiguEscudos++
-                        figusEscudos.innerHTML+=  figu.NUM+" " 
+                        figusEscudos.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="RIV" && cantFiguRiv<3){
                         cantFiguRiv++
-                        figusRiv.innerHTML+=  figu.NUM+" " 
+                        figusRiv.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="BOC" && cantFiguBoc<3){
                         cantFiguBoc++
-                        figusBoc.innerHTML+=  figu.NUM+" " 
+                        figusBoc.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                 }
@@ -874,37 +874,37 @@ const armarAlbumFigus = () =>{
                 if (figu.CANT==2){
                     if (figu.TIPO=="YPF" && cantFiguYPF<2){
                         cantFiguYPF++    
-                        figusYPF.innerHTML+=  figu.NUM +" "  
+                        figusYPF.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])       
                     }
                     if (figu.TIPO=="COPA" && cantFiguCopa<2){
                         cantFiguCopa++
-                        figusCopa.innerHTML+=  figu.NUM +" " 
+                        figusCopa.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="SEMILLERO" && cantFiguSem<2){
                         cantFiguSem++
-                        figusSem.innerHTML+=  figu.NUM +" " 
+                        figusSem.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="LPF" && cantFiguLPF<1){
                         cantFiguLPF++
-                        figusLPF.innerHTML+=  figu.NUM+" " 
+                        figusLPF.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="ESCUDO" && cantFiguEscudos<7){
                         cantFiguEscudos++
-                        figusEscudos.innerHTML+=  figu.NUM+" " 
+                        figusEscudos.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="RIV" && cantFiguRiv<3){
                         cantFiguRiv++
-                        figusRiv.innerHTML+=  figu.NUM+" " 
+                        figusRiv.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="BOC" && cantFiguBoc<3){
                         cantFiguBoc++
-                        figusBoc.innerHTML+=  figu.NUM+" " 
+                        figusBoc.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
                         figusAlbum.push(figu["NUM"])
                     }
                 }
@@ -914,22 +914,22 @@ const armarAlbumFigus = () =>{
                 if(figu.CANT==1){
                     if (figu.TIPO=="YPF" && cantFiguYPF<2){
                         cantFiguYPF++    
-                        figusYPF.innerHTML+=  figu.NUM +" (x1) "   
+                        figusYPF.innerHTML+=  `<span style="color: red;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])      
                     }
                     if (figu.TIPO=="COPA" && cantFiguCopa<2){
                         cantFiguCopa++
-                        figusCopa.innerHTML+=  figu.NUM +" (x1) " 
+                        figusCopa.innerHTML+=  `<span style="color: red;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="SEMILLERO" && cantFiguSem<2){
                         cantFiguSem++
-                        figusSem.innerHTML+=  figu.NUM +" (x1) " 
+                        figusSem.innerHTML+=  `<span style="color: red;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
                     if (figu.TIPO=="ESCUDO" && cantFiguEscudos<7){
                         cantFiguEscudos++
-                        figusEscudos.innerHTML+=  figu.NUM+" (x1) " 
+                        figusEscudos.innerHTML+=  `<span style="color: red;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
                 }
