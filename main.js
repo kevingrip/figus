@@ -778,7 +778,7 @@ const armarAlbumFigus = () =>{
 
             data.forEach(figu=>{
                 if (figu.CANT>2){
-                    tituloMayor2.innerHTML='Cant = 3 o MAS'
+                    tituloMayor2.innerHTML='Cant = 3 o MÁS'
                     
                     if (figu.TIPO=='ESCUDO'){
                         figusMayor2Esc.innerHTML+=figu.NUM+" "
