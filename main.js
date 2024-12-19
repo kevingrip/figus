@@ -559,26 +559,19 @@ const buscarFigus = () => {
 
     if (errorEscritura==false){
 
-        let mostrarFiguLimp=""
-        
-
-        filteredFigus.forEach(figu=>{
-            mostrarFiguLimp+=figu.NUM+" "
-        })
+        let mostrarFiguLimp=""        
 
         const buttonFiguLimp=document.createElement('button')
         buttonFiguLimp.textContent='Copiar Figus '
         separacionDiv2.appendChild(buttonFiguLimp)
-
-        buttonFiguLimp.addEventListener('click',()=>{
-            navigator.clipboard.writeText(mostrarFiguLimp.textContent)
-        })
+        
 
         const cantLi = document.createElement('p');
         cantLi.textContent = `Cantidad figus contadas en la pregunta: ${cantFigusConsult}`;
         separacionDiv2.appendChild(cantLi);
 
         filteredFigus.forEach(figu => {
+            mostrarFiguLimp+=figu.NUM+" "
             const li = document.createElement('li');
             li.classList.add('listaClass')
             if (figu.CANT==0){
@@ -589,6 +582,10 @@ const buscarFigus = () => {
             }            
             separacionDiv1.appendChild(li);            
         });
+
+        buttonFiguLimp.addEventListener('click',()=>{
+            navigator.clipboard.writeText(mostrarFiguLimp.textContent)
+        })
     
         const totalFi = document.createElement('p');
         totalFi.textContent = `Cant figus en Stock: ${cantFigusStock}`;
