@@ -584,7 +584,7 @@ const buscarFigus = () => {
         });
 
         buttonFiguLimp.addEventListener('click',()=>{
-            navigator.clipboard.writeText(mostrarFiguLimp.textContent)
+            navigator.clipboard.writeText(mostrarFiguLimp)
         })
     
         const totalFi = document.createElement('p');
