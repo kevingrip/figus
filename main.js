@@ -128,7 +128,7 @@ const figusSinStock = (tipo, event) => {
 };
 
 const totalVentas = () =>{
-    var totalVentasElement = document.getElementById('totalVentas');
+    const totalVentasElement = document.getElementById('totalVentas');
     let filePath='./totalVentas.json';
     
     
@@ -451,9 +451,10 @@ const buscarFigus = () => {
     valorInput = valorInput.replace(/RHO/g, "ROH");
     valorInput = valorInput.replace(/ECUADOR/g, "ECU");
     
+    valorInput = valorInput.replace(/ YPF/g, "YPF");
     valorInput = valorInput.replace(/ Y/g, "")
     valorInput = valorInput.replace(/ DE /g, "")
-    valorInput = valorInput.replace(/YPF/g, "YPF");
+    
 
     
     for (let i = 0; i < valorInput.length; i++) {
