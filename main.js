@@ -559,13 +559,20 @@ const buscarFigus = () => {
 
     if (errorEscritura==false){
 
-        const mostrarFiguLimp=document.createElement('p')
-        mostrarFiguLimp.style.paddingLeft='30px'
-        mostrarFiguLimp.style.paddingRight ='30px'
+        let mostrarFiguLimp=""
+        
+
         filteredFigus.forEach(figu=>{
-            mostrarFiguLimp.innerHTML+=figu.NUM+" "
+            mostrarFiguLimp+=figu.NUM+" "
         })
-        separacionDiv2.appendChild(mostrarFiguLimp)
+
+        const buttonFiguLimp=document.createElement('button')
+        buttonFiguLimp.textContent='Copiar Figus '
+        separacionDiv2.appendChild(buttonFiguLimp)
+
+        buttonFiguLimp.addEventListener('click',()=>{
+            navigator.clipboard.writeText(mostrarFiguLimp.textContent)
+        })
 
         const cantLi = document.createElement('p');
         cantLi.textContent = `Cantidad figus contadas en la pregunta: ${cantFigusConsult}`;
