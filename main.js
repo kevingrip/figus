@@ -970,7 +970,7 @@ const armarAlbumFigus = () =>{
             mostrarEnHtml.appendChild(buttonCopiar)
 
             buttonCopiar.addEventListener('click',()=>{
-                const figusParaAlbum = "";
+                let figusParaAlbum = "";
                 figusAlbum.forEach(figu=>figusParaAlbum+=figu+" ")
                 navigator.clipboard.writeText(figusParaAlbum)
             })
