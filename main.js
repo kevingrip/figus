@@ -583,8 +583,14 @@ const buscarFigus = () => {
             separacionDiv1.appendChild(li);            
         });
 
-        buttonFiguLimp.addEventListener('click',()=>{
-            navigator.clipboard.writeText(mostrarFiguLimp)
+        buttonFiguLimp.addEventListener('click', async ()=>{
+            try{
+                await navigator.clipboard.writeText(mostrarFiguLimp)
+                console.log('¡Texto copiado al portapapeles con éxito!');
+            }catch(error){
+                console.error('Error al copiar el texto: ', error);
+            }
+            
         })
     
         const totalFi = document.createElement('p');
