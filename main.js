@@ -739,98 +739,235 @@ const armarAlbumFigus = () =>{
     const mostrarEnHtml = document.getElementById('figuUsers');
     mostrarEnHtml.innerHTML = ''; // Limpiar resultados anteriores
 
-    const tituloMayor2 = document.createElement('h2')
-    const figusMayor2Com = document.createElement('p')
-    const figusMayor2Esp = document.createElement('p')
-    const figusMayor2Esc = document.createElement('p')
-    const figusMayor2Riv = document.createElement('p')
-    const figusMayor2Boc = document.createElement('p')
-
-    const tituloIgual2 = document.createElement('h2')
-    const figusIgual2Com = document.createElement('p')
-    const figusIgual2Esp = document.createElement('p')
-    const figusIgual2Esc = document.createElement('p')
-    const figusIgual2Riv = document.createElement('p')
-    const figusIgual2Boc = document.createElement('p')
-
-    figusMayor2Esc.innerHTML='Escudos: '
-    figusMayor2Com.innerHTML='Comunes: '
-    figusMayor2Riv.innerHTML='River: '
-    figusMayor2Boc.innerHTML='Boca: '
-    figusMayor2Esp.innerHTML='Especiales: '
-
-    figusIgual2Esc.innerHTML='Escudos: '
-    figusIgual2Com.innerHTML='Comunes: '
-    figusIgual2Riv.innerHTML='River: '
-    figusIgual2Boc.innerHTML='Boca: '
-    figusIgual2Esp.innerHTML='Especiales: '
-
-    cantMayor2Esc=0
-    cantMayor2Com=0
-    cantMayor2Riv=0
-    cantMayor2Boc=0
-    cantMayor2Esp=0
-
-
     fetch(filePath)
         .then(response => response.json())
-        .then(data => {
+        .then(data => {            
+
+            const cantComunesOk = document.createElement('h4')
+            const comunesAlbum = document.createElement('p')            
+            const tituloAlbum = document.createElement('h3')
+            comunesAlbum.innerHTML='Comunes: <br>'
+            let figusAlbum = [];
+            let cantComunes = 0
+            let cantComunesMayor1=0
+            
 
             data.forEach(figu=>{
-                if (figu.CANT>2){
-                    tituloMayor2.innerHTML='Cant = 3 o MÁS'
-                    
-                    if (figu.TIPO=='ESCUDO'){
-                        figusMayor2Esc.innerHTML+=figu.NUM+" "
-                    }else if (figu.TIPO=='COMUNES'){
-                        figusMayor2Com.innerHTML+=figu.NUM+" "
-                    }else{
-                        if (figu.NUM.substring(0,3)=='RIV'){
-                            figusMayor2Riv.innerHTML+=figu.NUM+" "
-                        }else if (figu.NUM.substring(0,3)=='BOC'){
-                            figusMayor2Boc.innerHTML+=figu.NUM+" "
-                        }
-                        else{
-                            figusMayor2Esp.innerHTML+=figu.NUM+" "
-                        }                        
-                    }
-                }else if (figu.CANT==2){
-                    tituloIgual2.innerHTML='Cant = 2'
-                    if (figu.TIPO=='ESCUDO'){
-                        figusIgual2Esc.innerHTML+=figu.NUM+" "
-                    }else if (figu.TIPO=='COMUNES'){
-                        figusIgual2Com.innerHTML+=figu.NUM+" "
-                    }else{
-                        if (figu.NUM.substring(0,3)=="RIV"){
-                            figusIgual2Riv.innerHTML+=figu.NUM+" "
-                        }else if (figu.NUM.substring(0,3)=="BOC"){
-                            figusIgual2Boc.innerHTML+=figu.NUM+" "
-                        }
-                        else{
-                            figusIgual2Esp.innerHTML+=figu.NUM+" "
-                        }                        
+                    if (figu.CANT>2 && figu.TIPO=="COMUNES" && cantComunes<130 && !figusAlbum.includes(figu.NUM)){
+                        figusAlbum.push(figu["NUM"])
+                        comunesAlbum.innerHTML+=figu.NUM+" "
+                        cantComunes++
+                        cantComunesMayor1++
+                    }                   
+                }
+            )
+            data.forEach(figu=>{
+                    if (figu.CANT==2 && figu.TIPO=="COMUNES" && cantComunes<130 && !figusAlbum.includes(figu.NUM)){
+                        figusAlbum.push(figu["NUM"])
+                        comunesAlbum.innerHTML+=figu.NUM+" "
+                        cantComunes++
+                        cantComunesMayor1++
                     }
                 }
-                
-            //navigator.clipboard.writeText(clientFigus.textContent) 
+            )
+
+            let cantComunesX1=[]
+            let randomsX1 = []
+            data.forEach(figu=>{
+                    if (figu.CANT==1 && figu.TIPO=="COMUNES"){
+                        cantComunesX1.push(figu.NUM)
+                    }
+                }
+            )
+
+            cantComunesX1.forEach(figu=>{
+                    if (cantComunes<130 && !figusAlbum.includes(figu.NUM)){
+                        let randomInt = Math.floor(Math.random() * cantComunesX1.length);
+                        
+                        while (randomsX1.includes(randomInt)){
+                            randomInt = Math.floor(Math.random() * cantComunesX1.length);                         
+                        }
+                        randomsX1.push(randomInt)
+                        figusAlbum.push(cantComunesX1[randomInt])
+                        comunesAlbum.innerHTML+=cantComunesX1[randomInt]+" "
+                        cantComunes++
+                    }
+                }
+            )
+
+            let cantFiguYPF =0;
+            const figusYPF = document.createElement('p')
+            figusYPF.innerHTML=`YPF: <br>`
+
+            let cantFiguCopa =0;
+            const figusCopa = document.createElement('p')
+            figusCopa.innerHTML=`COPA: <br>`  
+
+            let cantFiguSem =0;
+            const figusSem = document.createElement('p')
+            figusSem.innerHTML=`SEM: <br>`
+
+            let cantFiguLPF =0;
+            const figusLPF = document.createElement('p')
+            figusLPF.innerHTML=`LPF: <br>`
+
+            let cantFiguEscudos =0;
+            const figusEscudos = document.createElement('p')
+            figusEscudos.innerHTML=`Escudos: <br>`
+
+            let cantFiguRiv =0;
+            const figusRiv = document.createElement('p')
+            figusRiv.innerHTML=`River: <br>`
+
+            let cantFiguBoc =0;
+            const figusBoc = document.createElement('p')
+            figusBoc.innerHTML=`Boca: <br>`
+
+            data.forEach(figu =>{
+                if (figu.CANT>2){
+                    if (figu.TIPO=="YPF" && cantFiguYPF<2){
+                        cantFiguYPF++    
+                        figusYPF.innerHTML+=  figu.NUM+" "    
+                        figusAlbum.push(figu["NUM"])   
+                    }
+                    if (figu.TIPO=="COPA" && cantFiguCopa<2){
+                        cantFiguCopa++
+                        figusCopa.innerHTML+=  figu.NUM+" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="SEMILLERO" && cantFiguSem<2){
+                        cantFiguSem++
+                        figusSem.innerHTML+=  figu.NUM+" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="LPF" && cantFiguLPF<1){
+                        cantFiguLPF++
+                        figusLPF.innerHTML+=  figu.NUM+" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="ESCUDO" && cantFiguEscudos<7){
+                        cantFiguEscudos++
+                        figusEscudos.innerHTML+=  figu.NUM+" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="RIV" && cantFiguRiv<3){
+                        cantFiguRiv++
+                        figusRiv.innerHTML+=  figu.NUM+" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="BOC" && cantFiguBoc<3){
+                        cantFiguBoc++
+                        figusBoc.innerHTML+=  figu.NUM+" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                }
             })
-             
-            mostrarEnHtml.appendChild(tituloMayor2) 
-            mostrarEnHtml.appendChild(figusMayor2Esc) 
-            mostrarEnHtml.appendChild(figusMayor2Esp) 
-            mostrarEnHtml.appendChild(figusMayor2Riv) 
-            mostrarEnHtml.appendChild(figusMayor2Boc) 
-            mostrarEnHtml.appendChild(figusMayor2Com) 
 
+            data.forEach(figu =>{
+                if (figu.CANT==2){
+                    if (figu.TIPO=="YPF" && cantFiguYPF<2){
+                        cantFiguYPF++    
+                        figusYPF.innerHTML+=  figu.NUM +" "  
+                        figusAlbum.push(figu["NUM"])       
+                    }
+                    if (figu.TIPO=="COPA" && cantFiguCopa<2){
+                        cantFiguCopa++
+                        figusCopa.innerHTML+=  figu.NUM +" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="SEMILLERO" && cantFiguSem<2){
+                        cantFiguSem++
+                        figusSem.innerHTML+=  figu.NUM +" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="LPF" && cantFiguLPF<1){
+                        cantFiguLPF++
+                        figusLPF.innerHTML+=  figu.NUM+" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="ESCUDO" && cantFiguEscudos<7){
+                        cantFiguEscudos++
+                        figusEscudos.innerHTML+=  figu.NUM+" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="RIV" && cantFiguRiv<3){
+                        cantFiguRiv++
+                        figusRiv.innerHTML+=  figu.NUM+" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="BOC" && cantFiguBoc<3){
+                        cantFiguBoc++
+                        figusBoc.innerHTML+=  figu.NUM+" " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                }
+            })
 
-            mostrarEnHtml.appendChild(tituloIgual2) 
-            mostrarEnHtml.appendChild(figusIgual2Esc)    
-            mostrarEnHtml.appendChild(figusIgual2Esp)     
-            mostrarEnHtml.appendChild(figusIgual2Riv)    
-            mostrarEnHtml.appendChild(figusIgual2Boc) 
-            mostrarEnHtml.appendChild(figusIgual2Com) 
- 
- 
+            data.forEach(figu =>{
+                if(figu.CANT==1){
+                    if (figu.TIPO=="YPF" && cantFiguYPF<2){
+                        cantFiguYPF++    
+                        figusYPF.innerHTML+=  figu.NUM +" (x1) "   
+                        figusAlbum.push(figu["NUM"])      
+                    }
+                    if (figu.TIPO=="COPA" && cantFiguCopa<2){
+                        cantFiguCopa++
+                        figusCopa.innerHTML+=  figu.NUM +" (x1) " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="SEMILLERO" && cantFiguSem<2){
+                        cantFiguSem++
+                        figusSem.innerHTML+=  figu.NUM +" (x1) " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                    if (figu.TIPO=="ESCUDO" && cantFiguEscudos<7){
+                        cantFiguEscudos++
+                        figusEscudos.innerHTML+=  figu.NUM+" (x1) " 
+                        figusAlbum.push(figu["NUM"])
+                    }
+                }
+            })
+
+            let sobrantes=[]
+            data.forEach(figu=>{
+                if (figu.CANT>1 && !figusAlbum.includes(figu.NUM)){
+                    sobrantes.push(figu.NUM)
+                }
+            })
+
+            const figusSobrantes = document.createElement('p')
+            figusSobrantes.innerHTML='Sobrantes: '
+            figusSobrantes.style.color='green'
+            sobrantes.forEach(figu=> figusSobrantes.innerHTML+=figu+" ")
+            
+
+            const comunesCant1=document.createElement('h4')
+            comunesCant1.innerHTML=`CANT x1 : ${130-cantComunesMayor1}`
+
+            cantComunesOk.innerHTML=`COMUNES >1 : ${cantComunesMayor1}/130`            
+            tituloAlbum.innerHTML=`Album (${cantComunes+cantFiguYPF+cantFiguCopa+cantFiguLPF+cantFiguSem+cantFiguEscudos+cantFiguRiv+cantFiguBoc}): `
+            mostrarEnHtml.appendChild(cantComunesOk)
+            mostrarEnHtml.appendChild(comunesCant1)
+            mostrarEnHtml.appendChild(tituloAlbum)
+            mostrarEnHtml.appendChild(comunesAlbum)
+            mostrarEnHtml.appendChild(figusYPF)
+            mostrarEnHtml.appendChild(figusCopa)
+            mostrarEnHtml.appendChild(figusSem) 
+            mostrarEnHtml.appendChild(figusLPF) 
+            mostrarEnHtml.appendChild(figusEscudos) 
+            mostrarEnHtml.appendChild(figusRiv) 
+            mostrarEnHtml.appendChild(figusBoc) 
+            mostrarEnHtml.appendChild(figusSobrantes)
+
+            const buttonCopiar = document.createElement('button')
+            buttonCopiar.innerHTML=`Copiar ${cantComunes+cantFiguYPF+cantFiguCopa+cantFiguLPF+cantFiguSem+cantFiguEscudos+cantFiguRiv+cantFiguBoc} figus `
+            mostrarEnHtml.appendChild(buttonCopiar)
+
+            buttonCopiar.addEventListener('click',()=>{
+                const figusParaAlbum = "";
+                figusAlbum.forEach(figu=>figusParaAlbum+=figu+" ")
+                navigator.clipboard.writeText(figusParaAlbum)
+            })
         })
 
     }
