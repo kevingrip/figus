@@ -35350,6 +35350,72 @@
             "figusPedidas": [
                 "ARG4"
             ]
+        },
+        {
+            "usuario": "OTNA2155829",
+            "figusPedidas": [
+                "ARG2",
+                "ARG7",
+                "CRC13",
+                "CRC19",
+                "ECU15",
+                "PAN11",
+                "PAN17",
+                "PAN9",
+                "PAR10",
+                "PAR15"
+            ]
+        },
+        {
+            "usuario": "QWASED007",
+            "figusPedidas": [
+                "BOL13",
+                "BOL15",
+                "BOL21",
+                "BOL7",
+                "BOL9",
+                "CAN13",
+                "CAN17",
+                "CAN19",
+                "CAN21",
+                "CAN3",
+                "CAN5",
+                "CAN7",
+                "CAN9",
+                "CHI11",
+                "CHI17",
+                "CHI18",
+                "CHI19",
+                "CHI3",
+                "CHI5",
+                "CHI7",
+                "CRC12",
+                "CRC13",
+                "CRC14",
+                "CRC15",
+                "CRC17",
+                "CRC3",
+                "CRC5",
+                "CRC9",
+                "JAM15",
+                "JAM17",
+                "JAM19",
+                "JAM21",
+                "JAM5",
+                "MEX11",
+                "MEX15",
+                "MEX17",
+                "MEX19",
+                "MEX21",
+                "PAR1",
+                "PAR11",
+                "PAR13",
+                "PAR15",
+                "PAR17",
+                "PAR2",
+                "PAR20",
+                "PAR6"
+            ]
         }
     ]
 }

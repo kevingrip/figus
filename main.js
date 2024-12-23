@@ -120,12 +120,6 @@ const sinStock = () =>{
     resultSinStock.appendChild(p3);
 }
 
-const figusSinStock = (tipo, event) => {
-    tipoAlbum(tipo, event)
-        .then(() => {
-            sinStock(); // Llama a sinStock() después de que tipoAlbum() haya completado su ejecución
-        });
-};
 
 const totalVentas = () =>{
     const totalVentasElement = document.getElementById('totalVentas');
@@ -418,7 +412,7 @@ ultimaActualizacion()
 
 
 // Función para buscar y mostrar las figus filtradas
-const buscarFigus = () => {
+const buscarFigus = (tipo) => {
     let valorInput = document.getElementById('entrada').value.toUpperCase();
     
     // console.log(valorInput)
@@ -516,6 +510,7 @@ const buscarFigus = () => {
     let figuInd='';
     let figuRemp='';
     let tipoFigu = ''
+    let figuList = []
 
     filteredFigus.forEach(figu => {
         
@@ -573,6 +568,7 @@ const buscarFigus = () => {
 
         filteredFigus.forEach(figu => {
             mostrarFiguLimp+=figu.NUM+" "
+            figuList.push(figu.NUM)
             const li = document.createElement('li');
             li.classList.add('listaClass')
             if (figu.CANT==0){                
@@ -611,7 +607,7 @@ const buscarFigus = () => {
         unionDiv.appendChild(separacionDiv2)
         
         resultados.style.padding='0px'
-        resultados.appendChild(unionDiv)
+        resultados.appendChild(unionDiv)        
         
 
         let costoEnvioGratis=30000
@@ -668,9 +664,71 @@ const buscarFigus = () => {
             }
             
         }
+
+        const buttonVenta = document.createElement('button')
+        buttonVenta.innerHTML='Avanzar Venta'
+
         mensaje.style.margin='50px'
         resultados.appendChild(mensaje);
+        resultados.appendChild(buttonVenta)
+
+        buttonVenta.addEventListener('click',()=>{
+            const entradaUsuario = document.createElement('input')
+            entradaUsuario.placeholder='Ingrese nombre usuario'
+            resultados.appendChild(entradaUsuario)
+            const confirmarUsuario = document.createElement('button')
+            confirmarUsuario.innerHTML='Continuar'
+            resultados.appendChild(confirmarUsuario)
+
+            confirmarUsuario.addEventListener('click',()=>{
+                const nombreUsuario = entradaUsuario.value
+                if (!nombreUsuario){
+                    alert("INGRESAR USUARIO")
+                }else{
+                    window.todasLasFigus.forEach(figu =>{
+                        figuList.forEach(vend =>{
+                            if (vend == figu.NUM)
+                                figu.CANT-=1
+
+                        })                        
+                    })
+                    const datosJson = JSON.stringify(window.todasLasFigus, null, 2);
+                    const blob = new Blob([datosJson], { type: 'application/json' });
+                    const enlace = document.createElement('a');
+                    enlace.href = URL.createObjectURL(blob);
+                    enlace.download = `${tipo}.json`;
+                    enlace.click();
+
+                    const agregarVenta = {
+                        usuario: nombreUsuario,
+                        Vendidas: [
+                            "AUS1",
+                            "GER1"
+                        ],
+                        NoVendidas: [
+                            "CRC1"
+                        ],
+                        Dia: "12/08/2024",
+                        Cuenta: "KEVIN",
+                        Envio: "CORREO",
+                        ARMADO: "NO",
+                        PREARMADO: "NO"
+                    }
+
+                    // Liberar la URL del Blob
+                    URL.revokeObjectURL(enlace.href);
+                }
+            }
+        )
+            
+        })
+
+        
+        
+
         navigator.clipboard.writeText(mensaje.textContent)  // Usa .textContent para acceder al texto
+
+        
             
 
     }else{
@@ -681,19 +739,6 @@ const buscarFigus = () => {
     }   
 };
 
-const albumCliente = (tipo, event) => {
-    tipoAlbum(tipo, event)
-        .then(() => {
-            buscarCliente(); 
-        });
-};
-
-const albumInput = (tipo, event) => {
-    tipoAlbum(tipo, event)
-        .then(() => {
-            buscarFigus(); 
-        });
-};
 
 const buscarCliente = () => {
     let valorInput = document.getElementById('entrada').value.toUpperCase();    
@@ -735,16 +780,31 @@ const buscarCliente = () => {
         })    
 }
 
-const albumFigu = (tipo, event) => {
-    tipoAlbum(tipo, event)
+const albumFigu = (tipo, event,pag) => {
+        tipoAlbum(tipo, event)
         .then(() => {
-            armarAlbumFigus(); 
+            if (pag =="album150"){
+                armarAlbumFigus();
+            }
+            else if (pag =="buscarUsuario"){
+                buscarCliente(); 
+            }
+            else if (pag =="buscarFigus"){
+                buscarFigus(tipo); 
+            }
+            else if (pag=='sinStock'){
+                sinStock();
+            }
         });
+    
+    
 };
 
 const armarAlbumFigus = () =>{
     const mostrarEnHtml = document.getElementById('figuUsers');
     mostrarEnHtml.innerHTML = ''; // Limpiar resultados anteriores
+
+    const cantComunesAlbum = 85
 
     fetch(filePath)
         .then(response => response.json())
@@ -760,7 +820,7 @@ const armarAlbumFigus = () =>{
             
 
             data.forEach(figu=>{
-                    if (figu.CANT>2 && figu.TIPO=="COMUNES" && cantComunes<130 && !figusAlbum.includes(figu.NUM)){
+                    if (figu.CANT>2 && figu.TIPO=="COMUNES" && cantComunes<cantComunesAlbum && !figusAlbum.includes(figu.NUM)){
                         figusAlbum.push(figu["NUM"])
                         comunesAlbum.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `
                         cantComunes++
@@ -769,7 +829,7 @@ const armarAlbumFigus = () =>{
                 }
             )
             data.forEach(figu=>{
-                    if (figu.CANT==2 && figu.TIPO=="COMUNES" && cantComunes<130 && !figusAlbum.includes(figu.NUM)){
+                    if (figu.CANT==2 && figu.TIPO=="COMUNES" && cantComunes<cantComunesAlbum && !figusAlbum.includes(figu.NUM)){
                         figusAlbum.push(figu["NUM"])
                         comunesAlbum.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `
                         cantComunes++
@@ -788,7 +848,7 @@ const armarAlbumFigus = () =>{
             )
 
             cantComunesX1.forEach(figu=>{
-                    if (cantComunes<130 && !figusAlbum.includes(figu.NUM)){
+                    if (cantComunes<cantComunesAlbum && !figusAlbum.includes(figu.NUM)){
                         let randomInt = Math.floor(Math.random() * cantComunesX1.length);
                         
                         while (randomsX1.includes(randomInt)){
@@ -949,9 +1009,9 @@ const armarAlbumFigus = () =>{
             
 
             const comunesCant1=document.createElement('h4')
-            comunesCant1.innerHTML=`CANT x1 : ${130-cantComunesMayor1}`
+            comunesCant1.innerHTML=`CANT x1 : ${cantComunesAlbum-cantComunesMayor1}`
 
-            cantComunesOk.innerHTML=`COMUNES >1 : ${cantComunesMayor1}/130`            
+            cantComunesOk.innerHTML=`COMUNES >1 : ${cantComunesMayor1}/${cantComunesAlbum}`            
             tituloAlbum.innerHTML=`Album (${cantComunes+cantFiguYPF+cantFiguCopa+cantFiguLPF+cantFiguSem+cantFiguEscudos+cantFiguRiv+cantFiguBoc}): `
             mostrarEnHtml.appendChild(cantComunesOk)
             mostrarEnHtml.appendChild(comunesCant1)
@@ -977,7 +1037,11 @@ const armarAlbumFigus = () =>{
             })
         })
 
-    }
+}
+
+const nuevaVenta = () => {
+
+}
 // Cargar las figus iniciales al cargar la página
 
 cargarFigus();

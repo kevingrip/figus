@@ -12,4 +12,4 @@ def contarBase(base):
         print(cant)
 
 
-contarBase("baseFutarg24.json")
+contarBase("base_copam.json")
