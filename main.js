@@ -329,8 +329,8 @@ const totalVentas = () =>{
                         nombreAlbum.style.backgroundColor = 'skyblue' 
                         pantallaVenta.style.border = '3px solid skyblue'   
                     }else if (album==='Mundial Qatar 2022'){
-                        nombreAlbum.style.backgroundColor = '#e5d100red'  
-                        pantallaVenta.style.border = '3px solid #e5d100red'  
+                        nombreAlbum.style.backgroundColor = 'orange'  
+                        pantallaVenta.style.border = '3px solid orange'  
                     }else if (album==='Futbol Argentino 2023'){
                         nombreAlbum.style.backgroundColor = '#d72bde' 
                         pantallaVenta.style.border = '3px solid #d72bde'  

@@ -23275,8 +23275,8 @@
             "Dia": "23/12/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "QWASED007",
@@ -23333,31 +23333,8 @@
             "Dia": "23/12/2024",
             "Cuenta": "MATI",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
-        },
-        {
-            "usuario": "LETICIAFAL",
-            "Vendidas": [
-                "ARG2",
-                "ARG3",
-                "ARG4",
-                "ARG5",
-                "ARG8",
-                "ARG9",
-                "ARG12",
-                "ARG14",
-                "ARG16",
-                "ARG18",
-                "ARG19",
-                "ARG22"
-            ],
-            "NoVendidas": [],
-            "Dia": "23/12/2024",
-            "Cuenta": "KEVIN",
-            "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         },
         {
             "usuario": "LETICIAFAL",
@@ -23463,8 +23440,50 @@
             "Dia": "23/12/2024",
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "LETICIAFAL",
+            "Vendidas": [
+                "INT1",
+                "HCI1",
+                "HCI4",
+                "HCI6",
+                "PER2",
+                "PER7",
+                "PER8",
+                "PER9",
+                "PER10",
+                "PER11",
+                "PER12",
+                "PER14",
+                "PER20",
+                "CHI2",
+                "CHI3",
+                "CHI14",
+                "MEX2",
+                "MEX5",
+                "MEX9",
+                "MEX12",
+                "MEX14",
+                "MEX16",
+                "MEX18",
+                "ECU1",
+                "ECU5",
+                "ECU8",
+                "ECU10",
+                "ECU11"
+            ],
+            "NoVendidas": [
+                "CHI7",
+                "ECU3"
+            ],
+            "Dia": "23/12/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "CORREO",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Arg 2024": [
@@ -35214,6 +35233,33 @@
             "Cuenta": "KEVIN",
             "Envio": "CORREO",
             "ARMADO": "SI",
+            "PREARMADO": "SI"
+        },
+        {
+            "usuario": "CARLOS_CHAVARRI",
+            "Vendidas": [
+                "BEL1",
+                "BEL14",
+                "BEL15",
+                "CAN3",
+                "CAN8",
+                "CAN17",
+                "CRO3",
+                "CRO17",
+                "CRO19",
+                "MAR4",
+                "MAR5",
+                "MAR6",
+                "MAR11",
+                "MAR17",
+                "SUI1",
+                "SUI18"
+            ],
+            "NoVendidas": [],
+            "Dia": "23/12/2024",
+            "Cuenta": "MATI",
+            "Envio": "CORREO",
+            "ARMADO": "NO",
             "PREARMADO": "SI"
         }
     ],
