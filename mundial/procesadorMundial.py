@@ -31,7 +31,8 @@ def procesadorMundial(figuritas,nombre,baseMundial):
             with open ("base_copam.json","w") as baseEditarJson:
                 json.dump (datos,baseEditarJson,indent=4)
         else:
-            fila["PRECIO"]=3000
+            if fila["NUM"]!="ARG19" or fila["NUM"]!="ARG3" or fila["NUM"]!="ARG1":
+                fila["PRECIO"]=3000
         if fila["NUM"] in figuritas and fila["TIPO"]=="COMUNES" and fila["CANT"]>0:
             cantComunes+=1
             precioComunes+=fila["PRECIO"]
