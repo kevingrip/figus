@@ -438,8 +438,8 @@ const buscarFigus = (tipo) => {
     valorInput = valorInput.replace(/PANAM|PANAMA/g, "PAN");
     valorInput = valorInput.replace(/BOLIVIA|BOLIV/g, "BOL");
     valorInput = valorInput.replace(/COLOMBIA|COLOM|COLO/g, "COL");
-    valorInput = valorInput.replace(/PARAGUAY|PARAGUA|PARA/g, "PAR");
-    valorInput = valorInput.replace(/HONDURAS|HOND|HONDURA/g, "HON");
+    valorInput = valorInput.replace(/PARAGUAY|PARAGUA|PARAG|PARA/g, "PAR");
+    valorInput = valorInput.replace(/HONDURAS|HONDURA|HONDU|HOND/g, "HON");
     valorInput = valorInput.replace(/TRINIDADTOBAGO|TRINIDAD|TYT|TRINIDADANDTOBAGO|TRT|TRIN/g, "TRI");
     valorInput = valorInput.replace(/LEGENDARIA|LEYENDAS|LEENDA|LEENDAS|LEGENDARIOS|LEGEND|LEGENDA|LEGENDARIAS/g, "LEG");
     valorInput = valorInput.replace(/RHO/g, "ROH");

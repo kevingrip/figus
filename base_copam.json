@@ -3,28 +3,28 @@
         "NUM": "INT1",
         "TIPO": "INTRO",
         "CANT": 2,
-        "PRECIO": 3000,
+        "PRECIO": 8000,
         "NOMBRE": "INTRODUCCION"
     },
     {
         "NUM": "INT2",
         "TIPO": "INTRO",
         "CANT": 4,
-        "PRECIO": 3000,
+        "PRECIO": 8000,
         "NOMBRE": "MASCOTA"
     },
     {
         "NUM": "INT3",
         "TIPO": "INTRO",
         "CANT": 3,
-        "PRECIO": 3000,
+        "PRECIO": 8000,
         "NOMBRE": "COPA"
     },
     {
         "NUM": "INT4",
         "TIPO": "INTRO",
         "CANT": 3,
-        "PRECIO": 3000,
+        "PRECIO": 8000,
         "NOMBRE": "PELOTA"
     },
     {
