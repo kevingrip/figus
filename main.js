@@ -804,7 +804,7 @@ const armarAlbumFigus = () =>{
     const mostrarEnHtml = document.getElementById('figuUsers');
     mostrarEnHtml.innerHTML = ''; // Limpiar resultados anteriores
 
-    const cantComunesAlbum = 85
+    const cantComunesAlbum = 130
 
     fetch(filePath)
         .then(response => response.json())
