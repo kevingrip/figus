@@ -107,28 +107,28 @@
     {
         "NUM": "ARG2",
         "TIPO": "AFA",
-        "CANT": 5,
+        "CANT": 4,
         "PRECIO": 3000,
         "NOMBRE": "TEAM ARG"
     },
     {
         "NUM": "ARG3",
         "TIPO": "AFA",
-        "CANT": 9,
+        "CANT": 8,
         "PRECIO": 3000,
         "NOMBRE": "EMILIANO MARTINEZ"
     },
     {
         "NUM": "ARG4",
         "TIPO": "AFA",
-        "CANT": 13,
+        "CANT": 12,
         "PRECIO": 1200,
         "NOMBRE": "FRANCO ARMANI"
     },
     {
         "NUM": "ARG5",
         "TIPO": "AFA",
-        "CANT": 14,
+        "CANT": 13,
         "PRECIO": 1200,
         "NOMBRE": "NICOLAS OTAMENDI"
     },
@@ -149,14 +149,14 @@
     {
         "NUM": "ARG8",
         "TIPO": "AFA",
-        "CANT": 14,
+        "CANT": 13,
         "PRECIO": 1200,
         "NOMBRE": "LISANDRO MARTINEZ"
     },
     {
         "NUM": "ARG9",
         "TIPO": "AFA",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 3000,
         "NOMBRE": "MARCOS ACUNA"
     },
@@ -177,7 +177,7 @@
     {
         "NUM": "ARG12",
         "TIPO": "AFA",
-        "CANT": 11,
+        "CANT": 10,
         "PRECIO": 1200,
         "NOMBRE": "EXEQUIEL PALACIOS"
     },
@@ -191,7 +191,7 @@
     {
         "NUM": "ARG14",
         "TIPO": "AFA",
-        "CANT": 8,
+        "CANT": 7,
         "PRECIO": 3000,
         "NOMBRE": "RODRIGO DE PAUL"
     },
@@ -205,7 +205,7 @@
     {
         "NUM": "ARG16",
         "TIPO": "AFA",
-        "CANT": 14,
+        "CANT": 13,
         "PRECIO": 1200,
         "NOMBRE": "ALEXIS MAC ALLISTER"
     },
@@ -219,14 +219,14 @@
     {
         "NUM": "ARG18",
         "TIPO": "AFA",
-        "CANT": 15,
+        "CANT": 14,
         "PRECIO": 1200,
         "NOMBRE": "NICOLAS GONZALEZ"
     },
     {
         "NUM": "ARG19",
         "TIPO": "AFA",
-        "CANT": 3,
+        "CANT": 2,
         "PRECIO": 3000,
         "NOMBRE": "LIONEL MESSI"
     },
@@ -247,7 +247,7 @@
     {
         "NUM": "ARG22",
         "TIPO": "AFA",
-        "CANT": 14,
+        "CANT": 13,
         "PRECIO": 1200,
         "NOMBRE": "LAUTARO MARTINEZ"
     },
