@@ -23484,6 +23484,29 @@
             "Envio": "CORREO",
             "ARMADO": "SI",
             "PREARMADO": "SI"
+        },
+        {
+            "usuario": "BARONLAURAANABEL",
+            "Vendidas": [
+                "INT1",
+                "URU2",
+                "BRA3",
+                "BRA19",
+                "COL5",
+                "COL17",
+                "COL21",
+                "PAR20",
+                "PAR20",
+                "HON15"
+            ],
+            "NoVendidas": [
+                "BOL13"
+            ],
+            "Dia": "24/12/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "FLEX",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
