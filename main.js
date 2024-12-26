@@ -514,6 +514,8 @@ const cosecharFigus = (tipo) => {
                 createButton.style.backgroundColor='red'
             }else if (figu.CANT ==1){
                 createButton.style.backgroundColor='orange'
+            }else if (figu.CANT >9){
+                createButton.style.backgroundColor='lightgreen'
             }
 
             createButton.addEventListener('click',()=>{
