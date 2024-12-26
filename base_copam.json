@@ -37,7 +37,7 @@
     {
         "NUM": "HCI2",
         "TIPO": "CIUDAD",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 3000,
         "NOMBRE": "LAS VEGAS"
     },
@@ -156,7 +156,7 @@
     {
         "NUM": "ARG9",
         "TIPO": "AFA",
-        "CANT": 10,
+        "CANT": 11,
         "PRECIO": 3000,
         "NOMBRE": "MARCOS ACUNA"
     },
@@ -198,7 +198,7 @@
     {
         "NUM": "ARG15",
         "TIPO": "AFA",
-        "CANT": 10,
+        "CANT": 11,
         "PRECIO": 3000,
         "NOMBRE": "ENZO FERNANDEZ"
     },
@@ -436,7 +436,7 @@
     {
         "NUM": "CHI5",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "GABRIEL SUAZO"
     },
@@ -653,7 +653,7 @@
     {
         "NUM": "MEX14",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 850,
         "NOMBRE": "LUIS ROMO"
     },
@@ -667,7 +667,7 @@
     {
         "NUM": "MEX16",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "ORBELIN PINEDA"
     },
@@ -835,7 +835,7 @@
     {
         "NUM": "ECU18",
         "TIPO": "COMUNES",
-        "CANT": 4,
+        "CANT": 5,
         "PRECIO": 850,
         "NOMBRE": "ANGEL MENA"
     },
@@ -989,7 +989,7 @@
     {
         "NUM": "VEN18",
         "TIPO": "COMUNES",
-        "CANT": 1,
+        "CANT": 2,
         "PRECIO": 850,
         "NOMBRE": "YEFERSON SOTELDO"
     },
@@ -1269,7 +1269,7 @@
     {
         "NUM": "USA14",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "WESTON MCKENNIE"
     },
@@ -1591,7 +1591,7 @@
     {
         "NUM": "PAN16",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "EDUARDO GUERRERO"
     },
@@ -1696,7 +1696,7 @@
     {
         "NUM": "BOL9",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "DIEGO MEDINA"
     },
@@ -2326,7 +2326,7 @@
     {
         "NUM": "CAN11",
         "TIPO": "COMUNES",
-        "CANT": 2,
+        "CANT": 3,
         "PRECIO": 850,
         "NOMBRE": "SAM ADEKUGBE"
     },
@@ -2697,7 +2697,7 @@
     {
         "NUM": "HON20",
         "TIPO": "COMUNES",
-        "CANT": 3,
+        "CANT": 4,
         "PRECIO": 850,
         "NOMBRE": "ANTHONY LOZANO"
     },
