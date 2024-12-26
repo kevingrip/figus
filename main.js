@@ -412,6 +412,264 @@ ultimaActualizacion()
 
 
 // Función para buscar y mostrar las figus filtradas
+const cosecharFigus = (tipo) => {
+    
+    const resultados = document.getElementById('resultados');
+    let figusSeleccionadas=""
+
+    window.todasLasFigus.forEach(figu=>{
+        const createDiv = document.createElement('div')
+        const createButton = document.createElement('button')
+        createButton.textContent=figu.NUM
+        console.log(figu.NUM)
+        resultados.appendChild(createButton)
+        createButton.addEventListener('click',()=>{
+            figusSeleccionadas=figu.NUM
+            const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
+            console.log(filteredFigus)
+
+            filteredFigus.forEach(figu => {
+                const li = document.createElement('li');
+                li.classList.add('listaClass')
+                if (figu.CANT==0){                
+                    li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                    li.style.color='red'
+                }else{
+                    li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                }            
+                resultados.appendChild(li);            
+            });
+        })        
+    })    
+
+
+
+    let cantFigusStock =0;
+    let cantFigusSinStock =0;
+    let cantFigusConsult=0;
+    let totalPrecio = 0;
+    let faltantes ='';
+    let figuInd='';
+    let figuRemp='';
+    let tipoFigu = ''
+    let figuList = []
+
+    filteredFigus.forEach(figu => {
+        
+        cantFigusConsult+=1;
+
+        if (figu.CANT>0) {
+            cantFigusStock+=1;
+            tipoFigu = figu.TIPO
+            totalPrecio += figu.PRECIO;
+            if (figu.NUM.includes('INT')){
+                figuRemp = figu.NUM.replace('INT','INTR')
+                figuInd=figuRemp
+            }else{
+                figuInd=figu.NUM;
+            }
+        } else{
+            cantFigusSinStock+=1
+            if (figu.NUM.includes('INT')){
+                figuRemp = figu.NUM.replace('INT','INTR')
+                faltantes+=figuRemp+" ";
+            }else{
+                faltantes+=figu.NUM+" ";
+            }            
+        }
+    });
+
+    faltantes=faltantes.substring(0,(faltantes.length)-1)
+
+
+    // Mostrar resultados en el HTML
+    const unionDiv = document.createElement('div');
+    const separacionDiv1 = document.createElement('div');
+    const separacionDiv2 = document.createElement('div');
+    
+
+    unionDiv.classList.add('inptCuadro')
+    separacionDiv1.classList.add=('inptDiv')        
+    separacionDiv2.classList.add('inptDiv')    
+    errorEscritura=false
+
+    if (errorEscritura==false){
+
+        let mostrarFiguLimp=""    
+
+        filteredFigus.forEach(figu => {
+            mostrarFiguLimp+=figu.NUM+" "
+            figuList.push(figu.NUM)
+            const li = document.createElement('li');
+            li.classList.add('listaClass')
+            if (figu.CANT==0){                
+                li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                li.style.color='red'
+            }else{
+                li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+            }            
+            separacionDiv1.appendChild(li);            
+        });
+
+        buttonFiguLimp.addEventListener('click', async ()=>{
+            try{
+                await navigator.clipboard.writeText(mostrarFiguLimp)
+                console.log('¡Texto copiado al portapapeles con éxito!');
+            }catch(error){
+                console.error('Error al copiar el texto: ', error);
+            }
+            
+        })
+    
+        const totalFi = document.createElement('p');
+        totalFi.textContent = `Cant figus en Stock: ${cantFigusStock}`;
+        separacionDiv2.appendChild(totalFi);
+    
+        const totalSi = document.createElement('p');
+        totalSi.textContent = `Cant figus sin Stock: ${cantFigusSinStock}`;
+        separacionDiv2.appendChild(totalSi);    
+        
+    
+        const totalLi = document.createElement('p');
+        totalLi.textContent = `Total Precio: $${totalPrecio}`;
+        separacionDiv2.appendChild(totalLi);
+
+        unionDiv.appendChild(separacionDiv1)
+        unionDiv.appendChild(separacionDiv2)
+        
+        resultados.style.padding='0px'
+        resultados.appendChild(unionDiv)        
+        
+
+        let costoEnvioGratis=30000
+
+        const confirmacion = '. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra'
+
+        const singPluPre = (cant) =>{
+
+            return `El precio por ${cant==1?'la figurita':`las ${cant} figuritas originales es `}`
+        }
+
+        const singPluPri = (cant) =>{
+
+            return `Hola! Si, ${cant==1?'la':'las'} tengo en stock.`
+        }
+        
+
+        const faltanText = (falta) =>{
+            return `Hola! Las tengo excepto ${falta}. `
+        }        
+
+        
+    
+        const mensaje = document.createElement('h3');
+        if (faltantes.length == 0){
+            if (cantFigusStock==1){
+                if (totalPrecio<3500){
+                    if (tipoFigu=='ESCUDO'){
+                        mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 5000${confirmacion}`                        
+                    } else if (totalPrecio==850){
+                        mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 3900${confirmacion}`
+                    } else{
+                        mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 4500${confirmacion}`
+                    }
+                }else{
+                    mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es ${totalPrecio}${confirmacion}`
+                }
+                
+            } else if (totalPrecio>=costoEnvioGratis){
+                mensaje.textContent = `Hola! Si, en este momento cuento con todas en stock y te damos el envio gratis por un total de ${totalPrecio}${confirmacion}`
+            }
+            else{                                 
+                mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} ${(totalPrecio/cantFigusStock === 850)?(cantFigusStock <=3 ? cantFigusStock*2100 : (3*2100+(1000*(cantFigusStock-3)))):(totalPrecio<3000?totalPrecio*2:totalPrecio<10000?totalPrecio+1500:totalPrecio<=25500?totalPrecio+3000:totalPrecio)} ${confirmacion}`
+            }
+        } else {
+            if (cantFigusStock==1){                
+                mensaje.textContent = `${faltanText(faltantes)}${singPluPre(cantFigusStock)} ${figuInd} es ${totalPrecio==850?3700:totalPrecio<3500?4000:totalPrecio}${confirmacion}`
+            }else{
+                if (cantFigusStock==0){
+                    mensaje.textContent = `Hola! No la tengo en stock en este momento. Podes consultarme nuevamente en unos dias para ver si ingresó. Saludos!`
+                }else{
+                    mensaje.textContent = `${faltanText(faltantes)}${singPluPre(cantFigusStock)} ${totalPrecio<6000?((cantFigusStock*1200)+1700):totalPrecio<((cantFigusStock+1)*1000) && totalPrecio<costoEnvioGratis ? totalPrecio+2000 : totalPrecio}${confirmacion}${totalPrecio>=costoEnvioGratis?' con Envio Gratis!!':'. Saludos!'}`
+                }
+            }
+            
+        }
+
+        const buttonVenta = document.createElement('button')
+        buttonVenta.innerHTML='Avanzar Venta'
+
+        mensaje.style.margin='50px'
+        resultados.appendChild(mensaje);
+        resultados.appendChild(buttonVenta)
+
+        buttonVenta.addEventListener('click',()=>{
+            const entradaUsuario = document.createElement('input')
+            entradaUsuario.placeholder='Ingrese nombre usuario'
+            resultados.appendChild(entradaUsuario)
+            const confirmarUsuario = document.createElement('button')
+            confirmarUsuario.innerHTML='Continuar'
+            resultados.appendChild(confirmarUsuario)
+
+            confirmarUsuario.addEventListener('click',()=>{
+                const nombreUsuario = entradaUsuario.value
+                if (!nombreUsuario){
+                    alert("INGRESAR USUARIO")
+                }else{
+                    window.todasLasFigus.forEach(figu =>{
+                        figuList.forEach(vend =>{
+                            if (vend == figu.NUM)
+                                figu.CANT-=1
+
+                        })                        
+                    })
+                    const datosJson = JSON.stringify(window.todasLasFigus, null, 2);
+                    const blob = new Blob([datosJson], { type: 'application/json' });
+                    const enlace = document.createElement('a');
+                    enlace.href = URL.createObjectURL(blob);
+                    enlace.download = `${tipo}.json`;
+                    enlace.click();
+
+                    const agregarVenta = {
+                        usuario: nombreUsuario,
+                        Vendidas: [
+                            "AUS1",
+                            "GER1"
+                        ],
+                        NoVendidas: [
+                            "CRC1"
+                        ],
+                        Dia: "12/08/2024",
+                        Cuenta: "KEVIN",
+                        Envio: "CORREO",
+                        ARMADO: "NO",
+                        PREARMADO: "NO"
+                    }
+
+                    // Liberar la URL del Blob
+                    URL.revokeObjectURL(enlace.href);
+                }
+            }
+        )
+            
+        })
+
+        
+        
+
+        navigator.clipboard.writeText(mensaje.textContent)  // Usa .textContent para acceder al texto
+
+        
+            
+
+    }else{
+        const errorEscritura = document.createElement('p');
+        errorEscritura.innerHTML = `${valorInput.length>0 ? `Error de escritura. Presta atencion loro.<br> Posible error: ${error}` : 'Ingrese figuritas' }`;
+        errorEscritura.classList.add('clientFigu')
+        resultados.appendChild(errorEscritura);
+    }   
+};
+
 const buscarFigus = (tipo) => {
     let valorInput = document.getElementById('entrada').value.toUpperCase();
     
@@ -794,6 +1052,9 @@ const albumFigu = (tipo, event,pag) => {
             }
             else if (pag=='sinStock'){
                 sinStock();
+            }
+            else if (pag=='cosecharFigus'){
+                cosecharFigus()
             }
         });
     

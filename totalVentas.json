@@ -23505,8 +23505,8 @@
             "Dia": "24/12/2024",
             "Cuenta": "KEVIN",
             "Envio": "FLEX",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Arg 2024": [
@@ -35282,7 +35282,7 @@
             "Dia": "23/12/2024",
             "Cuenta": "MATI",
             "Envio": "CORREO",
-            "ARMADO": "NO",
+            "ARMADO": "SI",
             "PREARMADO": "SI"
         },
         {
@@ -35319,9 +35319,9 @@
             "NoVendidas": [],
             "Dia": "24/12/2024",
             "Cuenta": "MATI",
-            "Envio": "CORREO",
-            "ARMADO": "NO",
-            "PREARMADO": "NO"
+            "Envio": "FLEX",
+            "ARMADO": "SI",
+            "PREARMADO": "SI"
         }
     ],
     "Futbol Argentino 2023": [

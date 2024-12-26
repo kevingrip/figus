@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Figu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h5>// Hora de ultima actualizacion: <span id="ultimaActualizacion"></span></h5>
+    <h5>// Usuario de ultima actualizacion: <span id="userUpdate"></span></h5>
+    <div class="posBtn" >
+        <button onclick="window.location.href='index.html'">Menu</button>
+    </div>
+    <h1 class="posBusc">Lafi Gurita</h1>    
+    
+    
+    <div class="posBusc">
+        <h3>Ingresa las figus:</h3>
+        <h3 class="posBusc">Presione el album:</h3>
+        <div>
+            <div class="posBtn">
+                <button class="bloqueAlbum" onclick="albumFigu('baseMundial',event,'cosecharFigus')">Mundial Qatar 2022</button>              
+                <button class="bloqueAlbum pressed" onclick="albumFigu('base_copam',event,'cosecharFigus')">Copa America 2024</button>
+                
+            </div>
+            <div class="posBtn">
+                <button class="bloqueAlbum" onclick="albumFigu('baseFutarg',event,'cosecharFigus')">Futbol Argentino 2023</button>
+                <button class="bloqueAlbum" onclick="albumFigu('baseLali',event,'cosecharFigus')">Copa Libertadores 2023</button>
+                <button class="bloqueAlbum" onclick="albumFigu('baseFutarg24',event,'cosecharFigus')">Futbol Argentino 2024</button>
+            </div>
+        </div>
+    </div>
+    <ul id="resultados">
+        <!-- Aquí se mostrarán los resultados -->
+    </ul>
+
+    <script src="main.js"></script>
+</body>
+</html>
