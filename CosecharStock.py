@@ -45,7 +45,7 @@ def cosecharStock(base):
     if (base in ("baseMundial.json","albumExtra.json","base_copam.json","baseFutarg24.json")):
 
         if (base =="base_copam.json"):
-            maxFigusCosecha=6
+            maxFigusCosecha=5
         else:
             maxFigusCosecha=3
         
@@ -156,8 +156,14 @@ def cosecharStock(base):
                             figuNueva = str(fila["CANT"])
                             # print("Precio acumulado: ",precioUyuni)
                             print ("[+"+str(cantidadTotal)+"]       "+figuActual+' <<< '+str(fila["NUM"])+": >>> "+figuNueva)
+                        elif fila["TIPO"]=='AFA' and fila["CANT"]<15: 
+                            fila["CANT"] += int(1)
+                            cantidadTotal += int(1)
+                            figuNueva = str(fila["CANT"])
+                            # print("Precio acumulado: ",precioUyuni)
+                            print ("[+"+str(cantidadTotal)+"]       "+figuActual+' <<< '+str(fila["NUM"])+": >>> "+figuNueva)
                         
-                        elif fila["TIPO"]=='AFA' or fila["TIPO"]=='LEYENDA DORADA' or fila["TIPO"]=='LEYENDA': 
+                        elif fila["TIPO"]=='LEYENDA DORADA' or fila["TIPO"]=='LEYENDA': 
                             fila["CANT"] += int(1)
                             cantidadTotal += int(1)
                             figuNueva = str(fila["CANT"])
