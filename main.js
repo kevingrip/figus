@@ -415,38 +415,190 @@ ultimaActualizacion()
 const cosecharFigus = (tipo) => {
     
     const resultados = document.getElementById('resultados');
+    resultados.innerHTML=''
     let figusSeleccionadas=""
 
-    window.todasLasFigus.forEach(figu=>{
-        const createDiv = document.createElement('div')
-        const createButton = document.createElement('button')
-        if (figu.NUM.includes('INT')){
-            
-            createButton.textContent=figu.NUM
-            
-        }
-        createDiv.appendChild(createButton)
-        createButton.textContent=figu.NUM
-        console.log(figu.NUM)
-        resultados.appendChild(createDiv)
-        resultados.appendChild(createButton)
-        createButton.addEventListener('click',()=>{
-            figusSeleccionadas=figu.NUM
-            const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
-            console.log(filteredFigus)
+    const intDiv = document.createElement('div');
+    intDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
+    intDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos
+    resultados.appendChild(intDiv);
 
-            filteredFigus.forEach(figu => {
-                const li = document.createElement('li');
-                li.classList.add('listaClass')
-                if (figu.CANT==0){                
-                    li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
-                    li.style.color='red'
-                }else{
-                    li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
-                }            
-                resultados.appendChild(li);            
-            });
-        })        
+    const hciDiv = document.createElement('div');
+    hciDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
+    hciDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos
+    resultados.appendChild(hciDiv);
+
+    const legDiv = document.createElement('div');
+    legDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
+    legDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos
+    resultados.appendChild(legDiv);
+    
+    const rohDiv = document.createElement('div');
+    rohDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
+    rohDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos
+    resultados.appendChild(rohDiv);
+
+    window.todasLasFigus.forEach(figu=>{
+        
+        const createButton = document.createElement('button')
+        createButton.style.width='65px'
+        if (figu.NUM.includes('INT')){
+            const createButton = document.createElement('button')
+            createButton.style.width='65px'
+            createButton.textContent=figu.NUM
+            intDiv.appendChild(createButton);
+            
+            if (figu.CANT ==0){
+                createButton.style.backgroundColor='red'
+            }else if (figu.CANT ==1){
+                createButton.style.backgroundColor='orange'
+            }
+
+            createButton.addEventListener('click',()=>{
+                figusSeleccionadas=figu.NUM
+                const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
+                console.log(filteredFigus)
+    
+                filteredFigus.forEach(figu => {
+                    const li = document.createElement('li');
+                    li.classList.add('listaClass')
+                    if (figu.CANT==0){                
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                        li.style.color='red'
+                    }else{
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                    }            
+                    resultados.appendChild(li);            
+                });
+            })     
+
+            
+        }else if (figu.NUM.includes('HCI')){
+            const createButton = document.createElement('button')
+            createButton.style.width='65px'
+            createButton.textContent=figu.NUM
+            hciDiv.appendChild(createButton);
+
+            if (figu.CANT ==0){
+                createButton.style.backgroundColor='red'
+            }else if (figu.CANT ==1){
+                createButton.style.backgroundColor='orange'
+            }
+
+            createButton.addEventListener('click',()=>{
+                figusSeleccionadas=figu.NUM
+                const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
+                console.log(filteredFigus)
+    
+                filteredFigus.forEach(figu => {
+                    const li = document.createElement('li');
+                    li.classList.add('listaClass')
+                    if (figu.CANT==0){                
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                        li.style.color='red'
+                    }else{
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                    }            
+                    resultados.appendChild(li);            
+                });
+            })    
+
+        
+        }else if (figu.NUM.includes('LEG')){
+            const createButton = document.createElement('button')
+            createButton.style.width='65px'
+            createButton.textContent=figu.NUM
+            legDiv.appendChild(createButton);
+
+            if (figu.CANT ==0){
+                createButton.style.backgroundColor='red'
+            }else if (figu.CANT ==1){
+                createButton.style.backgroundColor='orange'
+            }
+
+            createButton.addEventListener('click',()=>{
+                figusSeleccionadas=figu.NUM
+                const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
+                console.log(filteredFigus)
+    
+                filteredFigus.forEach(figu => {
+                    const li = document.createElement('li');
+                    li.classList.add('listaClass')
+                    if (figu.CANT==0){                
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                        li.style.color='red'
+                    }else{
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                    }            
+                    resultados.appendChild(li);            
+                });
+            })    
+
+        
+        }else if (figu.NUM.includes('ROH')){
+            const createButton = document.createElement('button')
+            createButton.style.width='65px'
+            createButton.textContent=figu.NUM
+            rohDiv.appendChild(createButton);
+
+            if (figu.CANT ==0){
+                createButton.style.backgroundColor='red'
+            }else if (figu.CANT ==1){
+                createButton.style.backgroundColor='orange'
+            }
+
+            createButton.addEventListener('click',()=>{
+                figusSeleccionadas=figu.NUM
+                const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
+                console.log(filteredFigus)
+    
+                filteredFigus.forEach(figu => {
+                    const li = document.createElement('li');
+                    li.classList.add('listaClass')
+                    if (figu.CANT==0){                
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                        li.style.color='red'
+                    }else{
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                    }            
+                    resultados.appendChild(li);            
+                });
+            })    
+
+            
+        }else{
+            createButton.textContent=figu.NUM
+            console.log(figu.NUM)
+
+            if (figu.CANT ==0){
+                createButton.style.backgroundColor='red'
+            }else if (figu.CANT ==1){
+                createButton.style.backgroundColor='orange'
+            }else if (figu.CANT >4){
+                createButton.style.backgroundColor='lightgreen'
+            }
+            
+            resultados.appendChild(createButton)
+            createButton.addEventListener('click',()=>{
+                figusSeleccionadas=figu.NUM
+                const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
+                console.log(filteredFigus)
+    
+                filteredFigus.forEach(figu => {
+                    const li = document.createElement('li');
+                    li.classList.add('listaClass')
+                    if (figu.CANT==0){                
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                        li.style.color='red'
+                    }else{
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                    }            
+                    resultados.appendChild(li);            
+                });
+            })     
+        }
+        
+           
     })    
 
 
