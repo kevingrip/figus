@@ -420,8 +420,15 @@ const cosecharFigus = (tipo) => {
     window.todasLasFigus.forEach(figu=>{
         const createDiv = document.createElement('div')
         const createButton = document.createElement('button')
+        if (figu.NUM.includes('INT')){
+            
+            createButton.textContent=figu.NUM
+            
+        }
+        createDiv.appendChild(createButton)
         createButton.textContent=figu.NUM
         console.log(figu.NUM)
+        resultados.appendChild(createDiv)
         resultados.appendChild(createButton)
         createButton.addEventListener('click',()=>{
             figusSeleccionadas=figu.NUM
