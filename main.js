@@ -420,11 +420,11 @@ const cosecharFigus = (tipo) => {
 
 
     const divDescargar = document.createElement('div')
-    divDescargar.style.backgroundColor='blue'
     divDescargar.style.display='flex'
     divDescargar.style.justifyContent='center'
 
     const buttonDescargarBase = document.createElement('button')
+    buttonDescargarBase.style.backgroundColor='skyblue'
     buttonDescargarBase.innerHTML='Descargar Base'    
     
     resultados.appendChild(buttonDescargarBase)
@@ -646,6 +646,14 @@ const cosecharFigus = (tipo) => {
 
             createButton.addEventListener('click',()=>{
                 figu.CANT++
+
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >14){
+                    createButton.style.backgroundColor='lightgreen'
+                }
                 figusSeleccionadas=figu.NUM
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
                 //console.log(filteredFigus)
@@ -668,13 +676,25 @@ const cosecharFigus = (tipo) => {
             createButton.textContent=figu.NUM
             //console.log(figu.NUM)
 
-            if (figu.CANT ==0){
-                createButton.style.backgroundColor='red'
-            }else if (figu.CANT ==1){
-                createButton.style.backgroundColor='orange'
-            }else if (figu.CANT >4){
-                createButton.style.backgroundColor='lightgreen'
+            if (figu.TIPO=='EQUIPO'){
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >9){
+                    createButton.style.backgroundColor='lightgreen'
+                }
+            }else{
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >4){
+                    createButton.style.backgroundColor='lightgreen'
+                }
             }
+
+            
             
             resultados.appendChild(createButton)
             createButton.addEventListener('click',()=>{
@@ -687,7 +707,7 @@ const cosecharFigus = (tipo) => {
                 }else if (figu.CANT >4){
                     createButton.style.backgroundColor='lightgreen'
                 }else{
-                    createButton.style.backgroundColor='none'
+                    createButton.style.backgroundColor='yellow'
                 }
                 figusSeleccionadas=figu.NUM
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
