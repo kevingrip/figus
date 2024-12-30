@@ -422,6 +422,7 @@ const cosecharFigus = (tipo) => {
     const divDescargar = document.createElement('div')
     divDescargar.style.display='flex'
     divDescargar.style.justifyContent='center'
+    divDescargar.style.margin='20px'
 
     const buttonDescargarBase = document.createElement('button')
     buttonDescargarBase.style.backgroundColor='skyblue'
@@ -430,7 +431,6 @@ const cosecharFigus = (tipo) => {
     resultados.appendChild(buttonDescargarBase)
     divDescargar.appendChild(buttonDescargarBase)
 
-    resultados.appendChild(divDescargar)
     
 
     
@@ -724,9 +724,15 @@ const cosecharFigus = (tipo) => {
                     }            
                     resultados.appendChild(li);            
                 });
+                
             })     
+            
         }           
-    })    
+        
+    }) 
+    
+    resultados.appendChild(divDescargar)
+
   
 
     
@@ -763,6 +769,7 @@ const buscarFigus = (tipo) => {
     valorInput = valorInput.replace(/ESTADOSUNIDOS|EEUU|EE.UU/g, "USA");
     valorInput = valorInput.replace(/BRASIL|BRAZIL/g, "BRA");
     valorInput = valorInput.replace(/CANADA|CANADÁ|CANAD|CANA|CAADA/g, "CAN");
+    valorInput = valorInput.replace(/COSTA RICA|COSTARICA/g, "CRC");
     valorInput = valorInput.replace(/ARGENTINA|AFA|ARH/g, "ARG");
     valorInput = valorInput.replace(/HCL|HC1|ESTADIO|ESTADIOS/g, "HCI");
     valorInput = valorInput.replace(/PERU|PERÚ|PERO/g, "PER");
