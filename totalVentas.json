@@ -23625,6 +23625,37 @@
             "Envio": "CORREO",
             "ARMADO": "NO",
             "PREARMADO": "NO"
+        },
+        {
+            "usuario": "GERVITTONE",
+            "Vendidas": [
+                "INT3",
+                "ARG12",
+                "ARG18",
+                "MEX18",
+                "VEN1",
+                "JAM6",
+                "PAN2",
+                "BOL1",
+                "COL1",
+                "PAR7",
+                "PAR18",
+                "CAN1",
+                "CRC17",
+                "HON1",
+                "TRI1",
+                "TRI11",
+                "LEG15",
+                "ROH2"
+            ],
+            "NoVendidas": [
+                "USA16"
+            ],
+            "Dia": "30/12/2024",
+            "Cuenta": "KEVIN",
+            "Envio": "ACORDAR ENTREGA",
+            "ARMADO": "NO",
+            "PREARMADO": "NO"
         }
     ],
     "Futbol Arg 2024": [
