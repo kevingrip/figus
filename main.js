@@ -476,6 +476,8 @@ const cosecharFigus = (tipo) => {
                 createButton.style.backgroundColor='red'
             }else if (figu.CANT ==1){
                 createButton.style.backgroundColor='orange'
+            }else if (figu.CANT >9){
+                createButton.style.backgroundColor='lightgreen'
             }
 
             createButton.addEventListener('click',()=>{
@@ -483,6 +485,16 @@ const cosecharFigus = (tipo) => {
                 figu.CANT++
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
                 //console.log(filteredFigus)
+
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >9){
+                    createButton.style.backgroundColor='lightgreen'
+                }else{
+                    createButton.style.backgroundColor='yellow'
+                }
     
                 filteredFigus.forEach(figu => {
                     const li = document.createElement('li');
@@ -508,6 +520,8 @@ const cosecharFigus = (tipo) => {
                 createButton.style.backgroundColor='red'
             }else if (figu.CANT ==1){
                 createButton.style.backgroundColor='orange'
+            }else if (figu.CANT >9){
+                createButton.style.backgroundColor='lightgreen'
             }
 
             createButton.addEventListener('click',()=>{
@@ -515,6 +529,16 @@ const cosecharFigus = (tipo) => {
                 figu.CANT++
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
                 //console.log(filteredFigus)
+
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >9){
+                    createButton.style.backgroundColor='lightgreen'
+                }else{
+                    createButton.style.backgroundColor='yellow'
+                }
     
                 filteredFigus.forEach(figu => {
                     const li = document.createElement('li');
@@ -549,6 +573,16 @@ const cosecharFigus = (tipo) => {
                 figusSeleccionadas=figu.NUM
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
                 //console.log(filteredFigus)
+
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >9){
+                    createButton.style.backgroundColor='lightgreen'
+                }else{
+                    createButton.style.backgroundColor='yellow'
+                }
     
                 filteredFigus.forEach(figu => {
                     const li = document.createElement('li');
@@ -583,6 +617,16 @@ const cosecharFigus = (tipo) => {
                 figusSeleccionadas=figu.NUM
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
                 //console.log(filteredFigus)
+
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >9){
+                    createButton.style.backgroundColor='lightgreen'
+                }else{
+                    createButton.style.backgroundColor='yellow'
+                }
     
                 filteredFigus.forEach(figu => {
                     const li = document.createElement('li');
@@ -608,6 +652,8 @@ const cosecharFigus = (tipo) => {
                 createButton.style.backgroundColor='red'
             }else if (figu.CANT ==1){
                 createButton.style.backgroundColor='orange'
+            }else if (figu.CANT >9){
+                createButton.style.backgroundColor='lightgreen'
             }
 
             createButton.addEventListener('click',()=>{
@@ -615,6 +661,16 @@ const cosecharFigus = (tipo) => {
                 figusSeleccionadas=figu.NUM
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
                 //console.log(filteredFigus)
+
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >9){
+                    createButton.style.backgroundColor='lightgreen'
+                }else{
+                    createButton.style.backgroundColor='yellow'
+                }
     
                 filteredFigus.forEach(figu => {
                     const li = document.createElement('li');
@@ -1122,26 +1178,24 @@ const buscarCliente = () => {
 }
 
 const albumFigu = (tipo, event,pag) => {
-        tipoAlbum(tipo, event)
-        .then(() => {
-            if (pag =="album150"){
-                armarAlbumFigus();
-            }
-            else if (pag =="buscarUsuario"){
-                buscarCliente(); 
-            }
-            else if (pag =="buscarFigus"){
-                buscarFigus(tipo); 
-            }
-            else if (pag=='sinStock'){
-                sinStock();
-            }
-            else if (pag=='cosecharFigus'){
-                cosecharFigus(tipo)
-            }
-        });
-    
-    
+    tipoAlbum(tipo, event)
+    .then(() => {
+        if (pag =="album150"){
+            armarAlbumFigus();
+        }
+        else if (pag =="buscarUsuario"){
+            buscarCliente(); 
+        }
+        else if (pag =="buscarFigus"){
+            buscarFigus(tipo); 
+        }
+        else if (pag=='sinStock'){
+            sinStock();
+        }
+        else if (pag=='noVendidas'){
+            noVendidas(tipo);
+        }
+    });
 };
 
 const armarAlbumFigus = () =>{
@@ -1383,8 +1437,112 @@ const armarAlbumFigus = () =>{
 
 }
 
-const nuevaVenta = () => {
+const albumName = (nombreJson) =>{
+    if (nombreJson == "baseMundial"){
+        return "Mundial Qatar 2022"
+    }else if (nombreJson == "base_copam"){
+        return "Copa America 2024"
+    }else if (nombreJson == "baseFutarg"){
+        return "Futbol Argentino 2023"
+    }else if (nombreJson == "baseFutarg24"){
+        return "Futbol Arg 2024"
+    }else if (nombreJson == "baseLali"){
+        return "Copa Libertadores 2023"
+    }
+     
+}
 
+function convertirFecha(fechaStr) {
+    const [dia, mes, anio] = fechaStr.split('/').map(num => parseInt(num, 10));
+    return new Date(anio, mes - 1, dia); // Recordar que los meses en JavaScript empiezan desde 0
+  }
+  
+  // Definir la fecha límite para el filtro, por ejemplo, hoy
+  const hoy = new Date();
+  hoy.setHours(0, 0, 0, 0); // Solo considerar la fecha sin hora
+  hoy.setMonth(hoy.getMonth() - 2);
+
+const noVendidas = (tipo) => {
+    
+    const noVendidasHtml = document.getElementById('noVendidas');
+    let filePath='./totalVentas.json';
+
+    noVendidasHtml.innerHTML=''
+    
+    fetch(filePath)
+        .then(response => response.json())
+        .then(data => {
+
+            const pantalla = document.createElement('div')
+            
+
+                totalFigus = data[albumName(tipo)]
+
+                const nombreAlbum = document.createElement('h2')
+                nombreAlbum.innerHTML=albumName(tipo)
+
+                pantalla.appendChild(nombreAlbum)
+
+                const armadoFiltrado = totalFigus.filter(item => item.ARMADO ==="SI" && item.NoVendidas.length>0 && convertirFecha(item.Dia)>new Date(hoy))
+
+                armadoFiltrado.forEach(item=>{
+                    const user = document.createElement('h3')
+                    const figu = document.createElement('p')
+                    const fecha = document.createElement('h5')
+
+                    user.innerHTML=item.usuario
+                    //figu.innerHTML=item.NoVendidas
+                    
+                    let figuNoVendida=[]
+
+                    window.todasLasFigus.forEach(figu=>{
+                        item.NoVendidas.forEach(num=>{
+                            if (num==(figu.NUM)){
+                                figuNoVendida.push({NUM:figu.NUM,CANT:figu.CANT})                                 
+                            } 
+                        })
+                    })
+
+                    figuNoVendida.forEach(obj =>{
+                        if (obj.CANT==0){
+                            figu.innerHTML+= `<span style="background-color: red; color:white; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                        }else if (obj.CANT==1){
+                            figu.innerHTML+= `<span style="color: white; background-color:orange; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                        }
+                        else if (obj.CANT>=5){
+                            figu.innerHTML+= `<span style="color: white;background-color:green; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                        }else{
+                            figu.innerHTML+= `<span style="color: white;background-color:skyblue; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                        }
+                    })
+                    
+                    
+
+                    fecha.innerHTML=item.Dia
+
+                    const pantallita = document.createElement('div')
+
+                    pantallita.appendChild(user)
+                    pantallita.appendChild(fecha)
+                    pantallita.appendChild(figu)                   
+                    
+
+                    pantallita.style.border = '1px solid lightgrey' 
+                    pantallita.style.padding = '15px'
+                    
+                    pantalla.appendChild(pantallita)
+                    
+
+                })                
+            
+            
+            pantalla.style.margin = '5px'
+            pantalla.style.padding = '15px'
+            pantalla.classList.add('fVendidas1')
+            noVendidasHtml.appendChild(pantalla)
+
+        }
+    )
 }
 // Cargar las figus iniciales al cargar la página
 
