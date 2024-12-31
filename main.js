@@ -1191,6 +1191,8 @@ const albumFigu = (tipo, event,pag) => {
         }
         else if (pag=='sinStock'){
             sinStock();
+        }else if (pag=='cosecharFigus'){
+            cosecharFigus(tipo);
         }
         else if (pag=='noVendidas'){
             noVendidas(tipo);
