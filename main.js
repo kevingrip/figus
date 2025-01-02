@@ -1358,10 +1358,12 @@ const noVendidas = (tipo) => {
 
                 armadoFiltrado.forEach(item=>{
                     const user = document.createElement('h3')
+                    const cuenta = document.createElement('h5')
                     const figu = document.createElement('p')
                     const fecha = document.createElement('h5')
 
                     user.innerHTML=item.usuario
+                    cuenta.innerHTML=`Cuenta: ${item.Cuenta}`
                     
                     let figuNoVendida=[]
 
@@ -1398,6 +1400,7 @@ const noVendidas = (tipo) => {
                     marcoPantallita.appendChild(user)
                     marcoPantallita.appendChild(fecha)
                     marcoPantallita.appendChild(figu)    
+                    marcoPantallita.appendChild(cuenta)
                     marcoPantallita.appendChild(buttonText)               
                     
                     buttonText.addEventListener('click',()=>{
