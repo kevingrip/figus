@@ -1401,7 +1401,8 @@ const noVendidas = (tipo) => {
                     marcoPantallita.appendChild(buttonText)               
                     
                     buttonText.addEventListener('click',()=>{
-                        navigator.clipboard.writeText(`Hola! Te queria avisar que tenemos en stock las figuritas ${noVendidas}, por si aun las necesitas. Saludos!`)
+                        const figus = figuNoVendida.map(figu => figu.NUM).join(", ");
+                        navigator.clipboard.writeText(`Hola! Te queria avisar que tenemos en stock las figuritas ${figus}, por si aun las necesitas. Saludos!`)
                     })
 
                     marcoPantallita.style.border = '1px solid lightgrey' 
