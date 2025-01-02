@@ -35,6 +35,26 @@ const cargarFigus = () => {
         });
 };
 
+const cargarVentas = () => {
+    return fetch('./totalVentas.json')
+        .then(response => response.json())
+        .then(ventas => {
+            
+            window.todasLasVentas = ventas            
+                        
+        })
+        .catch(error => {
+            console.error('Error al cargar el archivo JSON:', error);
+            throw error; // Propaga el error para que se maneje en la cadena de promesas
+        });
+};
+
+cargarVentas().then(() => {
+    totalVentas();
+    buscarFigus();
+});
+
+
 
 const sinStock = () =>{
     let figus = window.todasLasFigus
@@ -120,21 +140,17 @@ const sinStock = () =>{
     resultSinStock.appendChild(p3);
 }
 
-
 const totalVentas = () =>{
     const totalVentasElement = document.getElementById('totalVentas');
-    let filePath='./totalVentas.json';
+    let filePath='./totalVentas.json';    
+
     
+    console.log(window.todasLasVentas)
     
     fetch(filePath)
         .then(response => response.json())
         .then(data => {
-            // Almacenar todas las figus
             
-            // console.log(data)
-            // console.log(actualizacion[0],actualizacion[0])
-            // console.log(data)
-
             const ventasDiv = document.createElement('div');
             const cantidadFlex = document.createElement('h3');
             const cantidadCorreo = document.createElement('h3');
@@ -159,7 +175,7 @@ const totalVentas = () =>{
                         cantAcordar++;
                     }
                 });
-                }
+            }
 
             cantidadFlex.textContent=`Cantidad Flex: ${cantFlex}`
             ventasDiv.appendChild(cantidadFlex)
@@ -293,10 +309,19 @@ const totalVentas = () =>{
                     figusNoVendidas.textContent = figuNoVend.length>0?`Sin Stock : ${figuNoVend}`:'';
                     figusNoVendidas.style.color = 'red'
 
+                    const buttonArmado = document.createElement('button')
+                    buttonArmado.innerHTML='ARMADO'
 
-                    if (objeto["PREARMADO"]==="SI"){
-                        pantallaVenta.style.backgroundColor='#58d68d'
-                    }
+                    buttonArmado.addEventListener('click',()=>{
+                        objeto["PREARMADO"]="SI"
+                        objeto["ARMADO"]="SI"
+                        if (objeto["PREARMADO"]==="SI"){
+                            pantallaVenta.style.backgroundColor='#58d68d'
+                        }
+                    })
+
+
+                    
                     
                     if (objeto["Envio"]==='FLEX'){
                         tipoEnvio.textContent = `ENVIOS FLEX`
@@ -359,6 +384,10 @@ const totalVentas = () =>{
                     pantallaVenta.appendChild(fecha);
                     pantallaVenta.appendChild(figusNoVendidas);
                     pantallaVenta.appendChild(nombreCuenta);
+
+                    
+                    pantallaVenta.appendChild(buttonArmado);
+
                     
                     
 
@@ -368,22 +397,37 @@ const totalVentas = () =>{
                     pantallaVenta.style.margin = '5px'
                     pantallaVenta.style.padding = '15px'                 
 
-
+                    
                     
                     // Agregar el elemento div al contenedor totalVentasElement
-                    totalVentasElement.appendChild(pantallaVenta);
                     
-                                                          
+                    totalVentasElement.appendChild(pantallaVenta);      
+                                                        
                 });
+                
             }
+            const descargarActualizado = document.createElement('button')
+            descargarActualizado.innerHTML='Descargar Actualizado'
+
+            descargarActualizado.addEventListener('click',()=>{
+                const datosJson = JSON.stringify(data, null, 2);
+                const blob = new Blob([datosJson], { type: 'application/json' });
+                const enlace = document.createElement('a');
+                enlace.href = URL.createObjectURL(blob);
+                enlace.download = `totalVentas.json`;
+                enlace.click();
+            })
+
+            totalVentasElement.appendChild(descargarActualizado); 
         })
         .catch(error => {
             console.error('Error al cargar el archivo JSON:', error);
             throw error; // Propaga el error para que se maneje en la cadena de promesas
         });
+
 }
 
-totalVentas()
+
 
 const ultimaActualizacion = () => {
     var spanUltimaActualizacion = document.getElementById('ultimaActualizacion');
@@ -808,6 +852,7 @@ const cosecharFigus = (tipo) => {
             
 };
 
+
 const buscarFigus = (tipo) => {
     let valorInput = document.getElementById('entrada').value.toUpperCase();
     
@@ -832,7 +877,7 @@ const buscarFigus = (tipo) => {
     valorInput = valorInput.replace(/CHILE/g, "CHI");
     valorInput = valorInput.replace(/VENEZUELA|VENEZ/g, "VEN");
     valorInput = valorInput.replace(/JAMAICA|JAMA/g, "JAM");
-    valorInput = valorInput.replace(/PANAM|PANAMA/g, "PAN");
+    valorInput = valorInput.replace(/PANAMA|PANAM/g, "PAN");
     valorInput = valorInput.replace(/BOLIVIA|BOLIV/g, "BOL");
     valorInput = valorInput.replace(/COLOMBIA|COLOM|COLO/g, "COL");
     valorInput = valorInput.replace(/PARAGUAY|PARAGUA|PARAG|PARA/g, "PAR");
@@ -908,6 +953,8 @@ const buscarFigus = (tipo) => {
     let figuRemp='';
     let tipoFigu = ''
     let figuList = []
+    let figusEnStock = []
+    let figusSinStock = []
 
     filteredFigus.forEach(figu => {
         
@@ -1025,8 +1072,6 @@ const buscarFigus = (tipo) => {
         const faltanText = (falta) =>{
             return `Hola! Las tengo excepto ${falta}. `
         }        
-
-        
     
         const mensaje = document.createElement('h3');
         if (faltantes.length == 0){
@@ -1061,23 +1106,127 @@ const buscarFigus = (tipo) => {
             }
             
         }
+        
+
+        const divButtonVenta = document.createElement('div')
+        const divNombreUsuarioVenta = document.createElement('div')
+        const divDescargarVenta = document.createElement('div')
+
+        divButtonVenta.style.display='flex'
+        divButtonVenta.style.justifyContent='center'
+        divButtonVenta.style.alignItems='center'
+
+        divNombreUsuarioVenta.style.display='flex'
+        divNombreUsuarioVenta.style.justifyContent='center'
+        divNombreUsuarioVenta.style.alignItems='center'
+        divButtonVenta.style.margin='20px'
+
+        divDescargarVenta.style.display='flex'
+        divDescargarVenta.style.justifyContent='center'
+        divDescargarVenta.style.alignItems='center'
+        divDescargarVenta.style.margin='20px'
 
         const buttonVenta = document.createElement('button')
         buttonVenta.innerHTML='Avanzar Venta'
+        
 
         mensaje.style.margin='50px'
+
+        divButtonVenta.appendChild(buttonVenta)
         resultados.appendChild(mensaje);
-        resultados.appendChild(buttonVenta)
+        resultados.appendChild(divButtonVenta)
 
         buttonVenta.addEventListener('click',()=>{
             const entradaUsuario = document.createElement('input')
             entradaUsuario.placeholder='Ingrese nombre usuario'
-            resultados.appendChild(entradaUsuario)
-            const confirmarUsuario = document.createElement('button')
-            confirmarUsuario.innerHTML='Continuar'
-            resultados.appendChild(confirmarUsuario)
+            entradaUsuario.style.margin='20px'
+            divNombreUsuarioVenta.appendChild(entradaUsuario)
+            resultados.appendChild(divNombreUsuarioVenta)
 
-            confirmarUsuario.addEventListener('click',()=>{
+            const divEnvio = document.createElement('div')
+            const botonCorreo = document.createElement('button')
+            const botonFlex = document.createElement('button')
+            botonCorreo.textContent='Correo'
+            botonFlex.textContent='Flex'
+
+            botonCorreo.style.marginRight='10px'
+            botonFlex.style.marginLeft='10px'
+
+            divEnvio.style.display='flex'
+            divEnvio.style.justifyContent='center'
+            divEnvio.style.alignItems='center'
+            divEnvio.style.height='50px'
+
+            divEnvio.appendChild(botonCorreo)
+            divEnvio.appendChild(botonFlex)
+            resultados.appendChild(divEnvio)
+            
+
+            let tipoEnvio;
+            let tipoCuenta;
+
+            const agregarCuenta = (tipoEnvio) =>{
+                if (tipoEnvio){
+                    
+                    const divCuenta = document.createElement('div')
+                    const botonKevin = document.createElement('button')
+                    const botonMati = document.createElement('button')
+                    botonKevin.textContent='Kevin'
+                    botonMati.textContent='Mati'
+            
+                    botonKevin.style.marginRight='10px'
+                    botonMati.style.marginLeft='10px'
+            
+                    divCuenta.style.display='flex'
+                    divCuenta.style.justifyContent='center'
+                    divCuenta.style.alignItems='center'
+                    divCuenta.style.height='50px'
+            
+                    divCuenta.appendChild(botonKevin)
+                    divCuenta.appendChild(botonMati)
+                    resultados.appendChild(divCuenta)
+
+                    botonKevin.addEventListener('click',()=>{
+                        botonKevin.style.backgroundColor='pink'
+                        botonMati.style.backgroundColor=''
+                        tipoCuenta="KEVIN"
+                        crearBotonDescargar()
+                    })
+                    botonMati.addEventListener('click',()=>{
+                        botonMati.style.backgroundColor='pink'
+                        botonKevin.style.backgroundColor=''
+                        tipoCuenta="MATI"
+                        crearBotonDescargar()
+                    })
+                }
+            }
+
+            botonCorreo.addEventListener('click',()=>{
+                tipoEnvio = "CORREO"
+                botonCorreo.style.backgroundColor='pink'
+                botonFlex.style.backgroundColor=''
+                agregarCuenta(tipoEnvio)
+                }
+                
+            )
+
+            botonFlex.addEventListener('click',()=>{
+                tipoEnvio = "FLEX"
+                botonCorreo.style.backgroundColor=''
+                botonFlex.style.backgroundColor='pink'
+                agregarCuenta(tipoEnvio)
+                }
+            )
+
+            const crearBotonDescargar = () => {
+
+                const descargarArchivos = document.createElement('button')
+            descargarArchivos.innerHTML='Descargar'
+            descargarArchivos.style.backgroundColor='skyblue'
+            divDescargarVenta.appendChild(descargarArchivos)
+            resultados.appendChild(divDescargarVenta)
+
+            descargarArchivos.addEventListener('click',()=>{
                 const nombreUsuario = entradaUsuario.value
                 if (!nombreUsuario){
                     alert("INGRESAR USUARIO")
@@ -1085,8 +1234,12 @@ const buscarFigus = (tipo) => {
                     window.todasLasFigus.forEach(figu =>{
                         figuList.forEach(vend =>{
                             if (vend == figu.NUM)
-                                figu.CANT-=1
-
+                                if (figu.CANT>0){
+                                    figu.CANT-=1
+                                    figusEnStock.push(figu.NUM)
+                                }else{
+                                    figusSinStock.push(figu.NUM)
+                                }
                         })                        
                     })
                     const datosJson = JSON.stringify(window.todasLasFigus, null, 2);
@@ -1094,39 +1247,42 @@ const buscarFigus = (tipo) => {
                     const enlace = document.createElement('a');
                     enlace.href = URL.createObjectURL(blob);
                     enlace.download = `${tipo}.json`;
-                    enlace.click();
-
+                    enlace.click();                    
+                    
+                                        
                     const agregarVenta = {
                         usuario: nombreUsuario,
-                        Vendidas: [
-                            "AUS1",
-                            "GER1"
-                        ],
-                        NoVendidas: [
-                            "CRC1"
-                        ],
-                        Dia: "12/08/2024",
-                        Cuenta: "KEVIN",
-                        Envio: "CORREO",
+                        Vendidas: figusEnStock,
+                        NoVendidas: figusSinStock,
+                        Dia: new Date().toLocaleDateString('es-ES'),
+                        Cuenta: tipoCuenta,
+                        Envio: tipoEnvio,
                         ARMADO: "NO",
                         PREARMADO: "NO"
                     }
+
+                    window.todasLasVentas[albumName(tipo)].push(agregarVenta);
+
+                    const ventasJson = JSON.stringify(window.todasLasVentas, null, 2);
+                    const blob2 = new Blob([ventasJson], { type: 'application/json' });
+                    const enlace2 = document.createElement('a');
+                    enlace2.href = URL.createObjectURL(blob2);
+                    enlace2.download = `totalVentas.json`;
+                    enlace2.click();  
 
                     // Liberar la URL del Blob
                     URL.revokeObjectURL(enlace.href);
                 }
             }
         )
+                
+            }
+
+            
             
         })
-
         
-        
-
         navigator.clipboard.writeText(mensaje.textContent)  // Usa .textContent para acceder al texto
-
-        
-            
 
     }else{
         const errorEscritura = document.createElement('p');
@@ -1175,6 +1331,95 @@ const buscarCliente = () => {
                 mostrarEnHtml.appendChild(figuUsuario);
             }      
         })    
+}
+
+const noVendidas = (tipo) => {
+    
+    const noVendidasHtml = document.getElementById('noVendidas');
+    let filePath='./totalVentas.json';
+
+    noVendidasHtml.innerHTML=''
+    
+    fetch(filePath)
+        .then(response => response.json())
+        .then(data => {
+
+            const pantalla = document.createElement('div')
+            
+
+                totalFigus = data[albumName(tipo)]
+
+                const nombreAlbum = document.createElement('h2')
+                nombreAlbum.innerHTML=albumName(tipo)
+
+                pantalla.appendChild(nombreAlbum)
+
+                const armadoFiltrado = totalFigus.filter(item => item.ARMADO ==="SI" && item.NoVendidas.length>0 && convertirFecha(item.Dia)>fecha2meses)
+
+                armadoFiltrado.forEach(item=>{
+                    const user = document.createElement('h3')
+                    const figu = document.createElement('p')
+                    const fecha = document.createElement('h5')
+
+                    user.innerHTML=item.usuario
+                    
+                    let figuNoVendida=[]
+
+                    window.todasLasFigus.forEach(figu=>{
+                        item.NoVendidas.forEach(num=>{
+                            if (num==(figu.NUM)){
+                                figuNoVendida.push({NUM:figu.NUM,CANT:figu.CANT})                                 
+                            } 
+                        })
+                    })
+
+                    
+
+                    figuNoVendida.forEach(obj =>{
+                        if (obj.CANT==0){
+                            figu.innerHTML+= `<span style="background-color: red; color:white; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                        }else if (obj.CANT==1){
+                            figu.innerHTML+= `<span style="color: white; background-color:orange; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                        }
+                        else if (obj.CANT>=5){
+                            figu.innerHTML+= `<span style="color: white;background-color:green; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                        }else{
+                            figu.innerHTML+= `<span style="color: white;background-color:skyblue; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                        }
+                    })        
+                    
+                    const buttonText = document.createElement('button')
+                    buttonText.innerHTML='Copiar'                    
+
+                    fecha.innerHTML=item.Dia
+
+                    const marcoPantallita = document.createElement('div')
+
+                    marcoPantallita.appendChild(user)
+                    marcoPantallita.appendChild(fecha)
+                    marcoPantallita.appendChild(figu)    
+                    marcoPantallita.appendChild(buttonText)               
+                    
+                    buttonText.addEventListener('click',()=>{
+                        navigator.clipboard.writeText(`Hola! Te queria avisar que tenemos en stock las figuritas ${noVendidas}, por si aun las necesitas. Saludos!`)
+                    })
+
+                    marcoPantallita.style.border = '1px solid lightgrey' 
+                    marcoPantallita.style.padding = '15px'
+                    
+                    pantalla.appendChild(marcoPantallita)
+                    
+
+                })                
+            
+            
+            pantalla.style.margin = '5px'
+            pantalla.style.padding = '15px'
+            pantalla.classList.add('fVendidas1')
+            noVendidasHtml.appendChild(pantalla)
+
+        }
+    )
 }
 
 const albumFigu = (tipo, event,pag) => {
@@ -1459,93 +1704,14 @@ function convertirFecha(fechaStr) {
     return new Date(anio, mes - 1, dia); // Recordar que los meses en JavaScript empiezan desde 0
   }
   
-  // Definir la fecha límite para el filtro, por ejemplo, hoy
-  const hoy = new Date();
-  hoy.setHours(0, 0, 0, 0); // Solo considerar la fecha sin hora
-  hoy.setMonth(hoy.getMonth() - 2);
+  const fecha2meses = new Date(); 
+  fecha2meses.setHours(0, 0, 0, 0); // Solo considerar la fecha sin hora
+  fecha2meses.setDate(fecha2meses.getDate() - 40);
 
-const noVendidas = (tipo) => {
-    
-    const noVendidasHtml = document.getElementById('noVendidas');
-    let filePath='./totalVentas.json';
+  const hoy= new Date();
+  hoy.setHours(0,0,0,0)
 
-    noVendidasHtml.innerHTML=''
-    
-    fetch(filePath)
-        .then(response => response.json())
-        .then(data => {
 
-            const pantalla = document.createElement('div')
-            
-
-                totalFigus = data[albumName(tipo)]
-
-                const nombreAlbum = document.createElement('h2')
-                nombreAlbum.innerHTML=albumName(tipo)
-
-                pantalla.appendChild(nombreAlbum)
-
-                const armadoFiltrado = totalFigus.filter(item => item.ARMADO ==="SI" && item.NoVendidas.length>0 && convertirFecha(item.Dia)>new Date(hoy))
-
-                armadoFiltrado.forEach(item=>{
-                    const user = document.createElement('h3')
-                    const figu = document.createElement('p')
-                    const fecha = document.createElement('h5')
-
-                    user.innerHTML=item.usuario
-                    //figu.innerHTML=item.NoVendidas
-                    
-                    let figuNoVendida=[]
-
-                    window.todasLasFigus.forEach(figu=>{
-                        item.NoVendidas.forEach(num=>{
-                            if (num==(figu.NUM)){
-                                figuNoVendida.push({NUM:figu.NUM,CANT:figu.CANT})                                 
-                            } 
-                        })
-                    })
-
-                    figuNoVendida.forEach(obj =>{
-                        if (obj.CANT==0){
-                            figu.innerHTML+= `<span style="background-color: red; color:white; padding:5px; border:1px solid #000">${obj.NUM} </span>`
-                        }else if (obj.CANT==1){
-                            figu.innerHTML+= `<span style="color: white; background-color:orange; padding:5px; border:1px solid #000">${obj.NUM} </span>`
-                        }
-                        else if (obj.CANT>=5){
-                            figu.innerHTML+= `<span style="color: white;background-color:green; padding:5px; border:1px solid #000">${obj.NUM} </span>`
-                        }else{
-                            figu.innerHTML+= `<span style="color: white;background-color:skyblue; padding:5px; border:1px solid #000">${obj.NUM} </span>`
-                        }
-                    })
-                    
-                    
-
-                    fecha.innerHTML=item.Dia
-
-                    const pantallita = document.createElement('div')
-
-                    pantallita.appendChild(user)
-                    pantallita.appendChild(fecha)
-                    pantallita.appendChild(figu)                   
-                    
-
-                    pantallita.style.border = '1px solid lightgrey' 
-                    pantallita.style.padding = '15px'
-                    
-                    pantalla.appendChild(pantallita)
-                    
-
-                })                
-            
-            
-            pantalla.style.margin = '5px'
-            pantalla.style.padding = '15px'
-            pantalla.classList.add('fVendidas1')
-            noVendidasHtml.appendChild(pantalla)
-
-        }
-    )
-}
 // Cargar las figus iniciales al cargar la página
 
 cargarFigus();

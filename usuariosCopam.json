@@ -35673,6 +35673,31 @@
                 "USA16",
                 "VEN1"
             ]
+        },
+        {
+            "usuario": "CCRESPOTL",
+            "figusPedidas": [
+                "COL20",
+                "CRC5",
+                "INT1",
+                "INT4",
+                "LEG12",
+                "LEG6",
+                "VEN11"
+            ]
+        },
+        {
+            "usuario": "PESCAMAOS",
+            "figusPedidas": [
+                "BOL2",
+                "BOL8",
+                "BRA12",
+                "COL16",
+                "PAN7",
+                "PAR2",
+                "VEN7",
+                "VEN8"
+            ]
         }
     ]
 }
