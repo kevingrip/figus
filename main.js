@@ -1401,6 +1401,7 @@ const noVendidas = (tipo) => {
                     marcoPantallita.appendChild(buttonText)               
                     
                     buttonText.addEventListener('click',()=>{
+                        buttonText.style.backgroundColor='pink'
                         const figus = figuNoVendida.map(figu => figu.NUM).join(", ");
                         navigator.clipboard.writeText(`Hola! Te queria avisar que tenemos stock en ${figus}, por si aun la necesitas. Saludos!`)
                     })
