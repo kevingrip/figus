@@ -312,11 +312,15 @@ const totalVentas = () =>{
                     const buttonArmado = document.createElement('button')
                     buttonArmado.innerHTML='ARMADO'
 
-                    buttonArmado.addEventListener('click',()=>{
-                        objeto["PREARMADO"]="SI"
-                        objeto["ARMADO"]="SI"
-                        if (objeto["PREARMADO"]==="SI"){
+                    buttonArmado.addEventListener('click',()=>{                        
+                        if (objeto["PREARMADO"]==="NO"){
+                            objeto["PREARMADO"]="SI"
+                            objeto["ARMADO"]="SI"
                             pantallaVenta.style.backgroundColor='#58d68d'
+                        }else{
+                            objeto["PREARMADO"]="NO"
+                            objeto["ARMADO"]="NO"
+                            pantallaVenta.style.backgroundColor=''
                         }
                     })
 
