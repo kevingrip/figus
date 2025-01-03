@@ -166,8 +166,20 @@ body {
     
 }
 
+h1{
+    margin-bottom:0;
+    height: 60px;
+}
+
 h3{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.posSubtituloH3{
+    display: flex;
+    margin-left: 51vw;
 }
 
 @media screen and (max-width: 746px) {
