@@ -88,6 +88,23 @@ li {
     height: 60px;
 }
 
+.botonIndex{
+    min-width: 210px;
+    height: 100px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+
+.divButtonIndex{
+    display: flex;
+    flex-direction: row;
+}
+
+.bodyIndex{
+    background-color: #c44cf0dc;
+}
+
+
 .posBtn{
     display: flex;
     justify-content: center;
@@ -154,5 +171,17 @@ h3{
     }
     .inpt{
         width: 300px;
+    }
+
+    .botonIndex{
+        min-width: 100vw;
+        height: 75px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1rem;
+    }
+    
+    .divButtonIndex{
+        display: flex;
+        flex-direction: column;
     }
 }
