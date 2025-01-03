@@ -1272,7 +1272,20 @@ const buscarFigus = (tipo) => {
                     const enlace2 = document.createElement('a');
                     enlace2.href = URL.createObjectURL(blob2);
                     enlace2.download = `totalVentas.json`;
-                    enlace2.click();  
+                    enlace2.click();
+
+                    const actualizarUltimaActualizacion = {
+                        "DIA": new Date().toLocaleDateString('es-ES'),
+                        "ACTUALIZACION": new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', second: '2-digit' }),
+                        "USUARIO": nombreUsuario
+                    }
+
+                    const ultimaActualizacionJson = JSON.stringify(actualizarUltimaActualizacion, null, 2);
+                    const blob3 = new Blob([ultimaActualizacionJson], { type: 'application/json' });
+                    const enlace3 = document.createElement('a');
+                    enlace3.href = URL.createObjectURL(blob3);
+                    enlace3.download = `actualizado.json`;
+                    enlace3.click();
 
                     // Liberar la URL del Blob
                     URL.revokeObjectURL(enlace.href);

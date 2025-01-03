@@ -1,7 +1,7 @@
 import json
 import easygui
 
-with open ('totalVentas.json','r') as tv:
+with open ("totalVentas.json","r", encoding='utf-8') as tv:
     totalVentas = json.load(tv)
 
 usuario = easygui.enterbox("Ingrese usuario")
@@ -16,5 +16,5 @@ for album in totalVentas:
 
 
     
-with open ('totalVentas.json','w') as tv:
+with open ('totalVentas.json','w', encoding='utf-8') as tv:
     json.dump(totalVentas,tv,indent=4)
