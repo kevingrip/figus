@@ -1170,6 +1170,7 @@ const buscarFigus = (tipo) => {
             let tipoCuenta;
 
             const agregarCuenta = (tipoEnvio) =>{
+                
                 if (tipoEnvio){
                     
                     const divCuenta = document.createElement('div')
