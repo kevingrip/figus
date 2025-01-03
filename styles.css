@@ -204,4 +204,9 @@ h3{
         display: flex;
         flex-direction: column;
     }
+
+    .posSubtituloH3{
+        display: flex;
+        margin-left: 56vw;
+    }
 }
