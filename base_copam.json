@@ -9,14 +9,14 @@
   {
     "NUM": "INT2",
     "TIPO": "INTRO",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 8000,
     "NOMBRE": "MASCOTA"
   },
   {
     "NUM": "INT3",
     "TIPO": "INTRO",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 8000,
     "NOMBRE": "COPA"
   },
@@ -65,7 +65,7 @@
   {
     "NUM": "HCI6",
     "TIPO": "CIUDAD",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 3000,
     "NOMBRE": "EAST RUTHERFORD"
   },
@@ -282,7 +282,7 @@
   {
     "NUM": "PER5",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "LUIS ADVINCULA"
   },
@@ -415,7 +415,7 @@
   {
     "NUM": "CHI2",
     "TIPO": "EQUIPO",
-    "CANT": 3,
+    "CANT": 1,
     "PRECIO": 2000,
     "NOMBRE": "CHI TEAM"
   },
@@ -632,7 +632,7 @@
   {
     "NUM": "MEX11",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "MARCEL RUIZ"
   },
@@ -660,7 +660,7 @@
   {
     "NUM": "MEX15",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 0,
     "PRECIO": 850,
     "NOMBRE": "EDSON ALVAREZ"
   },
@@ -870,7 +870,7 @@
   {
     "NUM": "VEN1",
     "TIPO": "ESCUDO",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 3000,
     "NOMBRE": "VEN ESC"
   },
@@ -982,7 +982,7 @@
   {
     "NUM": "VEN17",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "SAMUEL SOSA"
   },
@@ -1311,7 +1311,7 @@
   {
     "NUM": "USA20",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "CHRISTIAN PULISIC"
   },
@@ -1843,7 +1843,7 @@
   {
     "NUM": "BRA8",
     "TIPO": "COMUNES",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "NINO"
   },
@@ -1913,14 +1913,14 @@
   {
     "NUM": "BRA18",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "VINI JR"
   },
   {
     "NUM": "BRA19",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "RAPHINHA"
   },
@@ -1990,21 +1990,21 @@
   {
     "NUM": "COL7",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "DAVINSON SANCHEZ"
   },
   {
     "NUM": "COL8",
     "TIPO": "COMUNES",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "JHON LUCUMI"
   },
   {
     "NUM": "COL9",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "CARLOS CUESTA"
   },
@@ -2018,7 +2018,7 @@
   {
     "NUM": "COL11",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "YERRY MINA"
   },
@@ -2263,7 +2263,7 @@
   {
     "NUM": "CAN2",
     "TIPO": "EQUIPO",
-    "CANT": 10,
+    "CANT": 9,
     "PRECIO": 2000,
     "NOMBRE": "CAN TEAM"
   },
@@ -2998,7 +2998,7 @@
   {
     "NUM": "ROH1",
     "TIPO": "CAMPEON LEFT DORADA",
-    "CANT": 6,
+    "CANT": 3,
     "PRECIO": 8000,
     "NOMBRE": "Roll of Honor 1"
   },
