@@ -1083,7 +1083,7 @@ const buscarFigus = (tipo) => {
                 if (totalPrecio<3500){
                     if (tipoFigu=='ESCUDO'){
                         mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 5000${confirmacion}`                        
-                    } else if (totalPrecio==850){
+                    } else if (totalPrecio==850 || totalPrecio==750){
                         mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 3900${confirmacion}`
                     } else{
                         mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 4500${confirmacion}`
