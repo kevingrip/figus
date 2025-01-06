@@ -16,7 +16,7 @@
   {
     "NUM": "INT3",
     "TIPO": "INTRO",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 8000,
     "NOMBRE": "COPA"
   },
@@ -569,7 +569,7 @@
   {
     "NUM": "MEX2",
     "TIPO": "EQUIPO",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 2000,
     "NOMBRE": "MEX TEAM"
   },
@@ -716,7 +716,7 @@
   {
     "NUM": "ECU1",
     "TIPO": "ESCUDO",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 3000,
     "NOMBRE": "ECU ESC"
   },
@@ -870,7 +870,7 @@
   {
     "NUM": "VEN1",
     "TIPO": "ESCUDO",
-    "CANT": 5,
+    "CANT": 6,
     "PRECIO": 3000,
     "NOMBRE": "VEN ESC"
   },
@@ -1010,7 +1010,7 @@
   {
     "NUM": "VEN21",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "JOSEF MARTINEZ"
   },
@@ -1234,7 +1234,7 @@
   {
     "NUM": "USA9",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "ANTONEE ROBINSON"
   },
@@ -1290,7 +1290,7 @@
   {
     "NUM": "USA17",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "BRENDEN AARONSON"
   },
@@ -1640,7 +1640,7 @@
   {
     "NUM": "BOL1",
     "TIPO": "ESCUDO",
-    "CANT": 7,
+    "CANT": 8,
     "PRECIO": 3000,
     "NOMBRE": "BOL ESC"
   },
@@ -1745,7 +1745,7 @@
   {
     "NUM": "BOL16",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "GABRIEL VILLAMIL"
   },
@@ -1794,7 +1794,7 @@
   {
     "NUM": "BRA1",
     "TIPO": "ESCUDO",
-    "CANT": 11,
+    "CANT": 12,
     "PRECIO": 3000,
     "NOMBRE": "BRA ESC"
   },
@@ -1941,7 +1941,7 @@
   {
     "NUM": "BRA22",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 5,
     "PRECIO": 1500,
     "NOMBRE": "ENDRICK"
   },
@@ -1955,7 +1955,7 @@
   {
     "NUM": "COL2",
     "TIPO": "EQUIPO",
-    "CANT": 5,
+    "CANT": 6,
     "PRECIO": 2000,
     "NOMBRE": "COL TEAM"
   },
@@ -2221,7 +2221,7 @@
   {
     "NUM": "PAR18",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "BRAIAN OJEDA"
   },
@@ -2249,7 +2249,7 @@
   {
     "NUM": "PAR22",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "RAMON SOSA"
   },
@@ -2564,7 +2564,7 @@
   {
     "NUM": "HON1",
     "TIPO": "ESCUDO",
-    "CANT": 7,
+    "CANT": 8,
     "PRECIO": 3000,
     "NOMBRE": "HON ESC"
   },
@@ -2725,7 +2725,7 @@
   {
     "NUM": "TRI2",
     "TIPO": "EQUIPO",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 2000,
     "NOMBRE": "TRI TEAM"
   },
@@ -2914,7 +2914,7 @@
   {
     "NUM": "LEG7",
     "TIPO": "LEYENDA",
-    "CANT": 7,
+    "CANT": 8,
     "PRECIO": 3000,
     "NOMBRE": "FORLAN LEFT"
   },
@@ -2928,14 +2928,14 @@
   {
     "NUM": "LEG9",
     "TIPO": "LEYENDA DORADA",
-    "CANT": 9,
+    "CANT": 10,
     "PRECIO": 5000,
     "NOMBRE": "RONALDINHO"
   },
   {
     "NUM": "LEG10",
     "TIPO": "LEYENDA",
-    "CANT": 9,
+    "CANT": 10,
     "PRECIO": 3000,
     "NOMBRE": "RONALDO LEFT"
   },
@@ -2963,14 +2963,14 @@
   {
     "NUM": "LEG14",
     "TIPO": "LEYENDA",
-    "CANT": 6,
+    "CANT": 7,
     "PRECIO": 3000,
     "NOMBRE": "MARADONA RIGHT"
   },
   {
     "NUM": "LEG15",
     "TIPO": "LEYENDA DORADA",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 3500,
     "NOMBRE": "PAOLO GUERRERO"
   },
