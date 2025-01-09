@@ -576,7 +576,7 @@
   {
     "NUM": "MEX3",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "GUILLERMO OCHOA"
   },
@@ -597,7 +597,7 @@
   {
     "NUM": "MEX6",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "CESAR MONTES"
   },
@@ -688,7 +688,7 @@
   {
     "NUM": "MEX19",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "HENRY MARTIN"
   },
@@ -884,7 +884,7 @@
   {
     "NUM": "VEN3",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "RAFAEL ROMO"
   },
@@ -1185,7 +1185,7 @@
   {
     "NUM": "USA2",
     "TIPO": "EQUIPO",
-    "CANT": 7,
+    "CANT": 8,
     "PRECIO": 2000,
     "NOMBRE": "USA TEAM"
   },
@@ -1248,7 +1248,7 @@
   {
     "NUM": "USA11",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "JOE SCALLY"
   },
@@ -2095,7 +2095,7 @@
   {
     "NUM": "COL22",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "LUIS DIAZ"
   },
@@ -2410,7 +2410,7 @@
   {
     "NUM": "CRC1",
     "TIPO": "ESCUDO",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 3000,
     "NOMBRE": "CRC ESC"
   },
