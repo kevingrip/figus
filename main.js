@@ -1023,7 +1023,10 @@ const buscarFigus = (tipo) => {
 
         resultados.appendChild(operacionDiv)
 
-
+        setTimeout(() => {
+            buttonPregunta.click();
+        },0);
+        
         divPregunta=document.createElement('div')
         divPregunta.classList.add('inptCuadro')
 
