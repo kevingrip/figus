@@ -24638,6 +24638,19 @@
       "Envio": "FLEX",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "BL SALUDABLES",
+      "Vendidas": [
+        "RAC9",
+        "RAC17"
+      ],
+      "NoVendidas": [],
+      "Dia": "10/1/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Mundial Qatar 2022": [
