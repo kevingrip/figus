@@ -27,6 +27,16 @@
     
 }
 
+.centrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+
+
 .listaClass{
     font-family: Lucida Console;
 }
@@ -106,6 +116,17 @@ li {
 .divButtonIndex{
     display: flex;
     flex-direction: row;
+}
+
+.boton{
+    margin: 10px;
+    width: 13vh;
+    height: 6vh;
+}
+
+.usuarioVenta{
+    width: 50vh;
+    height: 5vh;
 }
 
 .bodyIndex{

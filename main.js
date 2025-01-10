@@ -989,7 +989,8 @@ const buscarFigus = (tipo) => {
 
 
     // Mostrar resultados en el HTML
-    const resultados = document.getElementById('resultados');
+    const resultados = document.getElementById('resultados'); 
+
     const unionDiv = document.createElement('div');
     const separacionDiv1 = document.createElement('div');
     const separacionDiv2 = document.createElement('div');
@@ -1001,12 +1002,35 @@ const buscarFigus = (tipo) => {
     
     resultados.innerHTML = ''; // Limpiar resultados anteriores
 
+    const operacionDiv = document.createElement('div')
+    const buttonPregunta = document.createElement('button')
+    buttonPregunta.innerHTML='Pregunta'
+    buttonPregunta.classList.add('boton')
+    const buttonVenta = document.createElement('button')
+    buttonVenta.innerHTML='Venta'
+    buttonVenta.classList.add('boton')
+
+
+    operacionDiv.appendChild(buttonPregunta)
+    operacionDiv.appendChild(buttonVenta)
+    operacionDiv.classList.add('centrar')
+    operacionDiv.style.backgroundColor='#c44cf0dc'
+    
+
+    let divPregunta = null
+
     if (errorEscritura==false){
 
-        let mostrarFiguLimp=""        
+        resultados.appendChild(operacionDiv)
+
+
+        divPregunta=document.createElement('div')
+        divPregunta.classList.add('inptCuadro')
+
+        let mostrarFiguLimp=""
 
         const buttonFiguLimp=document.createElement('button')
-        buttonFiguLimp.textContent='Copiar Figus '
+        buttonFiguLimp.textContent='Copiar Figus'
         separacionDiv2.appendChild(buttonFiguLimp)
         
 
@@ -1051,11 +1075,11 @@ const buscarFigus = (tipo) => {
         totalLi.textContent = `Total Precio: $${totalPrecio}`;
         separacionDiv2.appendChild(totalLi);
 
-        unionDiv.appendChild(separacionDiv1)
-        unionDiv.appendChild(separacionDiv2)
-        
+        divPregunta.appendChild(separacionDiv1)
+        divPregunta.appendChild(separacionDiv2)
+
         resultados.style.padding='0px'
-        resultados.appendChild(unionDiv)        
+              
         
 
         let costoEnvioGratis=30000
@@ -1078,6 +1102,7 @@ const buscarFigus = (tipo) => {
         }        
     
         const mensaje = document.createElement('h3');
+        mensaje.style.margin='30px'
         if (faltantes.length == 0){
             if (cantFigusStock==1){
                 if (totalPrecio<3500){
@@ -1109,73 +1134,123 @@ const buscarFigus = (tipo) => {
                 }
             }
             
-        }
+        }      
         
 
-        const divButtonVenta = document.createElement('div')
-        const divNombreUsuarioVenta = document.createElement('div')
-        const divDescargarVenta = document.createElement('div')
-
-        divButtonVenta.style.display='flex'
-        divButtonVenta.style.justifyContent='center'
-        divButtonVenta.style.alignItems='center'
-
-        divNombreUsuarioVenta.style.display='flex'
-        divNombreUsuarioVenta.style.justifyContent='center'
-        divNombreUsuarioVenta.style.alignItems='center'
-        divButtonVenta.style.margin='20px'
-
-        divDescargarVenta.style.display='flex'
-        divDescargarVenta.style.justifyContent='center'
-        divDescargarVenta.style.alignItems='center'
-        divDescargarVenta.style.margin='20px'
-
-        const buttonVenta = document.createElement('button')
-        buttonVenta.innerHTML='Avanzar Venta'
         
+        buttonPregunta.addEventListener('click',()=>{
+            buttonPregunta.style.backgroundColor='lightgreen'
+            buttonVenta.style.backgroundColor=''
 
-        mensaje.style.margin='50px'
+            if (resultados.contains(divVenta)){
+                resultados.removeChild(divVenta)
+            }
+            if(!resultados.contains(divPregunta)){
+                resultados.appendChild(divPregunta)
+                resultados.appendChild(mensaje)
+            }
+            
+        })
 
-        divButtonVenta.appendChild(buttonVenta)
-        resultados.appendChild(mensaje);
-        resultados.appendChild(divButtonVenta)
+
+        let divVenta = null
+        let divNombreUsuarioVenta = null
+        let entradaUsuario = null
+        let divEnvio = null
 
         buttonVenta.addEventListener('click',()=>{
-            const entradaUsuario = document.createElement('input')
-            entradaUsuario.placeholder='Ingrese nombre usuario'
-            entradaUsuario.style.margin='20px'
-            divNombreUsuarioVenta.appendChild(entradaUsuario)
-            resultados.appendChild(divNombreUsuarioVenta)
+            buttonPregunta.style.backgroundColor=''
+            buttonVenta.style.backgroundColor='lightgreen'
 
-            const divEnvio = document.createElement('div')
-            const botonCorreo = document.createElement('button')
-            const botonFlex = document.createElement('button')
-            botonCorreo.textContent='Correo'
-            botonFlex.textContent='Flex'
+            if (!divVenta) {
+                divVenta = document.createElement('div');
+            }
 
-            botonCorreo.style.marginRight='10px'
-            botonFlex.style.marginLeft='10px'
+            if (resultados.contains(divPregunta)){
+                resultados.removeChild(divPregunta) 
+                resultados.removeChild(mensaje)
+            }
+            if(!resultados.contains(divVenta)){
+                resultados.appendChild(divVenta)
+            }
 
-            divEnvio.style.display='flex'
-            divEnvio.style.justifyContent='center'
-            divEnvio.style.alignItems='center'
-            divEnvio.style.height='50px'
+            if (!divNombreUsuarioVenta){
+                divNombreUsuarioVenta = document.createElement('div')
+                divNombreUsuarioVenta.style.display='flex'
+                divNombreUsuarioVenta.style.justifyContent='center'
+                divNombreUsuarioVenta.style.alignItems='center'
+                entradaUsuario = document.createElement('input')
+                entradaUsuario.placeholder='Ingrese nombre usuario'
+                entradaUsuario.style.margin='20px'
+                entradaUsuario.classList.add('usuarioVenta')
+                divNombreUsuarioVenta.appendChild(entradaUsuario)
+                divVenta.appendChild(divNombreUsuarioVenta)                
+            }
 
-            divEnvio.appendChild(botonCorreo)
-            divEnvio.appendChild(botonFlex)
-            resultados.appendChild(divEnvio)
+            if (!divEnvio){
+                divEnvio = document.createElement('div')
+                const botonCorreo = document.createElement('button')
+                const botonFlex = document.createElement('button')
+                botonCorreo.classList.add('boton')
+                botonFlex.classList.add('boton')
+                botonCorreo.textContent='Correo'
+                botonFlex.textContent='Flex'
+
+                botonCorreo.style.marginRight='10px'
+                botonFlex.style.marginLeft='10px'
+
+                divEnvio.style.display='flex'
+                divEnvio.style.justifyContent='center'
+                divEnvio.style.alignItems='center'
+                divEnvio.style.height='50px'
+
+                divEnvio.appendChild(botonCorreo)
+                divEnvio.appendChild(botonFlex)
+                divVenta.appendChild(divEnvio)
+                
+
+                botonCorreo.addEventListener('click',()=>{
+                    tipoEnvio = "CORREO"
+                    botonCorreo.style.backgroundColor='lightgreen'
+                    botonFlex.style.backgroundColor=''
+                    agregarCuenta()
+                    }                    
+                )
+    
+                botonFlex.addEventListener('click',()=>{
+                    tipoEnvio = "FLEX"
+                    botonCorreo.style.backgroundColor=''
+                    botonFlex.style.backgroundColor='lightgreen'
+                    agregarCuenta()
+                    }
+                )
+            }
+            
             
 
             let tipoEnvio;
             let tipoCuenta;
 
-            const agregarCuenta = (tipoEnvio) =>{
+            let divCuenta = null
+            let divDescargarVenta=null
+
+            const agregarCuenta = () =>{
+
+                if(divDescargarVenta){
+                    divVenta.removeChild(divDescargarVenta)
+                    divDescargarVenta=null
+                }
                 
-                if (tipoEnvio){
-                    
-                    const divCuenta = document.createElement('div')
+                if(divCuenta){
+                    divVenta.removeChild(divCuenta)
+                   divCuenta=null
+                   agregarCuenta()
+                }else{
+                    divCuenta = document.createElement('div')
                     const botonKevin = document.createElement('button')
                     const botonMati = document.createElement('button')
+                    botonKevin.classList.add('boton')
+                    botonMati.classList.add('boton')
                     botonKevin.textContent='Kevin'
                     botonMati.textContent='Mati'
             
@@ -1189,116 +1264,109 @@ const buscarFigus = (tipo) => {
             
                     divCuenta.appendChild(botonKevin)
                     divCuenta.appendChild(botonMati)
-                    resultados.appendChild(divCuenta)
+                    divVenta.appendChild(divCuenta)
 
                     botonKevin.addEventListener('click',()=>{
-                        botonKevin.style.backgroundColor='pink'
+                        botonKevin.style.backgroundColor='lightgreen'
                         botonMati.style.backgroundColor=''
                         tipoCuenta="KEVIN"
                         crearBotonDescargar()
                     })
                     botonMati.addEventListener('click',()=>{
-                        botonMati.style.backgroundColor='pink'
+                        botonMati.style.backgroundColor='lightgreen'
                         botonKevin.style.backgroundColor=''
                         tipoCuenta="MATI"
                         crearBotonDescargar()
                     })
                 }
-            }
-
-            botonCorreo.addEventListener('click',()=>{
-                tipoEnvio = "CORREO"
-                botonCorreo.style.backgroundColor='pink'
-                botonFlex.style.backgroundColor=''
-                agregarCuenta(tipoEnvio)
-                }
-                
-            )
-
-            botonFlex.addEventListener('click',()=>{
-                tipoEnvio = "FLEX"
-                botonCorreo.style.backgroundColor=''
-                botonFlex.style.backgroundColor='pink'
-                agregarCuenta(tipoEnvio)
-                }
-            )
+                    
+            }           
 
             const crearBotonDescargar = () => {
 
-                const descargarArchivos = document.createElement('button')
-            descargarArchivos.innerHTML='Descargar'
-            descargarArchivos.style.backgroundColor='skyblue'
-            divDescargarVenta.appendChild(descargarArchivos)
-            resultados.appendChild(divDescargarVenta)
+                if(divDescargarVenta){
+                    divVenta.removeChild(divDescargarVenta)
+                    divDescargarVenta=null
+                    crearBotonDescargar()
 
-            descargarArchivos.addEventListener('click',()=>{
-                const nombreUsuario = entradaUsuario.value
-                if (!nombreUsuario){
-                    alert("INGRESAR USUARIO")
                 }else{
-                    window.todasLasFigus.forEach(figu =>{
-                        figuList.forEach(vend =>{
-                            if (vend == figu.NUM)
-                                if (figu.CANT>0){
-                                    figu.CANT-=1
-                                    figusEnStock.push(figu.NUM)
-                                }else{
-                                    figusSinStock.push(figu.NUM)
-                                }
-                        })                        
-                    })
-                    const datosJson = JSON.stringify(window.todasLasFigus, null, 2);
-                    const blob = new Blob([datosJson], { type: 'application/json' });
-                    const enlace = document.createElement('a');
-                    enlace.href = URL.createObjectURL(blob);
-                    enlace.download = `${tipo}.json`;
-                    enlace.click();                    
-                    
-                                        
-                    const agregarVenta = {
-                        usuario: nombreUsuario,
-                        Vendidas: figusEnStock,
-                        NoVendidas: figusSinStock,
-                        Dia: new Date().toLocaleDateString('es-ES'),
-                        Cuenta: tipoCuenta,
-                        Envio: tipoEnvio,
-                        ARMADO: "NO",
-                        PREARMADO: "NO"
+                    divDescargarVenta = document.createElement('div')
+                    divDescargarVenta.style.display='flex'
+                    divDescargarVenta.style.justifyContent='center'
+                    divDescargarVenta.style.alignItems='center'
+                    divDescargarVenta.style.margin='20px'
+                    const descargarArchivos = document.createElement('button')
+                    descargarArchivos.innerHTML='Descargar'
+                    descargarArchivos.style.backgroundColor='skyblue'
+                    divDescargarVenta.appendChild(descargarArchivos)
+                    divVenta.appendChild(divDescargarVenta)
+
+                    descargarArchivos.addEventListener('click',()=>{
+                        const nombreUsuario = entradaUsuario.value
+                        if (!nombreUsuario){
+                            alert("INGRESAR USUARIO")
+                        }else{
+                            window.todasLasFigus.forEach(figu =>{
+                                figuList.forEach(vend =>{
+                                    if (vend == figu.NUM)
+                                        if (figu.CANT>0){
+                                            figu.CANT-=1
+                                            figusEnStock.push(figu.NUM)
+                                        }else{
+                                            figusSinStock.push(figu.NUM)
+                                        }
+                                })                        
+                            })
+                            const datosJson = JSON.stringify(window.todasLasFigus, null, 2);
+                            const blob = new Blob([datosJson], { type: 'application/json' });
+                            const enlace = document.createElement('a');
+                            enlace.href = URL.createObjectURL(blob);
+                            enlace.download = `${tipo}.json`;
+                            enlace.click();                            
+                                                
+                            const agregarVenta = {
+                                usuario: nombreUsuario,
+                                Vendidas: figusEnStock,
+                                NoVendidas: figusSinStock,
+                                Dia: new Date().toLocaleDateString('es-ES'),
+                                Cuenta: tipoCuenta,
+                                Envio: tipoEnvio,
+                                ARMADO: "NO",
+                                PREARMADO: "NO"
+                            }
+
+                            window.todasLasVentas[albumName(tipo)].push(agregarVenta);
+
+                            const ventasJson = JSON.stringify(window.todasLasVentas, null, 2);
+                            const blob2 = new Blob([ventasJson], { type: 'application/json' });
+                            const enlace2 = document.createElement('a');
+                            enlace2.href = URL.createObjectURL(blob2);
+                            enlace2.download = `totalVentas.json`;
+                            enlace2.click();
+
+                            const actualizarUltimaActualizacion = {
+                                "DIA": new Date().toLocaleDateString('es-ES'),
+                                "ACTUALIZACION": new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', second: '2-digit' }),
+                                "USUARIO": nombreUsuario
+                            }
+
+                            const ultimaActualizacionJson = JSON.stringify(actualizarUltimaActualizacion, null, 2);
+                            const blob3 = new Blob([ultimaActualizacionJson], { type: 'application/json' });
+                            const enlace3 = document.createElement('a');
+                            enlace3.href = URL.createObjectURL(blob3);
+                            enlace3.download = `actualizado.json`;
+                            enlace3.click();
+
+                            // Liberar la URL del Blob
+                            URL.revokeObjectURL(enlace.href);
+                        }
                     }
-
-                    window.todasLasVentas[albumName(tipo)].push(agregarVenta);
-
-                    const ventasJson = JSON.stringify(window.todasLasVentas, null, 2);
-                    const blob2 = new Blob([ventasJson], { type: 'application/json' });
-                    const enlace2 = document.createElement('a');
-                    enlace2.href = URL.createObjectURL(blob2);
-                    enlace2.download = `totalVentas.json`;
-                    enlace2.click();
-
-                    const actualizarUltimaActualizacion = {
-                        "DIA": new Date().toLocaleDateString('es-ES'),
-                        "ACTUALIZACION": new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', second: '2-digit' }),
-                        "USUARIO": nombreUsuario
-                    }
-
-                    const ultimaActualizacionJson = JSON.stringify(actualizarUltimaActualizacion, null, 2);
-                    const blob3 = new Blob([ultimaActualizacionJson], { type: 'application/json' });
-                    const enlace3 = document.createElement('a');
-                    enlace3.href = URL.createObjectURL(blob3);
-                    enlace3.download = `actualizado.json`;
-                    enlace3.click();
-
-                    // Liberar la URL del Blob
-                    URL.revokeObjectURL(enlace.href);
-                }
-            }
-        )
-                
-            }
-
-            
+                )
+                    }                
+            }               
             
         })
+        
         
         navigator.clipboard.writeText(mensaje.textContent)  // Usa .textContent para acceder al texto
 
