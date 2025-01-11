@@ -991,12 +991,11 @@ const buscarFigus = (tipo) => {
     // Mostrar resultados en el HTML
     const resultados = document.getElementById('resultados'); 
 
-    const unionDiv = document.createElement('div');
+    let divPregunta = null
     const separacionDiv1 = document.createElement('div');
     const separacionDiv2 = document.createElement('div');
     
 
-    unionDiv.classList.add('inptCuadro')
     separacionDiv1.classList.add=('inptDiv')        
     separacionDiv2.classList.add('inptDiv')    
     
@@ -1014,10 +1013,10 @@ const buscarFigus = (tipo) => {
     operacionDiv.appendChild(buttonPregunta)
     operacionDiv.appendChild(buttonVenta)
     operacionDiv.classList.add('centrar')
-    operacionDiv.style.backgroundColor='#c44cf0dc'
+    operacionDiv.style.backgroundColor='black'
     
 
-    let divPregunta = null
+    
 
     if (errorEscritura==false){
 
@@ -1219,7 +1218,7 @@ const buscarFigus = (tipo) => {
                     divEnvio.style.display='flex'
                     divEnvio.style.justifyContent='center'
                     divEnvio.style.alignItems='center'
-                    divEnvio.style.height='50px'
+                    divEnvio.style.height='100px'
     
                     divEnvio.appendChild(botonCorreo)
                     divEnvio.appendChild(botonFlex)
