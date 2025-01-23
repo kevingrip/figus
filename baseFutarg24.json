@@ -702,7 +702,7 @@
   {
     "NUM": "BOC3",
     "TIPO": "ESP",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 1500,
     "NOMBRE": ""
   },
@@ -716,14 +716,14 @@
   {
     "NUM": "BOC5",
     "TIPO": "ESP",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 1500,
     "NOMBRE": ""
   },
   {
     "NUM": "BOC6",
     "TIPO": "ESP",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": ""
   },
@@ -744,7 +744,7 @@
   {
     "NUM": "BOC9",
     "TIPO": "ESP",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": ""
   },
@@ -758,14 +758,14 @@
   {
     "NUM": "BOC11",
     "TIPO": "ESP",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": ""
   },
   {
     "NUM": "BOC12",
     "TIPO": "ESP",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": ""
   },
@@ -779,28 +779,28 @@
   {
     "NUM": "BOC14",
     "TIPO": "ESP",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": "Edison Cavani"
   },
   {
     "NUM": "BOC15",
     "TIPO": "ESP",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": ""
   },
   {
     "NUM": "BOC16",
     "TIPO": "ESP",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": ""
   },
   {
     "NUM": "BOC17",
     "TIPO": "ESP",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 1500,
     "NOMBRE": ""
   },

@@ -24663,6 +24663,30 @@
       "Envio": "FLEX",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "ELY03",
+      "Vendidas": [
+        "BOC3",
+        "BOC5",
+        "BOC6",
+        "BOC9",
+        "BOC11",
+        "BOC12",
+        "BOC14",
+        "BOC15",
+        "BOC16",
+        "BOC17"
+      ],
+      "NoVendidas": [
+        "BOC2",
+        "BOC4"
+      ],
+      "Dia": "23/1/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Mundial Qatar 2022": [
