@@ -23,7 +23,7 @@
   {
     "NUM": "INT4",
     "TIPO": "INTRO",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 8000,
     "NOMBRE": "PELOTA"
   },
@@ -324,7 +324,7 @@
   {
     "NUM": "PER11",
     "TIPO": "COMUNES",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "WILDER CARTAGENA"
   },
@@ -919,7 +919,7 @@
   {
     "NUM": "VEN8",
     "TIPO": "COMUNES",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "MIGUEL NAVARRO"
   },
@@ -1724,7 +1724,7 @@
   {
     "NUM": "BOL13",
     "TIPO": "COMUNES",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "MIGUEL TERCEROS"
   },
@@ -1759,7 +1759,7 @@
   {
     "NUM": "BOL18",
     "TIPO": "COMUNES",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "JAIME ARRASCAITA"
   },
