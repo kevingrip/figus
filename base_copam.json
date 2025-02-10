@@ -23,7 +23,7 @@
   {
     "NUM": "INT4",
     "TIPO": "INTRO",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 8000,
     "NOMBRE": "PELOTA"
   },
@@ -324,7 +324,7 @@
   {
     "NUM": "PER11",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 850,
     "NOMBRE": "WILDER CARTAGENA"
   },
@@ -408,28 +408,28 @@
   {
     "NUM": "CHI1",
     "TIPO": "ESCUDO",
-    "CANT": 8,
+    "CANT": 7,
     "PRECIO": 3000,
     "NOMBRE": "CHI ESC"
   },
   {
     "NUM": "CHI2",
     "TIPO": "EQUIPO",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 2000,
     "NOMBRE": "CHI TEAM"
   },
   {
     "NUM": "CHI3",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "BRAYAN CORTES"
   },
   {
     "NUM": "CHI4",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "CLAUDIO BRAVO"
   },
@@ -457,7 +457,7 @@
   {
     "NUM": "CHI8",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "PAULO DIAZ"
   },
@@ -471,21 +471,21 @@
   {
     "NUM": "CHI10",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "GARY MEDEL"
   },
   {
     "NUM": "CHI11",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "NAYEL MEHSSATOU"
   },
   {
     "NUM": "CHI12",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "GUILLERMO SOTO"
   },
@@ -499,7 +499,7 @@
   {
     "NUM": "CHI14",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "DIEGO VALDES"
   },
@@ -520,14 +520,14 @@
   {
     "NUM": "CHI17",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "ESTEBAN PAVEZ"
   },
   {
     "NUM": "CHI18",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "BRUNO BARTICCIOTTO"
   },
@@ -541,7 +541,7 @@
   {
     "NUM": "CHI20",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "ALEXANDER ARAVENA"
   },
@@ -555,7 +555,7 @@
   {
     "NUM": "CHI22",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "BEN BRERETON"
   },
@@ -576,14 +576,14 @@
   {
     "NUM": "MEX3",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "GUILLERMO OCHOA"
   },
   {
     "NUM": "MEX4",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "LUIS MALAGON"
   },
@@ -611,21 +611,21 @@
   {
     "NUM": "MEX8",
     "TIPO": "COMUNES",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "GERARDO ARTEAGA"
   },
   {
     "NUM": "MEX9",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "JOHAN VASQUEZ"
   },
   {
     "NUM": "MEX10",
     "TIPO": "COMUNES",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "RAMON JUAREZ"
   },
@@ -639,7 +639,7 @@
   {
     "NUM": "MEX12",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "ERICK SANCHEZ"
   },
@@ -653,21 +653,21 @@
   {
     "NUM": "MEX14",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "LUIS ROMO"
   },
   {
     "NUM": "MEX15",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 850,
     "NOMBRE": "EDSON ALVAREZ"
   },
   {
     "NUM": "MEX16",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "ORBELIN PINEDA"
   },
@@ -681,7 +681,7 @@
   {
     "NUM": "MEX18",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "SANTIAGO GIMENEZ"
   },
@@ -702,7 +702,7 @@
   {
     "NUM": "MEX21",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "HIRVING LOZANO"
   },
@@ -919,7 +919,7 @@
   {
     "NUM": "VEN8",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 850,
     "NOMBRE": "MIGUEL NAVARRO"
   },
@@ -1724,7 +1724,7 @@
   {
     "NUM": "BOL13",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 850,
     "NOMBRE": "MIGUEL TERCEROS"
   },
@@ -1759,7 +1759,7 @@
   {
     "NUM": "BOL18",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 850,
     "NOMBRE": "JAIME ARRASCAITA"
   },
@@ -1794,14 +1794,14 @@
   {
     "NUM": "BRA1",
     "TIPO": "ESCUDO",
-    "CANT": 12,
+    "CANT": 11,
     "PRECIO": 3000,
     "NOMBRE": "BRA ESC"
   },
   {
     "NUM": "BRA2",
     "TIPO": "EQUIPO",
-    "CANT": 9,
+    "CANT": 8,
     "PRECIO": 2000,
     "NOMBRE": "BRA TEAM"
   },
@@ -1815,7 +1815,7 @@
   {
     "NUM": "BRA4",
     "TIPO": "COMUNES",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "ALLISON"
   },
@@ -1829,7 +1829,7 @@
   {
     "NUM": "BRA6",
     "TIPO": "COMUNES",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "DANILO"
   },
@@ -1843,7 +1843,7 @@
   {
     "NUM": "BRA8",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "NINO"
   },
@@ -1857,7 +1857,7 @@
   {
     "NUM": "BRA10",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "EMERSON ROYAL"
   },
@@ -1871,21 +1871,21 @@
   {
     "NUM": "BRA12",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "BRUNO GUIMARAES"
   },
   {
     "NUM": "BRA13",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "CASEMIRO"
   },
   {
     "NUM": "BRA14",
     "TIPO": "COMUNES",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "JOELINTON"
   },
@@ -1899,7 +1899,7 @@
   {
     "NUM": "BRA16",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "VITOR ROQUE"
   },
@@ -1913,7 +1913,7 @@
   {
     "NUM": "BRA18",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "VINI JR"
   },
@@ -1927,21 +1927,21 @@
   {
     "NUM": "BRA20",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "GABRIEL JESUS"
   },
   {
     "NUM": "BRA21",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "GABRIEL MARTINELLI"
   },
   {
     "NUM": "BRA22",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 1500,
     "NOMBRE": "ENDRICK"
   },
@@ -2102,7 +2102,7 @@
   {
     "NUM": "PAR1",
     "TIPO": "ESCUDO",
-    "CANT": 9,
+    "CANT": 8,
     "PRECIO": 3000,
     "NOMBRE": "PAR ESC"
   },
@@ -2123,7 +2123,7 @@
   {
     "NUM": "PAR4",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "SANTIAGO ROJAS"
   },
@@ -2137,35 +2137,35 @@
   {
     "NUM": "PAR6",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "JUNIOR ALONSO"
   },
   {
     "NUM": "PAR7",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 850,
     "NOMBRE": "FABIAN BALBUENA"
   },
   {
     "NUM": "PAR8",
     "TIPO": "COMUNES",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "ROBERT ROJAS"
   },
   {
     "NUM": "PAR9",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "SANTIAGO ARZAMENDIA"
   },
   {
     "NUM": "PAR10",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "OMAR ALDERETE"
   },
@@ -2186,14 +2186,14 @@
   {
     "NUM": "PAR13",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "KAKU"
   },
   {
     "NUM": "PAR14",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "MATHIAS VILLASANTI"
   },
@@ -2228,14 +2228,14 @@
   {
     "NUM": "PAR19",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "GABRIEL AVALOS"
   },
   {
     "NUM": "PAR20",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "JULIO ENCISO"
   },
@@ -2249,7 +2249,7 @@
   {
     "NUM": "PAR22",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "RAMON SOSA"
   },
