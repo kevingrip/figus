@@ -24795,6 +24795,18 @@
       "Envio": "CORREO",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "DELK",
+      "Vendidas": [
+        "SLO8"
+      ],
+      "NoVendidas": [],
+      "Dia": "12/2/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Mundial Qatar 2022": [
