@@ -23984,6 +23984,22 @@
       "Envio": "CORREO",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "AUALLEONARDO",
+      "Vendidas": [
+        "URU2",
+        "BOL18",
+        "CAN12",
+        "LEG6",
+        "LEG7"
+      ],
+      "NoVendidas": [],
+      "Dia": "25/2/2025",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
