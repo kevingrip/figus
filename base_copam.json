@@ -520,7 +520,7 @@
   {
     "NUM": "CHI17",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "ESTEBAN PAVEZ"
   },
@@ -870,7 +870,7 @@
   {
     "NUM": "VEN1",
     "TIPO": "ESCUDO",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 3000,
     "NOMBRE": "VEN ESC"
   },
@@ -884,35 +884,35 @@
   {
     "NUM": "VEN3",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "RAFAEL ROMO"
   },
   {
     "NUM": "VEN4",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "JOEL GRATEROL"
   },
   {
     "NUM": "VEN5",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "ALEXANDER GONZALEZ"
   },
   {
     "NUM": "VEN6",
     "TIPO": "COMUNES",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "WILKER ANGEL"
   },
   {
     "NUM": "VEN7",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "YORDAN OSORIO"
   },
@@ -933,21 +933,21 @@
   {
     "NUM": "VEN10",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "JHON CHANCELLOR"
   },
   {
     "NUM": "VEN11",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "NAHUEL FERRARESI"
   },
   {
     "NUM": "VEN12",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "JOSE MARTINEZ"
   },
@@ -961,7 +961,7 @@
   {
     "NUM": "VEN14",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "YANGEL HERRERA"
   },
@@ -975,35 +975,35 @@
   {
     "NUM": "VEN16",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "EDUARD BELLO"
   },
   {
     "NUM": "VEN17",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "SAMUEL SOSA"
   },
   {
     "NUM": "VEN18",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "YEFERSON SOTELDO"
   },
   {
     "NUM": "VEN19",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "JEFFERSON SAVARINO"
   },
   {
     "NUM": "VEN20",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "DARWIN MACHIS"
   },
@@ -1017,7 +1017,7 @@
   {
     "NUM": "VEN22",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "SALOMON RONDON"
   },
@@ -1038,21 +1038,21 @@
   {
     "NUM": "JAM3",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "ANDRE BLAKE"
   },
   {
     "NUM": "JAM4",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "JAHMALI WAITE"
   },
   {
     "NUM": "JAM5",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "DAMION LOWE"
   },
@@ -1066,7 +1066,7 @@
   {
     "NUM": "JAM7",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "ETHAN PINNOCK"
   },
@@ -1080,49 +1080,49 @@
   {
     "NUM": "JAM9",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "DEXTER LEMBIKISA"
   },
   {
     "NUM": "JAM10",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "DI'SHON BERNARD"
   },
   {
     "NUM": "JAM11",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "AMAR'I BELL"
   },
   {
     "NUM": "JAM12",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "GREG LEIGH"
   },
   {
     "NUM": "JAM13",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "JOEL LATIBEAUDIERE"
   },
   {
     "NUM": "JAM14",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "KAROY ANDERSON"
   },
   {
     "NUM": "JAM15",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "DANIEL JOHNSON"
   },
@@ -1136,21 +1136,21 @@
   {
     "NUM": "JAM17",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "MICHAIL ANTONIO"
   },
   {
     "NUM": "JAM18",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "DEMARAI GRAY"
   },
   {
     "NUM": "JAM19",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "ROMARIO WILLIAMS"
   },
@@ -1164,14 +1164,14 @@
   {
     "NUM": "JAM21",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "LEON BAILEY"
   },
   {
     "NUM": "JAM22",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "SHAMAR NICHOLSON"
   },
@@ -1283,7 +1283,7 @@
   {
     "NUM": "USA16",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 850,
     "NOMBRE": "GIO REYNA"
   },
