@@ -275,14 +275,14 @@
   {
     "NUM": "PER4",
     "TIPO": "COMUNES",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 850,
     "NOMBRE": "MIGUEL ARAUJO"
   },
   {
     "NUM": "PER5",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "LUIS ADVINCULA"
   },
@@ -303,7 +303,7 @@
   {
     "NUM": "PER8",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "LUIS ABRAM"
   },
@@ -1549,7 +1549,7 @@
   {
     "NUM": "PAN10",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "CESAR BLACKMAN"
   },
@@ -2368,7 +2368,7 @@
   {
     "NUM": "CAN17",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "TAJON BUCHANAN"
   },
@@ -2676,7 +2676,7 @@
   {
     "NUM": "HON17",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "KERVIN ARRIAGA"
   },
