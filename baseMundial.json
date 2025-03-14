@@ -181,7 +181,7 @@
   },
   {
     "NUM": "FWC20",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 5000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
@@ -442,7 +442,7 @@
   },
   {
     "NUM": "AUS1",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -784,7 +784,7 @@
   },
   {
     "NUM": "BRA1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
