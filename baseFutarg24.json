@@ -1059,7 +1059,7 @@
   {
     "NUM": "RIE3",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -1073,7 +1073,7 @@
   {
     "NUM": "RIE5",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -1101,7 +1101,7 @@
   {
     "NUM": "RIE9",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -1843,7 +1843,7 @@
   {
     "NUM": "IRM4",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -1892,7 +1892,7 @@
   {
     "NUM": "IRM11",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -3124,7 +3124,7 @@
   {
     "NUM": "TAL17",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
