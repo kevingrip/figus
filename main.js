@@ -506,6 +506,16 @@ const cosecharFigus = (tipo) => {
     const argDiv = document.createElement('div');
     argDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
     argDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos
+    
+    function ajustarAltura() {
+        if (window.innerWidth < 768) {
+
+        }
+    }
+    
+    // Ajustar la altura al cargar la página
+    ajustarAltura();
+
     resultados.appendChild(argDiv);
     
 
@@ -517,6 +527,15 @@ const cosecharFigus = (tipo) => {
         if (figu.NUM.includes('INT')){
             const createButton = document.createElement('button')
             createButton.style.width='65px'
+
+            function ajustarAltura() {
+                if (window.innerWidth < 768) {
+                    createButton.style.height="75px"
+                }
+            }
+            
+            // Ajustar la altura al cargar la página
+            ajustarAltura();
             createButton.textContent=figu.NUM
             intDiv.appendChild(createButton);
             
@@ -564,6 +583,15 @@ const cosecharFigus = (tipo) => {
             createButton.textContent=figu.NUM
             hciDiv.appendChild(createButton);
 
+            function ajustarAltura() {
+                if (window.innerWidth < 768) {
+                    createButton.style.height="75px"
+                }
+            }
+            
+            // Ajustar la altura al cargar la página
+            ajustarAltura();
+
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
             }else if (figu.CANT ==1){
@@ -607,6 +635,15 @@ const cosecharFigus = (tipo) => {
             createButton.style.width='65px'
             createButton.textContent=figu.NUM
             legDiv.appendChild(createButton);
+
+            function ajustarAltura() {
+                if (window.innerWidth < 768) {
+                    createButton.style.height="75px"
+                }
+            }
+            
+            // Ajustar la altura al cargar la página
+            ajustarAltura();
 
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
@@ -696,6 +733,15 @@ const cosecharFigus = (tipo) => {
             createButton.textContent=figu.NUM
             rohDiv.appendChild(createButton);
 
+            function ajustarAltura() {
+                if (window.innerWidth < 768) {
+                    createButton.style.height="75px"
+                }
+            }
+            
+            // Ajustar la altura al cargar la página
+            ajustarAltura();
+
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
             }else if (figu.CANT ==1){
@@ -740,6 +786,15 @@ const cosecharFigus = (tipo) => {
             createButton.textContent=figu.NUM
             argDiv.appendChild(createButton);
 
+            function ajustarAltura() {
+                if (window.innerWidth < 768) {
+                    createButton.style.height="75px"
+                }
+            }
+            
+            // Ajustar la altura al cargar la página
+            ajustarAltura();
+
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
             }else if (figu.CANT ==1){
@@ -757,7 +812,10 @@ const cosecharFigus = (tipo) => {
                     createButton.style.backgroundColor='orange'
                 }else if (figu.CANT >14){
                     createButton.style.backgroundColor='lightgreen'
+                }else{
+                    createButton.style.backgroundColor='yellow'
                 }
+
                 figusSeleccionadas=figu.NUM
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
                 //console.log(filteredFigus)
@@ -778,6 +836,15 @@ const cosecharFigus = (tipo) => {
         
         }else{
             createButton.textContent=figu.NUM
+
+            function ajustarAltura() {
+                if (window.innerWidth < 768) {
+                    createButton.style.height="75px"
+                }
+            }
+            
+            // Ajustar la altura al cargar la página
+            ajustarAltura();
             //console.log(figu.NUM)
 
             if (figu.TIPO=='EQUIPO'){
