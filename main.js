@@ -486,29 +486,50 @@ const cosecharFigus = (tipo) => {
     const intDiv = document.createElement('div');
     intDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
     intDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos
-    resultados.appendChild(intDiv);
-
+    
     const hciDiv = document.createElement('div');
     hciDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
     hciDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos
-    resultados.appendChild(hciDiv);
+    
 
     const legDiv = document.createElement('div');
     legDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
     legDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos
-    resultados.appendChild(legDiv);
+    
     
     const rohDiv = document.createElement('div');
     rohDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
     rohDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos
-    resultados.appendChild(rohDiv);
+    
+
+    const CocaDiv = document.createElement('div');
+    CocaDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
+    CocaDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos    
+       
+
+    const FWCDiv = document.createElement('div');
+    FWCDiv.style.display = 'flex';
+    FWCDiv.style.flexWrap = 'wrap';  
+       
 
     const argDiv = document.createElement('div');
     argDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
-    argDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos
-        
-
+    argDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos 
+    
+    resultados.appendChild(intDiv);
+    resultados.appendChild(document.createElement('br'))
+    resultados.appendChild(hciDiv);
+    resultados.appendChild(document.createElement('br'))
+    resultados.appendChild(legDiv);
+    resultados.appendChild(document.createElement('br'))
+    resultados.appendChild(rohDiv);
+    resultados.appendChild(CocaDiv);
+    resultados.appendChild(document.createElement('br')) 
+    resultados.appendChild(FWCDiv);
+    resultados.appendChild(document.createElement('br')) 
     resultados.appendChild(argDiv);
+    resultados.appendChild(document.createElement('br')) 
+       
     
 
     //cartel succesfull
@@ -525,25 +546,65 @@ const cosecharFigus = (tipo) => {
     })
 
 
+    window.todasLasFigus.sort((a, b) => {
+        const matchA = a.NUM.match(/([A-Za-z]+)(\d+)/); // Separar letras y números
+        const matchB = b.NUM.match(/([A-Za-z]+)(\d+)/);
     
+        if (matchA && matchB) {
+            const letraA = matchA[1];
+            const numeroA = parseInt(matchA[2]);
+            const letraB = matchB[1];
+            const numeroB = parseInt(matchB[2]);
+    
+            // Primero ordenar por letra
+            if (letraA !== letraB) {
+                return letraA.localeCompare(letraB);
+            }
+    
+            // Luego ordenar por número
+            return numeroA - numeroB;
+        }
+    
+        return a.NUM.localeCompare(b.NUM); // Si no coincide con el patrón, usar orden alfabético normal
+    });
+
 
     window.todasLasFigus.forEach(figu=>{
 
+        
         function ajustarAltura(button) {
             if (window.innerWidth < 768) {
                 button.style.height="75px";
+            }else{
+                button.style.height="40px";
             }
+        }
+
+        function ajustarAncho(button,tipo) {
+            if (tipo=='base_copam'){
+                if (window.innerWidth > 768) {
+                    button.style.width="4.3vw";
+                }else{
+                    button.style.width="14vw";
+                }
+            }else{
+                if (window.innerWidth > 768) {
+                    button.style.width="5vw";
+                }else{
+                    button.style.width="14vw";
+                }
+            }
+            
         }
         
         const createButton = document.createElement('button')
-        createButton.style.width='65px'
         if (figu.NUM.includes('INT')){
             const createButton = document.createElement('button')
-            createButton.style.width='65px'
 
             
             // Ajustar la altura al cargar la página
             ajustarAltura(createButton);
+            ajustarAncho(createButton,tipo)
 
             createButton.textContent=figu.NUM
             intDiv.appendChild(createButton);
@@ -597,12 +658,12 @@ const cosecharFigus = (tipo) => {
             
         }else if (figu.NUM.includes('HCI')){
             const createButton = document.createElement('button')
-            createButton.style.width='65px'
             createButton.textContent=figu.NUM
             hciDiv.appendChild(createButton);
 
             // Ajustar la altura al cargar la página
             ajustarAltura(createButton);
+            ajustarAncho(createButton,tipo)
 
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
@@ -658,6 +719,7 @@ const cosecharFigus = (tipo) => {
             
             // Ajustar la altura al cargar la página
             ajustarAltura(createButton);
+            ajustarAncho(createButton,tipo)
 
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
@@ -764,6 +826,7 @@ const cosecharFigus = (tipo) => {
             
             // Ajustar la altura al cargar la página
             ajustarAltura(createButton);
+            ajustarAncho(createButton,tipo)
 
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
@@ -818,6 +881,193 @@ const cosecharFigus = (tipo) => {
             
             // Ajustar la altura al cargar la página
             ajustarAltura(createButton);
+            ajustarAncho(createButton,tipo)
+
+            if (figu.CANT ==0){
+                createButton.style.backgroundColor='red'
+            }else if (figu.CANT ==1){
+                createButton.style.backgroundColor='orange'
+            }else if (figu.CANT >14){
+                createButton.style.backgroundColor='lightgreen'
+            }
+
+            
+
+            createButton.addEventListener('click',()=>{
+                figu.CANT++     
+                agregarFigu()           
+                  
+                Toast.fire({
+                    icon: 'success',
+                    title: `${figu.NUM} agregada correctamente`
+                })
+                
+
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >14){
+                    createButton.style.backgroundColor='lightgreen'
+                }else{
+                    createButton.style.backgroundColor='yellow'
+                }
+
+                figusSeleccionadas=figu.NUM
+                const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
+                //console.log(filteredFigus)
+    
+                filteredFigus.forEach(figu => {
+                    const li = document.createElement('li');
+                    li.classList.add('listaClass')
+                    if (figu.CANT==0){                
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                        li.style.color='red'
+                    }else{
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                    }            
+                    resultados.appendChild(li);            
+                });
+            })    
+
+        
+        }else if (figu.TIPO.includes('COCA')){
+            const createButton = document.createElement('button')
+            createButton.style.width='65px'
+            createButton.textContent=figu.NUM
+            CocaDiv.appendChild(createButton);
+            
+            // Ajustar la altura al cargar la página
+            ajustarAltura(createButton);
+            ajustarAncho(createButton,tipo)
+
+            if (figu.CANT ==0){
+                createButton.style.backgroundColor='red'
+            }else if (figu.CANT ==1){
+                createButton.style.backgroundColor='orange'
+            }else if (figu.CANT >14){
+                createButton.style.backgroundColor='lightgreen'
+            }
+
+            
+
+            createButton.addEventListener('click',()=>{
+                figu.CANT++     
+                agregarFigu()           
+                  
+                Toast.fire({
+                    icon: 'success',
+                    title: `${figu.NUM} agregada correctamente`
+                })
+                
+
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >14){
+                    createButton.style.backgroundColor='lightgreen'
+                }else{
+                    createButton.style.backgroundColor='yellow'
+                }
+
+                figusSeleccionadas=figu.NUM
+                const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
+                //console.log(filteredFigus)
+    
+                filteredFigus.forEach(figu => {
+                    const li = document.createElement('li');
+                    li.classList.add('listaClass')
+                    if (figu.CANT==0){                
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                        li.style.color='red'
+                    }else{
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                    }            
+                    resultados.appendChild(li);            
+                });
+            })    
+
+        
+        }else if (figu.NUM.includes('FWC')){
+            const createButton = document.createElement('button')
+            createButton.style.width='65px'
+            createButton.textContent=figu.NUM            
+            
+            
+            // Ajustar la altura al cargar la página
+            ajustarAltura(createButton);
+            ajustarAncho(createButton,tipo)
+
+            
+
+            if (figu.CANT ==0){
+                createButton.style.backgroundColor='red'
+            }else if (figu.CANT ==1){
+                createButton.style.backgroundColor='orange'
+            }else if (figu.CANT >14){
+                createButton.style.backgroundColor='lightgreen'
+            }
+
+            if (figu.NUM==('FWC18')){
+                FWCDiv.style.display = 'block';  // Esto asegura que los elementos se alineen de arriba hacia abajo
+
+                FWCDiv.appendChild(createButton);
+                FWCDiv.appendChild(document.createElement('br')); // Salto de línea adecuado
+
+            }else{
+                FWCDiv.appendChild(createButton);
+            }
+
+            
+
+            createButton.addEventListener('click',()=>{
+                figu.CANT++     
+                agregarFigu()           
+                  
+                Toast.fire({
+                    icon: 'success',
+                    title: `${figu.NUM} agregada correctamente`
+                })
+                
+
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >14){
+                    createButton.style.backgroundColor='lightgreen'
+                }else{
+                    createButton.style.backgroundColor='yellow'
+                }
+
+                figusSeleccionadas=figu.NUM
+                const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
+                //console.log(filteredFigus)
+    
+                filteredFigus.forEach(figu => {
+                    const li = document.createElement('li');
+                    li.classList.add('listaClass')
+                    if (figu.CANT==0){                
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                        li.style.color='red'
+                    }else{
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                    }            
+                    resultados.appendChild(li);            
+                });
+            })    
+
+        
+        }else if (figu.NUM.includes('ARG')){
+            const createButton = document.createElement('button')
+            createButton.style.width='65px'
+            createButton.textContent=figu.NUM
+            argDiv.appendChild(createButton);
+            
+            // Ajustar la altura al cargar la página
+            ajustarAltura(createButton);
+            ajustarAncho(createButton,tipo)
 
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
@@ -868,10 +1118,30 @@ const cosecharFigus = (tipo) => {
 
         
         }else{
-            createButton.textContent=figu.NUM            
+            
+            createButton.textContent=figu.NUM        
+            
+            if (tipo == 'base_copam'){
+                if (figu.NUM.substring(3, 5)=="22"){
+                    resultados.appendChild(createButton)
+                    resultados.appendChild(document.createElement('br'))
+                    resultados.appendChild(document.createElement('br'))
+                }else{
+                    resultados.appendChild(createButton)
+                }
+            }else{
+                if (figu.NUM.substring(3, 5)=="19"){
+                    resultados.appendChild(createButton)
+                    resultados.appendChild(document.createElement('br'))
+                    resultados.appendChild(document.createElement('br'))
+                }else{
+                    resultados.appendChild(createButton)
+                }
+            }
             
             // Ajustar la altura al cargar la página
             ajustarAltura(createButton);
+            ajustarAncho(createButton,tipo)
             //console.log(figu.NUM)
 
             if (figu.TIPO=='EQUIPO'){
@@ -891,10 +1161,8 @@ const cosecharFigus = (tipo) => {
                     createButton.style.backgroundColor='lightgreen'
                 }
             }
-
             
             
-            resultados.appendChild(createButton)
             createButton.addEventListener('click',()=>{
                 
                 figu.CANT++
@@ -934,6 +1202,7 @@ const cosecharFigus = (tipo) => {
         }           
         
     }) 
+    
     
     resultados.appendChild(divDescargar)
 
