@@ -310,7 +310,7 @@
   {
     "NUM": "PER9",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "MARCOS LOPEZ"
   },
@@ -716,7 +716,7 @@
   {
     "NUM": "ECU1",
     "TIPO": "ESCUDO",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 3000,
     "NOMBRE": "ECU ESC"
   },
@@ -870,7 +870,7 @@
   {
     "NUM": "VEN1",
     "TIPO": "ESCUDO",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "NOMBRE": "VEN ESC"
   },
@@ -1640,7 +1640,7 @@
   {
     "NUM": "BOL1",
     "TIPO": "ESCUDO",
-    "CANT": 10,
+    "CANT": 9,
     "PRECIO": 3000,
     "NOMBRE": "BOL ESC"
   },
@@ -1948,7 +1948,7 @@
   {
     "NUM": "COL1",
     "TIPO": "ESCUDO",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 3000,
     "NOMBRE": "COL ESC"
   },
@@ -2256,7 +2256,7 @@
   {
     "NUM": "CAN1",
     "TIPO": "ESCUDO",
-    "CANT": 9,
+    "CANT": 8,
     "PRECIO": 3000,
     "NOMBRE": "CAN ESC"
   },
@@ -2872,7 +2872,7 @@
   {
     "NUM": "LEG1",
     "TIPO": "LEYENDA",
-    "CANT": 8,
+    "CANT": 7,
     "PRECIO": 3000,
     "NOMBRE": "BATISTUTA LEFT"
   },
@@ -2886,7 +2886,7 @@
   {
     "NUM": "LEG3",
     "TIPO": "LEYENDA DORADA",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 5000,
     "NOMBRE": "PELE"
   },
@@ -2928,7 +2928,7 @@
   {
     "NUM": "LEG9",
     "TIPO": "LEYENDA DORADA",
-    "CANT": 10,
+    "CANT": 9,
     "PRECIO": 5000,
     "NOMBRE": "RONALDINHO"
   },

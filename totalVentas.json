@@ -24150,6 +24150,26 @@
       "Envio": "CORREO",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "FERRO 76",
+      "Vendidas": [
+        "PER9",
+        "ECU1",
+        "VEN1",
+        "BOL1",
+        "COL1",
+        "CAN1",
+        "LEG1",
+        "LEG3",
+        "LEG9"
+      ],
+      "NoVendidas": [],
+      "Dia": "20/3/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
