@@ -474,7 +474,7 @@ const cosecharFigus = (tipo) => {
 
     const buttonDescargarBase = document.createElement('button')
     buttonDescargarBase.style.backgroundColor='skyblue'
-    buttonDescargarBase.innerHTML='Descargar Base'    
+    buttonDescargarBase.innerHTML='Descargar Base'
     
     resultados.appendChild(buttonDescargarBase)
     divDescargar.appendChild(buttonDescargarBase)
@@ -506,21 +506,34 @@ const cosecharFigus = (tipo) => {
     const argDiv = document.createElement('div');
     argDiv.style.display = 'flex'; // Alinea los botones "INT" en una sola línea
     argDiv.style.flexWrap = 'wrap'; // Permite que los botones "INT" se ajusten si son muchos
-    
-    function ajustarAltura() {
-        if (window.innerWidth < 768) {
-
-        }
-    }
-    
-    // Ajustar la altura al cargar la página
-    ajustarAltura();
+        
 
     resultados.appendChild(argDiv);
     
 
+    //cartel succesfull
+    const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+          toast.addEventListener('mouseenter', Swal.stopTimer)
+          toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+    })
+
+
+    
+
     window.todasLasFigus.forEach(figu=>{
-        
+
+        function ajustarAltura(button) {
+            if (window.innerWidth < 768) {
+                button.style.height="75px";
+            }
+        }
         
         const createButton = document.createElement('button')
         createButton.style.width='65px'
@@ -528,14 +541,10 @@ const cosecharFigus = (tipo) => {
             const createButton = document.createElement('button')
             createButton.style.width='65px'
 
-            function ajustarAltura() {
-                if (window.innerWidth < 768) {
-                    createButton.style.height="75px"
-                }
-            }
             
             // Ajustar la altura al cargar la página
-            ajustarAltura();
+            ajustarAltura(createButton);
+
             createButton.textContent=figu.NUM
             intDiv.appendChild(createButton);
             
@@ -550,6 +559,14 @@ const cosecharFigus = (tipo) => {
             createButton.addEventListener('click',()=>{
                 figusSeleccionadas=figu.NUM
                 figu.CANT++
+                agregarFigu()             
+                
+
+                Toast.fire({
+                    icon: 'success',
+                    title: `${figu.NUM} agregada correctamente`
+                })
+
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
                 //console.log(filteredFigus)
 
@@ -562,6 +579,7 @@ const cosecharFigus = (tipo) => {
                 }else{
                     createButton.style.backgroundColor='yellow'
                 }
+
     
                 filteredFigus.forEach(figu => {
                     const li = document.createElement('li');
@@ -571,7 +589,7 @@ const cosecharFigus = (tipo) => {
                         li.style.color='red'
                     }else{
                         li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
-                    }            
+                    }                    
                     resultados.appendChild(li);            
                 });
             })     
@@ -583,14 +601,8 @@ const cosecharFigus = (tipo) => {
             createButton.textContent=figu.NUM
             hciDiv.appendChild(createButton);
 
-            function ajustarAltura() {
-                if (window.innerWidth < 768) {
-                    createButton.style.height="75px"
-                }
-            }
-            
             // Ajustar la altura al cargar la página
-            ajustarAltura();
+            ajustarAltura(createButton);
 
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
@@ -603,6 +615,68 @@ const cosecharFigus = (tipo) => {
             createButton.addEventListener('click',()=>{
                 figusSeleccionadas=figu.NUM
                 figu.CANT++
+
+                agregarFigu()
+
+                Toast.fire({
+                    icon: 'success',
+                    title: `${figu.NUM} agregada correctamente`
+                })
+
+                const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
+                //console.log(filteredFigus)
+
+                if (figu.CANT ==0){
+                    createButton.style.backgroundColor='red'
+                }else if (figu.CANT ==1){
+                    createButton.style.backgroundColor='orange'
+                }else if (figu.CANT >9){
+                    createButton.style.backgroundColor='lightgreen'
+                }else{
+                    createButton.style.backgroundColor='yellow'
+                }
+    
+                filteredFigus.forEach(figu => {
+                    const li = document.createElement('li');
+                    li.classList.add('listaClass')
+                    if (figu.CANT==0){                
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                        li.style.color='red'
+                    }else{
+                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
+                    }            
+                    resultados.appendChild(li);            
+                });
+            })    
+
+        
+        }else if (figu.NUM.includes('LEG')){
+            const createButton = document.createElement('button')
+            createButton.style.width='65px'
+            createButton.textContent=figu.NUM
+            legDiv.appendChild(createButton);
+            
+            // Ajustar la altura al cargar la página
+            ajustarAltura(createButton);
+
+            if (figu.CANT ==0){
+                createButton.style.backgroundColor='red'
+            }else if (figu.CANT ==1){
+                createButton.style.backgroundColor='orange'
+            }else if (figu.CANT >9){
+                createButton.style.backgroundColor='lightgreen'
+            }
+
+            createButton.addEventListener('click',()=>{
+                figu.CANT++
+                agregarFigu()
+
+                Toast.fire({
+                    icon: 'success',
+                    title: `${figu.NUM} agregada correctamente`
+                })
+
+                figusSeleccionadas=figu.NUM
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
                 //console.log(filteredFigus)
 
@@ -636,15 +710,6 @@ const cosecharFigus = (tipo) => {
             createButton.textContent=figu.NUM
             legDiv.appendChild(createButton);
 
-            function ajustarAltura() {
-                if (window.innerWidth < 768) {
-                    createButton.style.height="75px"
-                }
-            }
-            
-            // Ajustar la altura al cargar la página
-            ajustarAltura();
-
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
             }else if (figu.CANT ==1){
@@ -655,50 +720,13 @@ const cosecharFigus = (tipo) => {
 
             createButton.addEventListener('click',()=>{
                 figu.CANT++
-                figusSeleccionadas=figu.NUM
-                const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
-                //console.log(filteredFigus)
+                agregarFigu()
 
-                if (figu.CANT ==0){
-                    createButton.style.backgroundColor='red'
-                }else if (figu.CANT ==1){
-                    createButton.style.backgroundColor='orange'
-                }else if (figu.CANT >9){
-                    createButton.style.backgroundColor='lightgreen'
-                }else{
-                    createButton.style.backgroundColor='yellow'
-                }
-    
-                filteredFigus.forEach(figu => {
-                    const li = document.createElement('li');
-                    li.classList.add('listaClass')
-                    if (figu.CANT==0){                
-                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
-                        li.style.color='red'
-                    }else{
-                        li.innerHTML = `${figu.NUM.length==5?figu.NUM:figu.NUM+ '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length==1 ? `${figu.CANT}`+ '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length==3?figu.PRECIO+ '&nbsp;':figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}` ;
-                    }            
-                    resultados.appendChild(li);            
-                });
-            })    
+                Toast.fire({
+                    icon: 'success',
+                    title: `${figu.NUM} agregada correctamente`
+                })
 
-        
-        }else if (figu.NUM.includes('LEG')){
-            const createButton = document.createElement('button')
-            createButton.style.width='65px'
-            createButton.textContent=figu.NUM
-            legDiv.appendChild(createButton);
-
-            if (figu.CANT ==0){
-                createButton.style.backgroundColor='red'
-            }else if (figu.CANT ==1){
-                createButton.style.backgroundColor='orange'
-            }else if (figu.CANT >9){
-                createButton.style.backgroundColor='lightgreen'
-            }
-
-            createButton.addEventListener('click',()=>{
-                figu.CANT++
                 figusSeleccionadas=figu.NUM
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
                 //console.log(filteredFigus)
@@ -733,14 +761,9 @@ const cosecharFigus = (tipo) => {
             createButton.textContent=figu.NUM
             rohDiv.appendChild(createButton);
 
-            function ajustarAltura() {
-                if (window.innerWidth < 768) {
-                    createButton.style.height="75px"
-                }
-            }
             
             // Ajustar la altura al cargar la página
-            ajustarAltura();
+            ajustarAltura(createButton);
 
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
@@ -752,6 +775,13 @@ const cosecharFigus = (tipo) => {
 
             createButton.addEventListener('click',()=>{
                 figu.CANT++
+                agregarFigu()
+
+                Toast.fire({
+                    icon: 'success',
+                    title: `${figu.NUM} agregada correctamente`
+                })
+
                 figusSeleccionadas=figu.NUM
                 const filteredFigus = window.todasLasFigus.filter(figu => figusSeleccionadas==(figu.NUM));
                 //console.log(filteredFigus)
@@ -785,15 +815,9 @@ const cosecharFigus = (tipo) => {
             createButton.style.width='65px'
             createButton.textContent=figu.NUM
             argDiv.appendChild(createButton);
-
-            function ajustarAltura() {
-                if (window.innerWidth < 768) {
-                    createButton.style.height="75px"
-                }
-            }
             
             // Ajustar la altura al cargar la página
-            ajustarAltura();
+            ajustarAltura(createButton);
 
             if (figu.CANT ==0){
                 createButton.style.backgroundColor='red'
@@ -803,8 +827,17 @@ const cosecharFigus = (tipo) => {
                 createButton.style.backgroundColor='lightgreen'
             }
 
+            
+
             createButton.addEventListener('click',()=>{
-                figu.CANT++
+                figu.CANT++     
+                agregarFigu()           
+                  
+                Toast.fire({
+                    icon: 'success',
+                    title: `${figu.NUM} agregada correctamente`
+                })
+                
 
                 if (figu.CANT ==0){
                     createButton.style.backgroundColor='red'
@@ -835,16 +868,10 @@ const cosecharFigus = (tipo) => {
 
         
         }else{
-            createButton.textContent=figu.NUM
-
-            function ajustarAltura() {
-                if (window.innerWidth < 768) {
-                    createButton.style.height="75px"
-                }
-            }
+            createButton.textContent=figu.NUM            
             
             // Ajustar la altura al cargar la página
-            ajustarAltura();
+            ajustarAltura(createButton);
             //console.log(figu.NUM)
 
             if (figu.TIPO=='EQUIPO'){
@@ -871,6 +898,12 @@ const cosecharFigus = (tipo) => {
             createButton.addEventListener('click',()=>{
                 
                 figu.CANT++
+                agregarFigu()
+
+                Toast.fire({
+                    icon: 'success',
+                    title: `${figu.NUM} agregada correctamente`
+                })
                 if (figu.CANT ==0){
                     createButton.style.backgroundColor='red'
                 }else if (figu.CANT ==1){
@@ -903,6 +936,16 @@ const cosecharFigus = (tipo) => {
     }) 
     
     resultados.appendChild(divDescargar)
+
+    let totalAgregadas = 0
+    const agregarFigu = () =>{
+        totalAgregadas++
+        totalCosechadas.innerHTML = `Total Cosechadas: ${totalAgregadas}`; 
+    }
+    
+    const totalCosechadas = document.createElement('h5')
+    totalCosechadas.innerHTML=`Total Cosechadas: ${totalAgregadas}`
+    resultados.appendChild(totalCosechadas)
 
   
 
