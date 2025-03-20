@@ -377,6 +377,12 @@ const totalVentas = () =>{
 
                     figusVendidas.style.border = '1px solid lightgrey' 
                     figusVendidas.style.padding = '10px'
+
+                    if (window.innerWidth < 768) {
+                        nombreUsuario.style.fontSize='4vw'
+                    }else{
+                        nombreUsuario.style.fontSize='1.5vw'
+                    }
                     
                     
 
