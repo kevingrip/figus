@@ -24170,6 +24170,20 @@
       "Envio": "FLEX",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "(JAIMEAPREDA",
+      "Vendidas": [
+        "INT1",
+        "INT4",
+        "LEG6"
+      ],
+      "NoVendidas": [],
+      "Dia": "22/3/2025",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [

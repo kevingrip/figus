@@ -2,7 +2,7 @@
   {
     "NUM": "INT1",
     "TIPO": "INTRO",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 8000,
     "NOMBRE": "INTRODUCCION"
   },
@@ -23,7 +23,7 @@
   {
     "NUM": "INT4",
     "TIPO": "INTRO",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 8000,
     "NOMBRE": "PELOTA"
   },
@@ -2907,7 +2907,7 @@
   {
     "NUM": "LEG6",
     "TIPO": "LEYENDA DORADA",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 7000,
     "NOMBRE": "MESSI LG"
   },
