@@ -100,7 +100,7 @@
   {
     "NUM": "ARG1",
     "TIPO": "ESCUDO",
-    "CANT": 8,
+    "CANT": 7,
     "PRECIO": 7000,
     "NOMBRE": "ARG ESC"
   },
@@ -247,7 +247,7 @@
   {
     "NUM": "ARG22",
     "TIPO": "AFA",
-    "CANT": 17,
+    "CANT": 16,
     "PRECIO": 1200,
     "NOMBRE": "LAUTARO MARTINEZ"
   },
@@ -611,7 +611,7 @@
   {
     "NUM": "MEX8",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "GERARDO ARTEAGA"
   },
@@ -2109,7 +2109,7 @@
   {
     "NUM": "PAR2",
     "TIPO": "EQUIPO",
-    "CANT": 9,
+    "CANT": 8,
     "PRECIO": 2000,
     "NOMBRE": "PAR TEAM"
   },
@@ -2725,7 +2725,7 @@
   {
     "NUM": "TRI2",
     "TIPO": "EQUIPO",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 2000,
     "NOMBRE": "TRI TEAM"
   },
