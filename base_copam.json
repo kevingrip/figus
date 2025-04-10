@@ -240,7 +240,7 @@
   {
     "NUM": "ARG21",
     "TIPO": "AFA",
-    "CANT": 13,
+    "CANT": 12,
     "PRECIO": 3000,
     "NOMBRE": "ANGEL DI MARIA"
   },
@@ -884,7 +884,7 @@
   {
     "NUM": "VEN3",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "RAFAEL ROMO"
   },
@@ -968,7 +968,7 @@
   {
     "NUM": "VEN15",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "TOMAS RINCON"
   },
@@ -1010,7 +1010,7 @@
   {
     "NUM": "VEN21",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "JOSEF MARTINEZ"
   },
@@ -2676,7 +2676,7 @@
   {
     "NUM": "HON17",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "KERVIN ARRIAGA"
   },
