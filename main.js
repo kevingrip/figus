@@ -1469,7 +1469,7 @@ const buscarFigus = (tipo) => {
               
         
 
-        let costoEnvioGratis=30000
+        let costoEnvioGratis=33000
 
         const confirmacion = '. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra'
 
