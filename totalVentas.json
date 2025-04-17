@@ -36732,6 +36732,28 @@
       "Envio": "CORREO",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "LAURA BONEL",
+      "Vendidas": [
+        "ARG1",
+        "ARG9",
+        "ARG12",
+        "ARG16",
+        "ARG19",
+        "BRA3",
+        "BRA4",
+        "BRA10",
+        "BRA16",
+        "ESP1",
+        "ESP9"
+      ],
+      "NoVendidas": [],
+      "Dia": "17/4/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
