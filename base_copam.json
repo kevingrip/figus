@@ -86,7 +86,7 @@
   {
     "NUM": "HCI9",
     "TIPO": "CIUDAD",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 3000,
     "NOMBRE": "ORLANDO"
   },
@@ -1535,7 +1535,7 @@
   {
     "NUM": "PAN8",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "ANDRES ANDRADE"
   },
@@ -1787,7 +1787,7 @@
   {
     "NUM": "BOL22",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "VICTOR ABREGO"
   },
@@ -2256,7 +2256,7 @@
   {
     "NUM": "CAN1",
     "TIPO": "ESCUDO",
-    "CANT": 8,
+    "CANT": 7,
     "PRECIO": 3000,
     "NOMBRE": "CAN ESC"
   },
