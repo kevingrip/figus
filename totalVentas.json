@@ -36754,6 +36754,47 @@
       "Envio": "FLEX",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "HOLUBICAFACUNDO20220511231313",
+      "Vendidas": [
+        "BEL2",
+        "BEL17",
+        "JPN10",
+        "URU12"
+      ],
+      "NoVendidas": [],
+      "Dia": "20/4/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "SI",
+      "PREARMADO": "SI"
+    },
+    {
+      "usuario": "RUFR2727937",
+      "Vendidas": [
+        "FWC17",
+        "FWC26",
+        "FWC27",
+        "FWC29",
+        "ECU4",
+        "ECU13",
+        "ENG8",
+        "IRN1",
+        "NED2",
+        "NED8",
+        "QAT1",
+        "QAT10",
+        "SEN19"
+      ],
+      "NoVendidas": [
+        "FWC5"
+      ],
+      "Dia": "21/4/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
