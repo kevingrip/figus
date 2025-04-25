@@ -744,7 +744,6 @@ elif (album == "Copa America 2024"):
 
         elif subInicioBDD == "Agregar Stock":
             cantFigu = agregarStock(baseCopam)
-            descSupl(cantFigu)
             actualizarFecha(None)
         elif subInicioBDD == "Cosechar":
             cosecharStock(baseCopam)
@@ -978,7 +977,6 @@ elif (album == "Futbol Arg 2024"):
 
         elif subInicioBDD == "Agregar Stock":
             cantFigu = agregarStock(baseFut24)
-            descSupl(cantFigu)
             actualizarFecha(None)
         elif subInicioBDD == "Cosechar":
             cosecharStock(baseFut24)
