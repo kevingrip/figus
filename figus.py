@@ -16,7 +16,6 @@ from buscar_cosecha import*
 import time
 from bases import*
 from actualizarFecha import *
-from cantSuplentes import*
 import pyperclip
 from CosecharStock import *
 
