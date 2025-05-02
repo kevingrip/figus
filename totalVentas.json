@@ -25479,6 +25479,20 @@
       "Envio": "FLEX",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "IMED M",
+      "Vendidas": [
+        "SEM9",
+        "YPF6",
+        "LEG3"
+      ],
+      "NoVendidas": [],
+      "Dia": "2/5/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "SI",
+      "PREARMADO": "SI"
     }
   ],
   "Mundial Qatar 2022": [
@@ -36992,8 +37006,8 @@
       "Dia": "2/5/2025",
       "Cuenta": "KEVIN",
       "Envio": "FLEX",
-      "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "ARMADO": "SI",
+      "PREARMADO": "SI"
     }
   ],
   "Futbol Argentino 2023": [
