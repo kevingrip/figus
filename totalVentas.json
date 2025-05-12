@@ -25493,6 +25493,40 @@
       "Envio": "FLEX",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "JONATHAN 33",
+      "Vendidas": [
+        "ARJ8",
+        "ATU7",
+        "BAR3",
+        "BAR8",
+        "BEL15",
+        "RIE1",
+        "GIM3",
+        "GOD7",
+        "HUR11",
+        "HUR13",
+        "IND2",
+        "IND10",
+        "IND11",
+        "IND12",
+        "SLO2",
+        "SLO16",
+        "TAL7",
+        "TIG11"
+      ],
+      "NoVendidas": [
+        "BEL1",
+        "DYJ2",
+        "GIM1",
+        "SAR7"
+      ],
+      "Dia": "12/5/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Mundial Qatar 2022": [
