@@ -24392,6 +24392,38 @@
       "Envio": "CORREO",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "PIRQUI",
+      "Vendidas": [
+        "PER12",
+        "CHI7",
+        "ECU3",
+        "ECU17",
+        "ECU19",
+        "VEN18",
+        "VEN19",
+        "USA7",
+        "USA17",
+        "USA19",
+        "URU1",
+        "PAN10",
+        "PAR2",
+        "PAR19",
+        "CAN1",
+        "CAN5",
+        "CAN16",
+        "HON2",
+        "HON18",
+        "LEG2",
+        "LEG15"
+      ],
+      "NoVendidas": [],
+      "Dia": "16/5/2025",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
