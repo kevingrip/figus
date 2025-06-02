@@ -37318,6 +37318,27 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "DVILAS2004",
+      "Vendidas": [
+        "FWC19",
+        "FWC24",
+        "BEL1",
+        "CMR13",
+        "ESP14",
+        "FRA7",
+        "TUN1"
+      ],
+      "NoVendidas": [
+        "FWC6",
+        "POR1"
+      ],
+      "Dia": "2/6/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
