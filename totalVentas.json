@@ -24424,6 +24424,27 @@
       "Envio": "CORREO",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "HUSAINHOMAR",
+      "Vendidas": [
+        "INT1",
+        "INT4",
+        "HCI2",
+        "ARG4",
+        "ARG8",
+        "ARG10",
+        "ARG11",
+        "ARG12",
+        "ARG20",
+        "CHI1"
+      ],
+      "NoVendidas": [],
+      "Dia": "3/6/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
