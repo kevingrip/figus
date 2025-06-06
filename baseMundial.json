@@ -1,275 +1,5 @@
 [
   {
-    "NUM": "FWC0",
-    "CANT": 5,
-    "PRECIO": 6000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "PANINI LOGO"
-  },
-  {
-    "NUM": "FWC1",
-    "CANT": 5,
-    "PRECIO": 750,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "FIFA Logo"
-  },
-  {
-    "NUM": "FWC2",
-    "CANT": 0,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Official Trophy /1"
-  },
-  {
-    "NUM": "FWC3",
-    "CANT": 1,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Official Trophy /2"
-  },
-  {
-    "NUM": "FWC4",
-    "CANT": 3,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Official Mascot /1"
-  },
-  {
-    "NUM": "FWC5",
-    "CANT": 0,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Official Mascot /2"
-  },
-  {
-    "NUM": "FWC6",
-    "CANT": 0,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Official Emblem /1"
-  },
-  {
-    "NUM": "FWC7",
-    "CANT": 0,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Official Emblem /2"
-  },
-  {
-    "NUM": "FWC8",
-    "CANT": 1,
-    "PRECIO": 750,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Ahmad Bin Ali Stadium"
-  },
-  {
-    "NUM": "FWC9",
-    "CANT": 44,
-    "PRECIO": 750,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Al Janoub Stadium"
-  },
-  {
-    "NUM": "FWC10",
-    "CANT": 4,
-    "PRECIO": 750,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Al Thumama Stadium"
-  },
-  {
-    "NUM": "FWC11",
-    "CANT": 6,
-    "PRECIO": 750,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Education City Stadium"
-  },
-  {
-    "NUM": "FWC12",
-    "CANT": 10,
-    "PRECIO": 750,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Khalifa International Stadium"
-  },
-  {
-    "NUM": "FWC13",
-    "CANT": 4,
-    "PRECIO": 750,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Stadium 974"
-  },
-  {
-    "NUM": "FWC14",
-    "CANT": 3,
-    "PRECIO": 750,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Al Bayt Stadium outdoor"
-  },
-  {
-    "NUM": "FWC15",
-    "CANT": 2,
-    "PRECIO": 750,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Al Bayt Stadium indoor"
-  },
-  {
-    "NUM": "FWC16",
-    "CANT": 2,
-    "PRECIO": 750,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Lusail Stadium outdoor"
-  },
-  {
-    "NUM": "FWC17",
-    "CANT": 12,
-    "PRECIO": 750,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Lusail Stadium indoor"
-  },
-  {
-    "NUM": "FWC18",
-    "CANT": 2,
-    "PRECIO": 3000,
-    "TIPO": "FWCC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Official Matchball"
-  },
-  {
-    "NUM": "FWC19",
-    "CANT": 4,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Uruguay 1930"
-  },
-  {
-    "NUM": "FWC20",
-    "CANT": 3,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Italy 1938"
-  },
-  {
-    "NUM": "FWC21",
-    "CANT": 2,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Brazil 1958"
-  },
-  {
-    "NUM": "FWC22",
-    "CANT": 2,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "England 1966"
-  },
-  {
-    "NUM": "FWC23",
-    "CANT": 2,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Brazil 1970"
-  },
-  {
-    "NUM": "FWC24",
-    "CANT": 7,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Argentina 1978"
-  },
-  {
-    "NUM": "FWC25",
-    "CANT": 7,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Italy 1982"
-  },
-  {
-    "NUM": "FWC26",
-    "CANT": 8,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Germany FR 1990"
-  },
-  {
-    "NUM": "FWC27",
-    "CANT": 2,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "France 1998"
-  },
-  {
-    "NUM": "FWC28",
-    "CANT": 1,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Spain 2010"
-  },
-  {
-    "NUM": "FWC29",
-    "CANT": 5,
-    "PRECIO": 5000,
-    "TIPO": "FWCD",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "France 2018"
-  },
-  {
     "NUM": "ARG1",
     "CANT": 1,
     "PRECIO": 7500,
@@ -289,7 +19,7 @@
   },
   {
     "NUM": "ARG3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 3000,
     "TIPO": "AFA",
     "DIA": "04/06/2024",
@@ -343,7 +73,7 @@
   },
   {
     "NUM": "ARG9",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 3000,
     "TIPO": "AFA",
     "DIA": "04/06/2024",
@@ -352,7 +82,7 @@
   },
   {
     "NUM": "ARG10",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 5000,
     "TIPO": "AFA",
     "DIA": "04/06/2024",
@@ -442,7 +172,7 @@
   },
   {
     "NUM": "AUS1",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -505,7 +235,7 @@
   },
   {
     "NUM": "AUS8",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -622,7 +352,7 @@
   },
   {
     "NUM": "BEL2",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -649,7 +379,7 @@
   },
   {
     "NUM": "BEL5",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -658,7 +388,7 @@
   },
   {
     "NUM": "BEL6",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -667,7 +397,7 @@
   },
   {
     "NUM": "BEL7",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -685,7 +415,7 @@
   },
   {
     "NUM": "BEL9",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -739,7 +469,7 @@
   },
   {
     "NUM": "BEL15",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -802,7 +532,7 @@
   },
   {
     "NUM": "BRA3",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -847,7 +577,7 @@
   },
   {
     "NUM": "BRA8",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -865,7 +595,7 @@
   },
   {
     "NUM": "BRA10",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -892,7 +622,7 @@
   },
   {
     "NUM": "BRA13",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -952,6 +682,78 @@
     "DIA": "04/06/2024",
     "ACTUALIZACION": "21:17:46",
     "NOMBRE": "Vinicius Jr"
+  },
+  {
+    "NUM": "C1",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "GNABRY"
+  },
+  {
+    "NUM": "C2",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "DIBU"
+  },
+  {
+    "NUM": "C3",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "DE BRUYNE"
+  },
+  {
+    "NUM": "C4",
+    "CANT": 4,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "MODRIC"
+  },
+  {
+    "NUM": "C5",
+    "CANT": 5,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "DECLAN RICE"
+  },
+  {
+    "NUM": "C6",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "GAVI"
+  },
+  {
+    "NUM": "C7",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "LOZANO"
+  },
+  {
+    "NUM": "C8",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "H M SON"
   },
   {
     "NUM": "CAN1",
@@ -1018,7 +820,7 @@
   },
   {
     "NUM": "CAN8",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1144,7 +946,7 @@
   },
   {
     "NUM": "CMR3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1180,7 +982,7 @@
   },
   {
     "NUM": "CMR7",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1261,7 +1063,7 @@
   },
   {
     "NUM": "CMR16",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1297,7 +1099,7 @@
   },
   {
     "NUM": "CRC1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -1387,7 +1189,7 @@
   },
   {
     "NUM": "CRC11",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1558,7 +1360,7 @@
   },
   {
     "NUM": "CRO11",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1756,7 +1558,7 @@
   },
   {
     "NUM": "DEN14",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1909,7 +1711,7 @@
   },
   {
     "NUM": "ECU12",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1918,7 +1720,7 @@
   },
   {
     "NUM": "ECU13",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1981,7 +1783,7 @@
   },
   {
     "NUM": "ENG1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -2026,7 +1828,7 @@
   },
   {
     "NUM": "ENG6",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -2035,7 +1837,7 @@
   },
   {
     "NUM": "ENG7",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -2071,7 +1873,7 @@
   },
   {
     "NUM": "ENG11",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -2188,7 +1990,7 @@
   },
   {
     "NUM": "ESP5",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -2493,6 +2295,276 @@
     "NOMBRE": "Christopher Nkunku"
   },
   {
+    "NUM": "FWC0",
+    "CANT": 5,
+    "PRECIO": 6000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "PANINI LOGO"
+  },
+  {
+    "NUM": "FWC1",
+    "CANT": 5,
+    "PRECIO": 750,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "FIFA Logo"
+  },
+  {
+    "NUM": "FWC2",
+    "CANT": 0,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Official Trophy /1"
+  },
+  {
+    "NUM": "FWC3",
+    "CANT": 1,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Official Trophy /2"
+  },
+  {
+    "NUM": "FWC4",
+    "CANT": 3,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Official Mascot /1"
+  },
+  {
+    "NUM": "FWC5",
+    "CANT": 0,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Official Mascot /2"
+  },
+  {
+    "NUM": "FWC6",
+    "CANT": 0,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Official Emblem /1"
+  },
+  {
+    "NUM": "FWC7",
+    "CANT": 0,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Official Emblem /2"
+  },
+  {
+    "NUM": "FWC8",
+    "CANT": 1,
+    "PRECIO": 750,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Ahmad Bin Ali Stadium"
+  },
+  {
+    "NUM": "FWC9",
+    "CANT": 44,
+    "PRECIO": 750,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Al Janoub Stadium"
+  },
+  {
+    "NUM": "FWC10",
+    "CANT": 4,
+    "PRECIO": 750,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Al Thumama Stadium"
+  },
+  {
+    "NUM": "FWC11",
+    "CANT": 6,
+    "PRECIO": 750,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Education City Stadium"
+  },
+  {
+    "NUM": "FWC12",
+    "CANT": 10,
+    "PRECIO": 750,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Khalifa International Stadium"
+  },
+  {
+    "NUM": "FWC13",
+    "CANT": 4,
+    "PRECIO": 750,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Stadium 974"
+  },
+  {
+    "NUM": "FWC14",
+    "CANT": 3,
+    "PRECIO": 750,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Al Bayt Stadium outdoor"
+  },
+  {
+    "NUM": "FWC15",
+    "CANT": 2,
+    "PRECIO": 750,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Al Bayt Stadium indoor"
+  },
+  {
+    "NUM": "FWC16",
+    "CANT": 3,
+    "PRECIO": 750,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Lusail Stadium outdoor"
+  },
+  {
+    "NUM": "FWC17",
+    "CANT": 12,
+    "PRECIO": 750,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Lusail Stadium indoor"
+  },
+  {
+    "NUM": "FWC18",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "FWCC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Official Matchball"
+  },
+  {
+    "NUM": "FWC19",
+    "CANT": 4,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Uruguay 1930"
+  },
+  {
+    "NUM": "FWC20",
+    "CANT": 3,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Italy 1938"
+  },
+  {
+    "NUM": "FWC21",
+    "CANT": 2,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Brazil 1958"
+  },
+  {
+    "NUM": "FWC22",
+    "CANT": 2,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "England 1966"
+  },
+  {
+    "NUM": "FWC23",
+    "CANT": 2,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Brazil 1970"
+  },
+  {
+    "NUM": "FWC24",
+    "CANT": 7,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Argentina 1978"
+  },
+  {
+    "NUM": "FWC25",
+    "CANT": 7,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Italy 1982"
+  },
+  {
+    "NUM": "FWC26",
+    "CANT": 8,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Germany FR 1990"
+  },
+  {
+    "NUM": "FWC27",
+    "CANT": 2,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "France 1998"
+  },
+  {
+    "NUM": "FWC28",
+    "CANT": 2,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Spain 2010"
+  },
+  {
+    "NUM": "FWC29",
+    "CANT": 5,
+    "PRECIO": 5000,
+    "TIPO": "FWCD",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "France 2018"
+  },
+  {
     "NUM": "GER1",
     "CANT": 2,
     "PRECIO": 4500,
@@ -2674,7 +2746,7 @@
   },
   {
     "NUM": "GHA2",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -2692,7 +2764,7 @@
   },
   {
     "NUM": "GHA4",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -2737,7 +2809,7 @@
   },
   {
     "NUM": "GHA9",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3007,7 +3079,7 @@
   },
   {
     "NUM": "JPN1",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -3052,7 +3124,7 @@
   },
   {
     "NUM": "JPN6",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3205,7 +3277,7 @@
   },
   {
     "NUM": "KOR4",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3385,7 +3457,7 @@
   },
   {
     "NUM": "KSA5",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3412,7 +3484,7 @@
   },
   {
     "NUM": "KSA8",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3430,7 +3502,7 @@
   },
   {
     "NUM": "KSA10",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3484,7 +3556,7 @@
   },
   {
     "NUM": "KSA16",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3517,6 +3589,177 @@
     "DIA": "04/06/2024",
     "ACTUALIZACION": "21:17:46",
     "NOMBRE": "Khalid Al"
+  },
+  {
+    "NUM": "MAR1",
+    "CANT": 1,
+    "PRECIO": 4500,
+    "TIPO": "ESC",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Morocco Team Shot"
+  },
+  {
+    "NUM": "MAR2",
+    "CANT": 3,
+    "PRECIO": 1000,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Yassine Bounou"
+  },
+  {
+    "NUM": "MAR3",
+    "CANT": 7,
+    "PRECIO": 750,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Munir Mohamedi"
+  },
+  {
+    "NUM": "MAR4",
+    "CANT": 3,
+    "PRECIO": 1000,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Nayef Aguerd"
+  },
+  {
+    "NUM": "MAR5",
+    "CANT": 3,
+    "PRECIO": 1000,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Achraf Hakimi"
+  },
+  {
+    "NUM": "MAR6",
+    "CANT": 7,
+    "PRECIO": 750,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Adam Masina"
+  },
+  {
+    "NUM": "MAR7",
+    "CANT": 7,
+    "PRECIO": 750,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Samy Mmaee"
+  },
+  {
+    "NUM": "MAR8",
+    "CANT": 3,
+    "PRECIO": 1000,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Romain Saiss"
+  },
+  {
+    "NUM": "MAR9",
+    "CANT": 4,
+    "PRECIO": 1000,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Selim Amallah"
+  },
+  {
+    "NUM": "MAR10",
+    "CANT": 4,
+    "PRECIO": 1000,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Sofyan Amrabat"
+  },
+  {
+    "NUM": "MAR11",
+    "CANT": 3,
+    "PRECIO": 1000,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Aymen Barkok"
+  },
+  {
+    "NUM": "MAR12",
+    "CANT": 6,
+    "PRECIO": 750,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Ilias Chair"
+  },
+  {
+    "NUM": "MAR13",
+    "CANT": 2,
+    "PRECIO": 1000,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Imran Louza"
+  },
+  {
+    "NUM": "MAR14",
+    "CANT": 4,
+    "PRECIO": 1000,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Sofiane Boufal"
+  },
+  {
+    "NUM": "MAR15",
+    "CANT": 11,
+    "PRECIO": 750,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Ayoub El Kaabi"
+  },
+  {
+    "NUM": "MAR16",
+    "CANT": 13,
+    "PRECIO": 750,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Youssef En-Nesyri"
+  },
+  {
+    "NUM": "MAR17",
+    "CANT": 5,
+    "PRECIO": 750,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Ryan Mmaee"
+  },
+  {
+    "NUM": "MAR18",
+    "CANT": 3,
+    "PRECIO": 1000,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Munir"
+  },
+  {
+    "NUM": "MAR19",
+    "CANT": 3,
+    "PRECIO": 1000,
+    "TIPO": "COMUNES",
+    "DIA": "04/06/2024",
+    "ACTUALIZACION": "21:17:46",
+    "NOMBRE": "Tarik Tissoudali"
   },
   {
     "NUM": "MEX1",
@@ -3556,7 +3799,7 @@
   },
   {
     "NUM": "MEX5",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3690,179 +3933,8 @@
     "NOMBRE": "Hirving Lozano"
   },
   {
-    "NUM": "MAR1",
-    "CANT": 0,
-    "PRECIO": 4500,
-    "TIPO": "ESC",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Morocco Team Shot"
-  },
-  {
-    "NUM": "MAR2",
-    "CANT": 3,
-    "PRECIO": 1000,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Yassine Bounou"
-  },
-  {
-    "NUM": "MAR3",
-    "CANT": 7,
-    "PRECIO": 750,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Munir Mohamedi"
-  },
-  {
-    "NUM": "MAR4",
-    "CANT": 3,
-    "PRECIO": 1000,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Nayef Aguerd"
-  },
-  {
-    "NUM": "MAR5",
-    "CANT": 3,
-    "PRECIO": 1000,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Achraf Hakimi"
-  },
-  {
-    "NUM": "MAR6",
-    "CANT": 7,
-    "PRECIO": 750,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Adam Masina"
-  },
-  {
-    "NUM": "MAR7",
-    "CANT": 7,
-    "PRECIO": 750,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Samy Mmaee"
-  },
-  {
-    "NUM": "MAR8",
-    "CANT": 3,
-    "PRECIO": 1000,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Romain Saiss"
-  },
-  {
-    "NUM": "MAR9",
-    "CANT": 4,
-    "PRECIO": 1000,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Selim Amallah"
-  },
-  {
-    "NUM": "MAR10",
-    "CANT": 4,
-    "PRECIO": 1000,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Sofyan Amrabat"
-  },
-  {
-    "NUM": "MAR11",
-    "CANT": 3,
-    "PRECIO": 1000,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Aymen Barkok"
-  },
-  {
-    "NUM": "MAR12",
-    "CANT": 6,
-    "PRECIO": 750,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Ilias Chair"
-  },
-  {
-    "NUM": "MAR13",
-    "CANT": 2,
-    "PRECIO": 1000,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Imran Louza"
-  },
-  {
-    "NUM": "MAR14",
-    "CANT": 2,
-    "PRECIO": 1000,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Sofiane Boufal"
-  },
-  {
-    "NUM": "MAR15",
-    "CANT": 11,
-    "PRECIO": 750,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Ayoub El Kaabi"
-  },
-  {
-    "NUM": "MAR16",
-    "CANT": 13,
-    "PRECIO": 750,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Youssef En-Nesyri"
-  },
-  {
-    "NUM": "MAR17",
-    "CANT": 5,
-    "PRECIO": 750,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Ryan Mmaee"
-  },
-  {
-    "NUM": "MAR18",
-    "CANT": 3,
-    "PRECIO": 1000,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Munir"
-  },
-  {
-    "NUM": "MAR19",
-    "CANT": 3,
-    "PRECIO": 1000,
-    "TIPO": "COMUNES",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "Tarik Tissoudali"
-  },
-  {
     "NUM": "NED1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -3943,7 +4015,7 @@
   },
   {
     "NUM": "NED10",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3952,7 +4024,7 @@
   },
   {
     "NUM": "NED11",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4231,7 +4303,7 @@
   },
   {
     "NUM": "POR4",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4375,7 +4447,7 @@
   },
   {
     "NUM": "QAT1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -4420,7 +4492,7 @@
   },
   {
     "NUM": "QAT6",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4528,7 +4600,7 @@
   },
   {
     "NUM": "QAT18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4609,7 +4681,7 @@
   },
   {
     "NUM": "SEN8",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4762,7 +4834,7 @@
   },
   {
     "NUM": "SRB6",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4888,7 +4960,7 @@
   },
   {
     "NUM": "SUI1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -4906,7 +4978,7 @@
   },
   {
     "NUM": "SUI3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4915,7 +4987,7 @@
   },
   {
     "NUM": "SUI4",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -5131,7 +5203,7 @@
   },
   {
     "NUM": "TUN9",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -5329,7 +5401,7 @@
   },
   {
     "NUM": "URU12",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -5347,7 +5419,7 @@
   },
   {
     "NUM": "URU14",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -5698,7 +5770,7 @@
   },
   {
     "NUM": "WAL15",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -5740,77 +5812,5 @@
     "DIA": "04/06/2024",
     "ACTUALIZACION": "21:17:46",
     "NOMBRE": "Kieffer Moore"
-  },
-  {
-    "NUM": "C1",
-    "CANT": 3,
-    "PRECIO": 6000,
-    "TIPO": "COCA",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "GNABRY"
-  },
-  {
-    "NUM": "C2",
-    "CANT": 3,
-    "PRECIO": 6000,
-    "TIPO": "COCA",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "DIBU"
-  },
-  {
-    "NUM": "C3",
-    "CANT": 3,
-    "PRECIO": 6000,
-    "TIPO": "COCA",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "DE BRUYNE"
-  },
-  {
-    "NUM": "C4",
-    "CANT": 4,
-    "PRECIO": 6000,
-    "TIPO": "COCA",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "MODRIC"
-  },
-  {
-    "NUM": "C5",
-    "CANT": 5,
-    "PRECIO": 6000,
-    "TIPO": "COCA",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "DECLAN RICE"
-  },
-  {
-    "NUM": "C6",
-    "CANT": 2,
-    "PRECIO": 6000,
-    "TIPO": "COCA",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "GAVI"
-  },
-  {
-    "NUM": "C7",
-    "CANT": 3,
-    "PRECIO": 6000,
-    "TIPO": "COCA",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "LOZANO"
-  },
-  {
-    "NUM": "C8",
-    "CANT": 1,
-    "PRECIO": 6000,
-    "TIPO": "COCA",
-    "DIA": "04/06/2024",
-    "ACTUALIZACION": "21:17:46",
-    "NOMBRE": "H M SON"
   }
 ]
