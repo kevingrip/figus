@@ -24445,6 +24445,40 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "DIEGO_DEFE",
+      "Vendidas": [
+        "INT2",
+        "ARG8",
+        "CHI8",
+        "ECU2",
+        "VEN13",
+        "VEN20",
+        "USA8",
+        "BOL2",
+        "BOL20",
+        "BRA16",
+        "PAR8",
+        "PAR20",
+        "CRC10",
+        "CRC16",
+        "HON8",
+        "HON10",
+        "TRI9",
+        "TRI17",
+        "LEG6",
+        "LEG11",
+        "ROH2"
+      ],
+      "NoVendidas": [
+        "INT3"
+      ],
+      "Dia": "5/6/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
