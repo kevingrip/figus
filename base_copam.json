@@ -639,7 +639,7 @@
   {
     "NUM": "CHI4",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "CLAUDIO BRAVO"
   },
@@ -681,7 +681,7 @@
   {
     "NUM": "CHI10",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "GARY MEDEL"
   },
@@ -765,7 +765,7 @@
   {
     "NUM": "CHI22",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "BEN BRERETON"
   },
@@ -898,7 +898,7 @@
   {
     "NUM": "COL19",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 850,
     "NOMBRE": "JHON DURAN"
   },
@@ -1087,7 +1087,7 @@
   {
     "NUM": "ECU2",
     "TIPO": "EQUIPO",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 2000,
     "NOMBRE": "ECU TEAM"
   },
@@ -1598,7 +1598,7 @@
   {
     "NUM": "JAM17",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "MICHAIL ANTONIO"
   },
@@ -1626,7 +1626,7 @@
   {
     "NUM": "JAM21",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "LEON BAILEY"
   },
@@ -1976,7 +1976,7 @@
   {
     "NUM": "PAN9",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "JOSE CORDOBA"
   },
@@ -1990,7 +1990,7 @@
   {
     "NUM": "PAN11",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "ADALBERTO CARRASQUILLA"
   },
@@ -2312,7 +2312,7 @@
   {
     "NUM": "PER13",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "MIGUEL TRAUCO"
   },
@@ -2347,7 +2347,7 @@
   {
     "NUM": "PER18",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "BRYAN REYNA"
   },
@@ -2767,7 +2767,7 @@
   {
     "NUM": "USA10",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "SERGINO DEST"
   },
@@ -2893,7 +2893,7 @@
   {
     "NUM": "VEN6",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "WILKER ANGEL"
   },
@@ -2970,7 +2970,7 @@
   {
     "NUM": "VEN17",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 850,
     "NOMBRE": "SAMUEL SOSA"
   },
