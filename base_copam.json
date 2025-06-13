@@ -310,7 +310,7 @@
   {
     "NUM": "BRA1",
     "TIPO": "ESCUDO",
-    "CANT": 10,
+    "CANT": 9,
     "PRECIO": 3000,
     "NOMBRE": "BRA ESC"
   },
@@ -569,7 +569,7 @@
   {
     "NUM": "CAN16",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "ALI AHMED"
   },
@@ -681,7 +681,7 @@
   {
     "NUM": "CHI10",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "GARY MEDEL"
   },
@@ -1080,7 +1080,7 @@
   {
     "NUM": "ECU1",
     "TIPO": "ESCUDO",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 3000,
     "NOMBRE": "ECU ESC"
   },
@@ -1549,7 +1549,7 @@
   {
     "NUM": "JAM10",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "DI'SHON BERNARD"
   },
@@ -2389,7 +2389,7 @@
   {
     "NUM": "ROH2",
     "TIPO": "CAMPEON RIGHT DORADA",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 8000,
     "NOMBRE": "Roll of Honor 2"
   },
@@ -2865,7 +2865,7 @@
   {
     "NUM": "VEN2",
     "TIPO": "EQUIPO",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 2000,
     "NOMBRE": "VEN TEAM"
   },
