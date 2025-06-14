@@ -128,7 +128,7 @@
   {
     "NUM": "ARG19",
     "TIPO": "AFA",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 15000,
     "NOMBRE": "LIONEL MESSI"
   },
@@ -149,7 +149,7 @@
   {
     "NUM": "ARG22",
     "TIPO": "AFA",
-    "CANT": 16,
+    "CANT": 15,
     "PRECIO": 1200,
     "NOMBRE": "LAUTARO MARTINEZ"
   },
@@ -1934,7 +1934,7 @@
   {
     "NUM": "PAN3",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "LUIS MEJIA"
   },
@@ -1990,7 +1990,7 @@
   {
     "NUM": "PAN11",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "ADALBERTO CARRASQUILLA"
   },
@@ -2417,7 +2417,7 @@
   {
     "NUM": "TRI4",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "CHRISTOPHER BIGGETTE"
   },
