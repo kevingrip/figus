@@ -1458,7 +1458,7 @@
   {
     "NUM": "INT1",
     "TIPO": "INTRO",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 8000,
     "NOMBRE": "INTRODUCCION"
   },
@@ -2382,7 +2382,7 @@
   {
     "NUM": "ROH1",
     "TIPO": "CAMPEON LEFT DORADA",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 8000,
     "NOMBRE": "Roll of Honor 1"
   },

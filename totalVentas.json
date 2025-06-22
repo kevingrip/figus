@@ -24565,6 +24565,19 @@
       "Envio": "FLEX",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "MMBADI",
+      "Vendidas": [
+        "INT1",
+        "ROH1"
+      ],
+      "NoVendidas": [],
+      "Dia": "21/6/2025",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
