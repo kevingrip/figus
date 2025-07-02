@@ -156,7 +156,7 @@
   {
     "NUM": "BOL1",
     "TIPO": "ESCUDO",
-    "CANT": 9,
+    "CANT": 8,
     "PRECIO": 3000,
     "NOMBRE": "BOL ESC"
   },
@@ -310,7 +310,7 @@
   {
     "NUM": "BRA1",
     "TIPO": "ESCUDO",
-    "CANT": 9,
+    "CANT": 8,
     "PRECIO": 3000,
     "NOMBRE": "BRA ESC"
   },
@@ -499,7 +499,7 @@
   {
     "NUM": "CAN6",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "RICHIE LARYEA"
   },
@@ -618,7 +618,7 @@
   {
     "NUM": "CHI1",
     "TIPO": "ESCUDO",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 3000,
     "NOMBRE": "CHI ESC"
   },
@@ -1465,7 +1465,7 @@
   {
     "NUM": "INT2",
     "TIPO": "INTRO",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 8000,
     "NOMBRE": "MASCOTA"
   },
@@ -1668,7 +1668,7 @@
   {
     "NUM": "LEG5",
     "TIPO": "LEYENDA",
-    "CANT": 11,
+    "CANT": 10,
     "PRECIO": 3000,
     "NOMBRE": "FRANCESCOLI RIGHT"
   },
@@ -1724,7 +1724,7 @@
   {
     "NUM": "LEG13",
     "TIPO": "LEYENDA",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 3000,
     "NOMBRE": "MARADONA LEFT"
   },
@@ -2795,7 +2795,7 @@
   {
     "NUM": "USA14",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "WESTON MCKENNIE"
   },
