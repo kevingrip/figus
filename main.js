@@ -315,16 +315,17 @@ const totalVentas = () =>{
                     buttonArmado.addEventListener('click',()=>{                        
                         if (objeto["PREARMADO"]==="NO"){
                             objeto["PREARMADO"]="SI"
-                            objeto["ARMADO"]="SI"
                             pantallaVenta.style.backgroundColor='#58d68d'
                         }else{
                             objeto["PREARMADO"]="NO"
-                            objeto["ARMADO"]="NO"
                             pantallaVenta.style.backgroundColor=''
                         }
                     })
 
-
+                    if (objeto["PREARMADO"]==="SI"){
+                        pantallaVenta.style.backgroundColor='#58d68d'
+                    }
+                    
                     
                     
                     if (objeto["Envio"]==='FLEX'){

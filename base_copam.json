@@ -555,7 +555,7 @@
   {
     "NUM": "CAN14",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "ISMAEL KONE"
   },
@@ -1031,7 +1031,7 @@
   {
     "NUM": "CRC16",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "RANDALL LEAL"
   },
@@ -1150,7 +1150,7 @@
   {
     "NUM": "ECU11",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "JHOANNER CHAVEZ"
   },
@@ -2284,7 +2284,7 @@
   {
     "NUM": "PER9",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "MARCOS LOPEZ"
   },
@@ -2382,7 +2382,7 @@
   {
     "NUM": "ROH1",
     "TIPO": "CAMPEON LEFT DORADA",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 8000,
     "NOMBRE": "Roll of Honor 1"
   },

@@ -24552,7 +24552,7 @@
       "Cuenta": "MATI",
       "Envio": "FLEX",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "SEBAGD87",
@@ -24564,7 +24564,7 @@
       "Cuenta": "KEVIN",
       "Envio": "FLEX",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "MMBADI",
@@ -24577,7 +24577,7 @@
       "Cuenta": "MATI",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "MAR_DUBRA",
@@ -24596,7 +24596,7 @@
       "Cuenta": "MATI",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "ELFAMOSOEMI",
@@ -24605,6 +24605,22 @@
       ],
       "NoVendidas": [],
       "Dia": "2/7/2025",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "SI"
+    },
+    {
+      "usuario": "GINA8466790",
+      "Vendidas": [
+        "CAN14",
+        "CRC16",
+        "ECU11",
+        "PER9",
+        "ROH1"
+      ],
+      "NoVendidas": [],
+      "Dia": "7/7/2025",
       "Cuenta": "MATI",
       "Envio": "CORREO",
       "ARMADO": "NO",
@@ -37537,7 +37553,7 @@
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "URJU7783670",
@@ -37549,7 +37565,7 @@
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "ZESBRE",
@@ -37573,7 +37589,7 @@
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     }
   ],
   "Futbol Argentino 2023": [
