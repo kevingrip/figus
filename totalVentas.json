@@ -37617,6 +37617,41 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "DAMIDOR",
+      "Vendidas": [
+        "ARG2",
+        "ARG19",
+        "ENG13",
+        "ESP7",
+        "ESP16",
+        "FRA7",
+        "FRA17",
+        "FRA18",
+        "FWC3",
+        "FWC4",
+        "IRN5",
+        "IRN9",
+        "KSA1",
+        "MEX2",
+        "POL8",
+        "SEN13",
+        "SEN19",
+        "USA2",
+        "WAL9"
+      ],
+      "NoVendidas": [
+        "FWC2",
+        "FWC6",
+        "FWC7",
+        "IRN1"
+      ],
+      "Dia": "9/7/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
