@@ -514,7 +514,7 @@
   },
   {
     "NUM": "BRA1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -1441,7 +1441,7 @@
   },
   {
     "NUM": "DEN1",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -1612,7 +1612,7 @@
   },
   {
     "NUM": "ECU1",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -2332,7 +2332,7 @@
   },
   {
     "NUM": "FWC4",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 5000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
@@ -2476,7 +2476,7 @@
   },
   {
     "NUM": "FWC20",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 5000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
@@ -3592,7 +3592,7 @@
   },
   {
     "NUM": "MAR1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -4105,7 +4105,7 @@
   },
   {
     "NUM": "POL1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -5302,7 +5302,7 @@
   },
   {
     "NUM": "URU1",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",

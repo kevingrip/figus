@@ -37667,6 +37667,29 @@
       "Envio": "FLEX",
       "ARMADO": "NO",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "MEDCAS2024",
+      "Vendidas": [
+        "BRA1",
+        "DEN1",
+        "ECU1",
+        "FWC4",
+        "FWC20",
+        "MAR1",
+        "POL1",
+        "URU1"
+      ],
+      "NoVendidas": [
+        "FWC5",
+        "POR1",
+        "SEN1"
+      ],
+      "Dia": "12/7/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
