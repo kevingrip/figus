@@ -1612,7 +1612,7 @@
   },
   {
     "NUM": "ECU1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -2521,7 +2521,7 @@
   },
   {
     "NUM": "FWC25",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 5000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
@@ -2557,7 +2557,7 @@
   },
   {
     "NUM": "FWC29",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 5000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
