@@ -51,7 +51,7 @@
   {
     "NUM": "ARG8",
     "TIPO": "AFA",
-    "CANT": 14,
+    "CANT": 13,
     "PRECIO": 1200,
     "NOMBRE": "LISANDRO MARTINEZ"
   },
@@ -93,7 +93,7 @@
   {
     "NUM": "ARG14",
     "TIPO": "AFA",
-    "CANT": 13,
+    "CANT": 12,
     "PRECIO": 3000,
     "NOMBRE": "RODRIGO DE PAUL"
   },
@@ -107,7 +107,7 @@
   {
     "NUM": "ARG16",
     "TIPO": "AFA",
-    "CANT": 16,
+    "CANT": 15,
     "PRECIO": 1200,
     "NOMBRE": "ALEXIS MAC ALLISTER"
   },
@@ -863,7 +863,7 @@
   {
     "NUM": "COL14",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "JHON ARIAS"
   },
@@ -2382,7 +2382,7 @@
   {
     "NUM": "ROH1",
     "TIPO": "CAMPEON LEFT DORADA",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 8000,
     "NOMBRE": "Roll of Honor 1"
   },
@@ -2921,7 +2921,7 @@
   {
     "NUM": "VEN10",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "JHON CHANCELLOR"
   },
