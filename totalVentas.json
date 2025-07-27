@@ -37796,6 +37796,27 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "EMANUELROBERTOPEREZ",
+      "Vendidas": [
+        "ARG5",
+        "ARG10",
+        "ARG15",
+        "ARG16",
+        "FWC14",
+        "FWC15"
+      ],
+      "NoVendidas": [
+        "ARG1",
+        "FWC2",
+        "FWC5"
+      ],
+      "Dia": "26/7/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
