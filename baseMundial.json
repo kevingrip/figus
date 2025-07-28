@@ -343,7 +343,7 @@
   },
   {
     "NUM": "BEL1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -1099,7 +1099,7 @@
   },
   {
     "NUM": "CRC1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -2296,7 +2296,7 @@
   },
   {
     "NUM": "FWC0",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 6000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
@@ -2467,7 +2467,7 @@
   },
   {
     "NUM": "FWC19",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 5000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
@@ -2521,7 +2521,7 @@
   },
   {
     "NUM": "FWC25",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 5000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
@@ -2557,7 +2557,7 @@
   },
   {
     "NUM": "FWC29",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 5000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
@@ -2737,7 +2737,7 @@
   },
   {
     "NUM": "GHA1",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -3061,7 +3061,7 @@
   },
   {
     "NUM": "IRN18",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3079,7 +3079,7 @@
   },
   {
     "NUM": "JPN1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -3763,7 +3763,7 @@
   },
   {
     "NUM": "MEX1",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -4420,7 +4420,7 @@
   },
   {
     "NUM": "POR17",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 4500,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4447,7 +4447,7 @@
   },
   {
     "NUM": "QAT1",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -4789,7 +4789,7 @@
   },
   {
     "NUM": "SRB1",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -4960,7 +4960,7 @@
   },
   {
     "NUM": "SUI1",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
