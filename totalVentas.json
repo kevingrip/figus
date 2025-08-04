@@ -24706,6 +24706,20 @@
       "Envio": "FLEX",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "SANTIGIACONE",
+      "Vendidas": [
+        "INT2",
+        "PAR21",
+        "ROH1"
+      ],
+      "NoVendidas": [],
+      "Dia": "3/8/2025",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [

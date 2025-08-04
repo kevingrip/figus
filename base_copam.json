@@ -1465,7 +1465,7 @@
   {
     "NUM": "INT2",
     "TIPO": "INTRO",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 8000,
     "NOMBRE": "MASCOTA"
   },
@@ -2214,7 +2214,7 @@
   {
     "NUM": "PAR21",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "ANTONIO SANABRIA"
   },
@@ -2382,7 +2382,7 @@
   {
     "NUM": "ROH1",
     "TIPO": "CAMPEON LEFT DORADA",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 8000,
     "NOMBRE": "Roll of Honor 1"
   },
