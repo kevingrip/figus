@@ -64,7 +64,7 @@
   },
   {
     "NUM": "ARG8",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 3000,
     "TIPO": "AFA",
     "DIA": "04/06/2024",
@@ -1180,7 +1180,7 @@
   },
   {
     "NUM": "CRC10",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 750,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1441,7 +1441,7 @@
   },
   {
     "NUM": "DEN1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -4843,7 +4843,7 @@
   },
   {
     "NUM": "SRB7",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 750,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
