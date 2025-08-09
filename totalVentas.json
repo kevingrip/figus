@@ -37922,6 +37922,41 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "VERLIFRANCO2023",
+      "Vendidas": [
+        "ARG16",
+        "ARG18",
+        "BEL2",
+        "BEL18",
+        "CAN1",
+        "CRO6",
+        "ENG1",
+        "FRA15",
+        "FWC20",
+        "KOR16",
+        "MAR13",
+        "SRB5",
+        "SRB6",
+        "SRB17",
+        "SUI2",
+        "SUI12",
+        "TUN19",
+        "URU18",
+        "USA3",
+        "USA15"
+      ],
+      "NoVendidas": [
+        "FWC5",
+        "FWC28",
+        "TUN1"
+      ],
+      "Dia": "9/8/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
