@@ -100,7 +100,7 @@
   {
     "NUM": "ARG15",
     "TIPO": "AFA",
-    "CANT": 11,
+    "CANT": 10,
     "PRECIO": 3000,
     "NOMBRE": "ENZO FERNANDEZ"
   },
@@ -548,7 +548,7 @@
   {
     "NUM": "CAN13",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 850,
     "NOMBRE": "STEPHEN EUSTAQUIO"
   },
@@ -800,7 +800,7 @@
   {
     "NUM": "COL5",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "DEIVER MACHADO"
   },
@@ -1850,7 +1850,7 @@
   {
     "NUM": "MEX13",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "LUIS CHAVEZ"
   },
@@ -1962,7 +1962,7 @@
   {
     "NUM": "PAN7",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "MICHAEL MURILLO"
   },
@@ -2200,7 +2200,7 @@
   {
     "NUM": "PAR19",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "GABRIEL AVALOS"
   },
@@ -2284,7 +2284,7 @@
   {
     "NUM": "PER9",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "MARCOS LOPEZ"
   },
@@ -2298,7 +2298,7 @@
   {
     "NUM": "PER11",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "WILDER CARTAGENA"
   },
@@ -2501,7 +2501,7 @@
   {
     "NUM": "TRI16",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 850,
     "NOMBRE": "ANDRE RAMPERSAD"
   },
