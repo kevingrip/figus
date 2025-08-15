@@ -100,7 +100,7 @@
   },
   {
     "NUM": "ARG12",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "TIPO": "AFA",
     "DIA": "04/06/2024",
@@ -109,7 +109,7 @@
   },
   {
     "NUM": "ARG13",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "TIPO": "AFA",
     "DIA": "04/06/2024",
@@ -163,7 +163,7 @@
   },
   {
     "NUM": "ARG19",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 10000,
     "TIPO": "AFA",
     "DIA": "04/06/2024",
@@ -604,7 +604,7 @@
   },
   {
     "NUM": "BRA11",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -640,7 +640,7 @@
   },
   {
     "NUM": "BRA15",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 750,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -649,7 +649,7 @@
   },
   {
     "NUM": "BRA16",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 3000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
