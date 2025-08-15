@@ -660,7 +660,7 @@
   {
     "NUM": "CHI7",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "GUILLERMO MARIPAN"
   },
@@ -674,7 +674,7 @@
   {
     "NUM": "CHI9",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "MATIAS CATALAN"
   },
@@ -898,7 +898,7 @@
   {
     "NUM": "COL19",
     "TIPO": "COMUNES",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "JHON DURAN"
   },
@@ -1024,7 +1024,7 @@
   {
     "NUM": "CRC15",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "CELSO BORGES"
   },
@@ -1094,7 +1094,7 @@
   {
     "NUM": "ECU3",
     "TIPO": "COMUNES",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "ALEXANDER DOMINGUEZ"
   },
@@ -1108,7 +1108,7 @@
   {
     "NUM": "ECU5",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "PIERO HINCAPIE"
   },
@@ -1192,7 +1192,7 @@
   {
     "NUM": "ECU17",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "KENDRY PAEZ"
   },
@@ -1311,14 +1311,14 @@
   {
     "NUM": "HON2",
     "TIPO": "EQUIPO",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 2000,
     "NOMBRE": "HON TEAM"
   },
   {
     "NUM": "HON3",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "ENDRICK MENJIVAR"
   },
@@ -1458,7 +1458,7 @@
   {
     "NUM": "INT1",
     "TIPO": "INTRO",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 8000,
     "NOMBRE": "INTRODUCCION"
   },
@@ -1479,7 +1479,7 @@
   {
     "NUM": "INT4",
     "TIPO": "INTRO",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 8000,
     "NOMBRE": "PELOTA"
   },
@@ -1710,7 +1710,7 @@
   {
     "NUM": "LEG11",
     "TIPO": "LEYENDA",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 3000,
     "NOMBRE": "RONALDO RIGHT"
   },
@@ -2172,7 +2172,7 @@
   {
     "NUM": "PAR15",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "MIGUEL ALMIRON"
   },
@@ -2424,7 +2424,7 @@
   {
     "NUM": "TRI5",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 850,
     "NOMBRE": "ROSS RUSSELL JR"
   },
@@ -2452,7 +2452,7 @@
   {
     "NUM": "TRI9",
     "TIPO": "COMUNES",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "SHANNON GOMEZ"
   },
@@ -2970,7 +2970,7 @@
   {
     "NUM": "VEN17",
     "TIPO": "COMUNES",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 850,
     "NOMBRE": "SAMUEL SOSA"
   },
