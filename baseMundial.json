@@ -1612,7 +1612,7 @@
   },
   {
     "NUM": "ECU1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -1684,7 +1684,7 @@
   },
   {
     "NUM": "ECU9",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1729,7 +1729,7 @@
   },
   {
     "NUM": "ECU14",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1756,7 +1756,7 @@
   },
   {
     "NUM": "ECU17",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1765,7 +1765,7 @@
   },
   {
     "NUM": "ECU18",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 750,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1783,7 +1783,7 @@
   },
   {
     "NUM": "ENG1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -2350,7 +2350,7 @@
   },
   {
     "NUM": "FWC6",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 5000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
@@ -2431,7 +2431,7 @@
   },
   {
     "NUM": "FWC15",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 750,
     "TIPO": "FWCC",
     "DIA": "04/06/2024",
@@ -2944,7 +2944,7 @@
   },
   {
     "NUM": "IRN5",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3070,7 +3070,7 @@
   },
   {
     "NUM": "IRN19",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 750,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4447,7 +4447,7 @@
   },
   {
     "NUM": "QAT1",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -4564,7 +4564,7 @@
   },
   {
     "NUM": "QAT14",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4672,7 +4672,7 @@
   },
   {
     "NUM": "SEN7",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4771,7 +4771,7 @@
   },
   {
     "NUM": "SEN18",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 750,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -5473,7 +5473,7 @@
   },
   {
     "NUM": "USA1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -5482,7 +5482,7 @@
   },
   {
     "NUM": "USA2",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 750,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -5500,7 +5500,7 @@
   },
   {
     "NUM": "USA4",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 750,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -5635,7 +5635,7 @@
   },
   {
     "NUM": "USA19",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -5680,7 +5680,7 @@
   },
   {
     "NUM": "WAL5",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 1000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
