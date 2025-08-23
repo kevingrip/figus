@@ -23,14 +23,14 @@
   {
     "NUM": "ARG4",
     "TIPO": "AFA",
-    "CANT": 15,
+    "CANT": 14,
     "PRECIO": 1200,
     "NOMBRE": "FRANCO ARMANI"
   },
   {
     "NUM": "ARG5",
     "TIPO": "AFA",
-    "CANT": 15,
+    "CANT": 14,
     "PRECIO": 1200,
     "NOMBRE": "NICOLAS OTAMENDI"
   },
@@ -86,7 +86,7 @@
   {
     "NUM": "ARG13",
     "TIPO": "AFA",
-    "CANT": 17,
+    "CANT": 16,
     "PRECIO": 1200,
     "NOMBRE": "LEANDRO PAREDES"
   },
@@ -107,14 +107,14 @@
   {
     "NUM": "ARG16",
     "TIPO": "AFA",
-    "CANT": 15,
+    "CANT": 14,
     "PRECIO": 1200,
     "NOMBRE": "ALEXIS MAC ALLISTER"
   },
   {
     "NUM": "ARG17",
     "TIPO": "AFA",
-    "CANT": 17,
+    "CANT": 16,
     "PRECIO": 1200,
     "NOMBRE": "PAULO DYBALA"
   },
@@ -135,7 +135,7 @@
   {
     "NUM": "ARG20",
     "TIPO": "AFA",
-    "CANT": 17,
+    "CANT": 16,
     "PRECIO": 1200,
     "NOMBRE": "JULIAN ALVAREZ"
   },
@@ -1269,7 +1269,7 @@
   {
     "NUM": "HCI6",
     "TIPO": "CIUDAD",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 3000,
     "NOMBRE": "EAST RUTHERFORD"
   },
@@ -1297,7 +1297,7 @@
   {
     "NUM": "HCI10",
     "TIPO": "CIUDAD",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 3000,
     "NOMBRE": "MIAMI GARDENS"
   },
@@ -1479,7 +1479,7 @@
   {
     "NUM": "INT4",
     "TIPO": "INTRO",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 8000,
     "NOMBRE": "PELOTA"
   },
@@ -1654,7 +1654,7 @@
   {
     "NUM": "LEG3",
     "TIPO": "LEYENDA DORADA",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 6000,
     "NOMBRE": "PELE"
   },
@@ -1682,7 +1682,7 @@
   {
     "NUM": "LEG7",
     "TIPO": "LEYENDA",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 3000,
     "NOMBRE": "FORLAN LEFT"
   },
@@ -1703,7 +1703,7 @@
   {
     "NUM": "LEG10",
     "TIPO": "LEYENDA",
-    "CANT": 8,
+    "CANT": 7,
     "PRECIO": 3000,
     "NOMBRE": "RONALDO LEFT"
   },
@@ -1738,7 +1738,7 @@
   {
     "NUM": "LEG15",
     "TIPO": "LEYENDA DORADA",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 3500,
     "NOMBRE": "PAOLO GUERRERO"
   },
@@ -1759,7 +1759,7 @@
   {
     "NUM": "LEG18",
     "TIPO": "LEYENDA DORADA",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 3500,
     "NOMBRE": "ALEXIS SANCHEZ"
   },
