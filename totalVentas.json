@@ -25902,6 +25902,22 @@
       "Envio": "CORREO",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "PIERO34",
+      "Vendidas": [
+        "SEM2",
+        "SEM6",
+        "SEM9",
+        "RIV10",
+        "RIV13"
+      ],
+      "NoVendidas": [],
+      "Dia": "1/9/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Mundial Qatar 2022": [

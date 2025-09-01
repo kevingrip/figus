@@ -1766,7 +1766,7 @@
   {
     "NUM": "SEM2",
     "TIPO": "SEMILLERO",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 1500,
     "NOMBRE": "Aaron Anselmino"
   },
@@ -1794,7 +1794,7 @@
   {
     "NUM": "SEM6",
     "TIPO": "SEMILLERO",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": "Claudio Echeverri"
   },
@@ -1815,7 +1815,7 @@
   {
     "NUM": "SEM9",
     "TIPO": "SEMILLERO",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 4500,
     "NOMBRE": "Franco Mastantuono"
   },
@@ -2599,7 +2599,7 @@
   {
     "NUM": "RIV10",
     "TIPO": "ESP",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": "Franco Mastantuono"
   },
@@ -2620,7 +2620,7 @@
   {
     "NUM": "RIV13",
     "TIPO": "ESP",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 1500,
     "NOMBRE": "Claudio Echeverri"
   },
