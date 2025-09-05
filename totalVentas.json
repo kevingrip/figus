@@ -24766,7 +24766,7 @@
       "Cuenta": "MATI",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     }
   ],
   "Futbol Arg 2024": [
@@ -25917,7 +25917,7 @@
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     }
   ],
   "Mundial Qatar 2022": [
@@ -38091,7 +38091,7 @@
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "SOYBOQUENSE",
@@ -38121,6 +38121,35 @@
         "NED1"
       ],
       "Dia": "19/8/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "SI"
+    },
+    {
+      "usuario": "FLAVIAVANINABENAVIDEZ",
+      "Vendidas": [
+        "ARG19",
+        "BEL9",
+        "BEL19",
+        "BRA11",
+        "BRA16",
+        "CAN14",
+        "CRO10",
+        "KOR4",
+        "KOR11",
+        "KOR12",
+        "KOR16",
+        "KOR18",
+        "KOR19",
+        "POR6",
+        "POR8",
+        "URU15"
+      ],
+      "NoVendidas": [
+        "ESP1"
+      ],
+      "Dia": "5/9/2025",
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
