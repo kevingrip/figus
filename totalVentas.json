@@ -24767,6 +24767,18 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "mati",
+      "Vendidas": [
+        "INT4"
+      ],
+      "NoVendidas": [],
+      "Dia": "19/9/2025",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
