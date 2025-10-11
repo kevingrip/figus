@@ -24779,6 +24779,49 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "ROLU8611941",
+      "Vendidas": [
+        "ARG3",
+        "ARG5",
+        "ARG7",
+        "ARG10",
+        "CAN5",
+        "CAN6",
+        "CAN12",
+        "CAN22",
+        "COL2",
+        "CRC11",
+        "CRC13",
+        "CRC18",
+        "HON14",
+        "HON18",
+        "JAM7",
+        "JAM9",
+        "JAM11",
+        "JAM20",
+        "LEG14",
+        "LEG18",
+        "PAN14",
+        "PAR1",
+        "PAR9",
+        "PER6",
+        "TRI18",
+        "URU1",
+        "USA18",
+        "VEN1"
+      ],
+      "NoVendidas": [
+        "INT2",
+        "INT4",
+        "ROH2"
+      ],
+      "Dia": "11/10/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
