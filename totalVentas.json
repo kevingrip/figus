@@ -38507,6 +38507,38 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "RUFR2727937",
+      "Vendidas": [
+        "ARG13",
+        "AUS1",
+        "AUS11",
+        "BEL15",
+        "DEN2",
+        "FWC5",
+        "GER5",
+        "KSA2",
+        "KSA6",
+        "KSA8",
+        "KSA16",
+        "KSA17",
+        "MEX18",
+        "TUN19",
+        "USA8",
+        "USA13",
+        "WAL17"
+      ],
+      "NoVendidas": [
+        "ARG1",
+        "CRC1",
+        "USA1"
+      ],
+      "Dia": "29/10/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
