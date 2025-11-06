@@ -145,7 +145,7 @@
   },
   {
     "NUM": "ARG17",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 750,
     "TIPO": "AFA",
     "DIA": "04/06/2024",
@@ -514,7 +514,7 @@
   },
   {
     "NUM": "BRA1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 6500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -928,7 +928,7 @@
   },
   {
     "NUM": "CMR1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 6500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -1675,7 +1675,7 @@
   },
   {
     "NUM": "ECU8",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -1765,7 +1765,7 @@
   },
   {
     "NUM": "ECU18",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3214,7 +3214,7 @@
   },
   {
     "NUM": "JPN16",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -3763,7 +3763,7 @@
   },
   {
     "NUM": "MEX1",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 6500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -5644,7 +5644,7 @@
   },
   {
     "NUM": "WAL1",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 6500,
     "TIPO": "ESC",
     "DIA": "04/06/2024",

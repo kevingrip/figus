@@ -38539,6 +38539,29 @@
       "Envio": "FLEX",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "ROJOPINEDA",
+      "Vendidas": [
+        "ARG17",
+        "BRA1",
+        "CMR1",
+        "ECU8",
+        "ECU18",
+        "JPN16",
+        "MEX1",
+        "WAL1"
+      ],
+      "NoVendidas": [
+        "FWC28",
+        "JPN1",
+        "URU1"
+      ],
+      "Dia": "6/11/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
