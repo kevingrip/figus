@@ -24778,7 +24778,7 @@
       "Cuenta": "MATI",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "ROLU8611941",
@@ -24821,127 +24821,7 @@
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
-    },
-    {
-      "usuario": "CARGABI19",
-      "Vendidas": [
-        "ARG1",
-        "ARG14",
-        "ARG19",
-        "BRA7",
-        "BRA18",
-        "CAN18",
-        "CHI2",
-        "CHI5",
-        "CHI14",
-        "CHI15",
-        "CRC6",
-        "CRC12",
-        "ECU4",
-        "ECU17",
-        "HCI8",
-        "HON5",
-        "INT1",
-        "LEG2",
-        "PER2",
-        "PER13",
-        "TRI1",
-        "TRI16",
-        "TRI17",
-        "ARG1",
-        "ARG14",
-        "ARG19",
-        "BRA7",
-        "BRA18",
-        "CAN18",
-        "CHI2",
-        "CHI5",
-        "CHI14",
-        "CHI15",
-        "CRC6",
-        "CRC12",
-        "ECU4",
-        "ECU17",
-        "HCI8",
-        "HON5",
-        "LEG2",
-        "PER2",
-        "PER13",
-        "TRI1",
-        "TRI16",
-        "TRI17"
-      ],
-      "NoVendidas": [
-        "ROH1",
-        "INT1",
-        "ROH1"
-      ],
-      "Dia": "6/12/2025",
-      "Cuenta": "KEVIN",
-      "Envio": "FLEX",
-      "ARMADO": "NO",
-      "PREARMADO": "NO"
-    },
-    {
-      "usuario": "CARGABI19",
-      "Vendidas": [
-        "ARG1",
-        "ARG14",
-        "ARG19",
-        "BRA7",
-        "BRA18",
-        "CAN18",
-        "CHI2",
-        "CHI5",
-        "CHI14",
-        "CHI15",
-        "CRC6",
-        "CRC12",
-        "ECU4",
-        "ECU17",
-        "HCI8",
-        "HON5",
-        "INT1",
-        "LEG2",
-        "PER2",
-        "PER13",
-        "TRI1",
-        "TRI16",
-        "TRI17",
-        "ARG1",
-        "ARG14",
-        "ARG19",
-        "BRA7",
-        "BRA18",
-        "CAN18",
-        "CHI2",
-        "CHI5",
-        "CHI14",
-        "CHI15",
-        "CRC6",
-        "CRC12",
-        "ECU4",
-        "ECU17",
-        "HCI8",
-        "HON5",
-        "LEG2",
-        "PER2",
-        "PER13",
-        "TRI1",
-        "TRI16",
-        "TRI17"
-      ],
-      "NoVendidas": [
-        "ROH1",
-        "INT1",
-        "ROH1"
-      ],
-      "Dia": "6/12/2025",
-      "Cuenta": "KEVIN",
-      "Envio": "FLEX",
-      "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     }
   ],
   "Futbol Arg 2024": [
@@ -26189,7 +26069,7 @@
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     }
   ],
   "Mundial Qatar 2022": [
@@ -38425,7 +38305,7 @@
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "ARIELQUATTRO",
@@ -38452,7 +38332,7 @@
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "SOYBOQUENSE",
@@ -38527,7 +38407,7 @@
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "PASE4287192",
@@ -38601,7 +38481,7 @@
       "Cuenta": "KEVIN",
       "Envio": "FLEX",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "MEDCAS2024",
@@ -38614,7 +38494,7 @@
       "Cuenta": "KEVIN",
       "Envio": "FLEX",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "ALEJODILLUVIO",
@@ -38626,7 +38506,7 @@
       "Cuenta": "KEVIN",
       "Envio": "CORREO",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "RUFR2727937",
@@ -38658,7 +38538,7 @@
       "Cuenta": "KEVIN",
       "Envio": "FLEX",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     },
     {
       "usuario": "ROJOPINEDA",
@@ -38681,7 +38561,7 @@
       "Cuenta": "KEVIN",
       "Envio": "FLEX",
       "ARMADO": "NO",
-      "PREARMADO": "NO"
+      "PREARMADO": "SI"
     }
   ],
   "Futbol Argentino 2023": [
