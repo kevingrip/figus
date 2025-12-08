@@ -24860,7 +24860,6 @@
       "PREARMADO": "NO"
     }
   ],
-  
   "Futbol Arg 2024": [
     {
       "usuario": "JUANPABLOYOGNA",
@@ -38597,6 +38596,39 @@
       "Dia": "6/11/2025",
       "Cuenta": "KEVIN",
       "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
+    },
+    {
+      "usuario": "GURFINKELJORGE",
+      "Vendidas": [
+        "ECU13",
+        "ECU16",
+        "ECU18",
+        "ENG11",
+        "ENG12",
+        "IRN12",
+        "IRN13",
+        "NED12",
+        "NED13",
+        "NED18",
+        "QAT12",
+        "QAT13",
+        "SEN13",
+        "SEN14",
+        "SEN15",
+        "USA15",
+        "WAL1",
+        "WAL15"
+      ],
+      "NoVendidas": [
+        "ENG1",
+        "IRN1",
+        "QAT1"
+      ],
+      "Dia": "8/12/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
     }
