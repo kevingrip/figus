@@ -38663,6 +38663,35 @@
       "Envio": "FLEX",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "PAUCO",
+      "Vendidas": [
+        "BEL1",
+        "CAN1",
+        "CRO1",
+        "FWC2",
+        "FWC19",
+        "FWC24",
+        "KSA1",
+        "MAR5",
+        "MAR13",
+        "MAR19",
+        "QAT2",
+        "SEN1"
+      ],
+      "NoVendidas": [
+        "AUS1",
+        "FRA1",
+        "FWC28",
+        "JPN1",
+        "NED1"
+      ],
+      "Dia": "14/12/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
