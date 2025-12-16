@@ -38692,6 +38692,35 @@
       "Envio": "FLEX",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "SPIELDEPORTES",
+      "Vendidas": [
+        "ARG15",
+        "ARG17",
+        "BRA10",
+        "ECU5",
+        "ENG18",
+        "ESP2",
+        "FRA8",
+        "FWC3",
+        "IRN12",
+        "IRN13",
+        "NED15",
+        "POR16",
+        "QAT2",
+        "QAT13",
+        "SEN11",
+        "USA12"
+      ],
+      "NoVendidas": [
+        "ARG14"
+      ],
+      "Dia": "16/12/2025",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
