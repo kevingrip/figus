@@ -38836,6 +38836,48 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "FLORENCIAALBERT",
+      "Vendidas": [
+        "BRA12",
+        "BRA18",
+        "CMR18",
+        "CRC7",
+        "CRC12",
+        "ECU6",
+        "ECU15",
+        "ESP18",
+        "FRA15",
+        "FWC1",
+        "FWC7",
+        "FWC12",
+        "FWC16",
+        "FWC17",
+        "FWC20",
+        "FWC21",
+        "GER15",
+        "GHA1",
+        "JPN13",
+        "JPN17",
+        "KOR18",
+        "KOR19",
+        "KSA1",
+        "KSA13",
+        "MEX9",
+        "TUN8",
+        "USA5"
+      ],
+      "NoVendidas": [
+        "BEL1",
+        "BRA1",
+        "FWC3"
+      ],
+      "Dia": "12/1/2026",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
