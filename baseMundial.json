@@ -1747,7 +1747,7 @@
   },
   {
     "NUM": "ECU16",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -2305,7 +2305,7 @@
   },
   {
     "NUM": "FWC1",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3500,
     "TIPO": "FWCC",
     "DIA": "04/06/2024",
@@ -2404,7 +2404,7 @@
   },
   {
     "NUM": "FWC12",
-    "CANT": 9,
+    "CANT": 8,
     "PRECIO": 3500,
     "TIPO": "FWCC",
     "DIA": "04/06/2024",
@@ -2422,7 +2422,7 @@
   },
   {
     "NUM": "FWC14",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 3500,
     "TIPO": "FWCC",
     "DIA": "04/06/2024",
@@ -2449,7 +2449,7 @@
   },
   {
     "NUM": "FWC17",
-    "CANT": 11,
+    "CANT": 10,
     "PRECIO": 3500,
     "TIPO": "FWCC",
     "DIA": "04/06/2024",
@@ -2530,7 +2530,7 @@
   },
   {
     "NUM": "FWC26",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 8000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
@@ -2971,7 +2971,7 @@
   },
   {
     "NUM": "IRN8",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4015,7 +4015,7 @@
   },
   {
     "NUM": "NED10",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4024,7 +4024,7 @@
   },
   {
     "NUM": "NED11",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4060,7 +4060,7 @@
   },
   {
     "NUM": "NED15",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4096,7 +4096,7 @@
   },
   {
     "NUM": "NED19",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4690,7 +4690,7 @@
   },
   {
     "NUM": "SEN9",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4771,7 +4771,7 @@
   },
   {
     "NUM": "SEN18",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -4780,7 +4780,7 @@
   },
   {
     "NUM": "SEN19",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 2000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
