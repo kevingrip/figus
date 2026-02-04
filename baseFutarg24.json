@@ -198,7 +198,7 @@
   {
     "NUM": "ARJ16",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -247,7 +247,7 @@
   {
     "NUM": "ATU6",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -814,7 +814,7 @@
   {
     "NUM": "CCO2",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -1276,7 +1276,7 @@
   {
     "NUM": "EST17",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -1311,7 +1311,7 @@
   {
     "NUM": "GIM5",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -1416,7 +1416,7 @@
   {
     "NUM": "GOD3",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -1661,7 +1661,7 @@
   {
     "NUM": "IND4",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -1696,7 +1696,7 @@
   {
     "NUM": "IND9",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -1752,7 +1752,7 @@
   {
     "NUM": "IND17",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -1920,7 +1920,7 @@
   {
     "NUM": "IRM15",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -2116,7 +2116,7 @@
   {
     "NUM": "LAN9",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -2368,7 +2368,7 @@
   {
     "NUM": "PLA11",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -2487,7 +2487,7 @@
   {
     "NUM": "RAC11",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -2620,7 +2620,7 @@
   {
     "NUM": "RIV13",
     "TIPO": "ESP",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": "Claudio Echeverri"
   },
@@ -3355,7 +3355,7 @@
   {
     "NUM": "UNI16",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 750,
     "NOMBRE": ""
   },
@@ -3390,7 +3390,7 @@
   {
     "NUM": "VEL4",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 750,
     "NOMBRE": ""
   },
