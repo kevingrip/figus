@@ -685,7 +685,7 @@
   },
   {
     "NUM": "C1",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 6000,
     "TIPO": "COCA",
     "DIA": "04/06/2024",
@@ -2530,7 +2530,7 @@
   },
   {
     "NUM": "FWC26",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 8000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
@@ -2557,7 +2557,7 @@
   },
   {
     "NUM": "FWC29",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 8000,
     "TIPO": "FWCD",
     "DIA": "04/06/2024",
