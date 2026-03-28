@@ -39287,6 +39287,27 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "LGAMARRA2010",
+      "Vendidas": [
+        "CRC16",
+        "FWC19",
+        "KSA12",
+        "KSA17",
+        "MEX1",
+        "TUN7"
+      ],
+      "NoVendidas": [
+        "FWC3",
+        "FWC4",
+        "FWC20"
+      ],
+      "Dia": "28/3/2026",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
