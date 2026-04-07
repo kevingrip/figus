@@ -39397,6 +39397,34 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "MICAELAMONTES",
+      "Vendidas": [
+        "ARG16",
+        "BEL8",
+        "CMR6",
+        "ESP17",
+        "FRA11",
+        "GER16",
+        "IRN8",
+        "MEX7",
+        "NED11",
+        "POL1",
+        "SRB18",
+        "USA6",
+        "USA7"
+      ],
+      "NoVendidas": [
+        "CRO10",
+        "ECU16",
+        "TUN1"
+      ],
+      "Dia": "7/4/2026",
+      "Cuenta": "KEVIN",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
