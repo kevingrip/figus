@@ -37,7 +37,7 @@
   },
   {
     "NUM": "ARG5",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 10000,
     "TIPO": "AFA",
     "DIA": "04/06/2024",
@@ -676,7 +676,7 @@
   },
   {
     "NUM": "BRA19",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 3000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
@@ -2215,7 +2215,7 @@
   },
   {
     "NUM": "FRA11",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 3000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
