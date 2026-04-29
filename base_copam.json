@@ -114,7 +114,7 @@
   {
     "NUM": "ARG17",
     "TIPO": "AFA",
-    "CANT": 16,
+    "CANT": 15,
     "PRECIO": 3000,
     "NOMBRE": "PAULO DYBALA"
   },
@@ -1080,7 +1080,7 @@
   {
     "NUM": "ECU1",
     "TIPO": "ESCUDO",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 6000,
     "NOMBRE": "ECU ESC"
   },
@@ -1304,7 +1304,7 @@
   {
     "NUM": "HON1",
     "TIPO": "ESCUDO",
-    "CANT": 9,
+    "CANT": 8,
     "PRECIO": 6000,
     "NOMBRE": "HON ESC"
   },
@@ -1402,7 +1402,7 @@
   {
     "NUM": "HON15",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 1500,
     "NOMBRE": "ALEXANDER LOPEZ"
   },
@@ -1535,7 +1535,7 @@
   {
     "NUM": "JAM8",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 1500,
     "NOMBRE": "ADRIAN MARIAPPA"
   },
@@ -1640,7 +1640,7 @@
   {
     "NUM": "LEG1",
     "TIPO": "LEYENDA",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 6000,
     "NOMBRE": "BATISTUTA LEFT"
   },
@@ -1815,7 +1815,7 @@
   {
     "NUM": "MEX8",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 1500,
     "NOMBRE": "GERARDO ARTEAGA"
   },
