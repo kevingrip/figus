@@ -1280,8 +1280,8 @@ const buscarFigus = (tipo) => {
     valorInput = valorInput.replace(/IRIRAN|IRÁN|IRAN|IRAM|LRN/g, "IRN");
     valorInput = valorInput.replace(/JAPON|JAPAN|JAPN|JAP/g, "JPN");
     valorInput = valorInput.replace(/KOREA|COREA|KOREADELSUR|COR|COREADELSUR|KOREAREPUBLIC|KORE|KOREAREPBLICA|KOREAREPUBIC/g, "KOR");
-    valorInput = valorInput.replace(/ARABIASAUDITA|ARABIASAUDI|SAUDIARABIA|ARABIA|SAUDIAR|ARAB|ARABSAU|SAUDARABIA/g, "KSA");
-    valorInput = valorInput.replace(/MARRUECOS|MOROCCO|MORROCO|MAROCCO|MOROCO|MARRU|MARR|MRR/g, "MAR");
+    valorInput = valorInput.replace(/ARABIASAUDITA|ARABIASAUDI|SAUDIARABIA|ARABIA|SAUDIAR|ARABSAU|SAUDARABIA|ARAB|ARA/g, "KSA");
+    valorInput = valorInput.replace(/MARRUECOS|MOROCCO|MORROCO|MAROCCO|MOROCO|MARRU|MARR|MRR|MOR/g, "MAR");
     valorInput = valorInput.replace(/HOLANDA|NETHERLANDS|NEDERLAND|PAISESBAJOS|OLANDA|NETHER|NETHELAND|PASESBAJOS|HOL|HOLAN|NETHERLAND/g, "NED");
     valorInput = valorInput.replace(/POLONIA|POLAND/g, "POL");
     valorInput = valorInput.replace(/PORTUGAL|PORT/g, "POR");
