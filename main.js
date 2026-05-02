@@ -1516,7 +1516,7 @@ const buscarFigus = (tipo) => {
                 mensaje.textContent = `${faltanText(faltantes)}${singPluPre(cantFigusStock)} ${figuInd} es ${totalPrecio==850?3700:totalPrecio<3500?4000:totalPrecio}${confirmacion}`
             }else{
                 if (cantFigusStock==0){
-                    mensaje.textContent = `Hola! No la tengo en stock en este momento. Podes consultarme nuevamente en unos dias para ver si ingresó. Saludos!`
+                    mensaje.textContent = `Hola! No las tengo en stock. Saludos!`
                 }else{
                     mensaje.textContent = `${faltanText(faltantes)}${singPluPre(cantFigusStock)} ${totalPrecio<6000?((cantFigusStock*1200)+1700):totalPrecio<((cantFigusStock+1)*1000) && totalPrecio<costoEnvioGratis ? totalPrecio+2000 : totalPrecio}${confirmacion}${totalPrecio>=costoEnvioGratis?' con Envio Gratis!!':'. Saludos!'}`
                 }
@@ -1777,7 +1777,7 @@ const buscarFigus = (tipo) => {
 
     }else{
         const errorEscritura = document.createElement('p');
-        errorEscritura.innerHTML = `${valorInput.length>0 ? `Error de escritura. Presta atencion loro.<br> Posible error: ${error}` : 'Ingrese figuritas' }`;
+        errorEscritura.innerHTML = `${valorInput.length>0 ? `Error de escritura.<br> Posible error: ${error}` : 'Ingrese figuritas' }`;
         errorEscritura.classList.add('clientFigu')
         resultados.appendChild(errorEscritura);
     }   
