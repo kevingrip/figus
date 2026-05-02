@@ -25384,6 +25384,12 @@
                 "WAL5",
                 "WAL7"
             ]
+        },
+        {
+            "usuario": "prueba",
+            "figusPedidas": [
+                "BRA1"
+            ]
         }
     ]
 }

@@ -1,3 +1,4 @@
+
 def renamePaises(listaOriginal,lista3LetrasPaises,variantesTotales):
 
     FWC = ['FWC','FCW','FW','DORADAS','ESTADIO','MUSEO']
