@@ -39591,6 +39591,25 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "GHA12",
+        "GHA14",
+        "MAR6",
+        "MAR7",
+        "MAR10",
+        "MAR16",
+        "POR13",
+        "POR16"
+      ],
+      "NoVendidas": [],
+      "Dia": "4/5/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
