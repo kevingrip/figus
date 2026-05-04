@@ -39610,6 +39610,38 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "SILVIAZELONE",
+      "Vendidas": [
+        "BEL4",
+        "BRA6",
+        "C5",
+        "C8",
+        "CAN9",
+        "CMR9",
+        "FWC0",
+        "GER2",
+        "GHA2",
+        "IRN12",
+        "KSA10",
+        "MEX2",
+        "NED18",
+        "POL2",
+        "QAT19",
+        "TUN11"
+      ],
+      "NoVendidas": [
+        "C6",
+        "CRC1",
+        "FWC2",
+        "FWC6"
+      ],
+      "Dia": "4/5/2026",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
