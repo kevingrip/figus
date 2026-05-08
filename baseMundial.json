@@ -2737,7 +2737,7 @@
   },
   {
     "NUM": "GHA1",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 12000,
     "TIPO": "ESC",
     "DIA": "04/06/2024",
@@ -4807,7 +4807,7 @@
   },
   {
     "NUM": "SRB3",
-    "CANT": 5,
+    "CANT": 6,
     "PRECIO": 3000,
     "TIPO": "COMUNES",
     "DIA": "04/06/2024",
