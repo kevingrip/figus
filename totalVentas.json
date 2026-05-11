@@ -24878,6 +24878,28 @@
       "Envio": "FLEX",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "ARG12",
+        "ARG15",
+        "ARG16",
+        "CAN1",
+        "CHI18",
+        "CRC10",
+        "MEX13",
+        "PAR20",
+        "TRI17",
+        "USA19",
+        "VEN6"
+      ],
+      "NoVendidas": [],
+      "Dia": "11/5/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
