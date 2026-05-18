@@ -39690,6 +39690,20 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "CRO8",
+        "FWC25",
+        "POL7"
+      ],
+      "NoVendidas": [],
+      "Dia": "18/5/2026",
+      "Cuenta": "MATI",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
