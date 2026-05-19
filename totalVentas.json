@@ -39704,6 +39704,22 @@
       "Envio": "FLEX",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "C7",
+        "GHA1",
+        "SRB1",
+        "SUI1",
+        "WAL1"
+      ],
+      "NoVendidas": [],
+      "Dia": "19/5/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
