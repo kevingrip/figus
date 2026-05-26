@@ -226,7 +226,7 @@
   {
     "NUM": "BOL11",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 3000,
     "NOMBRE": "ROBERTO FERNANDEZ"
   },
@@ -373,7 +373,7 @@
   {
     "NUM": "BRA10",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "NOMBRE": "EMERSON ROYAL"
   },
@@ -919,7 +919,7 @@
   {
     "NUM": "COL22",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 3000,
     "NOMBRE": "LUIS DIAZ"
   },
@@ -1717,7 +1717,7 @@
   {
     "NUM": "LEG12",
     "TIPO": "LEYENDA DORADA",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 10000,
     "NOMBRE": "MORENO MARTINS"
   },
@@ -1850,7 +1850,7 @@
   {
     "NUM": "MEX13",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 3000,
     "NOMBRE": "LUIS CHAVEZ"
   },
@@ -1976,7 +1976,7 @@
   {
     "NUM": "PAN9",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 3000,
     "NOMBRE": "JOSE CORDOBA"
   },
@@ -1997,7 +1997,7 @@
   {
     "NUM": "PAN12",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "NOMBRE": "ALFREDO STEPHENS"
   },
@@ -2816,7 +2816,7 @@
   {
     "NUM": "USA17",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": "BRENDEN AARONSON"
   },
@@ -2886,7 +2886,7 @@
   {
     "NUM": "VEN5",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "NOMBRE": "ALEXANDER GONZALEZ"
   },
