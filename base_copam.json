@@ -317,7 +317,7 @@
   {
     "NUM": "BRA2",
     "TIPO": "EQUIPO",
-    "CANT": 8,
+    "CANT": 7,
     "PRECIO": 2000,
     "NOMBRE": "BRA TEAM"
   },
@@ -464,7 +464,7 @@
   {
     "NUM": "CAN1",
     "TIPO": "ESCUDO",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 9000,
     "NOMBRE": "CAN ESC"
   },
@@ -758,7 +758,7 @@
   {
     "NUM": "CHI21",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "NOMBRE": "ALEXIS SANCHEZ"
   },
@@ -786,7 +786,7 @@
   {
     "NUM": "COL3",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "NOMBRE": "DAVID OSPINA"
   },
@@ -940,7 +940,7 @@
   {
     "NUM": "CRC3",
     "TIPO": "COMUNES",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 3000,
     "NOMBRE": "KEYLOR NAVAS"
   },
@@ -1304,7 +1304,7 @@
   {
     "NUM": "HON1",
     "TIPO": "ESCUDO",
-    "CANT": 8,
+    "CANT": 7,
     "PRECIO": 9000,
     "NOMBRE": "HON ESC"
   },

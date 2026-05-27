@@ -24920,6 +24920,23 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "BRA2",
+        "CAN1",
+        "CHI21",
+        "COL3",
+        "CRC3",
+        "HON1"
+      ],
+      "NoVendidas": [],
+      "Dia": "26/5/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
