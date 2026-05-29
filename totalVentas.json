@@ -24937,6 +24937,20 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "ARG18",
+        "CRC4",
+        "USA20"
+      ],
+      "NoVendidas": [],
+      "Dia": "29/5/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
