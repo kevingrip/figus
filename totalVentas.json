@@ -24951,6 +24951,35 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "ARG12",
+        "BOL5",
+        "BOL8",
+        "BOL19",
+        "CRC2",
+        "CRC4",
+        "CRC6",
+        "CRC18",
+        "CRC20",
+        "HON20",
+        "LEG4",
+        "MEX5",
+        "PAN18",
+        "PAR5",
+        "TRI1",
+        "TRI11",
+        "USA11",
+        "VEN18"
+      ],
+      "NoVendidas": [],
+      "Dia": "31/5/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
