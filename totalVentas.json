@@ -39836,6 +39836,27 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "BEL11",
+        "CRC8",
+        "CRC11",
+        "ESP11",
+        "FWC12",
+        "NED4",
+        "POL14",
+        "SRB3",
+        "TUN4",
+        "WAL3"
+      ],
+      "NoVendidas": [],
+      "Dia": "31/5/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
