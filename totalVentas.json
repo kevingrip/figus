@@ -24980,6 +24980,44 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "YOUFLOW",
+      "Vendidas": [
+        "ARG19",
+        "BOL1",
+        "BOL2",
+        "BOL5",
+        "BOL6",
+        "BOL12",
+        "BRA1",
+        "CAN14",
+        "CAN16",
+        "CAN22",
+        "COL2",
+        "COL8",
+        "COL22",
+        "CRC6",
+        "HCI2",
+        "HCI4",
+        "HON2",
+        "HON4",
+        "HON19",
+        "LEG3",
+        "LEG18",
+        "PAN1",
+        "PAN14",
+        "PAN17",
+        "TRI3"
+      ],
+      "NoVendidas": [
+        "INT1"
+      ],
+      "Dia": "2/6/2026",
+      "Cuenta": "KEVIN",
+      "Envio": "FLEX",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
