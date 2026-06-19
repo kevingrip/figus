@@ -40017,6 +40017,19 @@
       "Envio": "FLEX",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "DEN14",
+        "SEN6"
+      ],
+      "NoVendidas": [],
+      "Dia": "18/6/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
