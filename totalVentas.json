@@ -868,6 +868,19 @@
       "Envio": "ACORDAR ENTREGA",
       "ARMADO": "SI",
       "PREARMADO": "SI"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "333",
+        "341"
+      ],
+      "NoVendidas": [],
+      "Dia": "22/6/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Copa America 2024": [
