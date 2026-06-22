@@ -79,7 +79,7 @@
   {
     "NUM": "ARG12",
     "TIPO": "AFA",
-    "CANT": 11,
+    "CANT": 10,
     "PRECIO": 5000,
     "NOMBRE": "EXEQUIEL PALACIOS"
   },
@@ -198,7 +198,7 @@
   {
     "NUM": "BOL7",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "NOMBRE": "LUIS HAQUIN"
   },
@@ -471,7 +471,7 @@
   {
     "NUM": "CAN2",
     "TIPO": "EQUIPO",
-    "CANT": 8,
+    "CANT": 7,
     "PRECIO": 2000,
     "NOMBRE": "CAN TEAM"
   },
@@ -499,7 +499,7 @@
   {
     "NUM": "CAN6",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 3000,
     "NOMBRE": "RICHIE LARYEA"
   },
@@ -1269,14 +1269,14 @@
   {
     "NUM": "HCI6",
     "TIPO": "CIUDAD",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 6000,
     "NOMBRE": "EAST RUTHERFORD"
   },
   {
     "NUM": "HCI7",
     "TIPO": "CIUDAD",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 6000,
     "NOMBRE": "CHARLOTTE"
   },
@@ -1353,7 +1353,7 @@
   {
     "NUM": "HON8",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 3000,
     "NOMBRE": "ELISON RIVAS"
   },
