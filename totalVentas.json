@@ -881,6 +881,19 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "155",
+        "409"
+      ],
+      "NoVendidas": [],
+      "Dia": "23/6/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Copa America 2024": [
