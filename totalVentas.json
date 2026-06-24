@@ -40074,6 +40074,19 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "BRA4",
+        "ESP4"
+      ],
+      "NoVendidas": [],
+      "Dia": "24/6/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
