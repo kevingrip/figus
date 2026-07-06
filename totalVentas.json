@@ -40138,6 +40138,22 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "C5",
+        "CRO7",
+        "POL5",
+        "QAT4",
+        "TUN10"
+      ],
+      "NoVendidas": [],
+      "Dia": "6/7/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Argentino 2023": [
