@@ -422,7 +422,7 @@
   {
     "NUM": "BRA17",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "NOMBRE": "RODRYGO"
   },
@@ -492,7 +492,7 @@
   {
     "NUM": "CAN5",
     "TIPO": "COMUNES",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 1500,
     "NOMBRE": "KAMAL MILLER"
   },
@@ -681,7 +681,7 @@
   {
     "NUM": "CHI10",
     "TIPO": "COMUNES",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 3000,
     "NOMBRE": "GARY MEDEL"
   },
@@ -1136,7 +1136,7 @@
   {
     "NUM": "ECU9",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 3000,
     "NOMBRE": "PERVIS ESTUPINAN"
   },
@@ -1234,21 +1234,21 @@
   {
     "NUM": "HCI1",
     "TIPO": "CIUDAD",
-    "CANT": 5,
+    "CANT": 4,
     "PRECIO": 6000,
     "NOMBRE": "KANSAS CITY"
   },
   {
     "NUM": "HCI2",
     "TIPO": "CIUDAD",
-    "CANT": 1,
+    "CANT": 0,
     "PRECIO": 6000,
     "NOMBRE": "LAS VEGAS"
   },
   {
     "NUM": "HCI3",
     "TIPO": "CIUDAD",
-    "CANT": 3,
+    "CANT": 2,
     "PRECIO": 6000,
     "NOMBRE": "GLENDALE"
   },
@@ -1283,7 +1283,7 @@
   {
     "NUM": "HCI8",
     "TIPO": "CIUDAD",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 6000,
     "NOMBRE": "ATALANTA"
   },
@@ -1437,7 +1437,7 @@
   {
     "NUM": "HON20",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "NOMBRE": "ANTHONY LOZANO"
   },
@@ -1836,7 +1836,7 @@
   {
     "NUM": "MEX11",
     "TIPO": "COMUNES",
-    "CANT": 2,
+    "CANT": 1,
     "PRECIO": 3000,
     "NOMBRE": "MARCEL RUIZ"
   },
@@ -2081,7 +2081,7 @@
   {
     "NUM": "PAR2",
     "TIPO": "EQUIPO",
-    "CANT": 7,
+    "CANT": 6,
     "PRECIO": 2000,
     "NOMBRE": "PAR TEAM"
   },
@@ -2347,7 +2347,7 @@
   {
     "NUM": "PER18",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "NOMBRE": "BRYAN REYNA"
   },
@@ -2410,7 +2410,7 @@
   {
     "NUM": "TRI3",
     "TIPO": "COMUNES",
-    "CANT": 4,
+    "CANT": 3,
     "PRECIO": 3000,
     "NOMBRE": "DENZIL SMITH"
   },
@@ -2480,7 +2480,7 @@
   {
     "NUM": "TRI13",
     "TIPO": "COMUNES",
-    "CANT": 6,
+    "CANT": 5,
     "PRECIO": 3000,
     "NOMBRE": "NATHANIEL JAMES"
   },

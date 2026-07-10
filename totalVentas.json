@@ -25112,6 +25112,31 @@
       "Envio": "CORREO",
       "ARMADO": "NO",
       "PREARMADO": "NO"
+    },
+    {
+      "usuario": "Mati",
+      "Vendidas": [
+        "BRA17",
+        "CAN5",
+        "CHI10",
+        "ECU9",
+        "HCI1",
+        "HCI2",
+        "HCI3",
+        "HCI8",
+        "HON20",
+        "MEX11",
+        "PAR2",
+        "PER18",
+        "TRI3",
+        "TRI13"
+      ],
+      "NoVendidas": [],
+      "Dia": "10/7/2026",
+      "Cuenta": "MATI",
+      "Envio": "CORREO",
+      "ARMADO": "NO",
+      "PREARMADO": "NO"
     }
   ],
   "Futbol Arg 2024": [
