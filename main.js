@@ -469,6 +469,7 @@ ultimaActualizacion()
 // Función para buscar y mostrar las figus filtradas
 const cosecharFigus = (tipo) => {
 
+
     const resultados = document.getElementById('resultados');
     resultados.innerHTML=''
     let figusSeleccionadas=""    
@@ -1128,8 +1129,31 @@ const cosecharFigus = (tipo) => {
             
             createButton.textContent=figu.NUM        
             
+            /// LIMITES DE ANCHO PARA MOSTRAR EN PANTALLA
+
             if (tipo == 'base_copam'){
                 if (figu.NUM.substring(3, 5)=="22"){
+                    resultados.appendChild(createButton)
+                    resultados.appendChild(document.createElement('br'))
+                    resultados.appendChild(document.createElement('br'))
+                }else{
+                    resultados.appendChild(createButton)
+                }
+            }else if (tipo == 'baseMundial'){
+                if (figu.NUM.substring(3, 5)=="19"){
+                    resultados.appendChild(createButton)
+                    resultados.appendChild(document.createElement('br'))
+                    resultados.appendChild(document.createElement('br'))
+                }else{
+                    resultados.appendChild(createButton)
+                }            
+            }else if (tipo == 'baseMundialUsa'){
+                if (figu.NUM.TIPO=="COCA" && figu.NUM.substring(3, 5)=="20"){
+                    resultados.appendChild(createButton)
+                    resultados.appendChild(document.createElement('br'))
+                    resultados.appendChild(document.createElement('br'))
+                }
+                if (figu.NUM.substring(3, 5)=="20"){
                     resultados.appendChild(createButton)
                     resultados.appendChild(document.createElement('br'))
                     resultados.appendChild(document.createElement('br'))
@@ -2244,6 +2268,8 @@ const albumName = (nombreJson) =>{
         return "Mundial Qatar 2022"
     }else if (nombreJson == "base_copam"){
         return "Copa America 2024"
+    }else if (nombreJson == "baseMundialUsa"){
+        return "Mundial USA 2026"
     }else if (nombreJson == "baseFutarg"){
         return "Futbol Argentino 2023"
     }else if (nombreJson == "baseFutarg24"){
