@@ -1,4 +1,3 @@
-
 let filePath='./base_copam.json';
 const tipoAlbum = (tipo, event) => {
     return new Promise((resolve, reject) => {
