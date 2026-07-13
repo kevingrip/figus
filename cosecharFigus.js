@@ -2,15 +2,17 @@
 function crearBotonContenedor(figu) {
     const contenedor = document.createElement("div");
     contenedor.style.display = "inline-flex";
+    contenedor.style.flexDirection = "column";
     contenedor.style.alignItems = "center";
     contenedor.style.justifyContent = "space-between";
-    contenedor.style.width = "90px";
-    contenedor.style.height = "30px";
+    contenedor.style.width = "60px";
+    contenedor.style.height = "70px";
     contenedor.style.border = "1px solid black";
 
     const botonMenos = document.createElement("button");
-    botonMenos.textContent = "<";
+    botonMenos.textContent = "▼";
     botonMenos.style.height = "30px";
+    botonMenos.style.width = "60px";
 
     const informacion = document.createElement("div");
     informacion.style.display = "flex";
@@ -30,14 +32,16 @@ function crearBotonContenedor(figu) {
     informacion.appendChild(textoInferior);
 
     const botonMas = document.createElement("button");
-    botonMas.textContent = ">";
+    botonMas.textContent = "▲";
     botonMas.style.height = "30px";
+    botonMas.style.width = "60px";
 
     contenedor.style.margin="3px"
 
-    contenedor.appendChild(botonMenos);
-    contenedor.appendChild(informacion);
     contenedor.appendChild(botonMas);
+    contenedor.appendChild(informacion);
+    contenedor.appendChild(botonMenos);
+    
     return {
     contenedor,
     botonMas,
@@ -52,25 +56,25 @@ function ajustarAltura(button) {
     }
 }
 
-function ajustarAnchoPantalla(button, tipo) {
-    if (tipo == 'base_copam') {
+function ajustarAnchoPantalla(button, album) {
+    if (album == 'copaAmerica2024') {
         if (window.innerWidth > 768) {
             button.style.width = "4.3vw";
         } else {
             button.style.width = "14vw";
         }
-    } else {
-        if (window.innerWidth > 768) {
-            button.style.width = "6vw";
-        } else {
-            button.style.width = "14vw";
-        }
+    // } else {
+    //     if (window.innerWidth > 768) {
+    //         button.style.width = "6vw";
+    //     } else {
+    //         button.style.width = "14vw";
+    //     }
     }
 
 }
 
-function cantidadBotonesAnchoAlbum(tipo, figu, boton) {
-    if (tipo == 'base_copam') {
+function cantidadBotonesAnchoAlbum(album, figu, boton) {
+    if (album == 'copaAmerica2024') {
         if (figu.NUM.substring(3, 5) == "22") {
             resultados.appendChild(boton)
             resultados.appendChild(document.createElement('br'))
@@ -78,15 +82,15 @@ function cantidadBotonesAnchoAlbum(tipo, figu, boton) {
         } else {
             resultados.appendChild(boton)
         }
-    } else if (tipo == 'baseMundial') {
-        if (figu.NUM.substring(3, 5) == "19") {
+    } else if (album == 'mundialQatar2022') {
+        if (figu.NUM.substring(3, 5) == "19" || figu.NUM=="C8" || figu.NUM=="FWC29") {
             resultados.appendChild(boton)
             resultados.appendChild(document.createElement('br'))
             resultados.appendChild(document.createElement('br'))
         } else {
             resultados.appendChild(boton)
         }
-    } else if (tipo == 'baseMundialUsa') {
+    } else if (album == 'mundialUsa2026') {
         if (figu.NUM == "CC14" || figu.NUM.substring(3, 5) == "20") {
             resultados.appendChild(boton)
             resultados.appendChild(document.createElement('br'))
@@ -196,10 +200,10 @@ export const cosecharFigus = (tipo, figuritas,albumRuta) => {
 
 
         ajustarAltura(contenedor);
-        ajustarAnchoPantalla(contenedor, tipo)
+        ajustarAnchoPantalla(contenedor, albumRuta)
         datosBloques(figu, contenedor,textoInferior, false)
 
-        cantidadBotonesAnchoAlbum(tipo, figu, contenedor)
+        cantidadBotonesAnchoAlbum(albumRuta, figu, contenedor)
 
 
         botonMas.addEventListener('click', async () => {

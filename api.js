@@ -2,12 +2,7 @@
 
 const api = "http://localhost:5050";
 
-export async function obtenerMundialUsa() {
-    const res = await fetch(`${api}/mundialusa`);
-    return await res.json();
-}
-
-export async function obtenerMundiaQatar() {
-    const res = await fetch(`${api}/mundialqatar`);
+export async function obtenerFiguritas(album) {
+    const res = await fetch(`${api}/${album}`);
     return await res.json();
 }

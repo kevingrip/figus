@@ -1,4 +1,4 @@
-import { obtenerMundialUsa,obtenerMundiaQatar } from "./api.js";
+import { obtenerFiguritas } from "./api.js";
 import { cosecharFigus } from "./cosecharFigus.js";
 
 const botones = document.querySelectorAll(".bloqueAlbum");
@@ -14,26 +14,38 @@ botones.forEach(boton => {
 
 const botonMundialUsaBuscar = document.getElementById("botonMundialUsaBuscar")
 botonMundialUsaBuscar?.addEventListener('click',async ()=>{
-    const botonMundialUsaBuscar = await obtenerMundialUsa();
-    buscarFigus(botonMundialUsaBuscar);
+    const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
+    buscarFigus(figusMundialUsa);
 })
 
 const botonMundialQatarBuscar = document.getElementById("botonMundialQatarBuscar")
 botonMundialQatarBuscar?.addEventListener('click',async ()=>{
-    const botonMundialQatarBuscar = await obtenerMundiaQatar();
-    buscarFigus(botonMundialQatarBuscar);
+    const figusMundialQatar = await obtenerFiguritas("mundialQatar2022");
+    buscarFigus(figusMundialQatar);
+})
+
+const botonCopaAmericaBuscar = document.getElementById("botonCopaAmericaBuscar")
+botonCopaAmericaBuscar?.addEventListener('click',async ()=>{
+    const figusCopaAmerica = await obtenerFiguritas("copaAmerica2024");
+    buscarFigus(figusCopaAmerica);
 })
 
 const botonMundialUsaCosecha = document.getElementById("botonMundialUsaCosecha")
 botonMundialUsaCosecha?.addEventListener('click',async ()=>{
-    const figusMundialUsa = await obtenerMundialUsa();
-    cosecharFigus("baseMundialUsa",figusMundialUsa,"mundialusa");
+    const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
+    cosecharFigus("baseMundialUsa",figusMundialUsa,"mundialUsa2026");
+})
+
+const botonCopaAmericaCosecha = document.getElementById("botonCopaAmericaCosecha")
+botonCopaAmericaCosecha?.addEventListener('click',async ()=>{
+    const figusCopaAmerica = await obtenerFiguritas("copaAmerica2024");
+    cosecharFigus("base_copam",figusCopaAmerica,"copaAmerica2024");
 })
 
 const botonMundialQatarCosecha = document.getElementById("botonMundialQatarCosecha")
 botonMundialQatarCosecha?.addEventListener('click',async ()=>{
-    const figusMundialQatar = await obtenerMundiaQatar();
-    cosecharFigus("baseMundialQatar",figusMundialQatar,"mundialqatar");
+    const figusMundialQatar = await obtenerFiguritas("mundialQatar2022");
+    cosecharFigus("baseMundialQatar",figusMundialQatar,"mundialQatar2022");
 })
 
 

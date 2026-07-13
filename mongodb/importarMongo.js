@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import fs from "fs";
-import {obtenerModeloFiguritas} from "./modelo_mdb/modeloFigu.js";
+import {obtenerModeloFiguritas} from "../modelo_mdb/modeloFigu.js";
 import dotenv from "dotenv";
 
 dotenv.config();
