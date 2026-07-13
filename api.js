@@ -6,3 +6,8 @@ export async function obtenerMundialUsa() {
     const res = await fetch(`${api}/mundialusa`);
     return await res.json();
 }
+
+export async function obtenerMundiaQatar() {
+    const res = await fetch(`${api}/mundialqatar`);
+    return await res.json();
+}

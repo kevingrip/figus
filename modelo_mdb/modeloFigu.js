@@ -12,4 +12,10 @@ const esquema_figu = new mongoose.Schema(
     }
 );
 
-export default mongoose.model("Figurita", esquema_figu);
+export const obtenerModeloFiguritas = (coleccion) => {
+    return mongoose.model(
+        coleccion,
+        esquema_figu,
+        coleccion
+    );
+};

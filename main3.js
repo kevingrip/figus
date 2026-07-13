@@ -1,16 +1,39 @@
-import { obtenerMundialUsa } from "./api.js";
+import { obtenerMundialUsa,obtenerMundiaQatar } from "./api.js";
 import { cosecharFigus } from "./cosecharFigus.js";
 
-const botonMundialUsa = document.getElementById("botonMundialUsaBuscar")
-botonMundialUsa?.addEventListener('click',async ()=>{
-    const figusMundialUsa = await obtenerMundialUsa();
-    buscarFigus(figusMundialUsa);
+const botones = document.querySelectorAll(".bloqueAlbum");
+botones.forEach(boton => {
+    boton.addEventListener("click", () => {
+
+        botones.forEach(b => b.classList.remove("pressed"));
+
+        boton.classList.add("pressed");
+
+    });
+});
+
+const botonMundialUsaBuscar = document.getElementById("botonMundialUsaBuscar")
+botonMundialUsaBuscar?.addEventListener('click',async ()=>{
+    const botonMundialUsaBuscar = await obtenerMundialUsa();
+    buscarFigus(botonMundialUsaBuscar);
 })
 
-const botonMundialUsa2 = document.getElementById("botonMundialUsaCosecha")
-botonMundialUsa2?.addEventListener('click',async ()=>{
+const botonMundialQatarBuscar = document.getElementById("botonMundialQatarBuscar")
+botonMundialQatarBuscar?.addEventListener('click',async ()=>{
+    const botonMundialQatarBuscar = await obtenerMundiaQatar();
+    buscarFigus(botonMundialQatarBuscar);
+})
+
+const botonMundialUsaCosecha = document.getElementById("botonMundialUsaCosecha")
+botonMundialUsaCosecha?.addEventListener('click',async ()=>{
     const figusMundialUsa = await obtenerMundialUsa();
-    cosecharFigus("baseMundialUsa",figusMundialUsa);
+    cosecharFigus("baseMundialUsa",figusMundialUsa,"mundialusa");
+})
+
+const botonMundialQatarCosecha = document.getElementById("botonMundialQatarCosecha")
+botonMundialQatarCosecha?.addEventListener('click',async ()=>{
+    const figusMundialQatar = await obtenerMundiaQatar();
+    cosecharFigus("baseMundialQatar",figusMundialQatar,"mundialqatar");
 })
 
 

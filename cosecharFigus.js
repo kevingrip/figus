@@ -59,15 +59,9 @@ function ajustarAnchoPantalla(button, tipo) {
         } else {
             button.style.width = "14vw";
         }
-    } else if (tipo == 'baseMundialUsa') {
-        if (window.innerWidth > 768) {
-            button.style.width = "6vw";
-        } else {
-            button.style.width = "14vw";
-        }
     } else {
         if (window.innerWidth > 768) {
-            button.style.width = "5vw";
+            button.style.width = "6vw";
         } else {
             button.style.width = "14vw";
         }
@@ -140,7 +134,7 @@ function datosBloques(figu, informacion,textoInferior, esClick) {
 }
 
 
-export const cosecharFigus = (tipo, figusMundialUsa) => {
+export const cosecharFigus = (tipo, figuritas,albumRuta) => {
 
     const resultados = document.getElementById('resultados');
     resultados.innerHTML = ''
@@ -173,7 +167,7 @@ export const cosecharFigus = (tipo, figusMundialUsa) => {
     //cartel succesfull
 
 
-    figusMundialUsa.sort((a, b) => {
+    figuritas.sort((a, b) => {
         const matchA = a.NUM.match(/([A-Za-z]+)(\d+)/); // Separar letras y números
         const matchB = b.NUM.match(/([A-Za-z]+)(\d+)/);
 
@@ -195,7 +189,7 @@ export const cosecharFigus = (tipo, figusMundialUsa) => {
         return a.NUM.localeCompare(b.NUM); // Si no coincide con el patrón, usar orden alfabético normal
     });
 
-    figusMundialUsa.forEach(figu => {
+    figuritas.forEach(figu => {
 
         const {contenedor,botonMas,botonMenos,textoInferior}= crearBotonContenedor(figu)
         //resultados.appendChild(contenedor)
@@ -211,7 +205,7 @@ export const cosecharFigus = (tipo, figusMundialUsa) => {
         botonMas.addEventListener('click', async () => {
 
             //ACTUALIZAR CON MONGO
-            const respuesta = await fetch(`http://localhost:5050/mundialusa/incrementar/${figu._id}`, {
+            const respuesta = await fetch(`http://localhost:5050/${albumRuta}/incrementar/${figu._id}`, {
                 method: "PATCH"
             });
 
@@ -231,7 +225,7 @@ export const cosecharFigus = (tipo, figusMundialUsa) => {
             datosBloques(figu, contenedor,textoInferior, true)
 
             figusSeleccionadas = figu.NUM
-            const filteredFigus = figusMundialUsa.filter(figu => figusSeleccionadas == (figu.NUM));
+            const filteredFigus = figuritas.filter(figu => figusSeleccionadas == (figu.NUM));
             //console.log(filteredFigus)
 
             filteredFigus.forEach(figu => {
@@ -250,7 +244,7 @@ export const cosecharFigus = (tipo, figusMundialUsa) => {
         botonMenos.addEventListener('click', async () => {
 
             //ACTUALIZAR CON MONGO
-            const respuesta = await fetch(`http://localhost:5050/mundialusa/decrementar/${figu._id}`, {
+            const respuesta = await fetch(`http://localhost:5050/${albumRuta}/decrementar/${figu._id}`, {
                 method: "PATCH"
             });
 
@@ -270,7 +264,7 @@ export const cosecharFigus = (tipo, figusMundialUsa) => {
             datosBloques(figu, contenedor,textoInferior, true)
 
             figusSeleccionadas = figu.NUM
-            const filteredFigus = figusMundialUsa.filter(figu => figusSeleccionadas == (figu.NUM));
+            const filteredFigus = figuritas.filter(figu => figusSeleccionadas == (figu.NUM));
 
             // filteredFigus.forEach(figu => {
             //     const li = document.createElement('li');
@@ -302,7 +296,7 @@ export const cosecharFigus = (tipo, figusMundialUsa) => {
 
     buttonDescargarBase.addEventListener('click', () => {
 
-        const datosJson = JSON.stringify(figusMundialUsa, null, 2);
+        const datosJson = JSON.stringify(figuritas, null, 2);
         const blob = new Blob([datosJson], { type: 'application/json' });
         const enlace = document.createElement('a');
         enlace.href = URL.createObjectURL(blob);
