@@ -6,7 +6,9 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-await mongoose.connect("mongodb+srv://grippokevin:GwRtjbsM0Fo8LB45@backend1.tkbeh1y.mongodb.net/figuritas?retryWrites=true&w=majority&appName=backend1");
+const mongo_url = process.env.MONGO_URL
+
+await mongoose.connect(mongo_url);
 
 const app = express()
 app.use(express.json());

@@ -1,13 +1,17 @@
 import mongoose from "mongoose";
 import fs from "fs";
 import {obtenerModeloFiguritas} from "./modelo_mdb/modeloFigu.js";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const archivo = "./baseFutarg.json";
 const coleccion = "futbolArgentino2023";
 
 const Figurita = obtenerModeloFiguritas(coleccion);
+const mongo_url = process.env.MONGO_URL
 
-await mongoose.connect("mongodb+srv://grippokevin:GwRtjbsM0Fo8LB45@backend1.tkbeh1y.mongodb.net/figuritas?retryWrites=true&w=majority&appName=backend1");
+await mongoose.connect(mongo_url);
 // o tu URI de Mongo Atlas
 
 const datos = JSON.parse(
