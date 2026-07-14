@@ -1,5 +1,5 @@
 
-const api = "http://localhost:5050";
+const api = "https://figutld-api.onrender.com";
 
 export async function obtenerFiguritas(album) {
     const res = await fetch(`${api}/${album}`);
