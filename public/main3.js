@@ -436,7 +436,7 @@ const totalVentas = async() =>{
     //     });
 
 }
-totalVentas();
+//totalVentas();
 
 const ultimaActualizacion = () => {
     var spanUltimaActualizacion = document.getElementById('ultimaActualizacion');
