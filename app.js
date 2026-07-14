@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
 import { obtenerModeloFiguritas } from "./modelo_mdb/modeloFigu.js";
+import Venta from "./modelo_mdb/modeloVenta.js";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -66,4 +67,14 @@ app.patch("/:album/:accion/:id", async (req, res) => {
         });
 
     }
+});
+
+app.post("/ventas", async (req, res) => {
+    await Venta.create(req.body);
+    res.json({ ok: true });
+});
+
+app.get("/ventas", async (req, res) => {
+    const ventas = await Venta.find().lean();
+    res.json(ventas);
 });
