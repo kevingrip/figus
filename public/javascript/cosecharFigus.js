@@ -138,11 +138,7 @@ function datosBloques(figu, informacion,textoInferior, esClick) {
 }
 
 
-export const cosecharFigus = (tipo, figuritas,albumRuta) => {
-
-    const api = window.location.hostname === "localhost" || window.location.hostname === "192.168.0.249"
-    ? "http://localhost:5050"
-    : "https://figutld.onrender.com";
+export const cosecharFigus = (tipo, figuritas,albumRuta,api) => {    
 
     const resultados = document.getElementById('resultados');
     resultados.innerHTML = ''

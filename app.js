@@ -10,8 +10,6 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-
-
 dotenv.config();
 
 const mongo_url = process.env.MONGO_URL
@@ -25,14 +23,14 @@ app.use(express.static(path.join(__dirname, "public")));
 
 const PORT = process.env.PORT || 5050;
 
-app.listen(PORT,()=>{
+app.listen(PORT, () => {
     console.log(`servidor levantado en el puerto ${PORT}`)
 })
 
-// app.get("/ventas", async (req, res) => {
-//     const ventas = await Venta.find().lean();
-//     res.json(ventas);
-// });
+app.get("/ventas", async (req, res) => {
+    const ventas = await Venta.find().lean();
+    res.json(ventas);
+});
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "indexv2.html"));
@@ -42,12 +40,25 @@ app.get("/:album", async (req, res) => {
     try {
         const modelo = obtenerModeloFiguritas(req.params.album);
 
-        const cantidad = await modelo.countDocuments();
-        console.log("Cantidad:", cantidad);
+        const albumes = [
+            "mundialUsa2026",
+            "mundialQatar2022",
+            "futbolArgentino2023",
+            "futbolArgentino2024",
+            "libertadores2023",
+            "copaAmerica2024"
+        ]
 
-        const figuritas = await modelo.find().lean();
+        if (albumes.includes(modelo)) {
+            const cantidad = await modelo.countDocuments();
+            console.log("Cantidad:", cantidad);
 
-        res.json(figuritas);
+            const figuritas = await modelo.find().lean();
+
+            res.json(figuritas);
+        }
+
+
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: error.message });
@@ -59,21 +70,34 @@ app.patch("/:album/:accion/:id", async (req, res) => {
     try {
         const { album, accion, id } = req.params;
 
-        const modelo = obtenerModeloFiguritas(album);
+        const albumes = [
+            "mundialUsa2026",
+            "mundialQatar2022",
+            "futbolArgentino2023",
+            "futbolArgentino2024",
+            "libertadores2023",
+            "copaAmerica2024"
+        ]
 
-        const incremento = accion === "incrementar" ? 1 : -1;
+        if (albumes.includes(album)) {
+            const modelo = obtenerModeloFiguritas(album);
 
-        const figuActualizada = await modelo.findByIdAndUpdate(
-            id,
-            {$inc: {CANT: incremento}},
-            {
-                new: true
-            }
-        );
+            const incremento = accion === "incrementar" ? 1 : -1;
 
-        res.json(figuActualizada);
+            const figuActualizada = await modelo.findByIdAndUpdate(
+                id,
+                { $inc: { CANT: incremento } },
+                {
+                    new: true
+                }
+            );
 
-    } catch(error) {
+            res.json(figuActualizada);
+        }
+
+
+
+    } catch (error) {
 
         console.error(error);
 

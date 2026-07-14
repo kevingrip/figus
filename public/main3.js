@@ -1,6 +1,6 @@
-import { obtenerFiguritas/*,obtenerVentas*/ } from "./api.js";
+import { obtenerFiguritas,obtenerVentas } from "./api.js";
 import { cosecharFigus } from "./javascript/cosecharFigus.js";
-import {buscarFigus} from "./javascript/buscarFigus.js"
+import { buscarFigus } from "./javascript/buscarFigus.js"
 
 const botones = document.querySelectorAll(".bloqueAlbum");
 botones.forEach(boton => {
@@ -13,63 +13,67 @@ botones.forEach(boton => {
     });
 });
 
+const api = window.location.hostname === "localhost" || window.location.hostname === "192.168.0.249"
+    ? "http://localhost:5050"
+    : "https://figutld.onrender.com";
+
 const botonMundialUsaBuscar = document.getElementById("botonMundialUsaBuscar")
-botonMundialUsaBuscar?.addEventListener('click',async ()=>{
+botonMundialUsaBuscar?.addEventListener('click', async () => {
     const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
-    buscarFigus("baseMundialUsa",figusMundialUsa,"mundialUsa2026");
+    buscarFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026",api);
 })
 
 const botonMundialQatarBuscar = document.getElementById("botonMundialQatarBuscar")
-botonMundialQatarBuscar?.addEventListener('click',async ()=>{
+botonMundialQatarBuscar?.addEventListener('click', async () => {
     const figusMundialQatar = await obtenerFiguritas("mundialQatar2022");
-    buscarFigus("baseMundial",figusMundialQatar,"mundialQatar2022");
+    buscarFigus("baseMundial", figusMundialQatar, "mundialQatar2022",api);
 })
 
 const botonCopaAmericaBuscar = document.getElementById("botonCopaAmericaBuscar")
-botonCopaAmericaBuscar?.addEventListener('click',async ()=>{
+botonCopaAmericaBuscar?.addEventListener('click', async () => {
     const figusCopaAmerica = await obtenerFiguritas("copaAmerica2024");
-    buscarFigus("base_copam",figusCopaAmerica,"copaAmerica2024");
+    buscarFigus("base_copam", figusCopaAmerica, "copaAmerica2024",api);
 })
 
 const botonMundialUsaCosecha = document.getElementById("botonMundialUsaCosecha")
-botonMundialUsaCosecha?.addEventListener('click',async ()=>{
+botonMundialUsaCosecha?.addEventListener('click', async () => {
     const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
-    cosecharFigus("baseMundialUsa",figusMundialUsa,"mundialUsa2026");
+    cosecharFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026",api);
 })
 
 const botonCopaAmericaCosecha = document.getElementById("botonCopaAmericaCosecha")
-botonCopaAmericaCosecha?.addEventListener('click',async ()=>{
+botonCopaAmericaCosecha?.addEventListener('click', async () => {
     const figusCopaAmerica = await obtenerFiguritas("copaAmerica2024");
-    cosecharFigus("base_copam",figusCopaAmerica,"copaAmerica2024");
+    cosecharFigus("base_copam", figusCopaAmerica, "copaAmerica2024",api);
 })
 
 const botonMundialQatarCosecha = document.getElementById("botonMundialQatarCosecha")
-botonMundialQatarCosecha?.addEventListener('click',async ()=>{
+botonMundialQatarCosecha?.addEventListener('click', async () => {
     const figusMundialQatar = await obtenerFiguritas("mundialQatar2022");
-    cosecharFigus("baseMundialQatar",figusMundialQatar,"mundialQatar2022");
+    cosecharFigus("baseMundialQatar", figusMundialQatar, "mundialQatar2022",api);
 })
 
 
-const sinStock = () =>{
+const sinStock = () => {
     let figus = window.todasLasFigus
-    let cant=0
+    let cant = 0
 
     const resultSinStock = document.getElementById('resultadosSinStock');
     resultSinStock.innerHTML = ''; // Limpiar resultados anteriores
-    let figuritas0=[];
-    let figus0str='';
-    let figuritas1=[];
-    let figus1str='';
-    let figuritas2=[];
-    let figus2str='';
+    let figuritas0 = [];
+    let figus0str = '';
+    let figuritas1 = [];
+    let figus1str = '';
+    let figuritas2 = [];
+    let figus2str = '';
 
     figus.forEach(figu => {
-        if (figu["CANT"]==0){
+        if (figu["CANT"] == 0) {
             figuritas0.push(figu["NUM"])
-            cant+=1
-        }else if(figu["CANT"]==1){
+            cant += 1
+        } else if (figu["CANT"] == 1) {
             figuritas1.push(figu["NUM"])
-        }else if(figu["CANT"]==2){
+        } else if (figu["CANT"] == 2) {
             figuritas2.push(figu["NUM"])
         }
     })
@@ -78,38 +82,39 @@ const sinStock = () =>{
     figuritas1.sort()
     figuritas2.sort()
 
-    let primero = '' 
-    let segundo = '' 
-    let paiss = [] 
+    let primero = ''
+    let segundo = ''
+    let paiss = []
 
-    figuritas0.forEach(figu => { 
-        if (paiss.length === 0) { 
-            paiss.push(figu.substring(0, 3)); 
-        } if (!paiss.includes(figu.substring(0, 3))) { 
-            paiss.push(figu.substring(0, 3)) 
-        } }) 
-
-    for (let x = 0; x < paiss.length; x++) { 
-        primero = '' 
-        segundo = '' 
-        figuritas0.forEach(figu => { 
-            if (paiss[x] === figu.substring(0, 3)) { 
-                if (figu.length === 4) { 
-                    primero += figu + ', ' 
-                } else { 
-                    segundo += figu + ', ' 
-                } 
-            } 
-        }) 
-        figus0str += primero + segundo 
-    } 
-
-    figuritas1.forEach(figu =>{
-        figus1str+=figu+=', ';
+    figuritas0.forEach(figu => {
+        if (paiss.length === 0) {
+            paiss.push(figu.substring(0, 3));
+        } if (!paiss.includes(figu.substring(0, 3))) {
+            paiss.push(figu.substring(0, 3))
+        }
     })
 
-    figuritas2.forEach(figu =>{
-        figus2str+=figu+=', ';
+    for (let x = 0; x < paiss.length; x++) {
+        primero = ''
+        segundo = ''
+        figuritas0.forEach(figu => {
+            if (paiss[x] === figu.substring(0, 3)) {
+                if (figu.length === 4) {
+                    primero += figu + ', '
+                } else {
+                    segundo += figu + ', '
+                }
+            }
+        })
+        figus0str += primero + segundo
+    }
+
+    figuritas1.forEach(figu => {
+        figus1str += figu += ', ';
+    })
+
+    figuritas2.forEach(figu => {
+        figus2str += figu += ', ';
     })
 
     const p1 = document.createElement('p');
@@ -134,22 +139,22 @@ const sinStock = () =>{
     resultSinStock.appendChild(p3);
 }
 
-const totalVentas = async() =>{
+const totalVentas = async () => {
     const totalVentasElement = document.getElementById('totalVentas');
-    
+
     const ventas = await obtenerVentas();
-    
+
     console.log(ventas);
 
-    if (totalVentasElement){
+    if (totalVentasElement) {
         totalVentasElement.textContent = ventas[0].VENDIDAS;
     }
-    
+
 
     // fetch(filePath)
     //     .then(response => response.json())
     //     .then(data => {
-            
+
     //         const ventasDiv = document.createElement('div');
     //         const cantidadFlex = document.createElement('h3');
     //         const cantidadCorreo = document.createElement('h3');
@@ -161,9 +166,9 @@ const totalVentas = async() =>{
 
     //         for (let album in data){
     //             eleccionAlbum = data[album]
-                
+
     //             const EnviosFiltered = eleccionAlbum.filter(prep => prep.ARMADO ==="NO")
-                
+
     //             EnviosFiltered.forEach(filtered=>{
     //                 if (filtered.Envio === "FLEX") {
     //                     cantFlex++;
@@ -182,16 +187,16 @@ const totalVentas = async() =>{
     //         ventasDiv.appendChild(cantidadCorreo)
     //         cantidadAcordar.textContent=`Cantidad Acordar: ${cantAcordar}`
     //         ventasDiv.appendChild(cantidadAcordar)
-            
+
     //         ventasDiv.style.color='purple'
 
     //         totalVentasElement.appendChild(ventasDiv);
 
     //         for (let album in data){
     //             // console.log(album)
-            
+
     //             eleccionAlbum = data[album]
-                
+
     //             const noPrep = eleccionAlbum.filter(prep =>prep.ARMADO ==="NO")
 
     //             // console.log(noPrep)
@@ -199,10 +204,10 @@ const totalVentas = async() =>{
     //             noPrep.forEach(objeto => {
     //                 let count = 0
     //                 // Crear un elemento div para cada objeto
-                    
+
     //                 const pantallaVenta = document.createElement('div');
 
-                    
+
     //                 const nombreAlbum = document.createElement('h2');
     //                 const nombreUsuario = document.createElement('h3');
     //                 const fecha = document.createElement('h5');
@@ -215,7 +220,7 @@ const totalVentas = async() =>{
     //                 const cantidad = document.createElement('p')
 
     //                 nombreAlbum.textContent = album
-                    
+
     //                 nombreUsuario.textContent = `USUARIO:\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0${objeto["usuario"]}`             
     //                 nombreCuenta.textContent = `MercadoLibre: ${objeto["Cuenta"]}`
     //                 fecha.textContent = `${objeto["Dia"]}`
@@ -224,7 +229,7 @@ const totalVentas = async() =>{
 
     //                 figuCont.forEach(()=>{count = count+1})
     //                 cantidad.textContent = `Cantidad vendida: ${count}`
-                    
+
     //                 // console.log(figuVend)
     //                 //let figuVenTab = figuVend.replace(/,/g,"\u00A0\u00A0\u00A0\u00A0")
     //                 //let figuVenTab = figuVend.replace(/,/g,"<br>")
@@ -245,7 +250,7 @@ const totalVentas = async() =>{
     //             )
 
     //                 objeto["Vendidas"].forEach(figu=>{
-                        
+
 
     //                         if (cont==0){
 
@@ -255,7 +260,7 @@ const totalVentas = async() =>{
     //                             }else{
     //                                 result+=figu.substring(0,3)+" : "+figu.substring(3,5)
     //                             }                      
-                                
+
 
     //                         }else{
 
@@ -270,9 +275,9 @@ const totalVentas = async() =>{
     //                                     }else{
     //                                         result2+="<br>"+figu.substring(0,3)+" :\u00A0"+figu.substring(3,5);
     //                                     }
-                                        
+
     //                                 }
-                                    
+
     //                                 fila++;                                    
     //                             }else{
 
@@ -281,12 +286,12 @@ const totalVentas = async() =>{
     //                                 }else{
     //                                     result2+=", "+figu.substring(3,5);       
     //                                 }
-                                                                 
-                                    
+
+
     //                             }
     //                         }
-                                               
-                        
+
+
     //                     ant=figu.substring(0,3)
     //                     cont++
     //                 })
@@ -299,7 +304,7 @@ const totalVentas = async() =>{
     //                     fVendidas1.classList.add('fVendidas1')
     //                     fVendidas2.classList.add('fVendidas2')
     //                 }
-                    
+
 
     //                 fVendidas1.innerHTML = `${result}`
     //                 fVendidas2.innerHTML = `${result2}`
@@ -324,9 +329,9 @@ const totalVentas = async() =>{
     //                 if (objeto["PREARMADO"]==="SI"){
     //                     pantallaVenta.style.backgroundColor='#58d68d'
     //                 }
-                    
-                    
-                    
+
+
+
     //                 if (objeto["Envio"]==='FLEX'){
     //                     tipoEnvio.textContent = `ENVIOS FLEX`
     //                     tipoEnvio.style.color = '#39ff14'
@@ -383,8 +388,8 @@ const totalVentas = async() =>{
     //                 }else{
     //                     nombreUsuario.style.fontSize='1.5vw'
     //                 }
-                    
-                    
+
+
 
     //                 pantallaVenta.appendChild(nombreAlbum);
     //                 pantallaVenta.appendChild(nombreUsuario);
@@ -395,11 +400,11 @@ const totalVentas = async() =>{
     //                 pantallaVenta.appendChild(figusNoVendidas);
     //                 pantallaVenta.appendChild(nombreCuenta);
 
-                    
+
     //                 pantallaVenta.appendChild(buttonArmado);
 
-                    
-                    
+
+
 
     //                 figusVendidas.style.maxWidth = '90%';
     //                 figusVendidas.style.minHeight = '20px';
@@ -407,14 +412,14 @@ const totalVentas = async() =>{
     //                 pantallaVenta.style.margin = '5px'
     //                 pantallaVenta.style.padding = '15px'                 
 
-                    
-                    
+
+
     //                 // Agregar el elemento div al contenedor totalVentasElement
-                    
+
     //                 totalVentasElement.appendChild(pantallaVenta);      
-                                                        
+
     //             });
-                
+
     //         }
     //         const descargarActualizado = document.createElement('button')
     //         descargarActualizado.innerHTML='Descargar Actualizado'
@@ -436,47 +441,47 @@ const totalVentas = async() =>{
     //     });
 
 }
-//totalVentas();
+totalVentas();
 
 const ultimaActualizacion = () => {
     var spanUltimaActualizacion = document.getElementById('ultimaActualizacion');
     var userUpdate = document.getElementById('userUpdate')
-    let filePath='./actualizado.json';
+    let filePath = './actualizado.json';
 
     fetch(filePath)
         .then(response => response.json())
         .then(item => {
             // Almacenar todas las figus
-            
+
             console.log(item)
-            
+
             // console.log(actualizacion[0],actualizacion[0])
-            spanUltimaActualizacion.textContent = item["DIA"]+' a las '+item["ACTUALIZACION"];
+            spanUltimaActualizacion.textContent = item["DIA"] + ' a las ' + item["ACTUALIZACION"];
             userUpdate.textContent = item["USUARIO"]
         })
         .catch(error => {
             console.error('Error al cargar el archivo JSON:', error);
             throw error; // Propaga el error para que se maneje en la cadena de promesas
         });
-    };
+};
 
 
 
 const buscarCliente = () => {
-    let valorInput = document.getElementById('entrada').value.toUpperCase();    
+    let valorInput = document.getElementById('entrada').value.toUpperCase();
 
     const mostrarEnHtml = document.getElementById('figuUsers');
     mostrarEnHtml.innerHTML = ''; // Limpiar resultados anteriores
-    existeUsuario=false;
-    
+    existeUsuario = false;
+
     fetch(filePath)
         .then(response => response.json())
         .then(data => {
 
-            Object.keys(data).forEach(llave=>{
-                data[llave].forEach(usuario =>{
-                    if (usuario.usuario==valorInput){
-                        existeUsuario=true;
+            Object.keys(data).forEach(llave => {
+                data[llave].forEach(usuario => {
+                    if (usuario.usuario == valorInput) {
+                        existeUsuario = true;
                         const clientUser = document.createElement('h3');
                         const clientFigus = document.createElement('p');
                         clientUser.classList.add('clientUser')
@@ -487,113 +492,113 @@ const buscarCliente = () => {
                         mostrarEnHtml.appendChild(clientFigus);
                         console.log(`${usuario.usuario}: ${usuario.figusPedidas}`);
                         navigator.clipboard.writeText(clientFigus.textContent)
-                    }                    
-                }) 
+                    }
+                })
             })
-            
-                
-            if  (existeUsuario==false){
-                
+
+
+            if (existeUsuario == false) {
+
                 const figuUsuario = document.createElement('p');
                 figuUsuario.classList.add('clientFigu')
                 figuUsuario.innerHTML = `No se encuentra el usuario`;
                 mostrarEnHtml.appendChild(figuUsuario);
-            }      
-        })    
+            }
+        })
 }
 
 const noVendidas = (tipo) => {
-    
-    const noVendidasHtml = document.getElementById('noVendidas');
-    let filePath='./totalVentas.json';
 
-    noVendidasHtml.innerHTML=''
-    
+    const noVendidasHtml = document.getElementById('noVendidas');
+    let filePath = './totalVentas.json';
+
+    noVendidasHtml.innerHTML = ''
+
     fetch(filePath)
         .then(response => response.json())
         .then(data => {
 
             const pantalla = document.createElement('div')
-            
 
-                totalFigus = data[albumName(tipo)]
 
-                const nombreAlbum = document.createElement('h2')
-                nombreAlbum.innerHTML=albumName(tipo)
+            totalFigus = data[albumName(tipo)]
 
-                pantalla.appendChild(nombreAlbum)
+            const nombreAlbum = document.createElement('h2')
+            nombreAlbum.innerHTML = albumName(tipo)
 
-                const armadoFiltrado = totalFigus.filter(item => item.ARMADO ==="SI" && item.NoVendidas.length>0 && convertirFecha(item.Dia)>fecha2meses)
+            pantalla.appendChild(nombreAlbum)
 
-                armadoFiltrado.forEach(item=>{
-                    const user = document.createElement('h3')
-                    const cuenta = document.createElement('h5')
-                    const figu = document.createElement('p')
-                    const fecha = document.createElement('h5')
+            const armadoFiltrado = totalFigus.filter(item => item.ARMADO === "SI" && item.NoVendidas.length > 0 && convertirFecha(item.Dia) > fecha2meses)
 
-                    user.innerHTML=item.usuario
-                    cuenta.innerHTML=`Cuenta: ${item.Cuenta}`
-                    
-                    let figuNoVendida=[]
+            armadoFiltrado.forEach(item => {
+                const user = document.createElement('h3')
+                const cuenta = document.createElement('h5')
+                const figu = document.createElement('p')
+                const fecha = document.createElement('h5')
 
-                    window.todasLasFigus.forEach(figu=>{
-                        item.NoVendidas.forEach(num=>{
-                            if (num==(figu.NUM)){
-                                figuNoVendida.push({NUM:figu.NUM,CANT:figu.CANT})                                 
-                            } 
-                        })
-                    })
+                user.innerHTML = item.usuario
+                cuenta.innerHTML = `Cuenta: ${item.Cuenta}`
 
-                    
+                let figuNoVendida = []
 
-                    figuNoVendida.forEach(obj =>{
-                        if (obj.CANT==0){
-                            figu.innerHTML+= `<span style="background-color: red; color:white; padding:5px; border:1px solid #000">${obj.NUM} </span>`
-                        }else if (obj.CANT==1){
-                            figu.innerHTML+= `<span style="color: white; background-color:orange; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                window.todasLasFigus.forEach(figu => {
+                    item.NoVendidas.forEach(num => {
+                        if (num == (figu.NUM)) {
+                            figuNoVendida.push({ NUM: figu.NUM, CANT: figu.CANT })
                         }
-                        else if (obj.CANT>=5){
-                            figu.innerHTML+= `<span style="color: white;background-color:green; padding:5px; border:1px solid #000">${obj.NUM} </span>`
-                        }else{
-                            figu.innerHTML+= `<span style="color: white;background-color:skyblue; padding:5px; border:1px solid #000">${obj.NUM} </span>`
-                        }
-                    })        
-                    
-                    const buttonText = document.createElement('button')
-                    buttonText.innerHTML='Copiar'                    
-
-                    fecha.innerHTML=item.Dia
-
-                    const marcoPantallita = document.createElement('div')
-
-                    marcoPantallita.appendChild(user)
-                    marcoPantallita.appendChild(fecha)
-                    marcoPantallita.appendChild(figu)    
-                    marcoPantallita.appendChild(cuenta)
-                    marcoPantallita.appendChild(buttonText)               
-                    
-                    buttonText.addEventListener('click',()=>{
-                        buttonText.style.backgroundColor='pink'
-                        const figus = figuNoVendida.map(figu => figu.NUM).join(", ");
-                        navigator.clipboard.writeText(`Hola! Te queria avisar que tenemos stock en ${figus}, por si aun le interesa. Saludos!`)
                     })
+                })
 
-                    marcoPantallita.style.border = '1px solid lightgrey' 
-                    marcoPantallita.style.padding = '15px'
-                    
-                    pantalla.appendChild(marcoPantallita)
-                    
 
-                })                
-            
-            
+
+                figuNoVendida.forEach(obj => {
+                    if (obj.CANT == 0) {
+                        figu.innerHTML += `<span style="background-color: red; color:white; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                    } else if (obj.CANT == 1) {
+                        figu.innerHTML += `<span style="color: white; background-color:orange; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                    }
+                    else if (obj.CANT >= 5) {
+                        figu.innerHTML += `<span style="color: white;background-color:green; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                    } else {
+                        figu.innerHTML += `<span style="color: white;background-color:skyblue; padding:5px; border:1px solid #000">${obj.NUM} </span>`
+                    }
+                })
+
+                const buttonText = document.createElement('button')
+                buttonText.innerHTML = 'Copiar'
+
+                fecha.innerHTML = item.Dia
+
+                const marcoPantallita = document.createElement('div')
+
+                marcoPantallita.appendChild(user)
+                marcoPantallita.appendChild(fecha)
+                marcoPantallita.appendChild(figu)
+                marcoPantallita.appendChild(cuenta)
+                marcoPantallita.appendChild(buttonText)
+
+                buttonText.addEventListener('click', () => {
+                    buttonText.style.backgroundColor = 'pink'
+                    const figus = figuNoVendida.map(figu => figu.NUM).join(", ");
+                    navigator.clipboard.writeText(`Hola! Te queria avisar que tenemos stock en ${figus}, por si aun le interesa. Saludos!`)
+                })
+
+                marcoPantallita.style.border = '1px solid lightgrey'
+                marcoPantallita.style.padding = '15px'
+
+                pantalla.appendChild(marcoPantallita)
+
+
+            })
+
+
             pantalla.style.margin = '5px'
             pantalla.style.padding = '15px'
             pantalla.classList.add('fVendidas1')
             noVendidasHtml.appendChild(pantalla)
 
         }
-    )
+        )
 }
 
 const ordenarPorCantidad = async (base, event) => {
@@ -625,30 +630,30 @@ const ordenarPorCantidad = async (base, event) => {
     }
 };
 
-const albumFigu = (tipo, event,pag) => {
+const albumFigu = (tipo, event, pag) => {
     tipoAlbum(tipo, event)
-    .then(() => {
-        if (pag =="album150"){
-            armarAlbumFigus();
-        }
-        else if (pag =="buscarUsuario"){
-            buscarCliente(); 
-        }
-        else if (pag =="buscarFigus"){
-            buscarFigus(tipo); 
-        }
-        else if (pag=='sinStock'){
-            sinStock();
-        }else if (pag=='cosecharFigus'){
-            cosecharFigus(tipo);
-        }
-        else if (pag=='noVendidas'){
-            noVendidas(tipo);
-        }
-    });
+        .then(() => {
+            if (pag == "album150") {
+                armarAlbumFigus();
+            }
+            else if (pag == "buscarUsuario") {
+                buscarCliente();
+            }
+            else if (pag == "buscarFigus") {
+                buscarFigus(tipo);
+            }
+            else if (pag == 'sinStock') {
+                sinStock();
+            } else if (pag == 'cosecharFigus') {
+                cosecharFigus(tipo);
+            }
+            else if (pag == 'noVendidas') {
+                noVendidas(tipo);
+            }
+        });
 };
 
-const armarAlbumFigus = () =>{
+const armarAlbumFigus = () => {
     const mostrarEnHtml = document.getElementById('figuUsers');
     mostrarEnHtml.innerHTML = ''; // Limpiar resultados anteriores
 
@@ -656,262 +661,262 @@ const armarAlbumFigus = () =>{
 
     fetch(filePath)
         .then(response => response.json())
-        .then(data => {            
+        .then(data => {
 
             const cantComunesOk = document.createElement('h4')
-            const comunesAlbum = document.createElement('p')            
+            const comunesAlbum = document.createElement('p')
             const tituloAlbum = document.createElement('h3')
-            comunesAlbum.innerHTML='Comunes: <br>'
+            comunesAlbum.innerHTML = 'Comunes: <br>'
             let figusAlbum = [];
             let cantComunes = 0
-            let cantComunesMayor1=0
-            
+            let cantComunesMayor1 = 0
 
-            data.forEach(figu=>{
-                    if (figu.CANT>2 && figu.TIPO=="COMUNES" && cantComunes<cantComunesAlbum && !figusAlbum.includes(figu.NUM)){
-                        figusAlbum.push(figu["NUM"])
-                        comunesAlbum.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `
-                        cantComunes++
-                        cantComunesMayor1++
-                    }                   
+
+            data.forEach(figu => {
+                if (figu.CANT > 2 && figu.TIPO == "COMUNES" && cantComunes < cantComunesAlbum && !figusAlbum.includes(figu.NUM)) {
+                    figusAlbum.push(figu["NUM"])
+                    comunesAlbum.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
+                    cantComunes++
+                    cantComunesMayor1++
                 }
+            }
             )
-            data.forEach(figu=>{
-                    if (figu.CANT==2 && figu.TIPO=="COMUNES" && cantComunes<cantComunesAlbum && !figusAlbum.includes(figu.NUM)){
-                        figusAlbum.push(figu["NUM"])
-                        comunesAlbum.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `
-                        cantComunes++
-                        cantComunesMayor1++
-                    }
+            data.forEach(figu => {
+                if (figu.CANT == 2 && figu.TIPO == "COMUNES" && cantComunes < cantComunesAlbum && !figusAlbum.includes(figu.NUM)) {
+                    figusAlbum.push(figu["NUM"])
+                    comunesAlbum.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
+                    cantComunes++
+                    cantComunesMayor1++
                 }
+            }
             )
 
-            let cantComunesX1=[]
+            let cantComunesX1 = []
             let randomsX1 = []
-            data.forEach(figu=>{
-                    if (figu.CANT==1 && figu.TIPO=="COMUNES"){
-                        cantComunesX1.push(figu.NUM)
-                    }
+            data.forEach(figu => {
+                if (figu.CANT == 1 && figu.TIPO == "COMUNES") {
+                    cantComunesX1.push(figu.NUM)
                 }
+            }
             )
 
-            cantComunesX1.forEach(figu=>{
-                    if (cantComunes<cantComunesAlbum && !figusAlbum.includes(figu.NUM)){
-                        let randomInt = Math.floor(Math.random() * cantComunesX1.length);
-                        
-                        while (randomsX1.includes(randomInt)){
-                            randomInt = Math.floor(Math.random() * cantComunesX1.length);                         
-                        }
-                        randomsX1.push(randomInt)
-                        figusAlbum.push(cantComunesX1[randomInt])
-                        comunesAlbum.innerHTML+=`<span style="color: red;">${cantComunesX1[randomInt]}</span> `
-                        cantComunes++
+            cantComunesX1.forEach(figu => {
+                if (cantComunes < cantComunesAlbum && !figusAlbum.includes(figu.NUM)) {
+                    let randomInt = Math.floor(Math.random() * cantComunesX1.length);
+
+                    while (randomsX1.includes(randomInt)) {
+                        randomInt = Math.floor(Math.random() * cantComunesX1.length);
                     }
+                    randomsX1.push(randomInt)
+                    figusAlbum.push(cantComunesX1[randomInt])
+                    comunesAlbum.innerHTML += `<span style="color: red;">${cantComunesX1[randomInt]}</span> `
+                    cantComunes++
                 }
+            }
             )
 
-            let cantFiguYPF =0;
+            let cantFiguYPF = 0;
             const figusYPF = document.createElement('p')
-            figusYPF.innerHTML=`YPF: <br>`
+            figusYPF.innerHTML = `YPF: <br>`
 
-            let cantFiguCopa =0;
+            let cantFiguCopa = 0;
             const figusCopa = document.createElement('p')
-            figusCopa.innerHTML=`COPA: <br>`  
+            figusCopa.innerHTML = `COPA: <br>`
 
-            let cantFiguSem =0;
+            let cantFiguSem = 0;
             const figusSem = document.createElement('p')
-            figusSem.innerHTML=`SEM: <br>`
+            figusSem.innerHTML = `SEM: <br>`
 
-            let cantFiguLPF =0;
+            let cantFiguLPF = 0;
             const figusLPF = document.createElement('p')
-            figusLPF.innerHTML=`LPF: <br>`
+            figusLPF.innerHTML = `LPF: <br>`
 
-            let cantFiguEscudos =0;
+            let cantFiguEscudos = 0;
             const figusEscudos = document.createElement('p')
-            figusEscudos.innerHTML=`Escudos: <br>`
+            figusEscudos.innerHTML = `Escudos: <br>`
 
-            let cantFiguRiv =0;
+            let cantFiguRiv = 0;
             const figusRiv = document.createElement('p')
-            figusRiv.innerHTML=`River: <br>`
+            figusRiv.innerHTML = `River: <br>`
 
-            let cantFiguBoc =0;
+            let cantFiguBoc = 0;
             const figusBoc = document.createElement('p')
-            figusBoc.innerHTML=`Boca: <br>`
+            figusBoc.innerHTML = `Boca: <br>`
 
-            data.forEach(figu =>{
-                if (figu.CANT>2){
-                    if (figu.TIPO=="YPF" && cantFiguYPF<2){
-                        cantFiguYPF++    
-                        figusYPF.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
-                        figusAlbum.push(figu["NUM"])   
+            data.forEach(figu => {
+                if (figu.CANT > 2) {
+                    if (figu.TIPO == "YPF" && cantFiguYPF < 2) {
+                        cantFiguYPF++
+                        figusYPF.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
+                        figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="COPA" && cantFiguCopa<2){
+                    if (figu.TIPO == "COPA" && cantFiguCopa < 2) {
                         cantFiguCopa++
-                        figusCopa.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
+                        figusCopa.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="SEMILLERO" && cantFiguSem<2){
+                    if (figu.TIPO == "SEMILLERO" && cantFiguSem < 2) {
                         cantFiguSem++
-                        figusSem.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
+                        figusSem.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="LPF" && cantFiguLPF<1){
+                    if (figu.TIPO == "LPF" && cantFiguLPF < 1) {
                         cantFiguLPF++
-                        figusLPF.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
+                        figusLPF.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="ESCUDO" && cantFiguEscudos<7){
+                    if (figu.TIPO == "ESCUDO" && cantFiguEscudos < 7) {
                         cantFiguEscudos++
-                        figusEscudos.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
+                        figusEscudos.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="RIV" && cantFiguRiv<3){
+                    if (figu.TIPO == "ESP" && figu.NUM.substring(0, 3) == "RIV" && cantFiguRiv < 3) {
                         cantFiguRiv++
-                        figusRiv.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
+                        figusRiv.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="BOC" && cantFiguBoc<3){
+                    if (figu.TIPO == "ESP" && figu.NUM.substring(0, 3) == "BOC" && cantFiguBoc < 3) {
                         cantFiguBoc++
-                        figusBoc.innerHTML+=`<span style="color: #1dff06;">${figu.NUM}</span> `  
+                        figusBoc.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
                 }
             })
 
-            data.forEach(figu =>{
-                if (figu.CANT==2){
-                    if (figu.TIPO=="YPF" && cantFiguYPF<2){
-                        cantFiguYPF++    
-                        figusYPF.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
-                        figusAlbum.push(figu["NUM"])       
+            data.forEach(figu => {
+                if (figu.CANT == 2) {
+                    if (figu.TIPO == "YPF" && cantFiguYPF < 2) {
+                        cantFiguYPF++
+                        figusYPF.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
+                        figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="COPA" && cantFiguCopa<2){
+                    if (figu.TIPO == "COPA" && cantFiguCopa < 2) {
                         cantFiguCopa++
-                        figusCopa.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
+                        figusCopa.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="SEMILLERO" && cantFiguSem<2){
+                    if (figu.TIPO == "SEMILLERO" && cantFiguSem < 2) {
                         cantFiguSem++
-                        figusSem.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
+                        figusSem.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="LPF" && cantFiguLPF<1){
+                    if (figu.TIPO == "LPF" && cantFiguLPF < 1) {
                         cantFiguLPF++
-                        figusLPF.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
+                        figusLPF.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="ESCUDO" && cantFiguEscudos<7){
+                    if (figu.TIPO == "ESCUDO" && cantFiguEscudos < 7) {
                         cantFiguEscudos++
-                        figusEscudos.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
+                        figusEscudos.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="RIV" && cantFiguRiv<3){
+                    if (figu.TIPO == "ESP" && figu.NUM.substring(0, 3) == "RIV" && cantFiguRiv < 3) {
                         cantFiguRiv++
-                        figusRiv.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
+                        figusRiv.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="ESP" && figu.NUM.substring(0,3)=="BOC" && cantFiguBoc<3){
+                    if (figu.TIPO == "ESP" && figu.NUM.substring(0, 3) == "BOC" && cantFiguBoc < 3) {
                         cantFiguBoc++
-                        figusBoc.innerHTML+=`<span style="color: #e5d100;">${figu.NUM}</span> `  
+                        figusBoc.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
                 }
             })
 
-            data.forEach(figu =>{
-                if(figu.CANT==1){
-                    if (figu.TIPO=="YPF" && cantFiguYPF<2){
-                        cantFiguYPF++    
-                        figusYPF.innerHTML+=  `<span style="color: red;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])      
+            data.forEach(figu => {
+                if (figu.CANT == 1) {
+                    if (figu.TIPO == "YPF" && cantFiguYPF < 2) {
+                        cantFiguYPF++
+                        figusYPF.innerHTML += `<span style="color: red;">${figu.NUM}</span> `
+                        figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="COPA" && cantFiguCopa<2){
+                    if (figu.TIPO == "COPA" && cantFiguCopa < 2) {
                         cantFiguCopa++
-                        figusCopa.innerHTML+=  `<span style="color: red;">${figu.NUM}</span> `
+                        figusCopa.innerHTML += `<span style="color: red;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="SEMILLERO" && cantFiguSem<2){
+                    if (figu.TIPO == "SEMILLERO" && cantFiguSem < 2) {
                         cantFiguSem++
-                        figusSem.innerHTML+=  `<span style="color: red;">${figu.NUM}</span> `
+                        figusSem.innerHTML += `<span style="color: red;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
-                    if (figu.TIPO=="ESCUDO" && cantFiguEscudos<7){
+                    if (figu.TIPO == "ESCUDO" && cantFiguEscudos < 7) {
                         cantFiguEscudos++
-                        figusEscudos.innerHTML+=  `<span style="color: red;">${figu.NUM}</span> `
+                        figusEscudos.innerHTML += `<span style="color: red;">${figu.NUM}</span> `
                         figusAlbum.push(figu["NUM"])
                     }
                 }
             })
 
-            let sobrantes=[]
-            data.forEach(figu=>{
-                if (figu.CANT>1 && !figusAlbum.includes(figu.NUM)){
+            let sobrantes = []
+            data.forEach(figu => {
+                if (figu.CANT > 1 && !figusAlbum.includes(figu.NUM)) {
                     sobrantes.push(figu.NUM)
                 }
             })
 
             const figusSobrantes = document.createElement('p')
-            figusSobrantes.innerHTML='Sobrantes: '
-            figusSobrantes.style.color='green'
-            sobrantes.forEach(figu=> figusSobrantes.innerHTML+=figu+" ")
-            
+            figusSobrantes.innerHTML = 'Sobrantes: '
+            figusSobrantes.style.color = 'green'
+            sobrantes.forEach(figu => figusSobrantes.innerHTML += figu + " ")
 
-            const comunesCant1=document.createElement('h4')
-            comunesCant1.innerHTML=`CANT x1 : ${cantComunesAlbum-cantComunesMayor1}`
 
-            cantComunesOk.innerHTML=`COMUNES >1 : ${cantComunesMayor1}/${cantComunesAlbum}`            
-            tituloAlbum.innerHTML=`Album (${cantComunes+cantFiguYPF+cantFiguCopa+cantFiguLPF+cantFiguSem+cantFiguEscudos+cantFiguRiv+cantFiguBoc}): `
+            const comunesCant1 = document.createElement('h4')
+            comunesCant1.innerHTML = `CANT x1 : ${cantComunesAlbum - cantComunesMayor1}`
+
+            cantComunesOk.innerHTML = `COMUNES >1 : ${cantComunesMayor1}/${cantComunesAlbum}`
+            tituloAlbum.innerHTML = `Album (${cantComunes + cantFiguYPF + cantFiguCopa + cantFiguLPF + cantFiguSem + cantFiguEscudos + cantFiguRiv + cantFiguBoc}): `
             mostrarEnHtml.appendChild(cantComunesOk)
             mostrarEnHtml.appendChild(comunesCant1)
             mostrarEnHtml.appendChild(tituloAlbum)
             mostrarEnHtml.appendChild(comunesAlbum)
             mostrarEnHtml.appendChild(figusYPF)
             mostrarEnHtml.appendChild(figusCopa)
-            mostrarEnHtml.appendChild(figusSem) 
-            mostrarEnHtml.appendChild(figusLPF) 
-            mostrarEnHtml.appendChild(figusEscudos) 
-            mostrarEnHtml.appendChild(figusRiv) 
-            mostrarEnHtml.appendChild(figusBoc) 
+            mostrarEnHtml.appendChild(figusSem)
+            mostrarEnHtml.appendChild(figusLPF)
+            mostrarEnHtml.appendChild(figusEscudos)
+            mostrarEnHtml.appendChild(figusRiv)
+            mostrarEnHtml.appendChild(figusBoc)
             mostrarEnHtml.appendChild(figusSobrantes)
 
             const buttonCopiar = document.createElement('button')
-            buttonCopiar.innerHTML=`Copiar ${cantComunes+cantFiguYPF+cantFiguCopa+cantFiguLPF+cantFiguSem+cantFiguEscudos+cantFiguRiv+cantFiguBoc} figus `
+            buttonCopiar.innerHTML = `Copiar ${cantComunes + cantFiguYPF + cantFiguCopa + cantFiguLPF + cantFiguSem + cantFiguEscudos + cantFiguRiv + cantFiguBoc} figus `
             mostrarEnHtml.appendChild(buttonCopiar)
 
-            buttonCopiar.addEventListener('click',()=>{
+            buttonCopiar.addEventListener('click', () => {
                 let figusParaAlbum = "";
-                figusAlbum.forEach(figu=>figusParaAlbum+=figu+" ")
+                figusAlbum.forEach(figu => figusParaAlbum += figu + " ")
                 navigator.clipboard.writeText(figusParaAlbum)
             })
         })
 
 }
 
-const albumName = (nombreJson) =>{
-    if (nombreJson == "baseMundial"){
+const albumName = (nombreJson) => {
+    if (nombreJson == "baseMundial") {
         return "Mundial Qatar 2022"
-    }else if (nombreJson == "base_copam"){
+    } else if (nombreJson == "base_copam") {
         return "Copa America 2024"
-    }else if (nombreJson == "baseMundialUsa"){
+    } else if (nombreJson == "baseMundialUsa") {
         return "Mundial USA 2026"
-    }else if (nombreJson == "baseFutarg"){
+    } else if (nombreJson == "baseFutarg") {
         return "Futbol Argentino 2023"
-    }else if (nombreJson == "baseFutarg24"){
+    } else if (nombreJson == "baseFutarg24") {
         return "Futbol Arg 2024"
-    }else if (nombreJson == "baseLali"){
+    } else if (nombreJson == "baseLali") {
         return "Copa Libertadores 2023"
     }
-     
+
 }
 
 function convertirFecha(fechaStr) {
     const [dia, mes, anio] = fechaStr.split('/').map(num => parseInt(num, 10));
     return new Date(anio, mes - 1, dia); // Recordar que los meses en JavaScript empiezan desde 0
-  }
-  
-  const fecha2meses = new Date(); 
-  fecha2meses.setHours(0, 0, 0, 0); // Solo considerar la fecha sin hora
-  fecha2meses.setDate(fecha2meses.getDate() - 40);
+}
 
-  const hoy= new Date();
-  hoy.setHours(0,0,0,0)
+const fecha2meses = new Date();
+fecha2meses.setHours(0, 0, 0, 0); // Solo considerar la fecha sin hora
+fecha2meses.setDate(fecha2meses.getDate() - 40);
+
+const hoy = new Date();
+hoy.setHours(0, 0, 0, 0)

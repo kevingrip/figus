@@ -1,5 +1,3 @@
-//import modeloVenta from "../modelo_mdb/modeloVenta";
-
 const formatearPaises = (valorInput) => {
     valorInput = valorInput.replace(/WALLES|WALES|GALES|GALS/g, "WAL");
     valorInput = valorInput.replace(/INTRO|INTR/g, "INT");
@@ -108,11 +106,7 @@ const formatearEntrada = () => {
     return figusSeleccionadas;
 }
 
-export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
-
-    const api = window.location.hostname === "localhost" || window.location.hostname === "192.168.0.249"
-        ? "http://localhost:5050"
-        : "https://figutld.onrender.com";
+export const buscarFigus = (nombreJson, albumFigus, albumRuta,api) => {
 
     const Toast = Swal.mixin({
         toast: true,
