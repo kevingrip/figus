@@ -1,6 +1,6 @@
 const api = window.location.hostname === "localhost" || window.location.hostname === "192.168.0.249"
     ? "http://localhost:5050"
-    : "https://tu-backend.onrender.com";
+    : "https://figutld.onrender.com";
 
 export async function obtenerFiguritas(album) {
     const res = await fetch(`${api}/${album}`);
