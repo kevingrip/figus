@@ -1,6 +1,6 @@
-import { obtenerFiguritas,obtenerVentas } from "./api.js";
-import { cosecharFigus } from "./javascript/cosecharFigus.js";
-import { buscarFigus } from "./javascript/buscarFigus.js";
+import { obtenerFiguritas,obtenerVentas } from "../api.js";
+import { cosecharFigus } from "../javascript/cosecharFigus.js";
+import { buscarFigus } from "../javascript/buscarFigus.js";
 
 const botones = document.querySelectorAll(".bloqueAlbum");
 botones.forEach(boton => {
