@@ -140,6 +140,10 @@ function datosBloques(figu, informacion,textoInferior, esClick) {
 
 export const cosecharFigus = (tipo, figuritas,albumRuta) => {
 
+    const api = window.location.hostname === "localhost" || window.location.hostname === "192.168.0.249"
+    ? "http://localhost:5050"
+    : "https://figutld.onrender.com";
+
     const resultados = document.getElementById('resultados');
     resultados.innerHTML = ''
     let figusSeleccionadas = ""
@@ -209,7 +213,7 @@ export const cosecharFigus = (tipo, figuritas,albumRuta) => {
         botonMas.addEventListener('click', async () => {
 
             //ACTUALIZAR CON MONGO
-            const respuesta = await fetch(`http://localhost:5050/${albumRuta}/incrementar/${figu._id}`, {
+            const respuesta = await fetch(`${api}/${albumRuta}/incrementar/${figu._id}`, {
                 method: "PATCH"
             });
 
@@ -248,7 +252,7 @@ export const cosecharFigus = (tipo, figuritas,albumRuta) => {
         botonMenos.addEventListener('click', async () => {
 
             //ACTUALIZAR CON MONGO
-            const respuesta = await fetch(`http://localhost:5050/${albumRuta}/decrementar/${figu._id}`, {
+            const respuesta = await fetch(`${api}/${albumRuta}/decrementar/${figu._id}`, {
                 method: "PATCH"
             });
 
