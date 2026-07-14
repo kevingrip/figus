@@ -1,4 +1,4 @@
-import { obtenerFiguritas,obtenerVentas } from "./api.js";
+import { obtenerFiguritas/*,obtenerVentas*/ } from "./api.js";
 import { cosecharFigus } from "./javascript/cosecharFigus.js";
 import {buscarFigus} from "./javascript/buscarFigus.js"
 
