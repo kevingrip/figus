@@ -29,10 +29,10 @@ app.listen(PORT,()=>{
     console.log(`servidor levantado en el puerto ${PORT}`)
 })
 
-app.get("/ventas", async (req, res) => {
-    const ventas = await Venta.find().lean();
-    res.json(ventas);
-});
+// app.get("/ventas", async (req, res) => {
+//     const ventas = await Venta.find().lean();
+//     res.json(ventas);
+// });
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "indexv2.html"));
