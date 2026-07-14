@@ -19,8 +19,8 @@ const mongo_url = process.env.MONGO_URL
 await mongoose.connect(mongo_url);
 
 const app = express()
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
 const PORT = process.env.PORT || 5050;
