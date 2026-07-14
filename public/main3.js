@@ -1,6 +1,6 @@
-import { obtenerFiguritas,obtenerVentas } from "../api.js";
-import { cosecharFigus } from "../javascript/cosecharFigus.js";
-import { buscarFigus } from "../javascript/buscarFigus.js";
+import { obtenerFiguritas,obtenerVentas } from "./api.js";
+import { cosecharFigus } from "./javascript/cosecharFigus.js";
+import {buscarFigus} from "./javascript/buscarFigus.js"
 
 const botones = document.querySelectorAll(".bloqueAlbum");
 botones.forEach(boton => {
@@ -141,7 +141,10 @@ const totalVentas = async() =>{
     
     console.log(ventas);
 
-    totalVentasElement.textContent = ventas[0].VENDIDAS;
+    if (totalVentasElement){
+        totalVentasElement.textContent = ventas[0].VENDIDAS;
+    }
+    
 
     // fetch(filePath)
     //     .then(response => response.json())
