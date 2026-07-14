@@ -23,9 +23,16 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static(path.join(__dirname, "public")));
 
-app.listen(5050,()=>{
-    console.log("servidor levantado en el puerto 5050")
+const PORT = process.env.PORT || 5050;
+
+app.listen(PORT,()=>{
+    console.log(`servidor levantado en el puerto ${PORT}`)
 })
+
+app.get("/ventas", async (req, res) => {
+    const ventas = await Venta.find().lean();
+    res.json(ventas);
+});
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "indexv2.html"));
@@ -80,9 +87,4 @@ app.patch("/:album/:accion/:id", async (req, res) => {
 app.post("/ventas", async (req, res) => {
     await Venta.create(req.body);
     res.json({ ok: true });
-});
-
-app.get("/ventas", async (req, res) => {
-    const ventas = await Venta.find().lean();
-    res.json(ventas);
 });
