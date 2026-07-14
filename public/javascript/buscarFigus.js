@@ -1,3 +1,6 @@
+import { api } from "../config.js";
+
+
 const formatearPaises = (valorInput) => {
     valorInput = valorInput.replace(/WALLES|WALES|GALES|GALS/g, "WAL");
     valorInput = valorInput.replace(/INTRO|INTR/g, "INT");
@@ -59,9 +62,7 @@ const formatearPaises = (valorInput) => {
 }
 
 
-const formatearEntrada = () => {
-
-    let valorInput = document.getElementById('entrada').value.toUpperCase();
+const formatearEntrada = (valorInput) => {
 
     let figuritas = ''
     let pais = ''
@@ -106,8 +107,7 @@ const formatearEntrada = () => {
     return figusSeleccionadas;
 }
 
-export const buscarFigus = (nombreJson, albumFigus, albumRuta,api) => {
-
+export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
     const Toast = Swal.mixin({
         toast: true,
         position: 'top-end',
@@ -119,18 +119,18 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta,api) => {
             toast.addEventListener('mouseleave', Swal.resumeTimer)
         }
     })
-
-    const figusEntrada = formatearEntrada()
+    let valorInput = document.getElementById('entrada').value.toUpperCase();
+    const figusEntrada = formatearEntrada(valorInput)
 
     // Filtrar las figus seleccionadas
-    const figusEncontradasEnLaBase = albumFigus.filter(figu => figusEntrada.includes(figu.NUM));
+    const figusDeLaBase = albumFigus.filter(figu => figusEntrada.includes(figu.NUM));
 
     let errorEscritura = false;
     let error = "";
 
     figusEntrada.forEach(figuNum => {
         // Buscar si la figura está en el array de figuras encontradas
-        const figu = figusEncontradasEnLaBase.find(fig => fig.NUM === figuNum);
+        const figu = figusDeLaBase.find(fig => fig.NUM === figuNum);
 
         // Si no está en el array, se muestra un mensaje en consola
         if (!figu) {
@@ -139,7 +139,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta,api) => {
         }
     });
 
-    console.log(figusEncontradasEnLaBase)
+    console.log(figusDeLaBase)
 
     let cantFigusStock = 0;
     let cantFigusSinStock = 0;
@@ -156,7 +156,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta,api) => {
 
     let costoEnvioGratis = 33000
 
-    figusEncontradasEnLaBase.forEach(figu => {
+    figusDeLaBase.forEach(figu => {
 
         cantFigusConsult += 1;
 
@@ -240,7 +240,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta,api) => {
         cantLi.textContent = `Cantidad figus contadas en la pregunta: ${cantFigusConsult}`;
         separacionDiv2.appendChild(cantLi);
 
-        figusEncontradasEnLaBase.forEach(figu => {
+        figusDeLaBase.forEach(figu => {
             stringDeFiguritas += figu.NUM + " "
             figuList.push(figu.NUM)
 

@@ -39,6 +39,7 @@ app.get("/", (req, res) => {
 app.get("/:album", async (req, res) => {
     try {
         const modelo = obtenerModeloFiguritas(req.params.album);
+        const album = req.params.album
 
         const albumes = [
             "mundialUsa2026",
@@ -47,9 +48,9 @@ app.get("/:album", async (req, res) => {
             "futbolArgentino2024",
             "libertadores2023",
             "copaAmerica2024"
-        ]
+        ]        
 
-        if (albumes.includes(modelo)) {
+        if (albumes.includes(album)) {
             const cantidad = await modelo.countDocuments();
             console.log("Cantidad:", cantidad);
 

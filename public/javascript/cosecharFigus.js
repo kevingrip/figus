@@ -1,3 +1,5 @@
+import { api } from "../config.js";
+
 
 function crearBotonContenedor(figu) {
     const contenedor = document.createElement("div");
@@ -138,7 +140,7 @@ function datosBloques(figu, informacion,textoInferior, esClick) {
 }
 
 
-export const cosecharFigus = (tipo, figuritas,albumRuta,api) => {    
+export const cosecharFigus = (tipo, figuritas,albumRuta) => {    
 
     const resultados = document.getElementById('resultados');
     resultados.innerHTML = ''

@@ -13,44 +13,44 @@ botones.forEach(boton => {
     });
 });
 
-const api = window.location.hostname === "localhost" || window.location.hostname === "192.168.0.249"
-    ? "http://localhost:5050"
-    : "https://figutld.onrender.com";
-
 const botonMundialUsaBuscar = document.getElementById("botonMundialUsaBuscar")
 botonMundialUsaBuscar?.addEventListener('click', async () => {
-    const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
-    buscarFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026",api);
+    try {
+        const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
+        buscarFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026");
+    } catch (error) {
+        console.error(error);
+    }
 })
 
 const botonMundialQatarBuscar = document.getElementById("botonMundialQatarBuscar")
 botonMundialQatarBuscar?.addEventListener('click', async () => {
     const figusMundialQatar = await obtenerFiguritas("mundialQatar2022");
-    buscarFigus("baseMundial", figusMundialQatar, "mundialQatar2022",api);
+    buscarFigus("baseMundial", figusMundialQatar, "mundialQatar2022");
 })
 
 const botonCopaAmericaBuscar = document.getElementById("botonCopaAmericaBuscar")
 botonCopaAmericaBuscar?.addEventListener('click', async () => {
     const figusCopaAmerica = await obtenerFiguritas("copaAmerica2024");
-    buscarFigus("base_copam", figusCopaAmerica, "copaAmerica2024",api);
+    buscarFigus("base_copam", figusCopaAmerica, "copaAmerica2024");
 })
 
 const botonMundialUsaCosecha = document.getElementById("botonMundialUsaCosecha")
 botonMundialUsaCosecha?.addEventListener('click', async () => {
     const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
-    cosecharFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026",api);
+    cosecharFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026");
 })
 
 const botonCopaAmericaCosecha = document.getElementById("botonCopaAmericaCosecha")
 botonCopaAmericaCosecha?.addEventListener('click', async () => {
     const figusCopaAmerica = await obtenerFiguritas("copaAmerica2024");
-    cosecharFigus("base_copam", figusCopaAmerica, "copaAmerica2024",api);
+    cosecharFigus("base_copam", figusCopaAmerica, "copaAmerica2024");
 })
 
 const botonMundialQatarCosecha = document.getElementById("botonMundialQatarCosecha")
 botonMundialQatarCosecha?.addEventListener('click', async () => {
     const figusMundialQatar = await obtenerFiguritas("mundialQatar2022");
-    cosecharFigus("baseMundialQatar", figusMundialQatar, "mundialQatar2022",api);
+    cosecharFigus("baseMundialQatar", figusMundialQatar, "mundialQatar2022");
 })
 
 
