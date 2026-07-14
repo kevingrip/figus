@@ -110,6 +110,10 @@ const formatearEntrada = () => {
 
 export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
 
+    const api = window.location.hostname === "localhost" || window.location.hostname === "192.168.0.249"
+        ? "http://localhost:5050"
+        : "https://figutld.onrender.com";
+
     const Toast = Swal.mixin({
         toast: true,
         position: 'top-end',
@@ -527,7 +531,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
                                         if (figu.CANT > 0) {
                                             try {
 
-                                                await fetch(`http://localhost:5050/${albumRuta}/decrementar/${figu._id}`, {
+                                                await fetch(`${api}/${albumRuta}/decrementar/${figu._id}`, {
                                                     method: "PATCH"
                                                 });
 
@@ -570,7 +574,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
                             })
 
                             try {
-                                await fetch("http://localhost:5050/ventas", {
+                                await fetch(`${api}/ventas`, {
                                     method: "POST",
                                     headers: {
                                         "Content-Type": "application/json"
