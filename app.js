@@ -28,7 +28,7 @@ app.listen(PORT, () => {
 })
 
 app.get("/ventas", async (req, res) => {
-    const ventas = await Venta.find().lean();
+    const ventas = await Venta.find().sort({ DIA: -1 }).lean();
     res.json(ventas);
 });
 
