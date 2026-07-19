@@ -1,0 +1,5816 @@
+[
+  {
+    "_id": "6a54579932ec8b7dab80e217",
+    "NUM": "ARG1",
+    "CANT": 0,
+    "PRECIO": 7500,
+    "TIPO": "ESC AFA",
+    "NOMBRE": "Argentina Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e218",
+    "NUM": "ARG2",
+    "CANT": 1,
+    "PRECIO": 5000,
+    "TIPO": "AFA",
+    "NOMBRE": "Emiliano Martinez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e219",
+    "NUM": "ARG3",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "AFA",
+    "NOMBRE": "Franco Armani",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e21a",
+    "NUM": "ARG4",
+    "CANT": 3,
+    "PRECIO": 10000,
+    "TIPO": "AFA",
+    "NOMBRE": "Marcos Acuna",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e21b",
+    "NUM": "ARG5",
+    "CANT": 3,
+    "PRECIO": 10000,
+    "TIPO": "AFA",
+    "NOMBRE": "Nahuel Molina",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e21c",
+    "NUM": "ARG6",
+    "CANT": 3,
+    "PRECIO": 10000,
+    "TIPO": "AFA",
+    "NOMBRE": "Nicolas Otamendi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e21d",
+    "NUM": "ARG7",
+    "CANT": 4,
+    "PRECIO": 10000,
+    "TIPO": "AFA",
+    "NOMBRE": "German Pezzella",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e21e",
+    "NUM": "ARG8",
+    "CANT": 1,
+    "PRECIO": 13000,
+    "TIPO": "AFA",
+    "NOMBRE": "Cristian Romero",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e21f",
+    "NUM": "ARG9",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "AFA",
+    "NOMBRE": "Rodrigo De Paul",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e220",
+    "NUM": "ARG10",
+    "CANT": 2,
+    "PRECIO": 5000,
+    "TIPO": "AFA",
+    "NOMBRE": "Angel Di Maria",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e221",
+    "NUM": "ARG11",
+    "CANT": 33,
+    "PRECIO": 3000,
+    "TIPO": "AFA",
+    "NOMBRE": "Giovani Lo Celso",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e222",
+    "NUM": "ARG12",
+    "CANT": 3,
+    "PRECIO": 10000,
+    "TIPO": "AFA",
+    "NOMBRE": "Leandro Paredes",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e223",
+    "NUM": "ARG13",
+    "CANT": 1,
+    "PRECIO": 13000,
+    "TIPO": "AFA",
+    "NOMBRE": "Guido Rodriguez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e224",
+    "NUM": "ARG14",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "AFA",
+    "NOMBRE": "Julian Alvarez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e225",
+    "NUM": "ARG15",
+    "CANT": 2,
+    "PRECIO": 13000,
+    "TIPO": "AFA",
+    "NOMBRE": "Joaquin Correa",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e226",
+    "NUM": "ARG16",
+    "CANT": 1,
+    "PRECIO": 13000,
+    "TIPO": "AFA",
+    "NOMBRE": "Alejandro Gomez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e227",
+    "NUM": "ARG17",
+    "CANT": 4,
+    "PRECIO": 10000,
+    "TIPO": "AFA",
+    "NOMBRE": "Nicolas Gonzalez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e228",
+    "NUM": "ARG18",
+    "CANT": 2,
+    "PRECIO": 10000,
+    "TIPO": "AFA",
+    "NOMBRE": "Lautaro Martinez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e229",
+    "NUM": "ARG19",
+    "CANT": 0,
+    "PRECIO": 16000,
+    "TIPO": "AFA",
+    "NOMBRE": "Lionel Messi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e22a",
+    "NUM": "AUS1",
+    "CANT": 1,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Australia Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e22b",
+    "NUM": "AUS2",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mathew Ryan",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e22c",
+    "NUM": "AUS3",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Andrew Redmayne",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e22d",
+    "NUM": "AUS4",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Aziz Behich",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e22e",
+    "NUM": "AUS5",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Milos Degenek",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e22f",
+    "NUM": "AUS6",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Rhyan Grant",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e230",
+    "NUM": "AUS7",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Joel King",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e231",
+    "NUM": "AUS8",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Trent Sainsbury",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e232",
+    "NUM": "AUS9",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Harry Souttar",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e233",
+    "NUM": "AUS10",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ajdin Hrustic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e234",
+    "NUM": "AUS11",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jackson Irvine",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e235",
+    "NUM": "AUS12",
+    "CANT": 10,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "James Jeggo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e236",
+    "NUM": "AUS13",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Awer Mabil",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e237",
+    "NUM": "AUS14",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Aaron Mooy",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e238",
+    "NUM": "AUS15",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Martin Boyle",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e239",
+    "NUM": "AUS16",
+    "CANT": 10,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mitchell Duke",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e23a",
+    "NUM": "AUS17",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Craig Goodwin",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e23b",
+    "NUM": "AUS18",
+    "CANT": 4,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mathew Leckie",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e23c",
+    "NUM": "AUS19",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Adam Taggart",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e23d",
+    "NUM": "BEL1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Belgium Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e23e",
+    "NUM": "BEL2",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Thibaut Courtois",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e23f",
+    "NUM": "BEL3",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Simon Mignolet",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e240",
+    "NUM": "BEL4",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Toby Alderweireld",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e241",
+    "NUM": "BEL5",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Timothy Castagne",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e242",
+    "NUM": "BEL6",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jason Denayer",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e243",
+    "NUM": "BEL7",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Thomas Meunier",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e244",
+    "NUM": "BEL8",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jan Vertonghen",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e245",
+    "NUM": "BEL9",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yannick Carrasco",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e246",
+    "NUM": "BEL10",
+    "CANT": 41,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kevin De Bruyne",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e247",
+    "NUM": "BEL11",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Charles De Ketelaere",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e248",
+    "NUM": "BEL12",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Thorgan Hazard",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e249",
+    "NUM": "BEL13",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Youri Tielemans",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e24a",
+    "NUM": "BEL14",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hans Vanaken",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e24b",
+    "NUM": "BEL15",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Axel Witsel",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e24c",
+    "NUM": "BEL16",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jeremy Doku",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e24d",
+    "NUM": "BEL17",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Eden Hazard",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e24e",
+    "NUM": "BEL18",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Romelu Lukaku",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e24f",
+    "NUM": "BEL19",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Dries Mertens",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e250",
+    "NUM": "BRA1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Brazil Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e251",
+    "NUM": "BRA2",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alisson",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e252",
+    "NUM": "BRA3",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ederson",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e253",
+    "NUM": "BRA4",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alex Sandro",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e254",
+    "NUM": "BRA5",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Danilo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e255",
+    "NUM": "BRA6",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Eder Militao",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e256",
+    "NUM": "BRA7",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Marquinhos",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e257",
+    "NUM": "BRA8",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Thiago Silva",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e258",
+    "NUM": "BRA9",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Casemiro",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e259",
+    "NUM": "BRA10",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Philippe Coutinho",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e25a",
+    "NUM": "BRA11",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Fabinho",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e25b",
+    "NUM": "BRA12",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Fred",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e25c",
+    "NUM": "BRA13",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Lucas Paqueta",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e25d",
+    "NUM": "BRA14",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Antony",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e25e",
+    "NUM": "BRA15",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Gabriel Jesus",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e25f",
+    "NUM": "BRA16",
+    "CANT": 0,
+    "PRECIO": 8000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Neymar Jr",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e260",
+    "NUM": "BRA17",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Raphinha",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e261",
+    "NUM": "BRA18",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Richarlison",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e262",
+    "NUM": "BRA19",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Vinicius Jr",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e263",
+    "NUM": "C1",
+    "CANT": 0,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "NOMBRE": "GNABRY",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e264",
+    "NUM": "C2",
+    "CANT": 0,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "NOMBRE": "DIBU",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e265",
+    "NUM": "C3",
+    "CANT": 1,
+    "PRECIO": 10000,
+    "TIPO": "COCA",
+    "NOMBRE": "DE BRUYNE",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e266",
+    "NUM": "C4",
+    "CANT": 1,
+    "PRECIO": 10000,
+    "TIPO": "COCA",
+    "NOMBRE": "MODRIC",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e267",
+    "NUM": "C5",
+    "CANT": 2,
+    "PRECIO": 9000,
+    "TIPO": "COCA",
+    "NOMBRE": "DECLAN RICE",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e268",
+    "NUM": "C6",
+    "CANT": 0,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "NOMBRE": "GAVI",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e269",
+    "NUM": "C7",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "COCA",
+    "NOMBRE": "LOZANO",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e26a",
+    "NUM": "C8",
+    "CANT": 0,
+    "PRECIO": 6000,
+    "TIPO": "COCA",
+    "NOMBRE": "H M SON",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e26b",
+    "NUM": "CAN1",
+    "CANT": 4,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Canada Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e26c",
+    "NUM": "CAN2",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Milan Borjan",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e26d",
+    "NUM": "CAN3",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Maxime Crepeau",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e26e",
+    "NUM": "CAN4",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Samuel Adekugbe",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e26f",
+    "NUM": "CAN5",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Doneil Henry",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e270",
+    "NUM": "CAN6",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alistair Johnston",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e271",
+    "NUM": "CAN7",
+    "CANT": 10,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Richie Laryea",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e272",
+    "NUM": "CAN8",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kamal Miller",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e273",
+    "NUM": "CAN9",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Steven Vitoria",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e274",
+    "NUM": "CAN10",
+    "CANT": 29,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Tajon Buchanan",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e275",
+    "NUM": "CAN11",
+    "CANT": 20,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alphonso Davies",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e276",
+    "NUM": "CAN12",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Stephen Eustaquio",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e277",
+    "NUM": "CAN13",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Atiba Hutchinson",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e278",
+    "NUM": "CAN14",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mark",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e279",
+    "NUM": "CAN15",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jonathan Osorio",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e27a",
+    "NUM": "CAN16",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Samuel Piette",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e27b",
+    "NUM": "CAN17",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jonathan David",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e27c",
+    "NUM": "CAN18",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "David Junior Hoilett",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e27d",
+    "NUM": "CAN19",
+    "CANT": 10,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Cyle Larin",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e27e",
+    "NUM": "CMR1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Cameroon Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e27f",
+    "NUM": "CMR2",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Andre Onana",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e280",
+    "NUM": "CMR3",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Devis Epassy",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e281",
+    "NUM": "CMR4",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jean",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e282",
+    "NUM": "CMR5",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Collins Fai",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e283",
+    "NUM": "CMR6",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Olivier Mbaizo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e284",
+    "NUM": "CMR7",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Harold Moukoudi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e285",
+    "NUM": "CMR8",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Michael Ngadeu",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e286",
+    "NUM": "CMR9",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nouhou",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e287",
+    "NUM": "CMR10",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Martin Hongla",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e288",
+    "NUM": "CMR11",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Pierre Kunde",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e289",
+    "NUM": "CMR12",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "James Lea Siliki",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e28a",
+    "NUM": "CMR13",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Samuel Oum Gouet",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e28b",
+    "NUM": "CMR14",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Andre",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e28c",
+    "NUM": "CMR15",
+    "CANT": 10,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Vincent Aboubakar",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e28d",
+    "NUM": "CMR16",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Stephane Bahoken",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e28e",
+    "NUM": "CMR17",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Eric Maxim Choupo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e28f",
+    "NUM": "CMR18",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nicolas Moumi Ngamaleu",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e290",
+    "NUM": "CMR19",
+    "CANT": 12,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Karl Toko Ekambi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e291",
+    "NUM": "CRC1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Costa Rica Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e292",
+    "NUM": "CRC2",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Keylor Navas",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e293",
+    "NUM": "CRC3",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Leonel Moreira",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e294",
+    "NUM": "CRC4",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ricardo Blanco",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e295",
+    "NUM": "CRC5",
+    "CANT": 13,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Francisco Calvo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e296",
+    "NUM": "CRC6",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Oscar Duarte",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e297",
+    "NUM": "CRC7",
+    "CANT": 9,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Keysher Fuller",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e298",
+    "NUM": "CRC8",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Bryan Oviedo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e299",
+    "NUM": "CRC9",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Juan Pablo Vargas",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e29a",
+    "NUM": "CRC10",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kendall Waston",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e29b",
+    "NUM": "CRC11",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Celso Borges",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e29c",
+    "NUM": "CRC12",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Orlando Galo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e29d",
+    "NUM": "CRC13",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Bryan Ruiz",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e29e",
+    "NUM": "CRC14",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yeltsin Tejeda",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e29f",
+    "NUM": "CRC15",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jewison Bennette",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2a0",
+    "NUM": "CRC16",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Joel Campbell",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2a1",
+    "NUM": "CRC17",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Anthony Contreras",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2a2",
+    "NUM": "CRC18",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Gerson Torres",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2a3",
+    "NUM": "CRC19",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Johan Venegas",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2a4",
+    "NUM": "CRO1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Croatia Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2a5",
+    "NUM": "CRO2",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Dominik Livakovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2a6",
+    "NUM": "CRO3",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ivica Ivusic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2a7",
+    "NUM": "CRO4",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Duje Caleta",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2a8",
+    "NUM": "CRO5",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Josko Gvardiol",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2a9",
+    "NUM": "CRO6",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Josip Juranovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2aa",
+    "NUM": "CRO7",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Dejan Lovren",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ab",
+    "NUM": "CRO8",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Borna Sosa",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ac",
+    "NUM": "CRO9",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Domagoj Vida",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ad",
+    "NUM": "CRO10",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Marcelo Brozovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ae",
+    "NUM": "CRO11",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mateo Kovacic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2af",
+    "NUM": "CRO12",
+    "CANT": 1,
+    "PRECIO": 8000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Luka Modric",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2b0",
+    "NUM": "CRO13",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mario Pasalic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2b1",
+    "NUM": "CRO14",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ivan Perisic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2b2",
+    "NUM": "CRO15",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nikola Vlasic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2b3",
+    "NUM": "CRO16",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Josip Brekalo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2b4",
+    "NUM": "CRO17",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Andrej Kramaric",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2b5",
+    "NUM": "CRO18",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Marko Livaja",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2b6",
+    "NUM": "CRO19",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mislav Orsic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2b7",
+    "NUM": "DEN1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Denmark Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2b8",
+    "NUM": "DEN2",
+    "CANT": 0,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kasper Schmeichel",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2b9",
+    "NUM": "DEN3",
+    "CANT": 4,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Frederik Ronnow",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ba",
+    "NUM": "DEN4",
+    "CANT": 14,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Andreas Christensen",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2bb",
+    "NUM": "DEN5",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Simon Kjaer",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2bc",
+    "NUM": "DEN6",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Joakim Maehle",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2bd",
+    "NUM": "DEN7",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jens Stryger Larsen",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2be",
+    "NUM": "DEN8",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jannik Vestergaard",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2bf",
+    "NUM": "DEN9",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mikkel Damsgaard",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2c0",
+    "NUM": "DEN10",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Thomas Delaney",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2c1",
+    "NUM": "DEN11",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Christian Eriksen",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2c2",
+    "NUM": "DEN12",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Pierre Emile Hojbjerg",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2c3",
+    "NUM": "DEN13",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Christian Norgaard",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2c4",
+    "NUM": "DEN14",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Daniel Wass",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2c5",
+    "NUM": "DEN15",
+    "CANT": 0,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Martin Braithwaite",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2c6",
+    "NUM": "DEN16",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kasper Dolberg",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2c7",
+    "NUM": "DEN17",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yussuf Poulsen",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2c8",
+    "NUM": "DEN18",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Andreas Skov Olsen",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2c9",
+    "NUM": "DEN19",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jonas Wind",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ca",
+    "NUM": "ECU1",
+    "CANT": 1,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Ecuador Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2cb",
+    "NUM": "ECU2",
+    "CANT": 28,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hernan Galindez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2cc",
+    "NUM": "ECU3",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alexander Dominguez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2cd",
+    "NUM": "ECU4",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Robert Arboleda",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ce",
+    "NUM": "ECU5",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Byron Castillo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2cf",
+    "NUM": "ECU6",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Pervis EstupiÃƒÆ’Ã‚Â±an",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2d0",
+    "NUM": "ECU7",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Piero Hincapie",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2d1",
+    "NUM": "ECU8",
+    "CANT": 0,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Angelo Preciado",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2d2",
+    "NUM": "ECU9",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Felix Torres",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2d3",
+    "NUM": "ECU10",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Moises Caicedo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2d4",
+    "NUM": "ECU11",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alan Franco",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2d5",
+    "NUM": "ECU12",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Carlos Gruezo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2d6",
+    "NUM": "ECU13",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jhegson Mendez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2d7",
+    "NUM": "ECU14",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jeremy Sarmiento",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2d8",
+    "NUM": "ECU15",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Michael Estrada",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2d9",
+    "NUM": "ECU16",
+    "CANT": 0,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Angel Mena",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2da",
+    "NUM": "ECU17",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Gonzalo Plata",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2db",
+    "NUM": "ECU18",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ayrton Preciado",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2dc",
+    "NUM": "ECU19",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Enner Valencia",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2dd",
+    "NUM": "ENG1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "England Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2de",
+    "NUM": "ENG2",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jordan Pickford",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2df",
+    "NUM": "ENG3",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Aaron Ramsdale",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2e0",
+    "NUM": "ENG4",
+    "CANT": 28,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Trent Alexander",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2e1",
+    "NUM": "ENG5",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Conor Coady",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2e2",
+    "NUM": "ENG6",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Harry Maguire",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2e3",
+    "NUM": "ENG7",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Luke Shaw",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2e4",
+    "NUM": "ENG8",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "John Stones",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2e5",
+    "NUM": "ENG9",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kyle Walker",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2e6",
+    "NUM": "ENG10",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jude Bellingham",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2e7",
+    "NUM": "ENG11",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jack Grealish",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2e8",
+    "NUM": "ENG12",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jordan Henderson",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2e9",
+    "NUM": "ENG13",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mason Mount",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ea",
+    "NUM": "ENG14",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kalvin Phillips",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2eb",
+    "NUM": "ENG15",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Declan Rice",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ec",
+    "NUM": "ENG16",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Phil Foden",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ed",
+    "NUM": "ENG17",
+    "CANT": 0,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Harry Kane",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ee",
+    "NUM": "ENG18",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Bukayo Saka",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ef",
+    "NUM": "ENG19",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Raheem Sterling",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2f0",
+    "NUM": "ESP1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Spain Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2f1",
+    "NUM": "ESP2",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Unai Simon",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2f2",
+    "NUM": "ESP3",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Robert Sanchez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2f3",
+    "NUM": "ESP4",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Cesar Azpilicueta",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2f4",
+    "NUM": "ESP5",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Eric Garcia",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2f5",
+    "NUM": "ESP6",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jordi Alba",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2f6",
+    "NUM": "ESP7",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Aymeric Laporte",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2f7",
+    "NUM": "ESP8",
+    "CANT": 13,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Pau Torres",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2f8",
+    "NUM": "ESP9",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Gavi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2f9",
+    "NUM": "ESP10",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Koke",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2fa",
+    "NUM": "ESP11",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Marcos Llorente",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2fb",
+    "NUM": "ESP12",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Pedri",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2fc",
+    "NUM": "ESP13",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Rodri",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2fd",
+    "NUM": "ESP14",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sergio Busquets",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2fe",
+    "NUM": "ESP15",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Dani Olmo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e2ff",
+    "NUM": "ESP16",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ansu Fati",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e300",
+    "NUM": "ESP17",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ferran Torres",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e301",
+    "NUM": "ESP18",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alvaro Morata",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e302",
+    "NUM": "ESP19",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Pablo Sarabia",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e303",
+    "NUM": "FRA1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "France Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e304",
+    "NUM": "FRA2",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hugo Lloris",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e305",
+    "NUM": "FRA3",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mike Maignan",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e306",
+    "NUM": "FRA4",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Lucas Hernandez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e307",
+    "NUM": "FRA5",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Theo Hernandez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e308",
+    "NUM": "FRA6",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Presnel Kimpembe",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e309",
+    "NUM": "FRA7",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jules Kounde",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e30a",
+    "NUM": "FRA8",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Benjamin Pavard",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e30b",
+    "NUM": "FRA9",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Raphael Varane",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e30c",
+    "NUM": "FRA10",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "NGolo Kante",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e30d",
+    "NUM": "FRA11",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Paul Pogba",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e30e",
+    "NUM": "FRA12",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Adrien Rabiot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e30f",
+    "NUM": "FRA13",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Aurelien Tchouameni",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e310",
+    "NUM": "FRA14",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Wissam Ben Yedder",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e311",
+    "NUM": "FRA15",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Karim Benzema",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e312",
+    "NUM": "FRA16",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kingsley Coman",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e313",
+    "NUM": "FRA17",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Antoine Griezmann",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e314",
+    "NUM": "FRA18",
+    "CANT": 0,
+    "PRECIO": 8000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kylian Mbappe",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e315",
+    "NUM": "FRA19",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Christopher Nkunku",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e316",
+    "NUM": "FWC0",
+    "CANT": 0,
+    "PRECIO": 12000,
+    "TIPO": "FWCD",
+    "NOMBRE": "PANINI LOGO",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e317",
+    "NUM": "FWC1",
+    "CANT": 3,
+    "PRECIO": 10000,
+    "TIPO": "FWCC",
+    "NOMBRE": "FIFA Logo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e318",
+    "NUM": "FWC2",
+    "CANT": 0,
+    "PRECIO": 8000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Official Trophy /1",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e319",
+    "NUM": "FWC3",
+    "CANT": 0,
+    "PRECIO": 8000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Official Trophy /2",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e31a",
+    "NUM": "FWC4",
+    "CANT": 3,
+    "PRECIO": 8000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Official Mascot /1",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e31b",
+    "NUM": "FWC5",
+    "CANT": 0,
+    "PRECIO": 8000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Official Mascot /2",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e31c",
+    "NUM": "FWC6",
+    "CANT": 0,
+    "PRECIO": 8000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Official Emblem /1",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e31d",
+    "NUM": "FWC7",
+    "CANT": 0,
+    "PRECIO": 8000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Official Emblem /2",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e31e",
+    "NUM": "FWC8",
+    "CANT": 2,
+    "PRECIO": 3500,
+    "TIPO": "FWCC",
+    "NOMBRE": "Ahmad Bin Ali Stadium",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e31f",
+    "NUM": "FWC9",
+    "CANT": 47,
+    "PRECIO": 7000,
+    "TIPO": "FWCC",
+    "NOMBRE": "Al Janoub Stadium",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e320",
+    "NUM": "FWC10",
+    "CANT": 5,
+    "PRECIO": 8000,
+    "TIPO": "FWCC",
+    "NOMBRE": "Al Thumama Stadium",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e321",
+    "NUM": "FWC11",
+    "CANT": 9,
+    "PRECIO": 8000,
+    "TIPO": "FWCC",
+    "NOMBRE": "Education City Stadium",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e322",
+    "NUM": "FWC12",
+    "CANT": 8,
+    "PRECIO": 8000,
+    "TIPO": "FWCC",
+    "NOMBRE": "Khalifa International Stadium",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e323",
+    "NUM": "FWC13",
+    "CANT": 2,
+    "PRECIO": 12000,
+    "TIPO": "FWCC",
+    "NOMBRE": "Stadium 974",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e324",
+    "NUM": "FWC14",
+    "CANT": 2,
+    "PRECIO": 15000,
+    "TIPO": "FWCC",
+    "NOMBRE": "Al Bayt Stadium outdoor",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e325",
+    "NUM": "FWC15",
+    "CANT": 0,
+    "PRECIO": 3500,
+    "TIPO": "FWCC",
+    "NOMBRE": "Al Bayt Stadium indoor",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e326",
+    "NUM": "FWC16",
+    "CANT": 2,
+    "PRECIO": 15000,
+    "TIPO": "FWCC",
+    "NOMBRE": "Lusail Stadium outdoor",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e327",
+    "NUM": "FWC17",
+    "CANT": 10,
+    "PRECIO": 8000,
+    "TIPO": "FWCC",
+    "NOMBRE": "Lusail Stadium indoor",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e328",
+    "NUM": "FWC18",
+    "CANT": 3,
+    "PRECIO": 12000,
+    "TIPO": "FWCC",
+    "NOMBRE": "Official Matchball",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e329",
+    "NUM": "FWC19",
+    "CANT": 0,
+    "PRECIO": 15000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Uruguay 1930",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e32a",
+    "NUM": "FWC20",
+    "CANT": 0,
+    "PRECIO": 8000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Italy 1938",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e32b",
+    "NUM": "FWC21",
+    "CANT": 0,
+    "PRECIO": 8000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Brazil 1958",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e32c",
+    "NUM": "FWC22",
+    "CANT": 0,
+    "PRECIO": 15000,
+    "TIPO": "FWCD",
+    "NOMBRE": "England 1966",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e32d",
+    "NUM": "FWC23",
+    "CANT": 0,
+    "PRECIO": 8000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Brazil 1970",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e32e",
+    "NUM": "FWC24",
+    "CANT": 4,
+    "PRECIO": 15000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Argentina 1978",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e32f",
+    "NUM": "FWC25",
+    "CANT": 4,
+    "PRECIO": 15000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Italy 1982",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e330",
+    "NUM": "FWC26",
+    "CANT": 4,
+    "PRECIO": 15000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Germany FR 1990",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e331",
+    "NUM": "FWC27",
+    "CANT": 0,
+    "PRECIO": 15000,
+    "TIPO": "FWCD",
+    "NOMBRE": "France 1998",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e332",
+    "NUM": "FWC28",
+    "CANT": 0,
+    "PRECIO": 8000,
+    "TIPO": "FWCD",
+    "NOMBRE": "Spain 2010",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e333",
+    "NUM": "FWC29",
+    "CANT": 1,
+    "PRECIO": 15000,
+    "TIPO": "FWCD",
+    "NOMBRE": "France 2018",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e334",
+    "NUM": "GER1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Germany Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e335",
+    "NUM": "GER2",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Manuel Neuer",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e336",
+    "NUM": "GER3",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Marc",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e337",
+    "NUM": "GER4",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Matthias Ginter",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e338",
+    "NUM": "GER5",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Robin Gosens",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e339",
+    "NUM": "GER6",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Thilo Kehrer",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e33a",
+    "NUM": "GER7",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "David Raum",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e33b",
+    "NUM": "GER8",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Antonio Rudiger",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e33c",
+    "NUM": "GER9",
+    "CANT": 17,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Niklas Sule",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e33d",
+    "NUM": "GER10",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Leon Goretzka",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e33e",
+    "NUM": "GER11",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ilkay Gundogan",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e33f",
+    "NUM": "GER12",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kai Havertz",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e340",
+    "NUM": "GER13",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jonas Hofmann",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e341",
+    "NUM": "GER14",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Joshua Kimmich",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e342",
+    "NUM": "GER15",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Serge Gnabry",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e343",
+    "NUM": "GER16",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Thomas Muller",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e344",
+    "NUM": "GER17",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Marco Reus",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e345",
+    "NUM": "GER18",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Leroy Sane",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e346",
+    "NUM": "GER19",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Timo Werner",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e347",
+    "NUM": "GHA1",
+    "CANT": 0,
+    "PRECIO": 12000,
+    "TIPO": "ESC",
+    "NOMBRE": "Ghana Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e348",
+    "NUM": "GHA2",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Joe Wollacott",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e349",
+    "NUM": "GHA3",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Richard Ofori",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e34a",
+    "NUM": "GHA4",
+    "CANT": 0,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Daniel Amartey",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e34b",
+    "NUM": "GHA5",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Abdul",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e34c",
+    "NUM": "GHA6",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alexander Djiku",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e34d",
+    "NUM": "GHA7",
+    "CANT": 43,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Gideon Mensah",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e34e",
+    "NUM": "GHA8",
+    "CANT": 0,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jonathan Mensah",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e34f",
+    "NUM": "GHA9",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Andy Yiadom",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e350",
+    "NUM": "GHA10",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Iddrisu Baba",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e351",
+    "NUM": "GHA11",
+    "CANT": 12,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mohammed Kudus",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e352",
+    "NUM": "GHA12",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Daniel-Kofi Kyereh",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e353",
+    "NUM": "GHA13",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Thomas Partey",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e354",
+    "NUM": "GHA14",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mubarak Wakaso",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e355",
+    "NUM": "GHA15",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Felix Afena",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e356",
+    "NUM": "GHA16",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Andre Ayew",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e357",
+    "NUM": "GHA17",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jordan Ayew",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e358",
+    "NUM": "GHA18",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Issahaku Abdul Fatawu",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e359",
+    "NUM": "GHA19",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kamaldeen Sulemana",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e35a",
+    "NUM": "IRN1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "IR Iran Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e35b",
+    "NUM": "IRN2",
+    "CANT": 11,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Amir Abedzadeh",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e35c",
+    "NUM": "IRN3",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alireza Beiranvand",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e35d",
+    "NUM": "IRN4",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ehsan Hajsafi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e35e",
+    "NUM": "IRN5",
+    "CANT": 0,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Majid Hosseini",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e35f",
+    "NUM": "IRN6",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hossein Kanaani",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e360",
+    "NUM": "IRN7",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Shoja Khalilzadeh",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e361",
+    "NUM": "IRN8",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Milad Mohammadi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e362",
+    "NUM": "IRN9",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sadegh Moharrami",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e363",
+    "NUM": "IRN10",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Omid Noorafkan",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e364",
+    "NUM": "IRN11",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Vahid Amiri",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e365",
+    "NUM": "IRN12",
+    "CANT": 9,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Saeid Ezatolahi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e366",
+    "NUM": "IRN13",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ali Gholizadeh",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e367",
+    "NUM": "IRN14",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alireza Jahanbakhsh",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e368",
+    "NUM": "IRN15",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ahmad Nourollahi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e369",
+    "NUM": "IRN16",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Karim Ansarifard",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e36a",
+    "NUM": "IRN17",
+    "CANT": 9,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sardar Azmoun",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e36b",
+    "NUM": "IRN18",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Saman Ghoddos",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e36c",
+    "NUM": "IRN19",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mehdi Taremi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e36d",
+    "NUM": "JPN1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Japan Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e36e",
+    "NUM": "JPN2",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Shuichi Gonda",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e36f",
+    "NUM": "JPN3",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Eiji Kawashima",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e370",
+    "NUM": "JPN4",
+    "CANT": 32,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yuto Nagatomo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e371",
+    "NUM": "JPN5",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yuta Nakayama",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e372",
+    "NUM": "JPN6",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Takehiro Tomiyasu",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e373",
+    "NUM": "JPN7",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Miki Yamane",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e374",
+    "NUM": "JPN8",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Maya Yoshida",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e375",
+    "NUM": "JPN9",
+    "CANT": 16,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Wataru Endo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e376",
+    "NUM": "JPN10",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Genki Haraguchi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e377",
+    "NUM": "JPN11",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hidemasa Morita",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e378",
+    "NUM": "JPN12",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Gaku Shibasaki",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e379",
+    "NUM": "JPN13",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ao Tanaka",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e37a",
+    "NUM": "JPN14",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Takuma Asano",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e37b",
+    "NUM": "JPN15",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kyogo Furuhashi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e37c",
+    "NUM": "JPN16",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Junya Ito",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e37d",
+    "NUM": "JPN17",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Takumi Minamino",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e37e",
+    "NUM": "JPN18",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kaoru Mitoma",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e37f",
+    "NUM": "JPN19",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yuya Osako",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e380",
+    "NUM": "KOR1",
+    "CANT": 1,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Korea Republic Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e381",
+    "NUM": "KOR2",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Seung",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e382",
+    "NUM": "KOR3",
+    "CANT": 0,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hyeon",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e383",
+    "NUM": "KOR4",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Chul Hong",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e384",
+    "NUM": "KOR5",
+    "CANT": 9,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Tae",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e385",
+    "NUM": "KOR6",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Min",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e386",
+    "NUM": "KOR7",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Young",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e387",
+    "NUM": "KOR8",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jin",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e388",
+    "NUM": "KOR9",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yong Lee",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e389",
+    "NUM": "KOR10",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "In",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e38a",
+    "NUM": "KOR11",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Woo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e38b",
+    "NUM": "KOR12",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jae",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e38c",
+    "NUM": "KOR13",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Seung",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e38d",
+    "NUM": "KOR14",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Gue",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e38e",
+    "NUM": "KOR15",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hee",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e38f",
+    "NUM": "KOR16",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ui",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e390",
+    "NUM": "KOR17",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Chang",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e391",
+    "NUM": "KOR18",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Heung",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e392",
+    "NUM": "KOR19",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Min",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e393",
+    "NUM": "KSA1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Saudi Arabia Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e394",
+    "NUM": "KSA2",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mohammed Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e395",
+    "NUM": "KSA3",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mohammed Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e396",
+    "NUM": "KSA4",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Abdulelah Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e397",
+    "NUM": "KSA5",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ali Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e398",
+    "NUM": "KSA6",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mohammed Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e399",
+    "NUM": "KSA7",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sultan Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e39a",
+    "NUM": "KSA8",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yasser Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e39b",
+    "NUM": "KSA9",
+    "CANT": 4,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hassan Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e39c",
+    "NUM": "KSA10",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Abdullah Madu",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e39d",
+    "NUM": "KSA11",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Salman Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e39e",
+    "NUM": "KSA12",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Abdulelah Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e39f",
+    "NUM": "KSA13",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sami Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3a0",
+    "NUM": "KSA14",
+    "CANT": 38,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hattan Bahebri",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3a1",
+    "NUM": "KSA15",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mohamed Kanno",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3a2",
+    "NUM": "KSA16",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Abdullah Otayf",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3a3",
+    "NUM": "KSA17",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Firas Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3a4",
+    "NUM": "KSA18",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Salem Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3a5",
+    "NUM": "KSA19",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Khalid Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3a6",
+    "NUM": "MAR1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Morocco Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3a7",
+    "NUM": "MAR2",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yassine Bounou",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3a8",
+    "NUM": "MAR3",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Munir Mohamedi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3a9",
+    "NUM": "MAR4",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nayef Aguerd",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3aa",
+    "NUM": "MAR5",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Achraf Hakimi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ab",
+    "NUM": "MAR6",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Adam Masina",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ac",
+    "NUM": "MAR7",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Samy Mmaee",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ad",
+    "NUM": "MAR8",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Romain Saiss",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ae",
+    "NUM": "MAR9",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Selim Amallah",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3af",
+    "NUM": "MAR10",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sofyan Amrabat",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3b0",
+    "NUM": "MAR11",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Aymen Barkok",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3b1",
+    "NUM": "MAR12",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ilias Chair",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3b2",
+    "NUM": "MAR13",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Imran Louza",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3b3",
+    "NUM": "MAR14",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sofiane Boufal",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3b4",
+    "NUM": "MAR15",
+    "CANT": 9,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ayoub El Kaabi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3b5",
+    "NUM": "MAR16",
+    "CANT": 10,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Youssef En-Nesyri",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3b6",
+    "NUM": "MAR17",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ryan Mmaee",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3b7",
+    "NUM": "MAR18",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Munir",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3b8",
+    "NUM": "MAR19",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Tarik Tissoudali",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3b9",
+    "NUM": "MEX1",
+    "CANT": 1,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Mexico Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ba",
+    "NUM": "MEX2",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Guillermo Ochoa",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3bb",
+    "NUM": "MEX3",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alfredo Talavera",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3bc",
+    "NUM": "MEX4",
+    "CANT": 13,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nestor Araujo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3bd",
+    "NUM": "MEX5",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jesus Gallardo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3be",
+    "NUM": "MEX6",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Cesar Montes",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3bf",
+    "NUM": "MEX7",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hector Moreno",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3c0",
+    "NUM": "MEX8",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Luis Romo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3c1",
+    "NUM": "MEX9",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jorge Sanchez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3c2",
+    "NUM": "MEX10",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Edson Alvarez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3c3",
+    "NUM": "MEX11",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jesus Manuel Corona",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3c4",
+    "NUM": "MEX12",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Andres Guardado",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3c5",
+    "NUM": "MEX13",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Erick Gutierrez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3c6",
+    "NUM": "MEX14",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hector Herrera",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3c7",
+    "NUM": "MEX15",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Diego Lainez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3c8",
+    "NUM": "MEX16",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Carlos Rodriguez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3c9",
+    "NUM": "MEX17",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Rogelio Funes Mori",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ca",
+    "NUM": "MEX18",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Raul Jimenez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3cb",
+    "NUM": "MEX19",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hirving Lozano",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3cc",
+    "NUM": "NED1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Netherlands Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3cd",
+    "NUM": "NED2",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Justin Bijlow",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ce",
+    "NUM": "NED3",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jasper Cillessen",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3cf",
+    "NUM": "NED4",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Daley Blind",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3d0",
+    "NUM": "NED5",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Matthijs de Ligt",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3d1",
+    "NUM": "NED6",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Stefan de Vrij",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3d2",
+    "NUM": "NED7",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Denzel Dumfries",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3d3",
+    "NUM": "NED8",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Virgil van Dijk",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3d4",
+    "NUM": "NED9",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Steven Berghuis",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3d5",
+    "NUM": "NED10",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Frenkie de Jong",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3d6",
+    "NUM": "NED11",
+    "CANT": 0,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ryan Gravenberch",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3d7",
+    "NUM": "NED12",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Davy Klaassen",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3d8",
+    "NUM": "NED13",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Teun Koopmeiners",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3d9",
+    "NUM": "NED14",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Georginio Wijnaldum",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3da",
+    "NUM": "NED15",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Steven Bergwijn",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3db",
+    "NUM": "NED16",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Arnaut Danjuma",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3dc",
+    "NUM": "NED17",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Memphis Depay",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3dd",
+    "NUM": "NED18",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Cody Gakpo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3de",
+    "NUM": "NED19",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Donyell Malen",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3df",
+    "NUM": "POL1",
+    "CANT": 0,
+    "PRECIO": 12000,
+    "TIPO": "ESC",
+    "NOMBRE": "Poland Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3e0",
+    "NUM": "POL2",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Wojciech Szczesny",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3e1",
+    "NUM": "POL3",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Lukasz Skorupski",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3e2",
+    "NUM": "POL4",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jan Bednarek",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3e3",
+    "NUM": "POL5",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Bartosz Bereszynski",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3e4",
+    "NUM": "POL6",
+    "CANT": 35,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Matty Cash",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3e5",
+    "NUM": "POL7",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kamil Glik",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3e6",
+    "NUM": "POL8",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Tymoteusz Puchacz",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3e7",
+    "NUM": "POL9",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Maciej Rybus",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3e8",
+    "NUM": "POL10",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kamil Jozwiak",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3e9",
+    "NUM": "POL11",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mateusz Klich",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ea",
+    "NUM": "POL12",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Grzegorz Krychowiak",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3eb",
+    "NUM": "POL13",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jakub Moder",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ec",
+    "NUM": "POL14",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sebastian Szymanski",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ed",
+    "NUM": "POL15",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Piotr Zielinski",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ee",
+    "NUM": "POL16",
+    "CANT": 4,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Robert Lewandowski",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ef",
+    "NUM": "POL17",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Arkadiusz Milik",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3f0",
+    "NUM": "POL18",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Krzysztof Piatek",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3f1",
+    "NUM": "POL19",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Karol Swiderski",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3f2",
+    "NUM": "POR1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Portugal Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3f3",
+    "NUM": "POR2",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Diogo Costa",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3f4",
+    "NUM": "POR3",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Rui Patricio",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3f5",
+    "NUM": "POR4",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Joao Cancelo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3f6",
+    "NUM": "POR5",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jose Fonte",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3f7",
+    "NUM": "POR6",
+    "CANT": 11,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nuno Mendes",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3f8",
+    "NUM": "POR7",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Pepe",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3f9",
+    "NUM": "POR8",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Raphael Guerreiro",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3fa",
+    "NUM": "POR9",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ruben Dias",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3fb",
+    "NUM": "POR10",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Bernardo Silva",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3fc",
+    "NUM": "POR11",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Bruno Fernandes",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3fd",
+    "NUM": "POR12",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Danilo Pereira",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3fe",
+    "NUM": "POR13",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Joao Moutinho",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e3ff",
+    "NUM": "POR14",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Renato Sanches",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e400",
+    "NUM": "POR15",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ruben Neves",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e401",
+    "NUM": "POR16",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Andre Silva",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e402",
+    "NUM": "POR17",
+    "CANT": 6,
+    "PRECIO": 9000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Cristiano Ronaldo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e403",
+    "NUM": "POR18",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Diogo Jota",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e404",
+    "NUM": "POR19",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Gonzalo Guedes",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e405",
+    "NUM": "QAT1",
+    "CANT": 2,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Qatar Team Logo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e406",
+    "NUM": "QAT2",
+    "CANT": 0,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Saad Al Sheeb",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e407",
+    "NUM": "QAT3",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Meshaal Barsham",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e408",
+    "NUM": "QAT4",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Homam Ahmed",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e409",
+    "NUM": "QAT5",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Bassam Alrawi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e40a",
+    "NUM": "QAT6",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Abdulkarim Hassan",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e40b",
+    "NUM": "QAT7",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Musaab Khidir",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e40c",
+    "NUM": "QAT8",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Boualem Khoukhi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e40d",
+    "NUM": "QAT9",
+    "CANT": 53,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Pedro Miguel",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e40e",
+    "NUM": "QAT10",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Tarek Salman",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e40f",
+    "NUM": "QAT11",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Karim Boudiaf",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e410",
+    "NUM": "QAT12",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Abdulaziz Hatem",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e411",
+    "NUM": "QAT13",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Assim Omer Madibo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e412",
+    "NUM": "QAT14",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yousuf Abdurisag",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e413",
+    "NUM": "QAT15",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Akram Hassan Afif",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e414",
+    "NUM": "QAT16",
+    "CANT": 9,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ahmad Alaaeldin",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e415",
+    "NUM": "QAT17",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hasan Al",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e416",
+    "NUM": "QAT18",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Almoez Ali",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e417",
+    "NUM": "QAT19",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mohammed Muntari",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e418",
+    "NUM": "SEN1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Senegal Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e419",
+    "NUM": "SEN2",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Edouard Mendy",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e41a",
+    "NUM": "SEN3",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Alfred Gomis",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e41b",
+    "NUM": "SEN4",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Saliou Ciss",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e41c",
+    "NUM": "SEN5",
+    "CANT": 4,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Pape Abou Cisse",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e41d",
+    "NUM": "SEN6",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Abdou Diallo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e41e",
+    "NUM": "SEN7",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kalidou Koulibaly",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e41f",
+    "NUM": "SEN8",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ibrahima Mbaye",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e420",
+    "NUM": "SEN9",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Bouna Sarr",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e421",
+    "NUM": "SEN10",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Krepin Diatta",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e422",
+    "NUM": "SEN11",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Idrissa Gueye",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e423",
+    "NUM": "SEN12",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Pape Gueye",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e424",
+    "NUM": "SEN13",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Cheikhou Kouyate",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e425",
+    "NUM": "SEN14",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nampalys Mendy",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e426",
+    "NUM": "SEN15",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Boulaye Dia",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e427",
+    "NUM": "SEN16",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Famara Diedhiou",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e428",
+    "NUM": "SEN17",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Bamba Dieng",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e429",
+    "NUM": "SEN18",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sadio Mane",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e42a",
+    "NUM": "SEN19",
+    "CANT": 4,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ismaila Sarr",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e42b",
+    "NUM": "SRB1",
+    "CANT": 2,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Serbia Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e42c",
+    "NUM": "SRB2",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Predrag Rajkovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e42d",
+    "NUM": "SRB3",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Vanja Milinkovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e42e",
+    "NUM": "SRB4",
+    "CANT": 29,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nikola Milenkovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e42f",
+    "NUM": "SRB5",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Strahinja Pavlovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e430",
+    "NUM": "SRB6",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Milos Veljkovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e431",
+    "NUM": "SRB7",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Filip Duricic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e432",
+    "NUM": "SRB8",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nemanja Gudelj",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e433",
+    "NUM": "SRB9",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Filip Kostic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e434",
+    "NUM": "SRB10",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Darko Lazovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e435",
+    "NUM": "SRB11",
+    "CANT": 9,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sasa Lukic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e436",
+    "NUM": "SRB12",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nemanja Maksimovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e437",
+    "NUM": "SRB13",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sergej Milinkovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e438",
+    "NUM": "SRB14",
+    "CANT": 10,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nemanja Radonjic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e439",
+    "NUM": "SRB15",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Andrija Zivkovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e43a",
+    "NUM": "SRB16",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Luka Jovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e43b",
+    "NUM": "SRB17",
+    "CANT": 11,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Aleksandar Mitrovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e43c",
+    "NUM": "SRB18",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Dusan Tadic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e43d",
+    "NUM": "SRB19",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Dusan Vlahovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e43e",
+    "NUM": "SUI1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Switzerland Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e43f",
+    "NUM": "SUI2",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yann Sommer",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e440",
+    "NUM": "SUI3",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Gregor Kobel",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e441",
+    "NUM": "SUI4",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Manuel Akanji",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e442",
+    "NUM": "SUI5",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nico Elvedi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e443",
+    "NUM": "SUI6",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kevin Mbabu",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e444",
+    "NUM": "SUI7",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ricardo Rodriguez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e445",
+    "NUM": "SUI8",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Fabian Schar",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e446",
+    "NUM": "SUI9",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Silvan Widmer",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e447",
+    "NUM": "SUI10",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Remo Freuler",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e448",
+    "NUM": "SUI11",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Xherdan Shaqiri",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e449",
+    "NUM": "SUI12",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Djibril Sow",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e44a",
+    "NUM": "SUI13",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Granit Xhaka",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e44b",
+    "NUM": "SUI14",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Denis Zakaria",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e44c",
+    "NUM": "SUI15",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Steven Zuber",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e44d",
+    "NUM": "SUI16",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Breel Embolo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e44e",
+    "NUM": "SUI17",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Noah Okafor",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e44f",
+    "NUM": "SUI18",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Haris Seferovic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e450",
+    "NUM": "SUI19",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ruben Vargas",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e451",
+    "NUM": "TUN1",
+    "CANT": 1,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Tunisia Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e452",
+    "NUM": "TUN2",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Bechir Ben Said",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e453",
+    "NUM": "TUN3",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Farouk Ben Mustapha",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e454",
+    "NUM": "TUN4",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Dylan Bronn",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e455",
+    "NUM": "TUN5",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mohamed Drager",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e456",
+    "NUM": "TUN6",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Bilel Ifa",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e457",
+    "NUM": "TUN7",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ali Maaloul",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e458",
+    "NUM": "TUN8",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Hamza Mathlouthi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e459",
+    "NUM": "TUN9",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yassine Meriah",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e45a",
+    "NUM": "TUN10",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Montassar Talbi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e45b",
+    "NUM": "TUN11",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mohamed Ali Ben Romdhane",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e45c",
+    "NUM": "TUN12",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Wahbi Khazri",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e45d",
+    "NUM": "TUN13",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Aissa Laidouni",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e45e",
+    "NUM": "TUN14",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ferjani Sassi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e45f",
+    "NUM": "TUN15",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ellyes Skhiri",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e460",
+    "NUM": "TUN16",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Anis Slimane",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e461",
+    "NUM": "TUN17",
+    "CANT": 9,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Seifeddine Jaziri",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e462",
+    "NUM": "TUN18",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Youssef Msakni",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e463",
+    "NUM": "TUN19",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Naim Sliti",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e464",
+    "NUM": "URU1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Uruguay Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e465",
+    "NUM": "URU2",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Fernando Muslera",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e466",
+    "NUM": "URU3",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Sergio Rochet",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e467",
+    "NUM": "URU4",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ronald Araujo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e468",
+    "NUM": "URU5",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Martin Caceres",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e469",
+    "NUM": "URU6",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jose Maria Gimenez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e46a",
+    "NUM": "URU7",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Diego Godin",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e46b",
+    "NUM": "URU8",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Mathias Olivera",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e46c",
+    "NUM": "URU9",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Matias ViÃƒÆ’Ã‚Â±a",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e46d",
+    "NUM": "URU10",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Rodrigo Bentancur",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e46e",
+    "NUM": "URU11",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Giorgian De Arrascaeta",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e46f",
+    "NUM": "URU12",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Nicolas De La Cruz",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e470",
+    "NUM": "URU13",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Lucas Torreira",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e471",
+    "NUM": "URU14",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Federico Valverde",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e472",
+    "NUM": "URU15",
+    "CANT": 2,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Matias Vecino",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e473",
+    "NUM": "URU16",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Edinson Cavani",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e474",
+    "NUM": "URU17",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Darwin NuÃƒÆ’Ã‚Â±ez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e475",
+    "NUM": "URU18",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Facundo Pellistri",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e476",
+    "NUM": "URU19",
+    "CANT": 1,
+    "PRECIO": 8000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Luis Suarez",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e477",
+    "NUM": "USA1",
+    "CANT": 0,
+    "PRECIO": 10000,
+    "TIPO": "ESC",
+    "NOMBRE": "Usa Team Logo",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e478",
+    "NUM": "USA2",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Matt Turner",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e479",
+    "NUM": "USA3",
+    "CANT": 10,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Zack Steffen",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e47a",
+    "NUM": "USA4",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "SergiÃƒÆ’Ã‚Â±o Dest",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e47b",
+    "NUM": "USA5",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Aaron Long",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e47c",
+    "NUM": "USA6",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Chris Richards",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e47d",
+    "NUM": "USA7",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Antonee Robinson",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e47e",
+    "NUM": "USA8",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "DeAndre Yedlin",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e47f",
+    "NUM": "USA9",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Walker Zimmerman",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e480",
+    "NUM": "USA10",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Brenden Aaronson",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e481",
+    "NUM": "USA11",
+    "CANT": 1,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kellyn Acosta",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e482",
+    "NUM": "USA12",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Tyler Adams",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e483",
+    "NUM": "USA13",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Weston McKennie",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e484",
+    "NUM": "USA14",
+    "CANT": 3,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Yunus Musah",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e485",
+    "NUM": "USA15",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jesus Ferreira",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e486",
+    "NUM": "USA16",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ricardo Pepi",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e487",
+    "NUM": "USA17",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Christian Pulisic",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e488",
+    "NUM": "USA18",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Giovanni Reyna",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e489",
+    "NUM": "USA19",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Timothy Weah",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e48a",
+    "NUM": "WAL1",
+    "CANT": 0,
+    "PRECIO": 12000,
+    "TIPO": "ESC",
+    "NOMBRE": "Wales Team Shot",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e48b",
+    "NUM": "WAL2",
+    "CANT": 11,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Danny Ward",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e48c",
+    "NUM": "WAL3",
+    "CANT": 13,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Wayne Hennessey",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e48d",
+    "NUM": "WAL4",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ethan Ampadu",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e48e",
+    "NUM": "WAL5",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Ben Davies",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e48f",
+    "NUM": "WAL6",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Chris Gunter",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e490",
+    "NUM": "WAL7",
+    "CANT": 1,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Chris Mepham",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e491",
+    "NUM": "WAL8",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Connor Roberts",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e492",
+    "NUM": "WAL9",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Joe Rodon",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e493",
+    "NUM": "WAL10",
+    "CANT": 18,
+    "PRECIO": 1500,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Neco Williams",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e494",
+    "NUM": "WAL11",
+    "CANT": 6,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Joe Allen",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e495",
+    "NUM": "WAL12",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Joe Morrell",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e496",
+    "NUM": "WAL13",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Aaron Ramsey",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e497",
+    "NUM": "WAL14",
+    "CANT": 8,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Jonathan Williams",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e498",
+    "NUM": "WAL15",
+    "CANT": 3,
+    "PRECIO": 6000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Harry Wilson",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e499",
+    "NUM": "WAL16",
+    "CANT": 4,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Gareth Bale",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e49a",
+    "NUM": "WAL17",
+    "CANT": 2,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Daniel James",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e49b",
+    "NUM": "WAL18",
+    "CANT": 5,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Brennan Johnson",
+    "__v": 0
+  },
+  {
+    "_id": "6a54579932ec8b7dab80e49c",
+    "NUM": "WAL19",
+    "CANT": 7,
+    "PRECIO": 3000,
+    "TIPO": "COMUNES",
+    "NOMBRE": "Kieffer Moore",
+    "__v": 0
+  }
+]

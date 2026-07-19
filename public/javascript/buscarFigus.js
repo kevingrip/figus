@@ -11,7 +11,7 @@ const formatearPaises = (valorInput) => {
     valorInput = valorInput.replace(/CANADA|CANADÁ|CANAD|CANA|CAADA/g, "CAN");
     valorInput = valorInput.replace(/COSTA RICA|COSTARICA/g, "CRC");
     valorInput = valorInput.replace(/ARGENTINA|AFA|ARH/g, "ARG");
-    valorInput = valorInput.replace(/AUSTRALIA|AUT|AUST|AUTRALIA/g, "AUS");
+    valorInput = valorInput.replace(/AUSTRALIA|AUST|AUTRALIA/g, "AUS");
     valorInput = valorInput.replace(/BELGICA|BLGICA|BELJICA|BELGIUM|BELGI|BELG/g, "BEL");
     valorInput = valorInput.replace(/CANADA|CANAD|CANA|CAADA/g, "CAN");
     valorInput = valorInput.replace(/CAMERUN|CAMERÚN|CAMEROON|CAMERN|CAM|CAMERON|CRM|CAME|CAMERRON|CAMER/g, "CMR");
@@ -107,7 +107,74 @@ const formatearEntrada = (valorInput) => {
     return figusSeleccionadas;
 }
 
-export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
+const preciosRespuesta = (figusEnStock, figusFaltantes,costoEnvioGratis,precioTotal, figuListObj) => {
+
+    let cantEscudos=0
+    let cantEquipos=0
+    let cantComunes=0
+    let cantAFA=0
+    let cantLeg=0
+    let cantFWCD=0
+    let cantFWCC=0
+    let cantCoca=0
+    let cantJugadoresEspeciales=0
+    figuListObj.forEach(figu =>{
+        if (figu.TIPO=="COMUNES"){
+            cantComunes++
+        }else if (figu.TIPO=="ESCUDO" || figu.TIPO=="ESC"){
+            cantEscudos++
+        }else if (figu.TIPO=="AFA" || figu.TIPO=="AFA ESC"){
+            cantAFA++
+        }else if (figu.TIPO=="EQUIPO"){
+            cantEquipos++
+        }else if (figu.TIPO=="FWCD" || figu.TIPO=="FWC"){
+            cantFWCD++
+        }else if (figu.TIPO=="FWCC"){
+            cantFWCC++
+        }else if (figu.TIPO=="COCA"){
+            cantCoca++
+        }
+    })
+
+    if (precioTotal<=5000 ){
+        precioTotal+=((cantComunes*500)+(cantEscudos*2000)+(cantEquipos*2000))
+    }else if (figusFaltantes.length==0){
+        precioTotal+=2500
+    }
+
+    let tercera = `${precioTotal}. \nConfirmame si te sirve y actualizo el precio de esta publicación para tu compra${precioTotal>costoEnvioGratis?` con Envio Gratis!!`:`. Saludos!`}`
+
+    let segunda = `El precio por ${figusEnStock.length == 1 ? 'la figurita original es ' : `las ${figusEnStock.length} figuritas originales es `}`
+
+    let primera = `Hola! Si, ${figusEnStock.length == 1 ? 'la' : 'las'} tengo en stock. \n`
+
+    let primera2 = `Hola! Las tengo excepto ${figusFaltantes}. \n`
+
+    let primera3 = `Hola! De tu lista tengo ${figusEnStock}. \n`
+
+    if (figusEnStock.length==0){
+        let singPlu = figusFaltantes.length>1?"las":"la"
+        return `Hola! No ${singPlu} tengo en stock. Saludos`
+    }
+
+    else{
+        if (figusFaltantes.length==0){
+            return primera+segunda+tercera
+        }else{
+            if (figusFaltantes.length>=figusEnStock.length){
+                return primera3+segunda+tercera
+            }else{
+                return primera2+segunda+tercera
+            }            
+        }
+    } 
+
+    
+
+}
+
+
+export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) => {
     const Toast = Swal.mixin({
         toast: true,
         position: 'top-end',
@@ -119,6 +186,9 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
             toast.addEventListener('mouseleave', Swal.resumeTimer)
         }
     })
+
+    let costoEnvioGratis = 33000
+
     let valorInput = document.getElementById('entrada').value.toUpperCase();
     const figusEntrada = formatearEntrada(valorInput)
 
@@ -145,48 +215,53 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
     let cantFigusSinStock = 0;
     let cantFigusConsult = 0;
     let totalPrecio = 0;
-    let faltantes = '';
-    let enStock = '';
-    let figuInd = '';
-    let figuRemp = '';
-    let tipoFigu = ''
     let figuList = []
     let figusEnStock = []
     let figusSinStock = []
-
-    let costoEnvioGratis = 33000
+    let figuListObj = [] // lista del objeto figu
+    let proveedor;
 
     figusDeLaBase.forEach(figu => {
 
         cantFigusConsult += 1;
 
-        if (figu.CANT > 0) {
+        if (figu.STOCK.PDM.CANT > 0) {
             cantFigusStock += 1;
-            tipoFigu = figu.TIPO
-            totalPrecio += figu.PRECIO;
+            totalPrecio += figu.STOCK.PDM.PRECIO;
 
-            if (figu.NUM.includes('INT')) {
-                figuRemp = figu.NUM.replace('INT', 'INTR')
-                figuInd = figuRemp
-                enStock += figuInd + " "
-            } else {
-                figuInd = figu.NUM;
-                enStock += figu.NUM + " "
-            }
+            figusEnStock.push(figu.NUM)
+            figuListObj.push(figu)
 
+
+        } else if (figu.STOCK.MATI.CANT > 0) {
+            cantFigusStock += 1;
+            totalPrecio += figu.STOCK.MATI.PRECIO;
+
+            figusEnStock.push(figu.NUM)
+            figuListObj.push(figu)
+
+        } else if (figu.STOCK.CAMBIOS.CANT > 0) {
+            cantFigusStock += 1;
+            totalPrecio += figu.STOCK.MATI.PRECIO;
+
+            figusEnStock.push(figu.NUM)
+            figuListObj.push(figu)
+
+        } else if (figu.STOCK.OTROS.CANT > 0) {
+            cantFigusStock += 1;
+            totalPrecio += figu.STOCK.MATI.PRECIO;
+
+            figusEnStock.push(figu.NUM)
+            figuListObj.push(figu)
 
         } else {
             cantFigusSinStock += 1
-            if (figu.NUM.includes('INT')) {
-                figuRemp = figu.NUM.replace('INT', 'INTR')
-                faltantes += figuRemp + " ";
-            } else {
-                faltantes += figu.NUM + " ";
-            }
+
+            figusSinStock.push(figu.NUM)
+
         }
     });
 
-    faltantes = faltantes.substring(0, (faltantes.length) - 1)
 
 
     // Mostrar resultados en el HTML
@@ -247,11 +322,13 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
             const li = document.createElement('li');
             li.classList.add('listaClass')
 
-            if (figu.CANT == 0) {
-                li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length == 1 ? `${figu.CANT}` + '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length == 3 ? figu.PRECIO + '&nbsp;' : figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
+            let cant_stock = figu.STOCK.MATI.CANT + figu.STOCK.PDM.CANT + figu.STOCK.CAMBIOS.CANT + figu.STOCK.OTROS.CANT
+
+            if (cant_stock == 0) {
+                li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0   \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
                 li.style.color = 'red'
             } else {
-                li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length == 1 ? `${figu.CANT}` + '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length == 3 ? figu.PRECIO + '&nbsp;' : figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
+                li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0  $ ${figu.STOCK.PDM.CANT > 0 ? figu.STOCK.PDM.PRECIO : figu.STOCK.MATI.CANT > 0 ? figu.STOCK.MATI.PRECIO : figu.STOCK.CAMBIOS.CANT > 0 ? figu.STOCK.CAMBIOS.PRECIO : figu.STOCK.OTROS.CANT > 0 ? figu.STOCK.OTROS.PRECIO : 0} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
             }
             separacionDiv1.appendChild(li);
         });
@@ -284,57 +361,46 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
 
         resultados.style.padding = '0px'
 
-        const confirmacion = '. Confirmame si te sirve y actualizo el precio de esta publicación para tu compra'
-
-        const singPluPre = (cant) => {
-
-            return `El precio por ${cant == 1 ? 'la figurita' : `las ${cant} figuritas originales es `}`
-        }
-
-        const singPluPri = (cant) => {
-
-            return `Hola! Si, ${cant == 1 ? 'la' : 'las'} tengo en stock.`
-        }
-
-
-        const faltanText = (falta) => {
-            return `Hola! Las tengo excepto ${falta}. `
-        }
-
         const mensaje = document.createElement('h3');
         mensaje.style.margin = '30px'
-        if (faltantes.length == 0) {
-            if (cantFigusStock == 1) {
-                if (totalPrecio < 3500) {
-                    if (tipoFigu == 'ESCUDO') {
-                        mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 5000${confirmacion}`
-                    } else if (totalPrecio == 850 || totalPrecio == 750) {
-                        mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 3900${confirmacion}`
-                    } else {
-                        mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 4500${confirmacion}`
-                    }
-                } else {
-                    mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es ${totalPrecio}${confirmacion}`
-                }
+        mensaje.style.whiteSpace = "pre-line";
 
-            } else if (totalPrecio >= costoEnvioGratis) {
-                mensaje.textContent = `Hola! Si, en este momento cuento con todas en stock y te damos el envio gratis por un total de ${totalPrecio}${confirmacion}`
-            }
-            else {
-                mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} ${(totalPrecio / cantFigusStock === 850) ? (cantFigusStock <= 3 ? cantFigusStock * 2100 : (3 * 2100 + (1000 * (cantFigusStock - 3)))) : (totalPrecio < 3000 ? totalPrecio * 2 : totalPrecio < 10000 ? totalPrecio + 1500 : totalPrecio <= 25500 ? totalPrecio + 3000 : totalPrecio)} ${confirmacion}`
-            }
-        } else {
-            if (cantFigusStock == 1) {
-                mensaje.textContent = `${faltanText(faltantes)}${singPluPre(cantFigusStock)} ${figuInd} es ${totalPrecio == 850 ? 3700 : totalPrecio < 3500 ? 4000 : totalPrecio}${confirmacion}`
-            } else {
-                if (cantFigusStock == 0) {
-                    mensaje.textContent = `Hola! No las tengo en stock`
-                } else {
-                    mensaje.textContent = `${faltanText(faltantes)}${singPluPre(cantFigusStock)} ${totalPrecio < 6000 ? ((cantFigusStock * 1200) + 1700) : totalPrecio < ((cantFigusStock + 1) * 1000) && totalPrecio < costoEnvioGratis ? totalPrecio + 2000 : totalPrecio}${confirmacion}${totalPrecio >= costoEnvioGratis ? ' con Envio Gratis!!' : '. Saludos!'}`
-                }
-            }
 
-        }
+        const textoRespuesta = preciosRespuesta(figusEnStock,figusSinStock,costoEnvioGratis,totalPrecio,figuListObj)
+        mensaje.textContent = textoRespuesta
+
+        // if (faltantes.length == 0) {
+        //     if (cantFigusStock == 1) {
+        //         if (totalPrecio < 3500) {
+        //             if (tipoFigu == 'ESCUDO') {
+        //                 mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 5000${confirmacion}`
+        //             } else if (totalPrecio == 850 || totalPrecio == 750) {
+        //                 mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 3900${confirmacion}`
+        //             } else {
+        //                 mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 4500${confirmacion}`
+        //             }
+        //         } else {
+        //             mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es ${totalPrecio}${confirmacion}`
+        //         }
+
+        //     } else if (totalPrecio >= costoEnvioGratis) {
+        //         mensaje.textContent = `Hola! Si, en este momento cuento con todas en stock y te damos el envio gratis por un total de ${totalPrecio}${confirmacion}`
+        //     }
+        //     else {
+        //         mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} ${(totalPrecio / cantFigusStock === 850) ? (cantFigusStock <= 3 ? cantFigusStock * 2100 : (3 * 2100 + (1000 * (cantFigusStock - 3)))) : (totalPrecio < 3000 ? totalPrecio * 2 : totalPrecio < 10000 ? totalPrecio + 1500 : totalPrecio <= 25500 ? totalPrecio + 3000 : totalPrecio)} ${confirmacion}`
+        //     }
+        // } else {
+        //     if (cantFigusStock == 1) {
+        //         mensaje.textContent = `${faltanText(faltantes)}${singPluPre(cantFigusStock)} ${figuInd} es ${totalPrecio == 850 ? 3700 : totalPrecio < 3500 ? 4000 : totalPrecio}${confirmacion}`
+        //     } else {
+        //         if (cantFigusStock == 0) {
+        //             mensaje.textContent = `Hola! No las tengo en stock`
+        //         } else {
+        //             mensaje.textContent = `${faltanText(faltantes)}${singPluPre(cantFigusStock)} ${totalPrecio < 6000 ? ((cantFigusStock * 1200) + 1700) : totalPrecio < ((cantFigusStock + 1) * 1000) && totalPrecio < costoEnvioGratis ? totalPrecio + 2000 : totalPrecio}${confirmacion}${totalPrecio >= costoEnvioGratis ? ' con Envio Gratis!!' : '. Saludos!'}`
+        //         }
+        //     }
+
+        // }
 
 
 
@@ -357,6 +423,10 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
         let divNombreUsuarioVenta = null
         let entradaUsuario = null
         let divEnvio = null
+        let divCuenta = null
+        let divDescargarVenta = null
+        let tipoCuenta;
+        let tipoEnvio;
 
         buttonVenta.addEventListener('click', () => {
             buttonPregunta.style.backgroundColor = ''
@@ -388,112 +458,101 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
                     resultados.appendChild(divVenta)
                 }
 
-                // if (!divNombreUsuarioVenta){
-                //     divNombreUsuarioVenta = document.createElement('div')
-                //     divNombreUsuarioVenta.style.display='flex'
-                //     divNombreUsuarioVenta.style.justifyContent='center'
-                //     divNombreUsuarioVenta.style.alignItems='center'
-                //     entradaUsuario = document.createElement('input')
-                //     entradaUsuario.placeholder='Ingrese nombre usuario'
-                //     entradaUsuario.style.margin='20px'
-                //     entradaUsuario.classList.add('usuarioVenta')
-                //     divNombreUsuarioVenta.appendChild(entradaUsuario)
-                //     divVenta.appendChild(divNombreUsuarioVenta)                
-                // }
+                if (canalPregunta === "ONLINE") {
+                    if (!divEnvio) {
+                        divEnvio = document.createElement('div')
+                        const botonCorreo = document.createElement('button')
+                        const botonFlex = document.createElement('button')
+                        botonCorreo.classList.add('boton')
+                        botonFlex.classList.add('boton')
+                        botonCorreo.textContent = 'Correo'
+                        botonFlex.textContent = 'Flex'
 
-                if (!divEnvio) {
-                    divEnvio = document.createElement('div')
-                    const botonCorreo = document.createElement('button')
-                    const botonFlex = document.createElement('button')
-                    botonCorreo.classList.add('boton')
-                    botonFlex.classList.add('boton')
-                    botonCorreo.textContent = 'Correo'
-                    botonFlex.textContent = 'Flex'
+                        botonCorreo.style.marginRight = '10px'
+                        botonFlex.style.marginLeft = '10px'
 
-                    botonCorreo.style.marginRight = '10px'
-                    botonFlex.style.marginLeft = '10px'
+                        divEnvio.style.display = 'flex'
+                        divEnvio.style.justifyContent = 'center'
+                        divEnvio.style.alignItems = 'center'
+                        divEnvio.style.height = '100px'
 
-                    divEnvio.style.display = 'flex'
-                    divEnvio.style.justifyContent = 'center'
-                    divEnvio.style.alignItems = 'center'
-                    divEnvio.style.height = '100px'
-
-                    divEnvio.appendChild(botonCorreo)
-                    divEnvio.appendChild(botonFlex)
-                    divVenta.appendChild(divEnvio)
+                        divEnvio.appendChild(botonCorreo)
+                        divEnvio.appendChild(botonFlex)
+                        divVenta.appendChild(divEnvio)
 
 
-                    botonCorreo.addEventListener('click', () => {
-                        tipoEnvio = "CORREO"
-                        botonCorreo.style.backgroundColor = 'lightgreen'
-                        botonFlex.style.backgroundColor = ''
-                        agregarCuenta()
-                    }
-                    )
+                        botonCorreo.addEventListener('click', () => {
+                            tipoEnvio = "CORREO"
+                            botonCorreo.style.backgroundColor = 'lightgreen'
+                            botonFlex.style.backgroundColor = ''
+                            agregarCuenta()
+                        }
+                        )
 
-                    botonFlex.addEventListener('click', () => {
-                        tipoEnvio = "FLEX"
-                        botonCorreo.style.backgroundColor = ''
-                        botonFlex.style.backgroundColor = 'lightgreen'
-                        agregarCuenta()
-                    })
-                }
-
-
-
-                let tipoEnvio;
-                let tipoCuenta;
-
-                let divCuenta = null
-                let divDescargarVenta = null
-
-                const agregarCuenta = () => {
-
-                    if (divDescargarVenta) {
-                        divVenta.removeChild(divDescargarVenta)
-                        divDescargarVenta = null
-                    }
-
-                    if (divCuenta) {
-                        divVenta.removeChild(divCuenta)
-                        divCuenta = null
-                        agregarCuenta()
-                    } else {
-                        divCuenta = document.createElement('div')
-                        const botonKevin = document.createElement('button')
-                        const botonMati = document.createElement('button')
-                        botonKevin.classList.add('boton')
-                        botonMati.classList.add('boton')
-                        botonKevin.textContent = 'Kevin'
-                        botonMati.textContent = 'Mati'
-
-                        botonKevin.style.marginRight = '10px'
-                        botonMati.style.marginLeft = '10px'
-
-                        divCuenta.style.display = 'flex'
-                        divCuenta.style.justifyContent = 'center'
-                        divCuenta.style.alignItems = 'center'
-                        divCuenta.style.height = '50px'
-
-                        divCuenta.appendChild(botonKevin)
-                        divCuenta.appendChild(botonMati)
-                        divVenta.appendChild(divCuenta)
-
-                        botonKevin.addEventListener('click', () => {
-                            botonKevin.style.backgroundColor = 'lightgreen'
-                            botonMati.style.backgroundColor = ''
-                            tipoCuenta = "KEVIN"
-                            crearBotonDescargar()
-                        })
-                        botonMati.addEventListener('click', () => {
-                            botonMati.style.backgroundColor = 'lightgreen'
-                            botonKevin.style.backgroundColor = ''
-                            tipoCuenta = "MATI"
-                            crearBotonDescargar()
+                        botonFlex.addEventListener('click', () => {
+                            tipoEnvio = "FLEX"
+                            botonCorreo.style.backgroundColor = ''
+                            botonFlex.style.backgroundColor = 'lightgreen'
+                            agregarCuenta()
                         })
                     }
 
+
+
+
+
+
+
+                    const agregarCuenta = () => {
+
+                        if (divDescargarVenta) {
+                            divVenta.removeChild(divDescargarVenta)
+                            divDescargarVenta = null
+                        }
+
+                        if (divCuenta) {
+                            divVenta.removeChild(divCuenta)
+                            divCuenta = null
+                            agregarCuenta()
+                        } else {
+                            divCuenta = document.createElement('div')
+                            const botonKevin = document.createElement('button')
+                            const botonMati = document.createElement('button')
+                            botonKevin.classList.add('boton')
+                            botonMati.classList.add('boton')
+                            botonKevin.textContent = 'Kevin'
+                            botonMati.textContent = 'Mati'
+
+                            botonKevin.style.marginRight = '10px'
+                            botonMati.style.marginLeft = '10px'
+
+                            divCuenta.style.display = 'flex'
+                            divCuenta.style.justifyContent = 'center'
+                            divCuenta.style.alignItems = 'center'
+                            divCuenta.style.height = '50px'
+
+                            divCuenta.appendChild(botonKevin)
+                            divCuenta.appendChild(botonMati)
+                            divVenta.appendChild(divCuenta)
+
+                            botonKevin.addEventListener('click', () => {
+                                botonKevin.style.backgroundColor = 'lightgreen'
+                                botonMati.style.backgroundColor = ''
+                                tipoCuenta = "KEVIN"
+                                crearBotonDescargar()
+                            })
+                            botonMati.addEventListener('click', () => {
+                                botonMati.style.backgroundColor = 'lightgreen'
+                                botonKevin.style.backgroundColor = ''
+                                tipoCuenta = "MATI"
+                                crearBotonDescargar()
+                            })
+                        }
+
+                    }
                 }
+
+
 
                 const crearBotonDescargar = async () => {
 
@@ -509,7 +568,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
                         divDescargarVenta.style.alignItems = 'center'
                         divDescargarVenta.style.margin = '20px'
                         const descargarArchivos = document.createElement('button')
-                        descargarArchivos.innerHTML = 'Actualizar'
+                        descargarArchivos.innerHTML = 'Confirmar'
                         descargarArchivos.style.backgroundColor = 'skyblue'
                         divDescargarVenta.appendChild(descargarArchivos)
                         divVenta.appendChild(divDescargarVenta)
@@ -522,28 +581,127 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta) => {
                             for (const figu of albumFigus) {
                                 for (const vend of figuList) {
                                     if (vend == figu.NUM)
-                                        if (figu.CANT > 0) {
+                                        if (figu.STOCK.PDM.CANT > 0) {
+                                            proveedor = "PDM"
                                             try {
 
-                                                await fetch(`${api}/${albumRuta}/decrementar/${figu._id}`, {
+                                                const response = await fetch(`${api}/${albumRuta}/decrementar/${proveedor}/${figu._id}`, {
                                                     method: "PATCH"
                                                 });
+
+
+                                                if (!response.ok) {
+                                                    throw new Error(`Error ${response.status}: ${response.statusText}`);
+                                                }
+
+                                                console.log(`${figu.NUM} Descontada del proveedor: ${proveedor}`)
 
                                                 Toast.fire({
                                                     icon: 'success',
                                                     title: `BDD actualizada correctamente`
                                                 })
 
+                                                figu.STOCK[proveedor].CANT -= 1
+
+
 
                                             } catch (error) {
-                                                console.error('Error al actualizar base de MongoDB:', error);
-                                                throw error;
+                                                Toast.fire({
+                                                    icon: 'error',
+                                                    title: 'Error al actualizar la BDD'
+                                                });
                                             }
 
-                                            figu.CANT -= 1
-                                            figusEnStock.push(figu.NUM)
-                                        } else {
-                                            figusSinStock.push(figu.NUM)
+
+                                        } else if (figu.STOCK.MATI.CANT > 0) {
+                                            proveedor = "MATI"
+                                            try {
+
+                                                const response = await fetch(`${api}/${albumRuta}/decrementar/${proveedor}/${figu._id}`, {
+                                                    method: "PATCH"
+                                                });
+
+
+                                                if (!response.ok) {
+                                                    throw new Error(`Error ${response.status}: ${response.statusText}`);
+                                                }
+
+                                                console.log(`${figu.NUM} Descontada del proveedor: ${proveedor}`)
+
+                                                Toast.fire({
+                                                    icon: 'success',
+                                                    title: `BDD actualizada correctamente`
+                                                })
+
+                                                figu.STOCK[proveedor].CANT -= 1
+
+
+
+                                            } catch (error) {
+                                                Toast.fire({
+                                                    icon: 'error',
+                                                    title: 'Error al actualizar la BDD'
+                                                });
+                                            }
+                                        } else if (figu.STOCK.CAMBIOS.CANT > 0) {
+                                            proveedor = "CAMBIOS"
+                                            try {
+
+                                                const response = await fetch(`${api}/${albumRuta}/decrementar/${proveedor}/${figu._id}`, {
+                                                    method: "PATCH"
+                                                });
+
+
+                                                if (!response.ok) {
+                                                    throw new Error(`Error ${response.status}: ${response.statusText}`);
+                                                }
+
+                                                console.log(`${figu.NUM} Descontada del proveedor: ${proveedor}`)
+
+                                                Toast.fire({
+                                                    icon: 'success',
+                                                    title: `BDD actualizada correctamente`
+                                                })
+
+                                                figu.STOCK[proveedor].CANT -= 1
+
+
+
+                                            } catch (error) {
+                                                Toast.fire({
+                                                    icon: 'error',
+                                                    title: 'Error al actualizar la BDD'
+                                                });
+                                            }
+                                        } else if (figu.STOCK.OTROS.CANT > 0) {
+                                            proveedor = "OTROS"
+                                            try {
+
+                                                const response = await fetch(`${api}/${albumRuta}/decrementar/${proveedor}/${figu._id}`, {
+                                                    method: "PATCH"
+                                                });
+
+
+                                                if (!response.ok) {
+                                                    throw new Error(`Error ${response.status}: ${response.statusText}`);
+                                                }
+
+                                                console.log(`${figu.NUM} Descontada del proveedor: ${proveedor}`)
+
+                                                Toast.fire({
+                                                    icon: 'success',
+                                                    title: `BDD actualizada correctamente`
+                                                })
+
+                                                figu.STOCK[proveedor].CANT -= 1
+
+
+                                            } catch (error) {
+                                                Toast.fire({
+                                                    icon: 'error',
+                                                    title: 'Error al actualizar la BDD'
+                                                });
+                                            }
                                         }
                                 }
                             }

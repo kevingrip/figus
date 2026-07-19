@@ -38,7 +38,7 @@
   {
     "_id": "6a5286b466b1ffd714743855",
     "NUM": "ALG5",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -56,7 +56,7 @@
   {
     "_id": "6a5286b466b1ffd714743857",
     "NUM": "ALG7",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -92,7 +92,7 @@
   {
     "_id": "6a5286b466b1ffd71474385b",
     "NUM": "ALG11",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -119,7 +119,7 @@
   {
     "_id": "6a5286b466b1ffd71474385e",
     "NUM": "ALG14",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -128,7 +128,7 @@
   {
     "_id": "6a5286b466b1ffd71474385f",
     "NUM": "ALG15",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -137,7 +137,7 @@
   {
     "_id": "6a5286b466b1ffd714743860",
     "NUM": "ALG16",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -146,7 +146,7 @@
   {
     "_id": "6a5286b466b1ffd714743861",
     "NUM": "ALG17",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -173,7 +173,7 @@
   {
     "_id": "6a5286b466b1ffd714743864",
     "NUM": "ALG20",
-    "CANT": 0,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -182,7 +182,7 @@
   {
     "_id": "6a5286b466b1ffd714743865",
     "NUM": "ARG1",
-    "CANT": 0,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -218,7 +218,7 @@
   {
     "_id": "6a5286b466b1ffd714743869",
     "NUM": "ARG5",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -227,7 +227,7 @@
   {
     "_id": "6a5286b466b1ffd71474386a",
     "NUM": "ARG6",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -236,7 +236,7 @@
   {
     "_id": "6a5286b466b1ffd71474386b",
     "NUM": "ARG7",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -263,7 +263,7 @@
   {
     "_id": "6a5286b466b1ffd71474386e",
     "NUM": "ARG10",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -272,7 +272,7 @@
   {
     "_id": "6a5286b466b1ffd71474386f",
     "NUM": "ARG11",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -281,7 +281,7 @@
   {
     "_id": "6a5286b466b1ffd714743870",
     "NUM": "ARG12",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -308,7 +308,7 @@
   {
     "_id": "6a5286b466b1ffd714743873",
     "NUM": "ARG15",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -317,7 +317,7 @@
   {
     "_id": "6a5286b466b1ffd714743874",
     "NUM": "ARG16",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -344,7 +344,7 @@
   {
     "_id": "6a5286b466b1ffd714743877",
     "NUM": "ARG19",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -353,7 +353,7 @@
   {
     "_id": "6a5286b466b1ffd714743878",
     "NUM": "ARG20",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -380,7 +380,7 @@
   {
     "_id": "6a5286b466b1ffd71474387b",
     "NUM": "AUS3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -389,7 +389,7 @@
   {
     "_id": "6a5286b466b1ffd71474387c",
     "NUM": "AUS4",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -434,7 +434,7 @@
   {
     "_id": "6a5286b466b1ffd714743881",
     "NUM": "AUS9",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -452,7 +452,7 @@
   {
     "_id": "6a5286b466b1ffd714743883",
     "NUM": "AUS11",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -461,7 +461,7 @@
   {
     "_id": "6a5286b466b1ffd714743884",
     "NUM": "AUS12",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -479,7 +479,7 @@
   {
     "_id": "6a5286b466b1ffd714743886",
     "NUM": "AUS14",
-    "CANT": 0,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -515,7 +515,7 @@
   {
     "_id": "6a5286b466b1ffd71474388a",
     "NUM": "AUS18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -542,7 +542,7 @@
   {
     "_id": "6a5286b466b1ffd71474388d",
     "NUM": "AUT1",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -587,7 +587,7 @@
   {
     "_id": "6a5286b466b1ffd714743892",
     "NUM": "AUT6",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -605,7 +605,7 @@
   {
     "_id": "6a5286b466b1ffd714743894",
     "NUM": "AUT8",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -632,7 +632,7 @@
   {
     "_id": "6a5286b466b1ffd714743897",
     "NUM": "AUT11",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -659,7 +659,7 @@
   {
     "_id": "6a5286b466b1ffd71474389a",
     "NUM": "AUT14",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -668,7 +668,7 @@
   {
     "_id": "6a5286b466b1ffd71474389b",
     "NUM": "AUT15",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -695,7 +695,7 @@
   {
     "_id": "6a5286b466b1ffd71474389e",
     "NUM": "AUT18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -704,7 +704,7 @@
   {
     "_id": "6a5286b466b1ffd71474389f",
     "NUM": "AUT19",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -713,7 +713,7 @@
   {
     "_id": "6a5286b466b1ffd7147438a0",
     "NUM": "AUT20",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -749,7 +749,7 @@
   {
     "_id": "6a5286b466b1ffd7147438a4",
     "NUM": "BEL4",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -776,7 +776,7 @@
   {
     "_id": "6a5286b466b1ffd7147438a7",
     "NUM": "BEL7",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -785,7 +785,7 @@
   {
     "_id": "6a5286b466b1ffd7147438a8",
     "NUM": "BEL8",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -830,7 +830,7 @@
   {
     "_id": "6a5286b466b1ffd7147438ad",
     "NUM": "BEL13",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -857,7 +857,7 @@
   {
     "_id": "6a5286b466b1ffd7147438b0",
     "NUM": "BEL16",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -866,7 +866,7 @@
   {
     "_id": "6a5286b466b1ffd7147438b1",
     "NUM": "BEL17",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -875,7 +875,7 @@
   {
     "_id": "6a5286b466b1ffd7147438b2",
     "NUM": "BEL18",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -884,7 +884,7 @@
   {
     "_id": "6a5286b466b1ffd7147438b3",
     "NUM": "BEL19",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -893,7 +893,7 @@
   {
     "_id": "6a5286b466b1ffd7147438b4",
     "NUM": "BEL20",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -902,7 +902,7 @@
   {
     "_id": "6a5286b466b1ffd7147438b5",
     "NUM": "BIH1",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -911,7 +911,7 @@
   {
     "_id": "6a5286b466b1ffd7147438b6",
     "NUM": "BIH2",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -992,7 +992,7 @@
   {
     "_id": "6a5286b466b1ffd7147438bf",
     "NUM": "BIH11",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1010,7 +1010,7 @@
   {
     "_id": "6a5286b466b1ffd7147438c1",
     "NUM": "BIH13",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -1055,7 +1055,7 @@
   {
     "_id": "6a5286b466b1ffd7147438c6",
     "NUM": "BIH18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1073,7 +1073,7 @@
   {
     "_id": "6a5286b466b1ffd7147438c8",
     "NUM": "BIH20",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1082,7 +1082,7 @@
   {
     "_id": "6a5286b466b1ffd7147438c9",
     "NUM": "BRA1",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -1100,7 +1100,7 @@
   {
     "_id": "6a5286b466b1ffd7147438cb",
     "NUM": "BRA3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1118,7 +1118,7 @@
   {
     "_id": "6a5286b466b1ffd7147438cd",
     "NUM": "BRA5",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1136,7 +1136,7 @@
   {
     "_id": "6a5286b466b1ffd7147438cf",
     "NUM": "BRA7",
-    "CANT": 1,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1145,7 +1145,7 @@
   {
     "_id": "6a5286b466b1ffd7147438d0",
     "NUM": "BRA8",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1154,7 +1154,7 @@
   {
     "_id": "6a5286b466b1ffd7147438d1",
     "NUM": "BRA9",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1163,7 +1163,7 @@
   {
     "_id": "6a5286b466b1ffd7147438d2",
     "NUM": "BRA10",
-    "CANT": 4,
+    "CANT": 5,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1199,7 +1199,7 @@
   {
     "_id": "6a5286b466b1ffd7147438d6",
     "NUM": "BRA14",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1235,7 +1235,7 @@
   {
     "_id": "6a5286b466b1ffd7147438da",
     "NUM": "BRA18",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1253,7 +1253,7 @@
   {
     "_id": "6a5286b466b1ffd7147438dc",
     "NUM": "BRA20",
-    "CANT": 3,
+    "CANT": 6,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1271,7 +1271,7 @@
   {
     "_id": "6a5286b466b1ffd7147438de",
     "NUM": "CAN2",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1280,7 +1280,7 @@
   {
     "_id": "6a5286b466b1ffd7147438df",
     "NUM": "CAN3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1307,7 +1307,7 @@
   {
     "_id": "6a5286b466b1ffd7147438e2",
     "NUM": "CAN6",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1316,7 +1316,7 @@
   {
     "_id": "6a5286b466b1ffd7147438e3",
     "NUM": "CAN7",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1334,7 +1334,7 @@
   {
     "_id": "6a5286b466b1ffd7147438e5",
     "NUM": "CAN9",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1370,7 +1370,7 @@
   {
     "_id": "6a5286b466b1ffd7147438e9",
     "NUM": "CAN13",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -1388,7 +1388,7 @@
   {
     "_id": "6a5286b466b1ffd7147438eb",
     "NUM": "CAN15",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1433,7 +1433,7 @@
   {
     "_id": "6a5286b466b1ffd7147438f0",
     "NUM": "CAN20",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1568,7 +1568,7 @@
   {
     "_id": "6a5286b466b1ffd7147438ff",
     "NUM": "CIV1",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -1595,7 +1595,7 @@
   {
     "_id": "6a5286b466b1ffd714743902",
     "NUM": "CIV4",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1604,7 +1604,7 @@
   {
     "_id": "6a5286b466b1ffd714743903",
     "NUM": "CIV5",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1640,7 +1640,7 @@
   {
     "_id": "6a5286b466b1ffd714743907",
     "NUM": "CIV9",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1685,7 +1685,7 @@
   {
     "_id": "6a5286b466b1ffd71474390c",
     "NUM": "CIV14",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1694,7 +1694,7 @@
   {
     "_id": "6a5286b466b1ffd71474390d",
     "NUM": "CIV15",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1703,7 +1703,7 @@
   {
     "_id": "6a5286b466b1ffd71474390e",
     "NUM": "CIV16",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1730,7 +1730,7 @@
   {
     "_id": "6a5286b466b1ffd714743911",
     "NUM": "CIV19",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1748,7 +1748,7 @@
   {
     "_id": "6a5286b466b1ffd714743913",
     "NUM": "COD1",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -1766,7 +1766,7 @@
   {
     "_id": "6a5286b466b1ffd714743915",
     "NUM": "COD3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1793,7 +1793,7 @@
   {
     "_id": "6a5286b466b1ffd714743918",
     "NUM": "COD6",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1856,7 +1856,7 @@
   {
     "_id": "6a5286b466b1ffd71474391f",
     "NUM": "COD13",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -1901,7 +1901,7 @@
   {
     "_id": "6a5286b466b1ffd714743924",
     "NUM": "COD18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1955,7 +1955,7 @@
   {
     "_id": "6a5286b466b1ffd71474392a",
     "NUM": "COL4",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1964,7 +1964,7 @@
   {
     "_id": "6a5286b466b1ffd71474392b",
     "NUM": "COL5",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1982,7 +1982,7 @@
   {
     "_id": "6a5286b466b1ffd71474392d",
     "NUM": "COL7",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -1991,7 +1991,7 @@
   {
     "_id": "6a5286b466b1ffd71474392e",
     "NUM": "COL8",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2000,7 +2000,7 @@
   {
     "_id": "6a5286b466b1ffd71474392f",
     "NUM": "COL9",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2027,7 +2027,7 @@
   {
     "_id": "6a5286b466b1ffd714743932",
     "NUM": "COL12",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2045,7 +2045,7 @@
   {
     "_id": "6a5286b466b1ffd714743934",
     "NUM": "COL14",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2063,7 +2063,7 @@
   {
     "_id": "6a5286b466b1ffd714743936",
     "NUM": "COL16",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2072,7 +2072,7 @@
   {
     "_id": "6a5286b466b1ffd714743937",
     "NUM": "COL17",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2099,7 +2099,7 @@
   {
     "_id": "6a5286b466b1ffd71474393a",
     "NUM": "COL20",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2153,7 +2153,7 @@
   {
     "_id": "6a5286b466b1ffd714743940",
     "NUM": "CPV6",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2279,7 +2279,7 @@
   {
     "_id": "6a5286b466b1ffd71474394e",
     "NUM": "CPV20",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2288,7 +2288,7 @@
   {
     "_id": "6a5286b466b1ffd71474394f",
     "NUM": "CRO1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -2351,7 +2351,7 @@
   {
     "_id": "6a5286b466b1ffd714743956",
     "NUM": "CRO8",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2360,7 +2360,7 @@
   {
     "_id": "6a5286b466b1ffd714743957",
     "NUM": "CRO9",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2378,7 +2378,7 @@
   {
     "_id": "6a5286b466b1ffd714743959",
     "NUM": "CRO11",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2387,7 +2387,7 @@
   {
     "_id": "6a5286b466b1ffd71474395a",
     "NUM": "CRO12",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2405,7 +2405,7 @@
   {
     "_id": "6a5286b466b1ffd71474395c",
     "NUM": "CRO14",
-    "CANT": 3,
+    "CANT": 5,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2423,7 +2423,7 @@
   {
     "_id": "6a5286b466b1ffd71474395e",
     "NUM": "CRO16",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2432,7 +2432,7 @@
   {
     "_id": "6a5286b466b1ffd71474395f",
     "NUM": "CRO17",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2441,7 +2441,7 @@
   {
     "_id": "6a5286b466b1ffd714743960",
     "NUM": "CRO18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2450,7 +2450,7 @@
   {
     "_id": "6a5286b466b1ffd714743961",
     "NUM": "CRO19",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2459,7 +2459,7 @@
   {
     "_id": "6a5286b466b1ffd714743962",
     "NUM": "CRO20",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2468,7 +2468,7 @@
   {
     "_id": "6a5286b466b1ffd714743963",
     "NUM": "CUW1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -2486,7 +2486,7 @@
   {
     "_id": "6a5286b466b1ffd714743965",
     "NUM": "CUW3",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2531,7 +2531,7 @@
   {
     "_id": "6a5286b466b1ffd71474396a",
     "NUM": "CUW8",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2603,7 +2603,7 @@
   {
     "_id": "6a5286b466b1ffd714743972",
     "NUM": "CUW16",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2675,7 +2675,7 @@
   {
     "_id": "6a5286b466b1ffd71474397a",
     "NUM": "CZE4",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2684,7 +2684,7 @@
   {
     "_id": "6a5286b466b1ffd71474397b",
     "NUM": "CZE5",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2720,7 +2720,7 @@
   {
     "_id": "6a5286b466b1ffd71474397f",
     "NUM": "CZE9",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2792,7 +2792,7 @@
   {
     "_id": "6a5286b466b1ffd714743987",
     "NUM": "CZE17",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2810,7 +2810,7 @@
   {
     "_id": "6a5286b466b1ffd714743989",
     "NUM": "CZE19",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2828,7 +2828,7 @@
   {
     "_id": "6a5286b466b1ffd714743c1f",
     "NUM": "ECU1",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -2837,7 +2837,7 @@
   {
     "_id": "6a5286b466b1ffd714743c20",
     "NUM": "ECU2",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2846,7 +2846,7 @@
   {
     "_id": "6a5286b466b1ffd714743c21",
     "NUM": "ECU3",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2855,7 +2855,7 @@
   {
     "_id": "6a5286b466b1ffd714743c22",
     "NUM": "ECU4",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2864,7 +2864,7 @@
   {
     "_id": "6a5286b466b1ffd714743c23",
     "NUM": "ECU5",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2873,7 +2873,7 @@
   {
     "_id": "6a5286b466b1ffd714743c24",
     "NUM": "ECU6",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2882,7 +2882,7 @@
   {
     "_id": "6a5286b466b1ffd714743c25",
     "NUM": "ECU7",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2891,7 +2891,7 @@
   {
     "_id": "6a5286b466b1ffd714743c26",
     "NUM": "ECU8",
-    "CANT": 0,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2900,7 +2900,7 @@
   {
     "_id": "6a5286b466b1ffd714743c27",
     "NUM": "ECU9",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2909,7 +2909,7 @@
   {
     "_id": "6a5286b466b1ffd714743c28",
     "NUM": "ECU10",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2918,7 +2918,7 @@
   {
     "_id": "6a5286b466b1ffd714743c29",
     "NUM": "ECU11",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2927,7 +2927,7 @@
   {
     "_id": "6a5286b466b1ffd714743c2a",
     "NUM": "ECU12",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2945,7 +2945,7 @@
   {
     "_id": "6a5286b466b1ffd714743c2c",
     "NUM": "ECU14",
-    "CANT": 0,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2954,7 +2954,7 @@
   {
     "_id": "6a5286b466b1ffd714743c2d",
     "NUM": "ECU15",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2972,7 +2972,7 @@
   {
     "_id": "6a5286b466b1ffd714743c2f",
     "NUM": "ECU17",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -2990,7 +2990,7 @@
   {
     "_id": "6a5286b466b1ffd714743c31",
     "NUM": "ECU19",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3035,7 +3035,7 @@
   {
     "_id": "6a5286b466b1ffd71474398e",
     "NUM": "EGY4",
-    "CANT": 0,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3062,7 +3062,7 @@
   {
     "_id": "6a5286b466b1ffd714743991",
     "NUM": "EGY7",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3080,7 +3080,7 @@
   {
     "_id": "6a5286b466b1ffd714743993",
     "NUM": "EGY9",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3089,7 +3089,7 @@
   {
     "_id": "6a5286b466b1ffd714743994",
     "NUM": "EGY10",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3125,7 +3125,7 @@
   {
     "_id": "6a5286b466b1ffd714743998",
     "NUM": "EGY14",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3143,7 +3143,7 @@
   {
     "_id": "6a5286b466b1ffd71474399a",
     "NUM": "EGY16",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3188,7 +3188,7 @@
   {
     "_id": "6a5286b466b1ffd71474399f",
     "NUM": "ENG1",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -3197,7 +3197,7 @@
   {
     "_id": "6a5286b466b1ffd7147439a0",
     "NUM": "ENG2",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3224,7 +3224,7 @@
   {
     "_id": "6a5286b466b1ffd7147439a3",
     "NUM": "ENG5",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3269,7 +3269,7 @@
   {
     "_id": "6a5286b466b1ffd7147439a8",
     "NUM": "ENG10",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3278,7 +3278,7 @@
   {
     "_id": "6a5286b466b1ffd7147439a9",
     "NUM": "ENG11",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3305,7 +3305,7 @@
   {
     "_id": "6a5286b466b1ffd7147439ac",
     "NUM": "ENG14",
-    "CANT": 3,
+    "CANT": 5,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3323,7 +3323,7 @@
   {
     "_id": "6a5286b466b1ffd7147439ae",
     "NUM": "ENG16",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3341,7 +3341,7 @@
   {
     "_id": "6a5286b466b1ffd7147439b0",
     "NUM": "ENG18",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3359,7 +3359,7 @@
   {
     "_id": "6a5286b466b1ffd7147439b2",
     "NUM": "ENG20",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3386,7 +3386,7 @@
   {
     "_id": "6a5286b466b1ffd7147439b5",
     "NUM": "ESP3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3413,7 +3413,7 @@
   {
     "_id": "6a5286b466b1ffd7147439b8",
     "NUM": "ESP6",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3458,7 +3458,7 @@
   {
     "_id": "6a5286b466b1ffd7147439bd",
     "NUM": "ESP11",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3467,7 +3467,7 @@
   {
     "_id": "6a5286b466b1ffd7147439be",
     "NUM": "ESP12",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3512,7 +3512,7 @@
   {
     "_id": "6a5286b466b1ffd7147439c3",
     "NUM": "ESP17",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3521,7 +3521,7 @@
   {
     "_id": "6a5286b466b1ffd7147439c4",
     "NUM": "ESP18",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3530,7 +3530,7 @@
   {
     "_id": "6a5286b466b1ffd7147439c5",
     "NUM": "ESP19",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3566,7 +3566,7 @@
   {
     "_id": "6a5286b466b1ffd7147439c9",
     "NUM": "FRA3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3620,7 +3620,7 @@
   {
     "_id": "6a5286b466b1ffd7147439cf",
     "NUM": "FRA9",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3656,7 +3656,7 @@
   {
     "_id": "6a5286b466b1ffd7147439d3",
     "NUM": "FRA13",
-    "CANT": 4,
+    "CANT": 5,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -3719,7 +3719,7 @@
   {
     "_id": "6a5286b466b1ffd7147439da",
     "NUM": "FRA20",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3854,7 +3854,7 @@
   {
     "_id": "6a5286b466b1ffd7147439e9",
     "NUM": "FWC15",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "FWC",
     "NOMBRE": "",
@@ -3890,7 +3890,7 @@
   {
     "_id": "6a5286b466b1ffd7147439ed",
     "NUM": "FWC19",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "FWC",
     "NOMBRE": "",
@@ -3935,7 +3935,7 @@
   {
     "_id": "6a5286b466b1ffd7147439f2",
     "NUM": "GER4",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -3971,7 +3971,7 @@
   {
     "_id": "6a5286b466b1ffd7147439f6",
     "NUM": "GER8",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4034,7 +4034,7 @@
   {
     "_id": "6a5286b466b1ffd7147439fd",
     "NUM": "GER15",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4061,7 +4061,7 @@
   {
     "_id": "6a5286b466b1ffd714743a00",
     "NUM": "GER18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4088,7 +4088,7 @@
   {
     "_id": "6a5286b466b1ffd714743a03",
     "NUM": "GHA1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -4106,7 +4106,7 @@
   {
     "_id": "6a5286b466b1ffd714743a05",
     "NUM": "GHA3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4142,7 +4142,7 @@
   {
     "_id": "6a5286b466b1ffd714743a09",
     "NUM": "GHA7",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4160,7 +4160,7 @@
   {
     "_id": "6a5286b466b1ffd714743a0b",
     "NUM": "GHA9",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4178,7 +4178,7 @@
   {
     "_id": "6a5286b466b1ffd714743a0d",
     "NUM": "GHA11",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4196,7 +4196,7 @@
   {
     "_id": "6a5286b466b1ffd714743a0f",
     "NUM": "GHA13",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -4205,7 +4205,7 @@
   {
     "_id": "6a5286b466b1ffd714743a10",
     "NUM": "GHA14",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4214,7 +4214,7 @@
   {
     "_id": "6a5286b466b1ffd714743a11",
     "NUM": "GHA15",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4232,7 +4232,7 @@
   {
     "_id": "6a5286b466b1ffd714743a13",
     "NUM": "GHA17",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4277,7 +4277,7 @@
   {
     "_id": "6a5286b466b1ffd714743a18",
     "NUM": "HAI2",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4286,7 +4286,7 @@
   {
     "_id": "6a5286b466b1ffd714743a19",
     "NUM": "HAI3",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4304,7 +4304,7 @@
   {
     "_id": "6a5286b466b1ffd714743a1b",
     "NUM": "HAI5",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4313,7 +4313,7 @@
   {
     "_id": "6a5286b466b1ffd714743a1c",
     "NUM": "HAI6",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4322,7 +4322,7 @@
   {
     "_id": "6a5286b466b1ffd714743a1d",
     "NUM": "HAI7",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4340,7 +4340,7 @@
   {
     "_id": "6a5286b466b1ffd714743a1f",
     "NUM": "HAI9",
-    "CANT": 0,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4358,7 +4358,7 @@
   {
     "_id": "6a5286b466b1ffd714743a21",
     "NUM": "HAI11",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4376,7 +4376,7 @@
   {
     "_id": "6a5286b466b1ffd714743a23",
     "NUM": "HAI13",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -4385,7 +4385,7 @@
   {
     "_id": "6a5286b466b1ffd714743a24",
     "NUM": "HAI14",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4403,7 +4403,7 @@
   {
     "_id": "6a5286b466b1ffd714743a26",
     "NUM": "HAI16",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4412,7 +4412,7 @@
   {
     "_id": "6a5286b466b1ffd714743a27",
     "NUM": "HAI17",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4421,7 +4421,7 @@
   {
     "_id": "6a5286b466b1ffd714743a28",
     "NUM": "HAI18",
-    "CANT": 0,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4430,7 +4430,7 @@
   {
     "_id": "6a5286b466b1ffd714743a29",
     "NUM": "HAI19",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4475,7 +4475,7 @@
   {
     "_id": "6a5286b466b1ffd714743a2e",
     "NUM": "IRN4",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4511,7 +4511,7 @@
   {
     "_id": "6a5286b466b1ffd714743a32",
     "NUM": "IRN8",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4538,7 +4538,7 @@
   {
     "_id": "6a5286b466b1ffd714743a35",
     "NUM": "IRN11",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4592,7 +4592,7 @@
   {
     "_id": "6a5286b466b1ffd714743a3b",
     "NUM": "IRN17",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4610,7 +4610,7 @@
   {
     "_id": "6a5286b466b1ffd714743a3d",
     "NUM": "IRN19",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4619,7 +4619,7 @@
   {
     "_id": "6a5286b466b1ffd714743a3e",
     "NUM": "IRN20",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4700,7 +4700,7 @@
   {
     "_id": "6a5286b466b1ffd714743a47",
     "NUM": "IRQ9",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4718,7 +4718,7 @@
   {
     "_id": "6a5286b466b1ffd714743a49",
     "NUM": "IRQ11",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4745,7 +4745,7 @@
   {
     "_id": "6a5286b466b1ffd714743a4c",
     "NUM": "IRQ14",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4799,7 +4799,7 @@
   {
     "_id": "6a5286b466b1ffd714743a52",
     "NUM": "IRQ20",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4853,7 +4853,7 @@
   {
     "_id": "6a5286b466b1ffd714743a58",
     "NUM": "JOR6",
-    "CANT": 3,
+    "CANT": 5,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4880,7 +4880,7 @@
   {
     "_id": "6a5286b466b1ffd714743a5b",
     "NUM": "JOR9",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4889,7 +4889,7 @@
   {
     "_id": "6a5286b466b1ffd714743a5c",
     "NUM": "JOR10",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4898,7 +4898,7 @@
   {
     "_id": "6a5286b466b1ffd714743a5d",
     "NUM": "JOR11",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4916,7 +4916,7 @@
   {
     "_id": "6a5286b466b1ffd714743a5f",
     "NUM": "JOR13",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -4961,7 +4961,7 @@
   {
     "_id": "6a5286b466b1ffd714743a64",
     "NUM": "JOR18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -4979,7 +4979,7 @@
   {
     "_id": "6a5286b466b1ffd714743a66",
     "NUM": "JOR20",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5015,7 +5015,7 @@
   {
     "_id": "6a5286b466b1ffd714743a6a",
     "NUM": "JPN4",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5087,7 +5087,7 @@
   {
     "_id": "6a5286b466b1ffd714743a72",
     "NUM": "JPN12",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5096,7 +5096,7 @@
   {
     "_id": "6a5286b466b1ffd714743a73",
     "NUM": "JPN13",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -5123,7 +5123,7 @@
   {
     "_id": "6a5286b466b1ffd714743a76",
     "NUM": "JPN16",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5141,7 +5141,7 @@
   {
     "_id": "6a5286b466b1ffd714743a78",
     "NUM": "JPN18",
-    "CANT": 4,
+    "CANT": 5,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5150,7 +5150,7 @@
   {
     "_id": "6a5286b466b1ffd714743a79",
     "NUM": "JPN19",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5159,7 +5159,7 @@
   {
     "_id": "6a5286b466b1ffd714743a7a",
     "NUM": "JPN20",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5213,7 +5213,7 @@
   {
     "_id": "6a5286b466b1ffd714743a80",
     "NUM": "KOR6",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5249,7 +5249,7 @@
   {
     "_id": "6a5286b466b1ffd714743a84",
     "NUM": "KOR10",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5258,7 +5258,7 @@
   {
     "_id": "6a5286b466b1ffd714743a85",
     "NUM": "KOR11",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5267,7 +5267,7 @@
   {
     "_id": "6a5286b466b1ffd714743a86",
     "NUM": "KOR12",
-    "CANT": 5,
+    "CANT": 6,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5294,7 +5294,7 @@
   {
     "_id": "6a5286b466b1ffd714743a89",
     "NUM": "KOR15",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5303,7 +5303,7 @@
   {
     "_id": "6a5286b466b1ffd714743a8a",
     "NUM": "KOR16",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5330,7 +5330,7 @@
   {
     "_id": "6a5286b466b1ffd714743a8d",
     "NUM": "KOR19",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5348,7 +5348,7 @@
   {
     "_id": "6a5286b466b1ffd714743a8f",
     "NUM": "KSA1",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -5366,7 +5366,7 @@
   {
     "_id": "6a5286b466b1ffd714743a91",
     "NUM": "KSA3",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5384,7 +5384,7 @@
   {
     "_id": "6a5286b466b1ffd714743a93",
     "NUM": "KSA5",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5411,7 +5411,7 @@
   {
     "_id": "6a5286b466b1ffd714743a96",
     "NUM": "KSA8",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5447,7 +5447,7 @@
   {
     "_id": "6a5286b466b1ffd714743a9a",
     "NUM": "KSA12",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5483,7 +5483,7 @@
   {
     "_id": "6a5286b466b1ffd714743a9e",
     "NUM": "KSA16",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5501,7 +5501,7 @@
   {
     "_id": "6a5286b466b1ffd714743aa0",
     "NUM": "KSA18",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5546,7 +5546,7 @@
   {
     "_id": "6a5286b466b1ffd714743aa5",
     "NUM": "MAR3",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5582,7 +5582,7 @@
   {
     "_id": "6a5286b466b1ffd714743aa9",
     "NUM": "MAR7",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5591,7 +5591,7 @@
   {
     "_id": "6a5286b466b1ffd714743aaa",
     "NUM": "MAR8",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5609,7 +5609,7 @@
   {
     "_id": "6a5286b466b1ffd714743aac",
     "NUM": "MAR10",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5618,7 +5618,7 @@
   {
     "_id": "6a5286b466b1ffd714743aad",
     "NUM": "MAR11",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5654,7 +5654,7 @@
   {
     "_id": "6a5286b466b1ffd714743ab1",
     "NUM": "MAR15",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5699,7 +5699,7 @@
   {
     "_id": "6a5286b466b1ffd714743ab6",
     "NUM": "MAR20",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5708,7 +5708,7 @@
   {
     "_id": "6a5286b466b1ffd714743ab7",
     "NUM": "MEX1",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -5762,7 +5762,7 @@
   {
     "_id": "6a5286b466b1ffd714743abd",
     "NUM": "MEX7",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5807,7 +5807,7 @@
   {
     "_id": "6a5286b466b1ffd714743ac2",
     "NUM": "MEX12",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5816,7 +5816,7 @@
   {
     "_id": "6a5286b466b1ffd714743ac3",
     "NUM": "MEX13",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -5834,7 +5834,7 @@
   {
     "_id": "6a5286b466b1ffd714743ac5",
     "NUM": "MEX15",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5843,7 +5843,7 @@
   {
     "_id": "6a5286b466b1ffd714743ac6",
     "NUM": "MEX16",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5960,7 +5960,7 @@
   {
     "_id": "6a5286b466b1ffd714743ad3",
     "NUM": "NED9",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -5996,7 +5996,7 @@
   {
     "_id": "6a5286b466b1ffd714743ad7",
     "NUM": "NED13",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -6041,7 +6041,7 @@
   {
     "_id": "6a5286b466b1ffd714743adc",
     "NUM": "NED18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6086,7 +6086,7 @@
   {
     "_id": "6a5286b466b1ffd714743ae1",
     "NUM": "NOR3",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6095,7 +6095,7 @@
   {
     "_id": "6a5286b466b1ffd714743ae2",
     "NUM": "NOR4",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6104,7 +6104,7 @@
   {
     "_id": "6a5286b466b1ffd714743ae3",
     "NUM": "NOR5",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6131,7 +6131,7 @@
   {
     "_id": "6a5286b466b1ffd714743ae6",
     "NUM": "NOR8",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6149,7 +6149,7 @@
   {
     "_id": "6a5286b466b1ffd714743ae8",
     "NUM": "NOR10",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6167,7 +6167,7 @@
   {
     "_id": "6a5286b466b1ffd714743aea",
     "NUM": "NOR12",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6176,7 +6176,7 @@
   {
     "_id": "6a5286b466b1ffd714743aeb",
     "NUM": "NOR13",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -6185,7 +6185,7 @@
   {
     "_id": "6a5286b466b1ffd714743aec",
     "NUM": "NOR14",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6203,7 +6203,7 @@
   {
     "_id": "6a5286b466b1ffd714743aee",
     "NUM": "NOR16",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6212,7 +6212,7 @@
   {
     "_id": "6a5286b466b1ffd714743aef",
     "NUM": "NOR17",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6239,7 +6239,7 @@
   {
     "_id": "6a5286b466b1ffd714743af2",
     "NUM": "NOR20",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6284,7 +6284,7 @@
   {
     "_id": "6a5286b466b1ffd714743af7",
     "NUM": "NZL5",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6320,7 +6320,7 @@
   {
     "_id": "6a5286b466b1ffd714743afb",
     "NUM": "NZL9",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6329,7 +6329,7 @@
   {
     "_id": "6a5286b466b1ffd714743afc",
     "NUM": "NZL10",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6338,7 +6338,7 @@
   {
     "_id": "6a5286b466b1ffd714743afd",
     "NUM": "NZL11",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6347,7 +6347,7 @@
   {
     "_id": "6a5286b466b1ffd714743afe",
     "NUM": "NZL12",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6374,7 +6374,7 @@
   {
     "_id": "6a5286b466b1ffd714743b01",
     "NUM": "NZL15",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6383,7 +6383,7 @@
   {
     "_id": "6a5286b466b1ffd714743b02",
     "NUM": "NZL16",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6401,7 +6401,7 @@
   {
     "_id": "6a5286b466b1ffd714743b04",
     "NUM": "NZL18",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6446,7 +6446,7 @@
   {
     "_id": "6a5286b466b1ffd714743b09",
     "NUM": "PAN3",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6455,7 +6455,7 @@
   {
     "_id": "6a5286b466b1ffd714743b0a",
     "NUM": "PAN4",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6500,7 +6500,7 @@
   {
     "_id": "6a5286b466b1ffd714743b0f",
     "NUM": "PAN9",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6536,7 +6536,7 @@
   {
     "_id": "6a5286b466b1ffd714743b13",
     "NUM": "PAN13",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -6545,7 +6545,7 @@
   {
     "_id": "6a5286b466b1ffd714743b14",
     "NUM": "PAN14",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6581,7 +6581,7 @@
   {
     "_id": "6a5286b466b1ffd714743b18",
     "NUM": "PAN18",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6626,7 +6626,7 @@
   {
     "_id": "6a5286b466b1ffd714743b1d",
     "NUM": "PAR3",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6662,7 +6662,7 @@
   {
     "_id": "6a5286b466b1ffd714743b21",
     "NUM": "PAR7",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6671,7 +6671,7 @@
   {
     "_id": "6a5286b466b1ffd714743b22",
     "NUM": "PAR8",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6680,7 +6680,7 @@
   {
     "_id": "6a5286b466b1ffd714743b23",
     "NUM": "PAR9",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6743,7 +6743,7 @@
   {
     "_id": "6a5286b466b1ffd714743b2a",
     "NUM": "PAR16",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6761,7 +6761,7 @@
   {
     "_id": "6a5286b466b1ffd714743b2c",
     "NUM": "PAR18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6788,7 +6788,7 @@
   {
     "_id": "6a5286b466b1ffd714743b2f",
     "NUM": "POR1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -6878,7 +6878,7 @@
   {
     "_id": "6a5286b466b1ffd714743b39",
     "NUM": "POR11",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6959,7 +6959,7 @@
   {
     "_id": "6a5286b466b1ffd714743b42",
     "NUM": "POR20",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -6968,7 +6968,7 @@
   {
     "_id": "6a5286b466b1ffd714743b43",
     "NUM": "QAT1",
-    "CANT": 0,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -7031,7 +7031,7 @@
   {
     "_id": "6a5286b466b1ffd714743b4a",
     "NUM": "QAT8",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7040,7 +7040,7 @@
   {
     "_id": "6a5286b466b1ffd714743b4b",
     "NUM": "QAT9",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7058,7 +7058,7 @@
   {
     "_id": "6a5286b466b1ffd714743b4d",
     "NUM": "QAT11",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7067,7 +7067,7 @@
   {
     "_id": "6a5286b466b1ffd714743b4e",
     "NUM": "QAT12",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7076,7 +7076,7 @@
   {
     "_id": "6a5286b466b1ffd714743b4f",
     "NUM": "QAT13",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -7085,7 +7085,7 @@
   {
     "_id": "6a5286b466b1ffd714743b50",
     "NUM": "QAT14",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7094,7 +7094,7 @@
   {
     "_id": "6a5286b466b1ffd714743b51",
     "NUM": "QAT15",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7103,7 +7103,7 @@
   {
     "_id": "6a5286b466b1ffd714743b52",
     "NUM": "QAT16",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7121,7 +7121,7 @@
   {
     "_id": "6a5286b466b1ffd714743b54",
     "NUM": "QAT18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7130,7 +7130,7 @@
   {
     "_id": "6a5286b466b1ffd714743b55",
     "NUM": "QAT19",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7139,7 +7139,7 @@
   {
     "_id": "6a5286b466b1ffd714743b56",
     "NUM": "QAT20",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7148,7 +7148,7 @@
   {
     "_id": "6a5286b466b1ffd714743b57",
     "NUM": "RSA1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -7184,7 +7184,7 @@
   {
     "_id": "6a5286b466b1ffd714743b5b",
     "NUM": "RSA5",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7193,7 +7193,7 @@
   {
     "_id": "6a5286b466b1ffd714743b5c",
     "NUM": "RSA6",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7220,7 +7220,7 @@
   {
     "_id": "6a5286b466b1ffd714743b5f",
     "NUM": "RSA9",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7247,7 +7247,7 @@
   {
     "_id": "6a5286b466b1ffd714743b62",
     "NUM": "RSA12",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7256,7 +7256,7 @@
   {
     "_id": "6a5286b466b1ffd714743b63",
     "NUM": "RSA13",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -7283,7 +7283,7 @@
   {
     "_id": "6a5286b466b1ffd714743b66",
     "NUM": "RSA16",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7292,7 +7292,7 @@
   {
     "_id": "6a5286b466b1ffd714743b67",
     "NUM": "RSA17",
-    "CANT": 0,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7301,7 +7301,7 @@
   {
     "_id": "6a5286b466b1ffd714743b68",
     "NUM": "RSA18",
-    "CANT": 2,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7319,7 +7319,7 @@
   {
     "_id": "6a5286b466b1ffd714743b6a",
     "NUM": "RSA20",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7337,7 +7337,7 @@
   {
     "_id": "6a5286b466b1ffd714743b6c",
     "NUM": "SCO2",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7346,7 +7346,7 @@
   {
     "_id": "6a5286b466b1ffd714743b6d",
     "NUM": "SCO3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7382,7 +7382,7 @@
   {
     "_id": "6a5286b466b1ffd714743b71",
     "NUM": "SCO7",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7400,7 +7400,7 @@
   {
     "_id": "6a5286b466b1ffd714743b73",
     "NUM": "SCO9",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7445,7 +7445,7 @@
   {
     "_id": "6a5286b466b1ffd714743b78",
     "NUM": "SCO14",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7463,7 +7463,7 @@
   {
     "_id": "6a5286b466b1ffd714743b7a",
     "NUM": "SCO16",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7472,7 +7472,7 @@
   {
     "_id": "6a5286b466b1ffd714743b7b",
     "NUM": "SCO17",
-    "CANT": 1,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7481,7 +7481,7 @@
   {
     "_id": "6a5286b466b1ffd714743b7c",
     "NUM": "SCO18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7589,7 +7589,7 @@
   {
     "_id": "6a5286b466b1ffd714743b88",
     "NUM": "SEN10",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7643,7 +7643,7 @@
   {
     "_id": "6a5286b466b1ffd714743b8e",
     "NUM": "SEN16",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7688,7 +7688,7 @@
   {
     "_id": "6a5286b466b1ffd714743b93",
     "NUM": "SUI1",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -7706,7 +7706,7 @@
   {
     "_id": "6a5286b466b1ffd714743b95",
     "NUM": "SUI3",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7778,7 +7778,7 @@
   {
     "_id": "6a5286b466b1ffd714743b9d",
     "NUM": "SUI11",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7823,7 +7823,7 @@
   {
     "_id": "6a5286b466b1ffd714743ba2",
     "NUM": "SUI16",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7859,7 +7859,7 @@
   {
     "_id": "6a5286b466b1ffd714743ba6",
     "NUM": "SUI20",
-    "CANT": 5,
+    "CANT": 6,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7877,7 +7877,7 @@
   {
     "_id": "6a5286b466b1ffd714743ba8",
     "NUM": "SWE2",
-    "CANT": 4,
+    "CANT": 5,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7886,7 +7886,7 @@
   {
     "_id": "6a5286b466b1ffd714743ba9",
     "NUM": "SWE3",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7895,7 +7895,7 @@
   {
     "_id": "6a5286b466b1ffd714743baa",
     "NUM": "SWE4",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7940,7 +7940,7 @@
   {
     "_id": "6a5286b466b1ffd714743baf",
     "NUM": "SWE9",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -7976,7 +7976,7 @@
   {
     "_id": "6a5286b466b1ffd714743bb3",
     "NUM": "SWE13",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "EQUIPO",
     "NOMBRE": "",
@@ -7985,7 +7985,7 @@
   {
     "_id": "6a5286b466b1ffd714743bb4",
     "NUM": "SWE14",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8030,7 +8030,7 @@
   {
     "_id": "6a5286b466b1ffd714743bb9",
     "NUM": "SWE19",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8048,7 +8048,7 @@
   {
     "_id": "6a5286b466b1ffd714743bbb",
     "NUM": "TUN1",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -8066,7 +8066,7 @@
   {
     "_id": "6a5286b466b1ffd714743bbd",
     "NUM": "TUN3",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8084,7 +8084,7 @@
   {
     "_id": "6a5286b466b1ffd714743bbf",
     "NUM": "TUN5",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8093,7 +8093,7 @@
   {
     "_id": "6a5286b466b1ffd714743bc0",
     "NUM": "TUN6",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8120,7 +8120,7 @@
   {
     "_id": "6a5286b466b1ffd714743bc3",
     "NUM": "TUN9",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8174,7 +8174,7 @@
   {
     "_id": "6a5286b466b1ffd714743bc9",
     "NUM": "TUN15",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8183,7 +8183,7 @@
   {
     "_id": "6a5286b466b1ffd714743bca",
     "NUM": "TUN16",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8192,7 +8192,7 @@
   {
     "_id": "6a5286b466b1ffd714743bcb",
     "NUM": "TUN17",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8237,7 +8237,7 @@
   {
     "_id": "6a5286b466b1ffd714743bd0",
     "NUM": "TUR2",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8300,7 +8300,7 @@
   {
     "_id": "6a5286b466b1ffd714743bd7",
     "NUM": "TUR9",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8354,7 +8354,7 @@
   {
     "_id": "6a5286b466b1ffd714743bdd",
     "NUM": "TUR15",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8390,7 +8390,7 @@
   {
     "_id": "6a5286b466b1ffd714743be1",
     "NUM": "TUR19",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8408,7 +8408,7 @@
   {
     "_id": "6a5286b466b1ffd714743be3",
     "NUM": "URU1",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -8480,7 +8480,7 @@
   {
     "_id": "6a5286b466b1ffd714743beb",
     "NUM": "URU9",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8489,7 +8489,7 @@
   {
     "_id": "6a5286b466b1ffd714743bec",
     "NUM": "URU10",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8525,7 +8525,7 @@
   {
     "_id": "6a5286b466b1ffd714743bf0",
     "NUM": "URU14",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8561,7 +8561,7 @@
   {
     "_id": "6a5286b466b1ffd714743bf4",
     "NUM": "URU18",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8570,7 +8570,7 @@
   {
     "_id": "6a5286b466b1ffd714743bf5",
     "NUM": "URU19",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8588,7 +8588,7 @@
   {
     "_id": "6a5286b466b1ffd714743bf7",
     "NUM": "USA1",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "ESCUDO",
     "NOMBRE": "",
@@ -8651,7 +8651,7 @@
   {
     "_id": "6a5286b466b1ffd714743bfe",
     "NUM": "USA8",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8678,7 +8678,7 @@
   {
     "_id": "6a5286b466b1ffd714743c01",
     "NUM": "USA11",
-    "CANT": 1,
+    "CANT": 2,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8741,7 +8741,7 @@
   {
     "_id": "6a5286b466b1ffd714743c08",
     "NUM": "USA18",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8804,7 +8804,7 @@
   {
     "_id": "6a5286b466b1ffd714743c0f",
     "NUM": "UZB5",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8822,7 +8822,7 @@
   {
     "_id": "6a5286b466b1ffd714743c11",
     "NUM": "UZB7",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8858,7 +8858,7 @@
   {
     "_id": "6a5286b466b1ffd714743c15",
     "NUM": "UZB11",
-    "CANT": 2,
+    "CANT": 3,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8885,7 +8885,7 @@
   {
     "_id": "6a5286b466b1ffd714743c18",
     "NUM": "UZB14",
-    "CANT": 0,
+    "CANT": 1,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",
@@ -8894,7 +8894,7 @@
   {
     "_id": "6a5286b466b1ffd714743c19",
     "NUM": "UZB15",
-    "CANT": 3,
+    "CANT": 4,
     "PRECIO": 0,
     "TIPO": "COMUNES",
     "NOMBRE": "",

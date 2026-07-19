@@ -4,6 +4,8 @@ const esquema_figu = new mongoose.Schema({
     NUM: String,
     TIPO: String,
     NOMBRE: String,
+    CANT: Number,
+    PRECIO: Number,
     STOCK: {
         MATI: {
             CANT: Number,

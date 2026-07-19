@@ -18,7 +18,7 @@ const botonMundialUsaBuscar = document.getElementById("botonMundialUsaBuscar")
 botonMundialUsaBuscar?.addEventListener('click', async () => {
     try {
         const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
-        buscarFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026");
+        buscarFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026","ONLINE");
     } catch (error) {
         console.error(error);
     }
@@ -27,13 +27,13 @@ botonMundialUsaBuscar?.addEventListener('click', async () => {
 const botonMundialQatarBuscar = document.getElementById("botonMundialQatarBuscar")
 botonMundialQatarBuscar?.addEventListener('click', async () => {
     const figusMundialQatar = await obtenerFiguritas("mundialQatar2022");
-    buscarFigus("baseMundial", figusMundialQatar, "mundialQatar2022");
+    buscarFigus("baseMundial", figusMundialQatar, "mundialQatar2022","ONLINE");
 })
 
 const botonCopaAmericaBuscar = document.getElementById("botonCopaAmericaBuscar")
 botonCopaAmericaBuscar?.addEventListener('click', async () => {
     const figusCopaAmerica = await obtenerFiguritas("copaAmerica2024");
-    buscarFigus("base_copam", figusCopaAmerica, "copaAmerica2024");
+    buscarFigus("base_copam", figusCopaAmerica, "copaAmerica2024","ONLINE");
 })
 
 const botonMundialUsaCosecha = document.getElementById("botonMundialUsaCosecha")

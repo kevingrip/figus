@@ -66,10 +66,41 @@ app.get("/:album", async (req, res) => {
     }
 });
 
-
-app.patch("/:album/:accion/:id", async (req, res) => {
+app.get("/proveedores/:album", async (req, res) => {
     try {
-        const { album, accion, id } = req.params;
+        const modelo = obtenerModeloFiguritas(req.params.album);
+        const album = req.params.album
+
+        const albumes = [
+            "mundialUsa2026",
+            "mundialQatar2022",
+            "futbolArgentino2023",
+            "futbolArgentino2024",
+            "libertadores2023",
+            "copaAmerica2024"
+        ]        
+
+        if (albumes.includes(album)) {
+
+            const figuritas = await modelo.findOne().lean();
+            const cantProveedores = Object.keys(figuritas.STOCK);  
+            
+            res.json(cantProveedores);
+        }else{
+            console.log("Error de album pasado por parametro en GET /proveedores/:album")
+        }
+
+
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+});
+
+
+app.patch("/:album/:accion/:proveedor/:id", async (req, res) => {
+    try {
+        const { album, accion,proveedor, id } = req.params;
 
         const albumes = [
             "mundialUsa2026",
@@ -83,11 +114,19 @@ app.patch("/:album/:accion/:id", async (req, res) => {
         if (albumes.includes(album)) {
             const modelo = obtenerModeloFiguritas(album);
 
+            const cantProveedor = `STOCK.${proveedor}.CANT`;
+            const q_historial = `STOCK.${proveedor}.Q_HIST`;
+
             const incremento = accion === "incrementar" ? 1 : -1;
 
             const figuActualizada = await modelo.findByIdAndUpdate(
                 id,
-                { $inc: { CANT: incremento } },
+                { $inc: 
+                    {
+                        [cantProveedor]: incremento,
+                        [q_historial]: incremento
+                    }
+                },
                 {
                     new: true
                 }

@@ -27,7 +27,6 @@ function crearBotonContenedor(figu) {
     textoSuperior.style.fontWeight = "bold";
 
     const textoInferior = document.createElement("div");
-    textoInferior.textContent = `Cant: ${figu.CANT}`;
     textoInferior.style.fontSize = "11px";
 
     informacion.appendChild(textoSuperior);
@@ -38,17 +37,17 @@ function crearBotonContenedor(figu) {
     botonMas.style.height = "30px";
     botonMas.style.width = "60px";
 
-    contenedor.style.margin="3px"
+    contenedor.style.margin = "3px"
 
     contenedor.appendChild(botonMas);
     contenedor.appendChild(informacion);
     contenedor.appendChild(botonMenos);
-    
+
     return {
-    contenedor,
-    botonMas,
-    botonMenos,
-    textoInferior
+        contenedor,
+        botonMas,
+        botonMenos,
+        textoInferior
     }
 }
 
@@ -65,112 +64,178 @@ function ajustarAnchoPantalla(button, album) {
         } else {
             button.style.width = "14vw";
         }
-    // } else {
-    //     if (window.innerWidth > 768) {
-    //         button.style.width = "6vw";
-    //     } else {
-    //         button.style.width = "14vw";
-    //     }
+        // } else {
+        //     if (window.innerWidth > 768) {
+        //         button.style.width = "6vw";
+        //     } else {
+        //         button.style.width = "14vw";
+        //     }
     }
 
 }
 
-function cantidadBotonesAnchoAlbum(album, figu, boton) {
+function cantidadBotonesAnchoAlbum(album, figu, contenedorFigu, resultados) {
     if (album == 'copaAmerica2024') {
         if (figu.NUM.substring(3, 5) == "22") {
-            resultados.appendChild(boton)
+            resultados.appendChild(contenedorFigu)
             resultados.appendChild(document.createElement('br'))
             resultados.appendChild(document.createElement('br'))
         } else {
-            resultados.appendChild(boton)
+            resultados.appendChild(contenedorFigu)
         }
     } else if (album == 'mundialQatar2022') {
-        if (figu.NUM.substring(3, 5) == "19" || figu.NUM=="C8" || figu.NUM=="FWC29") {
-            resultados.appendChild(boton)
+        if (figu.NUM.substring(3, 5) == "19" || figu.NUM == "C8" || figu.NUM == "FWC29") {
+            resultados.appendChild(contenedorFigu)
             resultados.appendChild(document.createElement('br'))
             resultados.appendChild(document.createElement('br'))
         } else {
-            resultados.appendChild(boton)
+            resultados.appendChild(contenedorFigu)
         }
     } else if (album == 'mundialUsa2026') {
         if (figu.NUM == "CC14" || figu.NUM.substring(3, 5) == "20") {
-            resultados.appendChild(boton)
+            resultados.appendChild(contenedorFigu)
             resultados.appendChild(document.createElement('br'))
             resultados.appendChild(document.createElement('br'))
         }
         else {
-            resultados.appendChild(boton)
+            resultados.appendChild(contenedorFigu)
         }
     } else {
         if (figu.NUM.substring(3, 5) == "19") {
-            resultados.appendChild(boton)
+            resultados.appendChild(contenedorFigu)
             resultados.appendChild(document.createElement('br'))
             resultados.appendChild(document.createElement('br'))
         } else {
-            resultados.appendChild(boton)
+            resultados.appendChild(contenedorFigu)
         }
     }
 }
 
-function datosBloques(figu, informacion,textoInferior, esClick) {
-    textoInferior.textContent = `Cant: ${figu.CANT}`;
+function datosBloques(figu, informacion, textoInferior, esClick) {
+    let cantTotal = figu.STOCK.MATI.CANT + figu.STOCK.PDM.CANT + figu.STOCK.CAMBIOS.CANT + figu.STOCK.OTROS.CANT
+    textoInferior.textContent = `Cant: ${cantTotal}`;
     if (figu.TIPO == "COMUNES") {
 
-        if (figu.CANT == 0) {
+        if (cantTotal == 0) {
             informacion.style.backgroundColor = '#FF4747'
-        } else if (figu.CANT == 1) {
-            informacion.style.backgroundColor = 'orange'
-        } else if (figu.CANT > 9) {
+        } else if (cantTotal > 9) {
             informacion.style.backgroundColor = 'lightgreen'
         } else if (esClick) {
             informacion.style.backgroundColor = 'yellow'
+        } else if (cantTotal == 1) {
+            informacion.style.backgroundColor = 'orange'
         }
     }
     else {
-        if (figu.CANT == 0) {
+        if (cantTotal == 0) {
             informacion.style.backgroundColor = '#FF4747'
-        } else if (figu.CANT == 1) {
-            informacion.style.backgroundColor = 'orange'
-        } else if (figu.CANT > 4) {
+        } else if (cantTotal > 4) {
             informacion.style.backgroundColor = 'lightgreen'
         } else if (esClick) {
             informacion.style.backgroundColor = 'yellow'
+        } else if (cantTotal == 1) {
+            informacion.style.backgroundColor = 'orange'
         }
+
     }
 }
 
 
-export const cosecharFigus = (tipo, figuritas,albumRuta) => {    
+async function crearProovedores(resultados, albumRuta, mostrarCantidades) {
+    const respuesta = await fetch(`${api}/proveedores/${albumRuta}`, {
+        method: "GET"
+    });
+    const listaProveedores = await respuesta.json();
+    console.log("Lista de proveedores: ", listaProveedores)
+
+    const selectorProveedor = document.createElement("div")
+    const tituloProveedor = document.createElement("b")
+    tituloProveedor.textContent = "Elegir Proveedor:"
+    tituloProveedor.style.display = "flex"
+    tituloProveedor.style.justifyContent = "center"
+
+    const proveedores = document.createElement("div")
+    const botonesProveedores = []
+    listaProveedores.forEach(proveedor => {
+        const botonProveedor = document.createElement("button")
+        botonProveedor.textContent = proveedor
+        botonesProveedores.push(botonProveedor)
+        proveedores.appendChild(botonProveedor)
+    })
+
+    resultados.appendChild(tituloProveedor)
+    resultados.appendChild(selectorProveedor)
+
+    selectorProveedor.style.display = "flex"
+    selectorProveedor.style.justifyContent = "center"
+    selectorProveedor.style.marginTop = "20px"
+    selectorProveedor.style.marginBottom = "50px"
+
+    selectorProveedor.appendChild(proveedores)
+
+    let proveedor = ''
+    botonesProveedores.forEach(botonProveedor => {
+        botonProveedor.addEventListener("click", () => {
+            botonesProveedores.forEach(boton => {
+                boton.style.backgroundColor = ""
+            })
+        })
+
+        botonProveedor.addEventListener('click', () => {
+            botonProveedor.style.backgroundColor = "lightblue"
+            proveedor = botonProveedor.textContent
+            mostrarCantidades()
+        })
+    })
+
+    return {
+        getProveedor: () => proveedor
+    };
+
+}
+
+
+export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
+
+    const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 2500,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+            toast.addEventListener('mouseenter', Swal.stopTimer)
+            toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+    })
 
     const resultados = document.getElementById('resultados');
     resultados.innerHTML = ''
-    let figusSeleccionadas = ""
 
-    const divDescargar = document.createElement('div')
-    divDescargar.style.display = 'flex'
-    divDescargar.style.justifyContent = 'center'
-    divDescargar.style.margin = '20px'
+    const { getProveedor } = await crearProovedores(resultados, albumRuta, mostrarCantidades, figuritas)
 
-    const buttonDescargarBase = document.createElement('button')
-    buttonDescargarBase.style.backgroundColor = 'skyblue'
-    buttonDescargarBase.innerHTML = 'Descargar Base'
+    const bloqueCantidades = document.createElement("div")
+    const textoCantHist = document.createElement("p")
+    const textoCantActual = document.createElement("p")
+    const textoPrecioCompra = document.createElement("p")
+    bloqueCantidades.append(textoCantHist, textoCantActual, textoPrecioCompra)
+    resultados.appendChild(bloqueCantidades)
 
-    resultados.appendChild(buttonDescargarBase)
-    divDescargar.appendChild(buttonDescargarBase)
+    function mostrarCantidades() {
+        const proveedor = getProveedor();
+        let cant_Q_Hist = 0
+        let cant_Q_Actual = 0
+        figuritas.forEach(element => {
+            cant_Q_Hist += element.STOCK[proveedor].Q_HIST
+            cant_Q_Actual += element.STOCK[proveedor].CANT
+        });
 
-    const Toast = Swal.mixin({
-    toast: true,
-    position: 'top-end',
-    showConfirmButton: false,
-    timer: 2500,
-    timerProgressBar: true,
-    didOpen: (toast) => {
-        toast.addEventListener('mouseenter', Swal.stopTimer)
-        toast.addEventListener('mouseleave', Swal.resumeTimer)
+        textoCantHist.textContent = `Cant Compradas a proveedor: ${cant_Q_Hist}`
+        textoCantActual.textContent = `Cant Stock Real: ${cant_Q_Actual}`
+        textoPrecioCompra.textContent = `Monto Invertido ($250): $${cant_Q_Hist * 250}`
     }
-    })
 
-    //cartel succesfull
+    let figusSeleccionadas = ""
 
 
     figuritas.sort((a, b) => {
@@ -197,96 +262,152 @@ export const cosecharFigus = (tipo, figuritas,albumRuta) => {
 
     figuritas.forEach(figu => {
 
-        const {contenedor,botonMas,botonMenos,textoInferior}= crearBotonContenedor(figu)
-        //resultados.appendChild(contenedor)
-
+        const { contenedor, botonMas, botonMenos, textoInferior } = crearBotonContenedor(figu)
 
         ajustarAltura(contenedor);
         ajustarAnchoPantalla(contenedor, albumRuta)
-        datosBloques(figu, contenedor,textoInferior, false)
+        datosBloques(figu, contenedor, textoInferior, false)
 
-        cantidadBotonesAnchoAlbum(albumRuta, figu, contenedor)
+        cantidadBotonesAnchoAlbum(albumRuta, figu, contenedor, resultados)
 
 
         botonMas.addEventListener('click', async () => {
 
-            //ACTUALIZAR CON MONGO
-            const respuesta = await fetch(`${api}/${albumRuta}/incrementar/${figu._id}`, {
-                method: "PATCH"
-            });
+            try {
+                const proveedor = getProveedor();
 
-            const figuActualizada = await respuesta.json();
-
-            // actualizar el objeto del frontend
-            figu.CANT = figuActualizada.CANT;
-
-            agregarFigu()
-
-            Toast.fire({
-                icon: 'success',
-                title: `${figu.NUM} agregada correctamente. CANT:${figu.CANT}`
-            })
-
-
-            datosBloques(figu, contenedor,textoInferior, true)
-
-            figusSeleccionadas = figu.NUM
-            const filteredFigus = figuritas.filter(figu => figusSeleccionadas == (figu.NUM));
-            //console.log(filteredFigus)
-
-            filteredFigus.forEach(figu => {
-                const li = document.createElement('li');
-                li.classList.add('listaClass')
-                if (figu.CANT == 0) {
-                    li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length == 1 ? `${figu.CANT}` + '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length == 3 ? figu.PRECIO + '&nbsp;' : figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
-                    li.style.color = 'red'
-                } else {
-                    li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length == 1 ? `${figu.CANT}` + '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length == 3 ? figu.PRECIO + '&nbsp;' : figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
+                if (!proveedor) {
+                    Toast.fire({
+                        icon: 'error',
+                        title: `Debe seleccionar un proveedor`
+                    })
                 }
-                resultados.appendChild(li);
-            });
+
+                //ACTUALIZAR CON MONGO
+                const respuesta = await fetch(`${api}/${albumRuta}/incrementar/${proveedor}/${figu._id}`, {
+                    method: "PATCH"
+                });
+
+                const figuActualizada = await respuesta.json();
+
+                // actualizar el objeto del frontend
+                figu.STOCK[proveedor].CANT = figuActualizada.STOCK[proveedor].CANT;
+                figu.STOCK[proveedor].Q_HIST = figuActualizada.STOCK[proveedor].Q_HIST;
+
+                let figuCantActualizada = figuActualizada.STOCK[proveedor].CANT;
+
+                mostrarCantidades()
+
+                agregarFigu()
+
+                Toast.fire({
+                    icon: 'success',
+                    title: "Agregada Correctamente",
+                    html: `
+                            Figurita: ${figu.NUM}<br>
+                            Proveedor: ${proveedor}<br>
+                            Cantidad: ${figuCantActualizada}
+                        `
+                })
+
+
+                datosBloques(figuActualizada, contenedor, textoInferior, true)
+
+                figusSeleccionadas = figu.NUM
+                const filteredFigus = figuritas.filter(figu => figusSeleccionadas == (figu.NUM));
+                //console.log(filteredFigus)
+
+                filteredFigus.forEach(figu => {
+                    const li = document.createElement('li');
+                    li.classList.add('listaClass')
+                    li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figuCantActualizada} \u00A0\u00A0\u00A0  $ ${figuActualizada.STOCK[proveedor].PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
+
+                    resultados.appendChild(li);
+                });
+
+            } catch (error) {
+                console.error(`error en: `, error)
+            }
 
         })
+
+
         botonMenos.addEventListener('click', async () => {
+            const proveedor = getProveedor();
+            if (!proveedor) {
+                Toast.fire({
+                    icon: 'error',
+                    title: `Debe seleccionar un proveedor`
+                })
+            }
+            if (figu.STOCK[proveedor].CANT > 0) {
+                try {
+                    //ACTUALIZAR CON MONGO
+                    const respuesta = await fetch(`${api}/${albumRuta}/decrementar/${proveedor}/${figu._id}`, {
+                        method: "PATCH"
+                    });
 
-            //ACTUALIZAR CON MONGO
-            const respuesta = await fetch(`${api}/${albumRuta}/decrementar/${figu._id}`, {
-                method: "PATCH"
-            });
+                    const figuActualizada = await respuesta.json();
 
-            const figuActualizada = await respuesta.json();
+                    // actualizar el objeto del frontend
+                    figu.STOCK[proveedor].CANT = figuActualizada.STOCK[proveedor].CANT;
+                    figu.STOCK[proveedor].Q_HIST = figuActualizada.STOCK[proveedor].Q_HIST;
 
-            // actualizar el objeto del frontend
-            figu.CANT = figuActualizada.CANT;
+                    let figuCantActualizada = figuActualizada.STOCK[proveedor].CANT;
 
-            //agregarFigu()
+                    mostrarCantidades()
 
-            Toast.fire({
-                icon: 'success',
-                title: `${figu.NUM} descontada correctamente. CANT:${figu.CANT}`
-            })
+                    agregarFigu()
+
+                    Toast.fire({
+                        icon: 'warning',
+                        title: "Descontada Correctamente",
+                        html: `
+                                Figurita: ${figu.NUM}<br>
+                                Proveedor: ${proveedor}<br>
+                                Cantidad: ${figuCantActualizada}
+                            `
+                    })
 
 
-            datosBloques(figu, contenedor,textoInferior, true)
+                    datosBloques(figuActualizada, contenedor, textoInferior, true)
 
-            figusSeleccionadas = figu.NUM
-            const filteredFigus = figuritas.filter(figu => figusSeleccionadas == (figu.NUM));
+                    figusSeleccionadas = figu.NUM
+                    const filteredFigus = figuritas.filter(figu => figusSeleccionadas == (figu.NUM));
+                    //console.log(filteredFigus)
 
-            // filteredFigus.forEach(figu => {
-            //     const li = document.createElement('li');
-            //     li.classList.add('listaClass')
-            //     if (figu.CANT == 0) {
-            //         li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length == 1 ? `${figu.CANT}` + '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length == 3 ? figu.PRECIO + '&nbsp;' : figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
-            //         li.style.color = 'red'
-            //     } else {
-            //         li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figu.CANT.toString().length == 1 ? `${figu.CANT}` + '&nbsp;' : figu.CANT} \u00A0\u00A0\u00A0  $ ${figu.PRECIO.toString().length == 3 ? figu.PRECIO + '&nbsp;' : figu.PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
-            //     }
-            //     resultados.appendChild(li);
-            // });
+                    filteredFigus.forEach(figu => {
+                        const li = document.createElement('li');
+                        li.classList.add('listaClass')
+                        li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${figuCantActualizada} \u00A0\u00A0\u00A0  $ ${figuActualizada.STOCK[proveedor].PRECIO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
+
+                        resultados.appendChild(li);
+                    });
+
+                } catch (error) {
+                    console.error(`error en: `, error)
+                }
+            } else {
+                Toast.fire({
+                    icon: 'error',
+                    title: `La cantidad del proveedor ${proveedor} debe ser mayor a 0`
+                })
+            }
 
         })
     })
 
+    const divDescargar = document.createElement('div')
+    divDescargar.style.display = 'flex'
+    divDescargar.style.justifyContent = 'center'
+    divDescargar.style.margin = '20px'
+
+    const buttonDescargarBase = document.createElement('button')
+    buttonDescargarBase.style.backgroundColor = 'skyblue'
+    buttonDescargarBase.innerHTML = 'Descargar Base'
+
+    resultados.appendChild(buttonDescargarBase)
+    divDescargar.appendChild(buttonDescargarBase)
 
     resultados.appendChild(divDescargar)
 
@@ -313,6 +434,5 @@ export const cosecharFigus = (tipo, figuritas,albumRuta) => {
         URL.revokeObjectURL(enlace.href);
     }
     )
-
 
 };
