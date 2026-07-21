@@ -407,6 +407,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
         const textoRespuesta = preciosRespuesta(figusEnStock, figusSinStock, costoEnvioGratis, totalPrecio, figuListObj, canalPregunta)
         mensaje.textContent = textoRespuesta
+        navigator.clipboard.writeText(mensaje.textContent)  // Usa .textContent para acceder al texto
 
         buttonPregunta.addEventListener('click', () => {
             buttonPregunta.style.backgroundColor = 'lightgreen'
@@ -786,10 +787,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                     }
                 }
             }
-        })
-
-
-        //navigator.clipboard.writeText(mensaje.textContent)  // Usa .textContent para acceder al texto
+        })        
 
     } else {
         const errorEscritura = document.createElement('p');
