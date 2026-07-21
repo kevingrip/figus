@@ -14,11 +14,21 @@ botones.forEach(boton => {
     });
 });
 
-const botonMundialUsaBuscar = document.getElementById("botonMundialUsaBuscar")
-botonMundialUsaBuscar?.addEventListener('click', async () => {
+const botonMundialUsaBuscarOnline = document.getElementById("botonMundialUsaBuscarOnline")
+botonMundialUsaBuscarOnline?.addEventListener('click', async () => {
     try {
         const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
         buscarFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026","ONLINE");
+    } catch (error) {
+        console.error(error);
+    }
+})
+
+const botonMundialUsaBuscarPresencial = document.getElementById("botonMundialUsaBuscarPresencial")
+botonMundialUsaBuscarPresencial?.addEventListener('click', async () => {
+    try {
+        const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
+        buscarFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026","PRESENCIAL");
     } catch (error) {
         console.error(error);
     }

@@ -13,14 +13,15 @@ const Figurita = obtenerModeloFiguritas("mundialUsa2026");
 const figuritas = await Figurita.find();
 
 for (const figu of figuritas) {
-    console.log(figu.NUM, figu.STOCK["MATI"].CANT, figu.STOCK["MATI"].PRECIO);
+    
 
-    if (figu.TIPO=="EQUIPO"){
-        figu.STOCK.MATI.PRECIO=3000
+    if (["ENG11"].some(codigo => figu.NUM.includes(codigo))){
+        
+        figu.STOCK.MATI.PRECIO=4000
+        figu.TIPO="ESPECIAL"
+        console.log(figu.NUM, figu.STOCK["MATI"].CANT, figu.STOCK["MATI"].PRECIO);
     }
-    if (figu.TIPO=="FWC"){
-        figu.STOCK.MATI.PRECIO=7000
-    }
+
 
     // figu.STOCK = {
     //     MATI: {

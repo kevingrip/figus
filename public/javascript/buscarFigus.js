@@ -107,44 +107,58 @@ const formatearEntrada = (valorInput) => {
     return figusSeleccionadas;
 }
 
-const preciosRespuesta = (figusEnStock, figusFaltantes,costoEnvioGratis,precioTotal, figuListObj) => {
+const contarTipo = (figuListObj) => {
 
-    let cantEscudos=0
-    let cantEquipos=0
-    let cantComunes=0
-    let cantAFA=0
-    let cantLeg=0
-    let cantFWCD=0
-    let cantFWCC=0
-    let cantCoca=0
-    let cantJugadoresEspeciales=0
-    figuListObj.forEach(figu =>{
-        if (figu.TIPO=="COMUNES"){
+    let cantEscudos = 0
+    let cantEquipos = 0
+    let cantComunes = 0
+    let cantAFA = 0
+    let cantLeg = 0
+    let cantFWCD = 0
+    let cantFWCC = 0
+    let cantCoca = 0
+    let cantJugadoresEspeciales = 0
+
+    figuListObj.forEach(figu => {
+        if (figu.TIPO == "COMUNES") {
             cantComunes++
-        }else if (figu.TIPO=="ESCUDO" || figu.TIPO=="ESC"){
+        } else if (figu.TIPO == "ESCUDO" || figu.TIPO == "ESC") {
             cantEscudos++
-        }else if (figu.TIPO=="AFA" || figu.TIPO=="AFA ESC"){
+        } else if (figu.TIPO == "AFA" || figu.TIPO == "AFA ESC") {
             cantAFA++
-        }else if (figu.TIPO=="EQUIPO"){
+        } else if (figu.TIPO == "EQUIPO") {
             cantEquipos++
-        }else if (figu.TIPO=="FWCD" || figu.TIPO=="FWC"){
+        } else if (figu.TIPO == "FWCD" || figu.TIPO == "FWC") {
             cantFWCD++
-        }else if (figu.TIPO=="FWCC"){
+        } else if (figu.TIPO == "FWCC") {
             cantFWCC++
-        }else if (figu.TIPO=="COCA"){
+        } else if (figu.TIPO == "COCA") {
             cantCoca++
         }
     })
 
-    if (precioTotal<=5000 ){
-        precioTotal+=((cantComunes*500)+(cantEscudos*2000)+(cantEquipos*2000))
-    }else if (figusFaltantes.length==0){
-        precioTotal+=2500
+    return {
+        cantEscudos, cantEquipos, cantComunes, cantAFA, cantLeg, cantFWCD, cantFWCC, cantCoca, cantJugadoresEspeciales
     }
 
-    let tercera = `${precioTotal}. \nConfirmame si te sirve y actualizo el precio de esta publicación para tu compra${precioTotal>costoEnvioGratis?` con Envio Gratis!!`:`. Saludos!`}`
+}
 
-    let segunda = `El precio por ${figusEnStock.length == 1 ? 'la figurita original es ' : `las ${figusEnStock.length} figuritas originales es `}`
+const preciosRespuesta = (figusEnStock, figusFaltantes, costoEnvioGratis, precioTotal, figuListObj,canalPregunta) => {
+
+    const { cantEscudos, cantEquipos, cantComunes, cantAFA, cantLeg, cantFWCD, cantFWCC, cantCoca, cantJugadoresEspeciales } = contarTipo(figuListObj)
+
+    if (canalPregunta == "ONLINE") {
+        if (precioTotal <= 5000) {
+            precioTotal += ((cantComunes * 500) + (cantEscudos * 2000) + (cantEquipos * 2000))
+        } else if (figusFaltantes.length == 0) {
+            precioTotal += 2500
+        }
+    }
+
+
+    let tercera = `${precioTotal}. \nConfirmame si te sirve y actualizo el precio de esta publicación para tu compra${precioTotal > costoEnvioGratis ? ` con Envio Gratis!!` : `. Saludos!`}`
+
+    let segunda = `El precio por ${figusEnStock.length == 1 ? 'la figurita original es $' : `las ${figusEnStock.length} figuritas originales es `}`
 
     let primera = `Hola! Si, ${figusEnStock.length == 1 ? 'la' : 'las'} tengo en stock. \n`
 
@@ -152,25 +166,44 @@ const preciosRespuesta = (figusEnStock, figusFaltantes,costoEnvioGratis,precioTo
 
     let primera3 = `Hola! De tu lista tengo ${figusEnStock}. \n`
 
-    if (figusEnStock.length==0){
-        let singPlu = figusFaltantes.length>1?"las":"la"
+    if (figusEnStock.length == 0) {
+        let singPlu = figusFaltantes.length > 1 ? "las" : "la"
         return `Hola! No ${singPlu} tengo en stock. Saludos`
     }
 
-    else{
-        if (figusFaltantes.length==0){
-            return primera+segunda+tercera
-        }else{
-            if (figusFaltantes.length>=figusEnStock.length){
-                return primera3+segunda+tercera
-            }else{
-                return primera2+segunda+tercera
-            }            
+    else {
+        if (figusFaltantes.length == 0) {
+            return primera + segunda + tercera
+        } else {
+            if (figusFaltantes.length >= figusEnStock.length) {
+                return primera3 + segunda + tercera
+            } else {
+                return primera2 + segunda + tercera
+            }
         }
-    } 
+    }
 
-    
+}
 
+const precioBarato = (precioTotal, tipo, precioOnline) => {
+    if (tipo == "COMUNES") {
+        precioTotal += 800
+    } else if (tipo == "EQUIPO") {
+        precioTotal += 1200
+    } else if (tipo == "AFA") {
+        precioTotal += 3000
+    } else if (tipo == "ESCUDO AFA") {
+        precioTotal += 4000
+    }  else if (tipo == "FWC") {
+        precioTotal += 4000
+    } else if (tipo == "ESCUDO") {
+        precioTotal += 2500
+    }else if(tipo=="MESSI"){
+        precioTotal += 20000
+    }else{
+        precioTotal += precioOnline
+    }
+    return precioTotal;
 }
 
 
@@ -211,9 +244,6 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
     console.log(figusDeLaBase)
 
-    let cantFigusStock = 0;
-    let cantFigusSinStock = 0;
-    let cantFigusConsult = 0;
     let totalPrecio = 0;
     let figuList = []
     let figusEnStock = []
@@ -223,10 +253,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
     figusDeLaBase.forEach(figu => {
 
-        cantFigusConsult += 1;
-
         if (figu.STOCK.PDM.CANT > 0) {
-            cantFigusStock += 1;
             totalPrecio += figu.STOCK.PDM.PRECIO;
 
             figusEnStock.push(figu.NUM)
@@ -234,28 +261,39 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
 
         } else if (figu.STOCK.MATI.CANT > 0) {
-            cantFigusStock += 1;
-            totalPrecio += figu.STOCK.MATI.PRECIO;
+            let precio=figu.STOCK.MATI.PRECIO
+
+            if (canalPregunta == "ONLINE") {
+                totalPrecio += precio;
+            } else {
+                totalPrecio = precioBarato(totalPrecio, figu.TIPO, precio)
+            }
 
             figusEnStock.push(figu.NUM)
             figuListObj.push(figu)
 
         } else if (figu.STOCK.CAMBIOS.CANT > 0) {
-            cantFigusStock += 1;
-            totalPrecio += figu.STOCK.MATI.PRECIO;
+
+            if (canalPregunta == "ONLINE") {
+                totalPrecio += figu.STOCK.MATI.PRECIO;
+            } else {
+                totalPrecio = precioBarato(totalPrecio, figu.TIPO)
+            }
 
             figusEnStock.push(figu.NUM)
             figuListObj.push(figu)
 
         } else if (figu.STOCK.OTROS.CANT > 0) {
-            cantFigusStock += 1;
-            totalPrecio += figu.STOCK.MATI.PRECIO;
+            if (canalPregunta == "ONLINE") {
+                totalPrecio += figu.STOCK.MATI.PRECIO;
+            } else {
+                totalPrecio = precioBarato(totalPrecio, figu.TIPO)
+            }
 
             figusEnStock.push(figu.NUM)
             figuListObj.push(figu)
 
         } else {
-            cantFigusSinStock += 1
 
             figusSinStock.push(figu.NUM)
 
@@ -312,7 +350,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
 
         const cantLi = document.createElement('p');
-        cantLi.textContent = `Cantidad figus contadas en la pregunta: ${cantFigusConsult}`;
+        cantLi.textContent = `Cantidad figus contadas en la pregunta: ${figusEnStock.length+figusSinStock.length}`;
         separacionDiv2.appendChild(cantLi);
 
         figusDeLaBase.forEach(figu => {
@@ -323,12 +361,13 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
             li.classList.add('listaClass')
 
             let cant_stock = figu.STOCK.MATI.CANT + figu.STOCK.PDM.CANT + figu.STOCK.CAMBIOS.CANT + figu.STOCK.OTROS.CANT
+            let precioOnline = figu.STOCK.PDM.CANT > 0 ? figu.STOCK.PDM.PRECIO : figu.STOCK.MATI.CANT > 0 ? figu.STOCK.MATI.PRECIO : figu.STOCK.CAMBIOS.CANT > 0 ? figu.STOCK.CAMBIOS.PRECIO : figu.STOCK.OTROS.CANT > 0 ? figu.STOCK.OTROS.PRECIO : 0
 
             if (cant_stock == 0) {
                 li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0   \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
                 li.style.color = 'red'
             } else {
-                li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0  $ ${figu.STOCK.PDM.CANT > 0 ? figu.STOCK.PDM.PRECIO : figu.STOCK.MATI.CANT > 0 ? figu.STOCK.MATI.PRECIO : figu.STOCK.CAMBIOS.CANT > 0 ? figu.STOCK.CAMBIOS.PRECIO : figu.STOCK.OTROS.CANT > 0 ? figu.STOCK.OTROS.PRECIO : 0} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
+                li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0 ${canalPregunta==="ONLINE"?"$ "+precioOnline:""}  \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
             }
             separacionDiv1.appendChild(li);
         });
@@ -344,11 +383,11 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
         })
 
         const totalFi = document.createElement('p');
-        totalFi.textContent = `Cant figus en Stock: ${cantFigusStock}`;
+        totalFi.textContent = `Cant figus en Stock: ${figusEnStock.length}`;
         separacionDiv2.appendChild(totalFi);
 
         const totalSi = document.createElement('p');
-        totalSi.textContent = `Cant figus sin Stock: ${cantFigusSinStock}`;
+        totalSi.textContent = `Cant figus sin Stock: ${figusSinStock.length}`;
         separacionDiv2.appendChild(totalSi);
 
 
@@ -366,43 +405,8 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
         mensaje.style.whiteSpace = "pre-line";
 
 
-        const textoRespuesta = preciosRespuesta(figusEnStock,figusSinStock,costoEnvioGratis,totalPrecio,figuListObj)
+        const textoRespuesta = preciosRespuesta(figusEnStock, figusSinStock, costoEnvioGratis, totalPrecio, figuListObj, canalPregunta)
         mensaje.textContent = textoRespuesta
-
-        // if (faltantes.length == 0) {
-        //     if (cantFigusStock == 1) {
-        //         if (totalPrecio < 3500) {
-        //             if (tipoFigu == 'ESCUDO') {
-        //                 mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 5000${confirmacion}`
-        //             } else if (totalPrecio == 850 || totalPrecio == 750) {
-        //                 mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 3900${confirmacion}`
-        //             } else {
-        //                 mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es 4500${confirmacion}`
-        //             }
-        //         } else {
-        //             mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} figurita original es ${totalPrecio}${confirmacion}`
-        //         }
-
-        //     } else if (totalPrecio >= costoEnvioGratis) {
-        //         mensaje.textContent = `Hola! Si, en este momento cuento con todas en stock y te damos el envio gratis por un total de ${totalPrecio}${confirmacion}`
-        //     }
-        //     else {
-        //         mensaje.textContent = `${singPluPri(cantFigusStock)} ${singPluPre(cantFigusStock)} ${(totalPrecio / cantFigusStock === 850) ? (cantFigusStock <= 3 ? cantFigusStock * 2100 : (3 * 2100 + (1000 * (cantFigusStock - 3)))) : (totalPrecio < 3000 ? totalPrecio * 2 : totalPrecio < 10000 ? totalPrecio + 1500 : totalPrecio <= 25500 ? totalPrecio + 3000 : totalPrecio)} ${confirmacion}`
-        //     }
-        // } else {
-        //     if (cantFigusStock == 1) {
-        //         mensaje.textContent = `${faltanText(faltantes)}${singPluPre(cantFigusStock)} ${figuInd} es ${totalPrecio == 850 ? 3700 : totalPrecio < 3500 ? 4000 : totalPrecio}${confirmacion}`
-        //     } else {
-        //         if (cantFigusStock == 0) {
-        //             mensaje.textContent = `Hola! No las tengo en stock`
-        //         } else {
-        //             mensaje.textContent = `${faltanText(faltantes)}${singPluPre(cantFigusStock)} ${totalPrecio < 6000 ? ((cantFigusStock * 1200) + 1700) : totalPrecio < ((cantFigusStock + 1) * 1000) && totalPrecio < costoEnvioGratis ? totalPrecio + 2000 : totalPrecio}${confirmacion}${totalPrecio >= costoEnvioGratis ? ' con Envio Gratis!!' : '. Saludos!'}`
-        //         }
-        //     }
-
-        // }
-
-
 
         buttonPregunta.addEventListener('click', () => {
             buttonPregunta.style.backgroundColor = 'lightgreen'
@@ -417,7 +421,6 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
             }
 
         })
-
 
         let divVenta = null
         let divNombreUsuarioVenta = null
@@ -436,7 +439,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                 divVenta = document.createElement('div');
             }
 
-            if (cantFigusSinStock > 0 && cantFigusStock == 0) {
+            if (figusSinStock.length > 0 && figusEnStock.length == 0) {
 
                 const errorVenta = document.createElement('h4')
                 errorVenta.textContent = 'No se puede realizar la venta porque la figurita no esta en stock'
@@ -497,12 +500,6 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                         })
                     }
 
-
-
-
-
-
-
                     const agregarCuenta = () => {
 
                         if (divDescargarVenta) {
@@ -548,7 +545,54 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                                 crearBotonDescargar()
                             })
                         }
+                    }
+                } else {
 
+                    const agregarCuenta = () => {
+
+                        if (divDescargarVenta) {
+                            divVenta.removeChild(divDescargarVenta)
+                            divDescargarVenta = null
+                        }
+
+                        if (divCuenta) {
+                            divVenta.removeChild(divCuenta)
+                            divCuenta = null
+                            agregarCuenta()
+                        } else {
+                            divCuenta = document.createElement('div')
+                            const botonLuly = document.createElement('button')
+                            const botonAri = document.createElement('button')
+                            botonLuly.classList.add('boton')
+                            botonAri.classList.add('boton')
+                            botonLuly.textContent = 'LULY'
+                            botonAri.textContent = 'ARI'
+
+                            botonLuly.style.marginRight = '10px'
+                            botonAri.style.marginLeft = '10px'
+
+                            divCuenta.style.display = 'flex'
+                            divCuenta.style.justifyContent = 'center'
+                            divCuenta.style.alignItems = 'center'
+                            divCuenta.style.height = '50px'
+
+                            divCuenta.appendChild(botonLuly)
+                            divCuenta.appendChild(botonMati)
+                            divVenta.appendChild(divCuenta)
+
+                            botonLuly.addEventListener('click', () => {
+                                botonLuly.style.backgroundColor = 'lightgreen'
+                                botonAri.style.backgroundColor = ''
+                                tipoCuenta = "LULY"
+                                crearBotonDescargar()
+                            })
+                            botonAri.addEventListener('click', () => {
+                                botonAri.style.backgroundColor = 'lightgreen'
+                                botonLuly.style.backgroundColor = ''
+                                tipoCuenta = "ARI"
+                                crearBotonDescargar()
+                            })
+                        }
                     }
                 }
 
