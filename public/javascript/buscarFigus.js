@@ -407,9 +407,13 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
         const textoRespuesta = preciosRespuesta(figusEnStock, figusSinStock, costoEnvioGratis, totalPrecio, figuListObj, canalPregunta)
         mensaje.textContent = textoRespuesta
-        navigator.clipboard.writeText(mensaje.textContent)  // Usa .textContent para acceder al texto
+        
 
         buttonPregunta.addEventListener('click', () => {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(mensaje.textContent)  // Usa .textContent para acceder al texto
+            }
+            
             buttonPregunta.style.backgroundColor = 'lightgreen'
             buttonVenta.style.backgroundColor = ''
 
