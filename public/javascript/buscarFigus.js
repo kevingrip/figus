@@ -300,6 +300,12 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
         }
     });
 
+    if(totalPrecio<1000){
+        totalPrecio=1200
+    }else if(totalPrecio<1300){
+        totalPrecio=1700
+    }
+
 
 
     // Mostrar resultados en el HTML
@@ -552,54 +558,10 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                         }
                     }
                 } else {
-
-                    const agregarCuenta = () => {
-
-                        if (divDescargarVenta) {
-                            divVenta.removeChild(divDescargarVenta)
-                            divDescargarVenta = null
-                        }
-
-                        if (divCuenta) {
-                            divVenta.removeChild(divCuenta)
-                            divCuenta = null
-                            agregarCuenta()
-                        } else {
-                            divCuenta = document.createElement('div')
-                            const botonLuly = document.createElement('button')
-                            const botonAri = document.createElement('button')
-                            botonLuly.classList.add('boton')
-                            botonAri.classList.add('boton')
-                            botonLuly.textContent = 'LULY'
-                            botonAri.textContent = 'ARI'
-
-                            botonLuly.style.marginRight = '10px'
-                            botonAri.style.marginLeft = '10px'
-
-                            divCuenta.style.display = 'flex'
-                            divCuenta.style.justifyContent = 'center'
-                            divCuenta.style.alignItems = 'center'
-                            divCuenta.style.height = '50px'
-
-                            divCuenta.appendChild(botonLuly)
-                            divCuenta.appendChild(botonMati)
-                            divVenta.appendChild(divCuenta)
-
-                            botonLuly.addEventListener('click', () => {
-                                botonLuly.style.backgroundColor = 'lightgreen'
-                                botonAri.style.backgroundColor = ''
-                                tipoCuenta = "LULY"
-                                crearBotonDescargar()
-                            })
-                            botonAri.addEventListener('click', () => {
-                                botonAri.style.backgroundColor = 'lightgreen'
-                                botonLuly.style.backgroundColor = ''
-                                tipoCuenta = "ARI"
-                                crearBotonDescargar()
-                            })
-                        }
-                    }
+                    //agregarCuenta()
+                    
                 }
+                
 
 
 
