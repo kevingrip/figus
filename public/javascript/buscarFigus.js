@@ -107,7 +107,7 @@ const formatearEntrada = (valorInput) => {
     return figusSeleccionadas;
 }
 
-const contarTipo = (figuListObj) => {
+const contarTipo = (figusEnStock) => {
 
     let cantEscudos = 0
     let cantEquipos = 0
@@ -119,7 +119,7 @@ const contarTipo = (figuListObj) => {
     let cantCoca = 0
     let cantJugadoresEspeciales = 0
 
-    figuListObj.forEach(figu => {
+    figusEnStock.forEach(figu => {
         if (figu.TIPO == "COMUNES") {
             cantComunes++
         } else if (figu.TIPO == "ESCUDO" || figu.TIPO == "ESC") {
@@ -143,11 +143,16 @@ const contarTipo = (figuListObj) => {
 
 }
 
-const preciosRespuesta = (figusEnStock, figusFaltantes, costoEnvioGratis, precioTotal, figuListObj,canalPregunta) => {
+const preciosRespuesta = (listaObj_FiguEnStock, figusFaltantes, costoEnvioGratis, precioTotal,canalPregunta) => {
 
-    const { cantEscudos, cantEquipos, cantComunes, cantAFA, cantLeg, cantFWCD, cantFWCC, cantCoca, cantJugadoresEspeciales } = contarTipo(figuListObj)
+    let figuNUMstock = listaObj_FiguEnStock.map(figu=>figu.NUM).join(", ")
 
+    const { cantEscudos, cantEquipos, cantComunes, cantAFA, cantLeg, cantFWCD, cantFWCC, cantCoca, cantJugadoresEspeciales } = contarTipo(listaObj_FiguEnStock)
+
+    let tercera=""
     if (canalPregunta == "ONLINE") {
+        tercera = `. \nConfirmame si te sirve y actualizo el precio de esta publicación para tu compra${precioTotal > costoEnvioGratis ? ` con Envio Gratis!!` : `. Saludos!`}`
+
         if (precioTotal <= 5000) {
             precioTotal += ((cantComunes * 500) + (cantEscudos * 2000) + (cantEquipos * 2000))
         } else if (figusFaltantes.length == 0) {
@@ -155,34 +160,39 @@ const preciosRespuesta = (figusEnStock, figusFaltantes, costoEnvioGratis, precio
         }
     }
 
+    let segunda = `El precio por ${listaObj_FiguEnStock.length == 1 ? 'la figurita original es $' : `las ${listaObj_FiguEnStock.length} figuritas originales es `}${precioTotal}`
 
-    let tercera = `${precioTotal}. \nConfirmame si te sirve y actualizo el precio de esta publicación para tu compra${precioTotal > costoEnvioGratis ? ` con Envio Gratis!!` : `. Saludos!`}`
-
-    let segunda = `El precio por ${figusEnStock.length == 1 ? 'la figurita original es $' : `las ${figusEnStock.length} figuritas originales es `}`
-
-    let primera = `Hola! Si, ${figusEnStock.length == 1 ? 'la' : 'las'} tengo en stock. \n`
+    let primera = `Hola! Si, ${listaObj_FiguEnStock.length == 1 ? 'la' : 'las'} tengo en stock. \n`
 
     let primera2 = `Hola! Las tengo excepto ${figusFaltantes}. \n`
 
-    let primera3 = `Hola! De tu lista tengo ${figusEnStock}. \n`
+    let primera3 = `Hola! De tu lista tengo ${figuNUMstock}. \n`
 
-    if (figusEnStock.length == 0) {
+    if (listaObj_FiguEnStock.length == 0) {
         let singPlu = figusFaltantes.length > 1 ? "las" : "la"
         return `Hola! No ${singPlu} tengo en stock. Saludos`
     }
 
     else {
         if (figusFaltantes.length == 0) {
-            return primera + segunda + tercera
+            return { 
+                    textoRespuesta: primera + segunda + tercera,
+                    precioFinal: precioTotal 
+                    }
         } else {
-            if (figusFaltantes.length >= figusEnStock.length) {
-                return primera3 + segunda + tercera
+            if (figusFaltantes.length >= listaObj_FiguEnStock.length) {
+                return { 
+                        textoRespuesta: primera3 + segunda + tercera, 
+                        precioFinal: precioTotal 
+                        }
             } else {
-                return primera2 + segunda + tercera
+                return {
+                        textoRespuesta: primera2 + segunda + tercera,
+                        precioFinal: precioTotal
+                    }
             }
         }
     }
-
 }
 
 const precioBarato = (precioTotal, tipo, precioOnline) => {
@@ -245,10 +255,8 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
     console.log(figusDeLaBase)
 
     let totalPrecio = 0;
-    let figuList = []
     let figusEnStock = []
     let figusSinStock = []
-    let figuListObj = [] // lista del objeto figu
     let proveedor;
 
     figusDeLaBase.forEach(figu => {
@@ -256,8 +264,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
         if (figu.STOCK.PDM.CANT > 0) {
             totalPrecio += figu.STOCK.PDM.PRECIO;
 
-            figusEnStock.push(figu.NUM)
-            figuListObj.push(figu)
+            figusEnStock.push(figu)
 
 
         } else if (figu.STOCK.MATI.CANT > 0) {
@@ -269,8 +276,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                 totalPrecio = precioBarato(totalPrecio, figu.TIPO, precio)
             }
 
-            figusEnStock.push(figu.NUM)
-            figuListObj.push(figu)
+            figusEnStock.push(figu)
 
         } else if (figu.STOCK.CAMBIOS.CANT > 0) {
 
@@ -280,8 +286,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                 totalPrecio = precioBarato(totalPrecio, figu.TIPO)
             }
 
-            figusEnStock.push(figu.NUM)
-            figuListObj.push(figu)
+            figusEnStock.push(figu)
 
         } else if (figu.STOCK.OTROS.CANT > 0) {
             if (canalPregunta == "ONLINE") {
@@ -290,8 +295,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                 totalPrecio = precioBarato(totalPrecio, figu.TIPO)
             }
 
-            figusEnStock.push(figu.NUM)
-            figuListObj.push(figu)
+            figusEnStock.push(figu)
 
         } else {
 
@@ -306,8 +310,6 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
         totalPrecio=1700
     }
 
-
-
     // Mostrar resultados en el HTML
     const resultados = document.getElementById('resultados');
 
@@ -321,7 +323,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
     resultados.innerHTML = ''; // Limpiar resultados anteriores
 
-    const operacionDiv = document.createElement('div')
+    const contenedorPreguntaOVenta = document.createElement('div')
 
     const buttonPregunta = document.createElement('button')
     buttonPregunta.innerHTML = 'Pregunta'
@@ -331,15 +333,15 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
     buttonVenta.innerHTML = 'Venta'
     buttonVenta.classList.add('boton')
 
-    operacionDiv.appendChild(buttonPregunta)
-    operacionDiv.appendChild(buttonVenta)
-    operacionDiv.classList.add('centrar')
-    operacionDiv.style.backgroundColor = 'black'
+    contenedorPreguntaOVenta.appendChild(buttonPregunta)
+    contenedorPreguntaOVenta.appendChild(buttonVenta)
+    contenedorPreguntaOVenta.classList.add('centrar')
+    contenedorPreguntaOVenta.style.backgroundColor = 'black'
 
 
     if (errorEscritura == false) {
 
-        resultados.appendChild(operacionDiv)
+        resultados.appendChild(contenedorPreguntaOVenta)
 
         setTimeout(() => {
             buttonPregunta.click();
@@ -347,8 +349,6 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
         divPregunta = document.createElement('div')
         divPregunta.classList.add('inptCuadro')
-
-        let stringDeFiguritas = ""
 
         const botonCopiarFigus = document.createElement('button')
         botonCopiarFigus.textContent = 'Copiar Figus'
@@ -360,8 +360,6 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
         separacionDiv2.appendChild(cantLi);
 
         figusDeLaBase.forEach(figu => {
-            stringDeFiguritas += figu.NUM + " "
-            figuList.push(figu.NUM)
 
             const li = document.createElement('li');
             li.classList.add('listaClass')
@@ -380,8 +378,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
         botonCopiarFigus.addEventListener('click', async () => {
             try {
-                console.log("st", stringDeFiguritas)
-                await navigator.clipboard.writeText(stringDeFiguritas)
+                await navigator.clipboard.writeText(figusEnStock.map(figu=>figu.NUM).join("\n "))
                 console.log('¡Texto copiado al portapapeles con éxito!');
             } catch (error) {
                 console.error('Error al copiar el texto: ', error);
@@ -411,9 +408,10 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
         mensaje.style.whiteSpace = "pre-line";
 
 
-        const textoRespuesta = preciosRespuesta(figusEnStock, figusSinStock, costoEnvioGratis, totalPrecio, figuListObj, canalPregunta)
+        const {textoRespuesta,precioFinal} = preciosRespuesta(figusEnStock, figusSinStock, costoEnvioGratis, totalPrecio, canalPregunta)
         mensaje.textContent = textoRespuesta
         
+        totalPrecio=precioFinal;
 
         buttonPregunta.addEventListener('click', () => {
             if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -430,7 +428,6 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                 resultados.appendChild(divPregunta)
                 resultados.appendChild(mensaje)
             }
-
         })
 
         let divVenta = null
@@ -439,7 +436,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
         let divEnvio = null
         let divCuenta = null
         let divDescargarVenta = null
-        let tipoCuenta;
+        let nombreCuenta;
         let tipoEnvio;
 
         buttonVenta.addEventListener('click', () => {
@@ -472,6 +469,53 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                     resultados.appendChild(divVenta)
                 }
 
+                const agregarCuenta = (usuario1,usuario2) => {
+
+                        if (divDescargarVenta) {
+                            divVenta.removeChild(divDescargarVenta)
+                            divDescargarVenta = null
+                        }
+
+                        if (divCuenta) {
+                            divVenta.removeChild(divCuenta)
+                            divCuenta = null
+                            agregarCuenta(usuario1,usuario2)
+                        } else {
+                            divCuenta = document.createElement('div')
+                            const botonLuly = document.createElement('button')
+                            const botonAri = document.createElement('button')
+                            botonLuly.classList.add('boton')
+                            botonAri.classList.add('boton')
+                            botonLuly.textContent = usuario1
+                            botonAri.textContent = usuario2
+
+                            botonLuly.style.marginRight = '10px'
+                            botonAri.style.marginLeft = '10px'
+
+                            divCuenta.style.display = 'flex'
+                            divCuenta.style.justifyContent = 'center'
+                            divCuenta.style.alignItems = 'center'
+                            divCuenta.style.height = '50px'
+
+                            divCuenta.appendChild(botonLuly)
+                            divCuenta.appendChild(botonAri)
+                            divVenta.appendChild(divCuenta)
+
+                            botonLuly.addEventListener('click', () => {
+                                botonLuly.style.backgroundColor = 'lightgreen'
+                                botonAri.style.backgroundColor = ''
+                                nombreCuenta = usuario1
+                                crearBotonDescargar()
+                            })
+                            botonAri.addEventListener('click', () => {
+                                botonAri.style.backgroundColor = 'lightgreen'
+                                botonLuly.style.backgroundColor = ''
+                                nombreCuenta = usuario2
+                                crearBotonDescargar()
+                            })
+                        }
+                    }
+
                 if (canalPregunta === "ONLINE") {
                     if (!divEnvio) {
                         divEnvio = document.createElement('div')
@@ -494,12 +538,11 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                         divEnvio.appendChild(botonFlex)
                         divVenta.appendChild(divEnvio)
 
-
                         botonCorreo.addEventListener('click', () => {
                             tipoEnvio = "CORREO"
                             botonCorreo.style.backgroundColor = 'lightgreen'
                             botonFlex.style.backgroundColor = ''
-                            agregarCuenta()
+                            agregarCuenta("KEVIN","MATI")
                         }
                         )
 
@@ -507,58 +550,13 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                             tipoEnvio = "FLEX"
                             botonCorreo.style.backgroundColor = ''
                             botonFlex.style.backgroundColor = 'lightgreen'
-                            agregarCuenta()
+                            agregarCuenta("KEVIN","MATI")
                         })
                     }
-
-                    const agregarCuenta = () => {
-
-                        if (divDescargarVenta) {
-                            divVenta.removeChild(divDescargarVenta)
-                            divDescargarVenta = null
-                        }
-
-                        if (divCuenta) {
-                            divVenta.removeChild(divCuenta)
-                            divCuenta = null
-                            agregarCuenta()
-                        } else {
-                            divCuenta = document.createElement('div')
-                            const botonKevin = document.createElement('button')
-                            const botonMati = document.createElement('button')
-                            botonKevin.classList.add('boton')
-                            botonMati.classList.add('boton')
-                            botonKevin.textContent = 'Kevin'
-                            botonMati.textContent = 'Mati'
-
-                            botonKevin.style.marginRight = '10px'
-                            botonMati.style.marginLeft = '10px'
-
-                            divCuenta.style.display = 'flex'
-                            divCuenta.style.justifyContent = 'center'
-                            divCuenta.style.alignItems = 'center'
-                            divCuenta.style.height = '50px'
-
-                            divCuenta.appendChild(botonKevin)
-                            divCuenta.appendChild(botonMati)
-                            divVenta.appendChild(divCuenta)
-
-                            botonKevin.addEventListener('click', () => {
-                                botonKevin.style.backgroundColor = 'lightgreen'
-                                botonMati.style.backgroundColor = ''
-                                tipoCuenta = "KEVIN"
-                                crearBotonDescargar()
-                            })
-                            botonMati.addEventListener('click', () => {
-                                botonMati.style.backgroundColor = 'lightgreen'
-                                botonKevin.style.backgroundColor = ''
-                                tipoCuenta = "MATI"
-                                crearBotonDescargar()
-                            })
-                        }
-                    }
-                } else {
-                    //agregarCuenta()
+                    
+                } else {        
+                    
+                    agregarCuenta("LULY","ARI") 
                     
                 }
                 
@@ -590,8 +588,8 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                             //     alert("INGRESAR USUARIO")
                             // }else
                             for (const figu of albumFigus) {
-                                for (const vend of figuList) {
-                                    if (vend == figu.NUM)
+                                for (const vend of figusEnStock) {
+                                    if (vend.NUM == figu.NUM)
                                         if (figu.STOCK.PDM.CANT > 0) {
                                             proveedor = "PDM"
                                             try {
@@ -731,7 +729,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                                 VENDIDAS: figusEnStock,
                                 FALTANTES: figusSinStock,
                                 PRECIO: totalPrecio,
-                                CUENTA: tipoCuenta,
+                                CUENTA: nombreCuenta,
                                 ENVIO: tipoEnvio,
                                 ALBUM: albumRuta
                             })

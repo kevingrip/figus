@@ -33,6 +33,8 @@ function crearBotonContenedor(figu,album) {
 
     if (album=="mundialQatar2022"){
         contenedor.style.backgroundColor="orange"
+    }else if (album=="mundialUsa2026"){
+        contenedor.style.backgroundColor="violet"
     }
     
     return contenedor
@@ -59,7 +61,7 @@ export const totalVentas = async (todasLasVentas) => {
             tituloAlbum.textContent=album
 
             const envio = document.createElement("p")
-            envio.textContent=`Envio: ${venta.ENVIO}`
+            envio.textContent= venta.ENVIO ? `Envio: ${venta.ENVIO}`: ""
 
             const cuenta = document.createElement("p")
             cuenta.textContent=`Cuenta: ${venta.CUENTA}`
@@ -75,16 +77,20 @@ export const totalVentas = async (todasLasVentas) => {
 
             contenedorInfo.appendChild(tituloAlbum)
             contenedorInfo.appendChild(dia)
-            contenedorInfo.appendChild(envio)
             contenedorInfo.appendChild(cuenta)
             contenedorInfo.appendChild(cantidad)
             contenedorInfo.appendChild(precio)
+            contenedorInfo.appendChild(envio);
+            
 
             contenedorInfo.style.display="flex"
             contenedorInfo.style.justifyContent="space-evenly"
+            contenedorInfo.style.backgroundColor ="#E0E0E0"
+
 
             venta.VENDIDAS.forEach(figu=>{ 
-                contenedorFigus.appendChild(crearBotonContenedor(figu,album))
+                console.log(figu)
+                contenedorFigus.appendChild(crearBotonContenedor(figu.NUM,album))
             })
 
             contenedorVenta.appendChild(contenedorInfo)
