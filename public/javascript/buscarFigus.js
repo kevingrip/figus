@@ -143,13 +143,13 @@ const contarTipo = (figusEnStock) => {
 
 }
 
-const preciosRespuesta = (listaObj_FiguEnStock, figusFaltantes, costoEnvioGratis, precioTotal,canalPregunta) => {
+const preciosRespuesta = (listaObj_FiguEnStock, figusFaltantes, costoEnvioGratis, precioTotal, canalPregunta) => {
 
-    let figuNUMstock = listaObj_FiguEnStock.map(figu=>figu.NUM).join(", ")
+    let figuNUMstock = listaObj_FiguEnStock.map(figu => figu.NUM).join(", ")
 
     const { cantEscudos, cantEquipos, cantComunes, cantAFA, cantLeg, cantFWCD, cantFWCC, cantCoca, cantJugadoresEspeciales } = contarTipo(listaObj_FiguEnStock)
 
-    let tercera=""
+    let tercera = ""
     if (canalPregunta == "ONLINE") {
         tercera = `. \nConfirmame si te sirve y actualizo el precio de esta publicación para tu compra${precioTotal > costoEnvioGratis ? ` con Envio Gratis!!` : `. Saludos!`}`
 
@@ -175,21 +175,21 @@ const preciosRespuesta = (listaObj_FiguEnStock, figusFaltantes, costoEnvioGratis
 
     else {
         if (figusFaltantes.length == 0) {
-            return { 
-                    textoRespuesta: primera + segunda + tercera,
-                    precioFinal: precioTotal 
-                    }
+            return {
+                textoRespuesta: primera + segunda + tercera,
+                precioFinal: precioTotal
+            }
         } else {
             if (figusFaltantes.length >= listaObj_FiguEnStock.length) {
-                return { 
-                        textoRespuesta: primera3 + segunda + tercera, 
-                        precioFinal: precioTotal 
-                        }
+                return {
+                    textoRespuesta: primera3 + segunda + tercera,
+                    precioFinal: precioTotal
+                }
             } else {
                 return {
-                        textoRespuesta: primera2 + segunda + tercera,
-                        precioFinal: precioTotal
-                    }
+                    textoRespuesta: primera2 + segunda + tercera,
+                    precioFinal: precioTotal
+                }
             }
         }
     }
@@ -204,13 +204,13 @@ const precioBarato = (precioTotal, tipo, precioOnline) => {
         precioTotal += 3000
     } else if (tipo == "ESCUDO AFA") {
         precioTotal += 4000
-    }  else if (tipo == "FWC") {
+    } else if (tipo == "FWC") {
         precioTotal += 4000
     } else if (tipo == "ESCUDO") {
         precioTotal += 2500
-    }else if(tipo=="MESSI"){
+    } else if (tipo == "MESSI") {
         precioTotal += 20000
-    }else{
+    } else {
         precioTotal += precioOnline
     }
     return precioTotal;
@@ -268,7 +268,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
 
         } else if (figu.STOCK.MATI.CANT > 0) {
-            let precio=figu.STOCK.MATI.PRECIO
+            let precio = figu.STOCK.MATI.PRECIO
 
             if (canalPregunta == "ONLINE") {
                 totalPrecio += precio;
@@ -304,10 +304,10 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
         }
     });
 
-    if(totalPrecio<1000){
-        totalPrecio=1200
-    }else if(totalPrecio<1300){
-        totalPrecio=1700
+    if (totalPrecio < 1000) {
+        totalPrecio = 1200
+    } else if (totalPrecio < 1300) {
+        totalPrecio = 1700
     }
 
     // Mostrar resultados en el HTML
@@ -356,7 +356,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
 
         const cantLi = document.createElement('p');
-        cantLi.textContent = `Cantidad figus contadas en la pregunta: ${figusEnStock.length+figusSinStock.length}`;
+        cantLi.textContent = `Cantidad figus contadas en la pregunta: ${figusEnStock.length + figusSinStock.length}`;
         separacionDiv2.appendChild(cantLi);
 
         figusDeLaBase.forEach(figu => {
@@ -371,14 +371,14 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                 li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0   \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
                 li.style.color = 'red'
             } else {
-                li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0 ${canalPregunta==="ONLINE"?"$ "+precioOnline:""}  \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
+                li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0 ${canalPregunta === "ONLINE" ? "$ " + precioOnline : ""}  \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
             }
             separacionDiv1.appendChild(li);
         });
 
         botonCopiarFigus.addEventListener('click', async () => {
             try {
-                await navigator.clipboard.writeText(figusEnStock.map(figu=>figu.NUM).join("\n "))
+                await navigator.clipboard.writeText(figusEnStock.map(figu => figu.NUM).join("\n "))
                 console.log('¡Texto copiado al portapapeles con éxito!');
             } catch (error) {
                 console.error('Error al copiar el texto: ', error);
@@ -408,16 +408,16 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
         mensaje.style.whiteSpace = "pre-line";
 
 
-        const {textoRespuesta,precioFinal} = preciosRespuesta(figusEnStock, figusSinStock, costoEnvioGratis, totalPrecio, canalPregunta)
+        const { textoRespuesta, precioFinal } = preciosRespuesta(figusEnStock, figusSinStock, costoEnvioGratis, totalPrecio, canalPregunta)
         mensaje.textContent = textoRespuesta
-        
-        totalPrecio=precioFinal;
+
+        totalPrecio = precioFinal;
 
         buttonPregunta.addEventListener('click', () => {
             if (navigator.clipboard && navigator.clipboard.writeText) {
                 navigator.clipboard.writeText(mensaje.textContent)  // Usa .textContent para acceder al texto
             }
-            
+
             buttonPregunta.style.backgroundColor = 'lightgreen'
             buttonVenta.style.backgroundColor = ''
 
@@ -469,52 +469,52 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                     resultados.appendChild(divVenta)
                 }
 
-                const agregarCuenta = (usuario1,usuario2) => {
+                const agregarCuenta = (usuario1, usuario2) => {
 
-                        if (divDescargarVenta) {
-                            divVenta.removeChild(divDescargarVenta)
-                            divDescargarVenta = null
-                        }
-
-                        if (divCuenta) {
-                            divVenta.removeChild(divCuenta)
-                            divCuenta = null
-                            agregarCuenta(usuario1,usuario2)
-                        } else {
-                            divCuenta = document.createElement('div')
-                            const botonLuly = document.createElement('button')
-                            const botonAri = document.createElement('button')
-                            botonLuly.classList.add('boton')
-                            botonAri.classList.add('boton')
-                            botonLuly.textContent = usuario1
-                            botonAri.textContent = usuario2
-
-                            botonLuly.style.marginRight = '10px'
-                            botonAri.style.marginLeft = '10px'
-
-                            divCuenta.style.display = 'flex'
-                            divCuenta.style.justifyContent = 'center'
-                            divCuenta.style.alignItems = 'center'
-                            divCuenta.style.height = '50px'
-
-                            divCuenta.appendChild(botonLuly)
-                            divCuenta.appendChild(botonAri)
-                            divVenta.appendChild(divCuenta)
-
-                            botonLuly.addEventListener('click', () => {
-                                botonLuly.style.backgroundColor = 'lightgreen'
-                                botonAri.style.backgroundColor = ''
-                                nombreCuenta = usuario1
-                                crearBotonDescargar()
-                            })
-                            botonAri.addEventListener('click', () => {
-                                botonAri.style.backgroundColor = 'lightgreen'
-                                botonLuly.style.backgroundColor = ''
-                                nombreCuenta = usuario2
-                                crearBotonDescargar()
-                            })
-                        }
+                    if (divDescargarVenta) {
+                        divVenta.removeChild(divDescargarVenta)
+                        divDescargarVenta = null
                     }
+
+                    if (divCuenta) {
+                        divVenta.removeChild(divCuenta)
+                        divCuenta = null
+                        agregarCuenta(usuario1, usuario2)
+                    } else {
+                        divCuenta = document.createElement('div')
+                        const botonLuly = document.createElement('button')
+                        const botonAri = document.createElement('button')
+                        botonLuly.classList.add('boton')
+                        botonAri.classList.add('boton')
+                        botonLuly.textContent = usuario1
+                        botonAri.textContent = usuario2
+
+                        botonLuly.style.marginRight = '10px'
+                        botonAri.style.marginLeft = '10px'
+
+                        divCuenta.style.display = 'flex'
+                        divCuenta.style.justifyContent = 'center'
+                        divCuenta.style.alignItems = 'center'
+                        divCuenta.style.height = '50px'
+
+                        divCuenta.appendChild(botonLuly)
+                        divCuenta.appendChild(botonAri)
+                        divVenta.appendChild(divCuenta)
+
+                        botonLuly.addEventListener('click', () => {
+                            botonLuly.style.backgroundColor = 'lightgreen'
+                            botonAri.style.backgroundColor = ''
+                            nombreCuenta = usuario1
+                            crearBotonDescargar()
+                        })
+                        botonAri.addEventListener('click', () => {
+                            botonAri.style.backgroundColor = 'lightgreen'
+                            botonLuly.style.backgroundColor = ''
+                            nombreCuenta = usuario2
+                            crearBotonDescargar()
+                        })
+                    }
+                }
 
                 if (canalPregunta === "ONLINE") {
                     if (!divEnvio) {
@@ -542,7 +542,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                             tipoEnvio = "CORREO"
                             botonCorreo.style.backgroundColor = 'lightgreen'
                             botonFlex.style.backgroundColor = ''
-                            agregarCuenta("KEVIN","MATI")
+                            agregarCuenta("KEVIN", "MATI")
                         }
                         )
 
@@ -550,16 +550,16 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                             tipoEnvio = "FLEX"
                             botonCorreo.style.backgroundColor = ''
                             botonFlex.style.backgroundColor = 'lightgreen'
-                            agregarCuenta("KEVIN","MATI")
+                            agregarCuenta("KEVIN", "MATI")
                         })
                     }
-                    
-                } else {        
-                    
-                    agregarCuenta("LULY","ARI") 
-                    
+
+                } else {
+
+                    agregarCuenta("LULY", "ARI")
+
                 }
-                
+
 
 
 
@@ -715,14 +715,18 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                                 }
                             }
 
-                            const datosJson = JSON.stringify(albumFigus, null, 2);
-                            const blob = new Blob([datosJson], { type: 'application/json' });
-                            const enlace = document.createElement('a');
-                            enlace.href = URL.createObjectURL(blob);
-                            enlace.download = `${nombreJson}.json`;
-                            enlace.click();
-                            // Liberar la URL del Blob
-                            URL.revokeObjectURL(enlace.href);
+                            if (canalPregunta === "ONLINE") {
+                                const datosJson = JSON.stringify(albumFigus, null, 2);
+                                const blob = new Blob([datosJson], { type: 'application/json' });
+                                const enlace = document.createElement('a');
+                                enlace.href = URL.createObjectURL(blob);
+                                enlace.download = `${nombreJson}.json`;
+                                enlace.click();
+                                // Liberar la URL del Blob
+                                URL.revokeObjectURL(enlace.href);
+                            }
+
+
 
                             const datosVenta = ({
                                 DIA: new Date(),
@@ -751,7 +755,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                     }
                 }
             }
-        })        
+        })
 
     } else {
         const errorEscritura = document.createElement('p');
