@@ -197,15 +197,15 @@ const preciosRespuesta = (listaObj_FiguEnStock, figusFaltantes, costoEnvioGratis
 
 const precioBarato = (precioTotal, tipo, precioOnline) => {
     if (tipo == "COMUNES") {
-        precioTotal += 800
+        precioTotal += 500
     } else if (tipo == "EQUIPO") {
-        precioTotal += 1200
+        precioTotal += 800
     } else if (tipo == "AFA") {
         precioTotal += 3000
     } else if (tipo == "ESCUDO AFA") {
         precioTotal += 4000
     } else if (tipo == "FWC") {
-        precioTotal += 4000
+        precioTotal += 2500
     } else if (tipo == "ESCUDO") {
         precioTotal += 2500
     } else if (tipo == "MESSI") {
@@ -262,21 +262,20 @@ export const buscarFigusLuly = (nombreJson, albumFigus, albumRuta, canalPregunta
     figusDeLaBase.forEach(figu => {
 
         if (figu.STOCK.LULY.CANT > 0) {
-            totalPrecio += figu.STOCK.LULY.PRECIO;
+            totalPrecio = precioBarato(totalPrecio, figu.TIPO) - figu.STOCK.LULY.PRECIO
 
             figusEnStock.push(figu)
 
 
         } else if (figu.STOCK.PDM.CANT > 0) {
-            let precio = figu.STOCK.MATI.PRECIO
-
             if (canalPregunta == "ONLINE") {
-                totalPrecio += precio;
+                totalPrecio += figu.STOCK.MATI.PRECIO;
             } else {
-                totalPrecio = precioBarato(totalPrecio, figu.TIPO, precio)
+                totalPrecio = precioBarato(totalPrecio, figu.TIPO)
             }
 
             figusEnStock.push(figu)
+            
 
         } else if (figu.STOCK.MATI.CANT > 0) {
             let precio = figu.STOCK.MATI.PRECIO
