@@ -1,8 +1,8 @@
-export const api = window.location.hostname === "localhost" || window.location.hostname === "192.168.0.175"
-    ? "http://localhost:5050"
-    : "https://figutld.onrender.com"
-    || window.location.hostname === "192.168.0.251"
-    ? "http://localhost:5050"
-    : "https://figutld.onrender.com";
+const host = window.location.hostname;
 
-    //192.168.0.251
+export const api =
+    host === "localhost" ||
+    host === "192.168.0.175" ||
+    host === "192.168.0.251"
+        ? "http://localhost:5050"
+        : "https://figutld.onrender.com";
