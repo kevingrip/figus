@@ -2,6 +2,92 @@ import { obtenerFiguritas,obtenerVentas } from "./api.js";
 import { cosecharFigus } from "./javascript/cosecharFigus.js";
 import { buscarFigus } from "./javascript/buscarFigus.js"
 import { totalVentas } from "./javascript/ventas.js";
+import { StockFigusLuly } from "./javascript/StockFigusLuly.js";
+import { buscarFigusLuly } from "./javascript/buscarFigusLuly.js";
+
+const botonesElementosBuscar = [
+    {
+        botonId:"botonMundialUsaBuscarOnline",
+        album:"mundialUsa2026",
+        baseJson:"baseMundialUsa",
+        canalVenta:"ONLINE"
+    },
+    {
+        botonId:"botonMundialUsaBuscarPresencial",
+        album:"mundialUsa2026",
+        baseJson:"baseMundialUsa",
+        canalVenta:"PRESENCIAL"
+    },
+    {
+        botonId:"botonMundialUsaBuscarLuly",
+        album:"mundialUsa2026",
+        baseJson:"baseMundialUsa",
+        canalVenta:"PRESENCIAL"
+    },
+    {
+        botonId:"botonMundialQatarBuscar",
+        album:"mundialQatar2022",
+        baseJson:"baseMundial",
+        canalVenta:"ONLINE"
+    },
+    {
+        botonId:"botonCopaAmericaBuscar",
+        album:"copaAmerica2024",
+        baseJson:"base_copam",
+        canalVenta:"ONLINE"
+    },
+    {
+        botonId:"botonFutArg23Buscar",
+        album:"futbolArgentino2023",
+        baseJson:"baseFutarg",
+        canalVenta:"ONLINE"
+    },
+    {
+        botonId:"botonFutArg24Buscar",
+        album:"futbolArgentino2024",
+        baseJson:"baseFutarg24",
+        canalVenta:"ONLINE"
+    },
+    {
+        botonId:"botonLibertadores23Buscar",
+        album:"libertadores2023",
+        baseJson:"baseLali",
+        canalVenta:"ONLINE"
+    }
+]
+
+const botonesElementosCosecha = [
+    {
+        botonId:"botonMundialUsaCosecha",
+        album:"mundialUsa2026",
+        baseJson:"baseMundialUsa",
+    },
+    {
+        botonId:"botonMundialQatarCosecha",
+        album:"mundialQatar2022",
+        baseJson:"baseMundial",
+    },
+    {
+        botonId:"botonCopaAmericaCosecha",
+        album:"copaAmerica2024",
+        baseJson:"base_copam",
+    },
+    {
+        botonId:"botonFutArg23Cosecha",
+        album:"futbolArgentino2023",
+        baseJson:"baseFutarg",
+    },
+    {
+        botonId:"botonFutArg24Cosecha",
+        album:"futbolArgentino2024",
+        baseJson:"baseFutarg24",
+    },
+    {
+        botonId:"botonLibertadores23Cosecha",
+        album:"libertadores2023",
+        baseJson:"baseLali",
+    }
+]
 
 const botones = document.querySelectorAll(".bloqueAlbum");
 botones.forEach(boton => {
@@ -14,54 +100,29 @@ botones.forEach(boton => {
     });
 });
 
-const botonMundialUsaBuscarOnline = document.getElementById("botonMundialUsaBuscarOnline")
-botonMundialUsaBuscarOnline?.addEventListener('click', async () => {
-    try {
-        const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
-        buscarFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026","ONLINE");
-    } catch (error) {
-        console.error(error);
-    }
+botonesElementosBuscar.forEach(objeto => {
+    const boton = document.getElementById(objeto.botonId)
+    boton?.addEventListener('click', async () => {
+        try {
+            const figuritas = await obtenerFiguritas(objeto.album);
+            if (objeto.botonId=="botonMundialUsaBuscarLuly"){
+                buscarFigusLuly(objeto.baseJson, figuritas, objeto.album, objeto.canalVenta);
+            }else{
+                buscarFigus(objeto.baseJson, figuritas, objeto.album, objeto.canalVenta);
+            }
+            
+        } catch (error) {
+            console.error(error);
+        }
+    })
 })
 
-const botonMundialUsaBuscarPresencial = document.getElementById("botonMundialUsaBuscarPresencial")
-botonMundialUsaBuscarPresencial?.addEventListener('click', async () => {
-    try {
-        const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
-        buscarFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026","PRESENCIAL");
-    } catch (error) {
-        console.error(error);
-    }
-})
-
-const botonMundialQatarBuscar = document.getElementById("botonMundialQatarBuscar")
-botonMundialQatarBuscar?.addEventListener('click', async () => {
-    const figusMundialQatar = await obtenerFiguritas("mundialQatar2022");
-    buscarFigus("baseMundial", figusMundialQatar, "mundialQatar2022","ONLINE");
-})
-
-const botonCopaAmericaBuscar = document.getElementById("botonCopaAmericaBuscar")
-botonCopaAmericaBuscar?.addEventListener('click', async () => {
-    const figusCopaAmerica = await obtenerFiguritas("copaAmerica2024");
-    buscarFigus("base_copam", figusCopaAmerica, "copaAmerica2024","ONLINE");
-})
-
-const botonMundialUsaCosecha = document.getElementById("botonMundialUsaCosecha")
-botonMundialUsaCosecha?.addEventListener('click', async () => {
-    const figusMundialUsa = await obtenerFiguritas("mundialUsa2026");
-    cosecharFigus("baseMundialUsa", figusMundialUsa, "mundialUsa2026");
-})
-
-const botonCopaAmericaCosecha = document.getElementById("botonCopaAmericaCosecha")
-botonCopaAmericaCosecha?.addEventListener('click', async () => {
-    const figusCopaAmerica = await obtenerFiguritas("copaAmerica2024");
-    cosecharFigus("base_copam", figusCopaAmerica, "copaAmerica2024");
-})
-
-const botonMundialQatarCosecha = document.getElementById("botonMundialQatarCosecha")
-botonMundialQatarCosecha?.addEventListener('click', async () => {
-    const figusMundialQatar = await obtenerFiguritas("mundialQatar2022");
-    cosecharFigus("baseMundialQatar", figusMundialQatar, "mundialQatar2022");
+botonesElementosCosecha.forEach(objeto => {
+    const boton = document.getElementById(objeto.botonId)
+    boton?.addEventListener('click', async () => {
+    const figuritas = await obtenerFiguritas(objeto.album);
+    cosecharFigus(objeto.baseJson, figuritas, objeto.album);
+    })
 })
 
 const elementVentas = document.getElementById("totalVentas")
@@ -69,6 +130,13 @@ if (elementVentas){
     const ventas = await obtenerVentas();
     await totalVentas(ventas);
 }
+
+const botonStockLuly = document.getElementById("botonStockLuly")
+botonStockLuly?.addEventListener("click",async()=>{
+    const stockLuly = await obtenerFiguritas("mundialUsa2026")
+    StockFigusLuly(stockLuly,"mundialUsa2026")
+})
+
 
 
 

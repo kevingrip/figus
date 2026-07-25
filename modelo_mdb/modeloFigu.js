@@ -20,6 +20,11 @@ const esquema_figu = new mongoose.Schema({
             PRECIO: Number,
             Q_HIST: Number
         },
+        LULY: {
+            CANT: Number,
+            PRECIO: Number,
+            Q_HIST: Number
+        },
         OTROS: {
             CANT: Number,
             PRECIO: Number,

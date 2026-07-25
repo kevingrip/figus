@@ -15,25 +15,25 @@
     <h5>// Hora de ultima actualizacion: <span id="ultimaActualizacion"></span></h5>
     <h5>// Usuario de ultima actualizacion: <span id="userUpdate"></span></h5>
 
-    <a onclick="window.location.href='indexv2.html'"><h1 class="posBusc rubik-vinyl-regular">Lafi</h1></a>
-
-    <div class="posSubtituloH3">
-        <h3 class="posBusc">Cosechar</h3>
-    </div>   
-
+    <a><h1 class="posBusc rubik-vinyl-regular">Lafi</h1></a>
+    <div class="posSubtituloH3" >
+        <h3 class="posBusc">Buscador</h3>
+    </div>       
     
     <div class="posBusc">
+        <h4>Ingresa las figus:</h4>
+        <textarea style="margin-bottom: 40px;" type="text" id="entrada" class="inpt"></textarea>
         <div>
             <div class="posBtn">
-                <button class="bloqueAlbum" id="botonMundialQatarCosecha">Mundial Qatar 2022</button>              
-                <button class="bloqueAlbum" id="botonCopaAmericaCosecha">Copa America 2024</button>
-                <button class="bloqueAlbum pressed" id="botonMundialUsaCosecha">Mundial USA 2026</button>
+                <button class="bloqueAlbum" id="botonMundialQatarBuscar">Mundial Qatar 2022</button>              
+                <button class="bloqueAlbum" id="botonCopaAmericaBuscar">Copa America 2024</button>
+                <button class="bloqueAlbum pressed" id="botonMundialUsaBuscarLuly" >Mundial USA 2026</button>
                 
             </div>
             <div class="posBtn">
-                <button class="bloqueAlbum" id="botonFutArg23Cosecha">Futbol Argentino 2023</button>
-                <button class="bloqueAlbum" id="botonLibertadores23Cosecha">Copa Libertadores 2023</button>
-                <button class="bloqueAlbum" id="botonFutArg24Cosecha">Futbol Argentino 2024</button>
+                <button class="bloqueAlbum" onclick="albumFigu('baseFutarg',event,'buscarFigus')">Futbol Argentino 2023</button>
+                <button class="bloqueAlbum" onclick="albumFigu('baseLali',event,'buscarFigus')">Copa Libertadores 2023</button>
+                <button class="bloqueAlbum" onclick="albumFigu('baseFutarg24',event,'buscarFigus')">Futbol Argentino 2024</button>
             </div>
         </div>
     </div>

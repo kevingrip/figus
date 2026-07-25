@@ -217,7 +217,7 @@ const precioBarato = (precioTotal, tipo, precioOnline) => {
 }
 
 
-export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) => {
+export const buscarFigusLuly = (nombreJson, albumFigus, albumRuta, canalPregunta) => {
     const Toast = Swal.mixin({
         toast: true,
         position: 'top-end',
@@ -261,11 +261,22 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
     figusDeLaBase.forEach(figu => {
 
-        if (figu.STOCK.PDM.CANT > 0) {
-            totalPrecio += figu.STOCK.PDM.PRECIO;
+        if (figu.STOCK.LULY.CANT > 0) {
+            totalPrecio += figu.STOCK.LULY.PRECIO;
 
             figusEnStock.push(figu)
 
+
+        } else if (figu.STOCK.PDM.CANT > 0) {
+            let precio = figu.STOCK.MATI.PRECIO
+
+            if (canalPregunta == "ONLINE") {
+                totalPrecio += precio;
+            } else {
+                totalPrecio = precioBarato(totalPrecio, figu.TIPO, precio)
+            }
+
+            figusEnStock.push(figu)
 
         } else if (figu.STOCK.MATI.CANT > 0) {
             let precio = figu.STOCK.MATI.PRECIO
@@ -364,14 +375,14 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
             const li = document.createElement('li');
             li.classList.add('listaClass')
 
-            let cant_stock = figu.STOCK.MATI.CANT + figu.STOCK.PDM.CANT + figu.STOCK.CAMBIOS.CANT + figu.STOCK.OTROS.CANT
-            let precioOnline = figu.STOCK.PDM.CANT > 0 ? figu.STOCK.PDM.PRECIO : figu.STOCK.MATI.CANT > 0 ? figu.STOCK.MATI.PRECIO : figu.STOCK.CAMBIOS.CANT > 0 ? figu.STOCK.CAMBIOS.PRECIO : figu.STOCK.OTROS.CANT > 0 ? figu.STOCK.OTROS.PRECIO : 0
+            let cant_stock = figu.STOCK.MATI.CANT + figu.STOCK.PDM.CANT + figu.STOCK.CAMBIOS.CANT + figu.STOCK.LULY.CANT + figu.STOCK.OTROS.CANT
+            let precio = figu.STOCK.LULY.CANT > 0 ? figu.STOCK.LULY.PRECIO : figu.STOCK.PDM.CANT > 0 ? figu.STOCK.PDM.PRECIO : figu.STOCK.MATI.CANT > 0 ? figu.STOCK.MATI.PRECIO : figu.STOCK.CAMBIOS.CANT > 0 ? figu.STOCK.CAMBIOS.PRECIO : figu.STOCK.OTROS.CANT > 0 ? figu.STOCK.OTROS.PRECIO : 0
 
             if (cant_stock == 0) {
-                li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
+                li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0   \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
                 li.style.color = 'red'
             } else {
-                li.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock}  \u00A0\u00A0\u00A0 ${figu.NOMBRE} \u00A0\u00A0\u00A0 ${canalPregunta === "ONLINE" ? "$ " + precioOnline : ""}`;
+                li.innerHTML = `${figu.NUM} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0 ${figu.STOCK.LULY.CANT>0?precio:""}  \u00A0\u00A0\u00A0 ${figu.NOMBRE}  \u00A0\u00A0\u00A0 ${figu.STOCK.LULY.CANT>0?"LULY":""} `;
             }
             separacionDiv1.appendChild(li);
         });

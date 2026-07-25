@@ -38,7 +38,6 @@ app.get("/", (req, res) => {
 
 app.get("/:album", async (req, res) => {
     try {
-        const modelo = obtenerModeloFiguritas(req.params.album);
         const album = req.params.album
 
         const albumes = [
@@ -50,14 +49,19 @@ app.get("/:album", async (req, res) => {
             "copaAmerica2024"
         ]        
 
-        if (albumes.includes(album)) {
-            const cantidad = await modelo.countDocuments();
-            console.log("Cantidad:", cantidad);
-
-            const figuritas = await modelo.find().lean();
-
-            res.json(figuritas);
+        if (!albumes.includes(album)) {
+            return res.status(404).json({ error: "Álbum inexistente" });
         }
+
+        const modelo = obtenerModeloFiguritas(req.params.album);
+
+        const cantidad = await modelo.countDocuments();
+        console.log("Cantidad:", cantidad);
+
+        const figuritas = await modelo.find().lean();
+
+        res.json(figuritas);
+        
 
 
     } catch (error) {
@@ -68,7 +72,6 @@ app.get("/:album", async (req, res) => {
 
 app.get("/proveedores/:album", async (req, res) => {
     try {
-        const modelo = obtenerModeloFiguritas(req.params.album);
         const album = req.params.album
 
         const albumes = [
@@ -80,15 +83,17 @@ app.get("/proveedores/:album", async (req, res) => {
             "copaAmerica2024"
         ]        
 
-        if (albumes.includes(album)) {
-
-            const figuritas = await modelo.findOne().lean();
-            const cantProveedores = Object.keys(figuritas.STOCK);  
-            
-            res.json(cantProveedores);
-        }else{
-            console.log("Error de album pasado por parametro en GET /proveedores/:album")
+        if (!albumes.includes(album)) {
+            return res.status(404).json({ error: "Álbum inexistente" });
         }
+
+        const modelo = obtenerModeloFiguritas(req.params.album);
+
+        const figuritas = await modelo.findOne().lean();
+        const cantProveedores = Object.keys(figuritas.STOCK);  
+        
+        res.json(cantProveedores);
+
 
 
     } catch (error) {
@@ -149,6 +154,6 @@ app.patch("/:album/:accion/:proveedor/:id", async (req, res) => {
 });
 
 app.post("/ventas", async (req, res) => {
-    await Venta.create(req.body);
+    const venta = await Venta.create(req.body);
     res.json({ ok: true });
 });

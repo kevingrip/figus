@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 const modelo_venta = new mongoose.Schema(
     {   
         DIA: Date,
+        VENTAID: Number,
         VENDIDAS: [mongoose.Schema.Types.Mixed],
         FALTANTES: [String],
         PRECIO: Number,

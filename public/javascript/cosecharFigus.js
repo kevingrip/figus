@@ -112,7 +112,10 @@ function cantidadBotonesAnchoAlbum(album, figu, contenedorFigu, resultados) {
 }
 
 function datosBloques(figu, informacion, textoInferior, esClick) {
-    let cantTotal = figu.STOCK.MATI.CANT + figu.STOCK.PDM.CANT + figu.STOCK.CAMBIOS.CANT + figu.STOCK.OTROS.CANT
+
+    const cantTotal = Object.values(figu.STOCK)
+    .reduce((total, proveedor) => total + proveedor.CANT, 0);
+    
     textoInferior.textContent = `Cant: ${cantTotal}`;
     if (figu.TIPO == "COMUNES") {
 
@@ -269,7 +272,6 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
         datosBloques(figu, contenedor, textoInferior, false)
 
         cantidadBotonesAnchoAlbum(albumRuta, figu, contenedor, resultados)
-
 
         botonMas.addEventListener('click', async () => {
 
