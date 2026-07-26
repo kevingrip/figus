@@ -137,11 +137,44 @@ botonStockLuly?.addEventListener("click",async()=>{
     StockFigusLuly(stockLuly,"mundialUsa2026")
 })
 
+const botonesSinStock = [
+    {
+        boton:"botonSinStockQatar",
+        album:"mundialQatar2022"
+    },
+    {
+        boton:"botonSinStockAmerica",
+        album:"copaAmerica2024"
+    },
+    {
+        boton:"botonSinStockUSA",
+        album:"mundialUsa2026"
+    },
+    {
+        boton:"botonSinStockFutArg23",
+        album:"futbolArgentino2023"
+    },
+    {
+        boton:"botonSinStockLibertadores23",
+        album:"libertadores2023"
+    },
+    {
+        boton:"botonSinStockFutArg24",
+        album:"futbolArgentino2024"
+    }
+]
+
+botonesSinStock.forEach(obj =>{
+    const boton = document.getElementById(obj.boton)
+    boton?.addEventListener("click",async ()=>{
+    const figus = await obtenerFiguritas(obj.album);
+    sinStock(figus)
+    })
+})
 
 
-
-const sinStock = () => {
-    let figus = window.todasLasFigus
+const sinStock = async (figus) => {
+    
     let cant = 0
 
     const resultSinStock = document.getElementById('resultadosSinStock');
@@ -153,13 +186,17 @@ const sinStock = () => {
     let figuritas2 = [];
     let figus2str = '';
 
+
     figus.forEach(figu => {
-        if (figu["CANT"] == 0) {
+        const cantStock = Object.values(figu.STOCK)
+                .reduce((total, proveedor) => total + proveedor.CANT, 0);
+
+        if (cantStock == 0) {
             figuritas0.push(figu["NUM"])
             cant += 1
-        } else if (figu["CANT"] == 1) {
+        } else if (cantStock == 1) {
             figuritas1.push(figu["NUM"])
-        } else if (figu["CANT"] == 2) {
+        } else if (cantStock == 2) {
             figuritas2.push(figu["NUM"])
         }
     })

@@ -19,9 +19,7 @@ await mongoose.connect(mongo_url);
 const app = express()
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public"), {
-    maxAge: 0
-}));
+app.use(express.static(path.join(__dirname, "public")));
 
 const PORT = process.env.PORT || 5050;
 
