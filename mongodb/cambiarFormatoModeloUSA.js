@@ -22,36 +22,41 @@ for (const figu of figuritas) {
     //     console.log(figu.NUM, figu.STOCK["MATI"].CANT, figu.STOCK["MATI"].PRECIO);
     // }
 
+    if (figu.TIPO=="FWC" && figu.STOCK["MATI"].PRECIO==7000){
+        figu.STOCK["MATI"].PRECIO=5000
+    }
+    console.log(figu.STOCK["MATI"].PRECIO)
 
-    figu.STOCK = {
-        MATI: {
-            CANT: figu.STOCK["MATI"].CANT,
-            PRECIO: figu.STOCK["MATI"].PRECIO,
-            Q_HIST: figu.STOCK["MATI"].CANT
-        },
-        PDM: {
-            CANT: 0,
-            PRECIO: 0,
-            Q_HIST:0
-        },
-        CAMBIOS: {
-            CANT: 0,
-            PRECIO: 0,
-            Q_HIST:0
-        },
-        LULY: {
-            CANT: 0,
-            PRECIO: 300,
-            Q_HIST:0
-        },
-        OTROS: {
-            CANT: 0,
-            PRECIO: 0,
-            Q_HIST:0
-        }
-    };
+
+    // figu.STOCK = {
+    //     MATI: {
+    //         CANT: figu.STOCK["MATI"].CANT,
+    //         PRECIO: figu.STOCK["MATI"].PRECIO,
+    //         Q_HIST: figu.STOCK["MATI"].CANT
+    //     },
+    //     PDM: {
+    //         CANT: 0,
+    //         PRECIO: 0,
+    //         Q_HIST:0
+    //     },
+    //     CAMBIOS: {
+    //         CANT: 0,
+    //         PRECIO: 0,
+    //         Q_HIST:0
+    //     },
+    //     LULY: {
+    //         CANT: 0,
+    //         PRECIO: 300,
+    //         Q_HIST:0
+    //     },
+    //     OTROS: {
+    //         CANT: 0,
+    //         PRECIO: 0,
+    //         Q_HIST:0
+    //     }
+    // };
     
-    console.log(figu.STOCK.LULY)
+    // console.log(figu.STOCK.LULY)
 
 
     await figu.save();

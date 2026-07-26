@@ -1,6 +1,6 @@
 import { obtenerFiguritas,obtenerVentas } from "./api.js";
 import { cosecharFigus } from "./javascript/cosecharFigus.js";
-import { buscarFigus } from "./javascript/buscarFigus.js"
+import { buscarFigus } from "./javascript/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/ventas.js";
 import { StockFigusLuly } from "./javascript/StockFigusLuly.js";
 import { buscarFigusLuly } from "./javascript/buscarFigusLuly.js";
@@ -13,16 +13,16 @@ const botonesElementosBuscar = [
         canalVenta:"ONLINE"
     },
     {
-        botonId:"botonMundialUsaBuscarPresencial",
+        botonId:"botonMundialUsaBuscarAri",
         album:"mundialUsa2026",
         baseJson:"baseMundialUsa",
-        canalVenta:"PRESENCIAL"
+        canalVenta:"ARI"
     },
     {
         botonId:"botonMundialUsaBuscarLuly",
         album:"mundialUsa2026",
         baseJson:"baseMundialUsa",
-        canalVenta:"PRESENCIAL"
+        canalVenta:"LULY"
     },
     {
         botonId:"botonMundialQatarBuscar",

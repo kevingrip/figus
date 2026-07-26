@@ -1,6 +1,6 @@
 import { api } from "../config.js";
 
-function crearBotonContenedor(figu,album) {
+function crearBotonContenedor(figu, album) {
     const contenedor = document.createElement("div");
     contenedor.style.display = "inline-flex";
     contenedor.style.flexDirection = "column";
@@ -27,53 +27,57 @@ function crearBotonContenedor(figu,album) {
     informacion.appendChild(textoSuperior);
     informacion.appendChild(textoInferior);
 
-    contenedor.style.margin="3px"
+    contenedor.style.margin = "3px"
 
     contenedor.appendChild(informacion);
 
-    if (album=="mundialQatar2022"){
-        contenedor.style.backgroundColor="orange"
-    }else if (album=="mundialUsa2026"){
-        contenedor.style.backgroundColor="violet"
+    if (album == "mundialQatar2022") {
+        contenedor.style.backgroundColor = "orange"
+    } else if (album == "mundialUsa2026") {
+        contenedor.style.backgroundColor = "violet"
+    } else if (album == "copaAmerica2024") {
+        contenedor.style.backgroundColor = "skyblue"
     }
-    
+
     return contenedor
 }
 
 export const totalVentas = async (todasLasVentas) => {
     const totalVentasElement = document.getElementById('totalVentas');
 
-    const contenedorPadre = document.createElement("div")    
+    const contenedorPadre = document.createElement("div")
 
     if (totalVentasElement) {
-        let totalPrecioVentas=0
+        let totalPrecioVentas = 0
         todasLasVentas.forEach(venta => {
             console.log(venta);
             const album = venta.ALBUM;
 
-            totalPrecioVentas+=venta.PRECIO
+            totalPrecioVentas += venta.PRECIO
 
             const contenedorVenta = document.createElement("div")
             const contenedorInfo = document.createElement("div")
+            const contenedorInfo2 = document.createElement("div")
             const contenedorFigus = document.createElement("div")
 
             const tituloAlbum = document.createElement("p")
-            tituloAlbum.textContent=album
+            tituloAlbum.textContent = album
 
             const envio = document.createElement("p")
-            envio.textContent= venta.ENVIO ? `Envio: ${venta.ENVIO}`: ""
+            envio.textContent = venta.ENVIO ? `Envio: ${venta.ENVIO}` : ""
 
             const cuenta = document.createElement("p")
-            cuenta.textContent=`Cuenta: ${venta.CUENTA}`
-            
+            cuenta.textContent = `Cuenta: ${venta.CUENTA}`
+
             const cantidad = document.createElement("p")
-            cantidad.textContent=`Cantidad: ${venta.VENDIDAS.length}`
+            cantidad.textContent = `Cantidad: ${venta.VENDIDAS.length}`
 
             const precio = document.createElement("p")
-            precio.textContent=`Precio: ${venta.PRECIO}`
+            precio.textContent = `Precio: ${venta.PRECIO}`
 
             const dia = document.createElement("p")
-            dia.textContent=`Dia de venta: ${new Date(venta.DIA).toLocaleDateString("es-AR")} // ${new Date(venta.DIA).toLocaleTimeString("es-AR")}`
+            dia.textContent = `Dia de venta: ${new Date(venta.DIA).toLocaleDateString("es-AR")} // ${new Date(venta.DIA).toLocaleTimeString("es-AR")}`
+
 
             contenedorInfo.appendChild(tituloAlbum)
             contenedorInfo.appendChild(dia)
@@ -81,26 +85,36 @@ export const totalVentas = async (todasLasVentas) => {
             contenedorInfo.appendChild(cantidad)
             contenedorInfo.appendChild(precio)
             contenedorInfo.appendChild(envio);
-            
 
-            contenedorInfo.style.display="flex"
-            contenedorInfo.style.justifyContent="space-evenly"
-            contenedorInfo.style.backgroundColor ="#E0E0E0"
+            if (venta.VENTAID != null) {
+                const ventaid = document.createElement('p');
+                ventaid.textContent = `Venta ID: ${venta.VENTAID}`;
+                contenedorInfo2.appendChild(ventaid);
+            }
 
 
-            venta.VENDIDAS.forEach(figu=>{ 
+            contenedorInfo.style.display = "flex"
+            contenedorInfo.style.justifyContent = "space-evenly"
+            contenedorInfo.style.backgroundColor = "#E0E0E0"
+
+            contenedorInfo2.style.backgroundColor = "lightgreen"
+
+
+            venta.VENDIDAS.forEach(figu => {
                 console.log(figu)
-                contenedorFigus.appendChild(crearBotonContenedor(figu.NUM,album))
+                contenedorFigus.appendChild(crearBotonContenedor(figu.NUM, album))
             })
 
             contenedorVenta.appendChild(contenedorInfo)
-            contenedorVenta.appendChild(contenedorFigus)            
+            contenedorVenta.appendChild(contenedorInfo2)
+            contenedorVenta.appendChild(contenedorFigus)
+            contenedorVenta.style.marginBottom="50px"
             totalVentasElement.appendChild(contenedorVenta)
         });
 
         const totalVendido = document.createElement("div")
-        totalVendido.textContent=`Total Vendido: $ ${totalPrecioVentas}`
-        totalVentasElement.prepend(totalVendido)        
+        totalVendido.textContent = `Total Vendido: $ ${totalPrecioVentas}`
+        totalVentasElement.prepend(totalVendido)
     }
 
 
