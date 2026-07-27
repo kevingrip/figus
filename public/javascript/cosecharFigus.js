@@ -1,5 +1,5 @@
 import { api } from "../config.js";
-
+import { ordenarAlfabeticamente } from "./ordenarAlfabeticamente.js";
 
 function crearBotonContenedor(figu) {
     const contenedor = document.createElement("div");
@@ -149,6 +149,20 @@ async function crearProovedores(resultados, albumRuta, mostrarCantidades) {
         method: "GET"
     });
     const listaProveedores = await respuesta.json();
+
+    const ventas = await fetch(`${api}/ventas`, {
+        method: "GET"
+    });
+    const listaVentas = await ventas.json();
+
+
+    const ventasAlbum = listaVentas.filter(venta=> venta.ALBUM===albumRuta)
+    console.log(ventasAlbum)
+    const vendidas = ventasAlbum.reduce((total, venta) => {
+    return total + venta.VENDIDAS.length;
+    }, 0);
+    console.log(vendidas)
+
     console.log("Lista de proveedores: ", listaProveedores)
 
     const selectorProveedor = document.createElement("div")
@@ -192,7 +206,7 @@ async function crearProovedores(resultados, albumRuta, mostrarCantidades) {
     })
 
     return {
-        getProveedor: () => proveedor
+        getProveedor: () => proveedor,vendidas
     };
 
 }
@@ -215,7 +229,7 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
     const resultados = document.getElementById('resultados');
     resultados.innerHTML = ''
 
-    const { getProveedor } = await crearProovedores(resultados, albumRuta, mostrarCantidades, figuritas)
+    const { getProveedor,vendidas } = await crearProovedores(resultados, albumRuta, mostrarCantidades, figuritas)
 
     const bloqueCantidades = document.createElement("div")
     const textoCantHist = document.createElement("p")
@@ -226,42 +240,19 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
 
     function mostrarCantidades() {
         const proveedor = getProveedor();
-        let cant_Q_Hist = 0
-        let cant_Q_Actual = 0
+        let cantBase = 0
         figuritas.forEach(element => {
-            cant_Q_Hist += element.STOCK[proveedor].Q_HIST
-            cant_Q_Actual += element.STOCK[proveedor].CANT
+            cantBase += element.STOCK[proveedor].CANT
         });
 
-        textoCantHist.textContent = `Cant Compradas a proveedor: ${cant_Q_Hist}`
-        textoCantActual.textContent = `Cant Stock Real: ${cant_Q_Actual}`
-        textoPrecioCompra.textContent = `Monto Invertido ($250): $${cant_Q_Hist * 250}`
+        textoCantHist.textContent = `Cant Compradas a proveedor: ${cantBase+vendidas}`
+        textoCantActual.textContent = `Cant Stock Real: ${cantBase}`
+        textoPrecioCompra.textContent = `Monto Invertido ($230): $${cantBase * 230}`
     }
 
     let figusSeleccionadas = ""
 
-
-    figuritas.sort((a, b) => {
-        const matchA = a.NUM.match(/([A-Za-z]+)(\d+)/); // Separar letras y números
-        const matchB = b.NUM.match(/([A-Za-z]+)(\d+)/);
-
-        if (matchA && matchB) {
-            const letraA = matchA[1];
-            const numeroA = parseInt(matchA[2]);
-            const letraB = matchB[1];
-            const numeroB = parseInt(matchB[2]);
-
-            // Primero ordenar por letra
-            if (letraA !== letraB) {
-                return letraA.localeCompare(letraB);
-            }
-
-            // Luego ordenar por número
-            return numeroA - numeroB;
-        }
-
-        return a.NUM.localeCompare(b.NUM); // Si no coincide con el patrón, usar orden alfabético normal
-    });
+    ordenarAlfabeticamente(figuritas)
 
     figuritas.forEach(figu => {
 
@@ -294,7 +285,6 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
 
                 // actualizar el objeto del frontend
                 figu.STOCK[proveedor].CANT = figuActualizada.STOCK[proveedor].CANT;
-                figu.STOCK[proveedor].Q_HIST = figuActualizada.STOCK[proveedor].Q_HIST;
 
                 let figuCantActualizada = figuActualizada.STOCK[proveedor].CANT;
 
@@ -353,7 +343,6 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
 
                     // actualizar el objeto del frontend
                     figu.STOCK[proveedor].CANT = figuActualizada.STOCK[proveedor].CANT;
-                    figu.STOCK[proveedor].Q_HIST = figuActualizada.STOCK[proveedor].Q_HIST;
 
                     let figuCantActualizada = figuActualizada.STOCK[proveedor].CANT;
 

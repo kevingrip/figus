@@ -8,35 +8,33 @@ await mongoose.connect(process.env.MONGO_URL);
 
 
 
-const Figurita = obtenerModeloFiguritas("futbolArgentino2024");
+const Figurita = obtenerModeloFiguritas("mundialUsa2026");
 
 const figuritas = await Figurita.find();
 
 for (const figu of figuritas) {
-    console.log(figu.NUM, figu.CANT, figu.PRECIO);
+    
 
     figu.STOCK = {
         MATI: {
-            CANT: figu.CANT,
-            PRECIO: figu.PRECIO,
-            Q_HIST: figu.CANT
+            CANT: figu.STOCK.MATI.CANT,
+            PRECIO: figu.STOCK.MATI.PRECIO
         },
         PDM: {
             CANT: 0,
-            PRECIO: 0,
-            Q_HIST:0
+            PRECIO: 0
         },
         CAMBIOS: {
             CANT: 0,
-            PRECIO: 0,
-            Q_HIST:0
+            PRECIO: 0
         },
         OTROS: {
             CANT: 0,
-            PRECIO: 0,
-            Q_HIST:0
+            PRECIO: 0
         }
     };
+
+    console.log(figu.STOCK);
 
     figu.CANT = undefined;
     figu.PRECIO = undefined;

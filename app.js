@@ -120,7 +120,6 @@ app.patch("/:album/:accion/:proveedor/:id", async (req, res) => {
             const modelo = obtenerModeloFiguritas(album);
 
             const cantProveedor = `STOCK.${proveedor}.CANT`;
-            const q_historial = `STOCK.${proveedor}.Q_HIST`;
 
             const incremento = accion === "incrementar" ? 1 : -1;
 
@@ -128,8 +127,7 @@ app.patch("/:album/:accion/:proveedor/:id", async (req, res) => {
                 id,
                 { $inc: 
                     {
-                        [cantProveedor]: incremento,
-                        [q_historial]: incremento
+                        [cantProveedor]: incremento
                     }
                 },
                 {

@@ -18,23 +18,19 @@ for (const figu of figuritas) {
     figu.STOCK = {
         MATI: {
             CANT: figu.CANT,
-            PRECIO: figu.PRECIO,
-            Q_HIST: figu.CANT
+            PRECIO: figu.PRECIO
         },
         PDM: {
             CANT: 0,
-            PRECIO: 0,
-            Q_HIST:0
+            PRECIO: 0
         },
         CAMBIOS: {
             CANT: 0,
-            PRECIO: 0,
-            Q_HIST:0
+            PRECIO: 0
         },
         OTROS: {
             CANT: 0,
-            PRECIO: 0,
-            Q_HIST:0
+            PRECIO: 0
         }
     };
 

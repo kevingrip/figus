@@ -57,6 +57,9 @@ const formatearPaises = (valorInput) => {
     valorInput = valorInput.replace(/LEGENDARIA|LEYENDAS|LEENDA|LEENDAS|LEGENDARIOS|LEGEND|LEGENDA|LEGENDARIAS/g, "LEG");
     valorInput = valorInput.replace(/RHO/g, "ROH");
     valorInput = valorInput.replace(/ECUADOR/g, "ECU");
+    valorInput = valorInput.replace(/CONGO/g, "COD");
+    valorInput = valorInput.replace(/SUECIA|SUE/g, "SWE");
+    valorInput = valorInput.replace(/EGIPTO|EGI/g, "EGY");
 
     valorInput = valorInput.replace(/ YPF/g, "YPF");
     valorInput = valorInput.replace(/ Y/g, "")

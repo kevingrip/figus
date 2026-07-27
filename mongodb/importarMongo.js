@@ -5,8 +5,8 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const archivo = "./baseFutarg.json";
-const coleccion = "futbolArgentino2023";
+const archivo = "./baseMundialUsa.json";
+const coleccion = "mundialUsa2026";
 
 const Figurita = obtenerModeloFiguritas(coleccion);
 const mongo_url = process.env.MONGO_URL
