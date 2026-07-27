@@ -179,7 +179,7 @@ const getStockyPrecio = (figusDeLaConsulta, canalPregunta) => {
             figusEnStock.push(figu)
 
         } else {
-            const proveedor = prioridadConsultaProveedoresLuly.find(proveedor => figu.STOCK[proveedor].CANT > 0)
+            const proveedor = prioridadConsultaProveedoresLuly.find(proveedor => figu.STOCK[proveedor]?.CANT > 0)
             if (proveedor) {
                 totalPrecio += precioBarato(figu.TIPO)
                 figusEnStock.push(figu)
