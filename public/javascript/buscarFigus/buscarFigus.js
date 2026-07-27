@@ -166,7 +166,7 @@ const getStockyPrecio = (figusDeLaConsulta, canalPregunta) => {
 
         if (canalPregunta == "ONLINE") {
 
-            const proveedor = prioridadConsultaProveedoresOnline.find(proveedor => figu.STOCK[proveedor].CANT > 0)
+            const proveedor = prioridadConsultaProveedoresOnline.find(proveedor => figu.STOCK[proveedor]?.CANT > 0)
             if (!proveedor) {
                 !figusSinStock.push(figu.NUM)
                 return
