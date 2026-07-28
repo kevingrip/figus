@@ -181,10 +181,13 @@ const getStockyPrecio = (figusDeLaConsulta, canalPregunta) => {
 
         } else {
             const proveedor = prioridadConsultaProveedoresLuly.find(proveedor => figu.STOCK[proveedor]?.CANT > 0)
-            if (proveedor) {
-                totalPrecio += precioBarato(figu.TIPO)
-                figusEnStock.push(figu)
+            if (!proveedor) {
+                !figusSinStock.push(figu.NUM)
+                return
             }
+            totalPrecio += precioBarato(figu.TIPO)
+            figusEnStock.push(figu)
+            
         }
 
     });
@@ -242,7 +245,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
     contenedorPreguntaOVenta.appendChild(buttonVenta)
     contenedorPreguntaOVenta.classList.add('centrar')
     contenedorPreguntaOVenta.style.backgroundColor = 'black'
-
+    console.log("ss",figusSinStock)
     if (errorEscritura == false) {
 
         const infoPregunta = {
