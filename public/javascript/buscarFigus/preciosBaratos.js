@@ -12,6 +12,8 @@ export const precioBarato = (tipo) => {
     } else if (tipo == "ESCUDO") {
         return 2500
     } else if (tipo == "MESSI") {
-        return 20000
+        return 30000
+    } else if (tipo == "ESPECIAL") {
+        return 6000
     }
 }

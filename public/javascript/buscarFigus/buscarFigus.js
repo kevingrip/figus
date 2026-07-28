@@ -5,6 +5,7 @@ import { precioBarato } from "./preciosBaratos.js";
 
 
 const formatearPaises = (valorInput) => {
+    valorInput = valorInput.replace(/00/g, "0");
     valorInput = valorInput.replace(/WALLES|WALES|GALES|GALS/g, "WAL");
     valorInput = valorInput.replace(/INTRO|INTR/g, "INT");
     valorInput = valorInput.replace(/MEXICO|MEJICO|MXICO|MÉXICO|MX|MEXIVO|MÉX/g, "MEX");
