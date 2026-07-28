@@ -165,6 +165,7 @@ const getStockyPrecio = (figusDeLaConsulta, canalPregunta) => {
 
     const prioridadConsultaProveedoresOnline = ["PDM", "MATI", "CAMBIOS", "OTROS", "LULY"]
     const prioridadConsultaProveedoresLuly = ["LULY", "PDM", "MATI", "CAMBIOS", "OTROS"]
+    const prioridadConsultaProveedoresAri = ["PDM", "MATI", "LULY", "CAMBIOS", "OTROS"]
 
     figusDeLaConsulta.forEach(figu => {
 
@@ -175,26 +176,56 @@ const getStockyPrecio = (figusDeLaConsulta, canalPregunta) => {
                 !figusSinStock.push(figu.NUM)
                 return
             }
-
-            totalPrecio += figu.STOCK[proveedor].PRECIO
+            if (proveedor==="PDM"){
+                totalPrecio += figu.STOCK["PDM"].PRECIO
+            }   
+            else{
+                totalPrecio += figu.STOCK["MATI"].PRECIO
+            }
             figusEnStock.push(figu)
 
-        } else {
+        } else if (canalPregunta == "LULY") {
             const proveedor = prioridadConsultaProveedoresLuly.find(proveedor => figu.STOCK[proveedor]?.CANT > 0)
             if (!proveedor) {
                 !figusSinStock.push(figu.NUM)
                 return
             }
-            totalPrecio += precioBarato(figu.TIPO)
+            if (proveedor==="MATI"){
+                totalPrecio += precioBarato(figu.TIPO)
+            }            
+            else if (proveedor==="LULY"){
+                totalPrecio -= 300
+            }else {
+                totalPrecio += figu.STOCK[proveedor].PRECIO
+            }
+            figusEnStock.push(figu)
+            
+        }else if (canalPregunta == "ARI") {
+            const proveedor = prioridadConsultaProveedoresAri.find(proveedor => figu.STOCK[proveedor]?.CANT > 0)
+            if (!proveedor) {
+                !figusSinStock.push(figu.NUM)
+                return
+            }
+            if (proveedor==="MATI"){
+                totalPrecio += precioBarato(figu.TIPO)
+            } 
+            else if (proveedor==="LULY"){
+                totalPrecio += 300
+            }else {
+                totalPrecio += figu.STOCK[proveedor].PRECIO
+            }
             figusEnStock.push(figu)
             
         }
 
     });
 
+    
+
     if (canalPregunta == "ONLINE") {
         const { contadorTipos } = contarTipoFigu(figusEnStock)
         if (figusSinStock.length == 0 && (totalPrecio + 2000) < 33000) {
+            console.log("entra",totalPrecio)
             totalPrecio += 2000
         } else if (totalPrecio <= 5000 && figusEnStock.length > 0) {
             totalPrecio += (((contadorTipos?.COMUNES ?? 0) * 500) + ((contadorTipos?.ESCUDO ?? 0) * 2000))
@@ -222,7 +253,6 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
 
     let costoEnvioGratis = 33000
     let proveedor;
-
     const { errorEscritura, figusError, figusDeLaConsulta } = figusEntrada(albumFigus)
 
     let { figusEnStock, figusSinStock, totalPrecio } = getStockyPrecio(figusDeLaConsulta, canalPregunta)
@@ -245,7 +275,6 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
     contenedorPreguntaOVenta.appendChild(buttonVenta)
     contenedorPreguntaOVenta.classList.add('centrar')
     contenedorPreguntaOVenta.style.backgroundColor = 'black'
-    console.log("ss",figusSinStock)
     if (errorEscritura == false) {
 
         const infoPregunta = {
@@ -264,6 +293,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
                 canalPregunta
             }
         }
+
         let { mensaje, precioFinal, elementResumenListaFigu, divPregunta } = elementoPregunta(infoPregunta)
 
 

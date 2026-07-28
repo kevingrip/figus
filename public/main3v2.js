@@ -105,12 +105,7 @@ botonesElementosBuscar.forEach(objeto => {
     boton?.addEventListener('click', async () => {
         try {
             const figuritas = await obtenerFiguritas(objeto.album);
-            if (objeto.botonId=="botonMundialUsaBuscarLuly"){
-                buscarFigusLuly(objeto.baseJson, figuritas, objeto.album, objeto.canalVenta);
-            }else{
-                buscarFigus(objeto.baseJson, figuritas, objeto.album, objeto.canalVenta);
-            }
-            
+            buscarFigus(objeto.baseJson, figuritas, objeto.album, objeto.canalVenta);
         } catch (error) {
             console.error(error);
         }

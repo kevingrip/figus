@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import { obtenerModeloFiguritas } from "../modelo_mdb/modeloFiguQAT.js";
+import { obtenerModeloFiguritas } from "../modelo_mdb/modeloFigu.js";
 
 dotenv.config();
 
@@ -23,6 +23,10 @@ for (const figu of figuritas) {
         PDM: {
             CANT: 0,
             PRECIO: 0
+        },
+        LULY: {
+            CANT: 0,
+            PRECIO: 300
         },
         CAMBIOS: {
             CANT: 0,

@@ -17,40 +17,62 @@ const mostrarCuadroResumen = (elementResumenTotal, figusEnStock, figusSinStock, 
     elementResumenTotal.appendChild(elementTotalPrecio);
 }
 
-const imprimirFilas = (cant_stock, figu,filaFigurita,canalPregunta) => {
-        let prioridadProveedores;
-        if (canalPregunta === "ONLINE") {
-            prioridadProveedores = ["PDM", "MATI", "CAMBIOS", "OTROS", "LULY"]
-        } else {
-            prioridadProveedores = ["LULY", "PDM", "MATI", "CAMBIOS", "OTROS"]
-        }
+const imprimirFilas = (cant_stock, figu, filaFigurita, canalPregunta) => {
+    let prioridadProveedores;
+    if (canalPregunta === "ONLINE") {
+        prioridadProveedores = ["PDM", "MATI", "CAMBIOS", "OTROS", "LULY"]
+    } else if (canalPregunta === "LULY") {
+        prioridadProveedores = ["LULY", "PDM", "MATI", "CAMBIOS", "OTROS"]
+    } else if (canalPregunta === "ARI") {
+        prioridadProveedores = ["PDM", "MATI", "LULY", "CAMBIOS", "OTROS"]
+    }
 
-        const proveedorEnStock = prioridadProveedores.find(proveedor =>
-            figu.STOCK[proveedor]?.CANT > 0
-        )
-        const precio = proveedorEnStock ? figu.STOCK[proveedorEnStock].PRECIO : 0
-        const prueba = canalPregunta==="ONLINE"? precio : 0
-        console.log("prueba",prueba)
+    const proveedorEnStock = prioridadProveedores.find(proveedor =>
+        figu.STOCK[proveedor]?.CANT > 0
+    )
 
+
+
+    if (canalPregunta === "LULY") {
+        let precio = proveedorEnStock === "LULY" ? precioBarato(figu.TIPO) - 300 : (proveedorEnStock === "MATI" ? precioBarato(figu.TIPO) : figu.STOCK[proveedorEnStock]?.PRECIO)
         if (cant_stock == 0) {
             filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
             filaFigurita.style.color = 'red'
         } else {
-            filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock}  \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE} \u00A0\u00A0\u00A0 $${canalPregunta=="ONLINE"? precio : (proveedorEnStock==="LULY"?precioBarato(figu.TIPO)-300:precioBarato(figu.TIPO))} \u00A0\u00A0\u00A0 Proveedor ${proveedorEnStock}`;
+            filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock}  \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE} \u00A0\u00A0\u00A0 $${precio} \u00A0\u00A0\u00A0 Proveedor ${proveedorEnStock}`;
+        }
+    } else if (canalPregunta === "ONLINE"){
+        let precio = proveedorEnStock === "PDM" ? figu.STOCK["PDM"].PRECIO : figu.STOCK["MATI"].PRECIO
+        if (cant_stock == 0) {
+            filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
+            filaFigurita.style.color = 'red'
+        } else {
+            filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock}  \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE} \u00A0\u00A0\u00A0 $${precio} \u00A0\u00A0\u00A0 Proveedor ${proveedorEnStock}`;
+        }
+    } else if (canalPregunta === "ARI"){
+        // agregar que si el proveedor es pdm sea mas caro
+        let precio = proveedorEnStock === "LULY" ? precioBarato(figu.TIPO) + 300 : (proveedorEnStock === "MATI" ? precioBarato(figu.TIPO) : figu.STOCK[proveedorEnStock]?.PRECIO)
+        if (cant_stock == 0) {
+            filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
+            filaFigurita.style.color = 'red'
+        } else {
+            filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock}  \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE} \u00A0\u00A0\u00A0 $${precio} \u00A0\u00A0\u00A0 Proveedor ${proveedorEnStock}`;
         }
     }
 
+}
+
 const mostrarFiguritasFilas = (figusDeLaConsulta, elementResumenListaFigu, canalPregunta) => {
 
-    
+
     figusDeLaConsulta.forEach(figu => {
 
         const filaFigurita = document.createElement('li');
         filaFigurita.classList.add('listaClass')
 
         let cant_stock = Object.values(figu.STOCK).reduce((total, proveedor) => total + (proveedor.CANT ?? 0), 0)
-        
-        imprimirFilas(cant_stock,figu,filaFigurita,canalPregunta)
+
+        imprimirFilas(cant_stock, figu, filaFigurita, canalPregunta)
 
         elementResumenListaFigu.appendChild(filaFigurita);
     });
@@ -136,7 +158,7 @@ export const elementoPregunta = ({ elementos, datos }) => {
     const botonCopiarFigus = document.createElement('button')
     botonCopiarFigus.textContent = 'Copiar Figus'
 
-    mostrarFiguritasFilas(figusDeLaConsulta, elementResumenListaFigu,canalPregunta)
+    mostrarFiguritasFilas(figusDeLaConsulta, elementResumenListaFigu, canalPregunta)
     mostrarCuadroResumen(elementResumenTotal, figusEnStock, figusSinStock, totalPrecio)
 
 
