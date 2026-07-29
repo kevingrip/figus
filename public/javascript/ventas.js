@@ -17,7 +17,7 @@ function crearBotonContenedor(figu, album) {
     informacion.style.alignItems = "center";
 
     const textoSuperior = document.createElement("div");
-    textoSuperior.textContent = figu;
+    textoSuperior.textContent = figu.NUM;
     textoSuperior.style.fontSize = "13px";
     textoSuperior.style.fontWeight = "bold";
 
@@ -43,6 +43,40 @@ function crearBotonContenedor(figu, album) {
     return contenedor
 }
 
+const figuGrande = (figu,contenedorFiguGrande) =>{
+    contenedorFiguGrande.style.display = "flex";
+    contenedorFiguGrande.style.justifyContent="center"
+
+    const figuritaGrande = document.createElement("div")
+    const figuNum = document.createElement("b")
+    const figuNombre = document.createElement("b")
+    figuritaGrande.style.display = "flex";
+    figuritaGrande.style.flexDirection = "column";
+    figuritaGrande.style.height ="400px"
+    figuritaGrande.style.width = "250px"
+    figuritaGrande.style.marginBottom = "20px"
+    figuritaGrande.style.backgroundColor = "#27F5CC"
+    figuritaGrande.style.border = "5px solid #27A3F5"
+    figuritaGrande.style.borderRadius = "10%";
+
+    figuNum.textContent = figu.NUM
+    figuNum.style.height="60px"
+    figuNum.style.display="flex"
+    figuNum.style.alignItems="end"
+    figuNum.style.justifyContent="center"
+
+    figuNombre.textContent=figu.NOMBRE
+    figuNombre.style.fontSize="30px"
+    figuNombre.style.flex = "1";
+    figuNombre.style.display = "flex";
+    figuNombre.style.alignItems="center"
+    figuNombre.style.textAlign="center"
+    figuNombre.style.justifyContent="center"
+    figuritaGrande.appendChild(figuNum)
+    figuritaGrande.appendChild(figuNombre)
+    contenedorFiguGrande.appendChild(figuritaGrande)
+}
+
 export const totalVentas = async (todasLasVentas) => {
     const totalVentasElement = document.getElementById('totalVentas');
 
@@ -51,7 +85,6 @@ export const totalVentas = async (todasLasVentas) => {
     if (totalVentasElement) {
         let totalPrecioVentas = 0
         todasLasVentas.forEach(venta => {
-            console.log(venta);
             const album = venta.ALBUM;
 
             totalPrecioVentas += venta.PRECIO
@@ -105,13 +138,70 @@ export const totalVentas = async (todasLasVentas) => {
 
 
             venta.VENDIDAS.forEach(figu => {
-                console.log(figu)
-                contenedorFigus.appendChild(crearBotonContenedor(figu.NUM, album))
+                contenedorFigus.appendChild(crearBotonContenedor(figu, album))
+            })
+
+            const crearBotonVerDetalle = document.createElement("button")
+            const contenedorBotones = document.createElement("div")
+            const contenedorFiguGrande = document.createElement("div")
+            crearBotonVerDetalle.textContent="Chequear"
+            
+            crearBotonVerDetalle.addEventListener("click",()=>{
+                let posicion = 0
+                contenedorFigus.remove()
+
+                contenedorBotones.replaceChildren();
+                contenedorFiguGrande.replaceChildren();
+                
+                const botonSiguiente = document.createElement("button")
+                botonSiguiente.textContent="Siguiente"
+                const botonAnterior = document.createElement("button")
+                botonAnterior.textContent="Anterior"
+
+                contenedorBotones.style.display = "flex";
+                contenedorBotones.style.justifyContent="center"
+                contenedorBotones.appendChild(botonAnterior)
+                contenedorBotones.appendChild(botonSiguiente)
+                contenedorVenta.appendChild(crearBotonVerDetalle)
+                crearBotonVerDetalle.remove()
+                contenedorVenta.appendChild(contenedorFiguGrande)
+                contenedorVenta.appendChild(contenedorBotones)
+                const maxFiguritas = venta.VENDIDAS.length-1
+                figuGrande(venta.VENDIDAS[posicion],contenedorFiguGrande)       
+
+                botonSiguiente.addEventListener("click",()=>{
+                    if (posicion<maxFiguritas){
+                        posicion+=1
+                    }
+                    else{
+                        contenedorFiguGrande.remove()
+                        contenedorBotones.remove()
+                        contenedorVenta.appendChild(contenedorFigus)
+                        contenedorVenta.appendChild(crearBotonVerDetalle)
+                    }
+                    contenedorFiguGrande.innerHTML = "";
+                    figuGrande(venta.VENDIDAS[posicion],contenedorFiguGrande)        
+                })
+                botonAnterior.addEventListener("click",()=>{
+                    if (posicion>0){
+                        posicion-=1
+                    }
+                    else{
+                        contenedorFiguGrande.remove()
+                        contenedorBotones.remove()
+                        contenedorVenta.appendChild(contenedorFigus)
+                        contenedorVenta.appendChild(crearBotonVerDetalle)
+                    }
+                    contenedorFiguGrande.innerHTML = "";
+                    figuGrande(venta.VENDIDAS[posicion],contenedorFiguGrande)
+                })
+                
             })
 
             contenedorVenta.appendChild(contenedorInfo)
             contenedorVenta.appendChild(contenedorInfo2)
             contenedorVenta.appendChild(contenedorFigus)
+            contenedorVenta.appendChild(crearBotonVerDetalle)
             contenedorVenta.style.marginBottom = "50px"
             totalVentasElement.appendChild(contenedorVenta)
         });
