@@ -1,6 +1,6 @@
 
-const operacionDescargar = async (albumFigus, figusEnStock, canalPregunta, nombreCuenta, divVenta, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta,api) => {
-    
+const operacionDescargar = async (albumFigus, figusEnStock, canalPregunta, nombreCuenta, divVenta, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, api) => {
+
     let divDescargarVenta = document.createElement('div')
     divDescargarVenta.style.display = 'flex'
     divDescargarVenta.style.flexDirection = 'column'
@@ -105,10 +105,10 @@ const operacionDescargar = async (albumFigus, figusEnStock, canalPregunta, nombr
 
 }
 
-const descontarBaseMongodb = async (proveedor, albumRuta, figu,api) => {
+const descontarBaseMongodb = async (proveedor, albumRuta, figu, api) => {
     try {
 
-        const response = await fetch(`${api}/${albumRuta}/decrementar/${proveedor}/${figu._id}`, {
+        const response = await fetch(`${api}/${albumRuta}/descontarventa/${proveedor}/${figu._id}`, {
             method: "PATCH"
         });
 
@@ -135,7 +135,7 @@ const descontarBaseMongodb = async (proveedor, albumRuta, figu,api) => {
     }
 }
 
-const agregarCuenta = (usuariosVendedores, divVenta, albumFigus, canalPregunta, figusEnStock, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta,botonDescargaCreado,api) => {
+const agregarCuenta = (usuariosVendedores, divVenta, albumFigus, canalPregunta, figusEnStock, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, botonDescargaCreado, api) => {
     let divCuenta = document.createElement('div')
     divCuenta.style.display = 'flex'
     divCuenta.style.justifyContent = 'center'
@@ -151,16 +151,15 @@ const agregarCuenta = (usuariosVendedores, divVenta, albumFigus, canalPregunta, 
         boton.style.marginRight = '10px'
         botones.push(boton)
         divCuenta.appendChild(boton)
-        
+
         boton.addEventListener('click', () => {
             botones.forEach(boton => {
                 boton.style.backgroundColor = ""
             })
             boton.style.backgroundColor = 'lightgreen'
-            if(!botonDescargaCreado){
-                botonDescargaCreado=true
-                operacionDescargar(albumFigus, figusEnStock, canalPregunta, nombre, divVenta, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta,api)
-
+            if (!botonDescargaCreado) {
+                botonDescargaCreado = true
+                operacionDescargar(albumFigus, figusEnStock, canalPregunta, nombre, divVenta, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, api)
             }
         })
     });
@@ -189,19 +188,19 @@ const elementoVenta = ({ elementos, datos, ruta }) => {
 
     const { figusSinStock, figusEnStock, albumFigus, albumRuta, canalPregunta, nombreJson, precioFinal } = datos;
 
-    let {api} = ruta
+    let { api } = ruta
 
     let divVenta = document.createElement('div');
     let divEnvio = null
     let divCuenta = null
     let nombreCuenta;
     let tipoEnvio;
-    
+
     let botonUsuariosCreado = false
     let botonDescargaCreado = false
 
     buttonPregunta.addEventListener('click', () => {
-        divVenta?.remove()        
+        divVenta?.remove()
     })
 
     buttonVenta.addEventListener('click', () => {
@@ -244,7 +243,7 @@ const elementoVenta = ({ elementos, datos, ruta }) => {
                     divEnvio.style.height = '100px'
 
                     const variantesEnvio = ["CORREO", "FLEX"]
-                    const usuariosVendedores = ["KEVIN", "MATI"]
+                    const usuariosVendedores = ["KEVIN", "MATI", "MAMA"]
 
                     let botonesEnvio = []
 
@@ -265,9 +264,9 @@ const elementoVenta = ({ elementos, datos, ruta }) => {
                             boton.style.backgroundColor = 'lightgreen'
 
                             tipoEnvio = variante
-                            if(!botonUsuariosCreado){
-                                botonUsuariosCreado=true
-                                divCuenta = agregarCuenta(usuariosVendedores, divVenta, albumFigus, canalPregunta, figusEnStock, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta,botonDescargaCreado,api)
+                            if (!botonUsuariosCreado) {
+                                botonUsuariosCreado = true
+                                divCuenta = agregarCuenta(usuariosVendedores, divVenta, albumFigus, canalPregunta, figusEnStock, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, botonDescargaCreado, api)
                             }
                         }
                         )
@@ -275,13 +274,13 @@ const elementoVenta = ({ elementos, datos, ruta }) => {
                     })
                     divVenta.appendChild(divEnvio)
 
-                } else {
-                    //agregarCuenta("LULY", "ARI", divVenta, albumFigus, canalPregunta, figusEnStock, nombreJson, totalPrecio, figusSinStock, tipoEnvio, albumRuta)
                 }
-
-
+            } else {
+                const usuariosVendedores = ["LULY", "ARI"]
+                agregarCuenta(usuariosVendedores, divVenta, albumFigus, canalPregunta, figusEnStock, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, botonDescargaCreado, api)
             }
-        }})
+        }
+    })
 }
 
-export {operacionDescargar,descontarBaseMongodb,agregarCuenta, elementoVenta}
+export { operacionDescargar, descontarBaseMongodb, agregarCuenta, elementoVenta }

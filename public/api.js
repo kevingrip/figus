@@ -1,6 +1,7 @@
 import { api } from "./config.js";
-
 export async function obtenerFiguritas(album) {
+    console.log("api",api)
+
     const res = await fetch(`${api}/${album}`);
     return await res.json();
 }

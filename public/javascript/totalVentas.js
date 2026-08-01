@@ -43,16 +43,16 @@ function crearBotonContenedor(figu, album) {
     return contenedor
 }
 
-const figuGrande = (figu,contenedorFiguGrande) =>{
+const figuGrande = (figu, contenedorFiguGrande) => {
     contenedorFiguGrande.style.display = "flex";
-    contenedorFiguGrande.style.justifyContent="center"
+    contenedorFiguGrande.style.justifyContent = "center"
 
     const figuritaGrande = document.createElement("div")
     const figuNum = document.createElement("b")
     const figuNombre = document.createElement("b")
     figuritaGrande.style.display = "flex";
     figuritaGrande.style.flexDirection = "column";
-    figuritaGrande.style.height ="400px"
+    figuritaGrande.style.height = "400px"
     figuritaGrande.style.width = "250px"
     figuritaGrande.style.marginBottom = "20px"
     figuritaGrande.style.backgroundColor = "#27F5CC"
@@ -60,29 +60,90 @@ const figuGrande = (figu,contenedorFiguGrande) =>{
     figuritaGrande.style.borderRadius = "10%";
 
     figuNum.textContent = figu.NUM
-    figuNum.style.height="60px"
-    figuNum.style.display="flex"
-    figuNum.style.alignItems="end"
-    figuNum.style.justifyContent="center"
+    figuNum.style.height = "60px"
+    figuNum.style.display = "flex"
+    figuNum.style.alignItems = "end"
+    figuNum.style.justifyContent = "center"
 
-    figuNombre.textContent=figu.NOMBRE
-    figuNombre.style.fontSize="30px"
+    figuNombre.textContent = figu.NOMBRE
+    figuNombre.style.fontSize = "30px"
     figuNombre.style.flex = "1";
     figuNombre.style.display = "flex";
-    figuNombre.style.alignItems="center"
-    figuNombre.style.textAlign="center"
-    figuNombre.style.justifyContent="center"
+    figuNombre.style.alignItems = "center"
+    figuNombre.style.textAlign = "center"
+    figuNombre.style.justifyContent = "center"
     figuritaGrande.appendChild(figuNum)
     figuritaGrande.appendChild(figuNombre)
     contenedorFiguGrande.appendChild(figuritaGrande)
 }
 
-export const totalVentas = async (todasLasVentas) => {
-    const totalVentasElement = document.getElementById('totalVentas');
+const formateoAlbum = (album) =>{
+    if (album=="mundialUsa2026")
+        return "Mundial USA 2026"
+    else if (album=="mundialQatar2022"){
+        return "Mundial Qatar 2022"
+    }else if (album=="copaAmerica2024"){
+        return "Copa America 2024"
+    }else if (album=="libertadores2023"){
+        return "Libertadores 2023"
+    }else if (album=="futbolArgentino2023"){
+        return "futbolArgentino2024"
+    }else if (album=="mundialUsa2026"){
+        return "Futbol Argentino 2024"
+    }
+}
+
+export const totalVentas = async (todasLasVentas, totalVentasElement) => {
 
     const contenedorPadre = document.createElement("div")
-
+    const totalVendido = document.createElement("h3")
+    totalVendido.style.display="flex"
+    totalVendido.style.justifyContent="center"
     if (totalVentasElement) {
+        if (totalVentasElement.id == "totalVentasAri") {
+            todasLasVentas = todasLasVentas.filter(ventas => ventas.CUENTA == "ARI")
+        } else if (totalVentasElement.id == "totalVentasLuly") {
+            todasLasVentas = todasLasVentas.filter(ventas => ventas.CUENTA == "LULY")
+        } else {
+            const vendedores = [...new Set(todasLasVentas.map(venta => venta.CUENTA))]
+            const botonesVendedores = document.createElement("div")
+            const listaBotones = []
+            vendedores.forEach(vendedor => {
+                const boton = document.createElement("button")
+                listaBotones.push(boton)
+                boton.textContent = vendedor
+                boton.style.height = "35px"
+                boton.style.width = "70px"
+                boton.style.margin = "10px"
+                botonesVendedores.appendChild(boton)
+
+
+                boton.addEventListener("click", () => {
+                    listaBotones.forEach(boton => {
+                        boton.style.backgroundColor = ""
+                    })
+                    const ventas = totalVentasElement.querySelectorAll("[data-cuenta]");
+                    boton.style.backgroundColor = "lightgreen"
+                    let total = 0;
+
+                    ventas.forEach(div => {
+                        const mostrar = div.dataset.cuenta === vendedor;
+                        div.style.display = mostrar ? "" : "none";
+
+                        if (mostrar) {
+                            total += Number(div.dataset.precio);
+                        }
+                    });                    
+                    totalVendido.textContent = `Total Vendido: $ ${total}`;
+                });
+            })
+            botonesVendedores.style.display = "flex"
+            botonesVendedores.style.justifyContent = "center"
+            botonesVendedores.style.margin = "50px"
+            totalVentasElement.appendChild(botonesVendedores)
+            totalVentasElement.appendChild(totalVendido)
+        }
+
         let totalPrecioVentas = 0
         todasLasVentas.forEach(venta => {
             const album = venta.ALBUM;
@@ -95,7 +156,7 @@ export const totalVentas = async (todasLasVentas) => {
             const contenedorFigus = document.createElement("div")
 
             const tituloAlbum = document.createElement("p")
-            tituloAlbum.textContent = album
+            tituloAlbum.textContent = formateoAlbum(album)
 
             const envio = document.createElement("p")
             envio.textContent = venta.ENVIO ? `Envio: ${venta.ENVIO}` : ""
@@ -110,7 +171,7 @@ export const totalVentas = async (todasLasVentas) => {
             precio.textContent = `Precio: ${venta.PRECIO}`
 
             const dia = document.createElement("p")
-            dia.textContent = `Dia de venta: ${new Date(venta.DIA).toLocaleDateString("es-AR")} // ${new Date(venta.DIA).toLocaleTimeString("es-AR")}`
+            dia.textContent = `Dia de venta: ${new Date(venta.DIA).toLocaleDateString("es-AR")} 🕒 ${new Date(venta.DIA).toLocaleTimeString("es-AR")}`
 
 
             contenedorInfo.appendChild(tituloAlbum)
@@ -133,7 +194,7 @@ export const totalVentas = async (todasLasVentas) => {
 
             contenedorInfo2.style.backgroundColor = "lightgreen"
 
-            
+
             ordenarAlfabeticamente(venta.VENDIDAS)
 
 
@@ -144,60 +205,61 @@ export const totalVentas = async (todasLasVentas) => {
             const crearBotonVerDetalle = document.createElement("button")
             const contenedorBotones = document.createElement("div")
             const contenedorFiguGrande = document.createElement("div")
-            crearBotonVerDetalle.textContent="Chequear"
-            
-            crearBotonVerDetalle.addEventListener("click",()=>{
+            crearBotonVerDetalle.textContent = "Chequear"
+
+            crearBotonVerDetalle.addEventListener("click", () => {
                 let posicion = 0
                 contenedorFigus.remove()
 
                 contenedorBotones.replaceChildren();
                 contenedorFiguGrande.replaceChildren();
-                
+
                 const botonSiguiente = document.createElement("button")
-                botonSiguiente.textContent="Siguiente"
+                botonSiguiente.textContent = "Siguiente"
                 const botonAnterior = document.createElement("button")
-                botonAnterior.textContent="Anterior"
+                botonAnterior.textContent = "Anterior"
 
                 contenedorBotones.style.display = "flex";
-                contenedorBotones.style.justifyContent="center"
+                contenedorBotones.style.justifyContent = "center"
                 contenedorBotones.appendChild(botonAnterior)
                 contenedorBotones.appendChild(botonSiguiente)
                 contenedorVenta.appendChild(crearBotonVerDetalle)
                 crearBotonVerDetalle.remove()
                 contenedorVenta.appendChild(contenedorFiguGrande)
                 contenedorVenta.appendChild(contenedorBotones)
-                const maxFiguritas = venta.VENDIDAS.length-1
-                figuGrande(venta.VENDIDAS[posicion],contenedorFiguGrande)       
+                const maxFiguritas = venta.VENDIDAS.length - 1
+                figuGrande(venta.VENDIDAS[posicion], contenedorFiguGrande)
 
-                botonSiguiente.addEventListener("click",()=>{
-                    if (posicion<maxFiguritas){
-                        posicion+=1
+                botonSiguiente.addEventListener("click", () => {
+                    if (posicion < maxFiguritas) {
+                        posicion += 1
                     }
-                    else{
+                    else {
                         contenedorFiguGrande.remove()
                         contenedorBotones.remove()
                         contenedorVenta.appendChild(contenedorFigus)
                         contenedorVenta.appendChild(crearBotonVerDetalle)
                     }
                     contenedorFiguGrande.innerHTML = "";
-                    figuGrande(venta.VENDIDAS[posicion],contenedorFiguGrande)        
+                    figuGrande(venta.VENDIDAS[posicion], contenedorFiguGrande)
                 })
-                botonAnterior.addEventListener("click",()=>{
-                    if (posicion>0){
-                        posicion-=1
+                botonAnterior.addEventListener("click", () => {
+                    if (posicion > 0) {
+                        posicion -= 1
                     }
-                    else{
+                    else {
                         contenedorFiguGrande.remove()
                         contenedorBotones.remove()
                         contenedorVenta.appendChild(contenedorFigus)
                         contenedorVenta.appendChild(crearBotonVerDetalle)
                     }
                     contenedorFiguGrande.innerHTML = "";
-                    figuGrande(venta.VENDIDAS[posicion],contenedorFiguGrande)
+                    figuGrande(venta.VENDIDAS[posicion], contenedorFiguGrande)
                 })
-                
+
             })
-
+            contenedorVenta.dataset.cuenta = venta.CUENTA;
+            contenedorVenta.dataset.precio = venta.PRECIO;
             contenedorVenta.appendChild(contenedorInfo)
             contenedorVenta.appendChild(contenedorInfo2)
             contenedorVenta.appendChild(contenedorFigus)
@@ -206,8 +268,6 @@ export const totalVentas = async (todasLasVentas) => {
             totalVentasElement.appendChild(contenedorVenta)
         });
 
-        const totalVendido = document.createElement("div")
-        totalVendido.textContent = `Total Vendido: $ ${totalPrecioVentas}`
-        totalVentasElement.prepend(totalVendido)
+
     }
 }

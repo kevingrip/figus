@@ -1,9 +1,10 @@
 import { obtenerFiguritas,obtenerVentas } from "./api.js";
 import { cosecharFigus } from "./javascript/cosecharFigus.js";
 import { buscarFigus } from "./javascript/buscarFigus/buscarFigus.js";
-import { totalVentas } from "./javascript/ventas.js";
+import { totalVentas } from "./javascript/totalVentas.js";
 import { StockFigusLuly } from "./javascript/StockFigusLuly.js";
-import { buscarFigusLuly } from "./javascript/buscarFigusLuly.js";
+import { sinStock } from "./javascript/sinStock.js";
+import { noVendidas } from "./javascript/noVendidas.js";
 
 const botonesElementosBuscar = [
     {
@@ -113,6 +114,7 @@ botonesElementosBuscar.forEach(objeto => {
 })
 
 botonesElementosCosecha.forEach(objeto => {
+    console.log(objeto.album)
     const boton = document.getElementById(objeto.botonId)
     boton?.addEventListener('click', async () => {
     const figuritas = await obtenerFiguritas(objeto.album);
@@ -120,10 +122,11 @@ botonesElementosCosecha.forEach(objeto => {
     })
 })
 
-const elementVentas = document.getElementById("totalVentas")
+const elementVentas = document.getElementById("totalVentas") || document.getElementById("totalVentasAri") || document.getElementById("totalVentasLuly") 
+
 if (elementVentas){
     const ventas = await obtenerVentas();
-    await totalVentas(ventas);
+    await totalVentas(ventas,elementVentas);
 }
 
 const botonStockLuly = document.getElementById("botonStockLuly")
@@ -163,99 +166,10 @@ botonesSinStock.forEach(obj =>{
     const boton = document.getElementById(obj.boton)
     boton?.addEventListener("click",async ()=>{
     const figus = await obtenerFiguritas(obj.album);
-    sinStock(figus)
+    sinStock(figus,obj.album)
     })
 })
 
-
-const sinStock = async (figus) => {
-    
-    let cant = 0
-
-    const resultSinStock = document.getElementById('resultadosSinStock');
-    resultSinStock.innerHTML = ''; // Limpiar resultados anteriores
-    let figuritas0 = [];
-    let figus0str = '';
-    let figuritas1 = [];
-    let figus1str = '';
-    let figuritas2 = [];
-    let figus2str = '';
-
-
-    figus.forEach(figu => {
-        const cantStock = Object.values(figu.STOCK)
-                .reduce((total, proveedor) => total + proveedor.CANT, 0);
-
-        if (cantStock == 0) {
-            figuritas0.push(figu["NUM"])
-            cant += 1
-        } else if (cantStock == 1) {
-            figuritas1.push(figu["NUM"])
-        } else if (cantStock == 2) {
-            figuritas2.push(figu["NUM"])
-        }
-    })
-
-    figuritas0.sort()
-    figuritas1.sort()
-    figuritas2.sort()
-
-    let primero = ''
-    let segundo = ''
-    let paiss = []
-
-    figuritas0.forEach(figu => {
-        if (paiss.length === 0) {
-            paiss.push(figu.substring(0, 3));
-        } if (!paiss.includes(figu.substring(0, 3))) {
-            paiss.push(figu.substring(0, 3))
-        }
-    })
-
-    for (let x = 0; x < paiss.length; x++) {
-        primero = ''
-        segundo = ''
-        figuritas0.forEach(figu => {
-            if (paiss[x] === figu.substring(0, 3)) {
-                if (figu.length === 4) {
-                    primero += figu + ', '
-                } else {
-                    segundo += figu + ', '
-                }
-            }
-        })
-        figus0str += primero + segundo
-    }
-
-    figuritas1.forEach(figu => {
-        figus1str += figu += ', ';
-    })
-
-    figuritas2.forEach(figu => {
-        figus2str += figu += ', ';
-    })
-
-    const p1 = document.createElement('p');
-    const s0h3 = document.createElement('h3');
-    p1.textContent = figus0str.slice(0, -2);
-    s0h3.textContent = `Sin Stock: ( ${cant} )`
-    resultSinStock.appendChild(s0h3);
-    resultSinStock.appendChild(p1);
-
-    const p2 = document.createElement('p');
-    const s1h3 = document.createElement('h3');
-    p2.textContent = figus1str.slice(0, -2);
-    s1h3.textContent = '1 en Stock: '
-    resultSinStock.appendChild(s1h3);
-    resultSinStock.appendChild(p2);
-
-    const p3 = document.createElement('p');
-    const s2h3 = document.createElement('h3');
-    p3.textContent = figus2str.slice(0, -2);
-    s2h3.textContent = '2 en Stock: '
-    resultSinStock.appendChild(s2h3);
-    resultSinStock.appendChild(p3);
-}
 
 
 const ultimaActualizacion = () => {
@@ -322,99 +236,14 @@ const buscarCliente = () => {
         })
 }
 
-const noVendidas = (tipo) => {
-
-    const noVendidasHtml = document.getElementById('noVendidas');
-    let filePath = './totalVentas.json';
-
-    noVendidasHtml.innerHTML = ''
-
-    fetch(filePath)
-        .then(response => response.json())
-        .then(data => {
-
-            const pantalla = document.createElement('div')
+const boton = document.getElementById('botonMundialUsaNoVendidas');
+const figuritas = await obtenerFiguritas("mundialUsa2026")
+const ventas = await obtenerVentas()
+boton.addEventListener("click",()=>{    
+    noVendidas(figuritas,ventas)
+})
 
 
-            totalFigus = data[albumName(tipo)]
-
-            const nombreAlbum = document.createElement('h2')
-            nombreAlbum.innerHTML = albumName(tipo)
-
-            pantalla.appendChild(nombreAlbum)
-
-            const armadoFiltrado = totalFigus.filter(item => item.ARMADO === "SI" && item.NoVendidas.length > 0 && convertirFecha(item.Dia) > fecha2meses)
-
-            armadoFiltrado.forEach(item => {
-                const user = document.createElement('h3')
-                const cuenta = document.createElement('h5')
-                const figu = document.createElement('p')
-                const fecha = document.createElement('h5')
-
-                user.innerHTML = item.usuario
-                cuenta.innerHTML = `Cuenta: ${item.Cuenta}`
-
-                let figuNoVendida = []
-
-                window.todasLasFigus.forEach(figu => {
-                    item.NoVendidas.forEach(num => {
-                        if (num == (figu.NUM)) {
-                            figuNoVendida.push({ NUM: figu.NUM, CANT: figu.CANT })
-                        }
-                    })
-                })
-
-
-
-                figuNoVendida.forEach(obj => {
-                    if (obj.CANT == 0) {
-                        figu.innerHTML += `<span style="background-color: red; color:white; padding:5px; border:1px solid #000">${obj.NUM} </span>`
-                    } else if (obj.CANT == 1) {
-                        figu.innerHTML += `<span style="color: white; background-color:orange; padding:5px; border:1px solid #000">${obj.NUM} </span>`
-                    }
-                    else if (obj.CANT >= 5) {
-                        figu.innerHTML += `<span style="color: white;background-color:green; padding:5px; border:1px solid #000">${obj.NUM} </span>`
-                    } else {
-                        figu.innerHTML += `<span style="color: white;background-color:skyblue; padding:5px; border:1px solid #000">${obj.NUM} </span>`
-                    }
-                })
-
-                const buttonText = document.createElement('button')
-                buttonText.innerHTML = 'Copiar'
-
-                fecha.innerHTML = item.Dia
-
-                const marcoPantallita = document.createElement('div')
-
-                marcoPantallita.appendChild(user)
-                marcoPantallita.appendChild(fecha)
-                marcoPantallita.appendChild(figu)
-                marcoPantallita.appendChild(cuenta)
-                marcoPantallita.appendChild(buttonText)
-
-                buttonText.addEventListener('click', () => {
-                    buttonText.style.backgroundColor = 'pink'
-                    const figus = figuNoVendida.map(figu => figu.NUM).join(", ");
-                    navigator.clipboard.writeText(`Hola! Te queria avisar que tenemos stock en ${figus}, por si aun le interesa. Saludos!`)
-                })
-
-                marcoPantallita.style.border = '1px solid lightgrey'
-                marcoPantallita.style.padding = '15px'
-
-                pantalla.appendChild(marcoPantallita)
-
-
-            })
-
-
-            pantalla.style.margin = '5px'
-            pantalla.style.padding = '15px'
-            pantalla.classList.add('fVendidas1')
-            noVendidasHtml.appendChild(pantalla)
-
-        }
-        )
-}
 
 const ordenarPorCantidad = async (base, event) => {
     const lista = document.getElementById("ordenadasCantidad");

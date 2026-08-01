@@ -7,23 +7,28 @@ const esquema_figu = new mongoose.Schema({
     STOCK: {
         MATI: {
             CANT: Number,
-            PRECIO: Number
+            PRECIO: Number,
+            CANT_HISTORICA: Number
         },
         PDM: {
             CANT: Number,
-            PRECIO: Number
+            PRECIO: Number,
+            CANT_HISTORICA: Number
         },
         CAMBIOS: {
             CANT: Number,
-            PRECIO: Number
+            PRECIO: Number,
+            CANT_HISTORICA: Number
         },
         LULY: {
             CANT: Number,
-            PRECIO: Number
+            PRECIO: Number,
+            CANT_HISTORICA: Number
         },
         OTROS: {
             CANT: Number,
-            PRECIO: Number
+            PRECIO: Number,
+            CANT_HISTORICA: Number
         }
     }
 });

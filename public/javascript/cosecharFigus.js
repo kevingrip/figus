@@ -150,18 +150,6 @@ async function crearProovedores(resultados, albumRuta, mostrarCantidades) {
     });
     const listaProveedores = await respuesta.json();
 
-    const ventas = await fetch(`${api}/ventas`, {
-        method: "GET"
-    });
-    const listaVentas = await ventas.json();
-
-
-    const ventasAlbum = listaVentas.filter(venta=> venta.ALBUM===albumRuta)
-    console.log(ventasAlbum)
-    const vendidas = ventasAlbum.reduce((total, venta) => {
-    return total + venta.VENDIDAS.length;
-    }, 0);
-    console.log(vendidas)
 
     console.log("Lista de proveedores: ", listaProveedores)
 
@@ -206,7 +194,7 @@ async function crearProovedores(resultados, albumRuta, mostrarCantidades) {
     })
 
     return {
-        getProveedor: () => proveedor,vendidas
+        getProveedor: () => proveedor
     };
 
 }
@@ -229,7 +217,7 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
     const resultados = document.getElementById('resultados');
     resultados.innerHTML = ''
 
-    const { getProveedor,vendidas } = await crearProovedores(resultados, albumRuta, mostrarCantidades, figuritas)
+    const { getProveedor } = await crearProovedores(resultados, albumRuta, mostrarCantidades, figuritas)
 
     const bloqueCantidades = document.createElement("div")
     const textoCantHist = document.createElement("p")
@@ -240,14 +228,18 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
 
     function mostrarCantidades() {
         const proveedor = getProveedor();
-        let cantBase = 0
+        let cantActual = 0
         figuritas.forEach(element => {
-            cantBase += element.STOCK[proveedor].CANT
+            cantActual += element.STOCK[proveedor].CANT
+        });
+        let cantHistorial = 0
+        figuritas.forEach(element => {
+            cantHistorial += element.STOCK[proveedor].CANT_HISTORICA
         });
 
-        textoCantHist.textContent = `Cant Compradas a proveedor: ${cantBase+vendidas}`
-        textoCantActual.textContent = `Cant Stock Real: ${cantBase}`
-        textoPrecioCompra.textContent = `Monto Invertido ($230): $${cantBase * 230}`
+        textoCantHist.textContent = `Cant Compradas a proveedor: ${cantHistorial}`
+        textoCantActual.textContent = `Cant Stock Real: ${cantActual}`
+        textoPrecioCompra.textContent = `Monto Invertido ($230): $${cantHistorial * 230}`
     }
 
     let figusSeleccionadas = ""
@@ -277,7 +269,7 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
                 }
 
                 //ACTUALIZAR CON MONGO
-                const respuesta = await fetch(`${api}/${albumRuta}/incrementar/${proveedor}/${figu._id}`, {
+                const respuesta = await fetch(`${api}/${albumRuta}/actualizarcosecha/incrementar/${proveedor}/${figu._id}`, {
                     method: "PATCH"
                 });
 
@@ -285,6 +277,7 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
 
                 // actualizar el objeto del frontend
                 figu.STOCK[proveedor].CANT = figuActualizada.STOCK[proveedor].CANT;
+                figu.STOCK[proveedor].CANT_HISTORICA = figuActualizada.STOCK[proveedor].CANT_HISTORICA;
 
                 let figuCantActualizada = figuActualizada.STOCK[proveedor].CANT;
 
@@ -335,7 +328,7 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
             if (figu.STOCK[proveedor].CANT > 0) {
                 try {
                     //ACTUALIZAR CON MONGO
-                    const respuesta = await fetch(`${api}/${albumRuta}/decrementar/${proveedor}/${figu._id}`, {
+                    const respuesta = await fetch(`${api}/${albumRuta}/actualizarcosecha/decrementar/${proveedor}/${figu._id}`, {
                         method: "PATCH"
                     });
 
@@ -343,6 +336,7 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
 
                     // actualizar el objeto del frontend
                     figu.STOCK[proveedor].CANT = figuActualizada.STOCK[proveedor].CANT;
+                    figu.STOCK[proveedor].CANT_HISTORICA = figuActualizada.STOCK[proveedor].CANT_HISTORICA;
 
                     let figuCantActualizada = figuActualizada.STOCK[proveedor].CANT;
 

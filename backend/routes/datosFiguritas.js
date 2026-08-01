@@ -1,42 +1,9 @@
-import express from "express";
-import cors from "cors";
-import mongoose from "mongoose";
-import { obtenerModeloFiguritas } from "./modelo_mdb/modeloFigu.js";
-import Venta from "./modelo_mdb/modeloVenta.js";
-import dotenv from "dotenv";
-import path from "path";
-import { fileURLToPath } from "url";
+import { Router } from "express";
+import { obtenerModeloFiguritas } from "../modelo_mdb/modeloFigu.js";
+const router = Router({ mergeParams: true });
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
-dotenv.config();
-
-const mongo_url = process.env.MONGO_URL
-
-await mongoose.connect(mongo_url);
-
-const app = express()
-app.use(cors());
-app.use(express.json());
-app.use(express.static(path.join(__dirname, "public")));
-
-const PORT = process.env.PORT || 5050;
-
-app.listen(PORT, () => {
-    console.log(`servidor levantado en el puerto ${PORT}`)
-})
-
-app.get("/ventas", async (req, res) => {
-    const ventas = await Venta.find().sort({ DIA: -1 }).lean();
-    res.json(ventas);
-});
-
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "public", "indexv2.html"));
-});
-
-app.get("/:album", async (req, res) => {
+router.get("/", async (req, res) => {
     try {
         const album = req.params.album
 
@@ -70,9 +37,11 @@ app.get("/:album", async (req, res) => {
     }
 });
 
-app.get("/proveedores/:album", async (req, res) => {
+
+// AGREGAR Y DESCONTAR DE LA BASE
+router.patch("/actualizarcosecha/:accion/:proveedor/:id", async (req, res) => {
     try {
-        const album = req.params.album
+        const { album, accion,proveedor, id } = req.params;
 
         const albumes = [
             "mundialUsa2026",
@@ -81,29 +50,43 @@ app.get("/proveedores/:album", async (req, res) => {
             "futbolArgentino2024",
             "libertadores2023",
             "copaAmerica2024"
-        ]        
+        ]
 
-        if (!albumes.includes(album)) {
-            return res.status(404).json({ error: "Álbum inexistente" });
+        if (albumes.includes(album)) {
+            const modelo = obtenerModeloFiguritas(album);
+
+            const cantReal = `STOCK.${proveedor}.CANT`;
+            const cantHistorica = `STOCK.${proveedor}.CANT_HISTORICA`;
+
+            const incremento = accion === "incrementar" ? 1 : -1;
+
+            const figuActualizada = await modelo.findByIdAndUpdate(
+                id,
+                { $inc: 
+                    {
+                        [cantHistorica]: incremento,
+                        [cantReal]: incremento
+                    }
+                },
+                {
+                    new: true
+                }
+            );
+
+            res.json(figuActualizada);
         }
-
-        const modelo = obtenerModeloFiguritas(req.params.album);
-
-        const figuritas = await modelo.findOne().lean();
-        const cantProveedores = Object.keys(figuritas.STOCK);  
-        
-        res.json(cantProveedores);
-
-
-
     } catch (error) {
+
         console.error(error);
-        res.status(500).json({ error: error.message });
+
+        res.status(500).json({
+            error: error.message
+        });
+
     }
 });
 
-
-app.patch("/:album/:accion/:proveedor/:id", async (req, res) => {
+router.patch("/descontarventa/:proveedor/:id", async (req, res) => {
     try {
         const { album, accion,proveedor, id } = req.params;
 
@@ -121,13 +104,11 @@ app.patch("/:album/:accion/:proveedor/:id", async (req, res) => {
 
             const cantProveedor = `STOCK.${proveedor}.CANT`;
 
-            const incremento = accion === "incrementar" ? 1 : -1;
-
             const figuActualizada = await modelo.findByIdAndUpdate(
                 id,
                 { $inc: 
                     {
-                        [cantProveedor]: incremento
+                        [cantProveedor]: -1
                     }
                 },
                 {
@@ -151,7 +132,4 @@ app.patch("/:album/:accion/:proveedor/:id", async (req, res) => {
     }
 });
 
-app.post("/ventas", async (req, res) => {
-    const venta = await Venta.create(req.body);
-    res.json({ ok: true });
-});
+export default router;

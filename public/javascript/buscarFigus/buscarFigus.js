@@ -3,6 +3,15 @@ import { operacionDescargar, descontarBaseMongodb, agregarCuenta, elementoVenta 
 import { elementoPregunta } from "./elementoPregunta.js";
 import { precioBarato } from "./preciosBaratos.js";
 
+const sinFiguLuly = [
+"FWC18",
+"ALG13",
+"COD5",
+"UZB8",
+"GHA2",
+"CC3",,
+"CC9"
+]
 
 const formatearPaises = (valorInput) => {
     valorInput = valorInput.replace(/00/g, "0");
@@ -186,7 +195,7 @@ const getStockyPrecio = (figusDeLaConsulta, canalPregunta) => {
 
         } else if (canalPregunta == "LULY") {
             const proveedor = prioridadConsultaProveedoresLuly.find(proveedor => figu.STOCK[proveedor]?.CANT > 0)
-            if (!proveedor) {
+            if (!proveedor || sinFiguLuly.includes(figu.NUM)) {
                 !figusSinStock.push(figu.NUM)
                 return
             }
