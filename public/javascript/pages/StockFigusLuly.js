@@ -1,4 +1,4 @@
-import { api } from "../config.js";
+import { api } from "../../config.js";
 
 
 function crearBotonContenedor(figu) {

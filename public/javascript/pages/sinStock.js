@@ -1,6 +1,6 @@
-import { crearBotonContenedor } from "./botonContenedor.js";
-import { ordenarAlfabeticamente } from "./ordenarAlfabeticamente.js";
-import { botonCopiar } from "./botonCopiarFigus.js";
+import { crearBotonContenedor } from "../componentes/botonContenedor.js";
+import { ordenarAlfabeticamente } from "../utilidades/ordenarAlfabeticamente.js";
+import { botonCopiar } from "../componentes/botonCopiarFigus.js";
 
 const agregarEspacio = (figu) => {
     let figurita
@@ -88,7 +88,7 @@ export const sinStock = async (figus, album) => {
             titulo.textContent = `${clave}: ( ${stockFiguritas[clave].figu.length} )`
             info.appendChild(titulo)
             console.log(valor.figu)
-            const copiar = botonCopiar(valor.figu)
+            const copiar = botonCopiar(valor.figu,true)
             copiar.style.height="40px"
             copiar.style.margin="40px"
             info.appendChild(copiar)

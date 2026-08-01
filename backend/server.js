@@ -10,7 +10,6 @@ import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-console.log("ESTOY EJECUTANDO ESTE SERVER");
 dotenv.config();
 
 const mongo_url = process.env.MONGO_URL
@@ -30,7 +29,7 @@ app.listen(PORT, () => {
 })
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "../public", "indexv2.html"));
+    res.sendFile(path.join(__dirname, "../public", "pages", "indexv2.html"));
 });
 
 app.use("/ventas",ventasRoutes)

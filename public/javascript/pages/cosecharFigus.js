@@ -1,5 +1,5 @@
-import { api } from "../config.js";
-import { ordenarAlfabeticamente } from "./ordenarAlfabeticamente.js";
+import { api } from "../../config.js";
+import { ordenarAlfabeticamente } from "../utilidades/ordenarAlfabeticamente.js";
 
 function crearBotonContenedor(figu) {
     const contenedor = document.createElement("div");

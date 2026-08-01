@@ -1,4 +1,4 @@
-import { api } from "./config.js";
+import { api } from "../../config.js";
 export async function obtenerFiguritas(album) {
     console.log("api",api)
 

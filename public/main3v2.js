@@ -1,10 +1,10 @@
-import { obtenerFiguritas,obtenerVentas } from "./api.js";
-import { cosecharFigus } from "./javascript/cosecharFigus.js";
-import { buscarFigus } from "./javascript/buscarFigus/buscarFigus.js";
-import { totalVentas } from "./javascript/totalVentas.js";
-import { StockFigusLuly } from "./javascript/StockFigusLuly.js";
-import { sinStock } from "./javascript/sinStock.js";
-import { noVendidas } from "./javascript/noVendidas.js";
+import { obtenerFiguritas,obtenerVentas } from "./javascript/servicios/api.js";
+import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
+import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
+import { totalVentas } from "./javascript/pages/totalVentas.js";
+import { StockFigusLuly } from "./javascript/pages/StockFigusLuly.js";
+import { sinStock } from "./javascript/pages/sinStock.js";
+import { noVendidas } from "./javascript/pages/noVendidas.js";
 
 const botonesElementosBuscar = [
     {
@@ -85,6 +85,39 @@ const botonesElementosCosecha = [
     },
     {
         botonId:"botonLibertadores23Cosecha",
+        album:"libertadores2023",
+        baseJson:"baseLali",
+    }
+]
+
+const botonesElementosNoVendidas = [
+    {
+        botonId:"botonMundialUsaNoVendidas",
+        album:"mundialUsa2026",
+        baseJson:"baseMundialUsa",
+    },
+    {
+        botonId:"botonMundialQatarNoVendidas",
+        album:"mundialQatar2022",
+        baseJson:"baseMundial",
+    },
+    {
+        botonId:"botonCopaAmericaNoVendidas",
+        album:"copaAmerica2024",
+        baseJson:"base_copam",
+    },
+    {
+        botonId:"botonFutArg23NoVendidas",
+        album:"futbolArgentino2023",
+        baseJson:"baseFutarg",
+    },
+    {
+        botonId:"botonFutArg24NoVendidas",
+        album:"futbolArgentino2024",
+        baseJson:"baseFutarg24",
+    },
+    {
+        botonId:"botonLibertadores23NoVendidas",
         album:"libertadores2023",
         baseJson:"baseLali",
     }
@@ -236,11 +269,14 @@ const buscarCliente = () => {
         })
 }
 
-const boton = document.getElementById('botonMundialUsaNoVendidas');
-const figuritas = await obtenerFiguritas("mundialUsa2026")
-const ventas = await obtenerVentas()
-boton.addEventListener("click",()=>{    
-    noVendidas(figuritas,ventas)
+botonesElementosNoVendidas.forEach(objeto => {
+    console.log(objeto.album)
+    const boton = document.getElementById(objeto.botonId)
+    boton?.addEventListener('click', async () => {
+    const figuritas = await obtenerFiguritas(objeto.album);
+    const ventas = await obtenerVentas()
+    noVendidas(figuritas,ventas, objeto.album)
+    })
 })
 
 

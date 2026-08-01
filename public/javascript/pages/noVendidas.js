@@ -1,6 +1,6 @@
-import { crearBotonContenedor } from "./botonContenedor.js";
+import { crearBotonContenedor } from "../componentes/botonContenedor.js";
 
-export const noVendidas = async (figuritas, ventas) => {
+export const noVendidas = async (figuritas, ventas, nombreAlbum) => {
 
     const noVendidas = document.getElementById('noVendidas');
 
@@ -9,7 +9,7 @@ export const noVendidas = async (figuritas, ventas) => {
 
     ventas.forEach(venta => {
 
-        if (venta.FALTANTES.length > 0) {
+        if (venta.FALTANTES.length > 0 && venta.ALBUM==nombreAlbum) {
             let bloqueVenta = document.createElement("div")
             let faltantes = document.createElement("div")
             let ventaid = document.createElement("h2")
@@ -17,7 +17,7 @@ export const noVendidas = async (figuritas, ventas) => {
             let album = document.createElement("h4")
             ventaid.textContent = venta.VENTAID || "Sin ventaID"
             cuentaid.textContent = venta.CUENTA
-            album.textContent = "Mundial q"
+            album.textContent = nombreAlbum
 
             venta.FALTANTES.forEach(figuFaltante => {
                 const figus = []
@@ -28,7 +28,7 @@ export const noVendidas = async (figuritas, ventas) => {
 
                 })
                 figus.forEach(figu=>{
-                    const {contenedor,color, cantTotal } = crearBotonContenedor(figu, "mundialUsa2026")
+                    const {contenedor,color, cantTotal } = crearBotonContenedor(figu, nombreAlbum)
                     if (cantTotal>0){
                         contenedor.style.backgroundColor="lightgreen"                        
                     }
