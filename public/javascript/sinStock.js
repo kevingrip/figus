@@ -87,6 +87,7 @@ export const sinStock = async (figus, album) => {
             titulo.style.margin = "10px"
             titulo.textContent = `${clave}: ( ${stockFiguritas[clave].figu.length} )`
             info.appendChild(titulo)
+            console.log(valor.figu)
             const copiar = botonCopiar(valor.figu)
             copiar.style.height="40px"
             copiar.style.margin="40px"
