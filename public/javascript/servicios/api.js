@@ -10,3 +10,8 @@ export async function obtenerVentas() {
     const res = await fetch(`${api}/ventas`);
     return await res.json();
 }
+
+export async function obtenerPreguntas() {
+    const res = await fetch(`${api}/mercadolibre/preguntas`);
+    return await res.json();
+}

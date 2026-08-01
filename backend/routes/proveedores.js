@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { obtenerModeloFiguritas } from "../modelo_mdb/modeloFigu.js";
+import { obtenerModeloFiguritas } from "../models/modeloFigu.js";
 
 const router = Router()
 

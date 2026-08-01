@@ -4,13 +4,13 @@ import { elementoPregunta } from "./elementoPregunta.js";
 import { precioBarato } from "./preciosBaratos.js";
 
 const sinFiguLuly = [
-"FWC18",
-"ALG13",
-"COD5",
-"UZB8",
-"GHA2",
-"CC3",,
-"CC9"
+    "FWC18",
+    "ALG13",
+    "COD5",
+    "UZB8",
+    "GHA2",
+    "CC3", ,
+    "CC9"
 ]
 
 const formatearPaises = (valorInput) => {
@@ -185,10 +185,10 @@ const getStockyPrecio = (figusDeLaConsulta, canalPregunta) => {
                 !figusSinStock.push(figu.NUM)
                 return
             }
-            if (proveedor==="PDM"){
+            if (proveedor === "PDM") {
                 totalPrecio += figu.STOCK["PDM"].PRECIO
-            }   
-            else{
+            }
+            else {
                 totalPrecio += figu.STOCK["MATI"].PRECIO
             }
             figusEnStock.push(figu)
@@ -199,42 +199,41 @@ const getStockyPrecio = (figusDeLaConsulta, canalPregunta) => {
                 !figusSinStock.push(figu.NUM)
                 return
             }
-            if (proveedor==="MATI"){
+            if (proveedor === "MATI") {
                 totalPrecio += precioBarato(figu.TIPO)
-            }            
-            else if (proveedor==="LULY"){
+            }
+            else if (proveedor === "LULY") {
                 totalPrecio -= 300
-            }else {
+            } else {
                 totalPrecio += figu.STOCK[proveedor].PRECIO
             }
             figusEnStock.push(figu)
-            
-        }else if (canalPregunta == "ARI") {
+
+        } else if (canalPregunta == "ARI") {
             const proveedor = prioridadConsultaProveedoresAri.find(proveedor => figu.STOCK[proveedor]?.CANT > 0)
             if (!proveedor) {
                 !figusSinStock.push(figu.NUM)
                 return
             }
-            if (proveedor==="MATI"){
+            if (proveedor === "MATI") {
                 totalPrecio += precioBarato(figu.TIPO)
-            } 
-            else if (proveedor==="LULY"){
+            }
+            else if (proveedor === "LULY") {
                 totalPrecio += 300
-            }else {
+            } else {
                 totalPrecio += figu.STOCK[proveedor].PRECIO
             }
             figusEnStock.push(figu)
-            
+
         }
 
     });
 
-    
+
 
     if (canalPregunta == "ONLINE") {
         const { contadorTipos } = contarTipoFigu(figusEnStock)
         if (figusSinStock.length == 0 && (totalPrecio + 2000) < 33000) {
-            console.log("entra",totalPrecio)
             totalPrecio += 2000
         } else if (totalPrecio <= 5000 && figusEnStock.length > 0) {
             totalPrecio += (((contadorTipos?.COMUNES ?? 0) * 500) + ((contadorTipos?.ESCUDO ?? 0) * 2000))
@@ -258,9 +257,10 @@ const Toast = Swal.mixin({
 });
 
 
-export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) => {
+export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta, preguntasMeli) => {
 
     let costoEnvioGratis = 33000
+    let mensaje = "";
     let proveedor;
     const { errorEscritura, figusError, figusDeLaConsulta } = figusEntrada(albumFigus)
 
@@ -269,6 +269,43 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
     // Mostrar resultados en el HTML
     const resultados = document.getElementById('resultados');
     resultados.innerHTML = ''; // Limpiar resultados anteriores
+
+    const contenedorPreguntaMeli = document.createElement('div')
+
+    preguntasMeli.forEach(pregunta => {
+        const elementPregunta = document.createElement("div")
+        const fechaPregunta = document.createElement('p')
+        const itemId = document.createElement('p')
+        const sellerId = document.createElement('p')
+        const preguntaMeli = document.createElement('p')
+        const idPregunta = document.createElement('p')
+
+        fechaPregunta.textContent = `Fecha: ${pregunta.date_created}`
+        itemId.textContent = `Publicacion: ${pregunta.item_id}`
+        sellerId.textContent = `Cuenta: ${pregunta.seller_id}`
+        preguntaMeli.textContent = `Pregunta: ${pregunta.text}`
+        idPregunta.textContent = `preguntaID: ${pregunta.id}`
+        console.log(pregunta.text)
+        elementPregunta.style.marginBottom = "100px"
+        elementPregunta.style.backgroundColor = "#c6e0f2"
+        elementPregunta.append(fechaPregunta, itemId, sellerId, preguntaMeli, idPregunta)
+        contenedorPreguntaMeli.appendChild(elementPregunta)
+    })
+
+
+
+    const elementIngresarID = document.createElement("div")
+    const IngresarID = document.createElement("input")
+    const elementResponder = document.createElement("div")
+    const botonResponderMeli = document.createElement("button")
+    botonResponderMeli.textContent = "RESPONDER"
+    elementIngresarID.appendChild(IngresarID)
+    elementResponder.appendChild(elementIngresarID)
+    elementResponder.appendChild(botonResponderMeli)
+
+    resultados.appendChild(elementResponder)
+    resultados.appendChild(contenedorPreguntaMeli)
+
 
     const contenedorPreguntaOVenta = document.createElement('div')
 
@@ -303,8 +340,22 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta) =>
             }
         }
 
-        let { mensaje, precioFinal, elementResumenListaFigu, divPregunta } = elementoPregunta(infoPregunta)
+        let { mensaje: mensajePregunta, precioFinal, elementResumenListaFigu, divPregunta } = elementoPregunta(infoPregunta)
 
+        mensaje = mensajePregunta.textContent
+        console.log(mensaje)
+        botonResponderMeli.addEventListener("click", async () => {
+            await fetch(`${api}/mercadolibre/respuestas`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    id: Number(IngresarID.value),
+                    texto: mensaje
+                })
+            });
+        })
 
         const infoVenta = {
             elementos: {

@@ -1,5 +1,5 @@
 import { Router } from "express";
-import Venta from "../modelo_mdb/modeloVenta.js";
+import Venta from "../models/modeloVenta.js";
 const router = Router();
 
 router.get("/", async (req, res) => {

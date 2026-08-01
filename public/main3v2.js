@@ -1,4 +1,4 @@
-import { obtenerFiguritas,obtenerVentas } from "./javascript/servicios/api.js";
+import { obtenerFiguritas,obtenerVentas,obtenerPreguntas } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -139,7 +139,8 @@ botonesElementosBuscar.forEach(objeto => {
     boton?.addEventListener('click', async () => {
         try {
             const figuritas = await obtenerFiguritas(objeto.album);
-            buscarFigus(objeto.baseJson, figuritas, objeto.album, objeto.canalVenta);
+            const preguntas = await obtenerPreguntas()
+            buscarFigus(objeto.baseJson, figuritas, objeto.album, objeto.canalVenta,preguntas);
         } catch (error) {
             console.error(error);
         }
