@@ -6,12 +6,6 @@ export async function responderPregunta(questionId, textoRespuesta) {
         {
             question_id: questionId,
             text: textoRespuesta
-        },
-        {
-            headers: {
-                Authorization: `Bearer ${process.env.ML_ACCESS_TOKEN}`,
-                "Content-Type": "application/json"
-            } 
         }
     );
 

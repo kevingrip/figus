@@ -1,7 +1,8 @@
 import axios from "axios";
+import { mlGet } from "../token/api_meli.js";
 
-export async function obtenerPreguntasSinResponder() {
-    const response = await axios.get(
+export const obtenerPreguntasSinResponder = async () => {
+    const { data } = await mlGet(
         "https://api.mercadolibre.com/questions/search",
         {
             params: {
@@ -9,16 +10,12 @@ export async function obtenerPreguntasSinResponder() {
                 status: "UNANSWERED",
                 deleted_from_listing: false,
                 api_version: 4
-            },
-            headers: {
-                Authorization: `Bearer ${process.env.ML_ACCESS_TOKEN}`
             }
         }
     );
 
-    const preguntas = response.data.questions.filter(
+    const preguntas = data.questions.filter(
         pregunta => !pregunta.deleted_from_listing
     );
-
     return preguntas;
-}
+};

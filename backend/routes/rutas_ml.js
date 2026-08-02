@@ -1,7 +1,7 @@
 import express from "express";
-import { obtenerOrden } from "../services/orden_mercadolibre.js";
-import { obtenerPreguntasSinResponder } from "../services/preguntas_mercadolibre.js";
-import { responderPregunta } from "../services/respuestas_mercadolibre.js";
+import { obtenerOrden } from "../services/mercadolibre/ordenes.js";
+import { obtenerPreguntasSinResponder } from "../services/mercadolibre/preguntas.js";
+import { responderPregunta } from "../services/mercadolibre/respuestas.js";
 
 const router = express.Router();
 

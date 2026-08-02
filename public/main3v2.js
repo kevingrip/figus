@@ -1,4 +1,4 @@
-import { obtenerFiguritas,obtenerVentas,obtenerPreguntas } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -8,118 +8,118 @@ import { noVendidas } from "./javascript/pages/noVendidas.js";
 
 const botonesElementosBuscar = [
     {
-        botonId:"botonMundialUsaBuscarOnline",
-        album:"mundialUsa2026",
-        baseJson:"baseMundialUsa",
-        canalVenta:"ONLINE"
+        botonId: "botonMundialUsaBuscarOnline",
+        album: "mundialUsa2026",
+        baseJson: "baseMundialUsa",
+        canalVenta: "ONLINE"
     },
     {
-        botonId:"botonMundialUsaBuscarAri",
-        album:"mundialUsa2026",
-        baseJson:"baseMundialUsa",
-        canalVenta:"ARI"
+        botonId: "botonMundialUsaBuscarAri",
+        album: "mundialUsa2026",
+        baseJson: "baseMundialUsa",
+        canalVenta: "ARI"
     },
     {
-        botonId:"botonMundialUsaBuscarLuly",
-        album:"mundialUsa2026",
-        baseJson:"baseMundialUsa",
-        canalVenta:"LULY"
+        botonId: "botonMundialUsaBuscarLuly",
+        album: "mundialUsa2026",
+        baseJson: "baseMundialUsa",
+        canalVenta: "LULY"
     },
     {
-        botonId:"botonMundialQatarBuscar",
-        album:"mundialQatar2022",
-        baseJson:"baseMundial",
-        canalVenta:"ONLINE"
+        botonId: "botonMundialQatarBuscar",
+        album: "mundialQatar2022",
+        baseJson: "baseMundial",
+        canalVenta: "ONLINE"
     },
     {
-        botonId:"botonCopaAmericaBuscar",
-        album:"copaAmerica2024",
-        baseJson:"base_copam",
-        canalVenta:"ONLINE"
+        botonId: "botonCopaAmericaBuscar",
+        album: "copaAmerica2024",
+        baseJson: "base_copam",
+        canalVenta: "ONLINE"
     },
     {
-        botonId:"botonFutArg23Buscar",
-        album:"futbolArgentino2023",
-        baseJson:"baseFutarg",
-        canalVenta:"ONLINE"
+        botonId: "botonFutArg23Buscar",
+        album: "futbolArgentino2023",
+        baseJson: "baseFutarg",
+        canalVenta: "ONLINE"
     },
     {
-        botonId:"botonFutArg24Buscar",
-        album:"futbolArgentino2024",
-        baseJson:"baseFutarg24",
-        canalVenta:"ONLINE"
+        botonId: "botonFutArg24Buscar",
+        album: "futbolArgentino2024",
+        baseJson: "baseFutarg24",
+        canalVenta: "ONLINE"
     },
     {
-        botonId:"botonLibertadores23Buscar",
-        album:"libertadores2023",
-        baseJson:"baseLali",
-        canalVenta:"ONLINE"
+        botonId: "botonLibertadores23Buscar",
+        album: "libertadores2023",
+        baseJson: "baseLali",
+        canalVenta: "ONLINE"
     }
 ]
 
 const botonesElementosCosecha = [
     {
-        botonId:"botonMundialUsaCosecha",
-        album:"mundialUsa2026",
-        baseJson:"baseMundialUsa",
+        botonId: "botonMundialUsaCosecha",
+        album: "mundialUsa2026",
+        baseJson: "baseMundialUsa",
     },
     {
-        botonId:"botonMundialQatarCosecha",
-        album:"mundialQatar2022",
-        baseJson:"baseMundial",
+        botonId: "botonMundialQatarCosecha",
+        album: "mundialQatar2022",
+        baseJson: "baseMundial",
     },
     {
-        botonId:"botonCopaAmericaCosecha",
-        album:"copaAmerica2024",
-        baseJson:"base_copam",
+        botonId: "botonCopaAmericaCosecha",
+        album: "copaAmerica2024",
+        baseJson: "base_copam",
     },
     {
-        botonId:"botonFutArg23Cosecha",
-        album:"futbolArgentino2023",
-        baseJson:"baseFutarg",
+        botonId: "botonFutArg23Cosecha",
+        album: "futbolArgentino2023",
+        baseJson: "baseFutarg",
     },
     {
-        botonId:"botonFutArg24Cosecha",
-        album:"futbolArgentino2024",
-        baseJson:"baseFutarg24",
+        botonId: "botonFutArg24Cosecha",
+        album: "futbolArgentino2024",
+        baseJson: "baseFutarg24",
     },
     {
-        botonId:"botonLibertadores23Cosecha",
-        album:"libertadores2023",
-        baseJson:"baseLali",
+        botonId: "botonLibertadores23Cosecha",
+        album: "libertadores2023",
+        baseJson: "baseLali",
     }
 ]
 
 const botonesElementosNoVendidas = [
     {
-        botonId:"botonMundialUsaNoVendidas",
-        album:"mundialUsa2026",
-        baseJson:"baseMundialUsa",
+        botonId: "botonMundialUsaNoVendidas",
+        album: "mundialUsa2026",
+        baseJson: "baseMundialUsa",
     },
     {
-        botonId:"botonMundialQatarNoVendidas",
-        album:"mundialQatar2022",
-        baseJson:"baseMundial",
+        botonId: "botonMundialQatarNoVendidas",
+        album: "mundialQatar2022",
+        baseJson: "baseMundial",
     },
     {
-        botonId:"botonCopaAmericaNoVendidas",
-        album:"copaAmerica2024",
-        baseJson:"base_copam",
+        botonId: "botonCopaAmericaNoVendidas",
+        album: "copaAmerica2024",
+        baseJson: "base_copam",
     },
     {
-        botonId:"botonFutArg23NoVendidas",
-        album:"futbolArgentino2023",
-        baseJson:"baseFutarg",
+        botonId: "botonFutArg23NoVendidas",
+        album: "futbolArgentino2023",
+        baseJson: "baseFutarg",
     },
     {
-        botonId:"botonFutArg24NoVendidas",
-        album:"futbolArgentino2024",
-        baseJson:"baseFutarg24",
+        botonId: "botonFutArg24NoVendidas",
+        album: "futbolArgentino2024",
+        baseJson: "baseFutarg24",
     },
     {
-        botonId:"botonLibertadores23NoVendidas",
-        album:"libertadores2023",
-        baseJson:"baseLali",
+        botonId: "botonLibertadores23NoVendidas",
+        album: "libertadores2023",
+        baseJson: "baseLali",
     }
 ]
 
@@ -139,8 +139,7 @@ botonesElementosBuscar.forEach(objeto => {
     boton?.addEventListener('click', async () => {
         try {
             const figuritas = await obtenerFiguritas(objeto.album);
-            const preguntas = await obtenerPreguntas()
-            buscarFigus(objeto.baseJson, figuritas, objeto.album, objeto.canalVenta,preguntas);
+            buscarFigus(objeto.baseJson, figuritas, objeto.album, objeto.canalVenta);
         } catch (error) {
             console.error(error);
         }
@@ -151,58 +150,88 @@ botonesElementosCosecha.forEach(objeto => {
     console.log(objeto.album)
     const boton = document.getElementById(objeto.botonId)
     boton?.addEventListener('click', async () => {
-    const figuritas = await obtenerFiguritas(objeto.album);
-    cosecharFigus(objeto.baseJson, figuritas, objeto.album);
+        const figuritas = await obtenerFiguritas(objeto.album);
+        cosecharFigus(objeto.baseJson, figuritas, objeto.album);
     })
 })
 
-const elementVentas = document.getElementById("totalVentas") || document.getElementById("totalVentasAri") || document.getElementById("totalVentasLuly") 
+const elementVentas = document.getElementById("totalVentas") || document.getElementById("totalVentasAri") || document.getElementById("totalVentasLuly")
 
-if (elementVentas){
+if (elementVentas) {
     const ventas = await obtenerVentas();
-    await totalVentas(ventas,elementVentas);
+    await totalVentas(ventas, elementVentas);
 }
 
 const botonStockLuly = document.getElementById("botonStockLuly")
-botonStockLuly?.addEventListener("click",async()=>{
+botonStockLuly?.addEventListener("click", async () => {
     const stockLuly = await obtenerFiguritas("mundialUsa2026")
-    StockFigusLuly(stockLuly,"mundialUsa2026")
+    StockFigusLuly(stockLuly, "mundialUsa2026")
 })
 
 const botonesSinStock = [
     {
-        boton:"botonSinStockQatar",
-        album:"mundialQatar2022"
+        boton: "botonSinStockQatar",
+        album: "mundialQatar2022"
     },
     {
-        boton:"botonSinStockAmerica",
-        album:"copaAmerica2024"
+        boton: "botonSinStockAmerica",
+        album: "copaAmerica2024"
     },
     {
-        boton:"botonSinStockUSA",
-        album:"mundialUsa2026"
+        boton: "botonSinStockUSA",
+        album: "mundialUsa2026"
     },
     {
-        boton:"botonSinStockFutArg23",
-        album:"futbolArgentino2023"
+        boton: "botonSinStockFutArg23",
+        album: "futbolArgentino2023"
     },
     {
-        boton:"botonSinStockLibertadores23",
-        album:"libertadores2023"
+        boton: "botonSinStockLibertadores23",
+        album: "libertadores2023"
     },
     {
-        boton:"botonSinStockFutArg24",
-        album:"futbolArgentino2024"
+        boton: "botonSinStockFutArg24",
+        album: "futbolArgentino2024"
     }
 ]
 
-botonesSinStock.forEach(obj =>{
+botonesSinStock.forEach(obj => {
     const boton = document.getElementById(obj.boton)
-    boton?.addEventListener("click",async ()=>{
-    const figus = await obtenerFiguritas(obj.album);
-    sinStock(figus,obj.album)
+    boton?.addEventListener("click", async () => {
+        const figus = await obtenerFiguritas(obj.album);
+        sinStock(figus, obj.album)
     })
 })
+
+const idMeli = document.getElementById("botonMundialUsaMeli")
+idMeli.addEventListener("click", async () => {
+    
+        const preguntasMeli = await obtenerPreguntas()
+        const res = document.getElementById("resultados")
+        res.innerHTML=""
+        preguntasMeli.forEach(pregunta=>{
+            console.log(pregunta)
+            const elementPregunta = document.createElement("div")
+            const fechaPregunta = document.createElement("div")
+            const preguntaMeli = document.createElement("div")
+            const idPregunta = document.createElement("div")
+            //const mensaje = buscarFigus("", figuritas, objeto.album, objeto.canalVenta);
+            fechaPregunta.textContent=pregunta.date_created
+            preguntaMeli.textContent=pregunta.text
+            idPregunta.textContent=pregunta.id
+            const respuesta = document.createElement("input")
+            respuesta.style.width="100%"
+            elementPregunta.append(fechaPregunta,preguntaMeli,idPregunta,respuesta)
+            elementPregunta.style.margin="15px"
+            fechaPregunta.style.backgroundColor="rgba(111, 225, 215, 0.69)"
+            preguntaMeli.style.backgroundColor="rgba(201, 239, 236, 0.69)"
+            elementPregunta.style.border="solid black 1px"
+            
+            res.appendChild(elementPregunta)
+        })         
+    
+})
+
 
 
 
@@ -274,9 +303,9 @@ botonesElementosNoVendidas.forEach(objeto => {
     console.log(objeto.album)
     const boton = document.getElementById(objeto.botonId)
     boton?.addEventListener('click', async () => {
-    const figuritas = await obtenerFiguritas(objeto.album);
-    const ventas = await obtenerVentas()
-    noVendidas(figuritas,ventas, objeto.album)
+        const figuritas = await obtenerFiguritas(objeto.album);
+        const ventas = await obtenerVentas()
+        noVendidas(figuritas, ventas, objeto.album)
     })
 })
 
