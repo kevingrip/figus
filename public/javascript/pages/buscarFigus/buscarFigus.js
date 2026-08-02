@@ -270,41 +270,41 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta, pr
     const resultados = document.getElementById('resultados');
     resultados.innerHTML = ''; // Limpiar resultados anteriores
 
-    const contenedorPreguntaMeli = document.createElement('div')
+    // const contenedorPreguntaMeli = document.createElement('div')
 
-    preguntasMeli.forEach(pregunta => {
-        const elementPregunta = document.createElement("div")
-        const fechaPregunta = document.createElement('p')
-        const itemId = document.createElement('p')
-        const sellerId = document.createElement('p')
-        const preguntaMeli = document.createElement('p')
-        const idPregunta = document.createElement('p')
+    // preguntasMeli.forEach(pregunta => {
+    //     const elementPregunta = document.createElement("div")
+    //     const fechaPregunta = document.createElement('p')
+    //     const itemId = document.createElement('p')
+    //     const sellerId = document.createElement('p')
+    //     const preguntaMeli = document.createElement('p')
+    //     const idPregunta = document.createElement('p')
 
-        fechaPregunta.textContent = `Fecha: ${pregunta.date_created}`
-        itemId.textContent = `Publicacion: ${pregunta.item_id}`
-        sellerId.textContent = `Cuenta: ${pregunta.seller_id}`
-        preguntaMeli.textContent = `Pregunta: ${pregunta.text}`
-        idPregunta.textContent = `preguntaID: ${pregunta.id}`
-        console.log(pregunta.text)
-        elementPregunta.style.marginBottom = "100px"
-        elementPregunta.style.backgroundColor = "#c6e0f2"
-        elementPregunta.append(fechaPregunta, itemId, sellerId, preguntaMeli, idPregunta)
-        contenedorPreguntaMeli.appendChild(elementPregunta)
-    })
+    //     fechaPregunta.textContent = `Fecha: ${pregunta.date_created}`
+    //     itemId.textContent = `Publicacion: ${pregunta.item_id}`
+    //     sellerId.textContent = `Cuenta: ${pregunta.seller_id}`
+    //     preguntaMeli.textContent = `Pregunta: ${pregunta.text}`
+    //     idPregunta.textContent = `preguntaID: ${pregunta.id}`
+    //     console.log(pregunta.text)
+    //     elementPregunta.style.marginBottom = "100px"
+    //     elementPregunta.style.backgroundColor = "#c6e0f2"
+    //     elementPregunta.append(fechaPregunta, itemId, sellerId, preguntaMeli, idPregunta)
+    //     contenedorPreguntaMeli.appendChild(elementPregunta)
+    // })
 
 
 
-    const elementIngresarID = document.createElement("div")
-    const IngresarID = document.createElement("input")
-    const elementResponder = document.createElement("div")
-    const botonResponderMeli = document.createElement("button")
-    botonResponderMeli.textContent = "RESPONDER"
-    elementIngresarID.appendChild(IngresarID)
-    elementResponder.appendChild(elementIngresarID)
-    elementResponder.appendChild(botonResponderMeli)
+    // const elementIngresarID = document.createElement("div")
+    // const IngresarID = document.createElement("input")
+    // const elementResponder = document.createElement("div")
+    // const botonResponderMeli = document.createElement("button")
+    // botonResponderMeli.textContent = "RESPONDER"
+    // elementIngresarID.appendChild(IngresarID)
+    // elementResponder.appendChild(elementIngresarID)
+    // elementResponder.appendChild(botonResponderMeli)
 
-    resultados.appendChild(elementResponder)
-    resultados.appendChild(contenedorPreguntaMeli)
+    // resultados.appendChild(elementResponder)
+    // resultados.appendChild(contenedorPreguntaMeli)
 
 
     const contenedorPreguntaOVenta = document.createElement('div')
@@ -340,22 +340,23 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta, pr
             }
         }
 
-        let { mensaje: mensajePregunta, precioFinal, elementResumenListaFigu, divPregunta } = elementoPregunta(infoPregunta)
+        let { mensaje, precioFinal, elementResumenListaFigu, divPregunta } = elementoPregunta(infoPregunta)
+        // let { mensaje: mensajePregunta, precioFinal, elementResumenListaFigu, divPregunta } = elementoPregunta(infoPregunta)
 
-        mensaje = mensajePregunta.textContent
-        console.log(mensaje)
-        botonResponderMeli.addEventListener("click", async () => {
-            await fetch(`${api}/mercadolibre/respuestas`, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    id: Number(IngresarID.value),
-                    texto: mensaje
-                })
-            });
-        })
+        // mensaje = mensajePregunta.textContent
+        // console.log(mensaje)
+        // botonResponderMeli.addEventListener("click", async () => {
+        //     await fetch(`${api}/mercadolibre/respuestas`, {
+        //         method: "POST",
+        //         headers: {
+        //             "Content-Type": "application/json"
+        //         },
+        //         body: JSON.stringify({
+        //             id: Number(IngresarID.value),
+        //             texto: mensaje
+        //         })
+        //     });
+        // })
 
         const infoVenta = {
             elementos: {
