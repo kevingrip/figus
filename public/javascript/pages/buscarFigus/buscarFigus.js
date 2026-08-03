@@ -140,7 +140,7 @@ const contarTipoFigu = (figusEnStock) => {
 
 
 const figusEntrada = (albumFigus, entradaMeli) => {
-    let valorInput = entradaMeli || document.getElementById('entrada').value.toUpperCase();
+    let valorInput = entradaMeli || document.getElementById('entrada')?.value.toUpperCase() || "";
     const figusEntrada = formatearEntrada(valorInput)
 
     // Filtrar las figus seleccionadas
@@ -352,6 +352,7 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta, en
         const errorEscritura = document.createElement('p');
         errorEscritura.innerHTML = `${figusError.length > 0 ? `Error de escritura.<br> Posible error: ${figusError}` : 'Ingrese figuritas'}`;
         errorEscritura.classList.add('clientFigu')
-        resultados.appendChild(errorEscritura);
+        resultados?.appendChild(errorEscritura);
+
     }
 };
