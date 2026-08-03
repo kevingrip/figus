@@ -1,13 +1,13 @@
 import { precioBarato } from "./preciosBaratos.js";
 
 const sinFiguLuly = [
-"FWC18",
-"ALG13",
-"COD5",
-"UZB8",
-"GHA2",
-"CC3",,
-"CC9"
+    "FWC18",
+    "ALG13",
+    "COD5",
+    "UZB8",
+    "GHA2",
+    "CC3", ,
+    "CC9"
 ]
 
 const mostrarCuadroResumen = (elementResumenTotal, figusEnStock, figusSinStock, totalPrecio) => {
@@ -51,7 +51,7 @@ const imprimirFilas = (cant_stock, figu, filaFigurita, canalPregunta) => {
         } else {
             filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock}  \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE} \u00A0\u00A0\u00A0 $${precio} \u00A0\u00A0\u00A0 Proveedor ${proveedorEnStock}`;
         }
-    } else if (canalPregunta === "ONLINE"){
+    } else if (canalPregunta === "ONLINE") {
         let precio = proveedorEnStock === "PDM" ? figu.STOCK["PDM"].PRECIO : figu.STOCK["MATI"].PRECIO
         if (cant_stock == 0) {
             filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
@@ -59,7 +59,7 @@ const imprimirFilas = (cant_stock, figu, filaFigurita, canalPregunta) => {
         } else {
             filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock}  \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE} \u00A0\u00A0\u00A0 $${precio} \u00A0\u00A0\u00A0 Proveedor ${proveedorEnStock}`;
         }
-    } else if (canalPregunta === "ARI"){
+    } else if (canalPregunta === "ARI") {
         // agregar que si el proveedor es pdm sea mas caro
         let precio = proveedorEnStock === "LULY" ? precioBarato(figu.TIPO) + 300 : (proveedorEnStock === "MATI" ? precioBarato(figu.TIPO) : figu.STOCK[proveedorEnStock]?.PRECIO)
         if (cant_stock == 0) {
@@ -93,15 +93,15 @@ const mostrarRespuesta = (figusEnStock, figusFaltantes, costoEnvioGratis, precio
 
     let figuNUMstock = figusEnStock.map(figu => figu.NUM).join(", ")
 
-    let messi=''
-    if (figusEnStock.some(figu => figu.NUM === "ARG17")) {
+    let messi = ''
+    if (figusEnStock.some(figu => figu.TIPO === "MESSI")) {
         messi = "incluyendo a Messi"
     }
 
     let tercera = ""
-    let segunda = messi ? 
-    `El precio por ${figusEnStock.length == 1 ? `la figurita original ${messi} es $` : `las ${figusEnStock.length} figuritas originales ${messi} es `}${precioTotal}. Sacando ARG17 de tu lista, el precio por las ${figusEnStock.length-1} figuritas es ${precioTotal-43000}` :
-    `El precio por ${figusEnStock.length == 1 ? `la figurita original es $` : `las ${figusEnStock.length} figuritas originales es `}${precioTotal}`
+    let segunda = messi ?
+        `El precio por ${figusEnStock.length == 1 ? `la figurita original ${messi} es $` : `las ${figusEnStock.length} figuritas originales ${messi} es `}${precioTotal}. Sacando ARG17 de tu lista, el precio por las ${figusEnStock.length - 1} figuritas es ${precioTotal - 43000}` :
+        `El precio por ${figusEnStock.length == 1 ? `la figurita original es $` : `las ${figusEnStock.length} figuritas originales es `}${precioTotal}`
     let primera = `Hola! Si, ${figusEnStock.length == 1 ? 'la' : 'las'} tengo en stock. \n`
     let primera2 = `Hola! Las tengo excepto ${figusFaltantes}. \n`
     let primera3 = `Hola! De tu lista tengo ${figuNUMstock}. \n`
@@ -110,7 +110,7 @@ const mostrarRespuesta = (figusEnStock, figusFaltantes, costoEnvioGratis, precio
         tercera = `. \nConfirmame si te sirve y actualizo el precio de esta publicación para tu compra${precioTotal >= costoEnvioGratis ? ` con Envio Gratis!!` : `. Saludos!`}`
     }
 
-    
+
     console.log(figusEnStock.length)
     if (figusEnStock.length == 0) {
         let singPlu = figusFaltantes.length > 1 ? "las" : "la"
@@ -162,7 +162,7 @@ export const elementoPregunta = ({ elementos, datos }) => {
     elementResumenListaFigu.classList.add = ('inptDiv')
     elementResumenTotal.classList.add('inptDiv')
 
-    resultados.appendChild(contenedorPreguntaOVenta)
+    resultados?.appendChild(contenedorPreguntaOVenta)
 
     setTimeout(() => {
         buttonPregunta.click();
@@ -189,7 +189,10 @@ export const elementoPregunta = ({ elementos, datos }) => {
         }
     })
 
-    resultados.style.padding = '0px'
+
+    if (resultados) {
+        resultados.style.padding = "0px";
+    }
 
     const mensaje = document.createElement('h3');
     mensaje.style.margin = '30px'
@@ -210,8 +213,8 @@ export const elementoPregunta = ({ elementos, datos }) => {
         divPregunta.appendChild(elementResumenListaFigu)
         divPregunta.appendChild(elementResumenTotal)
 
-        resultados.appendChild(divPregunta)
-        resultados.appendChild(mensaje)
+        resultados?.appendChild(divPregunta)
+        resultados?.appendChild(mensaje)
     })
     return { mensaje, precioFinal, elementResumenListaFigu }
 

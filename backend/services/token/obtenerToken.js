@@ -3,46 +3,73 @@ import MercadoLibreToken from "../../models/tokenmodel.js"
 
 export const obtenerToken = async () => {
 
-    let token = await MercadoLibreToken.findOne();
-
-    // Primera ejecución
-    if (!token) {
-
-        console.log("Creando documento del token...");
-
-        token = await MercadoLibreToken.create({
-            access_token: process.env.ML_ACCESS_TOKEN,
-            refresh_token: process.env.ML_REFRESH_TOKEN,
-            expires_at: Date.now() + (6 * 60 * 60 * 1000) // 6 horas
-        });
-
-        return token.access_token;
+    const token = await MercadoLibreToken.find();
+    console.log(token)
+    if (!token.length) {
+        throw new Error(`No se encuentra token`);
     }
+    // Primera ejecución
+    // if (!token) {
+
+    //     console.log("Creando documento del token...");
+
+    //     try {
+    //         token = await MercadoLibreToken.create({
+    //             seller_id,
+    //             client_id: process.env.ML_CLIENT_ID,
+    //             client_secret: process.env.ML_CLIENT_SECRET,
+    //             access_token: process.env.ML_ACCESS_TOKEN,
+    //             refresh_token: process.env.ML_REFRESH_TOKEN,
+    //             expires_at: Date.now() + (6 * 60 * 60 * 1000)
+    //         });
+
+    //         console.log("Creado:", token);
+    //     } catch (err) {
+    //         console.error(err);
+    //     }
+
+    //     return token.access_token;
+    // }
 
     // Todavía es válido
-    if (Date.now() < token.expires_at) {
-        return token.access_token;
+    const listaTokens = []
+    for (const mltoken of token) {
+        if (Date.now() < mltoken.expires_at) {
+            listaTokens.push({ access_token: mltoken.access_token, seller: mltoken.seller_id });
+        } else {
+            console.log("Renovando Access Token...");
+
+            try {
+                const { data } = await axios.post(
+                    "https://api.mercadolibre.com/oauth/token",
+                    {
+                        grant_type: "refresh_token",
+                        client_id: mltoken.client_id,
+                        client_secret: mltoken.client_secret,
+                        refresh_token: mltoken.refresh_token
+                    }
+                );
+
+                mltoken.access_token = data.access_token;
+                mltoken.refresh_token = data.refresh_token;
+                mltoken.expires_at = Date.now() + (data.expires_in * 1000);
+
+                await mltoken.save();
+
+                console.log("Token renovado.");
+
+                listaTokens.push({ access_token: mltoken.access_token, seller: mltoken.seller_id });
+            } catch (error) {
+                console.error(
+                    "Error renovando token:",
+                    error.response?.data || error.message
+                );
+                throw error;
+            }
+        }
     }
 
-    console.log("Renovando Access Token...");
+    return listaTokens
 
-    const { data } = await axios.post(
-        "https://api.mercadolibre.com/oauth/token",
-        {
-            grant_type: "refresh_token",
-            client_id: process.env.ML_CLIENT_ID,
-            client_secret: process.env.ML_CLIENT_SECRET,
-            refresh_token: token.refresh_token
-        }
-    );
 
-    token.access_token = data.access_token;
-    token.refresh_token = data.refresh_token;
-    token.expires_at = Date.now() + (data.expires_in * 1000);
-
-    await token.save();
-
-    console.log("Token renovado.");
-
-    return token.access_token;
 };

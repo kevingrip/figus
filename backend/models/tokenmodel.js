@@ -9,6 +9,20 @@ const esquema = new mongoose.Schema({
         type: String,
         required: true
     },
+    client_id: {
+        type: String,
+        required: true
+    },
+    client_secret: {
+        type: String,
+        required: true
+    },
+    seller_id:{
+        type: Number,
+        required: true,
+        unique: true,
+        index: true
+    },
     expires_at: {
         type: Number,
         required: true

@@ -139,8 +139,8 @@ const contarTipoFigu = (figusEnStock) => {
 }
 
 
-const figusEntrada = (albumFigus) => {
-    let valorInput = document.getElementById('entrada').value.toUpperCase();
+const figusEntrada = (albumFigus, entradaMeli) => {
+    let valorInput = entradaMeli || document.getElementById('entrada').value.toUpperCase();
     const figusEntrada = formatearEntrada(valorInput)
 
     // Filtrar las figus seleccionadas
@@ -257,18 +257,20 @@ const Toast = Swal.mixin({
 });
 
 
-export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta, preguntasMeli) => {
+export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta, entradaMeli) => {
 
     let costoEnvioGratis = 33000
     let mensaje = "";
     let proveedor;
-    const { errorEscritura, figusError, figusDeLaConsulta } = figusEntrada(albumFigus)
+    const { errorEscritura, figusError, figusDeLaConsulta } = figusEntrada(albumFigus, entradaMeli)
 
     let { figusEnStock, figusSinStock, totalPrecio } = getStockyPrecio(figusDeLaConsulta, canalPregunta)
 
     // Mostrar resultados en el HTML
     const resultados = document.getElementById('resultados');
-    resultados.innerHTML = ''; // Limpiar resultados anteriores
+    if (resultados) {
+        resultados.innerHTML = '';
+    }
 
     const contenedorPreguntaOVenta = document.createElement('div')
 

@@ -3,51 +3,25 @@ import { obtenerToken } from "./obtenerToken.js";
 
 export const mlGet = async (url, config = {}) => {
 
-    const token = await obtenerToken();
+    const listaTokens = await obtenerToken();
 
-    return axios.get(url, {
-        ...config,
-        headers: {
-            ...config.headers,
-            Authorization: `Bearer ${token}`,
-                "Content-Type": "application/json"                
-        }
-    });
+    const respuestas = await Promise.all(
+        listaTokens.map(token =>
+            axios.get(url, {
+                ...config,
+                params: {
+                    ...config.params,
+                    seller_id: token.seller
+                },
+                headers: {
+                    ...config.headers,
+                    Authorization: `Bearer ${token.access_token}`,
+                    "Content-Type": "application/json"
+                }
+            })
+        )
+    );
 
-}
-
-export const mlPost = async (url, body = {}) => {
-
-    const token = await obtenerToken();
-
-    return axios.post(url, body, {
-        headers: {
-            Authorization: `Bearer ${token}`
-        }
-    });
-
-}
-
-export const mlPut = async (url, body = {}) => {
-
-    const token = await obtenerToken();
-
-    return axios.put(url, body, {
-        headers: {
-            Authorization: `Bearer ${token}`
-        }
-    });
-
-}
-
-export const mlDelete = async (url) => {
-
-    const token = await obtenerToken();
-
-    return axios.delete(url, {
-        headers: {
-            Authorization: `Bearer ${token}`
-        }
-    });
+    return respuestas.map(res => res.data);
 
 }

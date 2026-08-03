@@ -5,6 +5,7 @@ import { totalVentas } from "./javascript/pages/totalVentas.js";
 import { StockFigusLuly } from "./javascript/pages/StockFigusLuly.js";
 import { sinStock } from "./javascript/pages/sinStock.js";
 import { noVendidas } from "./javascript/pages/noVendidas.js";
+import { preguntasMercadolibre } from "./javascript/pages/preguntasmeli.js";
 
 const botonesElementosBuscar = [
     {
@@ -203,33 +204,10 @@ botonesSinStock.forEach(obj => {
     })
 })
 
-const idMeli = document.getElementById("botonMundialUsaMeli")
-idMeli.addEventListener("click", async () => {
-    
-        const preguntasMeli = await obtenerPreguntas()
-        const res = document.getElementById("resultados")
-        res.innerHTML=""
-        preguntasMeli.forEach(pregunta=>{
-            console.log(pregunta)
-            const elementPregunta = document.createElement("div")
-            const fechaPregunta = document.createElement("div")
-            const preguntaMeli = document.createElement("div")
-            const idPregunta = document.createElement("div")
-            //const mensaje = buscarFigus("", figuritas, objeto.album, objeto.canalVenta);
-            fechaPregunta.textContent=pregunta.date_created
-            preguntaMeli.textContent=pregunta.text
-            idPregunta.textContent=pregunta.id
-            const respuesta = document.createElement("input")
-            respuesta.style.width="100%"
-            elementPregunta.append(fechaPregunta,preguntaMeli,idPregunta,respuesta)
-            elementPregunta.style.margin="15px"
-            fechaPregunta.style.backgroundColor="rgba(111, 225, 215, 0.69)"
-            preguntaMeli.style.backgroundColor="rgba(201, 239, 236, 0.69)"
-            elementPregunta.style.border="solid black 1px"
-            
-            res.appendChild(elementPregunta)
-        })         
-    
+
+window.addEventListener("load", async () => {
+const preguntasMeli = await obtenerPreguntas()
+preguntasMercadolibre(preguntasMeli)
 })
 
 

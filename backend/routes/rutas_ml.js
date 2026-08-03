@@ -17,6 +17,7 @@ router.get("/orden/:id", async (req, res) => {
 
 router.get("/preguntas", async (req, res) => {
     try {
+
         const preguntas = await obtenerPreguntasSinResponder();
         res.json(preguntas);
     } catch (error) {
