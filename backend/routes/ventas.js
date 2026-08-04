@@ -12,4 +12,21 @@ router.post("/", async (req, res) => {
     res.json({ ok: true });
 });
 
+router.patch("/:id", async(req,res)=>{
+    try {
+        const venta = await Venta.findByIdAndUpdate(
+            req.params.id,{
+                VERIFICADAS: true
+            },
+            { new: true }
+        )
+        res.json(venta)
+        
+    } catch (error) {
+        res.status(500).json({
+            error: error.message
+        });
+    }
+})
+
 export default router;

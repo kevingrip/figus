@@ -9,7 +9,9 @@ const modelo_venta = new mongoose.Schema(
         PRECIO: Number,
         CUENTA: String,
         ENVIO: String,
-        ALBUM: String
+        ALBUM: String,
+        VERIFICADAS: Boolean,
+        PAGADAS: Boolean
     },
     {
         collection: "ventas"

@@ -77,18 +77,18 @@ const figuGrande = (figu, contenedorFiguGrande) => {
     contenedorFiguGrande.appendChild(figuritaGrande)
 }
 
-const formateoAlbum = (album) =>{
-    if (album=="mundialUsa2026")
+const formateoAlbum = (album) => {
+    if (album == "mundialUsa2026")
         return "Mundial USA 2026"
-    else if (album=="mundialQatar2022"){
+    else if (album == "mundialQatar2022") {
         return "Mundial Qatar 2022"
-    }else if (album=="copaAmerica2024"){
+    } else if (album == "copaAmerica2024") {
         return "Copa America 2024"
-    }else if (album=="libertadores2023"){
+    } else if (album == "libertadores2023") {
         return "Libertadores 2023"
-    }else if (album=="futbolArgentino2023"){
+    } else if (album == "futbolArgentino2023") {
         return "futbolArgentino2024"
-    }else if (album=="mundialUsa2026"){
+    } else if (album == "mundialUsa2026") {
         return "Futbol Argentino 2024"
     }
 }
@@ -97,8 +97,8 @@ export const totalVentas = async (todasLasVentas, totalVentasElement) => {
 
     const contenedorPadre = document.createElement("div")
     const totalVendido = document.createElement("h3")
-    totalVendido.style.display="flex"
-    totalVendido.style.justifyContent="center"
+    totalVendido.style.display = "flex"
+    totalVendido.style.justifyContent = "center"
     if (totalVentasElement) {
         if (totalVentasElement.id == "totalVentasAri") {
             todasLasVentas = todasLasVentas.filter(ventas => ventas.CUENTA == "ARI")
@@ -133,7 +133,7 @@ export const totalVentas = async (todasLasVentas, totalVentasElement) => {
                         if (mostrar) {
                             total += Number(div.dataset.precio);
                         }
-                    });                    
+                    });
                     totalVendido.textContent = `Total Vendido: $ ${total}`;
                 });
             })
@@ -205,7 +205,7 @@ export const totalVentas = async (todasLasVentas, totalVentasElement) => {
             const crearBotonVerDetalle = document.createElement("button")
             const contenedorBotones = document.createElement("div")
             const contenedorFiguGrande = document.createElement("div")
-            crearBotonVerDetalle.textContent = "Chequear"
+            crearBotonVerDetalle.textContent = "Verificar"
 
             crearBotonVerDetalle.addEventListener("click", () => {
                 let posicion = 0
@@ -230,7 +230,7 @@ export const totalVentas = async (todasLasVentas, totalVentasElement) => {
                 const maxFiguritas = venta.VENDIDAS.length - 1
                 figuGrande(venta.VENDIDAS[posicion], contenedorFiguGrande)
 
-                botonSiguiente.addEventListener("click", () => {
+                botonSiguiente.addEventListener("click", async () => {
                     if (posicion < maxFiguritas) {
                         posicion += 1
                     }
@@ -239,6 +239,10 @@ export const totalVentas = async (todasLasVentas, totalVentasElement) => {
                         contenedorBotones.remove()
                         contenedorVenta.appendChild(contenedorFigus)
                         contenedorVenta.appendChild(crearBotonVerDetalle)
+                        contenedorVenta.style.backgroundColor="gray"
+                        await fetch(`${api}/ventas/${venta._id}`, {
+                            method: "PATCH"
+                        });
                     }
                     contenedorFiguGrande.innerHTML = "";
                     figuGrande(venta.VENDIDAS[posicion], contenedorFiguGrande)
@@ -258,6 +262,9 @@ export const totalVentas = async (todasLasVentas, totalVentasElement) => {
                 })
 
             })
+            if (venta.VERIFICADAS){
+                contenedorVenta.style.backgroundColor="gray"
+            }
             contenedorVenta.dataset.cuenta = venta.CUENTA;
             contenedorVenta.dataset.precio = venta.PRECIO;
             contenedorVenta.appendChild(contenedorInfo)
