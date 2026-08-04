@@ -113,7 +113,7 @@ export const sinStock = async (figus, album) => {
     const figuritasZonaKids = () => {
         const tipos = [...new Set(figus.map(figu => figu.TIPO))];
         console.log(tipos)
-        const figusObligatorias = figus.filter(figu =>
+        const figusObligatorias = figus .filter(figu =>
             ['COCA', 'MESSI', 'PANINI'].includes(figu.TIPO)
         );
         const figusCompletar = figus.filter(figu =>

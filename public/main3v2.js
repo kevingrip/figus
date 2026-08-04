@@ -207,6 +207,7 @@ botonesSinStock.forEach(obj => {
 
 window.addEventListener("load", async () => {
 const preguntasMeli = await obtenerPreguntas()
+
 preguntasMercadolibre(preguntasMeli)
 })
 

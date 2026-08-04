@@ -2,6 +2,7 @@ import express from "express";
 import { obtenerOrden } from "../services/mercadolibre/ordenes.js";
 import { obtenerPreguntasSinResponder } from "../services/mercadolibre/preguntas.js";
 import { responderPregunta } from "../services/mercadolibre/respuestas.js";
+import { obtenerPreguntasConHistorial } from "../services/mercadolibre/preguntasConHistorial.js";
 
 const router = express.Router();
 
@@ -18,7 +19,9 @@ router.get("/orden/:id", async (req, res) => {
 router.get("/preguntas", async (req, res) => {
     try {
 
-        const preguntas = await obtenerPreguntasSinResponder();
+        //const preguntas = await obtenerPreguntasSinResponder();
+        const preguntas = await obtenerPreguntasConHistorial()
+        
         res.json(preguntas);
     } catch (error) {
         console.log(error.response?.data || error.message);
@@ -30,13 +33,9 @@ router.get("/preguntas", async (req, res) => {
 
 router.post("/respuestas", async (req, res) => {
     try {
-        const { id, texto } = req.body;
+        const { id, texto, seller_id } = req.body;
 
-        console.log("BODY:", req.body);
-        console.log("ID:", id, "TIPO:", typeof id);
-        console.log("TEXTO:", texto);
-
-        const respuesta = await responderPregunta(id,texto);
+        const respuesta = await responderPregunta(id,texto,seller_id);
 
         res.json(respuesta);
     } catch (error) {

@@ -8,7 +8,7 @@ export const obtenerHistorialCliente = async (buyer_id) => {
         "https://api.mercadolibre.com/questions/search",
         {
             params: {
-                buyer_id,
+                status: "ANSWERED",                
                 deleted_from_listing: false,
                 api_version: 4
             }
@@ -17,7 +17,7 @@ export const obtenerHistorialCliente = async (buyer_id) => {
 
     return respuestas.flatMap(data =>
         data.questions?.filter(
-            pregunta => !pregunta.deleted_from_listing
+            pregunta => !pregunta.deleted_from_listing && pregunta.from.id==buyer_id
         ) || []
     );
 };

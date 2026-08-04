@@ -4,7 +4,7 @@ import MercadoLibreToken from "../../models/tokenmodel.js"
 export const obtenerToken = async () => {
 
     const token = await MercadoLibreToken.find();
-    console.log(token)
+    //console.log(token)
     if (!token.length) {
         throw new Error(`No se encuentra token`);
     }
