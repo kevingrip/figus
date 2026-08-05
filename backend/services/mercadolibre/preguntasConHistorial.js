@@ -8,9 +8,11 @@ export const obtenerPreguntasConHistorial = async () => {
     for (const pregunta of preguntas) {
         
         pregunta.historial = await obtenerHistorialCliente(
-            pregunta.from.id
+            pregunta.from.id,
+            pregunta.seller_id
         );
         
     }
+    console.log(preguntas)
     return preguntas;
 };
