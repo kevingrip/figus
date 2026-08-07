@@ -6,6 +6,7 @@ import { StockFigusLuly } from "./javascript/pages/StockFigusLuly.js";
 import { sinStock } from "./javascript/pages/sinStock.js";
 import { noVendidas } from "./javascript/pages/noVendidas.js";
 import { preguntasMercadolibre } from "./javascript/pages/preguntasmeli.js";
+import { todasLasPublicaciones } from "./javascript/pages/todasLasPublicaciones.js";
 
 const botonesElementosBuscar = [
     {
@@ -206,9 +207,19 @@ botonesSinStock.forEach(obj => {
 
 
 window.addEventListener("load", async () => {
-const preguntasMeli = await obtenerPreguntas()
+    if (window.location.pathname.endsWith("/preguntasmeli.html")) {
+        const preguntasMeli = await obtenerPreguntas()
 
-preguntasMercadolibre(preguntasMeli)
+        preguntasMercadolibre(preguntasMeli)
+    }
+
+})
+
+window.addEventListener("load", async () => {
+    if (window.location.pathname.endsWith("/todaslaspublicaciones.html")){
+        todasLasPublicaciones()
+    }
+    
 })
 
 

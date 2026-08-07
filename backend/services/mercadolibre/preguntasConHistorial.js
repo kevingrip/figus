@@ -13,6 +13,6 @@ export const obtenerPreguntasConHistorial = async () => {
         );
         
     }
-    console.log(preguntas)
+
     return preguntas;
 };
