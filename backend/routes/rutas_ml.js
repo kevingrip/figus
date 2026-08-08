@@ -3,7 +3,7 @@ import { obtenerOrden } from "../services/mercadolibre/ordenes.js";
 import { obtenerPreguntasSinResponder } from "../services/mercadolibre/preguntas.js";
 import { responderPregunta } from "../services/mercadolibre/respuestas.js";
 import { obtenerPreguntasConHistorial } from "../services/mercadolibre/preguntasConHistorial.js";
-import { activarPublicacion, estadoPublicacion,modificarStock } from "../services/mercadolibre/publicaciones.js";
+import { activarPublicacion, estadoPublicacion,modificarPrecio,modificarStock, obtenerPublicacion } from "../services/mercadolibre/publicaciones.js";
 
 const router = express.Router();
 
@@ -83,6 +83,38 @@ router.patch("/publicaciones/activar/:mla", async (req,res)=>{
 
         const publicaciones = await activarPublicacion(mla,vendedor,estado)
         res.json(publicaciones)
+    } catch (error) {
+        console.log(error.response?.data || error.message);
+        res.status(500).json({
+            error: `Error obteniendo publicaciones,${error}`
+        });
+    }
+})
+
+router.patch("/publicaciones/precio/:mla", async (req,res)=>{
+    try {
+
+        const { mla } = req.params
+        const { vendedor,precio } = req.body;
+
+        const publicacion = await modificarPrecio(mla,vendedor,precio)
+        res.json(publicacion)
+    } catch (error) {
+        console.log(error.response?.data || error.message);
+        res.status(500).json({
+            error: `Error obteniendo publicaciones,${error}`
+        });
+    }
+})
+
+router.get("/publicaciones/item/:mla", async (req,res)=>{
+    try {
+
+        const { mla } = req.params
+        const { seller_id } = req.query;
+
+        const publicacion = await obtenerPublicacion(mla,seller_id)
+        res.json(publicacion)
     } catch (error) {
         console.log(error.response?.data || error.message);
         res.status(500).json({

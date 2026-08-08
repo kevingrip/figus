@@ -13,7 +13,7 @@ export const estadoPublicacion = async () => {
                     Authorization: `Bearer ${token.access_token}`
                 },
                 params: {
-                    orders: "date_created_desc",
+                    orders: "last_updated_desc",
                     limit: 100
                 }
             }
@@ -39,6 +39,7 @@ export const estadoPublicacion = async () => {
 
 
         for (const item of items) {
+            console.log(item)
             const {
                 id,
                 title,
@@ -63,12 +64,12 @@ export const estadoPublicacion = async () => {
                 date_created,
                 thumbnail
             })
-            //console.log(item.body)
+            
         }
         //console.log(filtered_publicaciones)
 
         filtered_publicaciones.sort(
-            (a, b) => new Date(b.date_created) - new Date(a.date_created)
+            (a, b) => new Date(b.last_updated) - new Date(a.last_updated)
         );
 
     }
@@ -100,16 +101,16 @@ export const modificarStock = async (mla, seller_id, nuevoStock) => {
     }
 }
 
-export const activarPublicacion = async (mla, seller_id,estado) => {
+export const activarPublicacion = async (mla, seller_id, estado) => {
     try {
         const tokens = await obtenerToken();
         const token = tokens.find(token => token.seller === seller_id);
-        console.log("seller",seller_id)
+        console.log("seller", seller_id)
         let nuevoEstado;
-        if (estado==="active"){
-            nuevoEstado="paused"
-        }else{
-            nuevoEstado="active"
+        if (estado === "active") {
+            nuevoEstado = "paused"
+        } else {
+            nuevoEstado = "active"
         }
         await axios.put(`https://api.mercadolibre.com/items/${mla}`,
             {
@@ -129,3 +130,48 @@ export const activarPublicacion = async (mla, seller_id,estado) => {
         throw error;
     }
 }
+
+export const modificarPrecio = async (mla, seller_id, nuevoPrecio) => {
+    try {
+        const tokens = await obtenerToken();
+        const token = tokens.find(token => token.seller === seller_id);
+        await axios.put(`https://api.mercadolibre.com/items/${mla}`,
+            {
+                price: nuevoPrecio
+            },
+            {
+                headers: {
+                    Authorization: `Bearer ${token.access_token}`
+                }
+            }
+        )
+    } catch (error) {
+        console.log(
+            "Error modificando precio:",
+            error.response?.data || error.message
+        );
+
+        throw error;
+    }
+}
+
+export const obtenerPublicacion = async (mla, sellerid) => {
+    const tokens = await obtenerToken();
+
+    const token = tokens.find(
+        token => Number(token.seller) === Number(sellerid)
+    );
+
+    const { data: publicacion } = await axios.get(
+        `https://api.mercadolibre.com/items/${mla}`,
+        {
+            headers: {
+                Authorization: `Bearer ${token.access_token}`
+            }
+        }
+    );
+
+
+    return publicacion;
+
+};
