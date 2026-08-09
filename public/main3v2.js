@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones,obtenerPublicacion,actualizarPrecio2000 } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones,obtenerPublicacion,actualizarPrecio2000, obtenerVentasML } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -189,7 +189,8 @@ const elementVentas = document.getElementById("totalVentas") || document.getElem
 
 if (elementVentas) {
     const ventas = await obtenerVentas();
-    await totalVentas(ventas, elementVentas);
+    const ventasML = await obtenerVentasML();
+    await totalVentas(ventas, elementVentas,ventasML);
 }
 
 const botonStockLuly = document.getElementById("botonStockLuly")

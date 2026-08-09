@@ -1,6 +1,8 @@
 import { mlPost } from "../token/api_meli.js";
 
 export async function responderPregunta(questionId, textoRespuesta,seller_id) {
+    console.log(textoRespuesta)
+    console.log(seller_id)
     try {
         const data = await mlPost(
         "https://api.mercadolibre.com/answers",

@@ -51,3 +51,10 @@ export async function actualizarPrecio2000(mla, seller) {
         })
     })
 }
+
+export const obtenerVentasML = async () =>{
+    const ventasML = await fetch(`${api}/ventas/ventaml`)
+    const ventasParseadas = await ventasML.json();
+
+    return ventasParseadas;
+}

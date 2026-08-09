@@ -1,5 +1,7 @@
 import { api } from "../../config.js";
 import { ordenarAlfabeticamente } from "../utilidades/ordenarAlfabeticamente.js";
+import { albumName } from "../utilidades/nombreAlbum.js";
+import { fechaArgentina } from "../utilidades/fechaArgentina.js";
 
 function crearBotonContenedor(figu, album) {
     const contenedor = document.createElement("div");
@@ -77,25 +79,8 @@ const figuGrande = (figu, contenedorFiguGrande) => {
     contenedorFiguGrande.appendChild(figuritaGrande)
 }
 
-const formateoAlbum = (album) => {
-    if (album == "mundialUsa2026")
-        return "Mundial USA 2026"
-    else if (album == "mundialQatar2022") {
-        return "Mundial Qatar 2022"
-    } else if (album == "copaAmerica2024") {
-        return "Copa America 2024"
-    } else if (album == "libertadores2023") {
-        return "Libertadores 2023"
-    } else if (album == "futbolArgentino2023") {
-        return "futbolArgentino2024"
-    } else if (album == "mundialUsa2026") {
-        return "Futbol Argentino 2024"
-    }
-}
-
-export const totalVentas = async (todasLasVentas, totalVentasElement) => {
-
-    const contenedorPadre = document.createElement("div")
+export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) => {
+    console.log(ventasML)
     const totalVendido = document.createElement("h3")
     totalVendido.style.display = "flex"
     totalVendido.style.justifyContent = "center"
@@ -154,9 +139,12 @@ export const totalVentas = async (todasLasVentas, totalVentasElement) => {
             const contenedorInfo = document.createElement("div")
             const contenedorInfo2 = document.createElement("div")
             const contenedorFigus = document.createElement("div")
+            contenedorInfo2.style.padding = "20px";
+            contenedorFigus.style.padding = "20px";
+
 
             const tituloAlbum = document.createElement("p")
-            tituloAlbum.textContent = formateoAlbum(album)
+            tituloAlbum.textContent = albumName(album)
 
             const envio = document.createElement("p")
             envio.textContent = venta.ENVIO ? `Envio: ${venta.ENVIO}` : ""
@@ -182,17 +170,41 @@ export const totalVentas = async (todasLasVentas, totalVentasElement) => {
             contenedorInfo.appendChild(envio);
 
             if (venta.VENTAID != null) {
-                const ventaid = document.createElement('p');
+                const ventaid = document.createElement('h4');
                 ventaid.textContent = `Venta ID: ${venta.VENTAID}`;
+                ventaid.style.textAlign="center"
+
+                contenedorInfo2.style.backgroundColor = "rgba(0,0,0,0.2)"
+                ventaid.style.backgroundColor = "lightgreen"
+
+                ventasML.forEach(ventameli => {
+                    if (ventameli.pack_id == venta.VENTAID) {
+                        const fechaVenta = document.createElement("div")
+                        const cliente = document.createElement("div")
+                        fechaVenta.textContent = `Fecha Venta Mercadolibre: ${fechaArgentina(ventameli.data.date_created)} hs`
+                        cliente.textContent = `Cliente: ${ventameli.data.buyer}`
+                        ventameli.data.variante.forEach(variante => {
+                            const titulo = document.createElement("h3")
+                            const cantidad = document.createElement("div")
+                            const precio = document.createElement("div")
+                            
+                            titulo.textContent = variante.titulo
+                            cantidad.textContent = `Cantidad: ${variante.cantidad}`
+                            precio.textContent = `Precio: $${variante.precio * variante.cantidad}`
+                            
+                            contenedorInfo2.append(titulo, cantidad, precio, fechaVenta, cliente)
+                        })
+                    }
+                })
                 contenedorInfo2.appendChild(ventaid);
             }
 
 
             contenedorInfo.style.display = "flex"
             contenedorInfo.style.justifyContent = "space-evenly"
-            contenedorInfo.style.backgroundColor = "#E0E0E0"
+            contenedorInfo.style.backgroundColor = "#de885d"
 
-            contenedorInfo2.style.backgroundColor = "lightgreen"
+
 
 
             ordenarAlfabeticamente(venta.VENDIDAS)
@@ -239,7 +251,7 @@ export const totalVentas = async (todasLasVentas, totalVentasElement) => {
                         contenedorBotones.remove()
                         contenedorVenta.appendChild(contenedorFigus)
                         contenedorVenta.appendChild(crearBotonVerDetalle)
-                        contenedorVenta.style.backgroundColor="gray"
+                        contenedorVenta.style.backgroundColor = "rgba(76, 187, 81, 0.77)"
                         await fetch(`${api}/ventas/${venta._id}`, {
                             method: "PATCH"
                         });
@@ -262,8 +274,8 @@ export const totalVentas = async (todasLasVentas, totalVentasElement) => {
                 })
 
             })
-            if (venta.VERIFICADAS){
-                contenedorVenta.style.backgroundColor="gray"
+            if (venta.VERIFICADAS) {
+                contenedorVenta.style.backgroundColor = "rgba(76, 187, 81, 0.77)"
             }
             contenedorVenta.dataset.cuenta = venta.CUENTA;
             contenedorVenta.dataset.precio = venta.PRECIO;
@@ -271,7 +283,8 @@ export const totalVentas = async (todasLasVentas, totalVentasElement) => {
             contenedorVenta.appendChild(contenedorInfo2)
             contenedorVenta.appendChild(contenedorFigus)
             contenedorVenta.appendChild(crearBotonVerDetalle)
-            contenedorVenta.style.marginBottom = "50px"
+            contenedorVenta.style.margin = "50px"
+            contenedorVenta.style.border = "solid black 2px"
             totalVentasElement.appendChild(contenedorVenta)
         });
 

@@ -3,7 +3,6 @@ import { obtenerFiguritas } from "../servicios/api.js"
 import { api } from "../../config.js"
 
 const responderPregunta = async ({ elementPregunta, idPregunta, valorMensaje, vendedor }) => {
-
     try {
         const peticion = await fetch(`${api}/mercadolibre/respuestas`, {
             method: "POST",
@@ -176,13 +175,14 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                         escribirRespuesta.placeholder = "Escribir respuesta"
                         elementoMensaje.append(escribirRespuesta)
                         elementoMensaje.appendChild(responder)
-                        const datosRespuesta = {
-                            elementPregunta, idPregunta: pregunta.id, valorMensaje: escribirRespuesta.value, vendedor: pregunta.seller_id
-                        }
+                        
                         escribirRespuesta.style.width = "100%";
                         escribirRespuesta.style.minHeight = "15vh";
 
                         responder.addEventListener("click", async () => {
+                            const datosRespuesta = {
+                            elementPregunta, idPregunta: pregunta.id, valorMensaje: escribirRespuesta.value, vendedor: pregunta.seller_id
+                        }
                             responderPregunta(datosRespuesta)
                         }
                         )

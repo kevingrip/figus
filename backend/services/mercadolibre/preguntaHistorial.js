@@ -23,7 +23,7 @@ export const obtenerHistorialCliente = async (buyer_id, seller_id) => {
         ) || []
     );
 
-    console.dir(respuestasFiltradas, { depth: null });
+    //console.dir(respuestasFiltradas, { depth: null });
 
     return respuestasFiltradas;
 };
