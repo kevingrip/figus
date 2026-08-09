@@ -1,5 +1,6 @@
 import axios from "axios";
 import { obtenerToken } from "../token/obtenerToken.js";
+import { obtenerFechaLimite } from "../../models/modeloGuardarFecha.js";
 
 export const estadoPublicacion = async () => {
     const tokens = await obtenerToken();
@@ -64,7 +65,7 @@ export const estadoPublicacion = async () => {
                 date_created,
                 thumbnail
             })
-            
+
         }
         //console.log(filtered_publicaciones)
 
@@ -153,6 +154,23 @@ export const modificarPrecio = async (mla, seller_id, nuevoPrecio) => {
 
         throw error;
     }
+}
+
+export const actualizarFecha = async (mla, fecha, vendedor) => {
+    const Publicacion = obtenerFechaLimite();
+
+    await Publicacion.findOneAndUpdate(
+        { MLA: mla },
+        {
+            SELLER_ID: vendedor,
+            MLA: mla,
+            FECHA_LIMITE: fecha
+        },
+        {
+            upsert: true,
+            new: true
+        }
+    );
 }
 
 export const obtenerPublicacion = async (mla, sellerid) => {

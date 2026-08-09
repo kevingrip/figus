@@ -8,12 +8,12 @@ export const obtenerHistorialCliente = async (buyer_id, seller_id) => {
         {
             params: {
                 seller_id,
-                status: "ANSWERED"
+                status: "ANSWERED",
+                sort_fields: "date_created",
+                sort_types: "DESC"
             }
         }
     );
-
-
 
     const respuestasFiltradas = respuestas.flatMap(respuesta =>
         respuesta.questions?.filter(

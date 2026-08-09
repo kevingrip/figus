@@ -8,6 +8,7 @@ import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
 import mercadoLibreRoutes from "./routes/rutas_ml.js"
+import fechasPublicaciones from "./routes/fechasPublicaciones.js";
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -35,6 +36,8 @@ app.get("/", (req, res) => {
 });
 
 app.use("/ventas",ventasRoutes)
+
+app.use("/fechas",fechasPublicaciones)
 
 app.use("/:album",datosFiguritas)
 

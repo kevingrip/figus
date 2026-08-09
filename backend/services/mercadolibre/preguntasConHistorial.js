@@ -4,7 +4,6 @@ import { obtenerHistorialCliente } from "./preguntaHistorial.js";
 export const obtenerPreguntasConHistorial = async () => {
 
     const preguntas = await obtenerPreguntasSinResponder();
-    
     for (const pregunta of preguntas) {
         
         pregunta.historial = await obtenerHistorialCliente(
@@ -13,6 +12,6 @@ export const obtenerPreguntasConHistorial = async () => {
         );
         
     }
-
+    
     return preguntas;
 };

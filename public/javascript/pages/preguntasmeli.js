@@ -54,8 +54,6 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
         return
     }
 
-
-
     for (const pregunta of preguntasRecibidas) {
         if (pregunta) {
             let getAlbum = nombrePublicacion(pregunta.item_id)
@@ -238,7 +236,8 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                         },
                         body: JSON.stringify({
                             precio: valorVenta.value,
-                            vendedor: pregunta.seller_id
+                            vendedor: pregunta.seller_id,
+                            actualizacionFecha: fecha
                         })
                     })
 

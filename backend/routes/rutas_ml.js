@@ -3,7 +3,7 @@ import { obtenerOrden } from "../services/mercadolibre/ordenes.js";
 import { obtenerPreguntasSinResponder } from "../services/mercadolibre/preguntas.js";
 import { responderPregunta } from "../services/mercadolibre/respuestas.js";
 import { obtenerPreguntasConHistorial } from "../services/mercadolibre/preguntasConHistorial.js";
-import { activarPublicacion, estadoPublicacion,modificarPrecio,modificarStock, obtenerPublicacion } from "../services/mercadolibre/publicaciones.js";
+import { activarPublicacion, estadoPublicacion,modificarPrecio,modificarStock, obtenerPublicacion,actualizarFecha } from "../services/mercadolibre/publicaciones.js";
 
 const router = express.Router();
 
@@ -95,9 +95,12 @@ router.patch("/publicaciones/precio/:mla", async (req,res)=>{
     try {
 
         const { mla } = req.params
-        const { vendedor,precio } = req.body;
+        const { vendedor,precio,actualizacionFecha } = req.body;
 
         const publicacion = await modificarPrecio(mla,vendedor,precio)
+        if (actualizacionFecha){
+            await actualizarFecha(mla,actualizacionFecha,vendedor)
+        }
         res.json(publicacion)
     } catch (error) {
         console.log(error.response?.data || error.message);

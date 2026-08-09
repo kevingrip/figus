@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones,obtenerPublicacion,actualizarPrecio2000 } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -7,6 +7,34 @@ import { sinStock } from "./javascript/pages/sinStock.js";
 import { noVendidas } from "./javascript/pages/noVendidas.js";
 import { preguntasMercadolibre } from "./javascript/pages/preguntasmeli.js";
 import { todasLasPublicaciones } from "./javascript/pages/todasLasPublicaciones.js";
+import { albumName } from "./javascript/utilidades/nombreAlbum.js";
+
+
+async function actualizarFechasPublicaciones() {
+    try {
+        const fechasPublicaciones = await obtenerFechasPublicaciones();
+
+        console.log("Fechas publicaciones:", fechasPublicaciones);
+
+        const fechaActual = new Date();
+
+        for (const publicacion of fechasPublicaciones) {
+            const fechaLimite = new Date(publicacion.FECHA_LIMITE);
+
+            if (fechaActual > fechaLimite) {
+                const publicacionML = await obtenerPublicacion(publicacion.MLA,publicacion.SELLER_ID);
+                if (publicacionML.price>2000){
+                    actualizarPrecio2000(publicacion.MLA,publicacion.SELLER_ID)
+                }
+                console.log(publicacionML);
+            }
+        }
+    } catch (error) {
+        console.error("Error actualizando fechas de publicaciones:", error);
+    }
+}
+
+actualizarFechasPublicaciones();
 
 const botonesElementosBuscar = [
     {
@@ -299,6 +327,15 @@ botonesElementosNoVendidas.forEach(objeto => {
     })
 })
 
+window.addEventListener("load", async () => {
+    if (window.location.pathname.endsWith("/indexv2.html")){
+        const figuritas = await obtenerFiguritas("mundialUsa2026");
+        const ventas = await obtenerVentas()
+        noVendidas(figuritas, ventas, "mundialUsa2026")
+    }
+    
+})
+
 
 
 const ordenarPorCantidad = async (base, event) => {
@@ -589,23 +626,6 @@ const armarAlbumFigus = () => {
                 navigator.clipboard.writeText(figusParaAlbum)
             })
         })
-
-}
-
-const albumName = (nombreJson) => {
-    if (nombreJson == "baseMundial") {
-        return "Mundial Qatar 2022"
-    } else if (nombreJson == "base_copam") {
-        return "Copa America 2024"
-    } else if (nombreJson == "baseMundialUsa") {
-        return "Mundial USA 2026"
-    } else if (nombreJson == "baseFutarg") {
-        return "Futbol Argentino 2023"
-    } else if (nombreJson == "baseFutarg24") {
-        return "Futbol Arg 2024"
-    } else if (nombreJson == "baseLali") {
-        return "Copa Libertadores 2023"
-    }
 
 }
 
