@@ -27,7 +27,7 @@ export const noVendidas = async (figuritas, ventas, nombreAlbum) => {
             let fecha = document.createElement("p")
             datos.textContent = `${venta.VENTAID ? venta.VENTAID : "Sin ventaID"} | ${albumName(venta.ALBUM)}`
             cuentaid.textContent = `CUENTA: ${venta.CUENTA}`
-            fecha.textContent = new Date(venta.DIA).toLocaleDateString("es-AR", {
+            fecha.textContent = "FECHA VENTA: "+new Date(venta.DIA).toLocaleDateString("es-AR", {
                 timeZone: "America/Argentina/Buenos_Aires"
             });
 

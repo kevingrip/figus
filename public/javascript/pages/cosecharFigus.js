@@ -8,7 +8,6 @@ function crearBotonContenedor(figu) {
     contenedor.style.alignItems = "center";
     contenedor.style.justifyContent = "space-between";
     contenedor.style.width = "60px";
-    contenedor.style.height = "70px";
     contenedor.style.border = "1px solid black";
 
     const botonMenos = document.createElement("button");
@@ -29,8 +28,15 @@ function crearBotonContenedor(figu) {
     const textoInferior = document.createElement("div");
     textoInferior.style.fontSize = "11px";
 
+    const nombre = document.createElement("div")
+    nombre.textContent=figu.NOMBRE
+    nombre.style.fontSize="9px"
+    nombre.style.height="20px"
+    nombre.style.textAlign="center"
+    //nombre.style.backgroundColor="rgba(0, 0, 0, 0.2)"
+
     informacion.appendChild(textoSuperior);
-    informacion.appendChild(textoInferior);
+    informacion.append(textoInferior,nombre);
 
     const botonMas = document.createElement("button");
     botonMas.textContent = "▲";
