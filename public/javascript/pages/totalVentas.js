@@ -130,9 +130,9 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
         }
 
         let totalPrecioVentas = 0
+        let contenedorVentasManual = []
         todasLasVentas.forEach(venta => {
             const album = venta.ALBUM;
-
             totalPrecioVentas += venta.PRECIO
 
             const contenedorVenta = document.createElement("div")
@@ -169,46 +169,55 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
             contenedorInfo.appendChild(precio)
             contenedorInfo.appendChild(envio);
 
+            let fechaML;
             if (venta.VENTAID != null) {
                 const ventaid = document.createElement('h4');
                 ventaid.textContent = `Venta ID: ${venta.VENTAID}`;
-                ventaid.style.textAlign="center"
+                ventaid.style.textAlign = "center"
 
-                contenedorInfo2.style.backgroundColor = "rgba(0,0,0,0.2)"
-                ventaid.style.backgroundColor = "lightgreen"
 
                 ventasML.forEach(ventameli => {
-                    if (ventameli.pack_id == venta.VENTAID) {
+                    if (ventameli.pack_id === venta.VENTAID) {
+                        if (venta.cancel_detail) {
+                            contenedorVenta.style.backgroundColor = "red"
+                        }
+                        fechaML = ventameli.data.date_created
+                        const ventaid = document.createElement("h2")
                         const fechaVenta = document.createElement("div")
                         const cliente = document.createElement("div")
+                        ventaid.textContent = `VENTA ID: ${ventameli.pack_id}`
                         fechaVenta.textContent = `Fecha Venta Mercadolibre: ${fechaArgentina(ventameli.data.date_created)} hs`
                         cliente.textContent = `Cliente: ${ventameli.data.buyer}`
+                        const variantes = document.createElement("div")
                         ventameli.data.variante.forEach(variante => {
+                            const elementVariante = document.createElement("div")
                             const titulo = document.createElement("h3")
                             const cantidad = document.createElement("div")
                             const precio = document.createElement("div")
-                            
+
                             titulo.textContent = variante.titulo
                             cantidad.textContent = `Cantidad: ${variante.cantidad}`
                             precio.textContent = `Precio: $${variante.precio * variante.cantidad}`
-                            
-                            contenedorInfo2.append(titulo, cantidad, precio, fechaVenta, cliente)
+                            elementVariante.append(titulo, cantidad, precio)
+                            elementVariante.style.margin = "10px"
+                            elementVariante.style.backgroundColor = "rgba(60, 255, 0, 0.05)"
+                            elementVariante.style.border = "solid black 1px"
+                            elementVariante.style.padding = "10px"
+                            variantes.append(elementVariante)
+
                         })
+                        contenedorInfo2.append(ventaid, fechaVenta, cliente, variantes)
                     }
                 })
-                contenedorInfo2.appendChild(ventaid);
             }
 
 
             contenedorInfo.style.display = "flex"
             contenedorInfo.style.justifyContent = "space-evenly"
             contenedorInfo.style.backgroundColor = "#de885d"
-
-
-
-
+            contenedorInfo.style.borderTopLeftRadius="20px"
+            contenedorInfo.style.borderTopRightRadius="20px"
             ordenarAlfabeticamente(venta.VENDIDAS)
-
 
             venta.VENDIDAS.forEach(figu => {
                 contenedorFigus.appendChild(crearBotonContenedor(figu, album))
@@ -285,7 +294,81 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
             contenedorVenta.appendChild(crearBotonVerDetalle)
             contenedorVenta.style.margin = "50px"
             contenedorVenta.style.border = "solid black 2px"
+            contenedorVenta.style.borderRadius = "20px"
+            contenedorVentasManual.push({ contenedor: contenedorVenta, fecha: fechaML || venta.DIA })
             totalVentasElement.appendChild(contenedorVenta)
+        });
+
+        let contenedorVentasML = []
+        ventasML.forEach(ventameli => {
+
+
+            const existeVenta = todasLasVentas.some(
+                venta => String(venta.VENTAID) === String(ventameli.pack_id)
+            );
+
+            if (existeVenta) {
+                return;
+            }
+
+            const contenedorML = document.createElement("div")
+
+            if (ventameli.data?.cancel_detail) {
+                contenedorML.style.backgroundColor = "red"
+            }
+
+            const contenedorInfo = document.createElement("div")
+            const contenedorInfo2 = document.createElement("div")
+            const contenedorFigus = document.createElement("div")
+            contenedorML.style.margin = "50px"
+            contenedorML.style.border = "solid black 2px"
+            contenedorML.style.borderRadius = "20px"
+
+            contenedorInfo2.style.padding = "20px";
+            contenedorFigus.style.padding = "20px";
+
+            const ventaid = document.createElement("h2")
+            const fechaVenta = document.createElement("div")
+            const cliente = document.createElement("div")
+            ventaid.textContent = `VENTA ID: ${ventameli.pack_id}`
+            fechaVenta.textContent = `Fecha Venta Mercadolibre: ${fechaArgentina(ventameli.data.date_created)} hs`
+            cliente.textContent = `Cliente: ${ventameli.data.buyer}`
+            const variantes = document.createElement("div")
+            ventameli.data.variante.forEach(variante => {
+                const elementVariante = document.createElement("div")
+                const titulo = document.createElement("h3")
+                const cantidad = document.createElement("div")
+                const precio = document.createElement("div")
+
+                titulo.textContent = variante.titulo
+                cantidad.textContent = `Cantidad: ${variante.cantidad}`
+                precio.textContent = `Precio: $${variante.precio * variante.cantidad}`
+                elementVariante.append(titulo, cantidad, precio)
+                elementVariante.style.margin = "10px"
+                elementVariante.style.backgroundColor = "rgba(60, 255, 0, 0.05)"
+                elementVariante.style.border = "solid black 1px"
+                elementVariante.style.padding = "10px"
+                variantes.append(elementVariante)
+
+            })
+            contenedorInfo2.append(ventaid, fechaVenta, cliente, variantes)
+            contenedorML.append(contenedorInfo, contenedorInfo2, contenedorFigus)
+            contenedorVentasML.push({ contenedor: contenedorML, fecha: ventameli.data.date_created })
+
+        })
+
+        const todasLasVentasOrdenadas = [
+            ...contenedorVentasManual,
+            ...contenedorVentasML
+        ];
+
+
+        todasLasVentasOrdenadas.sort(
+            (a, b) => new Date(b.fecha) - new Date(a.fecha)
+        );
+
+        todasLasVentasOrdenadas.forEach(({ contenedor }) => {
+            totalVentasElement.appendChild(contenedor);
         });
 
 

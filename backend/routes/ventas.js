@@ -86,13 +86,14 @@ router.get("/ventaml", async (req, res) => {
                     date_created: orden.date_created,
                     shipping_id: orden.shipping.id,
                     buyer: orden.buyer.nickname,
+                    buyer_id: orden.buyer.id,
                     seller: orden.seller.id,
                     cancel_detail: orden?.cancel_detail?.date,
                     nombre: data.reason,
                     variante: []
                 }
                 orden.order_items.forEach(variante => {
-                    venta.variante.push({ titulo: variante.item.title, cantidad: variante.quantity , precio: variante.unit_price})
+                    venta.variante.push({ mla: variante.item.id, titulo: variante.item.title, cantidad: variante.quantity , precio: variante.unit_price})
                 })
 
                 ordenes_data.push(venta)
@@ -112,6 +113,7 @@ router.get("/ventaml", async (req, res) => {
                     date_created: orden.date_created,
                     shipping_id: orden.shipping_id,
                     buyer: orden.buyer,
+                    buyer_id: orden.buyer_id,
                     seller: orden.seller,
                     cancel_detail: orden?.cancel_detail,
                     nombre: orden.nombre,

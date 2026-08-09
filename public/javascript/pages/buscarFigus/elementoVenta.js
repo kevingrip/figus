@@ -1,5 +1,5 @@
 
-const operacionDescargar = async (albumFigus, figusEnStock, canalPregunta, nombreCuenta, divVenta, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, api) => {
+const operacionDescargar = async (albumFigus, figusEnStock, canalPregunta, nombreCuenta, divVenta, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, api, pack_id) => {
 
     let divDescargarVenta = document.createElement('div')
     divDescargarVenta.style.display = 'flex'
@@ -21,13 +21,15 @@ const operacionDescargar = async (albumFigus, figusEnStock, canalPregunta, nombr
     descargarArchivos.innerHTML = 'Confirmar'
     descargarArchivos.style.backgroundColor = 'skyblue'
     divDescargarVenta.appendChild(descargarArchivos)
-    divVenta.appendChild(divDescargarVenta)
+    if (divVenta) {
+        divVenta.appendChild(divDescargarVenta)
+    }
 
     descargarArchivos.addEventListener('click', async () => {
 
         const ventaId = elementVentaId.value.trim()
             ? Number(elementVentaId.value.trim())
-            : null;
+            : (pack_id ?? null);
 
         console.log(ventaId);
         let proveedor;

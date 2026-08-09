@@ -346,13 +346,13 @@ export const buscarFigus = (nombreJson, albumFigus, albumRuta, canalPregunta, en
 
         elementoVenta(infoVenta)
 
-        return mensaje;
+        return {mensaje,figusEnStock,figusSinStock};
 
     } else {
         const errorEscritura = document.createElement('p');
         errorEscritura.innerHTML = `${figusError.length > 0 ? `Error de escritura.<br> Posible error: ${figusError}` : 'Ingrese figuritas'}`;
         errorEscritura.classList.add('clientFigu')
         resultados?.appendChild(errorEscritura);
-
+        return false
     }
 };

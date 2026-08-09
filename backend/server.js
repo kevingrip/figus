@@ -9,6 +9,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import mercadoLibreRoutes from "./routes/rutas_ml.js"
 import fechasPublicaciones from "./routes/fechasPublicaciones.js";
+import preguntas_mercadolibre from "./routes/preguntasGuardadas.js"
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -39,7 +40,9 @@ app.use("/ventas",ventasRoutes)
 
 app.use("/fechas",fechasPublicaciones)
 
-app.use("/:album",datosFiguritas)
+app.use("/preguntamdb",preguntas_mercadolibre)
+
+app.use("/album/:album",datosFiguritas)
 
 app.use("/proveedores",proveedores)
 

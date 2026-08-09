@@ -1,5 +1,5 @@
 import { buscarFigus } from "./buscarFigus/buscarFigus.js"
-import { obtenerFiguritas } from "../servicios/api.js"
+import { obtenerFiguritas,guardarPreguntaML } from "../servicios/api.js"
 import { api } from "../../config.js"
 import { albumName } from "../utilidades/nombreAlbum.js"
 
@@ -25,6 +25,14 @@ const responderPregunta = async ({ elementPregunta, idPregunta, valorMensaje, ve
         elementPregunta.remove();
     } catch (error) {
         console.log("Posiblemente fue respondida anteriormente", error.message)
+    }
+}
+
+const cargarPreguntaMDB = async(figusEnStock,figusSinStock,vendedor,cliente, albumConsulta,fecha,albumReal,mla)=>{
+    try {
+        const preguntambd = await guardarPreguntaML(figusEnStock,figusSinStock,vendedor,cliente, albumConsulta,fecha,albumReal,mla)
+    } catch (error) {
+        
     }
 }
 
@@ -72,9 +80,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
 
             const valorVenta = document.createElement("input")
 
-            console.log(publicacion)
             const figusBDD = await obtenerFiguritas(getAlbum.bdd)
-            console.log("album:", getAlbum)
             const elementPregunta = document.createElement("div")
             const elementLeftPregunta = document.createElement("div")
             const elementRigthPregunta = document.createElement("div")
@@ -86,17 +92,16 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
             const idCliente = document.createElement("div")
             const sellerid = document.createElement("div")
 
-
-            fechaPregunta.textContent = new Date(pregunta.date_created).toLocaleString("es-AR", {
+            let fechaPreg = new Date(pregunta.date_created).toLocaleString("es-AR", {
 
                 hour12: false
             });
+            fechaPregunta.textContent = fechaPreg
             preguntaMeli.value = pregunta.text
             preguntaMeli.style.width = "100%";
             preguntaMeli.style.minHeight = "15vh";
             preguntaMeli.style.margin = "5px";
             idCliente.textContent = `Cliente : ${pregunta.from.id}`
-            console.log(pregunta.historial)
 
             const elementHist = document.createElement("div")
             pregunta.historial.forEach(element => {
@@ -143,15 +148,18 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
             const elementoMensaje = document.createElement("div")
             elementoMensaje.style.display = "none"
 
-            let mensaje = buscarFigus("baseMundial", figusBDD, getAlbum.bdd, "ONLINE", pregunta.text.toUpperCase());
-
 
             const escribirRespuesta = document.createElement("textarea")
             const responder = document.createElement("button")
             responder.textContent = "Responder"
+            let figus_conStock = [];
+            let figus_sinStock = [];
             botonConsultar.addEventListener("click", async () => {
                 if (preguntaMeli.value) {
-                    const mensaje = buscarFigus("baseMundial", figusBDD, getAlbum.bdd, "ONLINE", preguntaMeli.value.toUpperCase());
+                    const {mensaje,figusEnStock,figusSinStock} = buscarFigus("baseMundial", figusBDD, getAlbum.bdd, "ONLINE", preguntaMeli.value.toUpperCase());
+                    figus_conStock = figusEnStock || [];
+                    figus_sinStock = figusSinStock || [];
+
                     if (mensaje) {
                         elementoMensaje.innerHTML = "";
                         const mensajeModificable = document.createElement('textarea')
@@ -170,6 +178,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                                 elementPregunta, idPregunta: pregunta.id, valorMensaje: mensajeModificable.value, vendedor: pregunta.seller_id
                             }
                             responderPregunta(datosRespuesta)
+                            cargarPreguntaMDB(figus_conStock,figus_sinStock,pregunta.seller_id,pregunta.from.id,getAlbum.bdd,fechaPreg,getAlbum.bdd,pregunta.item_id)
                         }
                         )
 
@@ -182,11 +191,18 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                         albumes.forEach(alb => {
                             const botonAlbum = document.createElement("button")
                             botonAlbum.textContent = albumName(alb)
-                            elementoMensaje.append(botonAlbum)
+                            
+                            if (alb != getAlbum.bdd) {
+                                elementoMensaje.append(botonAlbum)
+                            }
+
                             botonAlbum.addEventListener("click", async () => {
                                 const figusBDD = await obtenerFiguritas(alb)
-                                const mensaje = buscarFigus(alb, figusBDD, alb, "ONLINE", preguntaMeli.value.toUpperCase());
-                                console.log(mensaje)
+                                album=alb
+                                const {mensaje,figusEnStock,figusSinStock} = buscarFigus(alb, figusBDD, alb, "ONLINE", preguntaMeli.value.toUpperCase());
+                                figus_conStock = figusEnStock || [];
+                                figus_sinStock = figusSinStock || [];
+
                                 if (mensaje) {
                                     escribirRespuesta.value = mensaje.textContent
                                 }
@@ -207,6 +223,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                                 elementPregunta, idPregunta: pregunta.id, valorMensaje: escribirRespuesta.value, vendedor: pregunta.seller_id
                             }
                             responderPregunta(datosRespuesta)
+                            cargarPreguntaMDB(figus_conStock,figus_sinStock,pregunta.seller_id,pregunta.from.id,getAlbum.bdd,fechaPreg,album,pregunta.item_id)
                         }
                         )
                         elementoMensaje.style.display = "";

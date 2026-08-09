@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones,obtenerPublicacion,actualizarPrecio2000, obtenerVentasML } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, estadoCompradoMDB } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -8,7 +8,8 @@ import { noVendidas } from "./javascript/pages/noVendidas.js";
 import { preguntasMercadolibre } from "./javascript/pages/preguntasmeli.js";
 import { todasLasPublicaciones } from "./javascript/pages/todasLasPublicaciones.js";
 import { albumName } from "./javascript/utilidades/nombreAlbum.js";
-
+import { operacionDescargar } from "./javascript/pages/buscarFigus/elementoVenta.js";
+import { api } from "./config.js";
 
 async function actualizarFechasPublicaciones() {
     try {
@@ -22,9 +23,9 @@ async function actualizarFechasPublicaciones() {
             const fechaLimite = new Date(publicacion.FECHA_LIMITE);
 
             if (fechaActual > fechaLimite) {
-                const publicacionML = await obtenerPublicacion(publicacion.MLA,publicacion.SELLER_ID);
-                if (publicacionML.price>2000){
-                    actualizarPrecio2000(publicacion.MLA,publicacion.SELLER_ID)
+                const publicacionML = await obtenerPublicacion(publicacion.MLA, publicacion.SELLER_ID);
+                if (publicacionML.price > 2000) {
+                    actualizarPrecio2000(publicacion.MLA, publicacion.SELLER_ID)
                 }
                 console.log(publicacionML);
             }
@@ -177,7 +178,6 @@ botonesElementosBuscar.forEach(objeto => {
 })
 
 botonesElementosCosecha.forEach(objeto => {
-    console.log(objeto.album)
     const boton = document.getElementById(objeto.botonId)
     boton?.addEventListener('click', async () => {
         const figuritas = await obtenerFiguritas(objeto.album);
@@ -190,7 +190,7 @@ const elementVentas = document.getElementById("totalVentas") || document.getElem
 if (elementVentas) {
     const ventas = await obtenerVentas();
     const ventasML = await obtenerVentasML();
-    await totalVentas(ventas, elementVentas,ventasML);
+    await totalVentas(ventas, elementVentas, ventasML);
 }
 
 const botonStockLuly = document.getElementById("botonStockLuly")
@@ -245,13 +245,40 @@ window.addEventListener("load", async () => {
 })
 
 window.addEventListener("load", async () => {
-    if (window.location.pathname.endsWith("/todaslaspublicaciones.html")){
+    if (window.location.pathname.endsWith("/todaslaspublicaciones.html")) {
         todasLasPublicaciones()
     }
-    
+
 })
 
 
+
+const actualizarVentas = async () => {
+    const preguntasMDB = await obtenerPreguntasMDB()
+    const ventasML = await obtenerVentasML()
+
+    console.log("ventasml", ventasML)
+
+    for (const pregunta of preguntasMDB) {
+        if (pregunta.COMPRADO === false) {
+            for (const venta of ventasML) {
+
+                if ((venta.data.buyer_id === pregunta.BUYER_ID) 
+                    && (venta.data.seller === pregunta.SELLER_ID)
+                    && (venta.data.date_created > pregunta.FECHA)
+                    && (venta.data.variante.some(variante => variante.mla === pregunta.MLA))) {
+                    console.log("pregunta comprado a true")
+                    const figuritas = await obtenerFiguritas(pregunta.ALBUM_REAL)
+                    await operacionDescargar(figuritas, pregunta.FIGUS_EN_STOCK, "ONLINE", pregunta.SELLER_ID, null, pregunta.ALBUM_REAL, venta.data.total_amount, pregunta.FIGUS_SIN_STOCK, "Sin Dato", pregunta.ALBUM_REAL, api, venta.pack_id)
+                    await estadoCompradoMDB(pregunta._id)
+                    await actualizarPrecio2000(pregunta.MLA, pregunta.SELLER_ID)
+                }
+            }
+        }
+    }
+
+}
+actualizarVentas()
 
 
 const ultimaActualizacion = () => {
@@ -319,7 +346,6 @@ const buscarCliente = () => {
 }
 
 botonesElementosNoVendidas.forEach(objeto => {
-    console.log(objeto.album)
     const boton = document.getElementById(objeto.botonId)
     boton?.addEventListener('click', async () => {
         const figuritas = await obtenerFiguritas(objeto.album);
@@ -329,12 +355,12 @@ botonesElementosNoVendidas.forEach(objeto => {
 })
 
 window.addEventListener("load", async () => {
-    if (window.location.pathname.endsWith("/indexv2.html")){
+    if (window.location.pathname.endsWith("/indexv2.html")) {
         const figuritas = await obtenerFiguritas("mundialUsa2026");
         const ventas = await obtenerVentas()
         noVendidas(figuritas, ventas, "mundialUsa2026")
     }
-    
+
 })
 
 
