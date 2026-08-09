@@ -1,6 +1,7 @@
 import { buscarFigus } from "./buscarFigus/buscarFigus.js"
 import { obtenerFiguritas } from "../servicios/api.js"
 import { api } from "../../config.js"
+import { albumName } from "../utilidades/nombreAlbum.js"
 
 const responderPregunta = async ({ elementPregunta, idPregunta, valorMensaje, vendedor }) => {
     try {
@@ -36,6 +37,8 @@ const nombrePublicacion = (mla_id) => {
         return { album: "Copa America 2024", bdd: "copaAmerica2024" }
     } else if (["MLA1923493602"].includes(mla_id)) {
         return { album: "Futbol Argentino 2024", bdd: "futbolArgentino2024" }
+    } else if (["MLA1377452117"].includes(mla_id)) {
+        return { album: "Futbol Argentino 2023", bdd: "futbolArgentino2023" }
     }
     return mla_id
 }
@@ -161,10 +164,11 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
 
                         elementoMensaje.appendChild(responder)
 
-                        const datosRespuesta = {
-                            elementPregunta, idPregunta: pregunta.id, valorMensaje: mensajeModificable.value, vendedor: pregunta.seller_id
-                        }
+
                         responder.addEventListener("click", async () => {
+                            const datosRespuesta = {
+                                elementPregunta, idPregunta: pregunta.id, valorMensaje: mensajeModificable.value, vendedor: pregunta.seller_id
+                            }
                             responderPregunta(datosRespuesta)
                         }
                         )
@@ -172,17 +176,36 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
 
                     } else {
 
+                        const albumes = ["mundialQatar2022", "copaAmerica2024", "mundialUsa2026", "futbolArgentino2023", "futbolArgentino2024", "libertadores2023"]
+
+                        let album;
+                        albumes.forEach(alb => {
+                            const botonAlbum = document.createElement("button")
+                            botonAlbum.textContent = albumName(alb)
+                            elementoMensaje.append(botonAlbum)
+                            botonAlbum.addEventListener("click", async () => {
+                                const figusBDD = await obtenerFiguritas(alb)
+                                const mensaje = buscarFigus(alb, figusBDD, alb, "ONLINE", preguntaMeli.value.toUpperCase());
+                                console.log(mensaje)
+                                if (mensaje) {
+                                    escribirRespuesta.value = mensaje.textContent
+                                }
+                            })
+                        })
+
+
+
                         escribirRespuesta.placeholder = "Escribir respuesta"
                         elementoMensaje.append(escribirRespuesta)
                         elementoMensaje.appendChild(responder)
-                        
+
                         escribirRespuesta.style.width = "100%";
                         escribirRespuesta.style.minHeight = "15vh";
 
                         responder.addEventListener("click", async () => {
                             const datosRespuesta = {
-                            elementPregunta, idPregunta: pregunta.id, valorMensaje: escribirRespuesta.value, vendedor: pregunta.seller_id
-                        }
+                                elementPregunta, idPregunta: pregunta.id, valorMensaje: escribirRespuesta.value, vendedor: pregunta.seller_id
+                            }
                             responderPregunta(datosRespuesta)
                         }
                         )
@@ -228,7 +251,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
 
             botonConfirmarVenta.addEventListener("click", async () => {
 
-                    try {
+                try {
                     const peticion = await fetch(`${api}/mercadolibre/publicaciones/precio/${pregunta.item_id}`, {
                         method: "PATCH",
                         headers: {
@@ -246,17 +269,17 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                     }
                     console.log("Respondida correctamente")
 
-                    
-                        const datosRespuesta = {
+
+                    const datosRespuesta = {
                         elementPregunta, idPregunta: pregunta.id, valorMensaje: precioMensaje.textContent, vendedor: pregunta.seller_id
                     }
 
                     responderPregunta(datosRespuesta)
 
-                    } catch (error) {
-                        console.error("No se pudo responder",error)
-                    }
-                                  
+                } catch (error) {
+                    console.error("No se pudo responder", error)
+                }
+
             })
 
 
