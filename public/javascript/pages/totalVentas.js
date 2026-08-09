@@ -299,6 +299,12 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
             totalVentasElement.appendChild(contenedorVenta)
         });
 
+        if (totalVentasElement.id == "totalVentasAri") {
+            return
+        } else if (totalVentasElement.id == "totalVentasLuly") {
+            return
+        }
+        
         let contenedorVentasML = []
         ventasML.forEach(ventameli => {
 

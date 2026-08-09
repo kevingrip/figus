@@ -257,8 +257,6 @@ const actualizarVentas = async () => {
     const preguntasMDB = await obtenerPreguntasMDB()
     const ventasML = await obtenerVentasML()
 
-    console.log("ventasml", ventasML)
-
     for (const pregunta of preguntasMDB) {
         if (pregunta.COMPRADO === false) {
             for (const venta of ventasML) {
@@ -267,7 +265,6 @@ const actualizarVentas = async () => {
                     && (venta.data.seller === pregunta.SELLER_ID)
                     && (venta.data.date_created > pregunta.FECHA)
                     && (venta.data.variante.some(variante => variante.mla === pregunta.MLA))) {
-                    console.log("pregunta comprado a true")
                     const figuritas = await obtenerFiguritas(pregunta.ALBUM_REAL)
                     await operacionDescargar(figuritas, pregunta.FIGUS_EN_STOCK, "ONLINE", pregunta.SELLER_ID, null, pregunta.ALBUM_REAL, venta.data.total_amount, pregunta.FIGUS_SIN_STOCK, "Sin Dato", pregunta.ALBUM_REAL, api, venta.pack_id)
                     await estadoCompradoMDB(pregunta._id)
