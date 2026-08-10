@@ -1,8 +1,10 @@
 import { api } from "../../config.js";
 import { ordenarAlfabeticamente } from "../utilidades/ordenarAlfabeticamente.js";
-import { albumName, nombrePublicacion } from "../utilidades/nombres.js";
+import { albumName, nombrePublicacion,seller_name } from "../utilidades/nombres.js";
 import { fechaArgentina } from "../utilidades/fechaArgentina.js";
-import { obtenerFiguritasOrderCant } from "../servicios/api.js";
+import { obtenerFiguritas, obtenerFiguritasOrderCant } from "../servicios/api.js";
+import { operacionDescargar } from "./buscarFigus/elementoVenta.js";
+
 
 function crearBotonContenedor(figu, album) {
     const contenedor = document.createElement("div");
@@ -323,7 +325,7 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
                 return;
             }
 
-            
+
 
 
             const contenedorML = document.createElement("div")
@@ -369,24 +371,36 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
             })
             const elementBotonAlAzar = document.createElement("div")
             const elementFigusAlAzar = document.createElement("div")
+            const elementConfirmarAlAzar = document.createElement("div")
             ventameli?.data?.variante?.forEach(item => {
                 const albumFormateado = nombrePublicacion(item.mla)
-                if (albumFormateado != item.mla){
+                if (albumFormateado != item.mla) {
                     const botonFiguAzar = document.createElement("button")
-                    botonFiguAzar.textContent="Figus al azar"
+                    botonFiguAzar.textContent = "Figus al azar"
                     elementBotonAlAzar.appendChild(botonFiguAzar)
-                    botonFiguAzar.addEventListener("click",async ()=>{
-                        const obtenerFigusAlAzar = await obtenerFiguritasOrderCant(albumFormateado.bdd,item.cantidad)
-                        console.log(obtenerFigusAlAzar)
-                        obtenerFigusAlAzar.forEach(figu=>{
-                            elementFigusAlAzar.appendChild(crearBotonContenedor(figu, albumFormateado.bdd))
+                    let obtenerFigusAlAzar = []
+                    let figuritas;
+                    botonFiguAzar.addEventListener("click", async () => {
+                        obtenerFigusAlAzar = await obtenerFiguritasOrderCant(albumFormateado.bdd, item.cantidad)
+                        figuritas = await obtenerFiguritas(albumFormateado.bdd)
+                        obtenerFigusAlAzar.forEach(figu => {
+                            elementFigusAlAzar.append(crearBotonContenedor(figu, albumFormateado.bdd))
                         })
-                        
+                        let sin_stock = []
+                        try {
+                            await operacionDescargar(figuritas, obtenerFigusAlAzar, "ONLINE", seller_name(ventameli.data.seller), elementConfirmarAlAzar, albumFormateado.bdd, item.precio * item.cantidad, sin_stock, "Sin Dato", albumFormateado.bdd, api, ventameli.pack_id)
+                        } catch (error) {
+                            console.error("no se pudo realizar")
+                        }
                     })
+
+
+
+
                 }
-                    
+
             });
-            contenedorInfo2.append(ventaid, fechaVenta, cliente, variantes, elementBotonAlAzar,elementFigusAlAzar)
+            contenedorInfo2.append(ventaid, fechaVenta, cliente, variantes, elementBotonAlAzar, elementFigusAlAzar, elementConfirmarAlAzar)
             contenedorML.append(contenedorInfo, contenedorInfo2, contenedorFigus)
             contenedorVentasML.push({ contenedor: contenedorML, fecha: ventameli.data.date_created })
 

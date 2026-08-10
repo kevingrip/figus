@@ -275,7 +275,7 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
                 }
 
                 //ACTUALIZAR CON MONGO
-                const respuesta = await fetch(`${api}/${albumRuta}/actualizarcosecha/incrementar/${proveedor}/${figu._id}`, {
+                const respuesta = await fetch(`${api}/album/${albumRuta}/actualizarcosecha/incrementar/${proveedor}/${figu._id}`, {
                     method: "PATCH"
                 });
 
@@ -334,7 +334,7 @@ export const cosecharFigus = async (tipo, figuritas, albumRuta) => {
             if (figu.STOCK[proveedor].CANT > 0) {
                 try {
                     //ACTUALIZAR CON MONGO
-                    const respuesta = await fetch(`${api}/${albumRuta}/actualizarcosecha/decrementar/${proveedor}/${figu._id}`, {
+                    const respuesta = await fetch(`${api}/album/${albumRuta}/actualizarcosecha/decrementar/${proveedor}/${figu._id}`, {
                         method: "PATCH"
                     });
 

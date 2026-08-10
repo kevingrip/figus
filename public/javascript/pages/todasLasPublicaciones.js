@@ -29,14 +29,13 @@ export const todasLasPublicaciones = async () => {
         const rightCard = document.createElement("div")
 
         const id = document.createElement("div")
-        const title = document.createElement("h3")
+        const title = document.createElement("a")
         const seller_id = document.createElement("p")
         const elementStock = document.createElement("div")
         const stock = document.createElement("p")
         const available_quantity = document.createElement("p")
         const button_mas = document.createElement("button")
         const button_menos = document.createElement("button")
-        const permalink = document.createElement("a")
         const buttonStatus = document.createElement("button")
         const date_created = document.createElement("p")
         const thumbnail = document.createElement("img")
@@ -49,7 +48,7 @@ export const todasLasPublicaciones = async () => {
         available_quantity.textContent = publicacion.available_quantity
         button_mas.textContent = ">"
         button_menos.textContent = "<"
-        price.textContent=`$ ${publicacion.price}`
+        price.textContent = `$ ${publicacion.price}`
 
         button_menos.style.width = "1.5vw"
         button_mas.style.width = "1.5vw"
@@ -58,15 +57,14 @@ export const todasLasPublicaciones = async () => {
         available_quantity.style.marginInlineStart = "5px"
         available_quantity.style.marginInlineEnd = "5px"
         stock.style.marginInlineEnd = "10px"
-        
+
 
         elementStock.append(stock, button_menos, available_quantity, button_mas)
         elementStock.style.display = "flex"
         elementStock.style.flexDirection = "row"
         elementStock.style.alignItems = "center"
-        permalink.href=publicacion.permalink
-        permalink.textContent = "Ver publicación";
-        permalink.target = "_blank";
+        title.href = publicacion.permalink
+        title.target = "_blank";
         date_created.textContent = publicacion.date_created
         thumbnail.src = publicacion.thumbnail;
         thumbnail.style.width = "15vh";
@@ -103,7 +101,7 @@ export const todasLasPublicaciones = async () => {
         button_menos.addEventListener("click", async () => {
             const stockActual = Number(available_quantity.textContent);
 
-            const nuevoStock = stockActual - 1;            
+            const nuevoStock = stockActual - 1;
 
             const sumarStock = await fetch(`${api}/mercadolibre/publicaciones/${publicacion.id}`, {
                 method: "PATCH",
@@ -157,22 +155,24 @@ export const todasLasPublicaciones = async () => {
         card.style.display = "flex"
         card.style.flexDirection = "column"
         card.style.margin = "20px"
-        card.style.height = "55vh"
+        card.style.minHeight = "55vh"
 
-        downCard.style.display="flex"
-        downCard.style.flexDirection="row"
-        upCard.style.margin="10px"
+        downCard.style.display = "flex"
+        downCard.style.flexDirection =
+            window.innerWidth <= 768 ? "column" : "row";
+        upCard.style.margin = "10px"
         upCard.append(title)
         downCard.append(leftCard, rightCard)
-        rightCard.append(id, seller_id, permalink, date_created, elementStock, price, buttonStatus)
+        rightCard.append(id, seller_id, date_created, elementStock, price, buttonStatus)
         leftCard.append(thumbnail)
 
         leftCard.style.display = "flex"
-        leftCard.style.width = "20vw"
+        //leftCard.style.width = "20vw"
         leftCard.style.alignItems = "center"
         leftCard.style.justifyContent = "center"
+        leftCard.style.width = window.innerWidth <= 768 ? "30vw" : "15vw";
 
-        card.append(upCard,downCard)
+        card.append(upCard, downCard)
         if (publicacion.status === "paused") {
             pausedPublic.append(card)
         } else {

@@ -28,3 +28,12 @@ export const nombrePublicacion = (mla_id) => {
     }
     return mla_id
 }
+
+export const seller_name = (seller_id) =>{
+    if (seller_id===1005868067){
+        return "KEVIN"
+    }
+    if (seller_id===2385461382){
+        return "MAMA"
+    }
+}

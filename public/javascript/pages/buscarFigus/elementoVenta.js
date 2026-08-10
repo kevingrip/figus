@@ -1,6 +1,6 @@
 
 const operacionDescargar = async (albumFigus, figusEnStock, canalPregunta, nombreCuenta, divVenta, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, api, pack_id) => {
-
+    
     let divDescargarVenta = document.createElement('div')
     divDescargarVenta.style.display = 'flex'
     divDescargarVenta.style.flexDirection = 'column'
@@ -11,8 +11,8 @@ const operacionDescargar = async (albumFigus, figusEnStock, canalPregunta, nombr
     const elementVentaId = document.createElement('input')
     elementVentaId.style.margin = "10px"
     elementVentaId.placeholder = "VENTA ID"
-
-    if (canalPregunta == "ONLINE") {
+    
+    if (canalPregunta == "ONLINE" && !pack_id) {
         divDescargarVenta.appendChild(elementVentaId)
     }
 
@@ -25,11 +25,15 @@ const operacionDescargar = async (albumFigus, figusEnStock, canalPregunta, nombr
         divVenta.appendChild(divDescargarVenta)
     }
 
+
+
     descargarArchivos.addEventListener('click', async () => {
 
         const ventaId = elementVentaId.value.trim()
             ? Number(elementVentaId.value.trim())
             : (pack_id ?? null);
+
+        console.log("pack_",ventaId)
 
         console.log(ventaId);
         let proveedor;
@@ -110,7 +114,7 @@ const operacionDescargar = async (albumFigus, figusEnStock, canalPregunta, nombr
 const descontarBaseMongodb = async (proveedor, albumRuta, figu, api) => {
     try {
 
-        const response = await fetch(`${api}/${albumRuta}/descontarventa/${proveedor}/${figu._id}`, {
+        const response = await fetch(`${api}/album/${albumRuta}/descontarventa/${proveedor}/${figu._id}`, {
             method: "PATCH"
         });
 
