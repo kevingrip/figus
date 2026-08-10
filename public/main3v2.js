@@ -7,7 +7,7 @@ import { sinStock } from "./javascript/pages/sinStock.js";
 import { noVendidas } from "./javascript/pages/noVendidas.js";
 import { preguntasMercadolibre } from "./javascript/pages/preguntasmeli.js";
 import { todasLasPublicaciones } from "./javascript/pages/todasLasPublicaciones.js";
-import { albumName } from "./javascript/utilidades/nombreAlbum.js";
+import { albumName } from "./javascript/utilidades/nombres.js";
 import { operacionDescargar } from "./javascript/pages/buscarFigus/elementoVenta.js";
 import { api } from "./config.js";
 
@@ -360,36 +360,6 @@ window.addEventListener("load", async () => {
 
 })
 
-
-
-const ordenarPorCantidad = async (base, event) => {
-    const lista = document.getElementById("ordenadasCantidad");
-    if (!lista) return console.error("No se encontró UL 'ordenadasCantidad'");
-
-    lista.innerHTML = "";
-
-    try {
-        // Espera a que tipoAlbum cargue las figus en window.todasLasFigus
-        await tipoAlbum(base, event);
-
-        // Usamos los datos globales
-        const datos = window.todasLasFigus;
-
-        if (!Array.isArray(datos)) return console.error("No hay datos en window.todasLasFigus");
-
-        const resultado = datos
-            .filter(p => p.TIPO === "COMUNES")
-            .sort((a, b) => b.CANT - a.CANT);
-
-        resultado.forEach(p => {
-            const li = document.createElement("li");
-            li.textContent = `${p.NUM} - ${p.NOMBRE} (Stock: ${p.CANT})`;
-            lista.appendChild(li);
-        });
-    } catch (error) {
-        console.error("Error al ordenar por cantidad:", error);
-    }
-};
 
 const albumFigu = (tipo, event, pag) => {
     tipoAlbum(tipo, event)

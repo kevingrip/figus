@@ -1,5 +1,5 @@
 import { crearBotonContenedor } from "../componentes/botonContenedor.js";
-import { albumName } from "../utilidades/nombreAlbum.js";
+import { albumName } from "../utilidades/nombres.js";
 
 export const noVendidas = async (figuritas, ventas, nombreAlbum) => {
 

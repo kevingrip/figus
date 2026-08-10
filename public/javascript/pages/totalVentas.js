@@ -1,7 +1,8 @@
 import { api } from "../../config.js";
 import { ordenarAlfabeticamente } from "../utilidades/ordenarAlfabeticamente.js";
-import { albumName } from "../utilidades/nombreAlbum.js";
+import { albumName, nombrePublicacion } from "../utilidades/nombres.js";
 import { fechaArgentina } from "../utilidades/fechaArgentina.js";
+import { obtenerFiguritasOrderCant } from "../servicios/api.js";
 
 function crearBotonContenedor(figu, album) {
     const contenedor = document.createElement("div");
@@ -80,7 +81,6 @@ const figuGrande = (figu, contenedorFiguGrande) => {
 }
 
 export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) => {
-    console.log(ventasML)
     const totalVendido = document.createElement("h3")
     totalVendido.style.display = "flex"
     totalVendido.style.justifyContent = "center"
@@ -136,6 +136,7 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
             totalPrecioVentas += venta.PRECIO
 
             const contenedorVenta = document.createElement("div")
+            contenedorVenta.style.backgroundColor = "white"
             const contenedorInfo = document.createElement("div")
             const contenedorInfo2 = document.createElement("div")
             const contenedorFigus = document.createElement("div")
@@ -215,8 +216,8 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
             contenedorInfo.style.display = "flex"
             contenedorInfo.style.justifyContent = "space-evenly"
             contenedorInfo.style.backgroundColor = "#de885d"
-            contenedorInfo.style.borderTopLeftRadius="20px"
-            contenedorInfo.style.borderTopRightRadius="20px"
+            contenedorInfo.style.borderTopLeftRadius = "20px"
+            contenedorInfo.style.borderTopRightRadius = "20px"
             ordenarAlfabeticamente(venta.VENDIDAS)
 
             venta.VENDIDAS.forEach(figu => {
@@ -224,6 +225,11 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
             })
 
             const crearBotonVerDetalle = document.createElement("button")
+            crearBotonVerDetalle.style.height = "50px"
+            crearBotonVerDetalle.style.width = "100px"
+            crearBotonVerDetalle.style.margin = "20px"
+            crearBotonVerDetalle.style.backgroundColor = "rgba(45, 239, 61, 0.6)"
+            crearBotonVerDetalle.style.borderRadius = "10px"
             const contenedorBotones = document.createElement("div")
             const contenedorFiguGrande = document.createElement("div")
             crearBotonVerDetalle.textContent = "Verificar"
@@ -293,7 +299,8 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
             contenedorVenta.appendChild(contenedorFigus)
             contenedorVenta.appendChild(crearBotonVerDetalle)
             contenedorVenta.style.margin = "50px"
-            contenedorVenta.style.border = "solid black 2px"
+            contenedorVenta.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.3)";
+
             contenedorVenta.style.borderRadius = "20px"
             contenedorVentasManual.push({ contenedor: contenedorVenta, fecha: fechaML || venta.DIA })
             totalVentasElement.appendChild(contenedorVenta)
@@ -304,10 +311,9 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
         } else if (totalVentasElement.id == "totalVentasLuly") {
             return
         }
-        
+
         let contenedorVentasML = []
         ventasML.forEach(ventameli => {
-
 
             const existeVenta = todasLasVentas.some(
                 venta => String(venta.VENTAID) === String(ventameli.pack_id)
@@ -317,7 +323,11 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
                 return;
             }
 
+            
+
+
             const contenedorML = document.createElement("div")
+            contenedorML.style.backgroundColor = "white"
 
             if (ventameli.data?.cancel_detail) {
                 contenedorML.style.backgroundColor = "red"
@@ -327,7 +337,7 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
             const contenedorInfo2 = document.createElement("div")
             const contenedorFigus = document.createElement("div")
             contenedorML.style.margin = "50px"
-            contenedorML.style.border = "solid black 2px"
+            contenedorML.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.3)";
             contenedorML.style.borderRadius = "20px"
 
             contenedorInfo2.style.padding = "20px";
@@ -357,7 +367,26 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
                 variantes.append(elementVariante)
 
             })
-            contenedorInfo2.append(ventaid, fechaVenta, cliente, variantes)
+            const elementBotonAlAzar = document.createElement("div")
+            const elementFigusAlAzar = document.createElement("div")
+            ventameli?.data?.variante?.forEach(item => {
+                const albumFormateado = nombrePublicacion(item.mla)
+                if (albumFormateado != item.mla){
+                    const botonFiguAzar = document.createElement("button")
+                    botonFiguAzar.textContent="Figus al azar"
+                    elementBotonAlAzar.appendChild(botonFiguAzar)
+                    botonFiguAzar.addEventListener("click",async ()=>{
+                        const obtenerFigusAlAzar = await obtenerFiguritasOrderCant(albumFormateado.bdd,item.cantidad)
+                        console.log(obtenerFigusAlAzar)
+                        obtenerFigusAlAzar.forEach(figu=>{
+                            elementFigusAlAzar.appendChild(crearBotonContenedor(figu, albumFormateado.bdd))
+                        })
+                        
+                    })
+                }
+                    
+            });
+            contenedorInfo2.append(ventaid, fechaVenta, cliente, variantes, elementBotonAlAzar,elementFigusAlAzar)
             contenedorML.append(contenedorInfo, contenedorInfo2, contenedorFigus)
             contenedorVentasML.push({ contenedor: contenedorML, fecha: ventameli.data.date_created })
 

@@ -107,3 +107,25 @@ export const estadoCompradoMDB = async (preg_id) => {
 
     return preguntaActualizada;
 }
+
+export async function obtenerFiguritasOrderCant(album, cant_compradas) {
+
+    const res = await fetch(`${api}/album/${album}`);
+    const figus_parseadas = await res.json();
+
+    const figusComunes = figus_parseadas.filter(
+        figu => figu.TIPO === "COMUNES"
+    );
+
+    figusComunes.forEach(figu => {
+        figu.CANT_TOTAL = Object.values(figu.STOCK || {}).reduce(
+            (total, proveedor) => total + (proveedor?.CANT || 0),
+            0
+        );
+    });
+
+    figusComunes.sort((a, b) => b.CANT_TOTAL - a.CANT_TOTAL);
+
+    return figusComunes.slice(0, cant_compradas);
+
+}
