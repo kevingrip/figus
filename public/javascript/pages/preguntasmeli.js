@@ -163,7 +163,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                                 elementPregunta, idPregunta: pregunta.id, valorMensaje: mensajeModificable.value, vendedor: pregunta.seller_id
                             }
                             responderPregunta(datosRespuesta)
-                            cargarPreguntaMDB(figus_conStock,figus_sinStock,pregunta.seller_id,pregunta.from.id,getAlbum.bdd,fechaPreg,getAlbum.bdd,pregunta.item_id)
+                            cargarPreguntaMDB(figus_conStock,figus_sinStock,pregunta.seller_id,pregunta.from.id,getAlbum.bdd,pregunta.date_created,getAlbum.bdd,pregunta.item_id)
                         }
                         )
 
@@ -208,7 +208,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                                 elementPregunta, idPregunta: pregunta.id, valorMensaje: escribirRespuesta.value, vendedor: pregunta.seller_id
                             }
                             responderPregunta(datosRespuesta)
-                            cargarPreguntaMDB(figus_conStock,figus_sinStock,pregunta.seller_id,pregunta.from.id,getAlbum.bdd,fechaPreg,album,pregunta.item_id)
+                            cargarPreguntaMDB(figus_conStock,figus_sinStock,pregunta.seller_id,pregunta.from.id,getAlbum.bdd,pregunta.date_created,album,pregunta.item_id)
                         }
                         )
                         elementoMensaje.style.display = "";

@@ -7,8 +7,8 @@ import { sinStock } from "./javascript/pages/sinStock.js";
 import { noVendidas } from "./javascript/pages/noVendidas.js";
 import { preguntasMercadolibre } from "./javascript/pages/preguntasmeli.js";
 import { todasLasPublicaciones } from "./javascript/pages/todasLasPublicaciones.js";
-import { albumName } from "./javascript/utilidades/nombres.js";
-import { operacionDescargar } from "./javascript/pages/buscarFigus/elementoVenta.js";
+import { albumName, seller_name } from "./javascript/utilidades/nombres.js";
+import { crearVenta } from "./javascript/pages/buscarFigus/elementoVenta.js";
 import { api } from "./config.js";
 
 async function actualizarFechasPublicaciones() {
@@ -261,12 +261,12 @@ const actualizarVentas = async () => {
         if (pregunta.COMPRADO === false) {
             for (const venta of ventasML) {
 
-                if ((venta.data.buyer_id === pregunta.BUYER_ID) 
+                if ((venta.data.buyer_id === pregunta.BUYER_ID)                     
                     && (venta.data.seller === pregunta.SELLER_ID)
                     && (venta.data.date_created > pregunta.FECHA)
                     && (venta.data.variante.some(variante => variante.mla === pregunta.MLA))) {
                     const figuritas = await obtenerFiguritas(pregunta.ALBUM_REAL)
-                    await operacionDescargar(figuritas, pregunta.FIGUS_EN_STOCK, "ONLINE", pregunta.SELLER_ID, null, pregunta.ALBUM_REAL, venta.data.total_amount, pregunta.FIGUS_SIN_STOCK, "Sin Dato", pregunta.ALBUM_REAL, api, venta.pack_id)
+                    await crearVenta(figuritas, pregunta.FIGUS_EN_STOCK, "ONLINE", seller_name(pregunta.SELLER_ID), pregunta.ALBUM_REAL, venta.data.total_amount, pregunta.FIGUS_SIN_STOCK, "Sin Dato", pregunta.ALBUM_REAL, api, venta.pack_id)
                     await estadoCompradoMDB(pregunta._id)
                     await actualizarPrecio2000(pregunta.MLA, pregunta.SELLER_ID)
                 }

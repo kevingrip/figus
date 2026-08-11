@@ -49,16 +49,19 @@ export const noVendidas = async (figuritas, ventas, nombreAlbum) => {
                 })
 
             })
-
-            bloqueVenta.appendChild(datos)
-            bloqueVenta.appendChild(cuentaid)
-            bloqueVenta.appendChild(fecha)
+            const informacion = document.createElement("div")
+            informacion.append(datos,cuentaid,fecha)
+            informacion.style.backgroundColor="rgba(0, 0, 0, 0.06)"
+            informacion.style.borderRadius="25px 25px 0 0"
+            bloqueVenta.appendChild(informacion)
             bloqueVenta.appendChild(faltantes)
-            bloqueVenta.style.backgroundColor = "rgba(37, 157, 91, 0.26)"
+            bloqueVenta.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.3)";
+            bloqueVenta.style.borderRadius = "25px"
             datos.style.margin = "10px"
             cuentaid.style.margin = "10px"
             fecha.style.margin = "10px"
             faltantes.style.margin = "20px"
+            bloqueVenta.style.backgroundColor="white"
             bloqueVenta.style.margin = "30px"
             noVendidas?.appendChild(bloqueVenta)
             indexNoVendidas?.appendChild(bloqueVenta.cloneNode(true))

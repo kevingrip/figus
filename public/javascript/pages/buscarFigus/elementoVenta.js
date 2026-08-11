@@ -1,113 +1,77 @@
 
-const operacionDescargar = async (albumFigus, figusEnStock, canalPregunta, nombreCuenta, divVenta, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, api, pack_id) => {
-    
-    let divDescargarVenta = document.createElement('div')
-    divDescargarVenta.style.display = 'flex'
-    divDescargarVenta.style.flexDirection = 'column'
-    divDescargarVenta.style.justifyContent = 'center'
-    divDescargarVenta.style.alignItems = 'center'
-    divDescargarVenta.style.margin = '20px'
+const crearVenta = async (albumFigus, figusEnStock, canalPregunta, nombreCuenta, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, api, ventaId) => {
+    let proveedor;
+    for (const figu of albumFigus) {
+        for (const vend of figusEnStock) {
+            if (vend.NUM == figu.NUM)
+                try {
+                    if (figu.STOCK.PDM.CANT > 0) {
+                        proveedor = "PDM"
 
-    const elementVentaId = document.createElement('input')
-    elementVentaId.style.margin = "10px"
-    elementVentaId.placeholder = "VENTA ID"
-    
-    if (canalPregunta == "ONLINE" && !pack_id) {
-        divDescargarVenta.appendChild(elementVentaId)
-    }
+                    } else if (figu.STOCK.MATI.CANT > 0) {
+                        proveedor = "MATI"
 
 
-    const descargarArchivos = document.createElement('button')
-    descargarArchivos.innerHTML = 'Confirmar'
-    descargarArchivos.style.backgroundColor = 'skyblue'
-    divDescargarVenta.appendChild(descargarArchivos)
-    if (divVenta) {
-        divVenta.appendChild(divDescargarVenta)
-    }
+                    } else if (figu.STOCK.CAMBIOS.CANT > 0) {
+                        proveedor = "CAMBIOS"
 
-
-
-    descargarArchivos.addEventListener('click', async () => {
-
-        const ventaId = elementVentaId.value.trim()
-            ? Number(elementVentaId.value.trim())
-            : (pack_id ?? null);
-
-        console.log("pack_",ventaId)
-
-        console.log(ventaId);
-        let proveedor;
-        for (const figu of albumFigus) {
-            for (const vend of figusEnStock) {
-                if (vend.NUM == figu.NUM)
-                    try {
-                        if (figu.STOCK.PDM.CANT > 0) {
-                            proveedor = "PDM"
-
-                        } else if (figu.STOCK.MATI.CANT > 0) {
-                            proveedor = "MATI"
-
-
-                        } else if (figu.STOCK.CAMBIOS.CANT > 0) {
-                            proveedor = "CAMBIOS"
-
-                        } else if (figu.STOCK.OTROS.CANT > 0) {
-                            proveedor = "OTROS"
-                        }
-
-                        if (proveedor) {
-                            await descontarBaseMongodb(proveedor, albumRuta, figu, api);
-                        }
-
-                    } catch (error) {
-                        console.error(error);
-                        Toast.fire({
-                            icon: 'error',
-                            title: `No se pudo actualizar`
-                        })
+                    } else if (figu.STOCK.OTROS.CANT > 0) {
+                        proveedor = "OTROS"
                     }
-            }
+
+                    if (proveedor) {
+                        await descontarBaseMongodb(proveedor, albumRuta, figu, api);
+                    }
+
+                } catch (error) {
+                    console.error(error);
+                    Toast.fire({
+                        icon: 'error',
+                        title: `No se pudo actualizar`
+                    })
+                }
         }
+    }
 
-        if (canalPregunta === "ONLINE") {
-            const datosJson = JSON.stringify(albumFigus, null, 2);
-            const blob = new Blob([datosJson], { type: 'application/json' });
-            const enlace = document.createElement('a');
-            enlace.href = URL.createObjectURL(blob);
-            enlace.download = `${nombreJson}.json`;
-            enlace.click();
-            // Liberar la URL del Blob
-            URL.revokeObjectURL(enlace.href);
-        }
-
-
-
-        const datosVenta = ({
-            DIA: new Date(),
-            VENTAID: ventaId,
-            VENDIDAS: figusEnStock,
-            FALTANTES: figusSinStock,
-            PRECIO: precioFinal,
-            CUENTA: nombreCuenta,
-            ENVIO: tipoEnvio,
-            ALBUM: albumRuta
-        })
+    if (canalPregunta === "ONLINE") {
+        const datosJson = JSON.stringify(albumFigus, null, 2);
+        const blob = new Blob([datosJson], { type: 'application/json' });
+        const enlace = document.createElement('a');
+        enlace.href = URL.createObjectURL(blob);
+        enlace.download = `${nombreJson}.json`;
+        enlace.click();
+        // Liberar la URL del Blob
+        URL.revokeObjectURL(enlace.href);
+    }
 
 
-        try {
-            await fetch(`${api}/ventas`, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(datosVenta)
-            });
-        } catch (error) {
-            console.error('Error al agregar la venta:', error);
-            throw error;
-        }
 
+    const datosVenta = ({
+        DIA: new Date(),
+        VENTAID: ventaId,
+        VENDIDAS: figusEnStock,
+        FALTANTES: figusSinStock,
+        PRECIO: precioFinal,
+        CUENTA: nombreCuenta,
+        ENVIO: tipoEnvio,
+        ALBUM: albumRuta
     })
+
+
+    try {
+        await fetch(`${api}/ventas`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(datosVenta)
+        });
+    } catch (error) {
+        console.error('Error al agregar la venta:', error);
+        throw error;
+    }
+
+
 
 }
 
@@ -165,7 +129,38 @@ const agregarCuenta = (usuariosVendedores, divVenta, albumFigus, canalPregunta, 
             boton.style.backgroundColor = 'lightgreen'
             if (!botonDescargaCreado) {
                 botonDescargaCreado = true
-                operacionDescargar(albumFigus, figusEnStock, canalPregunta, nombre, divVenta, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, api)
+                let divDescargarVenta = document.createElement('div')
+                divDescargarVenta.style.display = 'flex'
+                divDescargarVenta.style.flexDirection = 'column'
+                divDescargarVenta.style.justifyContent = 'center'
+                divDescargarVenta.style.alignItems = 'center'
+                divDescargarVenta.style.margin = '20px'
+
+                const elementVentaId = document.createElement('input')
+                elementVentaId.style.margin = "10px"
+                elementVentaId.placeholder = "VENTA ID"
+
+                if (canalPregunta == "ONLINE") {
+                    divDescargarVenta.appendChild(elementVentaId)
+                }
+
+
+                const descargarArchivos = document.createElement('button')
+                descargarArchivos.innerHTML = 'Confirmar'
+                descargarArchivos.style.backgroundColor = 'skyblue'
+                divDescargarVenta.appendChild(descargarArchivos)
+                if (divVenta) {
+                    divVenta.appendChild(divDescargarVenta)
+                }
+
+                descargarArchivos.addEventListener('click', async () => {
+
+                    const ventaId = Number(elementVentaId.value.trim()) || null
+                        
+
+                    crearVenta(albumFigus, figusEnStock, canalPregunta, nombre, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, api, ventaId)
+                
+                })                
             }
         })
     });
@@ -289,4 +284,4 @@ const elementoVenta = ({ elementos, datos, ruta }) => {
     })
 }
 
-export { operacionDescargar, descontarBaseMongodb, agregarCuenta, elementoVenta }
+export { crearVenta, elementoVenta }

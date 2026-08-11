@@ -27,8 +27,6 @@ export function crearBotonContenedor(figu, album, altura) {
             cantTotal += Number(valor.CANT) || 0;
         });
 
-        console.log(cantTotal);
-
         textoInferior.textContent = `Cant: ${cantTotal}`;
     }
 

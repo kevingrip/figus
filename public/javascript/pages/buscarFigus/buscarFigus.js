@@ -1,5 +1,5 @@
 import { api } from "../../../config.js";
-import { operacionDescargar, descontarBaseMongodb, agregarCuenta, elementoVenta } from "./elementoVenta.js";
+import { elementoVenta } from "./elementoVenta.js";
 import { elementoPregunta } from "./elementoPregunta.js";
 import { precioBarato } from "./preciosBaratos.js";
 

@@ -1,9 +1,9 @@
 import { api } from "../../config.js";
 import { ordenarAlfabeticamente } from "../utilidades/ordenarAlfabeticamente.js";
-import { albumName, nombrePublicacion,seller_name } from "../utilidades/nombres.js";
+import { albumName, nombrePublicacion, seller_name } from "../utilidades/nombres.js";
 import { fechaArgentina } from "../utilidades/fechaArgentina.js";
 import { obtenerFiguritas, obtenerFiguritasOrderCant } from "../servicios/api.js";
-import { operacionDescargar } from "./buscarFigus/elementoVenta.js";
+import { crearVenta } from "./buscarFigus/elementoVenta.js";
 
 
 function crearBotonContenedor(figu, album) {
@@ -134,6 +134,7 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
         let totalPrecioVentas = 0
         let contenedorVentasManual = []
         todasLasVentas.forEach(venta => {
+
             const album = venta.ALBUM;
             totalPrecioVentas += venta.PRECIO
 
@@ -172,20 +173,33 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
             contenedorInfo.appendChild(precio)
             contenedorInfo.appendChild(envio);
 
-            let fechaML;
-            if (venta.VENTAID != null) {
-                const ventaid = document.createElement('h4');
-                ventaid.textContent = `Venta ID: ${venta.VENTAID}`;
-                ventaid.style.textAlign = "center"
 
+
+            let fechaML;
+            let ventaid = document.createElement("h2")
+            if (venta.VENTAID != null) {
+                ventaid.textContent = `VENTA ID: ${venta.VENTAID}`
+                contenedorInfo2.append(ventaid)
 
                 ventasML.forEach(ventameli => {
                     if (ventameli.pack_id === venta.VENTAID) {
+                        const fecha_venta = new Date(ventameli.data.date_created);
+
+                        const fecha_limite = new Date(fecha_venta);
+
+                        if (fecha_venta.getHours() >= 15) {
+                            fecha_limite.setDate(fecha_limite.getDate() + 1);
+                        }
+
+                        fecha_limite.setHours(15, 0, 0, 0);
+                        const fecha_actual = new Date()
+
                         if (venta.cancel_detail) {
                             contenedorVenta.style.backgroundColor = "red"
+                        } else if (fecha_limite < fecha_actual) {
+                            contenedorVenta.style.backgroundColor = "lightgreen";
                         }
-                        fechaML = ventameli.data.date_created
-                        const ventaid = document.createElement("h2")
+
                         const fechaVenta = document.createElement("div")
                         const cliente = document.createElement("div")
                         ventaid.textContent = `VENTA ID: ${ventameli.pack_id}`
@@ -214,12 +228,15 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
                 })
             }
 
-
             contenedorInfo.style.display = "flex"
             contenedorInfo.style.justifyContent = "space-evenly"
             contenedorInfo.style.backgroundColor = "#de885d"
             contenedorInfo.style.borderTopLeftRadius = "20px"
             contenedorInfo.style.borderTopRightRadius = "20px"
+            if (window.innerWidth < 768) {
+                contenedorInfo.style.flexDirection = "column"
+            }
+
             ordenarAlfabeticamente(venta.VENDIDAS)
 
             venta.VENDIDAS.forEach(figu => {
@@ -324,16 +341,27 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
             if (existeVenta) {
                 return;
             }
-
-
-
-
             const contenedorML = document.createElement("div")
             contenedorML.style.backgroundColor = "white"
 
+            const fecha_venta = new Date(ventameli.data.date_created);
+
+            const fecha_limite = new Date(fecha_venta);
+
+            if (fecha_venta.getHours() >= 15) {
+                fecha_limite.setDate(fecha_limite.getDate() + 1);
+            }           
+
+            fecha_limite.setHours(15, 0, 0, 0);
+
+            const fecha_actual = new Date()
+
             if (ventameli.data?.cancel_detail) {
                 contenedorML.style.backgroundColor = "red"
+            } else if (fecha_limite < fecha_actual) {
+                contenedorML.style.backgroundColor = "lightgreen";
             }
+
 
             const contenedorInfo = document.createElement("div")
             const contenedorInfo2 = document.createElement("div")
@@ -388,15 +416,11 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
                         })
                         let sin_stock = []
                         try {
-                            await operacionDescargar(figuritas, obtenerFigusAlAzar, "ONLINE", seller_name(ventameli.data.seller), elementConfirmarAlAzar, albumFormateado.bdd, item.precio * item.cantidad, sin_stock, "Sin Dato", albumFormateado.bdd, api, ventameli.pack_id)
+                            await crearVenta(figuritas, obtenerFigusAlAzar, "ONLINE", seller_name(ventameli.data.seller), albumFormateado.bdd, item.precio * item.cantidad, sin_stock, "Sin Dato", albumFormateado.bdd, api, ventameli.pack_id)
                         } catch (error) {
                             console.error("no se pudo realizar")
                         }
                     })
-
-
-
-
                 }
 
             });
