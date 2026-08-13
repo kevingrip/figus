@@ -2,10 +2,10 @@ import { api } from "../../config.js";
 import { ordenarAlfabeticamente } from "../utilidades/ordenarAlfabeticamente.js";
 import { albumName, nombrePublicacion, seller_name } from "../utilidades/nombres.js";
 import { fechaArgentina } from "../utilidades/fechaArgentina.js";
-import { obtenerFiguritas, obtenerFiguritasOrderCant,importarImagenPagoNeto } from "../servicios/api.js";
+import { obtenerFiguritas, obtenerFiguritasOrderCant, importarImagenPagoNeto } from "../servicios/api.js";
 import { crearVenta } from "./buscarFigus/elementoVenta.js";
 
-const contenedorImagen = (album,ventaid) =>{
+const contenedorImagen = (album, ventaid) => {
     const inputImagen = document.createElement("input");
 
     inputImagen.type = "file";
@@ -20,8 +20,8 @@ const contenedorImagen = (album,ventaid) =>{
         const formData = new FormData();
         formData.append("imagen", archivo);
 
-        await importarImagenPagoNeto(album,ventaid,formData)
-        
+        await importarImagenPagoNeto(album, ventaid, formData)
+
     });
     return inputImagen
 }
@@ -165,11 +165,11 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
 
         const totalVentasMDB = (vendedor) => {
-            let totalPrecioVentas = 0            
+            let totalPrecioVentas = 0
 
             const ventasFiltradas = vendedor ? ventasMDB.filter(venta => venta.CUENTA === vendedor) : ventasMDB
 
-            ventasFiltradas.forEach(venta => {               
+            ventasFiltradas.forEach(venta => {
 
                 const album = venta.ALBUM;
 
@@ -177,6 +177,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 contenedorVenta.style.backgroundColor = "white"
                 const contenedorInfo = document.createElement("div")
                 const contenedorInfo2 = document.createElement("div")
+                const contenedorIMG = document.createElement("div")
                 const contenedorFigus = document.createElement("div")
                 contenedorInfo2.style.padding = "20px";
                 contenedorFigus.style.padding = "20px";
@@ -217,7 +218,6 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                     ventaid.textContent = `VENTA ID: ${venta.VENTAID}`
                     contenedorInfo2.append(ventaid)
 
-                    const subirPago = contenedorImagen(venta.ALBUM,venta.VENTAID)
 
                     ventasML.forEach(ventameli => {
                         if (ventameli.pack_id === venta.VENTAID) {
@@ -270,7 +270,24 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
                             totalVenta.textContent = `Total Venta: $${costoVenta}`
 
-                            contenedorInfo2.append(ventaid, fechaVenta, cliente, totalVenta, subirPago, variantes)
+                            contenedorInfo2.append(ventaid, fechaVenta, cliente, totalVenta, variantes)
+                            if (!venta.PAGO_NETO) {
+                                const subirPago = contenedorImagen(venta.ALBUM, venta.VENTAID)
+                                contenedorIMG.append(subirPago)
+                            } else {
+                                const imagenPago = document.createElement("img");
+
+                                imagenPago.src = `data:${venta.PAGO_NETO.contentType};base64,${venta.PAGO_NETO.data}`;
+
+                                imagenPago.alt = "Comprobante de pago";
+
+                                imagenPago.style.width = "300px";
+                                imagenPago.style.height = "auto";
+                                imagenPago.style.objectFit = "contain";
+
+                                contenedorIMG.append(imagenPago);
+                            }
+                            contenedorInfo2.append(variantes)
                         }
                     })
                 }
@@ -364,10 +381,16 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                     contenedorVenta.style.backgroundColor = "rgba(76, 187, 81, 0.77)"
                 }
 
+                const infoCentral = document.createElement("div")
+                infoCentral.append(contenedorInfo2,contenedorIMG)
+                contenedorIMG.style.margin="30px"
+                infoCentral.style.display="flex"
+                infoCentral.style.flexDirection="row"
+
                 contenedorVenta.dataset.cuenta = venta.CUENTA;
                 contenedorVenta.dataset.precio = venta.PRECIO;
                 contenedorVenta.appendChild(contenedorInfo)
-                contenedorVenta.appendChild(contenedorInfo2)
+                contenedorVenta.appendChild(infoCentral)
                 contenedorVenta.appendChild(contenedorFigus)
                 contenedorVenta.appendChild(crearBotonVerDetalle)
                 contenedorVenta.style.margin = "50px"
