@@ -54,7 +54,9 @@ const crearVenta = async (albumFigus, figusEnStock, canalPregunta, nombreCuenta,
         PRECIO: precioFinal,
         CUENTA: nombreCuenta,
         ENVIO: tipoEnvio,
-        ALBUM: albumRuta
+        ALBUM: albumRuta,
+        VERIFICADAS: false,
+        PAGADAS: false
     })
 
 

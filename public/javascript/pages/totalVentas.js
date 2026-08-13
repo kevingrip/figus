@@ -2,8 +2,29 @@ import { api } from "../../config.js";
 import { ordenarAlfabeticamente } from "../utilidades/ordenarAlfabeticamente.js";
 import { albumName, nombrePublicacion, seller_name } from "../utilidades/nombres.js";
 import { fechaArgentina } from "../utilidades/fechaArgentina.js";
-import { obtenerFiguritas, obtenerFiguritasOrderCant } from "../servicios/api.js";
+import { obtenerFiguritas, obtenerFiguritasOrderCant,importarImagenPagoNeto } from "../servicios/api.js";
 import { crearVenta } from "./buscarFigus/elementoVenta.js";
+
+const contenedorImagen = (album,ventaid) =>{
+    const inputImagen = document.createElement("input");
+
+    inputImagen.type = "file";
+    inputImagen.accept = "image/*";
+
+    inputImagen.addEventListener("change", async () => {
+
+        const archivo = inputImagen.files[0];
+
+        if (!archivo) return;
+
+        const formData = new FormData();
+        formData.append("imagen", archivo);
+
+        await importarImagenPagoNeto(album,ventaid,formData)
+        
+    });
+    return inputImagen
+}
 
 
 function crearBotonContenedor(figu, album) {
@@ -82,19 +103,26 @@ const figuGrande = (figu, contenedorFiguGrande) => {
     contenedorFiguGrande.appendChild(figuritaGrande)
 }
 
-export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) => {
+export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, botonesElement, elementPrecioVenta) => {
     const totalVendido = document.createElement("h3")
     totalVendido.style.display = "flex"
     totalVendido.style.justifyContent = "center"
+    const listaBotones = []
+    let contenedorVentasMDB = []
+    let contenedorVentasML = []
+
     if (totalVentasElement) {
+
         if (totalVentasElement.id == "totalVentasAri") {
-            todasLasVentas = todasLasVentas.filter(ventas => ventas.CUENTA == "ARI")
+            ventasMDB = ventasMDB.filter(ventas => ventas.CUENTA == "ARI")
         } else if (totalVentasElement.id == "totalVentasLuly") {
-            todasLasVentas = todasLasVentas.filter(ventas => ventas.CUENTA == "LULY")
+            ventasMDB = ventasMDB.filter(ventas => ventas.CUENTA == "LULY")
         } else {
-            const vendedores = [...new Set(todasLasVentas.map(venta => venta.CUENTA))]
+            const vendedores = [...new Set(ventasMDB.map(venta => venta.CUENTA))]
             const botonesVendedores = document.createElement("div")
-            const listaBotones = []
+
+            vendedores.push("TODAS")
+
             vendedores.forEach(vendedor => {
                 const boton = document.createElement("button")
                 listaBotones.push(boton)
@@ -104,346 +132,408 @@ export const totalVentas = async (todasLasVentas, totalVentasElement, ventasML) 
                 boton.style.margin = "10px"
                 botonesVendedores.appendChild(boton)
 
-
                 boton.addEventListener("click", () => {
+                    contenedorVentasMDB = []
+                    contenedorVentasML = []
+                    totalVentasElement.innerHTML = ""
                     listaBotones.forEach(boton => {
                         boton.style.backgroundColor = ""
                     })
-                    const ventas = totalVentasElement.querySelectorAll("[data-cuenta]");
+
                     boton.style.backgroundColor = "lightgreen"
                     let total = 0;
 
-                    ventas.forEach(div => {
-                        const mostrar = div.dataset.cuenta === vendedor;
-                        div.style.display = mostrar ? "" : "none";
-
-                        if (mostrar) {
-                            total += Number(div.dataset.precio);
-                        }
-                    });
-                    totalVendido.textContent = `Total Vendido: $ ${total}`;
+                    const vendedorSeleccionado = vendedor === "TODAS" ? null : vendedor
+                    let precioMDB = totalVentasMDB(vendedorSeleccionado)
+                    let precioML = totalVentasML(vendedorSeleccionado)
+                    juntarVentas()
+                    totalVendido.textContent = `Total Vendido: $ ${precioMDB + precioML}`;
                 });
+
             })
+
             botonesVendedores.style.display = "flex"
             botonesVendedores.style.justifyContent = "center"
             botonesVendedores.style.margin = "50px"
-            totalVentasElement.appendChild(botonesVendedores)
-            totalVentasElement.appendChild(totalVendido)
+            botonesElement.appendChild(botonesVendedores)
+            elementPrecioVenta.appendChild(totalVendido)
+
         }
 
-        let totalPrecioVentas = 0
-        let contenedorVentasManual = []
-        todasLasVentas.forEach(venta => {
-
-            const album = venta.ALBUM;
-            totalPrecioVentas += venta.PRECIO
-
-            const contenedorVenta = document.createElement("div")
-            contenedorVenta.style.backgroundColor = "white"
-            const contenedorInfo = document.createElement("div")
-            const contenedorInfo2 = document.createElement("div")
-            const contenedorFigus = document.createElement("div")
-            contenedorInfo2.style.padding = "20px";
-            contenedorFigus.style.padding = "20px";
-
-
-            const tituloAlbum = document.createElement("p")
-            tituloAlbum.textContent = albumName(album)
-
-            const envio = document.createElement("p")
-            envio.textContent = venta.ENVIO ? `Envio: ${venta.ENVIO}` : ""
-
-            const cuenta = document.createElement("p")
-            cuenta.textContent = `Cuenta: ${venta.CUENTA}`
-
-            const cantidad = document.createElement("p")
-            cantidad.textContent = `Cantidad: ${venta.VENDIDAS.length}`
-
-            const precio = document.createElement("p")
-            precio.textContent = `Precio: ${venta.PRECIO}`
-
-            const dia = document.createElement("p")
-            dia.textContent = `Dia de venta: ${new Date(venta.DIA).toLocaleDateString("es-AR")} 🕒 ${new Date(venta.DIA).toLocaleTimeString("es-AR")}`
-
-
-            contenedorInfo.appendChild(tituloAlbum)
-            contenedorInfo.appendChild(dia)
-            contenedorInfo.appendChild(cuenta)
-            contenedorInfo.appendChild(cantidad)
-            contenedorInfo.appendChild(precio)
-            contenedorInfo.appendChild(envio);
 
 
 
-            let fechaML;
-            let ventaid = document.createElement("h2")
-            if (venta.VENTAID != null) {
-                ventaid.textContent = `VENTA ID: ${venta.VENTAID}`
-                contenedorInfo2.append(ventaid)
 
-                ventasML.forEach(ventameli => {
-                    if (ventameli.pack_id === venta.VENTAID) {
-                        const fecha_venta = new Date(ventameli.data.date_created);
+        const totalVentasMDB = (vendedor) => {
+            let totalPrecioVentas = 0            
 
-                        const fecha_limite = new Date(fecha_venta);
+            const ventasFiltradas = vendedor ? ventasMDB.filter(venta => venta.CUENTA === vendedor) : ventasMDB
 
-                        if (fecha_venta.getHours() >= 15) {
-                            fecha_limite.setDate(fecha_limite.getDate() + 1);
-                        }
+            ventasFiltradas.forEach(venta => {               
 
-                        fecha_limite.setHours(15, 0, 0, 0);
-                        const fecha_actual = new Date()
+                const album = venta.ALBUM;
 
-                        if (venta.cancel_detail) {
-                            contenedorVenta.style.backgroundColor = "red"
-                        } else if (fecha_limite < fecha_actual) {
-                            contenedorVenta.style.backgroundColor = "lightgreen";
-                        }
-
-                        const fechaVenta = document.createElement("div")
-                        const cliente = document.createElement("div")
-                        ventaid.textContent = `VENTA ID: ${ventameli.pack_id}`
-                        fechaVenta.textContent = `Fecha Venta Mercadolibre: ${fechaArgentina(ventameli.data.date_created)} hs`
-                        cliente.textContent = `Cliente: ${ventameli.data.buyer}`
-                        const variantes = document.createElement("div")
-                        ventameli.data.variante.forEach(variante => {
-                            const elementVariante = document.createElement("div")
-                            const titulo = document.createElement("h3")
-                            const cantidad = document.createElement("div")
-                            const precio = document.createElement("div")
-
-                            titulo.textContent = variante.titulo
-                            cantidad.textContent = `Cantidad: ${variante.cantidad}`
-                            precio.textContent = `Precio: $${variante.precio * variante.cantidad}`
-                            elementVariante.append(titulo, cantidad, precio)
-                            elementVariante.style.margin = "10px"
-                            elementVariante.style.backgroundColor = "rgba(60, 255, 0, 0.05)"
-                            elementVariante.style.border = "solid black 1px"
-                            elementVariante.style.padding = "10px"
-                            variantes.append(elementVariante)
-
-                        })
-                        contenedorInfo2.append(ventaid, fechaVenta, cliente, variantes)
-                    }
-                })
-            }
-
-            contenedorInfo.style.display = "flex"
-            contenedorInfo.style.justifyContent = "space-evenly"
-            contenedorInfo.style.backgroundColor = "#de885d"
-            contenedorInfo.style.borderTopLeftRadius = "20px"
-            contenedorInfo.style.borderTopRightRadius = "20px"
-            if (window.innerWidth < 768) {
-                contenedorInfo.style.flexDirection = "column"
-            }
-
-            ordenarAlfabeticamente(venta.VENDIDAS)
-
-            venta.VENDIDAS.forEach(figu => {
-                contenedorFigus.appendChild(crearBotonContenedor(figu, album))
-            })
-
-            const crearBotonVerDetalle = document.createElement("button")
-            crearBotonVerDetalle.style.height = "50px"
-            crearBotonVerDetalle.style.width = "100px"
-            crearBotonVerDetalle.style.margin = "20px"
-            crearBotonVerDetalle.style.backgroundColor = "rgba(45, 239, 61, 0.6)"
-            crearBotonVerDetalle.style.borderRadius = "10px"
-            const contenedorBotones = document.createElement("div")
-            const contenedorFiguGrande = document.createElement("div")
-            crearBotonVerDetalle.textContent = "Verificar"
-
-            crearBotonVerDetalle.addEventListener("click", () => {
-                let posicion = 0
-                contenedorFigus.remove()
-
-                contenedorBotones.replaceChildren();
-                contenedorFiguGrande.replaceChildren();
-
-                const botonSiguiente = document.createElement("button")
-                botonSiguiente.textContent = "Siguiente"
-                const botonAnterior = document.createElement("button")
-                botonAnterior.textContent = "Anterior"
-
-                contenedorBotones.style.display = "flex";
-                contenedorBotones.style.justifyContent = "center"
-                contenedorBotones.appendChild(botonAnterior)
-                contenedorBotones.appendChild(botonSiguiente)
-                contenedorVenta.appendChild(crearBotonVerDetalle)
-                crearBotonVerDetalle.remove()
-                contenedorVenta.appendChild(contenedorFiguGrande)
-                contenedorVenta.appendChild(contenedorBotones)
-                const maxFiguritas = venta.VENDIDAS.length - 1
-                figuGrande(venta.VENDIDAS[posicion], contenedorFiguGrande)
-
-                botonSiguiente.addEventListener("click", async () => {
-                    if (posicion < maxFiguritas) {
-                        posicion += 1
-                    }
-                    else {
-                        contenedorFiguGrande.remove()
-                        contenedorBotones.remove()
-                        contenedorVenta.appendChild(contenedorFigus)
-                        contenedorVenta.appendChild(crearBotonVerDetalle)
-                        contenedorVenta.style.backgroundColor = "rgba(76, 187, 81, 0.77)"
-                        await fetch(`${api}/ventas/${venta._id}`, {
-                            method: "PATCH"
-                        });
-                    }
-                    contenedorFiguGrande.innerHTML = "";
-                    figuGrande(venta.VENDIDAS[posicion], contenedorFiguGrande)
-                })
-                botonAnterior.addEventListener("click", () => {
-                    if (posicion > 0) {
-                        posicion -= 1
-                    }
-                    else {
-                        contenedorFiguGrande.remove()
-                        contenedorBotones.remove()
-                        contenedorVenta.appendChild(contenedorFigus)
-                        contenedorVenta.appendChild(crearBotonVerDetalle)
-                    }
-                    contenedorFiguGrande.innerHTML = "";
-                    figuGrande(venta.VENDIDAS[posicion], contenedorFiguGrande)
-                })
-
-            })
-            if (venta.VERIFICADAS) {
-                contenedorVenta.style.backgroundColor = "rgba(76, 187, 81, 0.77)"
-            }
-            contenedorVenta.dataset.cuenta = venta.CUENTA;
-            contenedorVenta.dataset.precio = venta.PRECIO;
-            contenedorVenta.appendChild(contenedorInfo)
-            contenedorVenta.appendChild(contenedorInfo2)
-            contenedorVenta.appendChild(contenedorFigus)
-            contenedorVenta.appendChild(crearBotonVerDetalle)
-            contenedorVenta.style.margin = "50px"
-            contenedorVenta.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.3)";
-
-            contenedorVenta.style.borderRadius = "20px"
-            contenedorVentasManual.push({ contenedor: contenedorVenta, fecha: fechaML || venta.DIA })
-            totalVentasElement.appendChild(contenedorVenta)
-        });
-
-        if (totalVentasElement.id == "totalVentasAri") {
-            return
-        } else if (totalVentasElement.id == "totalVentasLuly") {
-            return
-        }
-
-        let contenedorVentasML = []
-        ventasML.forEach(ventameli => {
-
-            const existeVenta = todasLasVentas.some(
-                venta => String(venta.VENTAID) === String(ventameli.pack_id)
-            );
-
-            if (existeVenta) {
-                return;
-            }
-            const contenedorML = document.createElement("div")
-            contenedorML.style.backgroundColor = "white"
-
-            const fecha_venta = new Date(ventameli.data.date_created);
-
-            const fecha_limite = new Date(fecha_venta);
-
-            if (fecha_venta.getHours() >= 15) {
-                fecha_limite.setDate(fecha_limite.getDate() + 1);
-            }           
-
-            fecha_limite.setHours(15, 0, 0, 0);
-
-            const fecha_actual = new Date()
-
-            if (ventameli.data?.cancel_detail) {
-                contenedorML.style.backgroundColor = "red"
-            } else if (fecha_limite < fecha_actual) {
-                contenedorML.style.backgroundColor = "lightgreen";
-            }
+                const contenedorVenta = document.createElement("div")
+                contenedorVenta.style.backgroundColor = "white"
+                const contenedorInfo = document.createElement("div")
+                const contenedorInfo2 = document.createElement("div")
+                const contenedorFigus = document.createElement("div")
+                contenedorInfo2.style.padding = "20px";
+                contenedorFigus.style.padding = "20px";
 
 
-            const contenedorInfo = document.createElement("div")
-            const contenedorInfo2 = document.createElement("div")
-            const contenedorFigus = document.createElement("div")
-            contenedorML.style.margin = "50px"
-            contenedorML.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.3)";
-            contenedorML.style.borderRadius = "20px"
+                const tituloAlbum = document.createElement("p")
+                tituloAlbum.textContent = albumName(album)
 
-            contenedorInfo2.style.padding = "20px";
-            contenedorFigus.style.padding = "20px";
+                const envio = document.createElement("p")
+                envio.textContent = venta.ENVIO ? `Envio: ${venta.ENVIO}` : ""
 
-            const ventaid = document.createElement("h2")
-            const fechaVenta = document.createElement("div")
-            const cliente = document.createElement("div")
-            ventaid.textContent = `VENTA ID: ${ventameli.pack_id}`
-            fechaVenta.textContent = `Fecha Venta Mercadolibre: ${fechaArgentina(ventameli.data.date_created)} hs`
-            cliente.textContent = `Cliente: ${ventameli.data.buyer}`
-            const variantes = document.createElement("div")
-            ventameli.data.variante.forEach(variante => {
-                const elementVariante = document.createElement("div")
-                const titulo = document.createElement("h3")
-                const cantidad = document.createElement("div")
-                const precio = document.createElement("div")
+                const cuenta = document.createElement("p")
+                cuenta.textContent = `Cuenta: ${venta.CUENTA}`
 
-                titulo.textContent = variante.titulo
-                cantidad.textContent = `Cantidad: ${variante.cantidad}`
-                precio.textContent = `Precio: $${variante.precio * variante.cantidad}`
-                elementVariante.append(titulo, cantidad, precio)
-                elementVariante.style.margin = "10px"
-                elementVariante.style.backgroundColor = "rgba(60, 255, 0, 0.05)"
-                elementVariante.style.border = "solid black 1px"
-                elementVariante.style.padding = "10px"
-                variantes.append(elementVariante)
+                const cantidad = document.createElement("p")
+                cantidad.textContent = `Cantidad: ${venta.VENDIDAS.length}`
 
-            })
-            const elementBotonAlAzar = document.createElement("div")
-            const elementFigusAlAzar = document.createElement("div")
-            const elementConfirmarAlAzar = document.createElement("div")
-            ventameli?.data?.variante?.forEach(item => {
-                const albumFormateado = nombrePublicacion(item.mla)
-                if (albumFormateado != item.mla) {
-                    const botonFiguAzar = document.createElement("button")
-                    botonFiguAzar.textContent = "Figus al azar"
-                    elementBotonAlAzar.appendChild(botonFiguAzar)
-                    let obtenerFigusAlAzar = []
-                    let figuritas;
-                    botonFiguAzar.addEventListener("click", async () => {
-                        obtenerFigusAlAzar = await obtenerFiguritasOrderCant(albumFormateado.bdd, item.cantidad)
-                        figuritas = await obtenerFiguritas(albumFormateado.bdd)
-                        obtenerFigusAlAzar.forEach(figu => {
-                            elementFigusAlAzar.append(crearBotonContenedor(figu, albumFormateado.bdd))
-                        })
-                        let sin_stock = []
-                        try {
-                            await crearVenta(figuritas, obtenerFigusAlAzar, "ONLINE", seller_name(ventameli.data.seller), albumFormateado.bdd, item.precio * item.cantidad, sin_stock, "Sin Dato", albumFormateado.bdd, api, ventameli.pack_id)
-                        } catch (error) {
-                            console.error("no se pudo realizar")
+                const precio = document.createElement("p")
+
+                const dia = document.createElement("p")
+                dia.textContent = `Dia de venta: ${new Date(venta.DIA).toLocaleDateString("es-AR")} 🕒 ${new Date(venta.DIA).toLocaleTimeString("es-AR")}`
+
+
+                contenedorInfo.appendChild(tituloAlbum)
+                contenedorInfo.appendChild(dia)
+                contenedorInfo.appendChild(cuenta)
+                contenedorInfo.appendChild(cantidad)
+                contenedorInfo.appendChild(precio)
+                contenedorInfo.appendChild(envio);
+
+
+
+                let fechaML;
+                let ventaid = document.createElement("h2")
+                let total = 0
+                let costoVenta = 0;
+                if (venta.VENTAID != null) {
+                    ventaid.textContent = `VENTA ID: ${venta.VENTAID}`
+                    contenedorInfo2.append(ventaid)
+
+                    const subirPago = contenedorImagen(venta.ALBUM,venta.VENTAID)
+
+                    ventasML.forEach(ventameli => {
+                        if (ventameli.pack_id === venta.VENTAID) {
+                            const fecha_venta = new Date(ventameli.data.date_created);
+
+                            const fecha_limite = new Date(fecha_venta);
+
+                            if (fecha_venta.getHours() >= 13) {
+                                fecha_limite.setDate(fecha_limite.getDate() + 1);
+                            }
+
+                            fecha_limite.setHours(15, 0, 0, 0);
+                            const fecha_actual = new Date()
+
+                            if (venta.cancel_detail) {
+                                contenedorVenta.style.backgroundColor = "red"
+                            }
+                            else if (fecha_limite < fecha_actual) {
+                                contenedorVenta.style.backgroundColor = "lightgreen";
+                            }
+                            console.log(fecha_limite, ventameli.pack_id)
+
+                            const fechaVenta = document.createElement("div")
+                            const cliente = document.createElement("div")
+                            const totalVenta = document.createElement("div")
+
+
+                            ventaid.textContent = `VENTA ID: ${ventameli.pack_id}`
+                            fechaVenta.textContent = `Fecha Venta Mercadolibre: ${fechaArgentina(ventameli.data.date_created)} hs`
+                            cliente.textContent = `Cliente: ${ventameli.data.buyer}`
+                            const variantes = document.createElement("div")
+                            ventameli.data.variante.forEach(variante => {
+                                costoVenta += (variante.precio * variante.cantidad)
+                                const elementVariante = document.createElement("div")
+                                const titulo = document.createElement("h3")
+                                const cantidad = document.createElement("div")
+                                const precio = document.createElement("div")
+
+                                titulo.textContent = variante.titulo
+                                cantidad.textContent = `Cantidad: ${variante.cantidad}`
+                                precio.textContent = `Precio: $${variante.precio * variante.cantidad}`
+                                elementVariante.append(titulo, cantidad, precio)
+                                elementVariante.style.margin = "10px"
+                                elementVariante.style.backgroundColor = "rgba(60, 255, 0, 0.05)"
+                                elementVariante.style.border = "solid black 1px"
+                                elementVariante.style.padding = "10px"
+                                variantes.append(elementVariante)
+
+                            })
+
+                            totalVenta.textContent = `Total Venta: $${costoVenta}`
+
+                            contenedorInfo2.append(ventaid, fechaVenta, cliente, totalVenta, subirPago, variantes)
                         }
                     })
                 }
 
+                total = costoVenta === 0 ? venta.PRECIO : costoVenta
+                totalPrecioVentas += total
+                precio.textContent = `Precio: ${total}`
+
+
+                contenedorInfo.style.display = "flex"
+                contenedorInfo.style.justifyContent = "space-evenly"
+                contenedorInfo.style.backgroundColor = "#de885d"
+                contenedorInfo.style.borderTopLeftRadius = "20px"
+                contenedorInfo.style.borderTopRightRadius = "20px"
+                if (window.innerWidth < 768) {
+                    contenedorInfo.style.flexDirection = "column"
+                }
+
+                ordenarAlfabeticamente(venta.VENDIDAS)
+
+                venta.VENDIDAS.forEach(figu => {
+                    contenedorFigus.appendChild(crearBotonContenedor(figu, album))
+                })
+
+                const crearBotonVerDetalle = document.createElement("button")
+                crearBotonVerDetalle.style.height = "50px"
+                crearBotonVerDetalle.style.width = "100px"
+                crearBotonVerDetalle.style.margin = "20px"
+                crearBotonVerDetalle.style.backgroundColor = "rgba(45, 239, 61, 0.6)"
+                crearBotonVerDetalle.style.borderRadius = "10px"
+                const contenedorBotones = document.createElement("div")
+                const contenedorFiguGrande = document.createElement("div")
+                crearBotonVerDetalle.textContent = "Verificar"
+
+                crearBotonVerDetalle.addEventListener("click", () => {
+                    let posicion = 0
+                    contenedorFigus.remove()
+
+                    contenedorBotones.replaceChildren();
+                    contenedorFiguGrande.replaceChildren();
+
+                    const botonSiguiente = document.createElement("button")
+                    botonSiguiente.textContent = "Siguiente"
+                    const botonAnterior = document.createElement("button")
+                    botonAnterior.textContent = "Anterior"
+
+                    contenedorBotones.style.display = "flex";
+                    contenedorBotones.style.justifyContent = "center"
+                    contenedorBotones.appendChild(botonAnterior)
+                    contenedorBotones.appendChild(botonSiguiente)
+                    contenedorVenta.appendChild(crearBotonVerDetalle)
+                    crearBotonVerDetalle.remove()
+                    contenedorVenta.appendChild(contenedorFiguGrande)
+                    contenedorVenta.appendChild(contenedorBotones)
+                    const maxFiguritas = venta.VENDIDAS.length - 1
+                    figuGrande(venta.VENDIDAS[posicion], contenedorFiguGrande)
+
+                    botonSiguiente.addEventListener("click", async () => {
+                        if (posicion < maxFiguritas) {
+                            posicion += 1
+                        }
+                        else {
+                            contenedorFiguGrande.remove()
+                            contenedorBotones.remove()
+                            contenedorVenta.appendChild(contenedorFigus)
+                            contenedorVenta.appendChild(crearBotonVerDetalle)
+                            contenedorVenta.style.backgroundColor = "rgba(76, 187, 81, 0.77)"
+                            await fetch(`${api}/ventas/${venta._id}`, {
+                                method: "PATCH"
+                            });
+                        }
+                        contenedorFiguGrande.innerHTML = "";
+                        figuGrande(venta.VENDIDAS[posicion], contenedorFiguGrande)
+                    })
+                    botonAnterior.addEventListener("click", () => {
+                        if (posicion > 0) {
+                            posicion -= 1
+                        }
+                        else {
+                            contenedorFiguGrande.remove()
+                            contenedorBotones.remove()
+                            contenedorVenta.appendChild(contenedorFigus)
+                            contenedorVenta.appendChild(crearBotonVerDetalle)
+                        }
+                        contenedorFiguGrande.innerHTML = "";
+                        figuGrande(venta.VENDIDAS[posicion], contenedorFiguGrande)
+                    })
+
+                })
+                if (venta.VERIFICADAS) {
+                    contenedorVenta.style.backgroundColor = "rgba(76, 187, 81, 0.77)"
+                }
+
+                contenedorVenta.dataset.cuenta = venta.CUENTA;
+                contenedorVenta.dataset.precio = venta.PRECIO;
+                contenedorVenta.appendChild(contenedorInfo)
+                contenedorVenta.appendChild(contenedorInfo2)
+                contenedorVenta.appendChild(contenedorFigus)
+                contenedorVenta.appendChild(crearBotonVerDetalle)
+                contenedorVenta.style.margin = "50px"
+                contenedorVenta.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.3)";
+
+                contenedorVenta.style.borderRadius = "20px"
+                contenedorVentasMDB.push({ contenedor: contenedorVenta, fecha: fechaML || venta.DIA })
+                //totalVentasElement.appendChild(contenedorVenta)
             });
-            contenedorInfo2.append(ventaid, fechaVenta, cliente, variantes, elementBotonAlAzar, elementFigusAlAzar, elementConfirmarAlAzar)
-            contenedorML.append(contenedorInfo, contenedorInfo2, contenedorFigus)
-            contenedorVentasML.push({ contenedor: contenedorML, fecha: ventameli.data.date_created })
-
-        })
-
-        const todasLasVentasOrdenadas = [
-            ...contenedorVentasManual,
-            ...contenedorVentasML
-        ];
+            return totalPrecioVentas
+        }
 
 
-        todasLasVentasOrdenadas.sort(
-            (a, b) => new Date(b.fecha) - new Date(a.fecha)
-        );
 
-        todasLasVentasOrdenadas.forEach(({ contenedor }) => {
-            totalVentasElement.appendChild(contenedor);
-        });
+        if (totalVentasElement.id == "totalVentasAri") {
+            totalVentasMDB("ARI")
+            elementPrecioVenta.appendChild(totalVendido)
 
+            contenedorVentasMDB.forEach(contenedores_venta => {
+                totalVentasElement.append(contenedores_venta.contenedor)
+            })
+
+            return
+        } else if (totalVentasElement.id == "totalVentasLuly") {
+            totalVentasMDB("LULY")
+            contenedorVentasMDB.forEach(contenedores_venta => {
+                totalVentasElement.append(contenedores_venta.contenedor)
+            })
+            return
+        }
+
+
+
+        const totalVentasML = (vendedor) => {
+            let totalPrecioVentaML = 0;
+            const ventasFiltradas = vendedor ? ventasML.filter(venta => seller_name(venta.data.seller) === vendedor) : ventasML
+            ventasFiltradas.forEach(ventameli => {
+
+                const existeVenta = ventasMDB.some(
+                    venta => String(venta.VENTAID) === String(ventameli.pack_id)
+                );
+
+                if (existeVenta) {
+                    return;
+                }
+                const contenedorML = document.createElement("div")
+                contenedorML.style.backgroundColor = "white"
+
+                const fecha_venta = new Date(ventameli.data.date_created);
+
+                const fecha_limite = new Date(fecha_venta);
+
+                if (fecha_venta.getHours() >= 15) {
+                    fecha_limite.setDate(fecha_limite.getDate() + 1);
+                }
+
+                fecha_limite.setHours(15, 0, 0, 0);
+
+                const fecha_actual = new Date()
+
+                if (ventameli.data?.cancel_detail) {
+                    contenedorML.style.backgroundColor = "red"
+                } else if (fecha_limite < fecha_actual) {
+                    contenedorML.style.backgroundColor = "lightgreen";
+                }
+
+
+                const contenedorInfo = document.createElement("div")
+                const contenedorInfo2 = document.createElement("div")
+                const contenedorFigus = document.createElement("div")
+                contenedorML.style.margin = "50px"
+                contenedorML.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.3)";
+                contenedorML.style.borderRadius = "20px"
+
+                contenedorInfo2.style.padding = "20px";
+                contenedorFigus.style.padding = "20px";
+
+                const ventaid = document.createElement("h2")
+                const fechaVenta = document.createElement("div")
+                const cliente = document.createElement("div")
+                const totalVenta = document.createElement("div")
+                let costoVenta = 0;
+                ventaid.textContent = `VENTA ID: ${ventameli.pack_id}`
+                fechaVenta.textContent = `Fecha Venta Mercadolibre: ${fechaArgentina(ventameli.data.date_created)} hs`
+                cliente.textContent = `Cliente: ${ventameli.data.buyer}`
+                const variantes = document.createElement("div")
+                ventameli.data.variante.forEach(variante => {
+                    if (!ventameli.data?.cancel_detail) {
+                        totalPrecioVentaML += (variante.precio * variante.cantidad)
+                    }
+
+                    costoVenta += variante.precio * variante.cantidad
+                    const elementVariante = document.createElement("div")
+                    const titulo = document.createElement("h3")
+                    const cantidad = document.createElement("div")
+                    const precio = document.createElement("div")
+
+                    titulo.textContent = variante.titulo
+                    cantidad.textContent = `Cantidad: ${variante.cantidad}`
+                    precio.textContent = `Precio: $${variante.precio * variante.cantidad}`
+                    elementVariante.append(titulo, cantidad, precio)
+                    elementVariante.style.margin = "10px"
+                    elementVariante.style.backgroundColor = "rgba(60, 255, 0, 0.05)"
+                    elementVariante.style.border = "solid black 1px"
+                    elementVariante.style.padding = "10px"
+                    variantes.append(elementVariante)
+
+                })
+                totalVenta.textContent = `Total Venta: $${costoVenta}`
+
+                const elementBotonAlAzar = document.createElement("div")
+                const elementFigusAlAzar = document.createElement("div")
+                const elementConfirmarAlAzar = document.createElement("div")
+                ventameli?.data?.variante?.forEach(item => {
+                    const albumFormateado = nombrePublicacion(item.mla)
+                    if (albumFormateado != item.mla) {
+                        const botonFiguAzar = document.createElement("button")
+                        botonFiguAzar.textContent = "Figus al azar"
+                        elementBotonAlAzar.appendChild(botonFiguAzar)
+                        let obtenerFigusAlAzar = []
+                        let figuritas;
+                        botonFiguAzar.addEventListener("click", async () => {
+                            obtenerFigusAlAzar = await obtenerFiguritasOrderCant(albumFormateado.bdd, item.cantidad)
+                            figuritas = await obtenerFiguritas(albumFormateado.bdd)
+                            obtenerFigusAlAzar.forEach(figu => {
+                                elementFigusAlAzar.append(crearBotonContenedor(figu, albumFormateado.bdd))
+                            })
+                            let sin_stock = []
+                            try {
+                                await crearVenta(figuritas, obtenerFigusAlAzar, "ONLINE", seller_name(ventameli.data.seller), albumFormateado.bdd, item.precio * item.cantidad, sin_stock, "Sin Dato", albumFormateado.bdd, api, ventameli.pack_id)
+                            } catch (error) {
+                                console.error("no se pudo realizar")
+                            }
+                        })
+                    }
+
+                });
+                contenedorInfo2.append(ventaid, fechaVenta, cliente, totalVenta, variantes, elementBotonAlAzar, elementFigusAlAzar, elementConfirmarAlAzar)
+                contenedorML.append(contenedorInfo, contenedorInfo2, contenedorFigus)
+                contenedorVentasML.push({ contenedor: contenedorML, fecha: ventameli.data.date_created })
+
+            })
+            return totalPrecioVentaML
+        }
+
+        const juntarVentas = () => {
+            const ventasMDBOrdenadas = [
+                ...contenedorVentasMDB,
+                ...contenedorVentasML
+            ];
+
+
+            ventasMDBOrdenadas.sort(
+                (a, b) => new Date(b.fecha) - new Date(a.fecha)
+            );
+
+            ventasMDBOrdenadas.forEach(({ contenedor }) => {
+                totalVentasElement.appendChild(contenedor);
+            });
+        }
+
+        const boton_TODAS = listaBotones.find(
+            boton => boton.textContent === "TODAS"
+        )
+
+        boton_TODAS.click()
 
     }
 }

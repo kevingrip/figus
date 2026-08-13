@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, estadoCompradoMDB } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, estadoCompradoMDB, agregarVentasMLtoMDB, sumarStock } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -186,11 +186,13 @@ botonesElementosCosecha.forEach(objeto => {
 })
 
 const elementVentas = document.getElementById("totalVentas") || document.getElementById("totalVentasAri") || document.getElementById("totalVentasLuly")
-
+const elementBotonesVenta = document.getElementById("botonesVendedores")
+const elementPrecioVenta = document.getElementById("resumenPrecioVenta")
 if (elementVentas) {
-    const ventas = await obtenerVentas();
+    const ventasMDB = await obtenerVentas();
     const ventasML = await obtenerVentasML();
-    await totalVentas(ventas, elementVentas, ventasML);
+    await agregarVentasMLtoMDB(ventasML)
+    await totalVentas(ventasMDB, ventasML, elementVentas,elementBotonesVenta,elementPrecioVenta);
 }
 
 const botonStockLuly = document.getElementById("botonStockLuly")
@@ -259,21 +261,20 @@ const actualizarVentas = async () => {
 
     for (const pregunta of preguntasMDB) {
         if (pregunta.COMPRADO === false) {
-            for (const venta of ventasML) {
-
+            for (const venta of ventasML) {                
                 if ((venta.data.buyer_id === pregunta.BUYER_ID)                     
                     && (venta.data.seller === pregunta.SELLER_ID)
                     && (venta.data.date_created > pregunta.FECHA)
                     && (venta.data.variante.some(variante => variante.mla === pregunta.MLA))) {
                     const figuritas = await obtenerFiguritas(pregunta.ALBUM_REAL)
                     await crearVenta(figuritas, pregunta.FIGUS_EN_STOCK, "ONLINE", seller_name(pregunta.SELLER_ID), pregunta.ALBUM_REAL, venta.data.total_amount, pregunta.FIGUS_SIN_STOCK, "Sin Dato", pregunta.ALBUM_REAL, api, venta.pack_id)
-                    await estadoCompradoMDB(pregunta._id)
                     await actualizarPrecio2000(pregunta.MLA, pregunta.SELLER_ID)
+                    await sumarStock(pregunta.MLA, pregunta.SELLER_ID)
+                    await estadoCompradoMDB(pregunta._id)
                 }
             }
         }
     }
-
 }
 actualizarVentas()
 

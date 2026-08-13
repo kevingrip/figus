@@ -2,7 +2,14 @@ import { Router } from "express";
 import { obtenerToken } from "../services/token/obtenerToken.js";
 import axios from "axios";
 import Venta from "../models/modeloVenta.js";
+import Venta_ML from "../models/modeloVentaML.js"
+import { seller_name } from "../../public/javascript/utilidades/nombres.js";
+import multer from "multer";
 const router = Router();
+
+const upload = multer({
+    storage: multer.memoryStorage()
+});
 
 router.get("/", async (req, res) => {
     const ventas = await Venta.find().sort({ DIA: -1 }).lean();
@@ -52,7 +59,8 @@ router.get("/ventaml", async (req, res) => {
                         params: {
                             seller: token.seller,
                             sort: "date_desc",
-                            limit: 50
+                            limit: 50,
+                            "order.date_created.from": "2026-07-22T00:00:00.000-03:00"
                         }
                     }
                 );
@@ -153,5 +161,77 @@ router.get("/ventaml", async (req, res) => {
         });
     }
 });
+
+router.post("/ml_to_mdb", async (req, res) => {
+    try {
+
+        const ventasML = req.body;
+
+        for (const ventaML of ventasML) {
+
+            const ventaId = Number(ventaML.pack_id);
+
+            await Venta_ML.updateOne(
+                { VENTAID: ventaId },
+                {
+                    $setOnInsert: {
+                        DIA: new Date(ventaML.data.date_created),
+                        VENTAID: ventaId,
+                        PRECIO: ventaML.data.total_amount,
+                        CUENTA: seller_name(ventaML.data.seller)
+                    }
+                },
+                { upsert: true }
+            );
+        }
+
+        res.json({
+            ok: true
+        });
+
+    } catch (error) {
+        console.error(error);
+
+        res.status(500).json({
+            error: "No se pudieron agregar las ventas"
+        });
+    }
+});
+
+router.post("/agregarimg/:id", upload.single("imagen"), async (req,res) =>{
+    try {
+        const venta = await Venta.findOne({ VENTAID: req.params.id });
+
+        if (!venta) {
+            return res.status(404).json({
+                mensaje: "Venta no encontrada"
+            });
+        }
+
+        if (!req.file) {
+            return res.status(400).json({
+                mensaje: "No se recibió ninguna imagen"
+            });
+        }
+
+        venta.PAGO_NETO = {
+            data: req.file.buffer,
+            contentType: req.file.mimetype
+        };
+
+        await venta.save();
+
+        res.json({
+            mensaje: "Imagen guardada correctamente"
+        });
+
+    } catch (error) {
+        console.error(error);
+
+        res.status(500).json({
+            mensaje: "Error al guardar la imagen"
+        });
+    }
+})
 
 export default router;

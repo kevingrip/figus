@@ -129,3 +129,50 @@ export async function obtenerFiguritasOrderCant(album, cant_compradas) {
     return figusComunes.slice(0, cant_compradas);
 
 }
+
+export const agregarVentasMLtoMDB = async (ventas_ml) => {
+
+    try {
+        const res = await fetch(`${api}/ventas/ml_to_mdb`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(ventas_ml)
+        });
+
+        if (!res.ok) {
+            throw new Error(`Error: ${res.status}`);
+        }
+
+        return await res.json();
+
+    } catch (error) {
+        console.error("Error agregando ventas ML:", error);
+        throw error;
+    }
+};
+
+export const sumarStock = async (mla, seller_id) => {
+    await fetch(`${api}/mercadolibre/publicaciones/${mla}`, {
+        method: "PATCH",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            cantidad: 1,
+            vendedor: seller_id
+        })
+    });
+}
+
+export const importarImagenPagoNeto = async (album,ventaid,imagen) => {
+    const respuesta = await fetch(`${api}/ventas/agregarimg/${ventaid}`, {
+        method: "POST",
+        body: imagen
+    });
+
+    const resultado = await respuesta.json();
+
+    console.log(resultado);
+}

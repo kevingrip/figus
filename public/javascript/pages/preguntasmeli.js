@@ -151,6 +151,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                         mensajeModificable.value = mensaje.textContent
                         mensajeModificable.style.width = "100%";
                         mensajeModificable.style.height = "10vh";
+                        mensajeModificable.style.margin="20px"
 
                         elementoMensaje.appendChild(mensajeModificable);
                         elementoMensaje.style.display = "";
@@ -292,6 +293,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
             elementRigthPregunta.append(fechaPregunta, tituloPublicacion, publicacionMeli, idPregunta, sellerid, idCliente)
             elementDownPregunta.append(elementHist, preguntaMeli, elementResponder)
             elementDownPregunta.appendChild(elementoMensaje)
+            elementDownPregunta.style.margin="10px"
             fechaPregunta.style.backgroundColor = "rgba(111, 225, 215, 0.69)"
             preguntaMeli.style.backgroundColor = "rgba(201, 239, 236, 0.69)"
             elementLeftPregunta.style.display = "flex"
@@ -303,10 +305,18 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
             elementDataPregunta.style.width = "100%"
             elementRigthPregunta.style.flex = "1";
 
-
-            elementDataPregunta.append(elementLeftPregunta, elementRigthPregunta)
             elementDataPregunta.style.display = "flex"
-            elementDataPregunta.style.flexDirection = "row"
+
+            
+            if (window.innerWidth < 768){
+                elementDataPregunta.append(elementRigthPregunta,elementLeftPregunta)
+                elementLeftPregunta.style.width="100%"
+                elementDataPregunta.style.flexDirection = "column"
+            } else{
+                elementDataPregunta.append(elementLeftPregunta, elementRigthPregunta)
+                elementDataPregunta.style.flexDirection = "row"
+            }
+                       
 
             elementPregunta.append(elementDataPregunta, elementDownPregunta)
             elementPregunta.style.border = "solid black 1px"

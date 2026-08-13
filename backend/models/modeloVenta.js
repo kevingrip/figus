@@ -3,7 +3,10 @@ import mongoose from "mongoose";
 const modelo_venta = new mongoose.Schema(
     {   
         DIA: Date,
-        VENTAID: Number,
+        VENTAID: {
+            type: Number,
+            unique: true
+        },
         VENDIDAS: [mongoose.Schema.Types.Mixed],
         FALTANTES: [String],
         PRECIO: Number,
@@ -11,7 +14,11 @@ const modelo_venta = new mongoose.Schema(
         ENVIO: String,
         ALBUM: String,
         VERIFICADAS: Boolean,
-        PAGADAS: Boolean
+        PAGADAS: Boolean,
+        PAGO_NETO: {
+            data: Buffer,
+            contentType: String
+        }
     },
     {
         collection: "ventas"

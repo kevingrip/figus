@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { obtenerModeloFiguritas } from "../models/modeloFigu.js";
+
 const router = Router({ mergeParams: true });
 
 
