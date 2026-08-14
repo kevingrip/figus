@@ -426,8 +426,15 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 const infoCentral = document.createElement("div")
                 infoCentral.append(contenedorInfo2, contenedorIMG)
                 contenedorIMG.style.margin = "30px"
+                
                 infoCentral.style.display = "flex"
-                infoCentral.style.flexDirection = "row"
+                
+
+                if (window.innerWidth<768){
+                    infoCentral.style.flexDirection = "column"
+                }else{
+                    infoCentral.style.flexDirection = "row"
+                }
 
                 contenedorVenta.dataset.cuenta = venta.CUENTA;
                 contenedorVenta.dataset.precio = venta.PRECIO;
