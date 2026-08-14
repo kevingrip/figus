@@ -6,14 +6,33 @@ import { obtenerFiguritas, obtenerFiguritasOrderCant, importarImagenPagoNeto } f
 import { crearVenta } from "./buscarFigus/elementoVenta.js";
 
 const contenedorImagen = (album, ventaid) => {
+    const contenedor = document.createElement("div");
+    contenedor.style.display = "flex";
+    contenedor.style.flexDirection = "column";
+    contenedor.style.alignItems = "center";
+    contenedor.style.gap = "10px";
+
     const inputImagen = document.createElement("input");
 
     inputImagen.type = "file";
     inputImagen.accept = "image/*";
+    inputImagen.style.display = "none";
+
+    const boton = document.createElement("button");
+    boton.textContent = "Seleccionar imagen";
+
+    const nombreArchivo = document.createElement("span");
+    nombreArchivo.textContent = "Ningún archivo seleccionado";
+
+    boton.addEventListener("click", () => {
+        inputImagen.click();
+    });
+
 
     inputImagen.addEventListener("change", async () => {
 
         const archivo = inputImagen.files[0];
+        
 
         if (!archivo) return;
 
@@ -23,7 +42,13 @@ const contenedorImagen = (album, ventaid) => {
         await importarImagenPagoNeto(album, ventaid, formData)
 
     });
-    return inputImagen
+    contenedor.append(
+        boton,
+        nombreArchivo,
+        inputImagen
+    );
+
+    return contenedor;
 }
 
 
@@ -178,8 +203,13 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 const contenedorInfo = document.createElement("div")
                 const contenedorInfo2 = document.createElement("div")
                 const contenedorIMG = document.createElement("div")
+                contenedorIMG.style.display="flex"
+                contenedorIMG.style.flexDirection="column"
+                contenedorIMG.style.width="30%"
+                contenedorIMG.style.justifyContent="center"
                 const contenedorFigus = document.createElement("div")
                 contenedorInfo2.style.padding = "20px";
+                contenedorInfo2.style.width = "70%";
                 contenedorFigus.style.padding = "20px";
 
 
@@ -215,6 +245,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 let total = 0
                 let costoVenta = 0;
                 if (venta.VENTAID != null) {
+
                     ventaid.textContent = `VENTA ID: ${venta.VENTAID}`
                     contenedorInfo2.append(ventaid)
 
@@ -271,25 +302,36 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                             totalVenta.textContent = `Total Venta: $${costoVenta}`
 
                             contenedorInfo2.append(ventaid, fechaVenta, cliente, totalVenta, variantes)
-                            if (!venta.PAGO_NETO) {
-                                const subirPago = contenedorImagen(venta.ALBUM, venta.VENTAID)
-                                contenedorIMG.append(subirPago)
-                            } else {
-                                const imagenPago = document.createElement("img");
 
-                                imagenPago.src = `data:${venta.PAGO_NETO.contentType};base64,${venta.PAGO_NETO.data}`;
-
-                                imagenPago.alt = "Comprobante de pago";
-
-                                imagenPago.style.width = "300px";
-                                imagenPago.style.height = "auto";
-                                imagenPago.style.objectFit = "contain";
-
-                                contenedorIMG.append(imagenPago);
-                            }
-                            contenedorInfo2.append(variantes)
                         }
                     })
+                    if (!venta.PAGO_NETO) {
+                        
+                        const subirPago = contenedorImagen(venta.ALBUM, venta.VENTAID)
+                        contenedorIMG.append(subirPago)
+                    } else {
+                        const elementPrecioNeto = document.createElement("div")
+                        const elementIMG = document.createElement("div")
+                        elementIMG.style.display="flex"
+                        elementIMG.style.justifyContent="center"
+                        elementPrecioNeto.style.display="flex"
+                        elementPrecioNeto.style.justifyContent="center"
+                        const input_precioNeto = document.createElement("input")
+                        const imagenPago = document.createElement("img");
+                        input_precioNeto.style.width="100px"
+
+                        imagenPago.src = `data:${venta.PAGO_NETO.contentType};base64,${venta.PAGO_NETO.data}`;
+
+                        imagenPago.alt = "Comprobante de pago";
+
+                        imagenPago.style.width = "300px";
+                        imagenPago.style.height = "auto";
+                        imagenPago.style.objectFit = "contain";
+                        
+                        elementIMG.append(imagenPago)
+                        elementPrecioNeto.append(input_precioNeto)
+                        contenedorIMG.append(elementIMG,elementPrecioNeto);
+                    }
                 }
 
                 total = costoVenta === 0 ? venta.PRECIO : costoVenta
@@ -382,10 +424,10 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 }
 
                 const infoCentral = document.createElement("div")
-                infoCentral.append(contenedorInfo2,contenedorIMG)
-                contenedorIMG.style.margin="30px"
-                infoCentral.style.display="flex"
-                infoCentral.style.flexDirection="row"
+                infoCentral.append(contenedorInfo2, contenedorIMG)
+                contenedorIMG.style.margin = "30px"
+                infoCentral.style.display = "flex"
+                infoCentral.style.flexDirection = "row"
 
                 contenedorVenta.dataset.cuenta = venta.CUENTA;
                 contenedorVenta.dataset.precio = venta.PRECIO;
