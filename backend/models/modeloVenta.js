@@ -15,10 +15,11 @@ const modelo_venta = new mongoose.Schema(
         ALBUM: String,
         VERIFICADAS: Boolean,
         PAGADAS: Boolean,
-        PAGO_NETO: {
+        IMAGEN_NETO: {
             data: Buffer,
             contentType: String
-        }
+        },
+        IMPORTE_NETO:Number
     },
     {
         collection: "ventas"

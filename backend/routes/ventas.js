@@ -198,6 +198,30 @@ router.post("/ml_to_mdb", async (req, res) => {
     }
 });
 
+router.post("/pagoneto/:id",async(req,res)=>{
+    try {
+        const venta = await Venta.findOne({ VENTAID: req.params.id });
+        if (!venta) {
+            return res.status(404).json({
+                mensaje: "Venta no encontrada"
+            });
+        }
+        venta.IMPORTE_NETO = req.body.precio_neto
+        await venta.save();
+
+        res.json({
+            mensaje: "Precio neto correctamente"
+        });
+
+    } catch (error) {
+        console.error(error);
+
+        res.status(500).json({
+            mensaje: "Error al guardar el precio neto"
+        });
+    }
+})
+
 router.post("/agregarimg/:id", upload.single("imagen"), async (req,res) =>{
     try {
         const venta = await Venta.findOne({ VENTAID: req.params.id });
@@ -214,7 +238,7 @@ router.post("/agregarimg/:id", upload.single("imagen"), async (req,res) =>{
             });
         }
 
-        venta.PAGO_NETO = {
+        venta.IMAGEN_NETO = {
             data: req.file.buffer,
             contentType: req.file.mimetype
         };

@@ -32,7 +32,7 @@ const contenedorImagen = (album, ventaid) => {
     inputImagen.addEventListener("change", async () => {
 
         const archivo = inputImagen.files[0];
-        
+
 
         if (!archivo) return;
 
@@ -49,6 +49,14 @@ const contenedorImagen = (album, ventaid) => {
     );
 
     return contenedor;
+}
+
+const ingresarPrecioNeto = () => {
+    const input_precioNeto = document.createElement("input")
+    const botonConfirmarPrecioNeto = document.createElement("button")
+    input_precioNeto.placeholder = "Ingrese Precio Neto"
+    input_precioNeto.style.width = "100px"
+    return {input_precioNeto,botonConfirmarPrecioNeto}
 }
 
 
@@ -203,10 +211,10 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 const contenedorInfo = document.createElement("div")
                 const contenedorInfo2 = document.createElement("div")
                 const contenedorIMG = document.createElement("div")
-                contenedorIMG.style.display="flex"
-                contenedorIMG.style.flexDirection="column"
-                contenedorIMG.style.width="30%"
-                contenedorIMG.style.justifyContent="center"
+                contenedorIMG.style.display = "flex"
+                contenedorIMG.style.flexDirection = "column"
+                contenedorIMG.style.width = "30%"
+                contenedorIMG.style.justifyContent = "center"
                 const contenedorFigus = document.createElement("div")
                 contenedorInfo2.style.padding = "20px";
                 contenedorInfo2.style.width = "70%";
@@ -305,32 +313,37 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
                         }
                     })
-                    if (!venta.PAGO_NETO) {
-                        
+                    if (!venta.IMAGEN_NETO) {
+
                         const subirPago = contenedorImagen(venta.ALBUM, venta.VENTAID)
                         contenedorIMG.append(subirPago)
                     } else {
                         const elementPrecioNeto = document.createElement("div")
                         const elementIMG = document.createElement("div")
-                        elementIMG.style.display="flex"
-                        elementIMG.style.justifyContent="center"
-                        elementPrecioNeto.style.display="flex"
-                        elementPrecioNeto.style.justifyContent="center"
-                        const input_precioNeto = document.createElement("input")
+                        elementIMG.style.display = "flex"
+                        elementIMG.style.justifyContent = "center"
+                        elementPrecioNeto.style.display = "flex"
+                        elementPrecioNeto.style.justifyContent = "center"
+                        const {input_precioNeto,botonConfirmarPrecioNeto} = ingresarPrecioNeto()
+                        botonConfirmarPrecioNeto.addEventListener("click",()=>{
+                            console.log(input_precioNeto.value)
+                        })
+                        
+                        
                         const imagenPago = document.createElement("img");
-                        input_precioNeto.style.width="100px"
 
-                        imagenPago.src = `data:${venta.PAGO_NETO.contentType};base64,${venta.PAGO_NETO.data}`;
+
+                        imagenPago.src = `data:${venta.IMAGEN_NETO.contentType};base64,${venta.IMAGEN_NETO.data}`;
 
                         imagenPago.alt = "Comprobante de pago";
 
                         imagenPago.style.width = "300px";
                         imagenPago.style.height = "auto";
                         imagenPago.style.objectFit = "contain";
-                        
+
                         elementIMG.append(imagenPago)
                         elementPrecioNeto.append(input_precioNeto)
-                        contenedorIMG.append(elementIMG,elementPrecioNeto);
+                        contenedorIMG.append(elementIMG, elementPrecioNeto);
                     }
                 }
 
@@ -426,13 +439,13 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 const infoCentral = document.createElement("div")
                 infoCentral.append(contenedorInfo2, contenedorIMG)
                 contenedorIMG.style.margin = "30px"
-                
-                infoCentral.style.display = "flex"
-                
 
-                if (window.innerWidth<768){
+                infoCentral.style.display = "flex"
+
+
+                if (window.innerWidth < 768) {
                     infoCentral.style.flexDirection = "column"
-                }else{
+                } else {
                     infoCentral.style.flexDirection = "row"
                 }
 

@@ -176,3 +176,15 @@ export const importarImagenPagoNeto = async (album,ventaid,imagen) => {
 
     console.log(resultado);
 }
+
+
+export const agregarPagoNeto = async (album,ventaid,precio_neto) => {
+    const respuesta = await fetch(`${api}/ventas/pagoneto/${ventaid}`, {
+        method: "POST",
+        body: precio_neto
+    });
+
+    const resultado = await respuesta.json();
+
+    console.log(resultado);
+}
