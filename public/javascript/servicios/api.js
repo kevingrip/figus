@@ -178,10 +178,13 @@ export const importarImagenPagoNeto = async (album,ventaid,imagen) => {
 }
 
 
-export const agregarPagoNeto = async (album,ventaid,precio_neto) => {
+export const agregarPagoNeto = async (ventaid,precio_neto) => {
     const respuesta = await fetch(`${api}/ventas/pagoneto/${ventaid}`, {
         method: "POST",
-        body: precio_neto
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ precio_neto })
     });
 
     const resultado = await respuesta.json();

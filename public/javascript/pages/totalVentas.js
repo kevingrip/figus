@@ -2,7 +2,7 @@ import { api } from "../../config.js";
 import { ordenarAlfabeticamente } from "../utilidades/ordenarAlfabeticamente.js";
 import { albumName, nombrePublicacion, seller_name } from "../utilidades/nombres.js";
 import { fechaArgentina } from "../utilidades/fechaArgentina.js";
-import { obtenerFiguritas, obtenerFiguritasOrderCant, importarImagenPagoNeto } from "../servicios/api.js";
+import { obtenerFiguritas, obtenerFiguritasOrderCant, importarImagenPagoNeto, agregarPagoNeto } from "../servicios/api.js";
 import { crearVenta } from "./buscarFigus/elementoVenta.js";
 
 const contenedorImagen = (album, ventaid) => {
@@ -54,9 +54,13 @@ const contenedorImagen = (album, ventaid) => {
 const ingresarPrecioNeto = () => {
     const input_precioNeto = document.createElement("input")
     const botonConfirmarPrecioNeto = document.createElement("button")
+
+    input_precioNeto.style.margin = "20px"
+    botonConfirmarPrecioNeto.style.margin = "20px"
+    
     input_precioNeto.placeholder = "Ingrese Precio Neto"
-    input_precioNeto.style.width = "100px"
-    return {input_precioNeto,botonConfirmarPrecioNeto}
+    input_precioNeto.style.width = "auto"
+    return { input_precioNeto, botonConfirmarPrecioNeto }
 }
 
 
@@ -213,7 +217,6 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 const contenedorIMG = document.createElement("div")
                 contenedorIMG.style.display = "flex"
                 contenedorIMG.style.flexDirection = "column"
-                contenedorIMG.style.width = "30%"
                 contenedorIMG.style.justifyContent = "center"
                 const contenedorFigus = document.createElement("div")
                 contenedorInfo2.style.padding = "20px";
@@ -324,12 +327,15 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                         elementIMG.style.justifyContent = "center"
                         elementPrecioNeto.style.display = "flex"
                         elementPrecioNeto.style.justifyContent = "center"
-                        const {input_precioNeto,botonConfirmarPrecioNeto} = ingresarPrecioNeto()
-                        botonConfirmarPrecioNeto.addEventListener("click",()=>{
-                            console.log(input_precioNeto.value)
+                        
+                        const { input_precioNeto, botonConfirmarPrecioNeto } = ingresarPrecioNeto()
+                        botonConfirmarPrecioNeto.textContent="Confirmar"
+                        botonConfirmarPrecioNeto.addEventListener("click", () => {
+                            agregarPagoNeto(venta.VENTAID,input_precioNeto.value)
                         })
-                        
-                        
+                        elementPrecioNeto.append(input_precioNeto,botonConfirmarPrecioNeto)
+
+
                         const imagenPago = document.createElement("img");
 
 
@@ -337,12 +343,22 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
                         imagenPago.alt = "Comprobante de pago";
 
-                        imagenPago.style.width = "300px";
-                        imagenPago.style.height = "auto";
-                        imagenPago.style.objectFit = "contain";
+                        if (window.innerWidth < 768) {
+                            imagenPago.style.width = "40vw";
+                            imagenPago.style.height = "47vh";
+                            contenedorIMG.style.width = "100%"
+                        } else {
+                            imagenPago.style.width = "15vw";
+                            imagenPago.style.height = "47vh";
+                            contenedorIMG.style.width = "30%"
+                            contenedorIMG.style.margin = "30px"
+
+                        }
+
+                        //imagenPago.style.objectFit = "contain";
 
                         elementIMG.append(imagenPago)
-                        elementPrecioNeto.append(input_precioNeto)
+                        
                         contenedorIMG.append(elementIMG, elementPrecioNeto);
                     }
                 }
@@ -438,8 +454,6 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
                 const infoCentral = document.createElement("div")
                 infoCentral.append(contenedorInfo2, contenedorIMG)
-                contenedorIMG.style.margin = "30px"
-
                 infoCentral.style.display = "flex"
 
 

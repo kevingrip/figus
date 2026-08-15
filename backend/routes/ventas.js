@@ -206,7 +206,8 @@ router.post("/pagoneto/:id",async(req,res)=>{
                 mensaje: "Venta no encontrada"
             });
         }
-        venta.IMPORTE_NETO = req.body.precio_neto
+        const precioNeto = req.body.precio_neto
+        venta.IMPORTE_NETO = precioNeto
         await venta.save();
 
         res.json({
