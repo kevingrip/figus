@@ -1,7 +1,7 @@
 import { api } from "../../config.js";
 import { ordenarAlfabeticamente } from "../utilidades/ordenarAlfabeticamente.js";
 import { albumName, nombrePublicacion, seller_name } from "../utilidades/nombres.js";
-import { fechaArgentina } from "../utilidades/fechaArgentina.js";
+import { fechaArgentina, precioArgentino } from "../utilidades/conversionesArg.js";
 import { obtenerFiguritas, obtenerFiguritasOrderCant, importarImagenPagoNeto, agregarPagoNeto } from "../servicios/api.js";
 import { crearVenta } from "./buscarFigus/elementoVenta.js";
 
@@ -57,7 +57,7 @@ const ingresarPrecioNeto = () => {
 
     input_precioNeto.style.margin = "20px"
     botonConfirmarPrecioNeto.style.margin = "20px"
-    
+
     input_precioNeto.placeholder = "Ingrese Precio Neto"
     input_precioNeto.style.width = "auto"
     return { input_precioNeto, botonConfirmarPrecioNeto }
@@ -142,8 +142,11 @@ const figuGrande = (figu, contenedorFiguGrande) => {
 
 export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, botonesElement, elementPrecioVenta) => {
     const totalVendido = document.createElement("h3")
+    const totalVendidoNeto = document.createElement("h4")
     totalVendido.style.display = "flex"
     totalVendido.style.justifyContent = "center"
+    totalVendidoNeto.style.display = "flex"
+    totalVendidoNeto.style.justifyContent = "center"
     const listaBotones = []
     let contenedorVentasMDB = []
     let contenedorVentasML = []
@@ -181,10 +184,14 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                     let total = 0;
 
                     const vendedorSeleccionado = vendedor === "TODAS" ? null : vendedor
-                    let precioMDB = totalVentasMDB(vendedorSeleccionado)
+                    const { precioMDB, precioNeto } = totalVentasMDB(vendedorSeleccionado)
                     let precioML = totalVentasML(vendedorSeleccionado)
                     juntarVentas()
-                    totalVendido.textContent = `Total Vendido: $ ${precioMDB + precioML}`;
+                    totalVendido.textContent = `Total Vendido: ${precioArgentino(precioMDB + precioML)}`;
+                    totalVendidoNeto.textContent = `Total Neto: ${precioArgentino(precioNeto)}`;
+                    if (!["TODAS","ARI","LULY"].includes(vendedor)) {
+                        elementPrecioVenta.appendChild(totalVendidoNeto)
+                    }
                 });
 
             })
@@ -203,6 +210,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
         const totalVentasMDB = (vendedor) => {
             let totalPrecioVentas = 0
+            let neto = 0
 
             const ventasFiltradas = vendedor ? ventasMDB.filter(venta => venta.CUENTA === vendedor) : ventasMDB
 
@@ -214,10 +222,8 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 contenedorVenta.style.backgroundColor = "white"
                 const contenedorInfo = document.createElement("div")
                 const contenedorInfo2 = document.createElement("div")
-                const contenedorIMG = document.createElement("div")
-                contenedorIMG.style.display = "flex"
-                contenedorIMG.style.flexDirection = "column"
-                contenedorIMG.style.justifyContent = "center"
+                const contenedorPAGO = document.createElement("div")
+
                 const contenedorFigus = document.createElement("div")
                 contenedorInfo2.style.padding = "20px";
                 contenedorInfo2.style.width = "70%";
@@ -252,14 +258,14 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
 
                 let fechaML;
-                let ventaid = document.createElement("h2")
+                let ventaid = document.createElement("a")
                 let total = 0
                 let costoVenta = 0;
                 if (venta.VENTAID != null) {
 
                     ventaid.textContent = `VENTA ID: ${venta.VENTAID}`
+                    ventaid.href = `https://vendedores.mercadolibre.com.ar/ventas/${venta.VENTAID}/detalle`
                     contenedorInfo2.append(ventaid)
-
 
                     ventasML.forEach(ventameli => {
                         if (ventameli.pack_id === venta.VENTAID) {
@@ -280,14 +286,14 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                             else if (fecha_limite < fecha_actual) {
                                 contenedorVenta.style.backgroundColor = "lightgreen";
                             }
-                            console.log(fecha_limite, ventameli.pack_id)
 
                             const fechaVenta = document.createElement("div")
                             const cliente = document.createElement("div")
                             const totalVenta = document.createElement("div")
-
+                            const totalNeto = document.createElement("div")
 
                             ventaid.textContent = `VENTA ID: ${ventameli.pack_id}`
+                            ventaid.href = `https://vendedores.mercadolibre.com.ar/ventas/${ventameli.pack_id}/detalle`
                             fechaVenta.textContent = `Fecha Venta Mercadolibre: ${fechaArgentina(ventameli.data.date_created)} hs`
                             cliente.textContent = `Cliente: ${ventameli.data.buyer}`
                             const variantes = document.createElement("div")
@@ -310,16 +316,31 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
                             })
 
-                            totalVenta.textContent = `Total Venta: $${costoVenta}`
-
-                            contenedorInfo2.append(ventaid, fechaVenta, cliente, totalVenta, variantes)
-
+                            totalVenta.textContent = `Total Venta: ${precioArgentino(costoVenta)}`
+                            if (venta.IMPORTE_NETO) {
+                                totalNeto.textContent = `Total Neto: ${precioArgentino(venta.IMPORTE_NETO)}`
+                                neto += venta.IMPORTE_NETO
+                            }
+                            contenedorInfo2.append(ventaid, fechaVenta, cliente, totalVenta, totalNeto, variantes)
                         }
                     })
-                    if (!venta.IMAGEN_NETO) {
 
-                        const subirPago = contenedorImagen(venta.ALBUM, venta.VENTAID)
-                        contenedorIMG.append(subirPago)
+                    contenedorPAGO.style.width = "30%"
+                    contenedorPAGO.style.display = "flex"
+                    contenedorPAGO.style.flexDirection = "column"
+                    contenedorPAGO.style.justifyContent = "center"
+                    contenedorPAGO.style.width = "30%"
+
+                    if (!venta.IMAGEN_NETO) {
+                        const subirPago = contenedorImagen(venta.ALBUM, venta.VENTAID) //CARGA LA IMAGEN
+                        contenedorPAGO.append(subirPago)
+                        if (window.innerWidth < 768) {
+                            contenedorPAGO.style.display = "flex"
+                            contenedorPAGO.style.flexDirection = "column"
+                            contenedorPAGO.style.justifyContent = "center"
+                            contenedorPAGO.style.width = "100%"
+                        }
+
                     } else {
                         const elementPrecioNeto = document.createElement("div")
                         const elementIMG = document.createElement("div")
@@ -327,13 +348,17 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                         elementIMG.style.justifyContent = "center"
                         elementPrecioNeto.style.display = "flex"
                         elementPrecioNeto.style.justifyContent = "center"
-                        
-                        const { input_precioNeto, botonConfirmarPrecioNeto } = ingresarPrecioNeto()
-                        botonConfirmarPrecioNeto.textContent="Confirmar"
-                        botonConfirmarPrecioNeto.addEventListener("click", () => {
-                            agregarPagoNeto(venta.VENTAID,input_precioNeto.value)
-                        })
-                        elementPrecioNeto.append(input_precioNeto,botonConfirmarPrecioNeto)
+
+                        if (!venta.IMPORTE_NETO) {
+                            const { input_precioNeto, botonConfirmarPrecioNeto } = ingresarPrecioNeto()
+                            botonConfirmarPrecioNeto.textContent = "Confirmar"
+                            botonConfirmarPrecioNeto.addEventListener("click", () => {
+                                agregarPagoNeto(venta.VENTAID, input_precioNeto.value)
+                            })
+                            elementPrecioNeto.append(input_precioNeto, botonConfirmarPrecioNeto)
+                        }
+
+
 
 
                         const imagenPago = document.createElement("img");
@@ -343,23 +368,24 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
                         imagenPago.alt = "Comprobante de pago";
 
+
                         if (window.innerWidth < 768) {
                             imagenPago.style.width = "40vw";
                             imagenPago.style.height = "47vh";
-                            contenedorIMG.style.width = "100%"
+                            contenedorPAGO.style.display = "flex"
+                            contenedorPAGO.style.flexDirection = "column"
+                            contenedorPAGO.style.justifyContent = "center"
+                            contenedorPAGO.style.width = "100%"
                         } else {
                             imagenPago.style.width = "15vw";
                             imagenPago.style.height = "47vh";
-                            contenedorIMG.style.width = "30%"
-                            contenedorIMG.style.margin = "30px"
-
                         }
 
                         //imagenPago.style.objectFit = "contain";
 
                         elementIMG.append(imagenPago)
-                        
-                        contenedorIMG.append(elementIMG, elementPrecioNeto);
+
+                        contenedorPAGO.append(elementIMG, elementPrecioNeto);
                     }
                 }
 
@@ -453,7 +479,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 }
 
                 const infoCentral = document.createElement("div")
-                infoCentral.append(contenedorInfo2, contenedorIMG)
+                infoCentral.append(contenedorInfo2, contenedorPAGO)
                 infoCentral.style.display = "flex"
 
 
@@ -476,7 +502,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 contenedorVentasMDB.push({ contenedor: contenedorVenta, fecha: fechaML || venta.DIA })
                 //totalVentasElement.appendChild(contenedorVenta)
             });
-            return totalPrecioVentas
+            return { precioMDB: totalPrecioVentas, precioNeto: neto }
         }
 
 
@@ -544,12 +570,14 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 contenedorInfo2.style.padding = "20px";
                 contenedorFigus.style.padding = "20px";
 
-                const ventaid = document.createElement("h2")
+                let ventaid = document.createElement("a")
                 const fechaVenta = document.createElement("div")
                 const cliente = document.createElement("div")
                 const totalVenta = document.createElement("div")
+
                 let costoVenta = 0;
                 ventaid.textContent = `VENTA ID: ${ventameli.pack_id}`
+                ventaid.href = `https://vendedores.mercadolibre.com.ar/ventas/${ventameli.pack_id}/detalle`
                 fechaVenta.textContent = `Fecha Venta Mercadolibre: ${fechaArgentina(ventameli.data.date_created)} hs`
                 cliente.textContent = `Cliente: ${ventameli.data.buyer}`
                 const variantes = document.createElement("div")
@@ -575,7 +603,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                     variantes.append(elementVariante)
 
                 })
-                totalVenta.textContent = `Total Venta: $${costoVenta}`
+                totalVenta.textContent = `Total Venta: ${precioArgentino(costoVenta)}`
 
                 const elementBotonAlAzar = document.createElement("div")
                 const elementFigusAlAzar = document.createElement("div")

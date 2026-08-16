@@ -28,7 +28,7 @@ export async function obtenerFechasPublicaciones() {
 }
 
 export async function obtenerPublicacion(mla, seller) {
-    console.log(mla)
+
     const respuesta = await fetch(`${api}/mercadolibre/publicaciones/item/${mla}?seller_id=${seller}`);
 
     if (!respuesta.ok) {
@@ -166,7 +166,7 @@ export const sumarStock = async (mla, seller_id) => {
     });
 }
 
-export const importarImagenPagoNeto = async (album,ventaid,imagen) => {
+export const importarImagenPagoNeto = async (album, ventaid, imagen) => {
     const respuesta = await fetch(`${api}/ventas/agregarimg/${ventaid}`, {
         method: "POST",
         body: imagen
@@ -178,7 +178,7 @@ export const importarImagenPagoNeto = async (album,ventaid,imagen) => {
 }
 
 
-export const agregarPagoNeto = async (ventaid,precio_neto) => {
+export const agregarPagoNeto = async (ventaid, precio_neto) => {
     const respuesta = await fetch(`${api}/ventas/pagoneto/${ventaid}`, {
         method: "POST",
         headers: {
@@ -190,4 +190,17 @@ export const agregarPagoNeto = async (ventaid,precio_neto) => {
     const resultado = await respuesta.json();
 
     console.log(resultado);
+}
+
+export const setActivePublicacion = async (mla,seller_id,status) => {
+    await fetch(`${api}/mercadolibre/publicaciones/activar/${mla}`, {
+        method: "PATCH",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            vendedor: seller_id,
+            estado: status
+        })
+    });
 }

@@ -1,7 +1,7 @@
 import { buscarFigus } from "./buscarFigus/buscarFigus.js"
-import { obtenerFiguritas,guardarPreguntaML } from "../servicios/api.js"
+import { obtenerFiguritas, guardarPreguntaML } from "../servicios/api.js"
 import { api } from "../../config.js"
-import { albumName,nombrePublicacion } from "../utilidades/nombres.js"
+import { albumName, nombrePublicacion } from "../utilidades/nombres.js"
 
 const responderPregunta = async ({ elementPregunta, idPregunta, valorMensaje, vendedor }) => {
     try {
@@ -28,11 +28,11 @@ const responderPregunta = async ({ elementPregunta, idPregunta, valorMensaje, ve
     }
 }
 
-const cargarPreguntaMDB = async(figusEnStock,figusSinStock,vendedor,cliente, albumConsulta,fecha,albumReal,mla)=>{
+const cargarPreguntaMDB = async (figusEnStock, figusSinStock, vendedor, cliente, albumConsulta, fecha, albumReal, mla) => {
     try {
-        const preguntambd = await guardarPreguntaML(figusEnStock,figusSinStock,vendedor,cliente, albumConsulta,fecha,albumReal,mla)
+        const preguntambd = await guardarPreguntaML(figusEnStock, figusSinStock, vendedor, cliente, albumConsulta, fecha, albumReal, mla)
     } catch (error) {
-        
+
     }
 }
 
@@ -65,7 +65,8 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
 
             const valorVenta = document.createElement("input")
 
-            const figusBDD = await obtenerFiguritas(getAlbum.bdd)
+            const album = getAlbum.bdd
+
             const elementPregunta = document.createElement("div")
             const elementLeftPregunta = document.createElement("div")
             const elementRigthPregunta = document.createElement("div")
@@ -141,59 +142,63 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
             let figus_sinStock = [];
             botonConsultar.addEventListener("click", async () => {
                 if (preguntaMeli.value) {
-                    const {mensaje,figusEnStock,figusSinStock} = buscarFigus("baseMundial", figusBDD, getAlbum.bdd, "ONLINE", preguntaMeli.value.toUpperCase());
-                    figus_conStock = figusEnStock || [];
-                    figus_sinStock = figusSinStock || [];
+                    if (album) {
+                        const figusBDD = await obtenerFiguritas(album)
+                        const { mensaje, figusEnStock, figusSinStock } = buscarFigus("baseMundial", figusBDD, album, "ONLINE", preguntaMeli.value.toUpperCase());
+                        figus_conStock = figusEnStock || [];
+                        figus_sinStock = figusSinStock || [];
 
-                    if (mensaje) {
-                        elementoMensaje.innerHTML = "";
-                        const mensajeModificable = document.createElement('textarea')
-                        mensajeModificable.value = mensaje.textContent
-                        mensajeModificable.style.width = "100%";
-                        mensajeModificable.style.height = "10vh";
-                        mensajeModificable.style.margin="20px"
+                        if (mensaje) {
+                            elementoMensaje.innerHTML = "";
+                            const mensajeModificable = document.createElement('textarea')
+                            mensajeModificable.value = mensaje.textContent
+                            mensajeModificable.style.width = "100%";
+                            mensajeModificable.style.height = "10vh";
+                            mensajeModificable.style.margin = "20px"
 
-                        elementoMensaje.appendChild(mensajeModificable);
-                        elementoMensaje.style.display = "";
+                            elementoMensaje.appendChild(mensajeModificable);
+                            elementoMensaje.style.display = "";
 
-                        elementoMensaje.appendChild(responder)
-
-
-                        responder.addEventListener("click", async () => {
-                            const datosRespuesta = {
-                                elementPregunta, idPregunta: pregunta.id, valorMensaje: mensajeModificable.value, vendedor: pregunta.seller_id
-                            }
-                            responderPregunta(datosRespuesta)
-                            cargarPreguntaMDB(figus_conStock,figus_sinStock,pregunta.seller_id,pregunta.from.id,getAlbum.bdd,pregunta.date_created,getAlbum.bdd,pregunta.item_id)
-                        }
-                        )
+                            elementoMensaje.appendChild(responder)
 
 
-                    } else {
-
-                        const albumes = ["mundialQatar2022", "copaAmerica2024", "mundialUsa2026", "futbolArgentino2023", "futbolArgentino2024", "libertadores2023"]
-
-                        let album;
-                        albumes.forEach(alb => {
-                            const botonAlbum = document.createElement("button")
-                            botonAlbum.textContent = albumName(alb)
-                            
-                            if (alb != getAlbum.bdd) {
-                                elementoMensaje.append(botonAlbum)
-                            }
-
-                            botonAlbum.addEventListener("click", async () => {
-                                const figusBDD = await obtenerFiguritas(alb)
-                                album=alb
-                                const {mensaje,figusEnStock,figusSinStock} = buscarFigus(alb, figusBDD, alb, "ONLINE", preguntaMeli.value.toUpperCase());
-                                figus_conStock = figusEnStock || [];
-                                figus_sinStock = figusSinStock || [];
-
-                                if (mensaje) {
-                                    escribirRespuesta.value = mensaje.textContent
+                            responder.addEventListener("click", async () => {
+                                const datosRespuesta = {
+                                    elementPregunta, idPregunta: pregunta.id, valorMensaje: mensajeModificable.value, vendedor: pregunta.seller_id
                                 }
+                                responderPregunta(datosRespuesta)
+                                cargarPreguntaMDB(figus_conStock, figus_sinStock, pregunta.seller_id, pregunta.from.id, album, pregunta.date_created, album, pregunta.item_id)
+                            }
+                            )
+
+
+                        } else {
+
+                            const albumes = ["mundialQatar2022", "copaAmerica2024", "mundialUsa2026", "futbolArgentino2023", "futbolArgentino2024", "libertadores2023"]
+
+                            let album;
+                            albumes.forEach(alb => {
+                                const botonAlbum = document.createElement("button")
+                                botonAlbum.textContent = albumName(alb)
+
+                                if (alb != album) {
+                                    elementoMensaje.append(botonAlbum)
+                                }
+
+                                botonAlbum.addEventListener("click", async () => {
+                                    const figusBDD = await obtenerFiguritas(alb)
+                                    album = alb
+                                    const { mensaje, figusEnStock, figusSinStock } = buscarFigus(alb, figusBDD, alb, "ONLINE", preguntaMeli.value.toUpperCase());
+                                    figus_conStock = figusEnStock || [];
+                                    figus_sinStock = figusSinStock || [];
+
+                                    if (mensaje) {
+                                        escribirRespuesta.value = mensaje.textContent
+                                    }
+                                })
                             })
-                        })
+                        }
+
 
 
 
@@ -209,14 +214,24 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                                 elementPregunta, idPregunta: pregunta.id, valorMensaje: escribirRespuesta.value, vendedor: pregunta.seller_id
                             }
                             responderPregunta(datosRespuesta)
-                            cargarPreguntaMDB(figus_conStock,figus_sinStock,pregunta.seller_id,pregunta.from.id,getAlbum.bdd,pregunta.date_created,album,pregunta.item_id)
-                        }
-                        )
+                            cargarPreguntaMDB(figus_conStock, figus_sinStock, pregunta.seller_id, pregunta.from.id, album, pregunta.date_created, album, pregunta.item_id)
+                        })
                         elementoMensaje.style.display = "";
+                    } else {
+                        escribirRespuesta.placeholder = "Escribir respuesta"
+                        escribirRespuesta.style.width = "100%";
+                        escribirRespuesta.style.minHeight = "15vh";
+                        elementoMensaje.append(escribirRespuesta)
+                        elementoMensaje.appendChild(responder)
+                        elementoMensaje.style.display = "";
+                        responder.addEventListener("click", async () => {
+                            const datosRespuesta = {
+                                elementPregunta, idPregunta: pregunta.id, valorMensaje: escribirRespuesta.value, vendedor: pregunta.seller_id
+                            }
+                            responderPregunta(datosRespuesta)
+                            cargarPreguntaMDB(figus_conStock, figus_sinStock, pregunta.seller_id, pregunta.from.id, album, pregunta.date_created, album, pregunta.item_id)
+                        })
                     }
-
-                } else {
-                    elementoMensaje.innerHTML = "Sin Mensaje";
                 }
 
             })
@@ -293,7 +308,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
             elementRigthPregunta.append(fechaPregunta, tituloPublicacion, publicacionMeli, idPregunta, sellerid, idCliente)
             elementDownPregunta.append(elementHist, preguntaMeli, elementResponder)
             elementDownPregunta.appendChild(elementoMensaje)
-            elementDownPregunta.style.margin="10px"
+            elementDownPregunta.style.margin = "10px"
             fechaPregunta.style.backgroundColor = "rgba(111, 225, 215, 0.69)"
             preguntaMeli.style.backgroundColor = "rgba(201, 239, 236, 0.69)"
             elementLeftPregunta.style.display = "flex"
@@ -307,16 +322,16 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
 
             elementDataPregunta.style.display = "flex"
 
-            
-            if (window.innerWidth < 768){
-                elementDataPregunta.append(elementRigthPregunta,elementLeftPregunta)
-                elementLeftPregunta.style.width="100%"
+
+            if (window.innerWidth < 768) {
+                elementDataPregunta.append(elementRigthPregunta, elementLeftPregunta)
+                elementLeftPregunta.style.width = "100%"
                 elementDataPregunta.style.flexDirection = "column"
-            } else{
+            } else {
                 elementDataPregunta.append(elementLeftPregunta, elementRigthPregunta)
                 elementDataPregunta.style.flexDirection = "row"
             }
-                       
+
 
             elementPregunta.append(elementDataPregunta, elementDownPregunta)
             elementPregunta.style.border = "solid black 1px"

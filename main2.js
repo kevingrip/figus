@@ -31,7 +31,6 @@ boton.addEventListener('click',()=>{
         resultados.innerHTML += "NUM:"+figu.NUM +" CANT:"+ figu.CANT +" PRECIO:"+ figu.PRECIO+"<br>";
     });
 
-    console.log(result);
 })
 
 function reemplazarPais(valorInput) {

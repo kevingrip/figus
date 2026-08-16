@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, estadoCompradoMDB, agregarVentasMLtoMDB, sumarStock } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, estadoCompradoMDB, agregarVentasMLtoMDB, sumarStock, setActivePublicacion } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -15,8 +15,6 @@ async function actualizarFechasPublicaciones() {
     try {
         const fechasPublicaciones = await obtenerFechasPublicaciones();
 
-        console.log("Fechas publicaciones:", fechasPublicaciones);
-
         const fechaActual = new Date();
 
         for (const publicacion of fechasPublicaciones) {
@@ -25,9 +23,14 @@ async function actualizarFechasPublicaciones() {
             if (fechaActual > fechaLimite) {
                 const publicacionML = await obtenerPublicacion(publicacion.MLA, publicacion.SELLER_ID);
                 if (publicacionML.price > 2000) {
-                    actualizarPrecio2000(publicacion.MLA, publicacion.SELLER_ID)
+                    await actualizarPrecio2000(publicacion.MLA, publicacion.SELLER_ID)
                 }
-                console.log(publicacionML);
+                if (publicacionML.available_quantity === 0) {
+                    await sumarStock(publicacion.MLA, publicacion.SELLER_ID)
+                }
+                if (publicacionML.status != "active") {
+                    await setActivePublicacion(publicacion.MLA,publicacion.SELLER_ID,publicacion.status)
+                }
             }
         }
     } catch (error) {
@@ -188,11 +191,12 @@ botonesElementosCosecha.forEach(objeto => {
 const elementVentas = document.getElementById("totalVentas") || document.getElementById("totalVentasAri") || document.getElementById("totalVentasLuly")
 const elementBotonesVenta = document.getElementById("botonesVendedores")
 const elementPrecioVenta = document.getElementById("resumenPrecioVenta")
+
 if (elementVentas) {
     const ventasMDB = await obtenerVentas();
     const ventasML = await obtenerVentasML();
     await agregarVentasMLtoMDB(ventasML)
-    await totalVentas(ventasMDB, ventasML, elementVentas,elementBotonesVenta,elementPrecioVenta);
+    await totalVentas(ventasMDB, ventasML, elementVentas, elementBotonesVenta, elementPrecioVenta);
 }
 
 const botonStockLuly = document.getElementById("botonStockLuly")
@@ -246,11 +250,12 @@ window.addEventListener("load", async () => {
 
 })
 
+console.log(window.location.pathname)
 window.addEventListener("load", async () => {
+
     if (window.location.pathname.endsWith("/todaslaspublicaciones.html")) {
         todasLasPublicaciones()
     }
-
 })
 
 
@@ -261,8 +266,8 @@ const actualizarVentas = async () => {
 
     for (const pregunta of preguntasMDB) {
         if (pregunta.COMPRADO === false) {
-            for (const venta of ventasML) {                
-                if ((venta.data.buyer_id === pregunta.BUYER_ID)                     
+            for (const venta of ventasML) {
+                if ((venta.data.buyer_id === pregunta.BUYER_ID)
                     && (venta.data.seller === pregunta.SELLER_ID)
                     && (venta.data.date_created > pregunta.FECHA)
                     && (venta.data.variante.some(variante => variante.mla === pregunta.MLA))) {
@@ -278,70 +283,6 @@ const actualizarVentas = async () => {
 }
 actualizarVentas()
 
-
-const ultimaActualizacion = () => {
-    var spanUltimaActualizacion = document.getElementById('ultimaActualizacion');
-    var userUpdate = document.getElementById('userUpdate')
-    let filePath = './actualizado.json';
-
-    fetch(filePath)
-        .then(response => response.json())
-        .then(item => {
-            // Almacenar todas las figus
-
-            console.log(item)
-
-            // console.log(actualizacion[0],actualizacion[0])
-            spanUltimaActualizacion.textContent = item["DIA"] + ' a las ' + item["ACTUALIZACION"];
-            userUpdate.textContent = item["USUARIO"]
-        })
-        .catch(error => {
-            console.error('Error al cargar el archivo JSON:', error);
-            throw error; // Propaga el error para que se maneje en la cadena de promesas
-        });
-};
-
-
-
-const buscarCliente = () => {
-    let valorInput = document.getElementById('entrada').value.toUpperCase();
-
-    const mostrarEnHtml = document.getElementById('figuUsers');
-    mostrarEnHtml.innerHTML = ''; // Limpiar resultados anteriores
-    existeUsuario = false;
-
-    fetch(filePath)
-        .then(response => response.json())
-        .then(data => {
-
-            Object.keys(data).forEach(llave => {
-                data[llave].forEach(usuario => {
-                    if (usuario.usuario == valorInput) {
-                        existeUsuario = true;
-                        const clientUser = document.createElement('h3');
-                        const clientFigus = document.createElement('p');
-                        clientUser.classList.add('clientUser')
-                        clientFigus.classList.add('clientFigu')
-                        clientUser.innerHTML = `${usuario.usuario}`;
-                        clientFigus.innerHTML = `${usuario.figusPedidas.join(', ')}`; // Si las figus son un array, unirlas con comas
-                        mostrarEnHtml.appendChild(clientUser);
-                        mostrarEnHtml.appendChild(clientFigus);
-                        console.log(`${usuario.usuario}: ${usuario.figusPedidas}`);
-                        navigator.clipboard.writeText(clientFigus.textContent)
-                    }
-                })
-            })
-
-
-            if (existeUsuario == false) {
-
-                const figuUsuario = document.createElement('p');
-                figuUsuario.classList.add('clientFigu')
-                figuUsuario.innerHTML = `No se encuentra el usuario`;
-                mostrarEnHtml.appendChild(figuUsuario);
-            }
-        })
-}
 
 botonesElementosNoVendidas.forEach(objeto => {
     const boton = document.getElementById(objeto.botonId)
@@ -360,278 +301,3 @@ window.addEventListener("load", async () => {
     }
 
 })
-
-
-const albumFigu = (tipo, event, pag) => {
-    tipoAlbum(tipo, event)
-        .then(() => {
-            if (pag == "album150") {
-                armarAlbumFigus();
-            }
-            else if (pag == "buscarUsuario") {
-                buscarCliente();
-            }
-            else if (pag == "buscarFigus") {
-                buscarFigus(tipo);
-            }
-            else if (pag == 'sinStock') {
-                sinStock();
-            } else if (pag == 'cosecharFigus') {
-                cosecharFigus(tipo);
-            }
-            else if (pag == 'noVendidas') {
-                noVendidas(tipo);
-            }
-        });
-};
-
-const armarAlbumFigus = () => {
-    const mostrarEnHtml = document.getElementById('figuUsers');
-    mostrarEnHtml.innerHTML = ''; // Limpiar resultados anteriores
-
-    const cantComunesAlbum = 130
-
-    fetch(filePath)
-        .then(response => response.json())
-        .then(data => {
-
-            const cantComunesOk = document.createElement('h4')
-            const comunesAlbum = document.createElement('p')
-            const tituloAlbum = document.createElement('h3')
-            comunesAlbum.innerHTML = 'Comunes: <br>'
-            let figusAlbum = [];
-            let cantComunes = 0
-            let cantComunesMayor1 = 0
-
-
-            data.forEach(figu => {
-                if (figu.CANT > 2 && figu.TIPO == "COMUNES" && cantComunes < cantComunesAlbum && !figusAlbum.includes(figu.NUM)) {
-                    figusAlbum.push(figu["NUM"])
-                    comunesAlbum.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
-                    cantComunes++
-                    cantComunesMayor1++
-                }
-            }
-            )
-            data.forEach(figu => {
-                if (figu.CANT == 2 && figu.TIPO == "COMUNES" && cantComunes < cantComunesAlbum && !figusAlbum.includes(figu.NUM)) {
-                    figusAlbum.push(figu["NUM"])
-                    comunesAlbum.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
-                    cantComunes++
-                    cantComunesMayor1++
-                }
-            }
-            )
-
-            let cantComunesX1 = []
-            let randomsX1 = []
-            data.forEach(figu => {
-                if (figu.CANT == 1 && figu.TIPO == "COMUNES") {
-                    cantComunesX1.push(figu.NUM)
-                }
-            }
-            )
-
-            cantComunesX1.forEach(figu => {
-                if (cantComunes < cantComunesAlbum && !figusAlbum.includes(figu.NUM)) {
-                    let randomInt = Math.floor(Math.random() * cantComunesX1.length);
-
-                    while (randomsX1.includes(randomInt)) {
-                        randomInt = Math.floor(Math.random() * cantComunesX1.length);
-                    }
-                    randomsX1.push(randomInt)
-                    figusAlbum.push(cantComunesX1[randomInt])
-                    comunesAlbum.innerHTML += `<span style="color: red;">${cantComunesX1[randomInt]}</span> `
-                    cantComunes++
-                }
-            }
-            )
-
-            let cantFiguYPF = 0;
-            const figusYPF = document.createElement('p')
-            figusYPF.innerHTML = `YPF: <br>`
-
-            let cantFiguCopa = 0;
-            const figusCopa = document.createElement('p')
-            figusCopa.innerHTML = `COPA: <br>`
-
-            let cantFiguSem = 0;
-            const figusSem = document.createElement('p')
-            figusSem.innerHTML = `SEM: <br>`
-
-            let cantFiguLPF = 0;
-            const figusLPF = document.createElement('p')
-            figusLPF.innerHTML = `LPF: <br>`
-
-            let cantFiguEscudos = 0;
-            const figusEscudos = document.createElement('p')
-            figusEscudos.innerHTML = `Escudos: <br>`
-
-            let cantFiguRiv = 0;
-            const figusRiv = document.createElement('p')
-            figusRiv.innerHTML = `River: <br>`
-
-            let cantFiguBoc = 0;
-            const figusBoc = document.createElement('p')
-            figusBoc.innerHTML = `Boca: <br>`
-
-            data.forEach(figu => {
-                if (figu.CANT > 2) {
-                    if (figu.TIPO == "YPF" && cantFiguYPF < 2) {
-                        cantFiguYPF++
-                        figusYPF.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "COPA" && cantFiguCopa < 2) {
-                        cantFiguCopa++
-                        figusCopa.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "SEMILLERO" && cantFiguSem < 2) {
-                        cantFiguSem++
-                        figusSem.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "LPF" && cantFiguLPF < 1) {
-                        cantFiguLPF++
-                        figusLPF.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "ESCUDO" && cantFiguEscudos < 7) {
-                        cantFiguEscudos++
-                        figusEscudos.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "ESP" && figu.NUM.substring(0, 3) == "RIV" && cantFiguRiv < 3) {
-                        cantFiguRiv++
-                        figusRiv.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "ESP" && figu.NUM.substring(0, 3) == "BOC" && cantFiguBoc < 3) {
-                        cantFiguBoc++
-                        figusBoc.innerHTML += `<span style="color: #1dff06;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                }
-            })
-
-            data.forEach(figu => {
-                if (figu.CANT == 2) {
-                    if (figu.TIPO == "YPF" && cantFiguYPF < 2) {
-                        cantFiguYPF++
-                        figusYPF.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "COPA" && cantFiguCopa < 2) {
-                        cantFiguCopa++
-                        figusCopa.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "SEMILLERO" && cantFiguSem < 2) {
-                        cantFiguSem++
-                        figusSem.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "LPF" && cantFiguLPF < 1) {
-                        cantFiguLPF++
-                        figusLPF.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "ESCUDO" && cantFiguEscudos < 7) {
-                        cantFiguEscudos++
-                        figusEscudos.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "ESP" && figu.NUM.substring(0, 3) == "RIV" && cantFiguRiv < 3) {
-                        cantFiguRiv++
-                        figusRiv.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "ESP" && figu.NUM.substring(0, 3) == "BOC" && cantFiguBoc < 3) {
-                        cantFiguBoc++
-                        figusBoc.innerHTML += `<span style="color: #e5d100;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                }
-            })
-
-            data.forEach(figu => {
-                if (figu.CANT == 1) {
-                    if (figu.TIPO == "YPF" && cantFiguYPF < 2) {
-                        cantFiguYPF++
-                        figusYPF.innerHTML += `<span style="color: red;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "COPA" && cantFiguCopa < 2) {
-                        cantFiguCopa++
-                        figusCopa.innerHTML += `<span style="color: red;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "SEMILLERO" && cantFiguSem < 2) {
-                        cantFiguSem++
-                        figusSem.innerHTML += `<span style="color: red;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                    if (figu.TIPO == "ESCUDO" && cantFiguEscudos < 7) {
-                        cantFiguEscudos++
-                        figusEscudos.innerHTML += `<span style="color: red;">${figu.NUM}</span> `
-                        figusAlbum.push(figu["NUM"])
-                    }
-                }
-            })
-
-            let sobrantes = []
-            data.forEach(figu => {
-                if (figu.CANT > 1 && !figusAlbum.includes(figu.NUM)) {
-                    sobrantes.push(figu.NUM)
-                }
-            })
-
-            const figusSobrantes = document.createElement('p')
-            figusSobrantes.innerHTML = 'Sobrantes: '
-            figusSobrantes.style.color = 'green'
-            sobrantes.forEach(figu => figusSobrantes.innerHTML += figu + " ")
-
-
-            const comunesCant1 = document.createElement('h4')
-            comunesCant1.innerHTML = `CANT x1 : ${cantComunesAlbum - cantComunesMayor1}`
-
-            cantComunesOk.innerHTML = `COMUNES >1 : ${cantComunesMayor1}/${cantComunesAlbum}`
-            tituloAlbum.innerHTML = `Album (${cantComunes + cantFiguYPF + cantFiguCopa + cantFiguLPF + cantFiguSem + cantFiguEscudos + cantFiguRiv + cantFiguBoc}): `
-            mostrarEnHtml.appendChild(cantComunesOk)
-            mostrarEnHtml.appendChild(comunesCant1)
-            mostrarEnHtml.appendChild(tituloAlbum)
-            mostrarEnHtml.appendChild(comunesAlbum)
-            mostrarEnHtml.appendChild(figusYPF)
-            mostrarEnHtml.appendChild(figusCopa)
-            mostrarEnHtml.appendChild(figusSem)
-            mostrarEnHtml.appendChild(figusLPF)
-            mostrarEnHtml.appendChild(figusEscudos)
-            mostrarEnHtml.appendChild(figusRiv)
-            mostrarEnHtml.appendChild(figusBoc)
-            mostrarEnHtml.appendChild(figusSobrantes)
-
-            const buttonCopiar = document.createElement('button')
-            buttonCopiar.innerHTML = `Copiar ${cantComunes + cantFiguYPF + cantFiguCopa + cantFiguLPF + cantFiguSem + cantFiguEscudos + cantFiguRiv + cantFiguBoc} figus `
-            mostrarEnHtml.appendChild(buttonCopiar)
-
-            buttonCopiar.addEventListener('click', () => {
-                let figusParaAlbum = "";
-                figusAlbum.forEach(figu => figusParaAlbum += figu + " ")
-                navigator.clipboard.writeText(figusParaAlbum)
-            })
-        })
-
-}
-
-function convertirFecha(fechaStr) {
-    const [dia, mes, anio] = fechaStr.split('/').map(num => parseInt(num, 10));
-    return new Date(anio, mes - 1, dia); // Recordar que los meses en JavaScript empiezan desde 0
-}
-
-const fecha2meses = new Date();
-fecha2meses.setHours(0, 0, 0, 0); // Solo considerar la fecha sin hora
-fecha2meses.setDate(fecha2meses.getDate() - 40);
-
-const hoy = new Date();
-hoy.setHours(0, 0, 0, 0)

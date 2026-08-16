@@ -40,7 +40,6 @@ export const estadoPublicacion = async () => {
 
 
         for (const item of items) {
-            console.log(item)
             const {
                 id,
                 title,
@@ -106,7 +105,6 @@ export const activarPublicacion = async (mla, seller_id, estado) => {
     try {
         const tokens = await obtenerToken();
         const token = tokens.find(token => token.seller === seller_id);
-        console.log("seller", seller_id)
         let nuevoEstado;
         if (estado === "active") {
             nuevoEstado = "paused"

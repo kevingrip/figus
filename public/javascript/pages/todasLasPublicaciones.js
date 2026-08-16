@@ -1,4 +1,5 @@
 import { api } from "../../config.js";
+import { setActivePublicacion } from "../servicios/api.js";
 
 const colorEstado = (bloque, estado) => {
     if (estado === "paused") {
@@ -127,16 +128,8 @@ export const todasLasPublicaciones = async () => {
                 ? "active"
                 : "paused";
 
-            const activarPublicacion = await fetch(`${api}/mercadolibre/publicaciones/activar/${publicacion.id}`, {
-                method: "PATCH",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    vendedor: publicacion.seller_id,
-                    estado: publicacion.status
-                })
-            });
+            setActivePublicacion(publicacion.id,publicacion.seller_id,publicacion.status)
+            
 
             if (!activarPublicacion.ok) {
                 throw new Error("Error activando la publicacion");
