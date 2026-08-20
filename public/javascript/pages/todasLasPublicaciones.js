@@ -1,5 +1,5 @@
 import { api } from "../../config.js";
-import { setActivePublicacion } from "../servicios/api.js";
+import { obtenerTodasLasPublicaciones, setActivePublicacion } from "../servicios/api.js";
 
 const colorEstado = (bloque, estado) => {
     if (estado === "paused") {
@@ -11,13 +11,9 @@ const colorEstado = (bloque, estado) => {
 
 export const todasLasPublicaciones = async () => {
     const resultElement = document.getElementById("todasLasPublicaciones")
-    const result_publicaciones = await fetch(`${api}/mercadolibre/publicaciones`, {
-        method: "GET"
-    });
+    
+    const publicaciones = await obtenerTodasLasPublicaciones()
 
-    const publicaciones = await result_publicaciones.json();
-
-    console.log(publicaciones)
 
     const pausedPublic = document.createElement("div")
     const activePublic = document.createElement("div")

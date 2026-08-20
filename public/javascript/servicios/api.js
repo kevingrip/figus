@@ -1,10 +1,11 @@
 import { api } from "../../config.js";
 export async function obtenerFiguritas(album) {
-    console.log("api", api)
+    //console.log("api", api)
 
     const res = await fetch(`${api}/album/${album}`);
     return await res.json();
 }
+
 
 export async function obtenerVentas() {
     const res = await fetch(`${api}/ventas`);
@@ -37,6 +38,18 @@ export async function obtenerPublicacion(mla, seller) {
 
     const publicaciones = await respuesta.json();
     return publicaciones;
+}
+
+export const obtenerTodasLasPublicaciones = async () =>{
+    const respuesta = await fetch(`${api}/mercadolibre/publicaciones/todas`, {
+        method: "GET"
+    });
+        
+    if (!respuesta.ok){
+        throw new Error ("Error obteniendo publicaciones")
+    }
+    const publicaciones = await respuesta.json()
+    return publicaciones
 }
 
 export async function actualizarPrecio2000(mla, seller) {
@@ -91,7 +104,7 @@ export const obtenerPreguntasMDB = async () => {
     return preguntasParseadas;
 }
 
-export const estadoCompradoMDB = async (preg_id) => {
+export const setToComprado = async (preg_id) => {
     const respuesta = await fetch(
         `${api}/preguntamdb/confirmar/${preg_id}`,
         {
@@ -153,14 +166,14 @@ export const agregarVentasMLtoMDB = async (ventas_ml) => {
     }
 };
 
-export const sumarStock = async (mla, seller_id) => {
+export const actualizarStock = async (mla, seller_id, cant) => {
     await fetch(`${api}/mercadolibre/publicaciones/${mla}`, {
         method: "PATCH",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            cantidad: 1,
+            cantidad: cant ?? 1,
             vendedor: seller_id
         })
     });

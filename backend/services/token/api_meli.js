@@ -4,7 +4,6 @@ import { obtenerToken } from "./obtenerToken.js";
 export const mlGet = async (url, config = {}) => {
 
     const listaTokens = await obtenerToken();
-
     const respuestas = await Promise.all(
         listaTokens.map(token =>
             axios.get(url, {

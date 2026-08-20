@@ -17,7 +17,7 @@ export const albumName = (nombre) => {
 export const nombrePublicacion = (mla_id) => {
     if (["MLA1241847466", "MLA1287984004", "MLA3668808570"].includes(mla_id)) {
         return { album: "Mundial QATAR 2022", bdd: "mundialQatar2022" }
-    } else if (["MLA3643992402", "MLA3643993376", "MLA1911338959", "MLA3589325682", "MLA3668909352"].includes(mla_id)) {
+    } else if (["MLA3643992402", "MLA3643993376", "MLA1911338959", "MLA3589325682", "MLA3668909352","MUNDIAL 2026","FIFA World Cup USA 2026"].includes(mla_id)) {
         return { album: "Mundial USA 2026", bdd: "mundialUsa2026" }
     } else if (["MLA1413919557", "MLA1921984423"].includes(mla_id)) {
         return { album: "Copa America 2024", bdd: "copaAmerica2024" }

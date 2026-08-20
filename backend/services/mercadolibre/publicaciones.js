@@ -5,6 +5,7 @@ import { obtenerFechaLimite } from "../../models/modeloGuardarFecha.js";
 export const estadoPublicacion = async () => {
     const tokens = await obtenerToken();
     const filtered_publicaciones = []
+    const items = [];
     for (const token of tokens) {
         // Obtengo los IDs
         const { data } = await axios.get(
@@ -21,7 +22,7 @@ export const estadoPublicacion = async () => {
         );
 
         const ids = data.results;
-        const items = [];
+        
 
         for (let i = 0; i < ids.length; i += 20) {
             const lote = ids.slice(i, i + 20);
@@ -73,8 +74,7 @@ export const estadoPublicacion = async () => {
         );
 
     }
-    return filtered_publicaciones
-
+    return {filtered_publicaciones,items}
 };
 
 export const modificarStock = async (mla, seller_id, nuevoStock) => {

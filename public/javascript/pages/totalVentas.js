@@ -63,7 +63,6 @@ const ingresarPrecioNeto = () => {
     return { input_precioNeto, botonConfirmarPrecioNeto }
 }
 
-
 function crearBotonContenedor(figu, album) {
     const contenedor = document.createElement("div");
     contenedor.style.display = "inline-flex";
@@ -80,7 +79,9 @@ function crearBotonContenedor(figu, album) {
     informacion.style.alignItems = "center";
 
     const textoSuperior = document.createElement("div");
-    textoSuperior.textContent = figu.NUM;
+    const numFigu = figu.NUM.replace(/[^0-9]/g, "")
+    const letraFigu = figu.NUM.replace(/[^a-zA-Z]/g, "")
+    textoSuperior.textContent = `${letraFigu} ${numFigu}`;
     textoSuperior.style.fontSize = "13px";
     textoSuperior.style.fontWeight = "bold";
 
@@ -189,7 +190,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                     juntarVentas()
                     totalVendido.textContent = `Total Vendido: ${precioArgentino(precioMDB + precioML)}`;
                     totalVendidoNeto.textContent = `Total Neto: ${precioArgentino(precioNeto)}`;
-                    if (!["TODAS","ARI","LULY"].includes(vendedor)) {
+                    if (!["TODAS", "ARI", "LULY"].includes(vendedor)) {
                         elementPrecioVenta.appendChild(totalVendidoNeto)
                     }
                 });
@@ -204,9 +205,39 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
         }
 
+        const contenedorVenta = () => {
+            const contenedorPrincipal = document.createElement("div")
+            contenedorPrincipal.style.backgroundColor = "white"
+            const bordeSuperior = document.createElement("div")
+            const bloqueInfo = document.createElement("div")
+            const contenedorPAGO = document.createElement("div")
+            const contenedorFigus = document.createElement("div")
 
+            bloqueInfo.style.padding = "20px";
+            bloqueInfo.style.width = "70%";
+            contenedorFigus.style.padding = "20px";
+            
+            const tituloAlbum = document.createElement("p")
+            const envio = document.createElement("p")
+            const cuenta = document.createElement("p")
+            const cantidad = document.createElement("p")
+            const precio = document.createElement("p")
+            const dia = document.createElement("p")
+            //tituloAlbum.textContent = albumName(album)
+            //envio.textContent = venta.ENVIO ? `Envio: ${venta.ENVIO}` : ""
+            // cuenta.textContent = `Cuenta: ${venta.CUENTA}`
+            // cantidad.textContent = `Cantidad: ${venta.VENDIDAS.length}`
+            // dia.textContent = `Dia de venta: ${new Date(venta.DIA).toLocaleDateString("es-AR")} 🕒 ${new Date(venta.DIA).toLocaleTimeString("es-AR")}`
 
+            bordeSuperior.appendChild(tituloAlbum)
+            bordeSuperior.appendChild(dia)
+            bordeSuperior.appendChild(cuenta)
+            bordeSuperior.appendChild(cantidad)
+            bordeSuperior.appendChild(precio)
+            bordeSuperior.appendChild(envio);
 
+            let ventaid = document.createElement("a")
+        }
 
         const totalVentasMDB = (vendedor) => {
             let totalPrecioVentas = 0
@@ -254,8 +285,6 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 contenedorInfo.appendChild(cantidad)
                 contenedorInfo.appendChild(precio)
                 contenedorInfo.appendChild(envio);
-
-
 
                 let fechaML;
                 let ventaid = document.createElement("a")
@@ -313,7 +342,6 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                                 elementVariante.style.border = "solid black 1px"
                                 elementVariante.style.padding = "10px"
                                 variantes.append(elementVariante)
-
                             })
 
                             totalVenta.textContent = `Total Venta: ${precioArgentino(costoVenta)}`
@@ -358,11 +386,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                             elementPrecioNeto.append(input_precioNeto, botonConfirmarPrecioNeto)
                         }
 
-
-
-
                         const imagenPago = document.createElement("img");
-
 
                         imagenPago.src = `data:${venta.IMAGEN_NETO.contentType};base64,${venta.IMAGEN_NETO.data}`;
 

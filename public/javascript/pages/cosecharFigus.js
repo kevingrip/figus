@@ -127,7 +127,7 @@ function datosBloques(figu, informacion, textoInferior, esClick) {
 
         if (cantTotal == 0) {
             informacion.style.backgroundColor = '#FF4747'
-        } else if (cantTotal > 9) {
+        } else if (cantTotal > 4) {
             informacion.style.backgroundColor = 'lightgreen'
         } else if (esClick) {
             informacion.style.backgroundColor = 'yellow'
@@ -138,7 +138,7 @@ function datosBloques(figu, informacion, textoInferior, esClick) {
     else {
         if (cantTotal == 0) {
             informacion.style.backgroundColor = '#FF4747'
-        } else if (cantTotal > 4) {
+        } else if (cantTotal > 9) {
             informacion.style.backgroundColor = 'lightgreen'
         } else if (esClick) {
             informacion.style.backgroundColor = 'yellow'

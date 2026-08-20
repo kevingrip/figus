@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, estadoCompradoMDB, agregarVentasMLtoMDB, sumarStock, setActivePublicacion } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -7,9 +7,10 @@ import { sinStock } from "./javascript/pages/sinStock.js";
 import { noVendidas } from "./javascript/pages/noVendidas.js";
 import { preguntasMercadolibre } from "./javascript/pages/preguntasmeli.js";
 import { todasLasPublicaciones } from "./javascript/pages/todasLasPublicaciones.js";
-import { albumName, seller_name } from "./javascript/utilidades/nombres.js";
+import { albumName, nombrePublicacion, seller_name } from "./javascript/utilidades/nombres.js";
 import { crearVenta } from "./javascript/pages/buscarFigus/elementoVenta.js";
 import { api } from "./config.js";
+import { getStockProveedores } from "./javascript/utilidades/stockTotal.js";
 
 async function actualizarFechasPublicaciones() {
     try {
@@ -26,10 +27,10 @@ async function actualizarFechasPublicaciones() {
                     await actualizarPrecio2000(publicacion.MLA, publicacion.SELLER_ID)
                 }
                 if (publicacionML.available_quantity === 0) {
-                    await sumarStock(publicacion.MLA, publicacion.SELLER_ID)
+                    await actualizarStock(publicacion.MLA, publicacion.SELLER_ID)
                 }
                 if (publicacionML.status != "active") {
-                    await setActivePublicacion(publicacion.MLA,publicacion.SELLER_ID,publicacion.status)
+                    await setActivePublicacion(publicacion.MLA, publicacion.SELLER_ID, publicacion.status)
                 }
             }
         }
@@ -195,7 +196,7 @@ const elementPrecioVenta = document.getElementById("resumenPrecioVenta")
 if (elementVentas) {
     const ventasMDB = await obtenerVentas();
     const ventasML = await obtenerVentasML();
-    await agregarVentasMLtoMDB(ventasML)
+    //await agregarVentasMLtoMDB(ventasML)
     await totalVentas(ventasMDB, ventasML, elementVentas, elementBotonesVenta, elementPrecioVenta);
 }
 
@@ -274,8 +275,8 @@ const actualizarVentas = async () => {
                     const figuritas = await obtenerFiguritas(pregunta.ALBUM_REAL)
                     await crearVenta(figuritas, pregunta.FIGUS_EN_STOCK, "ONLINE", seller_name(pregunta.SELLER_ID), pregunta.ALBUM_REAL, venta.data.total_amount, pregunta.FIGUS_SIN_STOCK, "Sin Dato", pregunta.ALBUM_REAL, api, venta.pack_id)
                     await actualizarPrecio2000(pregunta.MLA, pregunta.SELLER_ID)
-                    await sumarStock(pregunta.MLA, pregunta.SELLER_ID)
-                    await estadoCompradoMDB(pregunta._id)
+                    await actualizarStock(pregunta.MLA, pregunta.SELLER_ID)
+                    await setToComprado(pregunta._id)
                 }
             }
         }
@@ -300,4 +301,35 @@ window.addEventListener("load", async () => {
         noVendidas(figuritas, ventas, "mundialUsa2026")
     }
 
+})
+
+window.addEventListener("load", async () => {
+    if (window.location.pathname.endsWith("/")) {
+        const publicaciones = await obtenerTodasLasPublicaciones()
+        const figuritas = await obtenerFiguritas("mundialUsa2026")
+        for (const publi of publicaciones) {
+            if ([1331424923778706,3406057476164753].includes(publi.body.family_id)) {
+                let albumBdd;
+                let figuId;
+                for (const atributo of publi.body.attributes) {
+
+                    if (atributo.id === "ALBUM_NAME") {
+                        const { bdd } = nombrePublicacion(atributo.value_name)
+                        albumBdd = bdd
+                    }
+                    if (atributo.id === "CHARACTER") {
+                        figuId = atributo.value_name ==="00" ? "FWC0" : atributo.value_name
+                    }
+                }
+                if (albumBdd && figuId) {
+                    console.log(figuId)
+                    
+                    const figuEncontrada = figuritas.find(figu => figu.NUM === figuId)
+                    let cant = getStockProveedores(figuEncontrada)
+                    console.log(figuId," cant:",cant)
+                    await actualizarStock(publi.body.id, publi.body.seller_id, cant)
+                }
+            }
+        }
+    }
 })
