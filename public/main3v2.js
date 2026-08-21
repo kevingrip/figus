@@ -268,7 +268,8 @@ const actualizarVentas = async () => {
 
     for (const pregunta of preguntasMDB) {
         if (pregunta.COMPRADO === false) {
-            for (const venta of ventasML) {
+                const prueba = ventasML.find(venta => venta.data.buyer_id === 181068016)
+                console.log(prueba)
                 const ventaFilt = ventasML.find(venta => 
                     venta.data.buyer_id === pregunta.BUYER_ID &&
                     venta.data.seller === pregunta.SELLER_ID &&
@@ -282,7 +283,7 @@ const actualizarVentas = async () => {
                     await actualizarStock(pregunta.MLA, pregunta.SELLER_ID)
                     await setToComprado(pregunta._id)
                 }
-            }
+            
         }
     }
 }
