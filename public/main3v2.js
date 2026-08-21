@@ -262,12 +262,13 @@ window.addEventListener("load", async () => {
 
 
 const actualizarVentas = async () => {
-    console.log("entra")
+    
     const preguntasMDB = await obtenerPreguntasMDB()
     const ventasML = await obtenerVentasML()
 
     for (const pregunta of preguntasMDB) {
         if (pregunta.COMPRADO === false) {
+            console.log("entra")
             for (const venta of ventasML) {
                 if ((venta.data.buyer_id === pregunta.BUYER_ID)
                     && (venta.data.seller === pregunta.SELLER_ID)
