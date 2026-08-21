@@ -41,7 +41,7 @@ export async function obtenerPublicacion(mla, seller) {
 }
 
 export const obtenerTodasLasPublicaciones = async () =>{
-    const respuesta = await fetch(`${api}/mercadolibre/publicaciones/todas`, {
+    const respuesta = await fetch(`${api}/mercadolibre/publicaciones`, {
         method: "GET"
     });
         
