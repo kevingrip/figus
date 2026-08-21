@@ -269,11 +269,13 @@ const actualizarVentas = async () => {
     for (const pregunta of preguntasMDB) {
         if (pregunta.COMPRADO === false) {
             for (const venta of ventasML) {
-                if (pregunta.BUYER_ID === 181068016) {console.log(venta.data.buyer_id === pregunta.BUYER_ID)}
-                if ((venta.data.buyer_id === pregunta.BUYER_ID)
-                    && (venta.data.seller === pregunta.SELLER_ID)
-                    && (venta.data.date_created > pregunta.FECHA)
-                    && (venta.data.variante.some(variante => variante.mla === pregunta.MLA))) {
+                const ventaFilt = ventasML.find(venta => 
+                    venta.data.buyer_id === pregunta.BUYER_ID &&
+                    venta.data.seller === pregunta.SELLER_ID &&
+                    venta.data.date_created > pregunta.FECHA &&
+                    venta.data.variante.some(variante => variante.mla === pregunta.MLA)
+                ) 
+                if (ventaFilt){
                     const figuritas = await obtenerFiguritas(pregunta.ALBUM_REAL)
                     await crearVenta(figuritas, pregunta.FIGUS_EN_STOCK, "ONLINE", seller_name(pregunta.SELLER_ID), pregunta.ALBUM_REAL, venta.data.total_amount, pregunta.FIGUS_SIN_STOCK, "Sin Dato", pregunta.ALBUM_REAL, api, venta.pack_id)
                     await actualizarPrecio2000(pregunta.MLA, pregunta.SELLER_ID)
