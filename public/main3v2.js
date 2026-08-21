@@ -268,7 +268,7 @@ const actualizarVentas = async () => {
 
     for (const pregunta of preguntasMDB) {
         if (pregunta.COMPRADO === false) {
-            if (pregunta.BUYER_ID === 2385461382){console.log(pregunta.BUYER_ID)}
+            console.log(pregunta.BUYER_ID)
             for (const venta of ventasML) {
                 if ((venta.data.buyer_id === pregunta.BUYER_ID)
                     && (venta.data.seller === pregunta.SELLER_ID)
