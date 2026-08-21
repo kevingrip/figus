@@ -267,17 +267,12 @@ const actualizarVentas = async () => {
     const ventasML = await obtenerVentasML()
 
     for (const pregunta of preguntasMDB) {
-        if (pregunta.COMPRADO === false) {
-                const prueba = ventasML.find(venta => venta.data.buyer_id === 181068016)
-                console.log(prueba)
-                if (prueba.data.buyer_id===pregunta.BUYER_ID){
-                    console.log(prueba.data.buyer_id, "venta:",new Date(prueba.data.date_created) ,"pregunta:", new Date(pregunta.FECHA))
-                }
+        if (pregunta.COMPRADO === false) {                
                 
                 const ventaFilt = ventasML.find(venta => 
                     venta.data.buyer_id === pregunta.BUYER_ID &&
                     venta.data.seller === pregunta.SELLER_ID &&
-                    venta.data.date_created > pregunta.FECHA &&
+                    new Date(venta.data.date_created) > new Date(pregunta.FECHA) &&
                     venta.data.variante.some(variante => variante.mla === pregunta.MLA)
                 ) 
                 if (ventaFilt){
