@@ -270,7 +270,7 @@ const actualizarVentas = async () => {
         if (pregunta.COMPRADO === false) {
                 const prueba = ventasML.find(venta => venta.data.buyer_id === 181068016)
                 console.log(prueba)
-                console.log(prueba.data.buyer_id, venta.data.seller === pregunta.SELLER_ID)
+                console.log(prueba.data.buyer_id, prueba.data.seller === pregunta.SELLER_ID, prueba.data.date_created > pregunta.FECHA)
                 const ventaFilt = ventasML.find(venta => 
                     venta.data.buyer_id === pregunta.BUYER_ID &&
                     venta.data.seller === pregunta.SELLER_ID &&
