@@ -277,7 +277,7 @@ const actualizarVentas = async () => {
                 ) 
                 if (ventaFilt){
                     const figuritas = await obtenerFiguritas(pregunta.ALBUM_REAL)
-                    await crearVenta(figuritas, pregunta.FIGUS_EN_STOCK, "ONLINE", seller_name(pregunta.SELLER_ID), pregunta.ALBUM_REAL, venta.data.total_amount, pregunta.FIGUS_SIN_STOCK, "Sin Dato", pregunta.ALBUM_REAL, api, venta.pack_id)
+                    await crearVenta(figuritas, pregunta.FIGUS_EN_STOCK, "ONLINE", seller_name(pregunta.SELLER_ID), pregunta.ALBUM_REAL, ventaFilt.data.total_amount, pregunta.FIGUS_SIN_STOCK, "Sin Dato", pregunta.ALBUM_REAL, api, ventaFilt.pack_id)
                     await actualizarPrecio2000(pregunta.MLA, pregunta.SELLER_ID)
                     await actualizarStock(pregunta.MLA, pregunta.SELLER_ID)
                     await setToComprado(pregunta._id)
