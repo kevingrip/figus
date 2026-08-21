@@ -262,6 +262,7 @@ window.addEventListener("load", async () => {
 
 
 const actualizarVentas = async () => {
+    console.log("entra")
     const preguntasMDB = await obtenerPreguntasMDB()
     const ventasML = await obtenerVentasML()
 
