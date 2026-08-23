@@ -52,6 +52,18 @@ export const obtenerTodasLasPublicaciones = async () =>{
     return publicaciones
 }
 
+export const obtenerPublicacionesDatosCompletos = async () =>{
+    const respuesta = await fetch(`${api}/mercadolibre/publicaciones/datoscompletos`, {
+        method: "GET"
+    });
+        
+    if (!respuesta.ok){
+        throw new Error ("Error obteniendo publicaciones")
+    }
+    const publicaciones = await respuesta.json()
+    return publicaciones
+}
+
 export async function actualizarPrecio2000(mla, seller) {
     const peticion = await fetch(`${api}/mercadolibre/publicaciones/precio/${mla}`, {
         method: "PATCH",
@@ -167,7 +179,7 @@ export const agregarVentasMLtoMDB = async (ventas_ml) => {
 };
 
 export const actualizarStock = async (mla, seller_id, cant) => {
-    await fetch(`${api}/mercadolibre/publicaciones/${mla}`, {
+    await fetch(`${api}/mercadolibre/publicaciones/actualizar-stock/${mla}`, {
         method: "PATCH",
         headers: {
             "Content-Type": "application/json"

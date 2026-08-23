@@ -1,6 +1,8 @@
 import axios from "axios";
 import { obtenerToken } from "../token/obtenerToken.js";
 import { obtenerFechaLimite } from "../../models/modeloGuardarFecha.js";
+import { obtenerModeloFiguritas } from "../../models/modeloFigu.js";
+import { obtenerCantidadFigurita } from "../accionesFiguritas.js";
 
 export const estadoPublicacion = async () => {
     const tokens = await obtenerToken();
@@ -22,7 +24,7 @@ export const estadoPublicacion = async () => {
         );
 
         const ids = data.results;
-        
+
 
         for (let i = 0; i < ids.length; i += 20) {
             const lote = ids.slice(i, i + 20);
@@ -74,7 +76,7 @@ export const estadoPublicacion = async () => {
         );
 
     }
-    return {filtered_publicaciones,items}
+    return { filtered_publicaciones, items }
 };
 
 export const modificarStock = async (mla, seller_id, nuevoStock) => {
@@ -191,3 +193,37 @@ export const obtenerPublicacion = async (mla, sellerid) => {
     return publicacion;
 
 };
+
+export const sincronizarStock = async () => {
+    const publicaciones = await estadoPublicacion();
+    const items = publicaciones.items;
+
+    const figuritas = await obtenerModeloFiguritas("mundialUsa2026")
+
+    for (const publi of items) {
+        if ([1331424923778706, 3406057476164753].includes(publi.body.family_id)) {
+            let figuId;
+            for (const atributo of publi.body.attributes) {
+
+                if (atributo.id === "CHARACTER") {
+                    figuId = atributo.value_name === "00" ? "FWC0" : atributo.value_name
+                }
+            }
+            if (figuId) {
+
+                const figuEncontrada = await figuritas.findOne({
+                    NUM: figuId
+                }).lean();
+
+                let cant = await obtenerCantidadFigurita("mundialUsa2026", figuId)
+                console.log(figuId, " cant:", cant)
+
+                await modificarStock(
+                    publi.body.id,
+                    publi.body.seller_id,
+                    cant
+                )
+            }
+        }
+    }
+}

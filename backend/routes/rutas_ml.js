@@ -59,7 +59,7 @@ router.get("/publicaciones", async (req,res)=>{
     }
 })
 
-router.get("/publicaciones/todas", async (req,res)=>{
+router.get("/publicaciones/datoscompletos", async (req,res)=>{
     try {
         const {filtered_publicaciones,items} = await estadoPublicacion()
         res.json(items)
@@ -71,7 +71,24 @@ router.get("/publicaciones/todas", async (req,res)=>{
     }
 })
 
-router.patch("/publicaciones/:mla", async (req,res)=>{
+router.patch("/publicaciones/sincronizar-stock", async (req,res)=>{
+    try {
+        await sincronizarStock();
+
+        res.json({
+            ok: true,
+            mensaje: "Stock sincronizado"
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            ok: false,
+            error: error.message
+        });
+    }
+})
+
+router.patch("/publicaciones/actualizar-stock/:mla", async (req,res)=>{
     try {
 
         const {mla} = req.params

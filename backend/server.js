@@ -10,6 +10,7 @@ import { fileURLToPath } from "url";
 import mercadoLibreRoutes from "./routes/rutas_ml.js"
 import fechasPublicaciones from "./routes/fechasPublicaciones.js";
 import preguntas_mercadolibre from "./routes/preguntasGuardadas.js"
+import { sincronizarStock } from "./services/mercadolibre/publicaciones.js";
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -20,11 +21,20 @@ const mongo_url = process.env.MONGO_URL
 
 await mongoose.connect(mongo_url);
 
+try {
+    console.log("Iniciando sincronización de stock...");
+    await sincronizarStock()
+    console.log("Stock sincronizado correctamente");
+
+} catch (error) {
+    console.error("Error sincronizando stock:", error);
+}
+
 const app = express()
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "../public")));
+app.use(express.static(path.join(__dirname, "../frontend")));
 
 const PORT = process.env.PORT || 5050;
 
@@ -33,7 +43,7 @@ app.listen(PORT, () => {
 })
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "../public", "pages", "indexv2.html"));
+    res.sendFile(path.join(__dirname, "../frontend", "pages", "indexv2.html"));
 });
 
 app.use("/ventas",ventasRoutes)

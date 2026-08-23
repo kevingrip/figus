@@ -28,7 +28,6 @@ router.get("/:album", async (req, res) => {
         res.json(cantProveedores);
 
 
-
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: error.message });

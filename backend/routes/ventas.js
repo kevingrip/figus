@@ -3,7 +3,7 @@ import { obtenerToken } from "../services/token/obtenerToken.js";
 import axios from "axios";
 import Venta from "../models/modeloVenta.js";
 import Venta_ML from "../models/modeloVentaML.js"
-import { seller_name } from "../../public/javascript/utilidades/nombres.js";
+import { seller_name } from "../../frontend/javascript/utilidades/nombres.js";
 import multer from "multer";
 const router = Router();
 

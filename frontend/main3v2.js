@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -303,33 +303,33 @@ window.addEventListener("load", async () => {
 
 })
 
-window.addEventListener("load", async () => {
-    if (window.location.pathname.endsWith("/")) {
-        const publicaciones = await obtenerTodasLasPublicaciones()
-        const figuritas = await obtenerFiguritas("mundialUsa2026")
-        for (const publi of publicaciones) {
-            if ([1331424923778706,3406057476164753].includes(publi.body.family_id)) {
-                let albumBdd;
-                let figuId;
-                for (const atributo of publi.body.attributes) {
+// window.addEventListener("load", async () => {
+//     if (window.location.pathname.endsWith("/")) {
+//         const publicaciones = await obtenerPublicacionesDatosCompletos()
+//         const figuritas = await obtenerFiguritas("mundialUsa2026")
+//         for (const publi of publicaciones) {
+//             if ([1331424923778706,3406057476164753].includes(publi.body.family_id)) {
+//                 let albumBdd;
+//                 let figuId;
+//                 for (const atributo of publi.body.attributes) {
 
-                    if (atributo.id === "ALBUM_NAME") {
-                        const { bdd } = nombrePublicacion(atributo.value_name)
-                        albumBdd = bdd
-                    }
-                    if (atributo.id === "CHARACTER") {
-                        figuId = atributo.value_name ==="00" ? "FWC0" : atributo.value_name
-                    }
-                }
-                if (albumBdd && figuId) {
-                    console.log(figuId)
+//                     if (atributo.id === "ALBUM_NAME") {
+//                         const { bdd } = nombrePublicacion(atributo.value_name)
+//                         albumBdd = bdd
+//                     }
+//                     if (atributo.id === "CHARACTER") {
+//                         figuId = atributo.value_name ==="00" ? "FWC0" : atributo.value_name
+//                     }
+//                 }
+//                 if (albumBdd && figuId) {
+//                     console.log(figuId)
                     
-                    const figuEncontrada = figuritas.find(figu => figu.NUM === figuId)
-                    let cant = getStockProveedores(figuEncontrada)
-                    console.log(figuId," cant:",cant)
-                    await actualizarStock(publi.body.id, publi.body.seller_id, cant)
-                }
-            }
-        }
-    }
-})
+//                     const figuEncontrada = figuritas.find(figu => figu.NUM === figuId)
+//                     let cant = getStockProveedores(figuEncontrada)
+//                     console.log(figuId," cant:",cant)
+//                     await actualizarStock(publi.body.id, publi.body.seller_id, cant)
+//                 }
+//             }
+//         }
+//     }
+// })

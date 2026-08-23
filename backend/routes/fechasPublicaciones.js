@@ -3,6 +3,8 @@ import { Router } from "express";
 
 const router = Router();
 
+// La funcion obtiene hasta que hora una publicacion tiene el precio actualizado, la usamos para luego volver al precio original (2000)
+
 router.get("/", async (req, res) => {
     try {
         const Publicacion = obtenerFechaLimite();

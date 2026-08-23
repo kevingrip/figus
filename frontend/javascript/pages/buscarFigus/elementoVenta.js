@@ -80,8 +80,14 @@ const crearVenta = async (albumFigus, figusEnStock, canalPregunta, nombreCuenta,
 const descontarBaseMongodb = async (proveedor, albumRuta, figu, api) => {
     try {
 
-        const response = await fetch(`${api}/album/${albumRuta}/descontarventa/${proveedor}/${figu._id}`, {
-            method: "PATCH"
+        const response = await fetch(`${api}/album/${albumRuta}/stockfiguritas/decrementar/${proveedor}/${figu._id}`, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                venta: true
+            })
         });
 
 
@@ -158,11 +164,11 @@ const agregarCuenta = (usuariosVendedores, divVenta, albumFigus, canalPregunta, 
                 descargarArchivos.addEventListener('click', async () => {
 
                     const ventaId = Number(elementVentaId.value.trim()) || null
-                        
+
 
                     crearVenta(albumFigus, figusEnStock, canalPregunta, nombre, nombreJson, precioFinal, figusSinStock, tipoEnvio, albumRuta, api, ventaId)
-                
-                })                
+
+                })
             }
         })
     });
