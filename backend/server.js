@@ -21,14 +21,14 @@ const mongo_url = process.env.MONGO_URL
 
 await mongoose.connect(mongo_url);
 
-try {
-    console.log("Iniciando sincronización de stock...");
-    await sincronizarStock()
-    console.log("Stock sincronizado correctamente");
+// try {
+//     console.log("Iniciando sincronización de stock...");
+//     await sincronizarStock()
+//     console.log("Stock sincronizado correctamente");
 
-} catch (error) {
-    console.error("Error sincronizando stock:", error);
-}
+// } catch (error) {
+//     console.error("Error sincronizando stock:", error);
+// }
 
 const app = express()
 
@@ -46,6 +46,8 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../frontend", "pages", "indexv2.html"));
 });
 
+
+
 app.use("/ventas",ventasRoutes)
 
 app.use("/fechas",fechasPublicaciones)
@@ -57,3 +59,12 @@ app.use("/album/:album",datosFiguritas)
 app.use("/proveedores",proveedores)
 
 app.use("/mercadolibre", mercadoLibreRoutes);
+
+try {
+    console.log("Iniciando sincronización de stock...");
+    await sincronizarStock()
+    console.log("Stock sincronizado correctamente");
+
+} catch (error) {
+    console.error("Error sincronizando stock:", error);
+}

@@ -40,25 +40,25 @@ export async function obtenerPublicacion(mla, seller) {
     return publicaciones;
 }
 
-export const obtenerTodasLasPublicaciones = async () =>{
+export const obtenerTodasLasPublicaciones = async () => {
     const respuesta = await fetch(`${api}/mercadolibre/publicaciones`, {
         method: "GET"
     });
-        
-    if (!respuesta.ok){
-        throw new Error ("Error obteniendo publicaciones")
+
+    if (!respuesta.ok) {
+        throw new Error("Error obteniendo publicaciones")
     }
     const publicaciones = await respuesta.json()
     return publicaciones
 }
 
-export const obtenerPublicacionesDatosCompletos = async () =>{
+export const obtenerPublicacionesDatosCompletos = async () => {
     const respuesta = await fetch(`${api}/mercadolibre/publicaciones/datoscompletos`, {
         method: "GET"
     });
-        
-    if (!respuesta.ok){
-        throw new Error ("Error obteniendo publicaciones")
+
+    if (!respuesta.ok) {
+        throw new Error("Error obteniendo publicaciones")
     }
     const publicaciones = await respuesta.json()
     return publicaciones
@@ -217,7 +217,7 @@ export const agregarPagoNeto = async (ventaid, precio_neto) => {
     console.log(resultado);
 }
 
-export const setActivePublicacion = async (mla,seller_id,status) => {
+export const setActivePublicacion = async (mla, seller_id, status) => {
     await fetch(`${api}/mercadolibre/publicaciones/activar/${mla}`, {
         method: "PATCH",
         headers: {
@@ -228,4 +228,9 @@ export const setActivePublicacion = async (mla,seller_id,status) => {
             estado: status
         })
     });
+}
+
+export const obtenerFigusMayorStock = async (album) => {
+    const res = await fetch(`${api}/album/${album}/mayores`);
+    return await res.json();
 }

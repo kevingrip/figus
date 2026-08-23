@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos, obtenerFigusMayorStock } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -11,6 +11,7 @@ import { albumName, nombrePublicacion, seller_name } from "./javascript/utilidad
 import { crearVenta } from "./javascript/pages/buscarFigus/elementoVenta.js";
 import { api } from "./config.js";
 import { getStockProveedores } from "./javascript/utilidades/stockTotal.js";
+import { interfazMaxCant } from "./javascript/pages/interfazMaxCant.js";
 
 async function actualizarFechasPublicaciones() {
     try {
@@ -303,33 +304,15 @@ window.addEventListener("load", async () => {
 
 })
 
-// window.addEventListener("load", async () => {
-//     if (window.location.pathname.endsWith("/")) {
-//         const publicaciones = await obtenerPublicacionesDatosCompletos()
-//         const figuritas = await obtenerFiguritas("mundialUsa2026")
-//         for (const publi of publicaciones) {
-//             if ([1331424923778706,3406057476164753].includes(publi.body.family_id)) {
-//                 let albumBdd;
-//                 let figuId;
-//                 for (const atributo of publi.body.attributes) {
+const botonMaxStock = document.getElementById("botonMundialUsaMax")
+botonMaxStock.addEventListener("click", async () => {
+    console.log("click")
 
-//                     if (atributo.id === "ALBUM_NAME") {
-//                         const { bdd } = nombrePublicacion(atributo.value_name)
-//                         albumBdd = bdd
-//                     }
-//                     if (atributo.id === "CHARACTER") {
-//                         figuId = atributo.value_name ==="00" ? "FWC0" : atributo.value_name
-//                     }
-//                 }
-//                 if (albumBdd && figuId) {
-//                     console.log(figuId)
-                    
-//                     const figuEncontrada = figuritas.find(figu => figu.NUM === figuId)
-//                     let cant = getStockProveedores(figuEncontrada)
-//                     console.log(figuId," cant:",cant)
-//                     await actualizarStock(publi.body.id, publi.body.seller_id, cant)
-//                 }
-//             }
-//         }
-//     }
-// })
+    const figuritas = await obtenerFiguritas("mundialUsa2026")
+    interfazMaxCant("asd", figuritas, "mundialUsa2026")
+})
+const ordenCant = document.getElementById("ordenCant")
+ordenCant.addEventListener("click", async () => {
+    const figuritas = await obtenerFigusMayorStock("mundialUsa2026")
+    interfazMaxCant("asd", figuritas, "mundialUsa2026")
+})

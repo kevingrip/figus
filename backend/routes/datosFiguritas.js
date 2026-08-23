@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { obtenerModeloFiguritas } from "../models/modeloFigu.js";
+import { getFiguritas, getFiguritasMayores } from "../services/accionesFiguritas.js";
 
 const router = Router({ mergeParams: true });
 
@@ -21,12 +22,36 @@ router.get("/", async (req, res) => {
             return res.status(404).json({ error: "Álbum inexistente" });
         }
 
-        const modelo = obtenerModeloFiguritas(req.params.album);
+        const figuritas = await getFiguritas(req.params.album)
 
-        const cantidad = await modelo.countDocuments();
-        console.log("Cantidad:", cantidad);
+        res.json(figuritas);
 
-        const figuritas = await modelo.find().lean();
+
+
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: error.message });
+    }
+});
+
+router.get("/mayores", async (req, res) => {
+    try {
+        const album = req.params.album
+
+        const albumes = [
+            "mundialUsa2026",
+            "mundialQatar2022",
+            "futbolArgentino2023",
+            "futbolArgentino2024",
+            "libertadores2023",
+            "copaAmerica2024"
+        ]
+
+        if (!albumes.includes(album)) {
+            return res.status(404).json({ error: "Álbum inexistente" });
+        }
+
+        const figuritas = await getFiguritasMayores(req.params.album)
 
         res.json(figuritas);
 
