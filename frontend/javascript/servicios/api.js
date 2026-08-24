@@ -85,6 +85,7 @@ export const obtenerVentasML = async () => {
 }
 
 export const guardarPreguntaML = async (figusEnStock, figusSinStock, vendedor, cliente, albumConsulta, fecha, albumReal, mla) => {
+    console.log("guardar: ",figusEnStock)
     const preguntaMDB = await fetch(`${api}/preguntamdb/guardar`, {
         method: "POST",
         headers: {
