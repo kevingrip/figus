@@ -31,6 +31,7 @@ const responderPregunta = async ({ elementPregunta, idPregunta, valorMensaje, ve
 const cargarPreguntaMDB = async (figusEnStock, figusSinStock, vendedor, cliente, albumConsulta, fecha, albumReal, mla) => {
     try {
         if (figusEnStock){
+            console.log(figusEnStock)
             const preguntambd = await guardarPreguntaML(figusEnStock, figusSinStock, vendedor, cliente, albumConsulta, fecha, albumReal, mla)
         }        
     } catch (error) {
