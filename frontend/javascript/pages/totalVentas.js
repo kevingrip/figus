@@ -554,7 +554,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
             let totalPrecioVentaML = 0;
             const ventasFiltradas = vendedor ? ventasML.filter(venta => seller_name(venta.data.seller) === vendedor) : ventasML
             ventasFiltradas.forEach(ventameli => {
-
+                
                 const existeVenta = ventasMDB.some(
                     venta => String(venta.VENTAID) === String(ventameli.pack_id)
                 );
@@ -562,6 +562,8 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 if (existeVenta) {
                     return;
                 }
+
+                console.log(ventameli)
                 const contenedorML = document.createElement("div")
                 contenedorML.style.backgroundColor = "white"
 
