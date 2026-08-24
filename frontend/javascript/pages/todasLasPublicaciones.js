@@ -77,7 +77,7 @@ export const todasLasPublicaciones = async () => {
 
 
 
-            const sumarStock = await fetch(`${api}/mercadolibre/publicaciones/${publicacion.id}`, {
+            const sumarStock = await fetch(`${api}/mercadolibre/publicaciones/actualizar-stock/${publicacion.id}`, {
                 method: "PATCH",
                 headers: {
                     "Content-Type": "application/json"
@@ -100,7 +100,7 @@ export const todasLasPublicaciones = async () => {
 
             const nuevoStock = stockActual - 1;
 
-            const sumarStock = await fetch(`${api}/mercadolibre/publicaciones/${publicacion.id}`, {
+            const sumarStock = await fetch(`${api}/mercadolibre/publicaciones/actualizar-stock/${publicacion.id}`, {
                 method: "PATCH",
                 headers: {
                     "Content-Type": "application/json"
