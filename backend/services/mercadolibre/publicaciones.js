@@ -201,7 +201,7 @@ export const sincronizarStock = async () => {
     const figuritas = await obtenerModeloFiguritas("mundialUsa2026")
 
     for (const publi of items) {
-        if ([1331424923778706, 3406057476164753].includes(publi.body.family_id)) {
+        if ([1331424923778706, 3406057476164753, 7115922794008337].includes(publi.body.family_id)) {
             let figuId;
             for (const atributo of publi.body.attributes) {
 

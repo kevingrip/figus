@@ -4,7 +4,7 @@ export const crearCardFigurita = (figu) => {
     cardData.style.display = "flex";
     cardData.style.flexDirection = "column";
     cardData.style.alignItems = "center";
-    cardData.style.width = "60px";
+    cardData.style.width = "65px";
     cardData.style.border = "1px solid black";
     cardData.style.boxSizing = "border-box";
 
@@ -80,7 +80,7 @@ function ajustarAltura(card) {
     if (window.innerWidth < 768) {
         card.style.minHeight = "75px";
     } else {
-        card.style.minHeight = "85px";
+        card.style.minHeight = "75px";
     }
     card.style.height = "auto";
 }

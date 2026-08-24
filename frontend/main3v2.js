@@ -305,14 +305,16 @@ window.addEventListener("load", async () => {
 })
 
 const botonMaxStock = document.getElementById("botonMundialUsaMax")
-botonMaxStock.addEventListener("click", async () => {
-    console.log("click")
+if (botonMaxStock) {
+    botonMaxStock.addEventListener("click", async () => {
+        console.log("click")
 
-    const figuritas = await obtenerFiguritas("mundialUsa2026")
-    interfazMaxCant("asd", figuritas, "mundialUsa2026")
-})
-const ordenCant = document.getElementById("ordenCant")
-ordenCant.addEventListener("click", async () => {
-    const figuritas = await obtenerFigusMayorStock("mundialUsa2026")
-    interfazMaxCant("asd", figuritas, "mundialUsa2026")
-})
+        const figuritas = await obtenerFiguritas("mundialUsa2026")
+        interfazMaxCant("asd", figuritas, "mundialUsa2026")
+    })
+    const ordenCant = document.getElementById("ordenCant")
+    ordenCant.addEventListener("click", async () => {
+        const figuritas = await obtenerFigusMayorStock("mundialUsa2026")
+        interfazMaxCant("asd", figuritas, "mundialUsa2026")
+    })
+}
