@@ -30,7 +30,9 @@ const responderPregunta = async ({ elementPregunta, idPregunta, valorMensaje, ve
 
 const cargarPreguntaMDB = async (figusEnStock, figusSinStock, vendedor, cliente, albumConsulta, fecha, albumReal, mla) => {
     try {
-        const preguntambd = await guardarPreguntaML(figusEnStock, figusSinStock, vendedor, cliente, albumConsulta, fecha, albumReal, mla)
+        if (figusEnStock){
+            const preguntambd = await guardarPreguntaML(figusEnStock, figusSinStock, vendedor, cliente, albumConsulta, fecha, albumReal, mla)
+        }        
     } catch (error) {
 
     }
