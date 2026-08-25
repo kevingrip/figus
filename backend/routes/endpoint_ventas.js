@@ -5,6 +5,7 @@ import Venta from "../models/modeloVenta.js";
 import Venta_ML from "../models/modeloVentaML.js"
 import { seller_name } from "../../frontend/javascript/utilidades/nombres.js";
 import multer from "multer";
+import { totalNetoUsuario, totalVendedoresVentas } from "../services/accionesVentas.js";
 const router = Router();
 
 const upload = multer({
@@ -60,7 +61,7 @@ router.get("/ventaml", async (req, res) => {
                             seller: token.seller,
                             sort: "date_desc",
                             limit: 50,
-                            "order.date_created.from": "2026-07-22T00:00:00.000-03:00"
+                            "order.date_created.from": "2026-07-14T00:00:00.000-03:00"
                         }
                     }
                 );
@@ -101,7 +102,7 @@ router.get("/ventaml", async (req, res) => {
                     variante: []
                 }
                 orden.order_items.forEach(variante => {
-                    venta.variante.push({ mla: variante.item.id, titulo: variante.item.title, cantidad: variante.quantity , precio: variante.unit_price})
+                    venta.variante.push({ mla: variante.item.id, titulo: variante.item.title, cantidad: variante.quantity, precio: variante.unit_price })
                 })
 
                 ordenes_data.push(venta)
@@ -198,7 +199,7 @@ router.post("/ml_to_mdb", async (req, res) => {
     }
 });
 
-router.post("/pagoneto/:id",async(req,res)=>{
+router.post("/pagoneto/:id", async (req, res) => {
     try {
         const venta = await Venta.findOne({ VENTAID: req.params.id });
         if (!venta) {
@@ -223,7 +224,7 @@ router.post("/pagoneto/:id",async(req,res)=>{
     }
 })
 
-router.post("/agregarimg/:id", upload.single("imagen"), async (req,res) =>{
+router.post("/agregarimg/:id", upload.single("imagen"), async (req, res) => {
     try {
         const venta = await Venta.findOne({ VENTAID: req.params.id });
 
@@ -257,6 +258,20 @@ router.post("/agregarimg/:id", upload.single("imagen"), async (req,res) =>{
             mensaje: "Error al guardar la imagen"
         });
     }
+})
+
+router.get("/importe_neto/:usuario", async (req, res) => {
+    try {
+        const total = await totalNetoUsuario(req.params.usuario)
+        res.json(total)
+    } catch (error) {
+        console.error("No se pudo obtener el total neto",error)
+    }
+})
+
+router.get("/vendedores-filtrado", async(req,res)=>{
+    const vendedores = await totalVendedoresVentas()
+    res.json(vendedores)
 })
 
 export default router;

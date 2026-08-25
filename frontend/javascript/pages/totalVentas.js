@@ -2,7 +2,7 @@ import { api } from "../../config.js";
 import { ordenarAlfabeticamente } from "../utilidades/ordenarAlfabeticamente.js";
 import { albumName, nombrePublicacion, seller_name } from "../utilidades/nombres.js";
 import { fechaArgentina, precioArgentino } from "../utilidades/conversionesArg.js";
-import { obtenerFiguritas, obtenerFiguritasOrderCant, importarImagenPagoNeto, agregarPagoNeto } from "../servicios/api.js";
+import { obtenerFiguritas, obtenerFiguritasOrderCant, importarImagenPagoNeto, agregarPagoNeto, obtenerDatosEnvios, envioPagado, obtenerTotalNeto, obtenerVendedoresVentas } from "../servicios/api.js";
 import { crearVenta } from "./buscarFigus/elementoVenta.js";
 
 const contenedorImagen = (album, ventaid) => {
@@ -142,6 +142,7 @@ const figuGrande = (figu, contenedorFiguGrande) => {
 }
 
 export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, botonesElement, elementPrecioVenta) => {
+    const envios = await obtenerDatosEnvios()
     const totalVendido = document.createElement("h3")
     const totalVendidoNeto = document.createElement("h4")
     totalVendido.style.display = "flex"
@@ -173,7 +174,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 boton.style.margin = "10px"
                 botonesVendedores.appendChild(boton)
 
-                boton.addEventListener("click", () => {
+                boton.addEventListener("click", async() => {
                     contenedorVentasMDB = []
                     contenedorVentasML = []
                     totalVentasElement.innerHTML = ""
@@ -189,7 +190,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                     let precioML = totalVentasML(vendedorSeleccionado)
                     juntarVentas()
                     totalVendido.textContent = `Total Vendido: ${precioArgentino(precioMDB + precioML)}`;
-                    totalVendidoNeto.textContent = `Total Neto: ${precioArgentino(precioNeto)}`;
+                    totalVendidoNeto.textContent = `Total Neto: ${precioArgentino(await obtenerTotalNeto(vendedor))}`;
                     if (!["TODAS", "ARI", "LULY"].includes(vendedor)) {
                         elementPrecioVenta.appendChild(totalVendidoNeto)
                     }
@@ -298,6 +299,37 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
                     ventasML.forEach(ventameli => {
                         if (ventameli.pack_id === venta.VENTAID) {
+
+                            const envioRealizado = envios.find(envio => envio.ventaid === venta.VENTAID)
+                            const contenedorEnvio = document.createElement("div")
+                            if (envioRealizado){ 
+                                contenedorEnvio.style.border="1px solid black"  
+                                contenedorEnvio.style.padding="10px"                               
+                                const nombreEnvio = document.createElement("div")
+                                const sectorEnvio = document.createElement("div")
+                                nombreEnvio.textContent=`Envio: ${envioRealizado.envio}`
+                                sectorEnvio.textContent=`Zona: ${envioRealizado.zona}`
+                                const botonEnvio = document.createElement("button")
+                                const botonVendedores = document.createElement("div")
+                                if (envioRealizado.pagar===false){                                    
+                                    
+                                    botonEnvio.textContent="DESCONTAR PAGO FLEX"
+                                    botonEnvio.addEventListener("click",async()=>{
+
+                                        const vendedoresVenta = await obtenerVendedoresVentas()
+                                        vendedoresVenta.forEach(vendedor=>{
+                                            const boton = document.createElement("button")
+                                            boton.textContent=vendedor
+                                            botonVendedores.append(boton)
+                                            boton.addEventListener("click",async ()=>{
+                                                await envioPagado(venta.VENTAID,vendedor)
+                                            })
+                                        })                                        
+                                    })
+                                }
+                                contenedorEnvio.append(nombreEnvio,sectorEnvio,botonEnvio,botonVendedores)
+                            }
+
                             const fecha_venta = new Date(ventameli.data.date_created);
 
                             const fecha_limite = new Date(fecha_venta);
@@ -349,7 +381,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                                 totalNeto.textContent = `Total Neto: ${precioArgentino(venta.IMPORTE_NETO)}`
                                 neto += venta.IMPORTE_NETO
                             }
-                            contenedorInfo2.append(ventaid, fechaVenta, cliente, totalVenta, totalNeto, variantes)
+                            contenedorInfo2.append(ventaid, fechaVenta, cliente, totalVenta, totalNeto, contenedorEnvio,variantes)
                         }
                     })
 
@@ -502,7 +534,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                     contenedorVenta.style.backgroundColor = "rgba(76, 187, 81, 0.77)"
                 }
 
-                const infoCentral = document.createElement("div")
+                const infoCentral = document.createElement("div")                
                 infoCentral.append(contenedorInfo2, contenedorPAGO)
                 infoCentral.style.display = "flex"
 
@@ -563,7 +595,6 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                     return;
                 }
 
-                console.log(ventameli)
                 const contenedorML = document.createElement("div")
                 contenedorML.style.backgroundColor = "white"
 

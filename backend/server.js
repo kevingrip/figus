@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
-import ventasRoutes from "./routes/ventas.js"
+import ventasRoutes from "./routes/endpoint_ventas.js"
 import datosFiguritas from "./routes/datosFiguritas.js"
 import proveedores from "./routes/proveedores.js"
 import dotenv from "dotenv";
@@ -11,7 +11,7 @@ import mercadoLibreRoutes from "./routes/rutas_ml.js"
 import fechasPublicaciones from "./routes/fechasPublicaciones.js";
 import preguntas_mercadolibre from "./routes/preguntasGuardadas.js"
 import { sincronizarStock } from "./services/mercadolibre/publicaciones.js";
-
+import datosEnvios from "./routes/endpoint_envios.js"
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -60,10 +60,13 @@ app.use("/proveedores",proveedores)
 
 app.use("/mercadolibre", mercadoLibreRoutes);
 
+app.use("/envios",datosEnvios)
+
 try {
     console.log("Iniciando sincronización de stock...");
-    await sincronizarStock()
+    //await sincronizarStock()
     console.log("Stock sincronizado correctamente");
+    console.log(`http://localhost/${PORT}/`)
 
 } catch (error) {
     console.error("Error sincronizando stock:", error);

@@ -85,7 +85,7 @@ export const obtenerVentasML = async () => {
 }
 
 export const guardarPreguntaML = async (figusEnStock, figusSinStock, vendedor, cliente, albumConsulta, fecha, albumReal, mla) => {
-    console.log("guardar: ",figusEnStock)
+    console.log("guardar: ", figusEnStock)
     const preguntaMDB = await fetch(`${api}/preguntamdb/guardar`, {
         method: "POST",
         headers: {
@@ -234,4 +234,36 @@ export const setActivePublicacion = async (mla, seller_id, status) => {
 export const obtenerFigusMayorStock = async (album) => {
     const res = await fetch(`${api}/album/${album}/mayores`);
     return await res.json();
+}
+
+export const obtenerDatosEnvios = async () => {
+    const envios = await fetch(`${api}/envios`)
+    return await envios.json()
+}
+
+export const envioPagado = async (ventaid,usuario) => {
+
+    const pagar = await fetch(`${api}/envios/confirmarpago/${ventaid}/${usuario}`,
+        {
+            method: "PATCH"
+        }
+    )
+
+    if (!pagar.ok) {
+        throw new Error("No se pudo confirmar el pago");
+    }
+
+    console.log("Pago confirmado:",ventaid);
+}
+
+export const obtenerTotalNeto = async (usuario) =>{
+    const respuesta = await fetch(`${api}/ventas/importe_neto/${usuario}`)
+    const totalNeto = respuesta.json()
+    return totalNeto;
+}
+
+export const obtenerVendedoresVentas = async()=>{
+    const respuesta = await fetch(`${api}/ventas/vendedores-filtrado`)
+    const totalVendedores = respuesta.json()
+    return totalVendedores
 }
