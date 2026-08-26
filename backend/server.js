@@ -64,7 +64,7 @@ app.use("/envios",datosEnvios)
 
 try {
     console.log("Iniciando sincronización de stock...");
-    //await sincronizarStock()
+    await sincronizarStock()
     console.log("Stock sincronizado correctamente");
     console.log(`http://localhost/${PORT}/`)
 

@@ -3,7 +3,7 @@ import { obtenerOrden } from "../services/mercadolibre/ordenes.js";
 import { obtenerPreguntasSinResponder } from "../services/mercadolibre/preguntas.js";
 import { responderPregunta } from "../services/mercadolibre/respuestas.js";
 import { obtenerPreguntasConHistorial } from "../services/mercadolibre/preguntasConHistorial.js";
-import { activarPublicacion, estadoPublicacion,modificarPrecio,modificarStock, obtenerPublicacion,actualizarFecha } from "../services/mercadolibre/publicaciones.js";
+import { activarPublicacion, estadoPublicacion,modificarPrecio,modificarStock, getPublicacion,actualizarFecha } from "../services/mercadolibre/publicaciones.js";
 
 const router = express.Router();
 
@@ -145,7 +145,7 @@ router.get("/publicaciones/item/:mla", async (req,res)=>{
         const { mla } = req.params
         const { seller_id } = req.query;
 
-        const publicacion = await obtenerPublicacion(mla,seller_id)
+        const publicacion = await getPublicacion(mla,seller_id)
         res.json(publicacion)
     } catch (error) {
         console.log(error.response?.data || error.message);

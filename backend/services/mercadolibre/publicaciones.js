@@ -173,7 +173,7 @@ export const actualizarFecha = async (mla, fecha, vendedor) => {
     );
 }
 
-export const obtenerPublicacion = async (mla, sellerid) => {
+export const getPublicacion = async (mla, sellerid) => {
     const tokens = await obtenerToken();
 
     const token = tokens.find(
@@ -189,9 +189,7 @@ export const obtenerPublicacion = async (mla, sellerid) => {
         }
     );
 
-
     return publicacion;
-
 };
 
 export const sincronizarStock = async () => {
@@ -215,14 +213,19 @@ export const sincronizarStock = async () => {
                     NUM: figuId
                 }).lean();
 
-                let cant = await obtenerCantidadFigurita("mundialUsa2026", figuId)
-                console.log(figuId, " cant:", cant)
+                let cantMDB = await obtenerCantidadFigurita("mundialUsa2026", figuId)
+                let cantML = publi.body.available_quantity
 
-                await modificarStock(
-                    publi.body.id,
-                    publi.body.seller_id,
-                    cant
-                )
+                if (cantMDB < cantML) {
+                    console.log(figuId, " cant:", cantMDB)
+                    await modificarStock(
+                        publi.body.id,
+                        publi.body.seller_id,
+                        cantMDB
+                    )
+                } else if (cantMDB > cantML){
+                    
+                }
             }
         }
     }
