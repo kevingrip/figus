@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos, obtenerFigusMayorStock } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos, obtenerFigusMayorStock, obtenerVentasFlex, obtenerTotalNeto, obtenerVendedoresVentas } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -12,6 +12,7 @@ import { crearVenta } from "./javascript/pages/buscarFigus/elementoVenta.js";
 import { api } from "./config.js";
 import { getStockProveedores } from "./javascript/utilidades/stockTotal.js";
 import { interfazMaxCant } from "./javascript/pages/interfazMaxCant.js";
+import { pageVentasFlex } from "./javascript/pages/pageVentasFlex/pageVentasFlex.js";
 
 async function actualizarFechasPublicaciones() {
     try {
@@ -321,3 +322,14 @@ if (botonMaxStock) {
         interfazMaxCant("asd", figuritas, "mundialUsa2026")
     })
 }
+
+window.addEventListener("load", async () => {
+    if (window.location.pathname.endsWith("/ventas_flex.html")) {
+        const netoKevin = await obtenerTotalNeto("KEVIN")
+        const netoMati = await obtenerTotalNeto("MATI")
+        const listaVendedores = await obtenerVendedoresVentas()
+        const flex = await obtenerVentasFlex()
+        pageVentasFlex(flex,netoKevin,netoMati,listaVendedores)
+    }
+
+})
