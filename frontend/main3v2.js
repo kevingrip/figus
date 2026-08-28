@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos, obtenerFigusMayorStock, obtenerVentasFlex, obtenerTotalNeto, obtenerVendedoresVentas } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos, obtenerFigusMayorStock, obtenerVentasFlex, obtenerTotalNeto, obtenerVendedoresVentas, obtenerListaTransportistas } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -12,7 +12,7 @@ import { crearVenta } from "./javascript/pages/buscarFigus/elementoVenta.js";
 import { api } from "./config.js";
 import { getStockProveedores } from "./javascript/utilidades/stockTotal.js";
 import { interfazMaxCant } from "./javascript/pages/interfazMaxCant.js";
-import { pageVentasFlex } from "./javascript/pages/pageVentasFlex/pageVentasFlex.js";
+import { pageEnviosFlex } from "./javascript/pages/pageEnviosFlex/pageEnviosFlex.js";
 
 async function actualizarFechasPublicaciones() {
     try {
@@ -202,6 +202,13 @@ if (elementVentas) {
     await totalVentas(ventasMDB, ventasML, elementVentas, elementBotonesVenta, elementPrecioVenta);
 }
 
+window.addEventListener("load", async () => {
+
+    if (window.location.pathname.endsWith("/todaslasventas.html")) {
+        await totalVentas(ventasMDB, ventasML, elementVentas, elementBotonesVenta, elementPrecioVenta);
+    }
+})
+
 const botonStockLuly = document.getElementById("botonStockLuly")
 botonStockLuly?.addEventListener("click", async () => {
     const stockLuly = await obtenerFiguritas("mundialUsa2026")
@@ -324,12 +331,10 @@ if (botonMaxStock) {
 }
 
 window.addEventListener("load", async () => {
-    if (window.location.pathname.endsWith("/ventas_flex.html")) {
-        const netoKevin = await obtenerTotalNeto("KEVIN")
-        const netoMati = await obtenerTotalNeto("MATI")
+    if (window.location.pathname.endsWith("/envios_flex.html")) {
         const listaVendedores = await obtenerVendedoresVentas()
-        const flex = await obtenerVentasFlex()
-        pageVentasFlex(flex,netoKevin,netoMati,listaVendedores)
+        const listaTransportistas = await obtenerListaTransportistas()
+        const envios = await obtenerVentasFlex()
+        pageEnviosFlex(envios,listaVendedores,listaTransportistas)
     }
-
 })

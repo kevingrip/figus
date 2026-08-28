@@ -6,6 +6,21 @@ export const getEnvios = async () => {
     return envios
 }
 
+export const getTransportistas = async() =>{
+    const enviosPagados = await getEnvios()
+    const transportistas = new Set()
+    const fechaComienzo = new Date("2026-07-15T00:00:00");
+
+    enviosPagados.forEach(orden=>{
+        if (orden.envio && new Date(orden.fechaEntrega)>fechaComienzo){
+            transportistas.add(orden.envio)
+        }
+        
+    })
+
+    return [...transportistas]
+}
+
 export const confirmarPago = async (venta_id,usuario)=>{
     const envios = await getEnvios()
     const venta = envios.find(envio=>envio.ventaid===Number(venta_id))

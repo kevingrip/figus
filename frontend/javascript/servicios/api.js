@@ -272,3 +272,9 @@ export const obtenerVendedoresVentas = async()=>{
     const totalVendedores = respuesta.json()
     return totalVendedores
 }
+
+export const obtenerListaTransportistas = async () =>{
+    const respuesta = await fetch(`${api}/envios/transportistas`)
+    const totalTransportistas = respuesta.json()
+    return totalTransportistas
+}

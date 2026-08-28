@@ -248,11 +248,11 @@ export const getVentasPaginadasML = async () => {
 }
 
 export const getVentasFlex = async () => {
-    const ventas = await getVentas()
+    const ventasMDB = await getVentas()
     const ventasML = await getVentasPaginadasML()
-    const enviosPagados = await getEnvios()    
+    const enviosPagados = await getEnvios()
 
-    const ventasEnvios = ventas.map(venta => {
+    const ordenesMDB = ventasMDB.map(venta => {
 
         const envio = enviosPagados.find(
             envio => envio.ventaid === venta.VENTAID
@@ -268,21 +268,22 @@ export const getVentasFlex = async () => {
     })
         .filter(Boolean);
 
-    const ventasMLObj = ventasML.map(venta=>{
+
+    const ventasMLObj = ventasML.map(venta => {
         return {
-            VENTAID:venta.pack_id,
+            VENTAID: venta.pack_id,
             PRECIO: venta.data.total_amount,
-            ENVIO : "",
-            DIA : venta.data.date_created,
-            CUENTA : nombreSeller(venta.data.seller)
+            ENVIO: "",
+            DIA: venta.data.date_created,
+            CUENTA: nombreSeller(venta.data.seller),
+            PRODUCTO: venta.data.nombre
         }
     })
 
 
-    const ventasMLEnvios = ventasMLObj
+    const ordenesML = ventasMLObj
         .map(ventaML => {
-            if (!ventas.some(item => item.VENTAID === ventaML.VENTAID)){
-                const envio = enviosPagados.find(
+            const envio = enviosPagados.find(
                 envio => envio.ventaid === ventaML.VENTAID
             );
 
@@ -294,17 +295,25 @@ export const getVentasFlex = async () => {
                 venta: ventaML,
                 envio
             };
-            }
-            
-        })
-        .filter(Boolean); 
-    
-    
 
-    return [
-        ...ventasEnvios,
-        ...ventasMLEnvios
-    ];
+        })
+        .filter(Boolean);
+
+
+    // Set, set , hashSet
+    const mapaVentas = new Map();    
+ 
+    ordenesMDB.forEach(orden=>{
+        mapaVentas.set(orden.venta.VENTAID, orden)
+    })
+    
+    ordenesML.forEach(orden => {
+        mapaVentas.set(orden.venta.VENTAID, orden);
+    });    
+
+    const ventasFinales = [...mapaVentas.values()];
+
+    return ventasFinales
 }
 
 export const totalNetoUsuario = async (usuario) => {
