@@ -356,7 +356,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                             ventaid.textContent = `VENTA ID: ${ventameli.pack_id}`
                             ventaid.href = `https://vendedores.mercadolibre.com.ar/ventas/${ventameli.pack_id}/detalle`
                             fechaVenta.textContent = `Fecha Venta Mercadolibre: ${fechaArgentina(ventameli.data.date_created)} hs`
-                            cliente.textContent = `Cliente: ${ventameli.data.buyer}`
+                            cliente.textContent = `Cliente: ${ventameli.data.buyer} / ${ventameli.data.buyer_id}`
                             const variantes = document.createElement("div")
                             ventameli.data.variante.forEach(variante => {
                                 costoVenta += (variante.precio * variante.cantidad)
@@ -586,7 +586,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
             let totalPrecioVentaML = 0;
             const ventasFiltradas = vendedor ? ventasML.filter(venta => seller_name(venta.data.seller) === vendedor) : ventasML
             ventasFiltradas.forEach(ventameli => {
-                
+                //console.log(ventameli)
                 const existeVenta = ventasMDB.some(
                     venta => String(venta.VENTAID) === String(ventameli.pack_id)
                 );
@@ -636,7 +636,7 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                 ventaid.textContent = `VENTA ID: ${ventameli.pack_id}`
                 ventaid.href = `https://vendedores.mercadolibre.com.ar/ventas/${ventameli.pack_id}/detalle`
                 fechaVenta.textContent = `Fecha Venta Mercadolibre: ${fechaArgentina(ventameli.data.date_created)} hs`
-                cliente.textContent = `Cliente: ${ventameli.data.buyer}`
+                cliente.textContent = `Cliente: ${ventameli.data.buyer} / ${ventameli.data.buyer_id}`
                 const variantes = document.createElement("div")
                 ventameli.data.variante.forEach(variante => {
                     if (!ventameli.data?.cancel_detail) {
