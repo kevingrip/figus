@@ -66,7 +66,7 @@ try {
     console.log("Iniciando sincronización de stock...");
     await sincronizarStock()
     console.log("Stock sincronizado correctamente");
-    console.log(`http://localhost/${PORT}/`)
+    console.log(`http://localhost:${PORT}/`)
 
 } catch (error) {
     console.error("Error sincronizando stock:", error);

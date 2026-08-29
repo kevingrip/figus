@@ -176,10 +176,9 @@ export const getVentasPaginadasML = async () => {
     });
 
     const ordenes_data = []
-
     ordenes.forEach(orden => {
         orden.payments.forEach(data => {
-
+            
             const venta = {
                 order_id: data.order_id,
                 pack_id: orden.pack_id,
@@ -190,8 +189,10 @@ export const getVentasPaginadasML = async () => {
                 buyer: orden.buyer.nickname,
                 buyer_id: orden.buyer.id,
                 seller: orden.seller.id,
+                seller_id: orden.seller.nickname,
                 cancel_detail: orden?.cancel_detail?.date,
                 nombre: data.reason,
+                cumplido:orden.fulfilled,
                 variante: []
             }
             orden.order_items.forEach(variante => {
@@ -217,8 +218,10 @@ export const getVentasPaginadasML = async () => {
                 buyer: orden.buyer,
                 buyer_id: orden.buyer_id,
                 seller: orden.seller,
+                seller_id: orden.seller_id,
                 cancel_detail: orden?.cancel_detail,
                 nombre: orden.nombre,
+                cumplido:orden.cumplido,
                 variante: orden.variante
             }
         }

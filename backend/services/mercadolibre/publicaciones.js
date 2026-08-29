@@ -2,7 +2,11 @@ import axios from "axios";
 import { obtenerToken } from "../token/obtenerToken.js";
 import { obtenerFechaLimite } from "../../models/modeloGuardarFecha.js";
 import { obtenerModeloFiguritas } from "../../models/modeloFigu.js";
-import { obtenerCantidadFigurita } from "../accionesFiguritas.js";
+import { descontarFiguritaMDB, obtenerCantidadFigurita } from "../accionesFiguritas.js";
+import { getVentasPaginadasML } from "../accionesVentas.js";
+import { seller_name } from "../../../frontend/javascript/utilidades/nombres.js";
+import { nombrePublicacion } from "../../utilidades/nombres.js";
+import Venta from "../../models/modeloVenta.js"
 
 export const estadoPublicacion = async () => {
     const tokens = await obtenerToken();
@@ -201,6 +205,7 @@ export const sincronizarStock = async () => {
     for (const publi of items) {
         if ([1331424923778706, 3406057476164753, 7115922794008337].includes(publi.body.family_id)) {
             let figuId;
+            const figusVendidas = []
             for (const atributo of publi.body.attributes) {
 
                 if (atributo.id === "CHARACTER") {
@@ -223,8 +228,48 @@ export const sincronizarStock = async () => {
                         publi.body.seller_id,
                         cantMDB
                     )
-                } else if (cantMDB > cantML){
-                    
+                } else if (cantMDB > cantML) {
+                    console.log(figuId, " cant:", cantMDB)
+                    const ventasML = await getVentasPaginadasML()
+                    for (const venta of ventasML) {
+                        for (const datoVariante of venta.data.variante) {
+                            if (datoVariante.mla === publi.body.id) {
+                                const numeroFigurita = publi.body.attributes.find(atributo => atributo.value_name === figuId)
+                                const nombreAlbum = publi.body.attributes.find(atributo => atributo.id === "ALBUM_NAME")
+                                const albumFormateado = nombrePublicacion(nombreAlbum.value_name)
+                                figusVendidas.push(figuEncontrada)
+                                const nuevaVenta = {
+                                    DIA: new Date(venta.data.date_created),
+                                    VENTAID: venta.pack_id,
+                                    VENDIDAS: figusVendidas,
+                                    FALTANTES: [],
+                                    PRECIO: venta.data.total_paid_amount,
+                                    CUENTA: seller_name(venta.data.seller),
+                                    ENVIO: "Sin Dato",
+                                    ALBUM: albumFormateado.bdd,
+                                    VERIFICADAS: false,
+                                    PAGADAS: false
+                                }
+                                try {
+                                    await Venta.findOneAndUpdate(
+                                        { VENTAID: nuevaVenta.VENTAID },
+                                        nuevaVenta,
+                                        {
+                                            upsert: true,
+                                            new: true
+                                        }
+                                    )
+                                    await descontarFiguritaMDB(albumFormateado.bdd,figuEncontrada,datoVariante.cantidad,true)
+
+                                    console.log("Venta creada y figu descontada")
+                                } catch (error) {
+                                    console.error("No se pudo crear/descontar venta",error)
+                                }
+
+                                console.log(venta.pack_id, venta.data.date_created, venta.data.total_paid_amount, numeroFigurita.value_name, datoVariante.cantidad, venta.data.seller, nombreAlbum.value_name)
+                            }
+                        }
+                    }
                 }
             }
         }

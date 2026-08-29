@@ -1,4 +1,5 @@
 import { obtenerModeloFiguritas } from "../models/modeloFigu.js";
+import { getProveedorMayorStock } from "../utilidades/cantidades.js";
 
 export const obtenerCantidadFigurita = async (album, figu) => {
 
@@ -50,7 +51,7 @@ export const getFiguritas = async (album) => {
     return figuritas
 }
 
-export const getFiguritasMayores = async (album) =>{
+export const getFiguritasMayores = async (album) => {
     const figuritas = await getFiguritas(album);
     const figuritas_ordenMayores = figuritas.sort((a, b) => {
 
@@ -70,4 +71,40 @@ export const getFiguritasMayores = async (album) =>{
     });
 
     return figuritas_ordenMayores
+}
+
+export const descontarFiguritaMDB = async (album, figu, cantidad, venta) => {
+    try {
+        let cant = cantidad ? cantidad * -1 : -1;
+
+        const modelo = await obtenerModeloFiguritas(album);
+        const proveedor = getProveedorMayorStock(figu)
+
+        const cantReal = `STOCK.${proveedor}.CANT`;
+        const cantHistorica = `STOCK.${proveedor}.CANT_HISTORICA`;
+
+        const inc = {
+            [cantReal]: cant
+        };
+
+        // Si NO es una venta, modificar también la histórica
+        if (venta !== true) {
+            inc[cantHistorica] = cant;
+        }
+
+        console.log("ANTES:", await modelo.findOne({ NUM: figu.NUM }));
+
+        const resultado = await modelo.findOneAndUpdate(
+            { NUM: figu.NUM },
+            { $inc: inc },
+            { returnDocument: "after" }
+        );
+
+        console.log("DESPUÉS:", resultado);
+
+    } catch (error) {
+
+        console.error(error);
+
+    }
 }

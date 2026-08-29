@@ -13,10 +13,13 @@ export const pageEnviosFlex = async (envios, vendedores, transportistas) => {
     botonesTransportistas.forEach(boton => {
         boton.style.backgroundColor = "white"
         boton.addEventListener("click", () => {
-            botonesTransportistas.forEach(boton=>boton.style.backgroundColor="white")
+            botonesTransportistas.forEach(boton => boton.style.backgroundColor = "white")
             boton.style.backgroundColor = "violet"
             transportistaSeleccionado = boton.textContent
-            const envios_filtrados = envios.filter(orden => orden.envio && (transportistaSeleccionado != "TODAS" ? (orden.envio.envio === transportistaSeleccionado) : true));
+            const envios_filtrados = envios.filter(orden => transportistaSeleccionado === "TODAS"
+                ? true
+                : orden.envio?.envio === transportistaSeleccionado);
+            console.log(envios_filtrados)
 
             getElementVentas.innerHTML = ""
             const datosTransporte = crearContenedorDatosTransporte(envios_filtrados)
@@ -27,12 +30,10 @@ export const pageEnviosFlex = async (envios, vendedores, transportistas) => {
                 getElementVentas.append(contenedorOrden)
             });
         })
-        if (boton.textContent==="TODAS") {
+        if (boton.textContent === "TODAS") {
             boton.click()
-        }else{
-            
         }
-        
+
     })
 
 
