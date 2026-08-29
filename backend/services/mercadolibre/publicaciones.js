@@ -253,17 +253,32 @@ export const sincronizarStock = async () => {
                                 try {
                                     await Venta.findOneAndUpdate(
                                         { VENTAID: nuevaVenta.VENTAID },
-                                        nuevaVenta,
+                                        {
+                                            $setOnInsert: {
+                                                DIA: nuevaVenta.DIA,
+                                                VENTAID: nuevaVenta.VENTAID,
+                                                FALTANTES: nuevaVenta.FALTANTES,
+                                                PRECIO: nuevaVenta.PRECIO,
+                                                CUENTA: nuevaVenta.CUENTA,
+                                                ENVIO: nuevaVenta.ENVIO,
+                                                ALBUM: nuevaVenta.ALBUM,
+                                                VERIFICADAS: nuevaVenta.VERIFICADAS,
+                                                PAGADAS: nuevaVenta.PAGADAS
+                                            },
+                                            $push: {
+                                                VENDIDAS: figuEncontrada
+                                            }
+                                        },
                                         {
                                             upsert: true,
-                                            new: true
+                                            returnDocument: "after"
                                         }
                                     )
-                                    await descontarFiguritaMDB(albumFormateado.bdd,figuEncontrada,datoVariante.cantidad,true)
+                                    await descontarFiguritaMDB(albumFormateado.bdd, figuEncontrada, datoVariante.cantidad, true)
 
                                     console.log("Venta creada y figu descontada")
                                 } catch (error) {
-                                    console.error("No se pudo crear/descontar venta",error)
+                                    console.error("No se pudo crear/descontar venta", error)
                                 }
 
                                 console.log(venta.pack_id, venta.data.date_created, venta.data.total_paid_amount, numeroFigurita.value_name, datoVariante.cantidad, venta.data.seller, nombreAlbum.value_name)
