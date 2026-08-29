@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { obtenerModeloFiguritas } from "../models/modeloFigu.js";
-import { getFiguritas, getFiguritasMayores } from "../services/accionesFiguritas.js";
+import { getAlbumFiguritas, getFiguritasMayores } from "../services/accionesFiguritas.js";
 
 const router = Router({ mergeParams: true });
 
@@ -22,7 +22,7 @@ router.get("/", async (req, res) => {
             return res.status(404).json({ error: "Álbum inexistente" });
         }
 
-        const figuritas = await getFiguritas(req.params.album)
+        const figuritas = await getAlbumFiguritas(req.params.album)
 
         res.json(figuritas);
 

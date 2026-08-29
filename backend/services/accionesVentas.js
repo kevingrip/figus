@@ -3,6 +3,8 @@ import modeloVenta from "../models/modeloVenta.js";
 import { getEnvios } from "./accionesEnvios.js";
 import { obtenerToken } from "./token/obtenerToken.js";
 import { nombreSeller } from "../utilidades/nombres.js";
+import { estadoPublicacion, getPublicacion, getPublicaciones } from "./mercadolibre/publicaciones.js";
+import { getFiguritaIndividual } from "./accionesFiguritas.js";
 
 export const getVentas = async () => {
     const ventas = await modeloVenta.find().sort({ DIA: -1 }).lean();
@@ -248,6 +250,20 @@ export const getVentasPaginadasML = async () => {
     const ordenes_finales = [...ordenes_mixed.values()];
 
     return ordenes_finales
+}
+
+export const getVentasPaginadasMLv2 = async ()=>{
+    const ventasML = await getVentasPaginadasML()
+    const publicaciones = await getPublicaciones()
+    for (const venta of ventasML){
+        for (const vendido of venta.data.variante){
+            const publicacionFiltrada = publicaciones.find(item => item.id === vendido.mla)
+            vendido.album = publicacionFiltrada?.album                  
+            vendido.figurita = publicacionFiltrada?.figurita 
+                             
+        }
+    }
+    return ventasML
 }
 
 export const getVentasFlex = async () => {

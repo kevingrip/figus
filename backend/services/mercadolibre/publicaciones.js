@@ -83,6 +83,87 @@ export const estadoPublicacion = async () => {
     return { filtered_publicaciones, items }
 };
 
+export const getPublicaciones = async () =>{
+    const tokens = await obtenerToken();
+    const filtered_publicaciones = []
+    const items = [];
+    for (const token of tokens) {
+        // Obtengo los IDs
+        const { data } = await axios.get(
+            `https://api.mercadolibre.com/users/${token.seller}/items/search`,
+            {
+                headers: {
+                    Authorization: `Bearer ${token.access_token}`
+                },
+                params: {
+                    orders: "last_updated_desc",
+                    limit: 100
+                }
+            }
+        );
+
+        const ids = data.results;
+
+
+        for (let i = 0; i < ids.length; i += 20) {
+            const lote = ids.slice(i, i + 20);
+
+            const { data } = await axios.get(
+                `https://api.mercadolibre.com/items?ids=${lote.join(",")}`,
+                {
+                    headers: {
+                        Authorization: `Bearer ${token.access_token}`
+                    }
+                }
+            );
+
+            items.push(...data);
+        }
+
+
+        for (const item of items) {
+            
+            const {
+                id,
+                title,
+                seller_id,
+                price,
+                available_quantity,
+                permalink,
+                pictures,
+                status,
+                date_created,
+                thumbnail,
+                attributes
+            } = item.body;
+
+            const album_find = attributes?.find(variante => variante.id === "ALBUM_NAME")
+            const figu_find = attributes?.find(variante => variante.id === "CHARACTER")
+
+            filtered_publicaciones.push({
+                id,
+                title,
+                seller_id,
+                price,
+                available_quantity,
+                permalink,
+                status,
+                date_created,
+                thumbnail: pictures?.[0]?.secure_url,
+                album: album_find?.value_name,
+                figurita: figu_find?.value_name
+            })
+
+        }
+
+        filtered_publicaciones.sort(
+            (a, b) => new Date(b.last_updated) - new Date(a.last_updated)
+        );
+
+    }
+    return filtered_publicaciones
+}
+
 export const modificarStock = async (mla, seller_id, nuevoStock) => {
     try {
         const tokens = await obtenerToken();

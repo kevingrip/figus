@@ -13,6 +13,7 @@ import { api } from "./config.js";
 import { getStockProveedores } from "./javascript/utilidades/stockTotal.js";
 import { interfazMaxCant } from "./javascript/pages/interfazMaxCant.js";
 import { pageEnviosFlex } from "./javascript/pages/pageEnviosFlex/pageEnviosFlex.js";
+import { getVentasPaginadasML } from "../backend/services/accionesVentas.js";
 
 async function actualizarFechasPublicaciones() {
     try {
@@ -205,6 +206,7 @@ if (elementVentas) {
 window.addEventListener("load", async () => {
 
     if (window.location.pathname.endsWith("/todaslasventas.html")) {
+        await pageTotalVentas()
         await totalVentas(ventasMDB, ventasML, elementVentas, elementBotonesVenta, elementPrecioVenta);
     }
 })

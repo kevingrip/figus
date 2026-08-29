@@ -1,5 +1,6 @@
 import { obtenerModeloFiguritas } from "../models/modeloFigu.js";
 import { getProveedorMayorStock } from "../utilidades/cantidades.js";
+import { nombrePublicacion } from "../utilidades/nombres.js";
 
 export const obtenerCantidadFigurita = async (album, figu) => {
 
@@ -20,7 +21,7 @@ export const obtenerCantidadFigurita = async (album, figu) => {
         );
 };
 
-export const getFiguritas = async (album) => {
+export const getAlbumFiguritas = async (album) => {
 
     const modelo = obtenerModeloFiguritas(album);
 
@@ -52,7 +53,7 @@ export const getFiguritas = async (album) => {
 }
 
 export const getFiguritasMayores = async (album) => {
-    const figuritas = await getFiguritas(album);
+    const figuritas = await getAlbumFiguritas(album);
     const figuritas_ordenMayores = figuritas.sort((a, b) => {
 
         const cantidadA = Object.values(a.STOCK || {})
@@ -107,4 +108,12 @@ export const descontarFiguritaMDB = async (album, figu, cantidad, venta) => {
         console.error(error);
 
     }
+}
+
+export const getFiguritaIndividual = async(figu_NUM,album)=>{
+    const nombreAlbum = nombrePublicacion(album)
+    const album_figuritas = await getAlbumFiguritas(nombreAlbum.bdd)
+    return await album_figuritas.find(figu=>
+        figu.NUM === figu_NUM
+    )
 }

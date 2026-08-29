@@ -5,7 +5,7 @@ import Venta from "../models/modeloVenta.js";
 import Venta_ML from "../models/modeloVentaML.js"
 import { seller_name } from "../../frontend/javascript/utilidades/nombres.js";
 import multer from "multer";
-import { getVentasFlex, getVentasML, getVentasPaginadasML, totalNetoUsuario, totalVendedoresVentas } from "../services/accionesVentas.js";
+import { getVentasFlex, getVentasML, getVentasPaginadasML, getVentasPaginadasMLv2, totalNetoUsuario, totalVendedoresVentas } from "../services/accionesVentas.js";
 const router = Router();
 
 const upload = multer({
@@ -67,6 +67,24 @@ router.get("/ventaml/paginadas", async (req, res) => {
     try {
 
         const ordenes_finales = await getVentasPaginadasML()
+
+        res.json(ordenes_finales);
+
+    } catch (error) {
+
+        console.error(error);
+
+        res.status(500).json({
+            error: "Error obteniendo órdenes"
+        });
+    }
+});
+
+router.get("/ventaml/paginadas2", async (req, res) => {
+
+    try {
+
+        const ordenes_finales = await getVentasPaginadasMLv2()
 
         res.json(ordenes_finales);
 
