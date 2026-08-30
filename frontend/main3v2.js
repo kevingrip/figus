@@ -13,7 +13,6 @@ import { api } from "./config.js";
 import { getStockProveedores } from "./javascript/utilidades/stockTotal.js";
 import { interfazMaxCant } from "./javascript/pages/interfazMaxCant.js";
 import { pageEnviosFlex } from "./javascript/pages/pageEnviosFlex/pageEnviosFlex.js";
-import { getVentasPaginadasML } from "../backend/services/accionesVentas.js";
 
 async function actualizarFechasPublicaciones() {
     try {
