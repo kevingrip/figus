@@ -83,7 +83,7 @@ export const estadoPublicacion = async () => {
     return { filtered_publicaciones, items }
 };
 
-export const getPublicaciones = async () =>{
+export const getPublicaciones = async () => {
     const tokens = await obtenerToken();
     const filtered_publicaciones = []
     const items = [];
@@ -122,7 +122,6 @@ export const getPublicaciones = async () =>{
 
 
         for (const item of items) {
-            
             const {
                 id,
                 title,
@@ -134,12 +133,15 @@ export const getPublicaciones = async () =>{
                 status,
                 date_created,
                 thumbnail,
+                family_id,
                 attributes
             } = item.body;
 
             const album_find = attributes?.find(variante => variante.id === "ALBUM_NAME")
             const figu_find = attributes?.find(variante => variante.id === "CHARACTER")
-
+            const figu_NUM = figu_find?.value_name
+                ?.toUpperCase()
+                .replace(/\s/g, "")
             filtered_publicaciones.push({
                 id,
                 title,
@@ -150,8 +152,9 @@ export const getPublicaciones = async () =>{
                 status,
                 date_created,
                 thumbnail: pictures?.[0]?.secure_url,
+                family_id,
                 album: album_find?.value_name,
-                figurita: figu_find?.value_name
+                figurita: figu_NUM
             })
 
         }
@@ -278,45 +281,40 @@ export const getPublicacion = async (mla, sellerid) => {
 };
 
 export const sincronizarStock = async () => {
-    const publicaciones = await estadoPublicacion();
-    const items = publicaciones.items;
+    const publicaciones = await getPublicaciones();
 
     const figuritas = await obtenerModeloFiguritas("mundialUsa2026")
 
-    for (const publi of items) {
-        if ([1331424923778706, 3406057476164753, 7115922794008337].includes(publi.body.family_id)) {
+    for (const publi of publicaciones) {
+        if ([1331424923778706, 3406057476164753, 7115922794008337].includes(publi.family_id)) {
             let figuId;
+            publi.figurita==="00" ? figuId="FWC0":figuId=publi.figurita;
             const figusVendidas = []
-            for (const atributo of publi.body.attributes) {
-
-                if (atributo.id === "CHARACTER") {
-                    figuId = atributo.value_name === "00" ? "FWC0" : atributo.value_name
-                }
-            }
+            
             if (figuId) {
 
                 const figuEncontrada = await figuritas.findOne({
                     NUM: figuId
                 }).lean();
-
                 let cantMDB = await obtenerCantidadFigurita("mundialUsa2026", figuId)
-                let cantML = publi.body.available_quantity
+                let cantML = publi.available_quantity
+                //console.log("FIGU: ",figuId,"= Stock MDB: ",cantMDB, "/", "Stock ML:",cantML)
 
                 if (cantMDB < cantML) {
                     console.log(figuId, " cant:", cantMDB)
                     await modificarStock(
-                        publi.body.id,
-                        publi.body.seller_id,
+                        publi.id,
+                        publi.seller_id,
                         cantMDB
                     )
                 } else if (cantMDB > cantML) {
-                    console.log(figuId, " cant:", cantMDB)
+                    console.log(figuId, " cant mdb:", cantMDB)
                     const ventasML = await getVentasPaginadasML()
                     for (const venta of ventasML) {
                         for (const datoVariante of venta.data.variante) {
-                            if (datoVariante.mla === publi.body.id) {
-                                const numeroFigurita = publi.body.attributes.find(atributo => atributo.value_name === figuId)
-                                const nombreAlbum = publi.body.attributes.find(atributo => atributo.id === "ALBUM_NAME")
+                            if (datoVariante.mla === publi.id) {
+                                const numeroFigurita = publi.attributes.find(atributo => atributo.value_name === figuId)
+                                const nombreAlbum = publi.attributes.find(atributo => atributo.id === "ALBUM_NAME")
                                 const albumFormateado = nombrePublicacion(nombreAlbum.value_name)
                                 figusVendidas.push(figuEncontrada)
                                 const nuevaVenta = {

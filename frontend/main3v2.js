@@ -202,13 +202,6 @@ if (elementVentas) {
     await totalVentas(ventasMDB, ventasML, elementVentas, elementBotonesVenta, elementPrecioVenta);
 }
 
-window.addEventListener("load", async () => {
-
-    if (window.location.pathname.endsWith("/todaslasventas.html")) {
-        await pageTotalVentas()
-        await totalVentas(ventasMDB, ventasML, elementVentas, elementBotonesVenta, elementPrecioVenta);
-    }
-})
 
 const botonStockLuly = document.getElementById("botonStockLuly")
 botonStockLuly?.addEventListener("click", async () => {
@@ -337,5 +330,13 @@ window.addEventListener("load", async () => {
         const listaTransportistas = await obtenerListaTransportistas()
         const envios = await obtenerVentasFlex()
         pageEnviosFlex(envios,listaVendedores,listaTransportistas)
+    }
+})
+
+window.addEventListener("load", async () => {
+
+    if (window.location.pathname.endsWith("/todaslasventas.html")) {
+        await pageTotalVentas()
+        await totalVentas(ventasMDB, ventasML, elementVentas, elementBotonesVenta, elementPrecioVenta);
     }
 })

@@ -260,7 +260,8 @@ export const getVentasPaginadasMLv2 = async ()=>{
             const publicacionFiltrada = publicaciones.find(item => item.id === vendido.mla)
             vendido.album = publicacionFiltrada?.album                  
             vendido.figurita = publicacionFiltrada?.figurita 
-                             
+            vendido.link = publicacionFiltrada?.permalink
+            vendido.imagen = publicacionFiltrada?.thumbnail
         }
     }
     return ventasML

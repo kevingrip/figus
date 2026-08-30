@@ -3,7 +3,7 @@ import { obtenerOrden } from "../services/mercadolibre/ordenes.js";
 import { obtenerPreguntasSinResponder } from "../services/mercadolibre/preguntas.js";
 import { responderPregunta } from "../services/mercadolibre/respuestas.js";
 import { obtenerPreguntasConHistorial } from "../services/mercadolibre/preguntasConHistorial.js";
-import { activarPublicacion, estadoPublicacion,modificarPrecio,modificarStock, getPublicacion,actualizarFecha } from "../services/mercadolibre/publicaciones.js";
+import { activarPublicacion, estadoPublicacion,modificarPrecio,modificarStock, getPublicacion,actualizarFecha, getPublicaciones } from "../services/mercadolibre/publicaciones.js";
 
 const router = express.Router();
 
@@ -51,6 +51,19 @@ router.get("/publicaciones", async (req,res)=>{
     try {
         const {filtered_publicaciones,items} = await estadoPublicacion()
         res.json(filtered_publicaciones)
+    } catch (error) {
+        console.log(error.response?.data || error.message);
+        res.status(500).json({
+            error: `Error obteniendo publicaciones,${error}`
+        });
+    }
+})
+
+//REEMPLAZAR EL DE PUBLICACIONES POR PUBLICACIONES2
+router.get("/publicaciones2", async (req,res)=>{
+    try {
+        const publicaciones = await getPublicaciones()
+        res.json(publicaciones)
     } catch (error) {
         console.log(error.response?.data || error.message);
         res.status(500).json({
