@@ -313,9 +313,7 @@ export const sincronizarStock = async () => {
                     for (const venta of ventasML) {
                         for (const datoVariante of venta.data.variante) {
                             if (datoVariante.mla === publi.id) {
-                                const numeroFigurita = publi.attributes.find(atributo => atributo.value_name === figuId)
-                                const nombreAlbum = publi.attributes.find(atributo => atributo.id === "ALBUM_NAME")
-                                const albumFormateado = nombrePublicacion(nombreAlbum.value_name)
+                                const albumFormateado = nombrePublicacion(publi.album)
                                 figusVendidas.push(figuEncontrada)
                                 const nuevaVenta = {
                                     DIA: new Date(venta.data.date_created),
@@ -360,7 +358,6 @@ export const sincronizarStock = async () => {
                                     console.error("No se pudo crear/descontar venta", error)
                                 }
 
-                                console.log(venta.pack_id, venta.data.date_created, venta.data.total_paid_amount, numeroFigurita.value_name, datoVariante.cantidad, venta.data.seller, nombreAlbum.value_name)
                             }
                         }
                     }
