@@ -14,7 +14,6 @@ export const todasLasPublicaciones = async () => {
     
     const publicaciones = await obtenerTodasLasPublicaciones()
 
-
     const pausedPublic = document.createElement("div")
     const activePublic = document.createElement("div")
 
@@ -37,6 +36,8 @@ export const todasLasPublicaciones = async () => {
         const date_created = document.createElement("p")
         const thumbnail = document.createElement("img")
         const price = document.createElement("p")
+        const status = document.createElement("h5")
+        status.textContent=publicacion.status
 
         id.textContent = publicacion.id
         title.textContent = publicacion.title
@@ -152,7 +153,7 @@ export const todasLasPublicaciones = async () => {
         upCard.style.margin = "10px"
         upCard.append(title)
         downCard.append(leftCard, rightCard)
-        rightCard.append(id, seller_id, date_created, elementStock, price, buttonStatus)
+        rightCard.append(id, seller_id, date_created, elementStock, price,status, buttonStatus)
         leftCard.append(thumbnail)
 
         leftCard.style.display = "flex"
