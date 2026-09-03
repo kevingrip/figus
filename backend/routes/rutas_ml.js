@@ -47,20 +47,20 @@ router.post("/respuestas", async (req, res) => {
     }
 });
 
-router.get("/publicaciones", async (req,res)=>{
-    try {
-        const {filtered_publicaciones,items} = await estadoPublicacion()
-        res.json(filtered_publicaciones)
-    } catch (error) {
-        console.log(error.response?.data || error.message);
-        res.status(500).json({
-            error: `Error obteniendo publicaciones,${error}`
-        });
-    }
-})
+// router.get("/publicaciones", async (req,res)=>{
+//     try {
+//         const {filtered_publicaciones,items} = await estadoPublicacion()
+//         res.json(filtered_publicaciones)
+//     } catch (error) {
+//         console.log(error.response?.data || error.message);
+//         res.status(500).json({
+//             error: `Error obteniendo publicaciones,${error}`
+//         });
+//     }
+// })
 
 //REEMPLAZAR EL DE PUBLICACIONES POR PUBLICACIONES2
-router.get("/publicaciones2", async (req,res)=>{
+router.get("/publicaciones", async (req,res)=>{
     try {
         const publicaciones = await getPublicaciones()
         res.json(publicaciones)

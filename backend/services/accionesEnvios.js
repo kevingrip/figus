@@ -14,8 +14,7 @@ export const getTransportistas = async() =>{
     enviosPagados.forEach(orden=>{
         if (orden.envio && new Date(orden.fechaEntrega)>fechaComienzo){
             transportistas.add(orden.envio)
-        }
-        
+        }        
     })
 
     return [...transportistas]

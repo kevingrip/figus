@@ -10,8 +10,9 @@ import { fileURLToPath } from "url";
 import mercadoLibreRoutes from "./routes/rutas_ml.js"
 import fechasPublicaciones from "./routes/fechasPublicaciones.js";
 import preguntas_mercadolibre from "./routes/preguntasGuardadas.js"
-import { sincronizarStock } from "./services/mercadolibre/publicaciones.js";
+import { sincronizarStock, subirPrecioStock_1 } from "./services/mercadolibre/publicaciones.js";
 import datosEnvios from "./routes/endpoint_envios.js"
+import { actualizarVentas } from "./services/accionesVentas.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -61,6 +62,23 @@ app.use("/proveedores",proveedores)
 app.use("/mercadolibre", mercadoLibreRoutes);
 
 app.use("/envios",datosEnvios)
+
+try {
+    console.log("Iniciando actualizacion de precios")
+    await subirPrecioStock_1()
+    console.log("Actualizacion de precios finalizada")
+} catch (error) {
+    console.error("No se pudo ejecutar actualizar precio stock",error)
+}
+
+try {
+
+    console.log("Iniciando sincronizacion de ventas")
+    await actualizarVentas()
+    console.log("Ventas sincronizadas")
+} catch (error) {
+    console.error("Error actualizando venta:", error);
+}
 
 try {
     console.log("Iniciando sincronización de stock...");

@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos, obtenerFigusMayorStock, obtenerVentasFlex, obtenerTotalNeto, obtenerVendedoresVentas, obtenerListaTransportistas } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos, obtenerFigusMayorStock, obtenerVentasFlex, obtenerTotalNeto, obtenerVendedoresVentas, obtenerListaTransportistas, obtenerVentasML2 } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -13,6 +13,7 @@ import { api } from "./config.js";
 import { getStockProveedores } from "./javascript/utilidades/stockTotal.js";
 import { interfazMaxCant } from "./javascript/pages/interfazMaxCant.js";
 import { pageEnviosFlex } from "./javascript/pages/pageEnviosFlex/pageEnviosFlex.js";
+import { pageTotalVentas } from "./javascript/pages/pageTotalVentas/totalVentas.js";
 
 async function actualizarFechasPublicaciones() {
     try {
@@ -264,31 +265,31 @@ window.addEventListener("load", async () => {
 
 
 
-const actualizarVentas = async () => {
-    const preguntasMDB = await obtenerPreguntasMDB()
-    const ventasML = await obtenerVentasML()
+// const actualizarVentas = async () => {
+//     const preguntasMDB = await obtenerPreguntasMDB()
+//     const ventasML = await obtenerVentasML()
 
-    for (const pregunta of preguntasMDB) {
-        if (pregunta.COMPRADO === false) {
-            for (const venta of ventasML) {
-                if (venta.data.buyer_id===1375194752){
-                    console.log(venta.data.date_created,pregunta.FECHA, venta.data.date_created > pregunta.FECHA,pregunta.MLA,variante.mla)
-                }
-                if ((venta.data.buyer_id === pregunta.BUYER_ID)
-                    && (venta.data.seller === pregunta.SELLER_ID)
-                    && (venta.data.date_created > pregunta.FECHA)
-                    && (venta.data.variante.some(variante => variante.mla === pregunta.MLA))) {
-                    const figuritas = await obtenerFiguritas(pregunta.ALBUM_REAL)
-                    await crearVenta(figuritas, pregunta.FIGUS_EN_STOCK, "ONLINE", seller_name(pregunta.SELLER_ID), pregunta.ALBUM_REAL, venta.data.total_amount, pregunta.FIGUS_SIN_STOCK, "Sin Dato", pregunta.ALBUM_REAL, api, venta.pack_id)
-                    await actualizarPrecio2000(pregunta.MLA, pregunta.SELLER_ID)
-                    await actualizarStock(pregunta.MLA, pregunta.SELLER_ID)
-                    await setToComprado(pregunta._id)
-                }
-            }
-        }
-    }
-}
-actualizarVentas()
+//     for (const pregunta of preguntasMDB) {
+//         if (pregunta.COMPRADO === false) {
+//             for (const venta of ventasML) {
+//                 if (venta.data.buyer_id===1375194752){
+//                     console.log(venta.data.date_created,pregunta.FECHA, venta.data.date_created > pregunta.FECHA,pregunta.MLA,variante.mla)
+//                 }
+//                 if ((venta.data.buyer_id === pregunta.BUYER_ID)
+//                     && (venta.data.seller === pregunta.SELLER_ID)
+//                     && (venta.data.date_created > pregunta.FECHA)
+//                     && (venta.data.variante.some(variante => variante.mla === pregunta.MLA))) {
+//                     const figuritas = await obtenerFiguritas(pregunta.ALBUM_REAL)
+//                     await crearVenta(figuritas, pregunta.FIGUS_EN_STOCK, "ONLINE", seller_name(pregunta.SELLER_ID), pregunta.ALBUM_REAL, venta.data.total_amount, pregunta.FIGUS_SIN_STOCK, "Sin Dato", pregunta.ALBUM_REAL, api, venta.pack_id)
+//                     await actualizarPrecio2000(pregunta.MLA, pregunta.SELLER_ID)
+//                     await actualizarStock(pregunta.MLA, pregunta.SELLER_ID)
+//                     await setToComprado(pregunta._id)
+//                 }
+//             }
+//         }
+//     }
+// }
+// actualizarVentas()
 
 
 botonesElementosNoVendidas.forEach(objeto => {
@@ -336,7 +337,8 @@ window.addEventListener("load", async () => {
 window.addEventListener("load", async () => {
 
     if (window.location.pathname.endsWith("/todaslasventas.html")) {
-        await pageTotalVentas()
-        await totalVentas(ventasMDB, ventasML, elementVentas, elementBotonesVenta, elementPrecioVenta);
+        const ventasML = await obtenerVentasML2()
+        console.log(ventasML)
+        await pageTotalVentas(ventasML)
     }
 })

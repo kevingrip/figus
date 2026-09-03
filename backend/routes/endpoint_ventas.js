@@ -5,7 +5,7 @@ import Venta from "../models/modeloVenta.js";
 import Venta_ML from "../models/modeloVentaML.js"
 import { seller_name } from "../../frontend/javascript/utilidades/nombres.js";
 import multer from "multer";
-import { getVentasFlex, getVentasML, getVentasPaginadasML, getVentasPaginadasMLv2, totalNetoUsuario, totalVendedoresVentas } from "../services/accionesVentas.js";
+import { calculoCuentas, getVentasFlex, getVentasML, getVentasPaginadasML, getVentasPublicaciones_ML, totalNetoUsuario, totalVendedoresVentas } from "../services/accionesVentas.js";
 const router = Router();
 
 const upload = multer({
@@ -84,7 +84,7 @@ router.get("/ventaml/paginadas2", async (req, res) => {
 
     try {
 
-        const ordenes_finales = await getVentasPaginadasMLv2()
+        const ordenes_finales = await getVentasPublicaciones_ML()
 
         res.json(ordenes_finales);
 
@@ -207,6 +207,11 @@ router.get("/importe_neto/:usuario", async (req, res) => {
 router.get("/vendedores-filtrado", async(req,res)=>{
     const vendedores = await totalVendedoresVentas()
     res.json(vendedores)
+})
+
+router.get("/cuentas", async (req, res) => {
+    const ventasCuentaTotal = await calculoCuentas()
+    res.json(ventasCuentaTotal)
 })
 
 export default router;

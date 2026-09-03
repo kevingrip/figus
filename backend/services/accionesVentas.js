@@ -3,8 +3,10 @@ import modeloVenta from "../models/modeloVenta.js";
 import { getEnvios } from "./accionesEnvios.js";
 import { obtenerToken } from "./token/obtenerToken.js";
 import { nombreSeller } from "../utilidades/nombres.js";
-import { estadoPublicacion, getPublicacion, getPublicaciones } from "./mercadolibre/publicaciones.js";
-import { getFiguritaIndividual } from "./accionesFiguritas.js";
+import { estadoPublicacion, getPublicacion, getPublicaciones, modificarPrecio } from "./mercadolibre/publicaciones.js";
+import { descontarVentaFiguritasMDB, getFiguritaIndividual } from "./accionesFiguritas.js";
+import { obtenerPreguntaMeli } from "../models/preguntasVenta.js";
+import { confirmarVenta } from "./accionesPreguntas.js";
 
 export const getVentas = async () => {
     const ventas = await modeloVenta.find().sort({ DIA: -1 }).lean();
@@ -180,7 +182,7 @@ export const getVentasPaginadasML = async () => {
     const ordenes_data = []
     ordenes.forEach(orden => {
         orden.payments.forEach(data => {
-            
+
             const venta = {
                 order_id: data.order_id,
                 pack_id: orden.pack_id,
@@ -194,7 +196,7 @@ export const getVentasPaginadasML = async () => {
                 seller_id: orden.seller.nickname,
                 cancel_detail: orden?.cancel_detail?.date,
                 nombre: data.reason,
-                cumplido:orden.fulfilled,
+                cumplido: orden.fulfilled,
                 variante: []
             }
             orden.order_items.forEach(variante => {
@@ -223,7 +225,7 @@ export const getVentasPaginadasML = async () => {
                 seller_id: orden.seller_id,
                 cancel_detail: orden?.cancel_detail,
                 nombre: orden.nombre,
-                cumplido:orden.cumplido,
+                cumplido: orden.cumplido,
                 variante: orden.variante
             }
         }
@@ -252,14 +254,14 @@ export const getVentasPaginadasML = async () => {
     return ordenes_finales
 }
 
-export const getVentasPaginadasMLv2 = async ()=>{
+export const getVentasPublicaciones_ML = async () => {
     const ventasML = await getVentasPaginadasML()
     const publicaciones = await getPublicaciones()
-    for (const venta of ventasML){
-        for (const vendido of venta.data.variante){
+    for (const venta of ventasML) {
+        for (const vendido of venta.data.variante) {
             const publicacionFiltrada = publicaciones.find(item => item.id === vendido.mla)
-            vendido.album = publicacionFiltrada?.album                  
-            vendido.figurita = publicacionFiltrada?.figurita 
+            vendido.album = publicacionFiltrada?.album
+            vendido.figurita = publicacionFiltrada?.figurita
             vendido.link = publicacionFiltrada?.permalink
             vendido.imagen = publicacionFiltrada?.thumbnail
         }
@@ -321,15 +323,15 @@ export const getVentasFlex = async () => {
 
 
     // Set, set , hashSet
-    const mapaVentas = new Map();    
- 
-    ordenesMDB.forEach(orden=>{
+    const mapaVentas = new Map();
+
+    ordenesMDB.forEach(orden => {
         mapaVentas.set(orden.venta.VENTAID, orden)
     })
-    
+
     ordenesML.forEach(orden => {
         mapaVentas.set(orden.venta.VENTAID, orden);
-    });    
+    });
 
     const ventasFinales = [...mapaVentas.values()];
 
@@ -359,6 +361,118 @@ export const totalVendedoresVentas = async () => {
         ...new Set(vendedores_filtrados.map(venta => venta.CUENTA))
     ];
     return vendedores;
+}
+
+export const calculoCuentas = async () => {
+    try {
+        const ventasMDB = await getVentas()
+        const ventasML = await getVentasPublicaciones_ML()
+        const envios = await getVentasFlex()
+        const enviosCuentaMDB = envios.map(orden => ({ VENTAID: orden?.venta?.VENTAID, PRECIO: orden?.envio?.pago, FECHA: orden?.venta?.DIA, ZONA: orden?.envio?.zona, TRANSPORTISTA: orden?.envio?.envio, USUARIO_PAGO: orden?.envio?.usuario_pagador, PRODUCTO: orden?.venta?.PRODUCTO }))
+        const ventasCuentaMDB = ventasMDB.filter(venta => ["MATI", "KEVIN"].includes(venta.CUENTA)).map(venta => ({ VENTAID: venta.VENTAID, FECHA: venta.DIA, CUENTA: venta.CUENTA, IMPORTE_NETO: venta.IMPORTE_NETO }))
+        const ventasTotal = ventasCuentaMDB.map(venta => {
+            const ventasCuentaML = ventasML.find(venta_ml => venta_ml.pack_id === venta.VENTAID)
+            const seller = ventasCuentaML?.data?.seller_id
+            const vendedor_id = seller ? nombreSeller(ventasCuentaML.data.seller_id) : "Sin seller"
+            return {
+                ...venta,
+                FECHA_ML: ventasCuentaML?.data?.date_created, TITULO: ventasCuentaML?.data?.nombre, CUENTA_ML: vendedor_id
+            }
+        }
+
+        )
+
+        ventasTotal.sort((a, b) => new Date(b.FECHA) - new Date(a.FECHA))
+        const ventasCuentaTotal = ventasTotal.map(ventas => {
+            const envioAsociado = enviosCuentaMDB.find(envio => envio.VENTAID === ventas.VENTAID)
+            if (envioAsociado) {
+                return {
+                    ...ventas,
+                    PRECIO: envioAsociado?.PRECIO,
+                    FECHA: envioAsociado?.FECHA,
+                    ZONA: envioAsociado?.ZONA,
+                    TRANSPORTISTA: envioAsociado?.TRANSPORTISTA,
+                    USUARIO_PAGO: envioAsociado?.USUARIO_PAGO,
+                    PRODUCTO: envioAsociado?.PRODUCTO
+                }
+            }
+            else {
+                return {
+                    ...ventas
+                }
+            }
+
+        }
+        )
+        return ventasCuentaTotal
+
+    } catch (error) {
+        console.error("No se pueden obtener las ventas de la cuenta", error)
+    }
+}
+
+export const actualizarVentas = async () => {
+    const respuesta = await obtenerPreguntaMeli()
+    const preguntasMDB = await respuesta.find()
+    const ventasML = await getVentasPublicaciones_ML()
+    for (const pregunta of preguntasMDB) {
+        if (pregunta.COMPRADO === false) {
+            const ventaEncontrada = ventasML
+                .find(venta =>
+                    venta.data.buyer_id === pregunta.BUYER_ID &&
+                    venta.data.seller === pregunta.SELLER_ID &&
+                    new Date(pregunta.FECHA) < new Date(venta.data.date_created) &&
+                    venta.data.variante.some(variante => variante.mla === pregunta.MLA)
+                )
+            if (ventaEncontrada) {
+                try {
+                    await crearVentaMDB(
+                        pregunta.FIGUS_EN_STOCK,
+                        pregunta.FIGUS_SIN_STOCK,
+                        pregunta.ALBUM_REAL,
+                        nombreSeller(pregunta.SELLER_ID),
+                        ventaEncontrada.data.total_amount,
+                        ventaEncontrada.pack_id,
+                        ventaEncontrada.data.date_created
+                    )
+                    await modificarPrecio(pregunta.MLA, pregunta.SELLER_ID, 2000)
+                    await descontarVentaFiguritasMDB(pregunta.ALBUM_REAL, pregunta.FIGUS_EN_STOCK)
+                    await confirmarVenta(pregunta._id)
+                } catch (error) {
+                    console.error("No se pudo actualizar la venta",error)
+                }
+            }
+        }
+    }
+}
+
+export const crearVentaMDB = async (figusEnStock, figusSinStock, nombreAlbum, cuenta, precio, ventaid, fechaVenta) => {
+
+
+    const nuevaVenta = {
+        DIA: fechaVenta ? new Date(fechaVenta) : new Date(),
+        VENTAID: ventaid,
+        VENDIDAS: figusEnStock,
+        FALTANTES: figusSinStock,
+        PRECIO: precio,
+        CUENTA: cuenta,
+        ENVIO: "Sin dato",
+        ALBUM: nombreAlbum,
+        VERIFICADAS: false,
+        PAGADAS: false
+    }
+
+    try {
+        await modeloVenta.findOneAndUpdate(
+            { VENTAID: ventaid },
+            { $setOnInsert: nuevaVenta },
+            { upsert: true, new: true }
+        );
+        console.log("Venta creada correctamente: ", ventaid)
+    } catch (error) {
+        console.error("No se pudo crear la venta", error)
+    }
+
 }
 
 // export const totalImporteUsuario = async(usuario) =>{

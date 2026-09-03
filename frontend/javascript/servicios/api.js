@@ -82,13 +82,6 @@ export async function actualizarPrecio2000(mla, seller) {
     })
 }
 
-export const obtenerVentasML = async () => {
-    const ventasML = await fetch(`${api}/ventas/ventaml`)
-    const ventasParseadas = await ventasML.json();
-
-    return ventasParseadas;
-}
-
 export const guardarPreguntaML = async (figusEnStock, figusSinStock, vendedor, cliente, albumConsulta, fecha, albumReal, mla) => {
     console.log("guardar: ", figusEnStock)
     const preguntaMDB = await fetch(`${api}/preguntamdb/guardar`, {
@@ -277,4 +270,18 @@ export const obtenerListaTransportistas = async () =>{
     const respuesta = await fetch(`${api}/envios/transportistas`)
     const totalTransportistas = respuesta.json()
     return totalTransportistas
+}
+
+export const obtenerVentasML = async () => {
+    const ventasML = await fetch(`${api}/ventas/ventaml`)
+    const ventasParseadas = await ventasML.json();
+
+    return ventasParseadas;
+}
+
+export const obtenerVentasML2 = async () => {
+    const ventasML = await fetch(`${api}/ventas/ventaml`)
+    const ventasParseadas = await ventasML.json();
+
+    return ventasParseadas;
 }

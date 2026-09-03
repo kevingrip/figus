@@ -7,6 +7,7 @@ import { getVentasPaginadasML } from "../accionesVentas.js";
 import { seller_name } from "../../../frontend/javascript/utilidades/nombres.js";
 import { nombrePublicacion } from "../../utilidades/nombres.js";
 import Venta from "../../models/modeloVenta.js"
+import { Precios } from "../../models/modeloAumentarPrecio.js";
 
 export const estadoPublicacion = async () => {
     const tokens = await obtenerToken();
@@ -160,7 +161,7 @@ export const getPublicaciones = async () => {
         }
 
         filtered_publicaciones.sort(
-            (a, b) => new Date(b.last_updated) - new Date(a.last_updated)
+            (a, b) => new Date(b.date_created) - new Date(a.date_created)
         );
 
     }
@@ -280,6 +281,68 @@ export const getPublicacion = async (mla, sellerid) => {
     return publicacion;
 };
 
+export const subirPrecioStock_1 = async () => {
+    const publicaciones = await getPublicaciones();
+
+    for (const publi of publicaciones) {
+        if ([1331424923778706, 3406057476164753, 7115922794008337].includes(publi.family_id)) {
+            const publicacionesAuto = await Precios.find()
+
+            if (publi.available_quantity === 1) {
+
+                const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
+
+                if (!publicacion || publicacion.PRECIO_NUEVO != publi.price) {
+
+                    const nuevoPrecio = Number(publi.price) + 3000;
+                    await Precios.findOneAndUpdate(
+                        { MLA: publi.id }, // Criterio de búsqueda para verificar si existe
+                        {
+                            PRECIO_ANT: publi.price,
+                            PRECIO_NUEVO: nuevoPrecio
+                        },
+                        {
+                            upsert: true, // Si no existe, lo crea
+                            new: true,    // Devuelve el documento actualizado/creado
+                            setDefaultsOnInsert: true
+                        }
+                    )
+                    modificarPrecio(publi.id, publi.seller_id, nuevoPrecio)
+                }
+
+            } else if (publi.available_quantity === 2) {
+                const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
+
+                if (!publicacion || publicacion.PRECIO_NUEVO != publi.price) {
+
+                    const nuevoPrecio = Number(publi.price) + 2000;
+                    await Precios.findOneAndUpdate(
+                        { MLA: publi.id }, // Criterio de búsqueda para verificar si existe
+                        {
+                            PRECIO_ANT: publi.price,
+                            PRECIO_NUEVO: nuevoPrecio
+                        },
+                        {
+                            upsert: true, // Si no existe, lo crea
+                            new: true,    // Devuelve el documento actualizado/creado
+                            setDefaultsOnInsert: true
+                        }
+                    )
+                    modificarPrecio(publi.id, publi.seller_id, nuevoPrecio)
+                }
+            } else if (publi.available_quantity > 2){
+                const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
+                if (publicacion){
+                    await modificarPrecio(publi.id, publi.seller_id, publicacion.PRECIO_ANT)
+                    await Precios.deleteOne({ MLA: publi.id })
+                }
+            }
+
+
+        }
+    }
+}
+
 export const sincronizarStock = async () => {
     const publicaciones = await getPublicaciones();
 
@@ -288,9 +351,9 @@ export const sincronizarStock = async () => {
     for (const publi of publicaciones) {
         if ([1331424923778706, 3406057476164753, 7115922794008337].includes(publi.family_id)) {
             let figuId;
-            publi.figurita==="00" ? figuId="FWC0":figuId=publi.figurita;
+            publi.figurita === "00" ? figuId = "FWC0" : figuId = publi.figurita;
             const figusVendidas = []
-            
+
             if (figuId) {
 
                 const figuEncontrada = await figuritas.findOne({

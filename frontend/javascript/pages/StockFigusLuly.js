@@ -93,7 +93,7 @@ function cantidadBotonesAnchoAlbum(album, figu, contenedorFigu, resultados) {
 }
 
 function datosBloques(figu, informacion, textoInferior, esClick) {
-    let cantTotal = figu.STOCK.MATI.CANT + figu.STOCK.PDM.CANT + figu.STOCK.CAMBIOS.CANT + figu.STOCK.LULY.CANT+ figu.STOCK.OTROS.CANT
+    let cantTotal = figu.STOCK.LULY.CANT
     textoInferior.textContent = `Cant: ${cantTotal}`;
     if (figu.TIPO == "COMUNES") {
 
@@ -161,7 +161,7 @@ export const StockFigusLuly = async (figuritas, albumRuta) => {
     });
 
     figuritas.forEach(figu => {
-        if (figu.STOCK.LULY.CANT>0){
+        if (figu.STOCK.LULY.CANT_HISTORICA>0){
             const {contenedor,textoInferior} = crearBotonContenedor(figu)
             datosBloques(figu, contenedor, textoInferior, false)
             resultados.appendChild(contenedor)

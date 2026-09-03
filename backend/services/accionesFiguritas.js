@@ -117,3 +117,22 @@ export const getFiguritaIndividual = async(figu_NUM,album)=>{
         figu.NUM === figu_NUM
     )
 }
+export const descontarVentaFiguritasMDB = async (album, figuritas) => {
+
+    try {
+        const modeloFiguritas = await obtenerModeloFiguritas(album)
+        for (const figurita of figuritas) {
+            const figuEncontrada = await modeloFiguritas.findOne({ NUM: figurita.NUM })
+            if (figuEncontrada) {
+                const proveedor = getProveedorMayorStock(figuEncontrada)
+                if (proveedor && figuEncontrada.STOCK[proveedor].CANT > 0) {
+                    figuEncontrada.STOCK[proveedor].CANT -= 1;
+                    figuEncontrada.markModified('STOCK');
+                    await figuEncontrada.save()
+                }
+            }
+        }
+    } catch (error) {
+        console.error("No se pudo descontar las figuritas de la venta",error)
+    }
+}
