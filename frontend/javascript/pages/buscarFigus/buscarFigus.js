@@ -200,7 +200,7 @@ const getStockyPrecio = (figusDeLaConsulta, canalPregunta) => {
                 return
             }
             if (proveedor === "MATI") {
-                totalPrecio += precioBarato(figu.TIPO)
+                totalPrecio += precioBarato(figu)
             }
             else if (proveedor === "LULY") {
                 totalPrecio -= 300
@@ -216,7 +216,7 @@ const getStockyPrecio = (figusDeLaConsulta, canalPregunta) => {
                 return
             }
             if (proveedor === "MATI") {
-                totalPrecio += precioBarato(figu.TIPO)
+                totalPrecio += precioBarato(figu)
             }
             else if (proveedor === "LULY") {
                 totalPrecio += 300

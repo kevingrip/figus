@@ -10,9 +10,10 @@ import { fileURLToPath } from "url";
 import mercadoLibreRoutes from "./routes/rutas_ml.js"
 import fechasPublicaciones from "./routes/fechasPublicaciones.js";
 import preguntas_mercadolibre from "./routes/preguntasGuardadas.js"
-import { sincronizarStock, subirPrecioStock_1 } from "./services/mercadolibre/publicaciones.js";
+import { sincronizarStock } from "./services/mercadolibre/publicaciones.js";
 import datosEnvios from "./routes/endpoint_envios.js"
 import { actualizarVentas } from "./services/accionesVentas.js";
+import { subirPrecioStock_1 } from "./services/accionesFiguritas.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

@@ -1,6 +1,8 @@
 import { obtenerModeloFiguritas } from "../models/modeloFigu.js";
 import { getProveedorMayorStock } from "../utilidades/cantidades.js";
 import { nombrePublicacion } from "../utilidades/nombres.js";
+import { getPublicaciones, modificarPrecio } from "./mercadolibre/publicaciones.js";
+import { Precios } from "../models/modeloAumentarPrecio.js";
 
 export const obtenerCantidadFigurita = async (album, figu) => {
 
@@ -134,5 +136,67 @@ export const descontarVentaFiguritasMDB = async (album, figuritas) => {
         }
     } catch (error) {
         console.error("No se pudo descontar las figuritas de la venta",error)
+    }
+}
+
+export const subirPrecioStock_1 = async () => {
+    const publicaciones = await getPublicaciones();
+
+    for (const publi of publicaciones) {
+        if ([1331424923778706, 3406057476164753, 7115922794008337].includes(publi.family_id)) {
+            const publicacionesAuto = await Precios.find()
+
+            if (publi.available_quantity === 1) {
+
+                const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
+
+                if (!publicacion || publicacion.PRECIO_NUEVO != publi.price) {
+
+                    const nuevoPrecio = Number(publi.price) + 3000;
+                    await Precios.findOneAndUpdate(
+                        { MLA: publi.id }, // Criterio de búsqueda para verificar si existe
+                        {
+                            PRECIO_ANT: publi.price,
+                            PRECIO_NUEVO: nuevoPrecio
+                        },
+                        {
+                            upsert: true, // Si no existe, lo crea
+                            new: true,    // Devuelve el documento actualizado/creado
+                            setDefaultsOnInsert: true
+                        }
+                    )
+                    modificarPrecio(publi.id, publi.seller_id, nuevoPrecio)
+                }
+
+            } else if (publi.available_quantity === 2) {
+                const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
+
+                if (!publicacion || publicacion.PRECIO_NUEVO != publi.price) {
+
+                    const nuevoPrecio = Number(publi.price) + 2000;
+                    await Precios.findOneAndUpdate(
+                        { MLA: publi.id }, // Criterio de búsqueda para verificar si existe
+                        {
+                            PRECIO_ANT: publi.price,
+                            PRECIO_NUEVO: nuevoPrecio
+                        },
+                        {
+                            upsert: true, // Si no existe, lo crea
+                            new: true,    // Devuelve el documento actualizado/creado
+                            setDefaultsOnInsert: true
+                        }
+                    )
+                    modificarPrecio(publi.id, publi.seller_id, nuevoPrecio)
+                }
+            } else if (publi.available_quantity > 2){
+                const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
+                if (publicacion){
+                    await modificarPrecio(publi.id, publi.seller_id, publicacion.PRECIO_ANT)
+                    await Precios.deleteOne({ MLA: publi.id })
+                }
+            }
+
+
+        }
     }
 }

@@ -1,19 +1,69 @@
-export const precioBarato = (tipo) => {
+import { getStockProveedores } from "../../utilidades/stockTotal.js"
+
+export const precioBarato = (figu) => {
+    const tipo = figu.TIPO
+    const cantidad = getStockProveedores(figu)
+    console.log(cantidad)
     if (tipo == "COMUNES") {
-        return 500
+        if (cantidad===1){
+            return 1500
+        }else if (cantidad===2){
+            return 1000
+        } else{
+            return 500
+        }
+        
     } else if (tipo == "EQUIPO") {
-        return 800
+        if (cantidad===1){
+            return 1800
+        }else if (cantidad===2){
+            return 1300
+        } else{
+            return 800
+        }
+        
     } else if (tipo == "AFA") {
-        return 3000
+        if (cantidad===1){
+            return 5000
+        }else if (cantidad===2){
+            return 4000
+        } else{
+            return 3000
+        }
+        
     } else if (tipo == "ESCUDO AFA") {
-        return 4000
+        if (cantidad===1){
+            return 6000
+        }else if (cantidad===2){
+            return 5000
+        } else{
+            return 4000
+        }
     } else if (tipo == "FWC") {
-        return 4000
+        if (cantidad===1){
+            return 6000
+        }else if (cantidad===2){
+            return 5000
+        } else{
+            return 4000
+        }
     } else if (tipo == "ESCUDO") {
-        return 2500
+        if (cantidad===1){
+            return 5000
+        }else if (cantidad===2){
+            return 3500
+        } else{
+            return 2500
+        }
     } else if (tipo == "MESSI") {
         return 35000
     } else if (tipo == "ESPECIAL") {
-        return 6000
+        if (cantidad===1){
+            return 10000
+        }else if (cantidad===2){
+            return 8000
+        } else{
+            return 6000
+        }
     }
 }

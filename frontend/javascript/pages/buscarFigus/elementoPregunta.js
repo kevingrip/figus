@@ -1,15 +1,5 @@
 import { precioBarato } from "./preciosBaratos.js";
 
-const sinFiguLuly = [
-    "FWC18",
-    "ALG13",
-    "COD5",
-    "UZB8",
-    "GHA2",
-    "CC3", ,
-    "CC9"
-]
-
 const mostrarCuadroResumen = (elementResumenTotal, figusEnStock, figusSinStock, totalPrecio) => {
     const elementCantPreguntas = document.createElement('p');
     const elementCantStock = document.createElement('p');
@@ -44,7 +34,7 @@ const imprimirFilas = (cant_stock, figu, filaFigurita, canalPregunta) => {
 
 
     if (canalPregunta === "LULY") {
-        let precio = proveedorEnStock === "LULY" ? precioBarato(figu.TIPO) - 300 : (proveedorEnStock === "MATI" ? precioBarato(figu.TIPO) : figu.STOCK[proveedorEnStock]?.PRECIO)
+        let precio = proveedorEnStock === "LULY" ? precioBarato(figu) - 300 : (proveedorEnStock === "MATI" ? precioBarato(figu) : figu.STOCK[proveedorEnStock]?.PRECIO)
         if (cant_stock == 0 || sinFiguLuly.includes(figu.NUM)) {
             filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock 0 \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
             filaFigurita.style.color = 'red'
@@ -61,7 +51,7 @@ const imprimirFilas = (cant_stock, figu, filaFigurita, canalPregunta) => {
         }
     } else if (canalPregunta === "ARI") {
         // agregar que si el proveedor es pdm sea mas caro
-        let precio = proveedorEnStock === "LULY" ? precioBarato(figu.TIPO) + 300 : (proveedorEnStock === "MATI" ? precioBarato(figu.TIPO) : figu.STOCK[proveedorEnStock]?.PRECIO)
+        let precio = proveedorEnStock === "LULY" ? precioBarato(figu) + 300 : (proveedorEnStock === "MATI" ? precioBarato(figu) : figu.STOCK[proveedorEnStock]?.PRECIO)
         if (cant_stock == 0) {
             filaFigurita.innerHTML = `${figu.NUM.length == 5 ? figu.NUM : figu.NUM + '&nbsp;'} \u00A0\u00A0\u00A0 Stock ${cant_stock} \u00A0\u00A0\u00A0 ${figu.TIPO} \u00A0\u00A0\u00A0 ${figu.NOMBRE}`;
             filaFigurita.style.color = 'red'
