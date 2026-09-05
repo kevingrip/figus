@@ -1,7 +1,7 @@
 import { obtenerModeloFiguritas } from "../models/modeloFigu.js";
 import { getProveedorMayorStock } from "../utilidades/cantidades.js";
 import { nombrePublicacion } from "../utilidades/nombres.js";
-import { getPublicaciones, modificarPrecio } from "./mercadolibre/publicaciones.js";
+import { activarEstado, getPublicaciones, modificarPrecio } from "./mercadolibre/publicaciones.js";
 import { Precios } from "../models/modeloAumentarPrecio.js";
 
 export const obtenerCantidadFigurita = async (album, figu) => {
@@ -139,67 +139,155 @@ export const descontarVentaFiguritasMDB = async (album, figuritas) => {
     }
 }
 
+const preciosEscudos = (publi) => {
+    if (publi.family_id === 7115922794008337) {
+        if (publi.available_quantity > 0 && publi.status != "active") {
+            activarEstado(publi.id, publi.seller_id)
+        }
+        if (publi.figurita === "ARG1" || publi.figurita === "ESCUDOSELECCIÓNARGENTINA") {
+            if (publi.available_quantity > 2 && publi.price != 9500) {
+                modificarPrecio(publi.id, publi.seller_id, 9500)
+            } else if (publi.available_quantity === 2 && publi.price != 11999) {
+                modificarPrecio(publi.id, publi.seller_id, 11999)
+            } else if (publi.available_quantity === 1 && publi.price != 15000) {
+                modificarPrecio(publi.id, publi.seller_id, 15000)
+            }
+        } else {
+            if (publi.available_quantity > 2 && publi.price != 3699) {
+                modificarPrecio(publi.id, publi.seller_id, 3699)
+            } else if (publi.available_quantity === 2 && publi.price != 5099) {
+                modificarPrecio(publi.id, publi.seller_id, 5099)
+            } else if (publi.available_quantity === 1 && publi.price != 6699) {
+                modificarPrecio(publi.id, publi.seller_id, 6699)
+            }
+        }
+
+    }
+}
+
+const preciosFWC = (publi) => {
+    if (publi.family_id === 3406057476164753) {
+        if (publi.available_quantity > 0 && publi.status != "active") {
+            activarEstado(publi.id, publi.seller_id)
+        }
+        if (publi.figurita === "FWC19" || publi.figurita === "FWC14" || publi.figurita==="00") {
+            if (publi.available_quantity > 2 && publi.price != 10499) {
+                modificarPrecio(publi.id, publi.seller_id, 10499)
+            } else if (publi.available_quantity === 2 && publi.price != 13999) {
+                modificarPrecio(publi.id, publi.seller_id, 13999)
+            } else if (publi.available_quantity === 1 && publi.price != 17999) {
+                modificarPrecio(publi.id, publi.seller_id, 17999)
+            }
+        } else {
+            if (publi.available_quantity > 2 && publi.price != 7999) {
+                modificarPrecio(publi.id, publi.seller_id, 7999)
+            } else if (publi.available_quantity === 2 && publi.price != 8999) {
+                modificarPrecio(publi.id, publi.seller_id, 8999)
+            } else if (publi.available_quantity === 1 && publi.price != 9999) {
+                modificarPrecio(publi.id, publi.seller_id, 9999)
+            }
+        }        
+    }
+}
+
+const preciosAFA = (publi) => {
+    if (publi.family_id === 1331424923778706) {
+        if (publi.available_quantity > 0 && publi.status != "active") {
+            activarEstado(publi.id, publi.seller_id)
+        }
+        if (publi.figurita === "ARG17") {
+            if (publi.available_quantity > 2 && publi.price != 37000) {
+                modificarPrecio(publi.id, publi.seller_id, 37000)
+            } else if (publi.available_quantity === 2 && publi.price != 43000) {
+                modificarPrecio(publi.id, publi.seller_id, 43000)
+            } else if (publi.available_quantity === 1 && publi.price != 47000) {
+                modificarPrecio(publi.id, publi.seller_id, 47000)
+            }
+        } else if (publi.figurita === "ARG1" || publi.figurita === "ESCUDOSELECCIÓNARGENTINA") {
+            if (publi.available_quantity > 2 && publi.price != 9500) {
+                modificarPrecio(publi.id, publi.seller_id, 9500)
+            } else if (publi.available_quantity === 2 && publi.price != 11999) {
+                modificarPrecio(publi.id, publi.seller_id, 11999)
+            } else if (publi.available_quantity === 1 && publi.price != 15000) {
+                modificarPrecio(publi.id, publi.seller_id, 15000)
+            }
+        }else {
+            if (publi.available_quantity > 2 && publi.price != 5000) {
+                modificarPrecio(publi.id, publi.seller_id, 5000)
+            } else if (publi.available_quantity === 2 && publi.price != 7500) {
+                modificarPrecio(publi.id, publi.seller_id, 7500)
+            } else if (publi.available_quantity === 1 && publi.price != 11075) {
+                modificarPrecio(publi.id, publi.seller_id, 11075)
+            }
+        }
+    }
+    
+}
+
 export const subirPrecioStock_1 = async () => {
     const publicaciones = await getPublicaciones();
 
     for (const publi of publicaciones) {
         if ([1331424923778706, 3406057476164753, 7115922794008337].includes(publi.family_id)) {
-            const publicacionesAuto = await Precios.find()
 
-            if (publi.available_quantity === 1) {
+            preciosEscudos(publi)            
+            preciosFWC(publi)
+            preciosAFA(publi)
 
-                const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
+            // if (publi.available_quantity === 1) {
 
-                if (!publicacion || publicacion.PRECIO_NUEVO === publi.price) {
+            //     const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
 
-                    const nuevoPrecio = Number(publi.price) + 3000;
-                    try {
-                        await Precios.findOneAndUpdate(
-                            { MLA: publi.id }, // Criterio de búsqueda para verificar si existe
-                            {
-                                PRECIO_ANT: publi.price,
-                                PRECIO_NUEVO: nuevoPrecio
-                            },
-                            {
-                                upsert: true, // Si no existe, lo crea
-                                new: true,    // Devuelve el documento actualizado/creado
-                                setDefaultsOnInsert: true
-                            }
-                        )
-                        modificarPrecio(publi.id, publi.seller_id, nuevoPrecio)
-                        console.log("Se actualizo el precio de ",publi.id, " a ",nuevoPrecio)
-                    } catch (error) {
-                        console.error("No se pudo actualizar precio",error)
-                    }
-                }
+            //     if (!publicacion || publicacion.PRECIO_NUEVO === publi.price) {
 
-            } else if (publi.available_quantity === 2) {
-                const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
+            //         const nuevoPrecio = Number(publi.price) + 3000;
+            //         try {
+            //             await Precios.findOneAndUpdate(
+            //                 { MLA: publi.id }, // Criterio de búsqueda para verificar si existe
+            //                 {
+            //                     PRECIO_ANT: publi.price,
+            //                     PRECIO_NUEVO: nuevoPrecio
+            //                 },
+            //                 {
+            //                     upsert: true, // Si no existe, lo crea
+            //                     new: true,    // Devuelve el documento actualizado/creado
+            //                     setDefaultsOnInsert: true
+            //                 }
+            //             )
+            //             modificarPrecio(publi.id, publi.seller_id, nuevoPrecio)
+            //             console.log("Se actualizo el precio de ",publi.id, " a ",nuevoPrecio)
+            //         } catch (error) {
+            //             console.error("No se pudo actualizar precio",error)
+            //         }
+            //     }
 
-                if (!publicacion || publicacion.PRECIO_NUEVO == publi.price) {
+            // } else if (publi.available_quantity === 2) {
+            //     const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
 
-                    const nuevoPrecio = Number(publi.price) + 2000;
-                    await Precios.findOneAndUpdate(
-                        { MLA: publi.id }, // Criterio de búsqueda para verificar si existe
-                        {
-                            PRECIO_ANT: publi.price,
-                            PRECIO_NUEVO: nuevoPrecio
-                        },
-                        {
-                            upsert: true, // Si no existe, lo crea
-                            new: true,    // Devuelve el documento actualizado/creado
-                            setDefaultsOnInsert: true
-                        }
-                    )
-                    modificarPrecio(publi.id, publi.seller_id, nuevoPrecio)
-                }
-            } else if (publi.available_quantity > 2) {
-                const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
-                if (publicacion) {
-                    await modificarPrecio(publi.id, publi.seller_id, publicacion.PRECIO_ANT)
-                    await Precios.deleteOne({ MLA: publi.id })
-                }
-            }
+            //     if (!publicacion || publicacion.PRECIO_NUEVO == publi.price) {
+
+            //         const nuevoPrecio = Number(publi.price) + 2000;
+            //         await Precios.findOneAndUpdate(
+            //             { MLA: publi.id }, // Criterio de búsqueda para verificar si existe
+            //             {
+            //                 PRECIO_ANT: publi.price,
+            //                 PRECIO_NUEVO: nuevoPrecio
+            //             },
+            //             {
+            //                 upsert: true, // Si no existe, lo crea
+            //                 new: true,    // Devuelve el documento actualizado/creado
+            //                 setDefaultsOnInsert: true
+            //             }
+            //         )
+            //         modificarPrecio(publi.id, publi.seller_id, nuevoPrecio)
+            //     }
+            // } else if (publi.available_quantity > 2) {
+            //     const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
+            //     if (publicacion) {
+            //         await modificarPrecio(publi.id, publi.seller_id, publicacion.PRECIO_ANT)
+            //         await Precios.deleteOne({ MLA: publi.id })
+            //     }
+            // }
 
 
         }

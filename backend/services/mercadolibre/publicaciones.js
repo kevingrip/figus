@@ -221,6 +221,30 @@ export const activarPublicacion = async (mla, seller_id, estado) => {
     }
 }
 
+export const activarEstado = async (mla, seller_id) => {
+    try {
+        const tokens = await obtenerToken();
+        const token = tokens.find(token => token.seller === seller_id);
+        
+        await axios.put(`https://api.mercadolibre.com/items/${mla}`,
+            {
+                status: "active"
+            },
+            {
+                headers: {
+                    Authorization: `Bearer ${token.access_token}`
+                }
+            }
+        )
+    } catch (error) {
+        console.log(
+            "Error activando la publicacion:",
+            error.response?.data || error.message
+        );
+        throw error;
+    }
+}
+
 export const modificarPrecio = async (mla, seller_id, nuevoPrecio) => {
     try {
         const tokens = await obtenerToken();
@@ -313,7 +337,7 @@ export const sincronizarStock = async () => {
             const figusVendidas = []
 
             if (figuId) {
-                console.log(publi.id)
+                // console.log(publi.id)
                 const figuEncontrada = await figuritas.findOne({
                     NUM: figuId
                 }).lean();

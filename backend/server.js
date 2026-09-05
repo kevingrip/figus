@@ -67,13 +67,13 @@ app.use("/envios",datosEnvios)
 
 app.use("/gastos", datosGastos)
 
-// try {
-//     console.log("Iniciando actualizacion de precios")
-//     await subirPrecioStock_1()
-//     console.log("Actualizacion de precios finalizada")
-// } catch (error) {
-//     console.error("No se pudo ejecutar actualizar precio stock",error)
-// }
+try {
+    console.log("Iniciando actualizacion de precios")
+    await subirPrecioStock_1()
+    console.log("Actualizacion de precios finalizada")
+} catch (error) {
+    console.error("No se pudo ejecutar actualizar precio stock",error)
+}
 
 try {
 
