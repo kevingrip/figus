@@ -290,11 +290,30 @@ export const sincronizarStock = async () => {
     for (const publi of publicaciones) {
         if ([1331424923778706, 3406057476164753, 7115922794008337].includes(publi.family_id)) {
             let figuId;
-            publi.figurita === "00" ? figuId = "FWC0" : figuId = publi.figurita;
+            if (publi.figurita === "00"){
+                figuId = "FWC0"
+            } else if (publi.figurita === "JULIÁNÁLVAREZ"){
+                figuId = "ARG19"
+            } else if (publi.figurita === "ESCUDOSELECCIÓNARGENTINA"){
+                figuId = "ARG1"
+            } else if (publi.figurita === "GIULIANOSIMEONE"){
+                figuId = "ARG20"
+            } else if (publi.figurita === "ENZOFERNANDEZ"){
+                figuId = "ARG8"
+            } else if (publi.figurita === "FRANCOMASTANTUONO"){
+                figuId = "ARG15"
+            } else if (publi.figurita === "FIGURADELACOPAMUNDIAL"){
+                figuId = "ARG14"
+            } else if (publi.figurita === "NICOLÁSOTAMENDI"){
+                figuId = "ARG5"
+            }  else{
+                figuId = publi.figurita
+            }
+
             const figusVendidas = []
 
             if (figuId) {
-
+                console.log(publi.id)
                 const figuEncontrada = await figuritas.findOne({
                     NUM: figuId
                 }).lean();

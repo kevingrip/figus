@@ -285,3 +285,35 @@ export const obtenerVentasML2 = async () => {
 
     return ventasParseadas;
 }
+
+export const obtenerVentasCuentas = async(cuenta) =>{
+    let ventasCuentas
+    if (cuenta){
+        ventasCuentas = await fetch(`${api}/ventas/cuentas?cuenta=${cuenta}`)
+    }else{
+        ventasCuentas = await fetch(`${api}/ventas/cuentas`)
+    }
+    const ventasCuentasParseadas = await ventasCuentas.json();
+    return ventasCuentasParseadas    
+}
+
+export const crearNuevoGasto = async (datos) =>{
+    const nuevoGasto = await fetch(`${api}/gastos`,
+        {method:"POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(datos)
+    })
+
+    if (!nuevoGasto.ok) {
+        throw new Error("Error al crear el gasto");
+    }
+
+    return await nuevoGasto.json()
+}
+
+export const obtenerGastos = async () =>{
+    const gastos = await fetch(`${api}/gastos`)
+    return gastos.json()
+}

@@ -14,6 +14,7 @@ import { sincronizarStock } from "./services/mercadolibre/publicaciones.js";
 import datosEnvios from "./routes/endpoint_envios.js"
 import { actualizarVentas } from "./services/accionesVentas.js";
 import { subirPrecioStock_1 } from "./services/accionesFiguritas.js";
+import datosGastos from "./routes/endpoint_gastos.js"
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -64,13 +65,15 @@ app.use("/mercadolibre", mercadoLibreRoutes);
 
 app.use("/envios",datosEnvios)
 
-try {
-    console.log("Iniciando actualizacion de precios")
-    await subirPrecioStock_1()
-    console.log("Actualizacion de precios finalizada")
-} catch (error) {
-    console.error("No se pudo ejecutar actualizar precio stock",error)
-}
+app.use("/gastos", datosGastos)
+
+// try {
+//     console.log("Iniciando actualizacion de precios")
+//     await subirPrecioStock_1()
+//     console.log("Actualizacion de precios finalizada")
+// } catch (error) {
+//     console.error("No se pudo ejecutar actualizar precio stock",error)
+// }
 
 try {
 

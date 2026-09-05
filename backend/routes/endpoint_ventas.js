@@ -210,7 +210,11 @@ router.get("/vendedores-filtrado", async(req,res)=>{
 })
 
 router.get("/cuentas", async (req, res) => {
-    const ventasCuentaTotal = await calculoCuentas()
+    const {cuenta} = req.query
+    let ventasCuentaTotal = await calculoCuentas()
+    if (cuenta){
+        ventasCuentaTotal = ventasCuentaTotal.filter(venta=>venta.CUENTA===cuenta)
+    }    
     res.json(ventasCuentaTotal)
 })
 

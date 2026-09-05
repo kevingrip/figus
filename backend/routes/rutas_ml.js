@@ -147,7 +147,7 @@ router.patch("/publicaciones/precio/:mla", async (req,res)=>{
     } catch (error) {
         console.log(error.response?.data || error.message);
         res.status(500).json({
-            error: `Error obteniendo publicaciones,${error}`
+            error: `Error obteniendo publicaciones,${error.response?.data}`
         });
     }
 })

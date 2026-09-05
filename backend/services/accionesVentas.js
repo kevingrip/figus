@@ -7,6 +7,7 @@ import { estadoPublicacion, getPublicacion, getPublicaciones, modificarPrecio } 
 import { descontarVentaFiguritasMDB, getFiguritaIndividual } from "./accionesFiguritas.js";
 import { obtenerPreguntaMeli } from "../models/preguntasVenta.js";
 import { confirmarVenta } from "./accionesPreguntas.js";
+import { getGastos } from "./accionesGastos.js";
 
 export const getVentas = async () => {
     const ventas = await modeloVenta.find().sort({ DIA: -1 }).lean();
@@ -341,16 +342,23 @@ export const getVentasFlex = async () => {
 export const totalNetoUsuario = async (usuario) => {
     const ventas = await getVentas()
     const ventasUsuario = ventas.filter(venta => venta.CUENTA === usuario)
+
     const enviosPagados = await getEnvios()
     const enviosPagadosUsuario = enviosPagados.filter(envio => envio.usuario_pagador === usuario)
 
+    const gastos = await getGastos()
+    const gastosUsuarios = gastos.filter(gasto=>gasto.CUENTA===usuario)
+
+    const montoGastos = gastosUsuarios.reduce(
+        (total, envio) => total + (envio.MONTO ?? 0), 0
+    )
     const montoEnviosPagos = enviosPagadosUsuario.reduce(
         (total, envio) => total + (envio.pago ?? 0), 0
     )
     const montoTotalNeto = ventasUsuario.reduce(
         (total, venta) => total + (venta.IMPORTE_NETO ?? 0), 0
     )
-    return montoTotalNeto - montoEnviosPagos
+    return montoTotalNeto - montoEnviosPagos - montoGastos
 }
 
 export const totalVendedoresVentas = async () => {
@@ -369,18 +377,29 @@ export const calculoCuentas = async () => {
         const ventasML = await getVentasPublicaciones_ML()
         const envios = await getVentasFlex()
         const enviosCuentaMDB = envios.map(orden => ({ VENTAID: orden?.venta?.VENTAID, PRECIO: orden?.envio?.pago, FECHA: orden?.venta?.DIA, ZONA: orden?.envio?.zona, TRANSPORTISTA: orden?.envio?.envio, USUARIO_PAGO: orden?.envio?.usuario_pagador, PRODUCTO: orden?.venta?.PRODUCTO }))
-        const ventasCuentaMDB = ventasMDB.filter(venta => ["MATI", "KEVIN"].includes(venta.CUENTA)).map(venta => ({ VENTAID: venta.VENTAID, FECHA: venta.DIA, CUENTA: venta.CUENTA, IMPORTE_NETO: venta.IMPORTE_NETO }))
-        const ventasTotal = ventasCuentaMDB.map(venta => {
-            const ventasCuentaML = ventasML.find(venta_ml => venta_ml.pack_id === venta.VENTAID)
-            const seller = ventasCuentaML?.data?.seller_id
-            const vendedor_id = seller ? nombreSeller(ventasCuentaML.data.seller_id) : "Sin seller"
-            return {
-                ...venta,
-                FECHA_ML: ventasCuentaML?.data?.date_created, TITULO: ventasCuentaML?.data?.nombre, CUENTA_ML: vendedor_id
-            }
-        }
+        const ventasCuentaMDB = ventasMDB.map(venta => ({ VENTAID: venta.VENTAID, FECHA: venta.DIA, CUENTA: venta.CUENTA, IMPORTE_NETO: venta.IMPORTE_NETO }))
+        // const ventasTotal = ventasCuentaMDB.map(venta => {
+        //     const ventasCuentaML = ventasML.find(venta_ml => venta_ml.pack_id === venta.VENTAID)
+        //     const seller = ventasCuentaML?.data?.seller_id
+        //     const vendedor_id = seller ? nombreSeller(ventasCuentaML.data.seller_id) : "Sin seller"
+        //     return {
+        //         ...venta,
+        //         FECHA_ML: ventasCuentaML?.data?.date_created, TITULO: ventasCuentaML?.data?.nombre, CUENTA_ML: vendedor_id
+        //     }
+        // }
 
-        )
+        // )
+
+        const ventasUnicas = new Set(ventasCuentaMDB.map(venta => String(venta.VENTAID)))
+        const ventasCuentaML = ventasML
+            .map(venta => ({
+                VENTAID: venta.pack_id,
+                FECHA: venta.data?.date_created,
+                CUENTA: venta.data?.seller_id
+            }))
+            .filter(venta => !ventasUnicas.has(String(venta.VENTAID)))
+
+        const ventasTotal = [...ventasCuentaMDB,...ventasCuentaML]
 
         ventasTotal.sort((a, b) => new Date(b.FECHA) - new Date(a.FECHA))
         const ventasCuentaTotal = ventasTotal.map(ventas => {
@@ -388,12 +407,12 @@ export const calculoCuentas = async () => {
             if (envioAsociado) {
                 return {
                     ...ventas,
-                    PRECIO: envioAsociado?.PRECIO,
                     FECHA: envioAsociado?.FECHA,
                     ZONA: envioAsociado?.ZONA,
                     TRANSPORTISTA: envioAsociado?.TRANSPORTISTA,
                     USUARIO_PAGO: envioAsociado?.USUARIO_PAGO,
-                    PRODUCTO: envioAsociado?.PRODUCTO
+                    PRODUCTO: envioAsociado?.PRODUCTO,
+                    COSTO_ENVIO: envioAsociado?.PRECIO
                 }
             }
             else {
@@ -439,7 +458,7 @@ export const actualizarVentas = async () => {
                     await descontarVentaFiguritasMDB(pregunta.ALBUM_REAL, pregunta.FIGUS_EN_STOCK)
                     await confirmarVenta(pregunta._id)
                 } catch (error) {
-                    console.error("No se pudo actualizar la venta",error)
+                    console.error("No se pudo actualizar la venta", error)
                 }
             }
         }

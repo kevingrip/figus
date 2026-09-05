@@ -112,10 +112,10 @@ export const descontarFiguritaMDB = async (album, figu, cantidad, venta) => {
     }
 }
 
-export const getFiguritaIndividual = async(figu_NUM,album)=>{
+export const getFiguritaIndividual = async (figu_NUM, album) => {
     const nombreAlbum = nombrePublicacion(album)
     const album_figuritas = await getAlbumFiguritas(nombreAlbum.bdd)
-    return await album_figuritas.find(figu=>
+    return await album_figuritas.find(figu =>
         figu.NUM === figu_NUM
     )
 }
@@ -135,7 +135,7 @@ export const descontarVentaFiguritasMDB = async (album, figuritas) => {
             }
         }
     } catch (error) {
-        console.error("No se pudo descontar las figuritas de la venta",error)
+        console.error("No se pudo descontar las figuritas de la venta", error)
     }
 }
 
@@ -150,28 +150,33 @@ export const subirPrecioStock_1 = async () => {
 
                 const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
 
-                if (!publicacion || publicacion.PRECIO_NUEVO != publi.price) {
+                if (!publicacion || publicacion.PRECIO_NUEVO === publi.price) {
 
                     const nuevoPrecio = Number(publi.price) + 3000;
-                    await Precios.findOneAndUpdate(
-                        { MLA: publi.id }, // Criterio de búsqueda para verificar si existe
-                        {
-                            PRECIO_ANT: publi.price,
-                            PRECIO_NUEVO: nuevoPrecio
-                        },
-                        {
-                            upsert: true, // Si no existe, lo crea
-                            new: true,    // Devuelve el documento actualizado/creado
-                            setDefaultsOnInsert: true
-                        }
-                    )
-                    modificarPrecio(publi.id, publi.seller_id, nuevoPrecio)
+                    try {
+                        await Precios.findOneAndUpdate(
+                            { MLA: publi.id }, // Criterio de búsqueda para verificar si existe
+                            {
+                                PRECIO_ANT: publi.price,
+                                PRECIO_NUEVO: nuevoPrecio
+                            },
+                            {
+                                upsert: true, // Si no existe, lo crea
+                                new: true,    // Devuelve el documento actualizado/creado
+                                setDefaultsOnInsert: true
+                            }
+                        )
+                        modificarPrecio(publi.id, publi.seller_id, nuevoPrecio)
+                        console.log("Se actualizo el precio de ",publi.id, " a ",nuevoPrecio)
+                    } catch (error) {
+                        console.error("No se pudo actualizar precio",error)
+                    }
                 }
 
             } else if (publi.available_quantity === 2) {
                 const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
 
-                if (!publicacion || publicacion.PRECIO_NUEVO != publi.price) {
+                if (!publicacion || publicacion.PRECIO_NUEVO == publi.price) {
 
                     const nuevoPrecio = Number(publi.price) + 2000;
                     await Precios.findOneAndUpdate(
@@ -188,9 +193,9 @@ export const subirPrecioStock_1 = async () => {
                     )
                     modificarPrecio(publi.id, publi.seller_id, nuevoPrecio)
                 }
-            } else if (publi.available_quantity > 2){
+            } else if (publi.available_quantity > 2) {
                 const publicacion = publicacionesAuto.find(publicacion => publicacion.MLA === publi.id)
-                if (publicacion){
+                if (publicacion) {
                     await modificarPrecio(publi.id, publi.seller_id, publicacion.PRECIO_ANT)
                     await Precios.deleteOne({ MLA: publi.id })
                 }

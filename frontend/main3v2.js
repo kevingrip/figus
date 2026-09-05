@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos, obtenerFigusMayorStock, obtenerVentasFlex, obtenerTotalNeto, obtenerVendedoresVentas, obtenerListaTransportistas, obtenerVentasML2 } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos, obtenerFigusMayorStock, obtenerVentasFlex, obtenerTotalNeto, obtenerVendedoresVentas, obtenerListaTransportistas, obtenerVentasML2, obtenerVentasCuentas, obtenerGastos } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -14,6 +14,8 @@ import { getStockProveedores } from "./javascript/utilidades/stockTotal.js";
 import { interfazMaxCant } from "./javascript/pages/interfazMaxCant.js";
 import { pageEnviosFlex } from "./javascript/pages/pageEnviosFlex/pageEnviosFlex.js";
 import { pageTotalVentas } from "./javascript/pages/pageTotalVentas/totalVentas.js";
+import { gastos } from "./javascript/pages/pageGastos/Gastos.js";
+import { cuentas } from "./javascript/pages/pageCuentas/Cuentas.js";
 
 async function actualizarFechasPublicaciones() {
     try {
@@ -340,5 +342,31 @@ window.addEventListener("load", async () => {
         const ventasML = await obtenerVentasML2()
         console.log(ventasML)
         await pageTotalVentas(ventasML)
+    }
+})
+
+
+window.addEventListener("load", async () => {
+
+    if (window.location.pathname.endsWith("/gastos.html")) {
+        const netoMati = await obtenerTotalNeto("MATI")
+        const netoKevin = await obtenerTotalNeto("KEVIN")
+        const netos = {mati_neto:netoMati,kevin_neto:netoKevin}
+        const historialGastos = await obtenerGastos()
+        gastos(netos,historialGastos)
+    }
+})
+
+
+
+window.addEventListener("load", async () => {
+
+    if (window.location.pathname.endsWith("/cuentas.html")) {
+        const netoMati = await obtenerTotalNeto("MATI")
+        const netoKevin = await obtenerTotalNeto("KEVIN")
+        const netos = {mati_neto:netoMati,kevin_neto:netoKevin}
+        const historialCuentas = await obtenerVentasCuentas()
+        const historialGastos = await obtenerGastos()
+        cuentas(netos,historialCuentas,historialGastos)
     }
 })
