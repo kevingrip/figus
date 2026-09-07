@@ -95,15 +95,11 @@ export const descontarFiguritaMDB = async (album, figu, cantidad, venta) => {
             inc[cantHistorica] = cant;
         }
 
-        console.log("ANTES:", await modelo.findOne({ NUM: figu.NUM }));
-
         const resultado = await modelo.findOneAndUpdate(
             { NUM: figu.NUM },
             { $inc: inc },
             { returnDocument: "after" }
         );
-
-        console.log("DESPUÉS:", resultado);
 
     } catch (error) {
 
@@ -142,7 +138,9 @@ export const descontarVentaFiguritasMDB = async (album, figuritas) => {
 const preciosEscudos = (publi) => {
     if (publi.family_id === 7115922794008337) {
         if (publi.available_quantity > 0 && publi.status != "active") {
-            activarEstado(publi.id, publi.seller_id)
+            if (publi.id !="MLA3916353670"){
+                activarEstado(publi.id, publi.seller_id)
+            }
         }
         if (publi.figurita === "ARG1" || publi.figurita === "ESCUDOSELECCIÓNARGENTINA") {
             if (publi.available_quantity > 2 && publi.price != 9500) {
@@ -193,7 +191,9 @@ const preciosFWC = (publi) => {
 const preciosAFA = (publi) => {
     if (publi.family_id === 1331424923778706) {
         if (publi.available_quantity > 0 && publi.status != "active") {
-            activarEstado(publi.id, publi.seller_id)
+            if (publi.id !="MLA3916353670"){
+                activarEstado(publi.id, publi.seller_id)
+            }            
         }
         if (publi.figurita === "ARG17") {
             if (publi.available_quantity > 2 && publi.price != 37000) {

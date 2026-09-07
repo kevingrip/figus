@@ -84,12 +84,12 @@ try {
     console.error("Error actualizando venta:", error);
 }
 
-try {
-    console.log("Iniciando sincronización de stock...");
-    await sincronizarStock()
-    console.log("Stock sincronizado correctamente");
-    console.log(`http://localhost:${PORT}/`)
+// try {
+//     console.log("Iniciando sincronización de stock...");
+//     await sincronizarStock()
+//     console.log("Stock sincronizado correctamente");
+//     console.log(`http://localhost:${PORT}/`)
 
-} catch (error) {
-    console.error("Error sincronizando stock:", error);
-}
+// } catch (error) {
+//     console.error("Error sincronizando stock:", error);
+// }
