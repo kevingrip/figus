@@ -34,7 +34,7 @@ export const radioContenedor = (contenedor, lugar, posicion) => {
 export const estiloContenedorPrincipal = (contenedor) => {
     contenedor.style.width = "auto"
     contenedor.style.height = "auto"
-    contenedor.style.minHeight = "45vh"    
+    contenedor.style.minHeight = "20vh"    
     radioContenedor(contenedor)
     contenedor.style.display = "flex"
     contenedor.style.flexDirection = "row"
