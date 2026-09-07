@@ -3,7 +3,7 @@ import modeloVenta from "../models/modeloVenta.js";
 import { getEnvios } from "./accionesEnvios.js";
 import { obtenerToken } from "./token/obtenerToken.js";
 import { nombreSeller } from "../utilidades/nombres.js";
-import { estadoPublicacion, getPublicacion, getPublicaciones, modificarPrecio } from "./mercadolibre/publicaciones.js";
+import { activarEstado, estadoPublicacion, getPublicacion, getPublicaciones, modificarPrecio, modificarStock } from "./mercadolibre/publicaciones.js";
 import { descontarVentaFiguritasMDB, getFiguritaIndividual } from "./accionesFiguritas.js";
 import { obtenerPreguntaMeli } from "../models/preguntasVenta.js";
 import { confirmarVenta } from "./accionesPreguntas.js";
@@ -455,6 +455,8 @@ export const actualizarVentas = async () => {
                         ventaEncontrada.data.date_created
                     )
                     await modificarPrecio(pregunta.MLA, pregunta.SELLER_ID, 2000)
+                    await modificarStock(pregunta.MLA, pregunta.SELLER_ID,1)
+                    await activarEstado(pregunta.MLA, pregunta.SELLER_ID)
                     await descontarVentaFiguritasMDB(pregunta.ALBUM_REAL, pregunta.FIGUS_EN_STOCK)
                     await confirmarVenta(pregunta._id)
                 } catch (error) {
