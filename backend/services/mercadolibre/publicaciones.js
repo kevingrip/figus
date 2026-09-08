@@ -225,7 +225,7 @@ export const activarEstado = async (mla, seller_id) => {
     try {
         const tokens = await obtenerToken();
         const token = tokens.find(token => token.seller === seller_id);
-        
+
         await axios.put(`https://api.mercadolibre.com/items/${mla}`,
             {
                 status: "active"
@@ -261,11 +261,10 @@ export const modificarPrecio = async (mla, seller_id, nuevoPrecio) => {
         )
     } catch (error) {
         console.log(
-            "Error modificando precio:",
-            error.response?.data || error.message
-        );
-
-        throw error;
+            "Error modificando precio")
+        console.log("URL:", error.config?.url);
+        console.log("Enviado:", error.config?.data);
+        console.log("Respuesta MeLi:", error.response?.data);
     }
 }
 
@@ -314,23 +313,23 @@ export const sincronizarStock = async () => {
     for (const publi of publicaciones) {
         if ([1331424923778706, 3406057476164753, 7115922794008337].includes(publi.family_id)) {
             let figuId;
-            if (publi.figurita === "00"){
+            if (publi.figurita === "00") {
                 figuId = "FWC0"
-            } else if (publi.figurita === "JULIÁNÁLVAREZ"){
+            } else if (publi.figurita === "JULIÁNÁLVAREZ") {
                 figuId = "ARG19"
-            } else if (publi.figurita === "ESCUDOSELECCIÓNARGENTINA"){
+            } else if (publi.figurita === "ESCUDOSELECCIÓNARGENTINA") {
                 figuId = "ARG1"
-            } else if (publi.figurita === "GIULIANOSIMEONE"){
+            } else if (publi.figurita === "GIULIANOSIMEONE") {
                 figuId = "ARG20"
-            } else if (publi.figurita === "ENZOFERNANDEZ"){
+            } else if (publi.figurita === "ENZOFERNANDEZ") {
                 figuId = "ARG8"
-            } else if (publi.figurita === "FRANCOMASTANTUONO"){
+            } else if (publi.figurita === "FRANCOMASTANTUONO") {
                 figuId = "ARG15"
-            } else if (publi.figurita === "FIGURADELACOPAMUNDIAL"){
+            } else if (publi.figurita === "FIGURADELACOPAMUNDIAL") {
                 figuId = "ARG14"
-            } else if (publi.figurita === "NICOLÁSOTAMENDI"){
+            } else if (publi.figurita === "NICOLÁSOTAMENDI") {
                 figuId = "ARG5"
-            }  else{
+            } else {
                 figuId = publi.figurita
             }
 

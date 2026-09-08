@@ -72,7 +72,10 @@ try {
     await subirPrecioStock_1()
     console.log("Actualizacion de precios finalizada")
 } catch (error) {
-    console.error("No se pudo ejecutar actualizar precio stock",error)
+    console.error("No se pudo ejecutar actualizar precio stock")
+    if (error.response){
+        console.log(JSON.stringify(error.response.data, null, 2))
+    }
 }
 
 try {
