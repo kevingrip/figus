@@ -84,14 +84,106 @@ export const estadoPublicacion = async () => {
     return { filtered_publicaciones, items }
 };
 
-export const getPublicaciones = async (estado) => {
+const axiosItemsPublicaciones = async (token, parametros) => {
+    const response = await axios.get(
+        `https://api.mercadolibre.com/users/${token.seller}/items/search`,
+        {
+            headers: {
+                Authorization: `Bearer ${token.access_token}`
+            },
+            parametros
+        }
+    );
+    return response
+}
+
+const asignarParametros = (estado) => {
+    const params = {
+        orders: "last_updated_desc",
+        limit: 100
+    };
+    if (estado) {
+        params.status = estado;
+    }
+    return params
+}
+
+const axiosPublicacion = async (lote, token) => {
+    return await axios.get(
+        `https://api.mercadolibre.com/items?ids=${lote.join(",")}`,
+        {
+            headers: {
+                Authorization: `Bearer ${token.access_token}`
+            }
+        }
+    );
+}
+
+const crearObjetoPublicacion = (item) => {    
+
+        const album_find = item.body.attributes?.find(variante => variante.id === "ALBUM_NAME")
+        const figu_find = item.body.attributes?.find(variante => variante.id === "CHARACTER")
+        const figu_NUM = figu_find?.value_name?.toUpperCase().replace(/\s/g, "")
+
+        const datosSeleccionadosPublicacion = ({
+            id: item.body.id,
+            title: item.body.title,
+            seller_id: item.body.seller_id,
+            price: item.body.price,
+            available_quantity: item.body.available_quantity,
+            permalink: item.body.permalink,
+            status: item.body.status,
+            date_created: item.body.date_created,
+            thumbnail: item.body.pictures?.[0]?.secure_url,
+            family_id: item.body,
+            album: album_find?.value_name,
+            figurita: figu_NUM
+        })
+
+        return datosSeleccionadosPublicacion
+}
+
+export const getPublicaciones = async (estado, pagina) => {
+    const tokens = await obtenerToken();    
+    const items = [];
+    const filtered_publicaciones = []
+    for (const usuario of tokens) {
+
+        const parametros = asignarParametros(estado)
+        const response = await axiosItemsPublicaciones(usuario, parametros)
+
+        const ids = response.data.results;
+
+        for (let i = 0; i < ids.length; i += 20) {
+            const lote = ids.slice(i, i + 20);
+
+            const { data } = await axiosPublicacion(lote, usuario)
+
+            items.push(...data);
+        }
+
+        for (const item of items) {
+            const publicacion = crearObjetoPublicacion(item)
+            filtered_publicaciones.push(publicacion)
+        }
+
+
+        filtered_publicaciones.sort(
+            (a, b) => new Date(b.date_created) - new Date(a.date_created)
+        );
+
+    }
+    return filtered_publicaciones
+}
+
+export const getPublicaciones2 = async (estado) => {
     const tokens = await obtenerToken();
     const filtered_publicaciones = []
     const items = [];
     for (const token of tokens) {
         const params = {
             orders: "last_updated_desc",
-                limit: 100
+            limit: 100
         };
         if (estado) {
             params.status = estado;
