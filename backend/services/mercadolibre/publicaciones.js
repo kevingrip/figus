@@ -99,7 +99,7 @@ const axiosItemsPublicaciones = async (token, parametros) => {
 
 const asignarParametros = (estado) => {
     const params = {
-        orders: "last_updated_desc",
+        orders: "last_created_desc",
         limit: 100
     };
     if (estado) {
@@ -144,18 +144,19 @@ const crearObjetoPublicacion = (item) => {
 }
 
 export const getPublicaciones = async (estado, pagina) => {
-    const tokens = await obtenerToken();    
     const items = [];
     const filtered_publicaciones = []
+
+    const tokens = await obtenerToken();    
     for (const usuario of tokens) {
 
         const parametros = asignarParametros(estado)
-        const response = await axiosItemsPublicaciones(usuario, parametros)
+        const itemsPublicaciones = await axiosItemsPublicaciones(usuario, parametros)
 
-        const ids = response.data.results;
+        const mla_ids = itemsPublicaciones.data.results;
 
-        for (let i = 0; i < ids.length; i += 20) {
-            const lote = ids.slice(i, i + 20);
+        for (let i = 0; i < mla_ids.length; i += 20) {
+            const lote = mla_ids.slice(i, i + 20);
 
             const { data } = await axiosPublicacion(lote, usuario)
 
@@ -163,10 +164,9 @@ export const getPublicaciones = async (estado, pagina) => {
         }
 
         for (const item of items) {
-            const publicacion = crearObjetoPublicacion(item)
+            const publicacion = crearObjetoPublicacion(item) //CREAMOS OBJETO PERSONALIZADO, CON LOS DATOS QUE NECESITAMOS
             filtered_publicaciones.push(publicacion)
         }
-
 
         filtered_publicaciones.sort(
             (a, b) => new Date(b.date_created) - new Date(a.date_created)
