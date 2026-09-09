@@ -4,6 +4,7 @@ const esquema_figu = new mongoose.Schema({
     NUM: String,
     TIPO: String,
     NOMBRE: String,
+    MLA: [{ type: String }],
     STOCK: {
         MATI: {
             CANT: Number,

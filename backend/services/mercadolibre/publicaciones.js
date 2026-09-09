@@ -84,27 +84,29 @@ export const estadoPublicacion = async () => {
     return { filtered_publicaciones, items }
 };
 
-export const getPublicaciones = async () => {
+export const getPublicaciones = async (estado) => {
     const tokens = await obtenerToken();
     const filtered_publicaciones = []
     const items = [];
     for (const token of tokens) {
-        // Obtengo los IDs
-        const { data } = await axios.get(
+        const params = {
+            orders: "last_updated_desc",
+                limit: 100
+        };
+        if (estado) {
+            params.status = estado;
+        }
+        const response = await axios.get(
             `https://api.mercadolibre.com/users/${token.seller}/items/search`,
             {
                 headers: {
                     Authorization: `Bearer ${token.access_token}`
                 },
-                params: {
-                    orders: "last_updated_desc",
-                    limit: 100
-                }
+                params
             }
         );
 
-        const ids = data.results;
-
+        const ids = response.data.results;
 
         for (let i = 0; i < ids.length; i += 20) {
             const lote = ids.slice(i, i + 20);

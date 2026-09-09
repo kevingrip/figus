@@ -140,6 +140,7 @@ const preciosEscudos = (publi) => {
         if (publi.available_quantity > 0 && publi.status != "active") {
             if (!["MLA3916353670","MLA2070411091"].includes(publi.id)){
                 activarEstado(publi.id, publi.seller_id)
+                console.log(publi.id,"activado")
             }
         }
         else if (publi.figurita === "ARG1" || publi.figurita === "ESCUDOSELECCIÓNARGENTINA") {

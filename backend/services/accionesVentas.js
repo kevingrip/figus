@@ -469,7 +469,6 @@ export const actualizarVentas = async () => {
 
 export const crearVentaMDB = async (figusEnStock, figusSinStock, nombreAlbum, cuenta, precio, ventaid, fechaVenta) => {
 
-
     const nuevaVenta = {
         DIA: fechaVenta ? new Date(fechaVenta) : new Date(),
         VENTAID: ventaid,
