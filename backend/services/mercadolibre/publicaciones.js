@@ -91,7 +91,7 @@ const axiosItemsPublicaciones = async (token, parametros) => {
             headers: {
                 Authorization: `Bearer ${token.access_token}`
             },
-            parametros
+            params:parametros
         }
     );
     return response
@@ -100,7 +100,8 @@ const axiosItemsPublicaciones = async (token, parametros) => {
 const asignarParametros = (estado) => {
     const params = {
         orders: "last_created_desc",
-        limit: 100
+        limit: 100,
+        offset:0
     };
     if (estado) {
         params.status = estado;
@@ -119,49 +120,53 @@ const axiosPublicacion = async (lote, token) => {
     );
 }
 
-const crearObjetoPublicacion = (item) => {    
+const crearObjetoPublicacion = (item) => {
 
-        const album_find = item.body.attributes?.find(variante => variante.id === "ALBUM_NAME")
-        const figu_find = item.body.attributes?.find(variante => variante.id === "CHARACTER")
-        const figu_NUM = figu_find?.value_name?.toUpperCase().replace(/\s/g, "")
+    const album_find = item.body.attributes?.find(variante => variante.id === "ALBUM_NAME")
+    const figu_find = item.body.attributes?.find(variante => variante.id === "CHARACTER")
+    const figu_NUM = figu_find?.value_name?.toUpperCase().replace(/\s/g, "")
 
-        const datosSeleccionadosPublicacion = ({
-            id: item.body.id,
-            title: item.body.title,
-            seller_id: item.body.seller_id,
-            price: item.body.price,
-            available_quantity: item.body.available_quantity,
-            permalink: item.body.permalink,
-            status: item.body.status,
-            date_created: item.body.date_created,
-            thumbnail: item.body.pictures?.[0]?.secure_url,
-            family_id: item.body,
-            album: album_find?.value_name,
-            figurita: figu_NUM
-        })
+    const datosSeleccionadosPublicacion = ({
+        id: item.body.id,
+        title: item.body.title,
+        seller_id: item.body.seller_id,
+        price: item.body.price,
+        available_quantity: item.body.available_quantity,
+        permalink: item.body.permalink,
+        status: item.body.status,
+        date_created: item.body.date_created,
+        thumbnail: item.body.pictures?.[0]?.secure_url,
+        family_id: item.body,
+        album: album_find?.value_name,
+        figurita: figu_NUM
+    })
 
-        return datosSeleccionadosPublicacion
+    return datosSeleccionadosPublicacion
+}
+
+const pedidosLote20 = async (items, listaDeMLA, usuario) => {
+    for (let i = 0; i < listaDeMLA.length; i += 20) {
+        const lote = listaDeMLA.slice(i, i + 20);
+
+        const { data } = await axiosPublicacion(lote, usuario)
+
+        items.push(...data);
+    }
 }
 
 export const getPublicaciones = async (estado, pagina) => {
     const items = [];
     const filtered_publicaciones = []
 
-    const tokens = await obtenerToken();    
+    const tokens = await obtenerToken();
     for (const usuario of tokens) {
 
         const parametros = asignarParametros(estado)
         const itemsPublicaciones = await axiosItemsPublicaciones(usuario, parametros)
+        console.log(itemsPublicaciones.data.paging, itemsPublicaciones.data.seller_id)
+        const listaDeMLA = itemsPublicaciones.data.results;
 
-        const mla_ids = itemsPublicaciones.data.results;
-
-        for (let i = 0; i < mla_ids.length; i += 20) {
-            const lote = mla_ids.slice(i, i + 20);
-
-            const { data } = await axiosPublicacion(lote, usuario)
-
-            items.push(...data);
-        }
+        await pedidosLote20(items, listaDeMLA, usuario)
 
         for (const item of items) {
             const publicacion = crearObjetoPublicacion(item) //CREAMOS OBJETO PERSONALIZADO, CON LOS DATOS QUE NECESITAMOS
