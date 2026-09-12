@@ -5,7 +5,8 @@ import Venta from "../models/modeloVenta.js";
 import Venta_ML from "../models/modeloVentaML.js"
 import { seller_name } from "../../frontend/javascript/utilidades/nombres.js";
 import multer from "multer";
-import { calculoCuentas, getVentasFlex, getVentasML, getVentasPaginadasML, getVentasPublicaciones_ML, totalNetoUsuario, totalVendedoresVentas } from "../services/accionesVentas.js";
+import { calculoCuentas, getVentasFlex, getVentasML, getVentasML_datosCompletos, getVentasPublicaciones_ML, totalNetoUsuario, totalVendedoresVentas } from "../services/accionesVentas.js";
+import { obtenerOrden } from "../services/mercadolibre/ordenes.js";
 const router = Router();
 
 const upload = multer({
@@ -48,43 +49,30 @@ router.get("/ventaml", async (req, res) => {
 
     try {
 
-        const ordenes_finales = await getVentasML()
-
-        res.json(ordenes_finales);
-
-    } catch (error) {
-
-        console.error(error);
-
-        res.status(500).json({
-            error: "Error obteniendo órdenes"
-        });
-    }
-});
-
-router.get("/ventaml/paginadas", async (req, res) => {
-
-    try {
-
-        const ordenes_finales = await getVentasPaginadasML()
-
-        res.json(ordenes_finales);
-
-    } catch (error) {
-
-        console.error(error);
-
-        res.status(500).json({
-            error: "Error obteniendo órdenes"
-        });
-    }
-});
-
-router.get("/ventaml/paginadas2", async (req, res) => {
-
-    try {
-
         const ordenes_finales = await getVentasPublicaciones_ML()
+
+        res.json(ordenes_finales);
+
+    } catch (error) {
+
+        console.error(error);
+
+        res.status(500).json({
+            error: "Error obteniendo órdenes"
+        });
+    }
+});
+
+router.get("/orden",async(req,res)=>{
+    const orden = await obtenerOrden(2000018422254096)
+    res.json(orden)
+})
+
+router.get("/ventaml/datoscompletos", async (req, res) => {
+
+    try {
+
+        const ordenes_finales = await getVentasML_datosCompletos()
 
         res.json(ordenes_finales);
 

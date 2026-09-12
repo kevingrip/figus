@@ -3,7 +3,7 @@ import { obtenerToken } from "../token/obtenerToken.js";
 import { obtenerFechaLimite } from "../../models/modeloGuardarFecha.js";
 import { obtenerModeloFiguritas } from "../../models/modeloFigu.js";
 import { descontarFiguritaMDB, obtenerCantidadFigurita } from "../accionesFiguritas.js";
-import { getVentasPaginadasML } from "../accionesVentas.js";
+import { getVentasML } from "../accionesVentas.js";
 import { seller_name } from "../../../frontend/javascript/utilidades/nombres.js";
 import { nombrePublicacion } from "../../utilidades/nombres.js";
 import Venta from "../../models/modeloVenta.js"
@@ -108,6 +108,14 @@ const asignarParametros = (estado) => {
     }
     return params
 }
+const paginas = (total)=>{
+    let limite=100
+    if (total<limite){
+        return limite
+    }else{
+        return limite
+    }
+}
 
 const axiosPublicacion = async (lote, token) => {
     return await axios.get(
@@ -154,6 +162,7 @@ const pedidosLote20 = async (items, listaDeMLA, usuario) => {
     }
 }
 
+
 export const getPublicaciones = async (estado, pagina) => {
     const items = [];
     const filtered_publicaciones = []
@@ -163,7 +172,8 @@ export const getPublicaciones = async (estado, pagina) => {
 
         const parametros = asignarParametros(estado)
         const itemsPublicaciones = await axiosItemsPublicaciones(usuario, parametros)
-        console.log(itemsPublicaciones.data.paging, itemsPublicaciones.data.seller_id)
+        const total = itemsPublicaciones.data.paging.total
+        console.log(itemsPublicaciones.data.paging, total, itemsPublicaciones.data.seller_id)
         const listaDeMLA = itemsPublicaciones.data.results;
 
         await pedidosLote20(items, listaDeMLA, usuario)
@@ -452,7 +462,7 @@ export const sincronizarStock = async () => {
                     )
                 } else if (cantMDB > cantML) {
                     console.log(figuId, " cant mdb:", cantMDB)
-                    const ventasML = await getVentasPaginadasML()
+                    const ventasML = await getVentasML()
                     for (const venta of ventasML) {
                         for (const datoVariante of venta.data.variante) {
                             if (datoVariante.mla === publi.id) {
