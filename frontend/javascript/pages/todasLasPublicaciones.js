@@ -186,7 +186,8 @@ const mostrarPublicaciones = (publicaciones) =>{
         })
 
         resultElement.style.display = "flex"
-        resultElement.style.flexDirection = "column"
+        resultElement.flexDirection =
+        window.innerWidth <= 768 ? "column" : "row";
 
         resultElement.append(card)
     }
