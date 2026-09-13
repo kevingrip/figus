@@ -91,31 +91,28 @@ const axiosItemsPublicaciones = async (token, parametros) => {
             headers: {
                 Authorization: `Bearer ${token.access_token}`
             },
-            params:parametros
+            params: parametros
         }
     );
     return response
 }
 
-const asignarParametros = (estado) => {
+const asignarParametros = (pagina) => {
+    if (!pagina) {
+        pagina = 0;
+    }
+    const setOffset = (pagina) * 100;
     const params = {
         orders: "last_created_desc",
         limit: 100,
-        offset:0
+        offset: setOffset
     };
-    if (estado) {
-        params.status = estado;
-    }
+    // if (estado) {
+    //     params.status = estado;
+    // }
     return params
 }
-const paginas = (total)=>{
-    let limite=100
-    if (total<limite){
-        return limite
-    }else{
-        return limite
-    }
-}
+
 
 const axiosPublicacion = async (lote, token) => {
     return await axios.get(
@@ -144,7 +141,6 @@ const crearObjetoPublicacion = (item) => {
         status: item.body.status,
         date_created: item.body.date_created,
         thumbnail: item.body.pictures?.[0]?.secure_url,
-        family_id: item.body,
         album: album_find?.value_name,
         figurita: figu_NUM
     })
@@ -163,31 +159,39 @@ const pedidosLote20 = async (items, listaDeMLA, usuario) => {
 }
 
 
-export const getPublicaciones = async (estado, pagina) => {
+export const getPublicaciones = async () => {
     const items = [];
     const filtered_publicaciones = []
 
     const tokens = await obtenerToken();
     for (const usuario of tokens) {
 
-        const parametros = asignarParametros(estado)
-        const itemsPublicaciones = await axiosItemsPublicaciones(usuario, parametros)
-        const total = itemsPublicaciones.data.paging.total
-        console.log(itemsPublicaciones.data.paging, total, itemsPublicaciones.data.seller_id)
-        const listaDeMLA = itemsPublicaciones.data.results;
+        const param = asignarParametros()
+        const infoPaginate = await axiosItemsPublicaciones(usuario, param)
+        const total = infoPaginate.data.paging.total
+        const pages = Math.ceil(total / infoPaginate.data.paging.limit)        
 
-        await pedidosLote20(items, listaDeMLA, usuario)
+        for (let i = 0; i < pages; i++) {
+            const parametros = asignarParametros(i)
+            const itemsPublicaciones = await axiosItemsPublicaciones(usuario, parametros)
+            // console.log(itemsPublicaciones.data.paging, total, itemsPublicaciones.data.seller_id)
 
-        for (const item of items) {
-            const publicacion = crearObjetoPublicacion(item) //CREAMOS OBJETO PERSONALIZADO, CON LOS DATOS QUE NECESITAMOS
-            filtered_publicaciones.push(publicacion)
+            const listaDeMLA = itemsPublicaciones.data.results;
+
+            await pedidosLote20(items, listaDeMLA, usuario)
         }
 
-        filtered_publicaciones.sort(
-            (a, b) => new Date(b.date_created) - new Date(a.date_created)
-        );
 
     }
+    for (const item of items) {
+        const publicacion = crearObjetoPublicacion(item) //CREAMOS OBJETO PERSONALIZADO, CON LOS DATOS QUE NECESITAMOS
+        filtered_publicaciones.push(publicacion)
+    }
+
+    filtered_publicaciones.sort(
+        (a, b) => new Date(b.date_created) - new Date(a.date_created)
+    );
+
     return filtered_publicaciones
 }
 
