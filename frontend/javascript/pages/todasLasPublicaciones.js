@@ -49,7 +49,7 @@ const crearCardPublicacion = (publicacion) => {
     const downCard = document.createElement("div")
     const rightCard = document.createElement("div")
 
-    const id = document.createElement("div")
+    const id = document.createElement("h4")
     const title = document.createElement("a")
     const seller_id = document.createElement("p")
     const elementStock = document.createElement("div")
@@ -109,8 +109,7 @@ const crearCardPublicacion = (publicacion) => {
     downCard.style.flexDirection =
         window.innerWidth <= 768 ? "column" : "row";
 
-    
-    leftCard.style.backgroundColor="red"
+    rightCard.style.margin="20px"
     
     downCard.append(leftCard, rightCard)
     rightCard.append(id, seller_id, date_created, elementStock, price, status, buttonStatus)
@@ -120,7 +119,7 @@ const crearCardPublicacion = (publicacion) => {
     //leftCard.style.width = "20vw"
     leftCard.style.alignItems = "center"
     leftCard.style.justifyContent = "center"
-    leftCard.style.width = window.innerWidth <= 768 ? "30vw" : "15vw";
+    leftCard.style.width = window.innerWidth <= 768 ? "100%" : "15vw";
 
     card.append(upCard, downCard)
 
@@ -186,8 +185,7 @@ const mostrarPublicaciones = (publicaciones) =>{
         })
 
         resultElement.style.display = "flex"
-        resultElement.flexDirection =
-        window.innerWidth <= 768 ? "column" : "row";
+        resultElement.style.flexDirection = "column"
 
         resultElement.append(card)
     }
