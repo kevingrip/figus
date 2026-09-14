@@ -344,9 +344,6 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                             if (venta.cancel_detail) {
                                 contenedorVenta.style.backgroundColor = "red"
                             }
-                            else if (fecha_limite < fecha_actual) {
-                                contenedorVenta.style.backgroundColor = "lightgreen";
-                            }
 
                             const fechaVenta = document.createElement("div")
                             const cliente = document.createElement("div")
@@ -612,8 +609,6 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
                 if (ventameli.data?.cancel_detail) {
                     contenedorML.style.backgroundColor = "red"
-                } else if (fecha_limite < fecha_actual) {
-                    contenedorML.style.backgroundColor = "lightgreen";
                 }
 
 
