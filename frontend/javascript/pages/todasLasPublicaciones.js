@@ -2,7 +2,6 @@ import { api } from "../../config.js";
 import { actualizarStock, obtenerTodasLasPublicaciones, setActivePublicacion } from "../servicios/api.js";
 
 export const todasLasPublicaciones = async () => {
-    const resultElement = document.getElementById("todasLasPublicaciones")
     const botonesEstadosElement = document.getElementById("elementBotonesEstados")
 
     const publicaciones = await obtenerTodasLasPublicaciones()
@@ -119,7 +118,7 @@ const crearCardPublicacion = (publicacion) => {
     //leftCard.style.width = "20vw"
     leftCard.style.alignItems = "center"
     leftCard.style.justifyContent = "center"
-    leftCard.style.width = window.innerWidth <= 768 ? "100%" : "15vw";
+    leftCard.style.width = window.innerWidth <= 768 ? "100%" : "20vw";
 
     card.append(upCard, downCard)
 
