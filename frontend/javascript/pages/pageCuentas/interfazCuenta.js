@@ -13,7 +13,7 @@ export const agregarItem = (item) => {
     if ("USUARIO_PAGO" in item) {
         enviosPagados = crearElementosItems(item,"USUARIO_PAGO")
         estilosGastosGeneral(enviosPagados)
-        enviosPagados.style.backgroundColor = "violet"
+        enviosPagados.style.backgroundColor = "#c93333d2"
         elementGeneral.append(enviosPagados)
     }
 

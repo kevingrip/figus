@@ -12,7 +12,12 @@ export async function obtenerVentas() {
     return await res.json();
 }
 
-export const obtenerVentasFlex = async () =>{
+export const obtenerVentasUnificadas = async () => {
+    const res = await fetch(`${api}/ventas/unificadas`)
+    return await res.json();
+}
+
+export const obtenerVentasFlex = async () => {
     const res = await fetch(`${api}/ventas/flex`);
     return await res.json();
 }
@@ -190,7 +195,7 @@ export const actualizarStock = async (mla, seller_id, cant) => {
     });
 }
 
-export const importarImagenPagoNeto = async (album, ventaid, imagen) => {
+export const importarImagenPagoNeto = async (ventaid, imagen) => {
     const respuesta = await fetch(`${api}/ventas/agregarimg/${ventaid}`, {
         method: "POST",
         body: imagen
@@ -239,7 +244,7 @@ export const obtenerDatosEnvios = async () => {
     return await envios.json()
 }
 
-export const envioPagado = async (ventaid,usuario) => {
+export const envioPagado = async (ventaid, usuario) => {
 
     const pagar = await fetch(`${api}/envios/confirmarpago/${ventaid}/${usuario}`,
         {
@@ -251,22 +256,22 @@ export const envioPagado = async (ventaid,usuario) => {
         throw new Error("No se pudo confirmar el pago");
     }
 
-    console.log("Pago confirmado:",ventaid);
+    console.log("Pago confirmado:", ventaid);
 }
 
-export const obtenerTotalNeto = async (usuario) =>{
+export const obtenerTotalNeto = async (usuario) => {
     const respuesta = await fetch(`${api}/ventas/importe_neto/${usuario}`)
     const totalNeto = respuesta.json()
     return totalNeto;
 }
 
-export const obtenerVendedoresVentas = async()=>{
+export const obtenerVendedoresVentas = async () => {
     const respuesta = await fetch(`${api}/ventas/vendedores-filtrado`)
     const totalVendedores = respuesta.json()
     return totalVendedores
 }
 
-export const obtenerListaTransportistas = async () =>{
+export const obtenerListaTransportistas = async () => {
     const respuesta = await fetch(`${api}/envios/transportistas`)
     const totalTransportistas = respuesta.json()
     return totalTransportistas
@@ -286,25 +291,26 @@ export const obtenerVentasML2 = async () => {
     return ventasParseadas;
 }
 
-export const obtenerVentasCuentas = async(cuenta) =>{
+export const obtenerVentasCuentas = async (cuenta) => {
     let ventasCuentas
-    if (cuenta){
+    if (cuenta) {
         ventasCuentas = await fetch(`${api}/ventas/cuentas?cuenta=${cuenta}`)
-    }else{
+    } else {
         ventasCuentas = await fetch(`${api}/ventas/cuentas`)
     }
     const ventasCuentasParseadas = await ventasCuentas.json();
-    return ventasCuentasParseadas    
+    return ventasCuentasParseadas
 }
 
-export const crearNuevoGasto = async (datos) =>{
+export const crearNuevoGasto = async (datos) => {
     const nuevoGasto = await fetch(`${api}/gastos`,
-        {method:"POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(datos)
-    })
+        {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(datos)
+        })
 
     if (!nuevoGasto.ok) {
         throw new Error("Error al crear el gasto");
@@ -313,7 +319,79 @@ export const crearNuevoGasto = async (datos) =>{
     return await nuevoGasto.json()
 }
 
-export const obtenerGastos = async () =>{
+export const obtenerGastos = async () => {
     const gastos = await fetch(`${api}/gastos`)
     return gastos.json()
+}
+
+export const verificarFiguritasVenta = async (venta_id) => {
+    const respuesta = await fetch(`${api}/ventas/verificar/${venta_id}`, {
+        method: "PATCH"
+    });
+
+    if (!respuesta.ok) {
+        throw new Error("Error al verificar la venta");
+    }
+
+    return await respuesta.json()
+}
+
+export const descargarEtiqueta = async (seller_id, shipping_id) => {
+    try {
+        const datos = { seller_id, shipping_id }
+        const peticionEtiqueta = await fetch(`${api}/envios/etiqueta`,
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(datos)
+            })
+
+        if (!peticionEtiqueta.ok) {
+            throw new Error("Error en el servidor al generar el PDF");
+        }
+
+        // 1. Convertir la respuesta a Blob
+        const blob = await peticionEtiqueta.blob();
+
+        // 2. Crear URL temporal para el objeto binario
+        const blobUrl = window.URL.createObjectURL(blob);
+
+        // 3. Abrir en pestaña nueva o forzar descarga
+        window.open(blobUrl, "_blank");
+
+    } catch (error) {
+        console.error("No se pudo descargar la etiqueta:", error);
+    }
+}
+
+export const crearEnvioFlex = async(venta,transportista) => {
+    const envioFlex = {
+        seller: venta.VENDEDOR.NOMBRE,
+        ventaid: venta.VENTAID,
+        shipping: venta.SHIPPING_ID,
+        fechaVenta: new Date(venta.FECHA).toLocaleDateString(),
+        fechaEntrega: new Date(venta?.DATOS_SHIPPING?.tiempoLimite),
+        diaSemana: new Date(venta?.DATOS_SHIPPING?.tiempoLimite).getDay(),
+        dia: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'][new Date(venta?.DATOS_SHIPPING?.tiempoLimite).getDay()],
+        mes: new Date(venta?.DATOS_SHIPPING?.tiempoLimite).toLocaleString('es-AR', { month: 'long' }),
+        producto: venta.TITULO,
+        zona: venta?.DATOS_SHIPPING?.ciudad,
+        envio: transportista,
+        precio: 0,
+        pago: 0
+    }
+    
+    try {
+        await fetch('/envios/crearEnvioMDB',{
+            method:'POST',
+            headers:{
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(envioFlex)
+        })
+    } catch (error) {
+        console.error("Error al crear Envio Flex:", error.message);
+    }
 }

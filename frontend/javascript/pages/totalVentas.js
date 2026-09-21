@@ -5,7 +5,7 @@ import { fechaArgentina, precioArgentino } from "../utilidades/conversionesArg.j
 import { obtenerFiguritas, obtenerFiguritasOrderCant, importarImagenPagoNeto, agregarPagoNeto, obtenerDatosEnvios, envioPagado, obtenerTotalNeto, obtenerVendedoresVentas } from "../servicios/api.js";
 import { crearVenta } from "./buscarFigus/elementoVenta.js";
 
-const contenedorImagen = (album, ventaid) => {
+const contenedorImagen = (ventaid) => {
     const contenedor = document.createElement("div");
     contenedor.style.display = "flex";
     contenedor.style.flexDirection = "column";
@@ -39,7 +39,7 @@ const contenedorImagen = (album, ventaid) => {
         const formData = new FormData();
         formData.append("imagen", archivo);
 
-        await importarImagenPagoNeto(album, ventaid, formData)
+        await importarImagenPagoNeto(ventaid, formData)
 
     });
     contenedor.append(
@@ -344,6 +344,9 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
                             if (venta.cancel_detail) {
                                 contenedorVenta.style.backgroundColor = "red"
                             }
+                            else if (fecha_limite < fecha_actual) {
+                                contenedorVenta.style.backgroundColor = "lightgreen";
+                            }
 
                             const fechaVenta = document.createElement("div")
                             const cliente = document.createElement("div")
@@ -609,6 +612,8 @@ export const totalVentas = async (ventasMDB, ventasML, totalVentasElement, boton
 
                 if (ventameli.data?.cancel_detail) {
                     contenedorML.style.backgroundColor = "red"
+                } else if (fecha_limite < fecha_actual) {
+                    contenedorML.style.backgroundColor = "lightgreen";
                 }
 
 

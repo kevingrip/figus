@@ -1,4 +1,4 @@
-import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos, obtenerFigusMayorStock, obtenerVentasFlex, obtenerTotalNeto, obtenerVendedoresVentas, obtenerListaTransportistas, obtenerVentasML2, obtenerVentasCuentas, obtenerGastos } from "./javascript/servicios/api.js";
+import { obtenerFiguritas, obtenerVentas, obtenerPreguntas, obtenerFechasPublicaciones, obtenerPublicacion, actualizarPrecio2000, obtenerVentasML, obtenerPreguntasMDB, setToComprado, agregarVentasMLtoMDB, actualizarStock, setActivePublicacion, obtenerTodasLasPublicaciones, obtenerPublicacionesDatosCompletos, obtenerFigusMayorStock, obtenerVentasFlex, obtenerTotalNeto, obtenerVendedoresVentas, obtenerListaTransportistas, obtenerVentasML2, obtenerVentasCuentas, obtenerGastos, obtenerVentasUnificadas } from "./javascript/servicios/api.js";
 import { cosecharFigus } from "./javascript/pages/cosecharFigus.js";
 import { buscarFigus } from "./javascript/pages/buscarFigus/buscarFigus.js";
 import { totalVentas } from "./javascript/pages/totalVentas.js";
@@ -13,7 +13,7 @@ import { api } from "./config.js";
 import { getStockProveedores } from "./javascript/utilidades/stockTotal.js";
 import { interfazMaxCant } from "./javascript/pages/interfazMaxCant.js";
 import { pageEnviosFlex } from "./javascript/pages/pageEnviosFlex/pageEnviosFlex.js";
-import { pageTotalVentas } from "./javascript/pages/pageTotalVentas/totalVentas.js";
+import { elementNetoUsuario, pageTotalVendedores, pageTotalVentas } from "./javascript/pages/pageTotalVentas/totalVentas.js";
 import { gastos } from "./javascript/pages/pageGastos/Gastos.js";
 import { cuentas } from "./javascript/pages/pageCuentas/Cuentas.js";
 
@@ -339,9 +339,22 @@ window.addEventListener("load", async () => {
 window.addEventListener("load", async () => {
 
     if (window.location.pathname.endsWith("/todaslasventas.html")) {
-        const ventasML = await obtenerVentasML2()
-        console.log(ventasML)
-        await pageTotalVentas(ventasML)
+        
+        const [listaVendedores,ventasUnificadas] = await Promise.all([obtenerVendedoresVentas(),obtenerVentasUnificadas()])
+        const agregarVendedores = ["LULY", "ARI"]
+        listaVendedores.push(...agregarVendedores)
+
+        const elementVendedores = pageTotalVendedores(listaVendedores)
+
+        elementVendedores.addEventListener("click",async (event)=>{
+            const usuario = event.target.value
+            const ventasUsuario = ventasUnificadas.filter(venta=>seller_name(venta.VENDEDOR.ID)===usuario || venta.VENDEDOR.NOMBRE===usuario)
+            const monto_neto_usuario = await obtenerTotalNeto(usuario)
+            elementNetoUsuario(usuario,monto_neto_usuario)
+            pageTotalVentas(ventasUsuario)
+        })   
+        
+        pageTotalVentas(ventasUnificadas)
     }
 })
 

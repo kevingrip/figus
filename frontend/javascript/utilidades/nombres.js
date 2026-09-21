@@ -4,7 +4,7 @@ export const albumName = (nombre) => {
     } else if (["copaAmerica2024","base_copam"].includes(nombre)) {
         return "Copa America 2024"
     } else if (["baseMundialUsa","mundialUsa2026"].includes(nombre)) {
-        return "Mundial USA 2026"
+        return "Mundial 2026"
     } else if (["futbolArgentino2023","baseFutarg"].includes(nombre)) {
         return "Futbol Argentino 2023"
     } else if (["futbolArgentino2024","baseFutarg24"].includes(nombre)) {
