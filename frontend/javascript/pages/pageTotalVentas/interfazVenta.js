@@ -1,7 +1,7 @@
 import { crearEnvioFlex, descargarEtiqueta, verificarFiguritasVenta } from "../../servicios/api.js"
 import { fechaArgentina, precioArgentino } from "../../utilidades/conversionesArg.js"
 import { albumName } from "../../utilidades/nombres.js"
-import { estiloContenedorBarra, estiloContenedorCentral, estiloContenedorGeneralVenta, estiloElementBotones, estiloElementFiguritas, estiloElementFlexRow, estiloElementGeneralBotonesAcciones, estiloElementGeneralDatosDer, estiloElementGralDatos, estiloElementGralEnvios, estiloElementPago, estiloFlexColumn, estiloVariante, estiloVarianteInfo, estiloVarianteInfoDer, estiloVarianteInfoIzq } from "./estilosVenta.js"
+import { estiloBarra, estiloContenedorBarra, estiloContenedorCentral, estiloContenedorGeneralVenta, estiloElementBotones, estiloElementFiguritas, estiloElementFlexRow, estiloElementGeneralBotonesAcciones, estiloElementGeneralDatosDer, estiloElementGeneralInformacion, estiloElementGeneralVariantes, estiloElementGralDatos, estiloElementGralEnvios, estiloElementPago, estiloEnvios, estiloFlexColumn, estiloResponsive, estiloVariante, estiloVarianteInfo, estiloVarianteInfoDer, estiloVarianteInfoIzq } from "./estilosVenta.js"
 
 export const crearTarjetaVenta = (venta) => {
     const elementGeneral = document.createElement("div")
@@ -59,40 +59,38 @@ export const crearTarjetaVenta = (venta) => {
     elementGeneralDatosIzq.append(elementGralDatos, elementGralEnvios)
     estiloFlexColumn(elementGeneralDatosIzq)
     estiloElementPago(elementPagos)
+    elementPagos.style.border="0.5px solid white"
     elementGeneralDatosDer.append(elementPagos)
     elementGeneralDatos.append(elementGeneralDatosIzq, elementGeneralDatosDer)
+    
     elementGeneralInformacion.append(elementGeneralDatos, elementGeneralBotonesAcciones)
 
     elementGeneralVariantes.append(elementVariantes)
     elementDatosyVariantes.append(elementGeneralInformacion, elementGeneralVariantes)
 
     elementGeneralDatosIzq.style.width = "100%"
-    elementGeneralInformacion.style.width = "50%"
-    elementGeneralVariantes.style.width = "50%"
+    estiloElementGeneralVariantes(elementGeneralVariantes)
 
-    estiloElementFlexRow(elementDatosyVariantes)
+    estiloElementGeneralInformacion(elementGeneralInformacion)
+    estiloResponsive(elementGeneralDatos)
+    estiloResponsive(elementDatosyVariantes)
     elementGeneral.append(elementBarra, elementDatosyVariantes, elementFiguritas)
     return elementGeneral
 }
 
 const crearElementBarra = (venta) => {
     const elementBarra = document.createElement("div")
-    elementBarra.style.backgroundColor = '#454561'
-    elementBarra.style.borderRadius = "20px 20px 0 0"
-    elementBarra.style.height = '8vh'
-    elementBarra.style.color = 'white'
+    estiloBarra(elementBarra)
 
     const fechaVenta = document.createElement("div")
     const nombreCuenta = document.createElement("div")
     const cantidadFigus = document.createElement("div")
-    const tipoEnvio = document.createElement("div")
 
     fechaVenta.textContent = `Fecha Venta: ${fechaArgentina(venta.FECHA)}hs 📆`
     nombreCuenta.textContent = `${venta.VENDEDOR.NOMBRE || venta.VENDEDOR.CUENTA} 👤`
     cantidadFigus.textContent = `Cantidad: ${venta.VENDIDAS?.length}`
-    tipoEnvio.textContent = `${venta?.DATOS_SHIPPING?.entrega || venta?.ENVIO}📦`
 
-    elementBarra.append(fechaVenta, nombreCuenta, cantidadFigus, tipoEnvio)
+    elementBarra.append(fechaVenta, nombreCuenta, cantidadFigus)
 
     return elementBarra
 }
@@ -143,7 +141,7 @@ const crearElementEnvios = (envio, shipping) => {
     titulo.style.fontWeight = 'bold';
     titulo.style.fontSize = '3vh';
     estadoEnvio.textContent = shipping?.estado
-    elementEnvios.style.width = "15vw"
+    estiloEnvios(elementEnvios)
 
     if (envio) {
 
@@ -151,7 +149,6 @@ const crearElementEnvios = (envio, shipping) => {
         elementEnvios.style.color = "white"
         elementEnvios.style.padding = "10px"
         elementEnvios.style.borderRadius = "10px"
-        elementEnvios.style.border = "1px solid #68696a"
         elementEnvios.style.fontSize = '2vh';
 
         const transportista = document.createElement("div")
@@ -169,7 +166,6 @@ const crearElementEnvios = (envio, shipping) => {
         elementEnvios.style.color = "white"
         elementEnvios.style.padding = "10px"
         elementEnvios.style.borderRadius = "10px"
-        elementEnvios.style.border = "1px solid #68696a"
         elementEnvios.style.fontSize = '2vh';
 
         const tipoEnvio = document.createElement("div")        
@@ -218,7 +214,6 @@ const crearElementEnvios = (envio, shipping) => {
 
 const crearElementPagos = (venta) => {
     const elementPagos = document.createElement("div")
-    elementPagos.style.margin = "10px"
 
     if (venta?.IMAGEN_NETO?.data) {
         const imagenPago = document.createElement("img");
@@ -343,13 +338,8 @@ const crearFigurita = (element, album) => {
 
 const crearContenedorImagen = (ventaid) => {
     const contenedor = document.createElement("div");
-    contenedor.style.display = "flex";
-    contenedor.style.flexDirection = "column";
-    contenedor.style.alignItems = "center";
-    contenedor.style.justifyContent = "center"
-    contenedor.style.gap = "10px";
-    contenedor.style.height = "50vh"
-    contenedor.style.width = "15vw"
+    
+    estiloElementPago(contenedor)
 
     const inputImagen = document.createElement("input");
 
@@ -358,10 +348,9 @@ const crearContenedorImagen = (ventaid) => {
     inputImagen.style.display = "none";
 
     const boton = document.createElement("button");
-    boton.textContent = "Seleccionar imagen";
+    boton.textContent = "Seleccionar imagen de pago";
 
     const nombreArchivo = document.createElement("span");
-    nombreArchivo.textContent = "Ningún archivo seleccionado";
     nombreArchivo.style.color = "#f3f1f1e3"
     nombreArchivo.style.textAlign = "center";
     nombreArchivo.style.width = "100%";
