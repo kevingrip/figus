@@ -4,12 +4,13 @@ import { getEnvios } from "./accionesEnvios.js";
 import { obtenerToken } from "./token/obtenerToken.js";
 import { nombreSeller } from "../utilidades/nombres.js";
 import { activarEstado, estadoPublicacion, getPublicacion, getPublicaciones, modificarPrecio, modificarStock } from "./mercadolibre/publicaciones.js";
-import { descontarVentaFiguritasMDB, getFiguritaIndividual } from "./accionesFiguritas.js";
+import { descontarVentaFiguritasMDB, getAlbumFiguritas } from "./accionesFiguritas.js";
 import { obtenerPreguntaMeli } from "../models/preguntasVenta.js";
 import { confirmarVenta } from "./accionesPreguntas.js";
 import { getGastos } from "./accionesGastos.js";
+import { getShipping, objetoShipping } from "./accionesShipping.js";
 
-export const getVentas = async () => {
+export const getVentasMDB = async () => {
     const ventas = await modeloVenta.find().sort({ DIA: -1 }).lean();
     return ventas
 }
@@ -35,7 +36,7 @@ export const getVentasML_datosCompletos = async () => {
                             Authorization: `Bearer ${token.access_token}`
                         },
                         params: {
-                            seller: token.seller,
+                            seller: token.seller_id,
                             sort: "date_desc",
                             limit: 50,
                             offset,
@@ -55,14 +56,13 @@ export const getVentasML_datosCompletos = async () => {
         } catch (error) {
 
             console.error(
-                `Error obteniendo órdenes del seller ${token.seller}:`,
+                `Error obteniendo órdenes del seller ${token.seller_id}:`,
                 error.response?.data || error.message
             );
         }
     }
     return ordenes;
 }
-
 
 export const getVentasML = async () => {
 
@@ -86,7 +86,7 @@ export const getVentasML = async () => {
                             Authorization: `Bearer ${token.access_token}`
                         },
                         params: {
-                            seller: token.seller,
+                            seller: token.seller_id,
                             sort: "date_desc",
                             limit: 50,
                             offset,
@@ -106,7 +106,7 @@ export const getVentasML = async () => {
         } catch (error) {
 
             console.error(
-                `Error obteniendo órdenes del seller ${token.seller}:`,
+                `Error obteniendo órdenes del seller ${token.seller_id}:`,
                 error.response?.data || error.message
             );
         }
@@ -132,6 +132,7 @@ export const getVentasML = async () => {
             pack_id: orden.pack_id,
             date_created: orden.date_created,
             shipping_id: orden.shipping.id,
+            payment_id: orden.payments[orden.payments.length - 1],
             buyer: orden.buyer.nickname,
             buyer_id: orden.buyer.id,
             seller: orden.seller.id,
@@ -159,6 +160,7 @@ export const getVentasML = async () => {
                 buyer_id: orden.buyer_id,
                 seller: orden.seller,
                 seller_id: orden.seller_id,
+                payment_id: orden.payment_id, // AGREGAR PAYMENT
                 cancel_detail: orden?.cancel_detail,
                 nombre: orden.nombre,
                 cumplido: orden.cumplido,
@@ -190,20 +192,27 @@ export const getVentasML = async () => {
         const costo_total = venta.data?.variante?.reduce((total, variante) => {
             return total + (variante.precio * variante.cantidad);
         }, 0);
-        venta.data.total_amount=costo_total
+        venta.data.total_amount = costo_total
     })
 
     return ordenes_finales
 }
 
 export const getVentasPublicaciones_ML = async () => {
-    const ventasML = await getVentasML()
-    const publicaciones = await getPublicaciones()
+    const [ventasML, publicaciones, figuritasMDB] = await Promise.all([getVentasML(), getPublicaciones(), getAlbumFiguritas("mundialUsa2026")])
+
+    // diccionario mla:figu
+    const mla_figurita = new Map(figuritasMDB.filter(figurita => figurita.MLA.length > 0).flatMap(figurita => {
+        const mlas = Array.isArray(figurita.MLA) ? figurita.MLA : [figurita.MLA];
+        // Devuelve un array de pares [mla, NUM] por cada mla individual
+        return mlas.map(mla => [mla, figurita.NUM])
+    }));
+
     for (const venta of ventasML) {
         for (const vendido of venta.data.variante) {
             const publicacionFiltrada = publicaciones.find(item => item.id === vendido.mla)
             vendido.album = publicacionFiltrada?.album
-            vendido.figurita = publicacionFiltrada?.figurita
+            vendido.figurita = mla_figurita.get(vendido.mla)
             vendido.link = publicacionFiltrada?.permalink
             vendido.imagen = publicacionFiltrada?.thumbnail
         }
@@ -211,9 +220,196 @@ export const getVentasPublicaciones_ML = async () => {
     return ventasML
 }
 
+const getShippingsFromSeller = (ventasML) => {
+    const sellersShippings = new Map();
+    ventasML.forEach(venta => {
+        const sellerId = venta.data?.seller?.toString();
+        const shippingId = venta.data?.shipping_id?.toString();
+
+        if (sellerId && shippingId) {
+            if (!sellersShippings.has(sellerId)) {
+                sellersShippings.set(sellerId, new Set());
+            }
+            sellersShippings.get(sellerId).add(shippingId);
+        }
+    });
+    for (const [sellerId, shippingId] of sellersShippings.entries()) {
+        sellersShippings.set(sellerId, [...shippingId]);
+    }
+    return sellersShippings
+}
+
+const getPaymentsFromSeller = (ventasML) => {
+    const sellersPayments = new Map();
+    ventasML.forEach(venta => {
+        const sellerId = venta.data?.seller?.toString();
+        const paymentId = venta.data?.payment_id?.id?.toString();
+
+        if (sellerId && paymentId) {
+            if (!sellersPayments.has(sellerId)) {
+                sellersPayments.set(sellerId, new Set());
+            }
+            sellersPayments.get(sellerId).add(paymentId);
+        }
+    });
+    for (const [sellerId, paymentId] of sellersPayments.entries()) {
+        sellersPayments.set(sellerId, [...paymentId]);
+    }
+    return sellersPayments
+}
+
+const getTotalShippings = async (seller_shipping) => {
+    const shippingsTotales = new Map()
+    const tamaño_lote = 20;
+    const tokens = await obtenerToken()
+
+    for (const [seller, shippings] of seller_shipping) {
+
+        for (let i = 0; i < shippings.length; i += tamaño_lote) {
+            const lote = shippings.slice(i, i + tamaño_lote);
+
+            const promesas = lote.map(shipping_id => getShipping(shipping_id, seller, tokens))
+            const resultados = await Promise.all(promesas);
+
+            resultados.forEach(res => {
+                if (res) shippingsTotales.set(res.id.toString(), objetoShipping(res));
+            });
+        }
+    }
+    return shippingsTotales
+}
+
+const getTotalPayments = async (seller_payments) => {
+
+    const paymentsTotales = new Map()
+    const tamaño_lote = 20;
+    const tokens = await obtenerToken()
+
+    for (const [seller, payments] of seller_payments) {
+
+        for (let i = 0; i < payments.length; i += tamaño_lote) {
+            const lote = payments.slice(i, i + tamaño_lote);
+
+            const promesas = lote.map(payment_id => getPayment(seller, payment_id, tokens))
+            const resultados = await Promise.all(promesas);
+
+            resultados.forEach(res => {
+                // Validamos que 'res' exista y que tenga la propiedad 'id'
+                if (res && res.id) {
+                    paymentsTotales.set(res.id.toString(), {fecha_liquidacion:res.money_release_date});
+                } else {
+                    console.warn("Se ignoró un resultado inválido o no encontrado:", res);
+                }
+            });
+        }
+    }
+    return paymentsTotales
+}
+
+export const getVentasUnificadas = async (vendedor) => {
+
+    const [ventasML, ventasMDB, enviosFLEX] = await Promise.all([getVentasPublicaciones_ML(), getVentasMDB(), getEnvios()])
+
+    const ventasMDBmap = new Map(ventasMDB.map(venta => [venta.VENTAID, venta]))
+    const enviosFLEXmap = new Map(enviosFLEX.map(envios => [envios.ventaid, envios]))
+    const seller_shipping = getShippingsFromSeller(ventasML) // diccionario de seller con sus shippings
+    const seller_payments = getPaymentsFromSeller(ventasML)
+
+    const totalShippings = await getTotalShippings(seller_shipping)
+    const totalPayments = await getTotalPayments(seller_payments)
+
+    const ventasUnificadas = []
+    for (const venta_ml of ventasML) {
+        const shippingId_Str = venta_ml.data?.shipping_id?.toString()
+        const shippingEncontrado = shippingId_Str ? totalShippings.get(shippingId_Str) : null
+
+        const paymentId_Str = venta_ml.data?.payment_id.id?.toString()
+        const paymentEncontrado = paymentId_Str ? totalPayments.get(paymentId_Str) : null
+
+        const nuevoObjeto = {
+            VENTAID: venta_ml.pack_id,
+            TITULO: venta_ml.data.nombre,
+            IMPORTE_TOTAL: venta_ml.data.total_amount,
+            FECHA: venta_ml.data.date_created,
+            SHIPPING_ID: venta_ml.data.shipping_id,
+            PAYMENT_ID: venta_ml.data.payment_id.id,
+            DATOS_SHIPPING: shippingEncontrado,
+            DATOS_PAYMENTS: paymentEncontrado,
+            CUMPLIDO: venta_ml.data.cumplido,
+            COMPRADOR: { ID: venta_ml.data.buyer_id, NOMBRE: venta_ml.data.buyer },
+            VENDEDOR: { ID: venta_ml.data.seller, NOMBRE: venta_ml.data.seller_id },
+            VARIANTES: venta_ml.data.variante
+        }
+        const venta_mdb = ventasMDBmap.get(venta_ml.pack_id)
+        if (venta_mdb) {
+            nuevoObjeto.IMPORTE_NETO = venta_mdb?.IMPORTE_NETO
+            nuevoObjeto.ALBUM = venta_mdb.ALBUM
+            nuevoObjeto.ENVIO = shippingEncontrado?.entrega || venta_mdb?.ENVIO
+            nuevoObjeto.VENDEDOR.CUENTA = venta_mdb.CUENTA
+            nuevoObjeto.FALTANTES = venta_mdb?.FALTANTES
+            nuevoObjeto.VENDIDAS = venta_mdb.VENDIDAS
+            nuevoObjeto.IMAGEN_NETO = venta_mdb.IMAGEN_NETO
+            nuevoObjeto.VERIFICADAS = venta_mdb?.VERIFICADAS
+            nuevoObjeto._idventa = venta_mdb?._id
+        }
+        // if (paymentEncontrado){
+        //     nuevoObjeto.payments = paymentEncontrado
+        // }
+
+        const envios_flex = enviosFLEXmap.get(venta_ml.pack_id)
+        if (envios_flex) {
+            const objetoFlex = {
+                FECHA_ENTREGADO: envios_flex.fechaEntrega,
+                ZONA: envios_flex.zona,
+                TRANSPORTISTA: envios_flex.envio,
+                IMPORTE_ENVIO: envios_flex.pago,
+                PAGAR: envios_flex.pagar
+            }
+            nuevoObjeto.datos_envio_flex = objetoFlex
+        }
+
+        ventasUnificadas.push(nuevoObjeto)
+    }
+
+    const ventaid_sindup = new Set(ventasML.map(venta => venta.pack_id))
+    const ventasMDBsinML = ventasMDB.filter(venta => !ventaid_sindup.has(venta.VENTAID));
+
+    for (const venta of ventasMDBsinML) {
+        const nuevoObjetoMDB = {
+            VENTAID: venta.VENTAID,
+            FECHA: venta.DIA,
+            TITULO: null,
+            IMPORTE_TOTAL: venta.PRECIO,
+            IMPORTE_NETO: venta?.IMPORTE_NETO,
+            SHIPPING_ID: null,
+            CUMPLIDO: null,
+            COMPRADOR: null,
+            VENDEDOR: { NOMBRE: venta.CUENTA },
+            VARIANTES: null,
+            ALBUM: venta.ALBUM,
+            ENVIO: venta.ENVIO,
+            FALTANTES: venta?.FALTANTES,
+            VENDIDAS: venta.VENDIDAS,
+            IMAGEN_NETO: venta?.IMAGEN_NETO
+        }
+        ventasUnificadas.push(nuevoObjetoMDB)
+    }
+
+    let ventasUsuario;
+
+    if (vendedor){
+        ventasUsuario = ventasUnificadas.filter(venta=>venta.VENDEDOR.id===nombreSeller(vendedor))
+    }else{
+        ventasUsuario = ventasUnificadas
+    }
+    
+
+    return ventasUsuario
+}
+
 export const getVentasFlex = async () => {
-    const ventasMDB = await getVentas()
-    const ventasML = await getVentasPaginadasML()
+    const ventasMDB = await getVentasMDB()
+    const ventasML = await getVentasML()
     const enviosPagados = await getEnvios()
 
     const ordenesMDB = ventasMDB.map(venta => {
@@ -281,7 +477,7 @@ export const getVentasFlex = async () => {
 }
 
 export const totalNetoUsuario = async (usuario) => {
-    const ventas = await getVentas()
+    const ventas = await getVentasMDB()
     const ventasUsuario = ventas.filter(venta => venta.CUENTA === usuario)
 
     const enviosPagados = await getEnvios()
@@ -303,7 +499,7 @@ export const totalNetoUsuario = async (usuario) => {
 }
 
 export const totalVendedoresVentas = async () => {
-    const ventas = await getVentas()
+    const ventas = await getVentasMDB()
     const vendedores_filtrados = ventas.filter(venta => !["LULY", "ARI"].includes(venta.CUENTA))
 
     const vendedores = [
@@ -314,7 +510,7 @@ export const totalVendedoresVentas = async () => {
 
 export const calculoCuentas = async () => {
     try {
-        const ventasMDB = await getVentas()
+        const ventasMDB = await getVentasMDB()
         const ventasML = await getVentasPublicaciones_ML()
         const envios = await getVentasFlex()
         const enviosCuentaMDB = envios.map(orden => ({ VENTAID: orden?.venta?.VENTAID, PRECIO: orden?.envio?.pago, FECHA: orden?.venta?.DIA, ZONA: orden?.envio?.zona, TRANSPORTISTA: orden?.envio?.envio, USUARIO_PAGO: orden?.envio?.usuario_pagador, PRODUCTO: orden?.venta?.PRODUCTO }))
@@ -434,6 +630,25 @@ export const crearVentaMDB = async (figusEnStock, figusSinStock, nombreAlbum, cu
         console.error("No se pudo crear la venta", error)
     }
 
+}
+
+export const getPayment = async (sellerid, payment_id, tokens) => {
+    try {
+
+        const tokenEncontrado = tokens.find(token => token.seller_id.toString() === sellerid.toString())
+        const paymentData = await axios.get(
+            `https://api.mercadopago.com/v1/payments/${payment_id}`,
+            {
+                headers: {
+                    Authorization: `Bearer ${tokenEncontrado.access_token}`
+                }
+            })
+
+        return paymentData.data
+    } catch (error) {
+        console.error(`Error 404 en pago ${payment_id}:`, error.message);
+        return {};
+    }
 }
 
 // export const totalImporteUsuario = async(usuario) =>{

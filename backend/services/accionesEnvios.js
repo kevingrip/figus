@@ -30,3 +30,26 @@ export const confirmarPago = async (venta_id,usuario)=>{
     venta.usuario_pagador=usuario
     await venta.save()
 }
+
+export const subirEnvioMDB = async (envio) =>{
+    try {
+        const modeloEnvio = modeloEnvios();
+
+        const nuevoEnvio = await modeloEnvio.updateOne(
+            {ventaid:envio.ventaid},
+            {$setOnInsert: envio},
+            { upsert: true }
+        )
+
+        if (nuevoEnvio.upsertedCount > 0) {
+            console.log(`Envío creado exitosamente (ventaid: ${envio.ventaid})`);
+            return { creado: true, id: nuevoEnvio.upsertedId };
+        } else {
+            console.log(`El envío ventaid ${envio.ventaid} ya existe. No se hizo nada.`);
+            return { creado: false, mensaje: "Ya existía" };
+        }
+        
+    } catch (error) {
+        console.error("No se pudo crear el envio en el backend",error.message)
+    }
+}

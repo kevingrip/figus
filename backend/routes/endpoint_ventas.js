@@ -5,7 +5,7 @@ import Venta from "../models/modeloVenta.js";
 import Venta_ML from "../models/modeloVentaML.js"
 import { seller_name } from "../../frontend/javascript/utilidades/nombres.js";
 import multer from "multer";
-import { calculoCuentas, getVentasFlex, getVentasML, getVentasML_datosCompletos, getVentasPublicaciones_ML, totalNetoUsuario, totalVendedoresVentas } from "../services/accionesVentas.js";
+import { calculoCuentas, getVentasMDB, getVentasFlex, getVentasML, getVentasML_datosCompletos, getVentasPublicaciones_ML, totalNetoUsuario, totalVendedoresVentas, getVentasUnificadas } from "../services/accionesVentas.js";
 import { obtenerOrden } from "../services/mercadolibre/ordenes.js";
 const router = Router();
 
@@ -28,7 +28,7 @@ router.post("/", async (req, res) => {
     res.json({ ok: true });
 });
 
-router.patch("/:id", async (req, res) => {
+router.patch("/verificar/:id", async (req, res) => {
     try {
         const venta = await Venta.findByIdAndUpdate(
             req.params.id, {
@@ -44,6 +44,24 @@ router.patch("/:id", async (req, res) => {
         });
     }
 })
+
+router.get("/unificadas", async (req, res) => {
+
+    try {
+
+        const ordenesUnificadas = await getVentasUnificadas()
+
+        res.json(ordenesUnificadas);
+
+    } catch (error) {
+
+        console.error(error);
+
+        res.status(500).json({
+            error: "Error obteniendo órdenes"
+        });
+    }
+});
 
 router.get("/ventaml", async (req, res) => {
 

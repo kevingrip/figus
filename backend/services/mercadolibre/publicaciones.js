@@ -16,7 +16,7 @@ export const estadoPublicacion = async () => {
     for (const token of tokens) {
         // Obtengo los IDs
         const { data } = await axios.get(
-            `https://api.mercadolibre.com/users/${token.seller}/items/search`,
+            `https://api.mercadolibre.com/users/${token.seller_id}/items/search`,
             {
                 headers: {
                     Authorization: `Bearer ${token.access_token}`
@@ -86,7 +86,7 @@ export const estadoPublicacion = async () => {
 
 const axiosItemsPublicaciones = async (token, parametros) => {
     const response = await axios.get(
-        `https://api.mercadolibre.com/users/${token.seller}/items/search`,
+        `https://api.mercadolibre.com/users/${token.seller_id}/items/search`,
         {
             headers: {
                 Authorization: `Bearer ${token.access_token}`
@@ -208,7 +208,7 @@ export const getPublicaciones2 = async (estado) => {
             params.status = estado;
         }
         const response = await axios.get(
-            `https://api.mercadolibre.com/users/${token.seller}/items/search`,
+            `https://api.mercadolibre.com/users/${token.seller_id}/items/search`,
             {
                 headers: {
                     Authorization: `Bearer ${token.access_token}`
@@ -284,7 +284,7 @@ export const getPublicaciones2 = async (estado) => {
 export const modificarStock = async (mla, seller_id, nuevoStock) => {
     try {
         const tokens = await obtenerToken();
-        const token = tokens.find(token => token.seller === seller_id);
+        const token = tokens.find(token => token.seller_id === seller_id);
         await axios.put(`https://api.mercadolibre.com/items/${mla}`,
             {
                 available_quantity: nuevoStock
@@ -308,7 +308,7 @@ export const modificarStock = async (mla, seller_id, nuevoStock) => {
 export const activarPublicacion = async (mla, seller_id, estado) => {
     try {
         const tokens = await obtenerToken();
-        const token = tokens.find(token => token.seller === seller_id);
+        const token = tokens.find(token => token.seller_id === seller_id);
         let nuevoEstado;
         if (estado === "active") {
             nuevoEstado = "paused"
@@ -337,7 +337,7 @@ export const activarPublicacion = async (mla, seller_id, estado) => {
 export const activarEstado = async (mla, seller_id) => {
     try {
         const tokens = await obtenerToken();
-        const token = tokens.find(token => token.seller === seller_id);
+        const token = tokens.find(token => token.seller_id === seller_id);
 
         await axios.put(`https://api.mercadolibre.com/items/${mla}`,
             {
@@ -361,7 +361,7 @@ export const activarEstado = async (mla, seller_id) => {
 export const modificarPrecio = async (mla, seller_id, nuevoPrecio) => {
     try {
         const tokens = await obtenerToken();
-        const token = tokens.find(token => token.seller === seller_id);
+        const token = tokens.find(token => token.seller_id === seller_id);
         await axios.put(`https://api.mercadolibre.com/items/${mla}`,
             {
                 price: nuevoPrecio
@@ -402,7 +402,7 @@ export const getPublicacion = async (mla, sellerid) => {
     const tokens = await obtenerToken();
 
     const token = tokens.find(
-        token => Number(token.seller) === Number(sellerid)
+        token => Number(token.seller_id) === Number(sellerid)
     );
 
     const { data: publicacion } = await axios.get(

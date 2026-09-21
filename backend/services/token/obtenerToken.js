@@ -8,34 +8,12 @@ export const obtenerToken = async () => {
     if (!token.length) {
         throw new Error(`No se encuentra token`);
     }
-    // Primera ejecución
-    // if (!token) {
-
-    //     console.log("Creando documento del token...");
-
-    //     try {
-    //         token = await MercadoLibreToken.create({
-    //             seller_id,
-    //             client_id: process.env.ML_CLIENT_ID,
-    //             client_secret: process.env.ML_CLIENT_SECRET,
-    //             access_token: process.env.ML_ACCESS_TOKEN,
-    //             refresh_token: process.env.ML_REFRESH_TOKEN,
-    //             expires_at: Date.now() + (6 * 60 * 60 * 1000)
-    //         });
-
-    //         console.log("Creado:", token);
-    //     } catch (err) {
-    //         console.error(err);
-    //     }
-
-    //     return token.access_token;
-    // }
-
-    // Todavía es válido
+    
     const listaTokens = []
+
     for (const mltoken of token) {
         if (Date.now() < mltoken.expires_at) {
-            listaTokens.push({ access_token: mltoken.access_token, seller: mltoken.seller_id });
+            listaTokens.push({ access_token: mltoken.access_token, seller_id: mltoken.seller_id });
         } else {
             console.log("Renovando Access Token...");
 
@@ -58,7 +36,7 @@ export const obtenerToken = async () => {
 
                 console.log("Token renovado.");
 
-                listaTokens.push({ access_token: mltoken.access_token, seller: mltoken.seller_id });
+                listaTokens.push({ access_token: mltoken.access_token, seller_id: mltoken.seller_id });
             } catch (error) {
                 console.error(
                     "Error renovando token:",

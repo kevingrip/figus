@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const esquema_envios = new mongoose.Schema({
     seller:String,
-    ventaid: Number,
+    ventaid: {type:Number,unique:true,required:true},
     shipping:Number,
     fechaVenta:String,
     fechaEntrega:Date,

@@ -10,7 +10,7 @@ export const mlGet = async (url, config = {}) => {
                 ...config,
                 params: {
                     ...config.params,
-                    seller_id: token.seller
+                    seller_id: token.seller_id
                 },
                 headers: {
                     ...config.headers,
