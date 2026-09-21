@@ -3,7 +3,7 @@ import { obtenerFiguritas, guardarPreguntaML } from "../servicios/api.js"
 import { api } from "../../config.js"
 import { albumName, nombrePublicacion } from "../utilidades/nombres.js"
 
-const responderPregunta = async ({ elementPregunta, idPregunta, valorMensaje, vendedor }) => {
+const responderML = async ({ elementPregunta, idPregunta, valorMensaje, vendedor }) => {
     try {
         const peticion = await fetch(`${api}/mercadolibre/respuestas`, {
             method: "POST",
@@ -168,7 +168,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                                 const datosRespuesta = {
                                     elementPregunta, idPregunta: pregunta.id, valorMensaje: mensajeModificable.value, vendedor: pregunta.seller_id
                                 }
-                                responderPregunta(datosRespuesta)
+                                responderML(datosRespuesta)
                                 cargarPreguntaMDB(figus_conStock, figus_sinStock, pregunta.seller_id, pregunta.from.id, album, pregunta.date_created, album, pregunta.item_id)
                             }
                             )
@@ -215,7 +215,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                             const datosRespuesta = {
                                 elementPregunta, idPregunta: pregunta.id, valorMensaje: escribirRespuesta.value, vendedor: pregunta.seller_id
                             }
-                            responderPregunta(datosRespuesta)
+                            responderML(datosRespuesta)
                             cargarPreguntaMDB(figus_conStock, figus_sinStock, pregunta.seller_id, pregunta.from.id, album, pregunta.date_created, album, pregunta.item_id)
                         })
                         elementoMensaje.style.display = "";
@@ -230,7 +230,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                             const datosRespuesta = {
                                 elementPregunta, idPregunta: pregunta.id, valorMensaje: escribirRespuesta.value, vendedor: pregunta.seller_id
                             }
-                            responderPregunta(datosRespuesta)
+                            responderML(datosRespuesta)
                             cargarPreguntaMDB(figus_conStock, figus_sinStock, pregunta.seller_id, pregunta.from.id, album, pregunta.date_created, album, pregunta.item_id)
                         })
                     }
@@ -294,7 +294,7 @@ export const preguntasMercadolibre = async (preguntasRecibidas) => {
                         elementPregunta, idPregunta: pregunta.id, valorMensaje: precioMensaje.textContent, vendedor: pregunta.seller_id
                     }
 
-                    responderPregunta(datosRespuesta)
+                    responderML(datosRespuesta)
 
                 } catch (error) {
                     console.error("No se pudo responder", error)

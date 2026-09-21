@@ -30,8 +30,9 @@ export const mlPost = async (url, body, seller_id) => {
     const listaTokens = await obtenerToken();
 
     const token = listaTokens.find(
-        objeto => objeto.seller === Number(seller_id)
+        objeto => objeto.seller_id === Number(seller_id)
     );
+
 
     if (!token) {
         throw new Error(`No se encontró token para el seller ${seller_id}`);
