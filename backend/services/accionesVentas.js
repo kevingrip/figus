@@ -408,9 +408,7 @@ export const getVentasUnificadas = async (vendedor) => {
 }
 
 export const getVentasFlex = async () => {
-    const ventasMDB = await getVentasMDB()
-    const ventasML = await getVentasML()
-    const enviosPagados = await getEnvios()
+    const [ventasMDB,ventasML,enviosPagados] = await Promise.all([getVentasMDB(),getVentasML(),getEnvios()])
 
     const ordenesMDB = ventasMDB.map(venta => {
 
