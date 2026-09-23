@@ -6,16 +6,10 @@ dotenv.config();
 
 await mongoose.connect(process.env.MONGO_URL);
 
-const ventas = await modeloVenta.find()
-
-for (const venta of ventas) {
-    
-    venta.VERIFICADAS=false
-    venta.PAGADAS=false
-    console.log(venta)
-    await venta.save();
-    
-}
+const resultadoUnset = await modeloVenta.updateMany(
+    {}, 
+    { $unset: { IMAGEN_NETO: "" } }
+);
 
 console.log(` migrado`);
 

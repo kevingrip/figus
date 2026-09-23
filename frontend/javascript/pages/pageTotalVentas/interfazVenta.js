@@ -39,12 +39,12 @@ export const crearTarjetaVenta = (venta) => {
         if (venta?.DATOS_SHIPPING?.entrega==="FLEX" && !venta?.datos_envio_flex){
             elementGeneralBotonesAcciones.append(elementSeleccionarTransporte)
         }else{
-            if (venta?.DATOS_SHIPPING?.info_etiqueta==="ready_to_print")
+            if (["ready_to_print","printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta))
                 elementGeneralBotonesAcciones.append(elementEtiqueta)
         }        
     }
     
-    if (venta?.DATOS_SHIPPING?.info_etiqueta==="ready_to_print" || venta?.VERIFICADAS===false){
+    if (["ready_to_print","printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta) || venta?.VERIFICADAS===false){
         estiloElementGeneralBotonesAcciones(elementGeneralBotonesAcciones)
     }
 
@@ -141,11 +141,11 @@ const crearElementEnvios = (envio, shipping) => {
     titulo.style.fontWeight = 'bold';
     titulo.style.fontSize = '3vh';
     estadoEnvio.textContent = shipping?.estado
+    elementEnvios.style.backgroundColor = "#2b2444"
     estiloEnvios(elementEnvios)
 
     if (envio) {
 
-        elementEnvios.style.backgroundColor = "#2b2444"
         elementEnvios.style.color = "white"
         elementEnvios.style.padding = "10px"
         elementEnvios.style.borderRadius = "10px"
@@ -162,7 +162,6 @@ const crearElementEnvios = (envio, shipping) => {
         elementEnvios.append(titulo, transportista, importeEnvio, zonaEnvio, estadoEnvio)
 
     } else {
-        elementEnvios.style.backgroundColor = "#33323f"
         elementEnvios.style.color = "white"
         elementEnvios.style.padding = "10px"
         elementEnvios.style.borderRadius = "10px"
@@ -181,8 +180,8 @@ const crearElementEnvios = (envio, shipping) => {
         if (shipping?.entrega === "FLEX") {
             if (shipping?.estado === "Cancelado") {
                 elementEnvios.style.backgroundColor = "#d8442a"
-            } else {
-                elementEnvios.style.backgroundColor = "#1d5b31"
+            } else {    
+                tipoEnvio.style.backgroundColor = "#1d5b31"            
                 const ciudad = document.createElement("div")
                 const direccion = document.createElement("div")
                 const cliente = document.createElement("div")
@@ -312,8 +311,8 @@ const crearElementFiguritas = (venta) => {
 const crearFigurita = (element, album) => {
     const figurita = document.createElement("div")
 
-    const numFiguMDB = element.NUM.replace(/[^0-9]/g, "")
-    const letraFiguMDB = element.NUM.replace(/[^a-zA-Z]/g, "")
+    const numFiguMDB = (element?.NUM || "").toString().replace(/[^0-9]/g, "");
+    const letraFiguMDB = (element?.NUM || "").toString().replace(/[^a-zA-Z]/g, "")
 
     figurita.textContent = element.figurita || `${letraFiguMDB} ${numFiguMDB}`
     figurita.style.display = "flex"
