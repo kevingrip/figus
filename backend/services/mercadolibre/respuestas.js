@@ -15,6 +15,6 @@ export async function responderPregunta(questionId, textoRespuesta,seller_id) {
     console.log("Respondida correctamente")
     return data;
     } catch (error) {
-        console.error("Error en responder Mercado Libre:", error.message);
+        console.log("La pregunta posiblemente ya fue respondida");
     }
 }

@@ -2,7 +2,7 @@ import { modeloEnvios } from "../models/modeloEnvios.js"
 
 export const getEnvios = async () => {
     const modelo = modeloEnvios()
-    const envios = await modelo.find();    
+    const envios = await modelo.find();  
     return envios
 }
 

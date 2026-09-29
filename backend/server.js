@@ -12,7 +12,7 @@ import fechasPublicaciones from "./routes/fechasPublicaciones.js";
 import preguntas_mercadolibre from "./routes/preguntasGuardadas.js"
 import { sincronizarStock } from "./services/mercadolibre/publicaciones.js";
 import datosEnvios from "./routes/endpoint_envios.js"
-import { actualizarVentas } from "./services/accionesVentas.js";
+import { actualizarVentas } from "./services/accionesVentas/accionesVentas.js";
 import { subirPrecioStock_1 } from "./services/accionesFiguritas.js";
 import datosGastos from "./routes/endpoint_gastos.js"
 

@@ -6,7 +6,7 @@ export const confirmarVenta = async (pregunta_id) => {
         const pregunta = await modelo.findByIdAndUpdate(
             pregunta_id,
             { COMPRADO: true },
-            { new: true }
+            { returnDocument: 'after' }
         );
 
         if (!pregunta) {

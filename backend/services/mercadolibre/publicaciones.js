@@ -3,7 +3,7 @@ import { obtenerToken } from "../token/obtenerToken.js";
 import { obtenerFechaLimite } from "../../models/modeloGuardarFecha.js";
 import { obtenerModeloFiguritas } from "../../models/modeloFigu.js";
 import { descontarFiguritaMDB, obtenerCantidadFigurita } from "../accionesFiguritas.js";
-import { getVentasML } from "../accionesVentas.js";
+import { getVentasML } from "../accionesVentas/accionesVentas.js";
 import { seller_name } from "../../../frontend/javascript/utilidades/nombres.js";
 import { nombrePublicacion } from "../../utilidades/nombres.js";
 import Venta from "../../models/modeloVenta.js"
@@ -160,40 +160,65 @@ const pedidosLote20 = async (items, listaDeMLA, usuario) => {
 
 
 export const getPublicaciones = async () => {
-    const items = [];
-    const filtered_publicaciones = []
 
     const tokens = await obtenerToken();
-    for (const usuario of tokens) {
 
-        const param = asignarParametros()
-        const infoPaginate = await axiosItemsPublicaciones(usuario, param)
-        const total = infoPaginate.data.paging.total
-        const pages = Math.ceil(total / infoPaginate.data.paging.limit)        
+    // 1. Paralelizar la obtención para TODOS los usuarios al mismo tiempo
+    const resultadosPorUsuario = await Promise.all(
+        tokens.map(async (usuario) => {
+            const itemsUsuario = [];
 
-        for (let i = 0; i < pages; i++) {
-            const parametros = asignarParametros(i)
-            const itemsPublicaciones = await axiosItemsPublicaciones(usuario, parametros)
-            // console.log(itemsPublicaciones.data.paging, total, itemsPublicaciones.data.seller_id)
+            try {
+                // Obtener primera página para conocer el 'total' y 'limit'
+                const paramInicial = asignarParametros();
+                const infoPaginate = await axiosItemsPublicaciones(usuario, paramInicial);
+                
+                const total = infoPaginate.data.paging.total;
+                const limit = infoPaginate.data.paging.limit || 50;
+                const pages = Math.ceil(total / limit);
 
-            const listaDeMLA = itemsPublicaciones.data.results;
+                // Crear las promesas de TODAS las páginas de este usuario para pedirlas en PARALELO
+                const paginasPromesas = [];
 
-            await pedidosLote20(items, listaDeMLA, usuario)
-        }
+                for (let i = 0; i < pages; i++) {
+                    paginasPromesas.push((async () => {
+                        const parametros = asignarParametros(i);
+                        const itemsPublicaciones = await axiosItemsPublicaciones(usuario, parametros);
+                        const listaDeMLA = itemsPublicaciones.data.results;
 
+                        // Ejecutar pedidos en lotes para esta página
+                        const itemsPagina = [];
+                        await pedidosLote20(itemsPagina, listaDeMLA, usuario);
+                        return itemsPagina;
+                    })());
+                }
 
-    }
-    for (const item of items) {
-        const publicacion = crearObjetoPublicacion(item) //CREAMOS OBJETO PERSONALIZADO, CON LOS DATOS QUE NECESITAMOS
-        filtered_publicaciones.push(publicacion)
-    }
+                // Esperar a que se resuelvan todas las páginas de este usuario simultáneamente
+                const resultadosPaginas = await Promise.all(paginasPromesas);
+                
+                // Unir los ítems de todas las páginas
+                return resultadosPaginas.flat();
 
+            } catch (error) {
+                console.error(`Error procesando publicaciones para el usuario ${usuario.seller_id || usuario}:`, error.message);
+                return [];
+            }
+        })
+    );
+
+    // 2. Aplanar todos los ítems obtenidos de todos los usuarios
+    const todosLosItems = resultadosPorUsuario.flat();
+
+    // 3. Mapear y crear objetos (en lugar de for-of + push)
+    const filtered_publicaciones = todosLosItems.map(item => crearObjetoPublicacion(item));
+
+    // 4. Ordenar por fecha descendente
     filtered_publicaciones.sort(
         (a, b) => new Date(b.date_created) - new Date(a.date_created)
     );
 
-    return filtered_publicaciones
-}
+    return filtered_publicaciones;
+};
 
 export const getPublicaciones2 = async (estado) => {
     const tokens = await obtenerToken();
@@ -393,7 +418,7 @@ export const actualizarFecha = async (mla, fecha, vendedor) => {
         },
         {
             upsert: true,
-            new: true
+            returnDocument: 'after'
         }
     );
 }

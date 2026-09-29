@@ -100,7 +100,7 @@ router.patch("/stockfiguritas/:accion/:proveedor/:id", async (req, res) => {
             const figuActualizada = await modelo.findByIdAndUpdate(
                 id,
                 { $inc: inc },
-                { new: true }
+                { returnDocument: 'after' }
             );
 
             res.json(figuActualizada);

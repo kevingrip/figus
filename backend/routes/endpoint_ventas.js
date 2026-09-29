@@ -5,7 +5,7 @@ import Venta from "../models/modeloVenta.js";
 import Venta_ML from "../models/modeloVentaML.js"
 import { seller_name } from "../../frontend/javascript/utilidades/nombres.js";
 import multer from "multer";
-import { calculoCuentas, getVentasMDB, getVentasFlex, getVentasML, getVentasML_datosCompletos, getVentasPublicaciones_ML, totalNetoUsuario, totalVendedoresVentas, getVentasUnificadas } from "../services/accionesVentas.js";
+import { calculoCuentas, getVentasMDB, getVentasFlex, getVentasML, getVentasML_datosCompletos, getVentasPublicaciones_ML, totalNetoUsuario, totalVendedoresVentas, getVentasUnificadas } from "../services/accionesVentas/accionesVentas.js";
 import { obtenerOrden } from "../services/mercadolibre/ordenes.js";
 const router = Router();
 
@@ -34,7 +34,7 @@ router.patch("/verificar/:id", async (req, res) => {
             req.params.id, {
             VERIFICADAS: true
         },
-            { new: true }
+            { returnDocument: 'after' }
         )
         res.json(venta)
 
@@ -81,7 +81,7 @@ router.get("/ventaml", async (req, res) => {
     }
 });
 
-router.get("/orden",async(req,res)=>{
+router.get("/orden", async (req, res) => {
     const orden = await obtenerOrden(2000018422254096)
     res.json(orden)
 })
@@ -170,9 +170,13 @@ router.post("/agregarimg/:id", upload.single("imagen"), async (req, res) => {
         const venta = await Venta.findOne({ VENTAID: req.params.id });
 
         if (!venta) {
-            return res.status(404).json({
-                mensaje: "Venta no encontrada"
-            });
+            await Venta.create({
+                VENTAID: req.params.id,
+                IMAGEN_NETO: {
+                    data: req.file.buffer,
+                    contentType: req.file.mimetype
+                }
+            })
         }
 
         if (!req.file) {
@@ -206,21 +210,21 @@ router.get("/importe_neto/:usuario", async (req, res) => {
         const total = await totalNetoUsuario(req.params.usuario)
         res.json(total)
     } catch (error) {
-        console.error("No se pudo obtener el total neto",error)
+        console.error("No se pudo obtener el total neto", error)
     }
 })
 
-router.get("/vendedores-filtrado", async(req,res)=>{
+router.get("/vendedores-filtrado", async (req, res) => {
     const vendedores = await totalVendedoresVentas()
     res.json(vendedores)
 })
 
 router.get("/cuentas", async (req, res) => {
-    const {cuenta} = req.query
+    const { cuenta } = req.query
     let ventasCuentaTotal = await calculoCuentas()
-    if (cuenta){
-        ventasCuentaTotal = ventasCuentaTotal.filter(venta=>venta.CUENTA===cuenta)
-    }    
+    if (cuenta) {
+        ventasCuentaTotal = ventasCuentaTotal.filter(venta => venta.CUENTA === cuenta)
+    }
     res.json(ventasCuentaTotal)
 })
 

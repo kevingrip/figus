@@ -44,7 +44,7 @@ router.post("/guardar", async (req, res) => {
             },
             {
                 upsert: true,
-                new: true
+                returnDocument: 'after'
             }
         )
         res.json(nuevaPregunta);
@@ -60,7 +60,7 @@ router.post("/confirmar/:preg_id", async(req, res)=>{
         const pregunta = await obtenerPreguntaMeli().findByIdAndUpdate(
             req.params.preg_id,
             { COMPRADO: true },
-            { new: true }
+            { returnDocument: 'after' }
         );
 
         if (!pregunta) {
