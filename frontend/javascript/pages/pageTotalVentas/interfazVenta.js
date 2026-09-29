@@ -29,7 +29,7 @@ export const crearTarjetaVenta = (venta) => {
     const elementFiguritas = crearElementFiguritas(venta)
     const elementEtiqueta = crearElementEtiqueta(venta)
     const elementSeleccionarTransporte = crearElementSeleccionarTransporte(venta, elementEtiqueta)
-    const elementVerificar = crearElementVerificar(venta, elementFiguritas, elementVariantes, elementGeneralVariantes, elementSeleccionarTransporte)
+    const elementVerificar = crearElementVerificar(venta, elementFiguritas, elementVariantes, elementGeneralVariantes, elementSeleccionarTransporte, elementEtiqueta)
 
     if ((venta?.VENDIDAS && venta?.VERIFICADAS === false)) {
         elementGeneralBotonesAcciones.append(elementVerificar)
@@ -99,29 +99,37 @@ const crearElementDatos = (venta) => {
     elementDatos.style.marginRight = "20px";
 
 
-    const ventaid = document.createElement("a")
-    const clienteid = document.createElement("div")
+    const ventaid = document.createElement("a")    
     const precioTotal = document.createElement("div")
-
     const precioNeto = document.createElement("div")
-
 
     ventaid.textContent = `#${venta.VENTAID}`
     ventaid.href = `https://vendedores.mercadolibre.com.ar/ventas/${venta.VENTAID}/detalle`
-    clienteid.textContent = `Cliente: ${venta?.COMPRADOR?.NOMBRE}`
-    clienteid.style.width = "100%"
+    elementDatos.append(ventaid)
+
+    if (venta?.COMPRADOR?.NOMBRE){
+        const clienteid = document.createElement("div")
+        clienteid.textContent = `Cliente: ${venta?.COMPRADOR?.NOMBRE}`
+        clienteid.style.width = "100%"
+        elementDatos.append(clienteid)
+    }    
+    
     precioTotal.textContent = `Total Venta: ${precioArgentino(venta?.IMPORTE_TOTAL)} 💰`
     precioNeto.textContent = `${venta?.IMPORTE_NETO ? `Total Neto: ${precioArgentino(venta?.IMPORTE_NETO)} 💰` : ""}`
 
-    elementDatos.append(ventaid, clienteid, precioTotal, precioNeto)
+    elementDatos.append(precioTotal, precioNeto)
 
-    if (venta?.DATOS_PAYMENTS?.fecha_liquidacion) {
+    if (venta?.DATOS_PAYMENTS?.fecha_liquidacion && venta?.DATOS_SHIPPING?.estado != "Cancelado") {
         const fechaLiquidacion = document.createElement("div")
         fechaLiquidacion.textContent = `Fecha Liquidacion: ${fechaArgentina(venta.DATOS_PAYMENTS.fecha_liquidacion)} hs`
         elementDatos.append(fechaLiquidacion)
         fechaLiquidacion.style.whiteSpace = "nowrap";
         fechaLiquidacion.style.overflow = "hidden";
         fechaLiquidacion.style.textOverflow = "ellipsis";
+        if (new Date(venta.DATOS_PAYMENTS.fecha_liquidacion)<new Date()){
+            fechaLiquidacion.style.backgroundColor="green"
+            fechaLiquidacion.style.fontWeight="bold"
+        }
     }
     return elementDatos
 }
@@ -174,7 +182,7 @@ const crearElementEnvios = (envio, shipping) => {
         if (shipping?.estado === "Cancelado") {
             elementEnvios.style.backgroundColor = "#d82a2a"
             tipoEnvio.style.color = "white"
-            tipoEnvio.textContent = shipping?.estado
+            tipoEnvio.textContent = ""
         }
 
         elementEnvios.append(tipoEnvio, estadoEnvio)
@@ -183,7 +191,7 @@ const crearElementEnvios = (envio, shipping) => {
             if (shipping?.estado === "Cancelado") {
                 elementEnvios.style.backgroundColor = "#d82a2a"
                 tipoEnvio.style.color = "white"
-                tipoEnvio.textContent = shipping?.estado
+                tipoEnvio.textContent = ""
             } else {
                 const ciudad = document.createElement("div")
                 const direccion = document.createElement("div")
@@ -385,7 +393,7 @@ const crearContenedorImagen = (ventaid) => {
     return contenedor;
 }
 
-const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elementGeneralVariantes, elementSeleccionarTransporte) => {
+const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elementGeneralVariantes, elementSeleccionarTransporte,elementEtiqueta) => {
 
     const elementGralVerificar = document.createElement("div")
     const elementVerificar = document.createElement("div")
@@ -439,7 +447,10 @@ const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elemen
                         elementVariantes.style.visible = "hidden"
                         venta.VERIFICADAS = true
                         elementGralVerificar.innerHTML = ""
-                        elementGralVerificar.append(elementSeleccionarTransporte)
+                        if (venta?.DATOS_SHIPPING?.entrega==="FLEX")
+                            elementGralVerificar.append(elementSeleccionarTransporte)
+                        else
+                            elementGralVerificar.append(elementEtiqueta)
 
                     } catch (error) {
                         console.error("No se pudo verificar:", error);
