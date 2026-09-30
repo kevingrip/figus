@@ -203,7 +203,7 @@ export const getVentasPublicaciones_ML = async () => {
         return mlas.map(mla => [mla, figurita.NUM])
     }));
 
-    const publicacionesMap = new Map (publicaciones.map(publicacion =>[publicacion.id,publicacion]))
+    const publicacionesMap = new Map(publicaciones.map(publicacion => [publicacion.id, publicacion]))
 
     for (const venta of ventasML) {
         for (const vendido of venta.data.variante) {
@@ -256,88 +256,52 @@ const getPaymentsFromSeller = (ventasML) => {
 }
 
 const getTotalShippings = async (seller_shipping) => {
-    const label = `⏱️#getTotalShippings_${Date.now()}`;
-    console.time(label);
-
-    const shippingsTotales = new Map();
+    const shippingsTotales = new Map()
     const tamaño_lote = 20;
-    const tokens = await obtenerToken();
+    const tokens = await obtenerToken()
 
-    // 1. Crear las promesas para TODOS los vendedores en PARALELO
-    const promesasVendedores = Array.from(seller_shipping.entries()).map(async ([seller, shippings]) => {
-        const promesasLotes = [];
+    for (const [seller, shippings] of seller_shipping) {
 
-        // 2. Crear las promesas de TODOS los lotes de este vendedor
         for (let i = 0; i < shippings.length; i += tamaño_lote) {
             const lote = shippings.slice(i, i + tamaño_lote);
 
-            promesasLotes.push((async () => {
-                const promesasEnvios = lote.map(shipping_id => getShipping(shipping_id, seller, tokens));
-                return await Promise.all(promesasEnvios);
-            })());
+            const promesas = lote.map(shipping_id => getShipping(shipping_id, seller, tokens))
+            const resultados = await Promise.all(promesas);
+
+            resultados.forEach(res => {
+                if (res) shippingsTotales.set(res.id.toString(), objetoShipping(res));
+            });
         }
-
-        // Esperar a que se resuelvan todos los lotes de este vendedor
-        const resultadosLotes = await Promise.all(promesasLotes);
-        return resultadosLotes.flat();
-    });
-
-    // 3. Esperar a que terminen todos los vendedores al mismo tiempo
-    const resultadosTotales = await Promise.all(promesasVendedores);
-
-    // 4. Llenar el Map en una sola pasada
-    resultadosTotales.flat().forEach(res => {
-        if (res?.id) {
-            shippingsTotales.set(res.id.toString(), objetoShipping(res));
-        }
-    });
-
-    console.timeEnd(label);
-    return shippingsTotales;
-};
+    }
+    return shippingsTotales
+}
 
 const getTotalPayments = async (seller_payments) => {
-    const label = `⏱️#getTotalPayments_${Date.now()}`;
-    console.time(label);
 
-    const paymentsTotales = new Map();
+    const paymentsTotales = new Map()
     const tamaño_lote = 20;
-    const tokens = await obtenerToken();
+    const tokens = await obtenerToken()
 
-    // 1. Promesas para TODOS los vendedores en paralelo
-    const promesasVendedores = Array.from(seller_payments.entries()).map(async ([seller, payments]) => {
-        const promesasLotes = [];
+    for (const [seller, payments] of seller_payments) {
 
-        // 2. Generar las promesas de TODOS los lotes simultáneamente
         for (let i = 0; i < payments.length; i += tamaño_lote) {
             const lote = payments.slice(i, i + tamaño_lote);
 
-            promesasLotes.push((async () => {
-                const promesasPagos = lote.map(payment_id => getPayment(seller, payment_id, tokens));
-                return await Promise.all(promesasPagos);
-            })());
+            const promesas = lote.map(payment_id => getPayment(seller, payment_id, tokens))
+            const resultados = await Promise.all(promesas);
+
+            resultados.forEach(res => {
+                // Validamos que 'res' exista y que tenga la propiedad 'id'
+                if (res && res.id) {
+                    paymentsTotales.set(res.id.toString(), { fecha_liquidacion: res.money_release_date });
+                } else {
+                    console.warn("Se ignoró un resultado inválido o no encontrado:", res);
+                }
+            });
         }
-
-        // Esperar a que todos los lotes de este vendedor se resuelvan en paralelo
-        const resultadosLotes = await Promise.all(promesasLotes);
-        return resultadosLotes.flat();
-    });
-
-    // 3. Esperar a que terminen todos los vendedores al mismo tiempo
-    const resultadosTotales = await Promise.all(promesasVendedores);
-
-    // 4. Llenar el Map con los pagos válidos
-    resultadosTotales.flat().forEach(res => {
-        if (res && res.id) {
-            paymentsTotales.set(res.id.toString(), { fecha_liquidacion: res.money_release_date });
-        } else {
-            console.warn("Se ignoró un resultado inválido o no encontrado:", res);
-        }
-    });
-
-    console.timeEnd(label);
-    return paymentsTotales;
-};
+    }
+    return paymentsTotales
+}
 
 const crearNuevoObjeto = (venta_ml, shippingEncontrado, paymentEncontrado) => {
     const ventaML = {
@@ -404,18 +368,18 @@ const agregarObjetoMDB = (venta) => {
 export const getVentasUnificadas = async (vendedor) => {
     console.time("⏱️getVentasUnificadas")
     const [ventasML, ventasMDB, enviosFLEX] = await Promise.all([getVentasPublicaciones_ML(), getVentasMDB(), getEnvios()])
-    
+
 
     const seller_shipping = getShippingsFromSeller(ventasML) // diccionario de seller con sus shippings
     const seller_payments = getPaymentsFromSeller(ventasML)
-    
+
     const [totalShippings, totalPayments] = await Promise.all([getTotalShippings(seller_shipping), getTotalPayments(seller_payments)])
-    console.timeEnd("⏱️getVentasUnificadas")
+
     const ventasMDBmap = new Map(ventasMDB.map(venta => [venta.VENTAID, venta]))
     const enviosFLEXmap = new Map(enviosFLEX.map(envios => [envios.ventaid, envios]))
 
     const ventasUnificadas = new Map()
-    
+
     for (const venta_ml of ventasML) {
 
         const shippingId_Str = venta_ml.data?.shipping_id?.toString()
@@ -443,7 +407,7 @@ export const getVentasUnificadas = async (vendedor) => {
 
     for (const venta of ventasMDB) {
         if (!ventasUnificadas.has(String(venta.VENTAID))) {
-            const nuevoObjetoMDB = agregarObjetoMDB(venta)            
+            const nuevoObjetoMDB = agregarObjetoMDB(venta)
             const identificador = venta.VENTAID || venta._id.toString()
             ventasUnificadas.set(identificador.toString(), nuevoObjetoMDB)
         }
@@ -457,9 +421,9 @@ export const getVentasUnificadas = async (vendedor) => {
         ventasUsuario = ventasUnificadas
     }
 
-    const totalVentas= Array.from(ventasUsuario.values());    
+    const totalVentas = Array.from(ventasUsuario.values());
 
-    return totalVentas.sort((a,b)=> new Date(b.FECHA)-new Date(a.FECHA))
+    return totalVentas.sort((a, b) => new Date(b.FECHA) - new Date(a.FECHA))
 }
 
 export const getVentasFlex = async () => {
@@ -471,13 +435,13 @@ export const getVentasFlex = async () => {
         if (envio.ventaid) {
             enviosMap.set(String(envio.ventaid), envio);
         }
-    });
-
+    });    
+    
     const ordenesMDB = ventasMDB.map(venta => {
 
-        const envio = enviosMap.get(String(venta.VENTAID));
+        const envio = enviosMap.get(String(venta.VENTAID));             
 
-        if (!envio && venta.ENVIO !== "FLEX") return null;
+        if (!envio && venta.ENVIO !== "FLEX") return null;        
 
         return {
             venta,
@@ -491,7 +455,7 @@ export const getVentasFlex = async () => {
             VENTAID: venta.pack_id,
             PRECIO: venta.data.total_amount,
             ENVIO: "",
-            DIA: venta.data.date_created,
+            DIA: new Date(venta.data.date_created),
             CUENTA: nombreSeller(venta.data.seller),
             PRODUCTO: venta.data.nombre
         }
@@ -520,8 +484,13 @@ export const getVentasFlex = async () => {
     const mapaVentas = new Map();
 
     ordenesMDB.forEach(orden => {
-        mapaVentas.set(String(orden.venta.VENTAID), orden)
-    })
+        // 1. Extraemos FALTANTES y guardamos todo lo demás en 'ventaSinFaltantes'
+        const { FALTANTES, VENDIDAS, ...ventaSinFaltantes } = orden.venta;
+
+        const ordenLimpia = {...orden, venta: ventaSinFaltantes}
+        
+        mapaVentas.set(String(orden.venta.VENTAID), ordenLimpia)
+    })    
 
     ordenesML.forEach(orden => {
         mapaVentas.set(String(orden.venta.VENTAID), orden);
@@ -529,7 +498,18 @@ export const getVentasFlex = async () => {
 
     const ventasFinales = [...mapaVentas.values()];
 
-    return ventasFinales
+    return ventasFinales.sort((a, b) => {
+        // 1. Obtenemos el string de fecha para cada objeto de forma segura
+        const fechaBStr = b.envio?.fechaEntrega || b.venta?.DIA;
+        const fechaAStr = a.envio?.fechaEntrega || a.venta?.DIA;
+
+        // 2. Si no hay fecha en alguno, le asignamos 0 para enviarlo al final
+        const tiempoB = fechaBStr ? new Date(fechaBStr).getTime() : 0;
+        const tiempoA = fechaAStr ? new Date(fechaAStr).getTime() : 0;
+
+        // 3. Restamos los timestamps (Orden descendente: más nuevo primero)
+        return tiempoB - tiempoA;
+    });
 }
 
 export const totalNetoUsuario = async (usuario) => {

@@ -3,7 +3,7 @@ import { modeloEnvios } from "../models/modeloEnvios.js"
 export const getEnvios = async () => {
     const modelo = modeloEnvios()
     const envios = await modelo.find();  
-    return envios
+    return envios.sort((a,b)=>new Date(b.fechaEntrega)-new Date(a.fechaEntrega))
 }
 
 export const getTransportistas = async() =>{
