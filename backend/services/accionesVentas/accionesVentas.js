@@ -422,7 +422,7 @@ export const getVentasUnificadas = async (vendedor) => {
     }
 
     const totalVentas = Array.from(ventasUsuario.values());
-
+    console.timeEnd("⏱️getVentasUnificadas")
     return totalVentas.sort((a, b) => new Date(b.FECHA) - new Date(a.FECHA))
 }
 

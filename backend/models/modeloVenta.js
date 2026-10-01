@@ -16,8 +16,8 @@ const modelo_venta = new mongoose.Schema(
         VERIFICADAS: Boolean,
         PAGADAS: Boolean,
         IMAGEN_NETO: {
-            data: Buffer,
-            contentType: String
+        type: String,
+        default: ""
         },
         IMPORTE_NETO:Number
     },

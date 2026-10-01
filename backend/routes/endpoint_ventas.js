@@ -7,11 +7,71 @@ import { seller_name } from "../../frontend/javascript/utilidades/nombres.js";
 import multer from "multer";
 import { calculoCuentas, getVentasMDB, getVentasFlex, getVentasML, getVentasML_datosCompletos, getVentasPublicaciones_ML, totalNetoUsuario, totalVendedoresVentas, getVentasUnificadas } from "../services/accionesVentas/accionesVentas.js";
 import { obtenerOrden } from "../services/mercadolibre/ordenes.js";
+import { v2 as cloudinary } from "cloudinary";
+
 const router = Router();
 
-const upload = multer({
-    storage: multer.memoryStorage()
-});
+const upload = multer({ storage: multer.memoryStorage() });
+
+const subirACloudinary = (buffer) => {
+    return new Promise((resolve, reject) => {
+        const stream = cloudinary.uploader.upload_stream(
+            { folder: "figus_ventas" },
+            (error, result) => {
+                if (result) resolve(result);
+                else reject(error);
+            }
+        );
+        stream.end(buffer);
+    });
+};
+
+router.post("/cargar_imagen/:id", upload.single("imagen"), async (req, res) => {
+    try {
+        if (!req.file) {
+            return res.status(400).json({
+                mensaje: "No se recibió ninguna imagen"
+            });
+        }
+
+        // 2. Armamos la ruta web local del archivo guardado en el disco
+        const resultadoCloudinary = await subirACloudinary(req.file.buffer);
+        const urlImagenCloud = resultadoCloudinary.secure_url;
+
+
+        // 3. Buscamos si la venta ya existe en MongoDB
+        let venta = await Venta.findOne({ VENTAID: req.params.id });
+
+
+        if (!venta) {
+            // Si no existe, la creamos directamente con la ruta de la foto
+            venta = await Venta.create({
+                VENTAID: req.params.id,
+                IMAGEN_NETO: urlImagenCloud // Guardamos el String de la ruta
+            });
+
+            return res.json({
+                mensaje: "Venta creada e imagen guardada correctamente",
+                fotoUrl: urlImagenCloud
+            });
+        }
+
+        // 4. Si la venta ya existía, simplemente actualizamos el campo
+        venta.IMAGEN_NETO = urlImagenCloud;
+        await venta.save();
+
+        res.json({
+            mensaje: "Imagen actualizada correctamente",
+            fotoUrl: urlImagenCloud
+        });
+
+    } catch (error) {
+        console.error("Error en cargar_imagen:", error);
+        res.status(500).json({
+            mensaje: "Error al guardar la imagen"
+        });
+    }
+})
 
 router.get("/", async (req, res) => {
     const ventas = await Venta.find().sort({ DIA: -1 }).lean();
@@ -204,6 +264,7 @@ router.post("/agregarimg/:id", upload.single("imagen"), async (req, res) => {
         });
     }
 })
+
 
 router.get("/importe_neto/:usuario", async (req, res) => {
     try {

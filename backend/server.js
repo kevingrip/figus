@@ -15,10 +15,20 @@ import datosEnvios from "./routes/endpoint_envios.js"
 import { actualizarVentas } from "./services/accionesVentas/accionesVentas.js";
 import { subirPrecioStock_1 } from "./services/accionesFiguritas.js";
 import datosGastos from "./routes/endpoint_gastos.js"
+import { v2 as cloudinary } from "cloudinary";
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 dotenv.config();
+
+cloudinary.config({
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
+});
+
+console.log("Secreto cargado:", process.env.CLOUDINARY_API_SECRET); 
 
 const mongo_url = process.env.MONGO_URL
 
@@ -38,6 +48,8 @@ const app = express()
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../frontend")));
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
 
 const PORT = process.env.PORT || 5050;
 
