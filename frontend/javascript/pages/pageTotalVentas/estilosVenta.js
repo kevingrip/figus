@@ -24,18 +24,7 @@ export const estiloContenedorBarra = (element) => {
     });
 }
 
-export const estiloContenedorCentral = (element) => {
-    element.style.display = "flex"
-    element.style.padding = "20px"
-}
 
-export const estiloElementGeneralInformacion = (element) => {
-    if (window.innerWidth < 768) {
-        element.style.width = "100%"
-    } else {
-        element.style.width = "50%"
-    }
-}
 
 export const estiloFlexColumn = (element) => {
     element.style.display = "flex"
@@ -79,15 +68,14 @@ export const estiloVariante = (element) => {
     element.style.backgroundColor = "#2e2e37"
     element.style.color = "white"
     element.style.borderRadius = "10px"
+    element.style.margin = "10px"
 
 
     if (window.innerWidth < 768) {       
         element.style.margin = "20px"
     } else {
-        element.style.fontSize = "2vh"        
-        element.style.width = "42vw"
-        element.style.margin="10px"
-        element.style.padding="10px"
+        element.style.fontSize = "2vh"
+        element.style.width="50vw"
     }
 }
 
@@ -149,16 +137,14 @@ export const estiloElementPago = (element) => {
         element.style.height = "100%"
     } else {
         element.style.width = "15vw"
-        element.style.height = "50vh"
+        element.style.minHeight = "20vh"
     }
 }
 
 export const estiloElementGralEnvios = (element) => {
     element.style.display = "flex"
-    element.style.height = "50%"
-    element.style.width = "100%"
-    element.style.alignItems = "flex-end";
-    element.style.marginBottom = "10px";
+    element.style.justifyContent = "center";
+    element.style.alignItems = "center";
 }
 
 export const estiloElementGeneralDatosDer = (element) => {
@@ -169,7 +155,8 @@ export const estiloElementGeneralDatosDer = (element) => {
 
 export const estiloElementGralDatos = (element) => {
     element.style.display = "flex"
-    element.style.height = "50%"
+    element.style.margin = "10px"
+    
 }
 
 export const estiloElementBotones = (element) => {
