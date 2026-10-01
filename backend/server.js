@@ -28,8 +28,6 @@ cloudinary.config({
     api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-console.log("Secreto cargado:", process.env.CLOUDINARY_API_SECRET); 
-
 const mongo_url = process.env.MONGO_URL
 
 await mongoose.connect(mongo_url);
