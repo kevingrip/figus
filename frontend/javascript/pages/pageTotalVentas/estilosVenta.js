@@ -146,7 +146,7 @@ export const estiloElementPago = (element) => {
 
     if (window.innerWidth < 768) {
         element.style.width = "100%"
-        element.style.height = "10vh"
+        element.style.height = "100%"
     } else {
         element.style.width = "15vw"
         element.style.height = "50vh"

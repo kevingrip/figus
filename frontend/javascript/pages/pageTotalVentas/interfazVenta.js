@@ -388,7 +388,7 @@ const crearContenedorImagen = (venta) => {
         const imagenRespuesta = await importarImagenPagoNeto(venta.VENTAID, formData)
         contenedor.innerHTML = ""
         const imagenPago = nuevaCaptura(imagenRespuesta.fotoUrl)
-        imagenPago.style.height="40vh"
+        imagenPago.style.height = "40vh"
 
         const elementNeto = confirmarNeto(venta)
 
@@ -408,29 +408,35 @@ const nuevaCaptura = (imagenCargada) => {
     const imagenPago = document.createElement("img");
     imagenPago.src = imagenCargada
     imagenPago.alt = "Comprobante de pago";
-    imagenPago.style.height = "50vh"
-    imagenPago.style.width = "15vw"
     imagenPago.style.borderRadius = "10px"
+    if (window.innerWidth < 768) {
+        imagenPago.style.height = "100%"
+        imagenPago.style.width = "100%"
+    } else {
+        imagenPago.style.height = "50vh"
+        imagenPago.style.width = "15vw"        
+    }
+
     return imagenPago
 }
 
 const confirmarNeto = (venta) => {
     const elementNeto = document.createElement("div")
-    elementNeto.style.display="flex"
-    elementNeto.style.flexDirection="column"
-    elementNeto.style.justifyContent="center"
-    if (!Object.hasOwn(venta,"IMPORTE_NETO")) {        
+    elementNeto.style.display = "flex"
+    elementNeto.style.flexDirection = "column"
+    elementNeto.style.justifyContent = "center"
+    if (!Object.hasOwn(venta, "IMPORTE_NETO")) {
         const importeNeto = document.createElement("input")
         importeNeto.placeholder = "Ingrese importe neto"
         const botonInput = document.createElement("button")
         botonInput.textContent = "Confirmar"
         botonInput.addEventListener("click", () => {
-            agregarPagoNeto(venta.VENTAID, importeNeto.value)            
-            elementNeto.style.color="white"
+            agregarPagoNeto(venta.VENTAID, importeNeto.value)
+            elementNeto.style.color = "white"
             elementNeto.innerHTML = ""
             elementNeto.innerHTML = `Importe neto: ${precioArgentino(importeNeto.value)}`
         })
-        elementNeto.append(importeNeto, botonInput)        
+        elementNeto.append(importeNeto, botonInput)
     }
     return elementNeto
 
