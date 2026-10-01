@@ -209,7 +209,9 @@ router.post("/pagoneto/:id", async (req, res) => {
             });
         }
         const precioNeto = req.body.precio_neto
+        const vendedor = req.body.vendedor
         venta.IMPORTE_NETO = precioNeto
+        venta.CUENTA = vendedor
         await venta.save();
 
         res.json({
