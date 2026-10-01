@@ -196,14 +196,13 @@ export const actualizarStock = async (mla, seller_id, cant) => {
 }
 
 export const importarImagenPagoNeto = async (ventaid, imagen) => {
-    const respuesta = await fetch(`${api}/ventas/agregarimg/${ventaid}`, {
+    const respuesta = await fetch(`${api}/ventas/cargar_imagen/${ventaid}`, {
         method: "POST",
         body: imagen
     });
 
     const resultado = await respuesta.json();
-
-    console.log(resultado);
+    return resultado
 }
 
 

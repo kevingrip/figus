@@ -1,4 +1,4 @@
-import { crearEnvioFlex, descargarEtiqueta, verificarFiguritasVenta } from "../../servicios/api.js"
+import { agregarPagoNeto, crearEnvioFlex, descargarEtiqueta, importarImagenPagoNeto, verificarFiguritasVenta } from "../../servicios/api.js"
 import { fechaArgentina, precioArgentino } from "../../utilidades/conversionesArg.js"
 import { albumName } from "../../utilidades/nombres.js"
 import { estiloBarra, estiloContenedorBarra, estiloContenedorCentral, estiloContenedorGeneralVenta, estiloElementBotones, estiloElementFiguritas, estiloElementFlexRow, estiloElementGeneralBotonesAcciones, estiloElementGeneralDatosDer, estiloElementGeneralInformacion, estiloElementGeneralVariantes, estiloElementGralDatos, estiloElementGralEnvios, estiloElementPago, estiloEnvios, estiloFlexColumn, estiloResponsive, estiloVariante, estiloVarianteInfo, estiloVarianteInfoDer, estiloVarianteInfoIzq } from "./estilosVenta.js"
@@ -24,7 +24,7 @@ export const crearTarjetaVenta = (venta) => {
     const elementBarra = crearElementBarra(venta)
     const elementDatos = crearElementDatos(venta)
     const elementEnvios = crearElementEnvios(venta.datos_envio_flex, venta.DATOS_SHIPPING)
-    const elementPagos = crearElementPagos(venta)
+    const elementPagos = crearElementPagos(venta, elementDatos)
     const elementVariantes = crearElementVariantes(venta.VARIANTES)
     const elementFiguritas = crearElementFiguritas(venta)
     const elementEtiqueta = crearElementEtiqueta(venta)
@@ -35,8 +35,15 @@ export const crearTarjetaVenta = (venta) => {
         elementGeneralBotonesAcciones.append(elementVerificar)
     }
 
-    if (venta?.VERIFICADAS === true && ["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta))
-        elementGeneralBotonesAcciones.append(elementEtiqueta)
+    if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta)) {
+        if (Object.hasOwn(venta, "VERIFICADAS") && venta?.VERIFICADAS === true) {
+            elementGeneralBotonesAcciones.append(elementEtiqueta)
+        } else {
+            elementGeneralBotonesAcciones.append(elementEtiqueta)
+        }
+
+    }
+
 
     if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta) || venta?.VERIFICADAS === false) {
         estiloElementGeneralBotonesAcciones(elementGeneralBotonesAcciones)
@@ -99,7 +106,7 @@ const crearElementDatos = (venta) => {
     elementDatos.style.marginRight = "20px";
 
 
-    const ventaid = document.createElement("a")    
+    const ventaid = document.createElement("a")
     const precioTotal = document.createElement("div")
     const precioNeto = document.createElement("div")
 
@@ -107,13 +114,13 @@ const crearElementDatos = (venta) => {
     ventaid.href = `https://vendedores.mercadolibre.com.ar/ventas/${venta.VENTAID}/detalle`
     elementDatos.append(ventaid)
 
-    if (venta?.COMPRADOR?.NOMBRE){
+    if (venta?.COMPRADOR?.NOMBRE) {
         const clienteid = document.createElement("div")
         clienteid.textContent = `Cliente: ${venta?.COMPRADOR?.NOMBRE}`
         clienteid.style.width = "100%"
         elementDatos.append(clienteid)
-    }    
-    
+    }
+
     precioTotal.textContent = `Total Venta: ${precioArgentino(venta?.IMPORTE_TOTAL)} 💰`
     precioNeto.textContent = `${venta?.IMPORTE_NETO ? `Total Neto: ${precioArgentino(venta?.IMPORTE_NETO)} 💰` : ""}`
 
@@ -126,9 +133,9 @@ const crearElementDatos = (venta) => {
         fechaLiquidacion.style.whiteSpace = "nowrap";
         fechaLiquidacion.style.overflow = "hidden";
         fechaLiquidacion.style.textOverflow = "ellipsis";
-        if (new Date(venta.DATOS_PAYMENTS.fecha_liquidacion)<new Date()){
-            fechaLiquidacion.style.backgroundColor="green"
-            fechaLiquidacion.style.fontWeight="bold"
+        if (new Date(venta.DATOS_PAYMENTS.fecha_liquidacion) < new Date()) {
+            fechaLiquidacion.style.backgroundColor = "green"
+            fechaLiquidacion.style.fontWeight = "bold"
         }
     }
     return elementDatos
@@ -222,19 +229,16 @@ const crearElementEnvios = (envio, shipping) => {
     return elementEnvios
 }
 
-const crearElementPagos = (venta) => {
+const crearElementPagos = (venta, elementDatos) => {
     const elementPagos = document.createElement("div")
 
-    if (venta?.IMAGEN_NETO?.data) {
-        const imagenPago = document.createElement("img");
-        imagenPago.src = `data:${venta.IMAGEN_NETO.contentType};base64,${venta.IMAGEN_NETO.data}`;
-        imagenPago.alt = "Comprobante de pago";
-        imagenPago.style.height = "50vh"
-        imagenPago.style.width = "15vw"
-        imagenPago.style.borderRadius = "10px"
+    if (venta?.IMAGEN_NETO) {
+        const imagenPago = nuevaCaptura(venta.IMAGEN_NETO)
+        const elementNeto = confirmarNeto(venta)
         elementPagos.append(imagenPago)
+        elementDatos.append(elementNeto)
     } else {
-        elementPagos.append(crearContenedorImagen())
+        elementPagos.append(crearContenedorImagen(venta))
     }
 
     return elementPagos
@@ -346,7 +350,7 @@ const crearFigurita = (element, album) => {
     return figurita
 }
 
-const crearContenedorImagen = (ventaid) => {
+const crearContenedorImagen = (venta) => {
     const contenedor = document.createElement("div");
 
     estiloElementPago(contenedor)
@@ -381,7 +385,14 @@ const crearContenedorImagen = (ventaid) => {
         const formData = new FormData();
         formData.append("imagen", archivo);
 
-        await importarImagenPagoNeto(ventaid, formData)
+        const imagenRespuesta = await importarImagenPagoNeto(venta.VENTAID, formData)
+        contenedor.innerHTML = ""
+        const imagenPago = nuevaCaptura(imagenRespuesta.fotoUrl)
+        imagenPago.style.height="40vh"
+
+        const elementNeto = confirmarNeto(venta)
+
+        contenedor.append(imagenPago, elementNeto)
 
     });
     contenedor.append(
@@ -393,7 +404,39 @@ const crearContenedorImagen = (ventaid) => {
     return contenedor;
 }
 
-const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elementGeneralVariantes, elementSeleccionarTransporte,elementEtiqueta) => {
+const nuevaCaptura = (imagenCargada) => {
+    const imagenPago = document.createElement("img");
+    imagenPago.src = imagenCargada
+    imagenPago.alt = "Comprobante de pago";
+    imagenPago.style.height = "50vh"
+    imagenPago.style.width = "15vw"
+    imagenPago.style.borderRadius = "10px"
+    return imagenPago
+}
+
+const confirmarNeto = (venta) => {
+    const elementNeto = document.createElement("div")
+    elementNeto.style.display="flex"
+    elementNeto.style.flexDirection="column"
+    elementNeto.style.justifyContent="center"
+    if (!Object.hasOwn(venta,"IMPORTE_NETO")) {        
+        const importeNeto = document.createElement("input")
+        importeNeto.placeholder = "Ingrese importe neto"
+        const botonInput = document.createElement("button")
+        botonInput.textContent = "Confirmar"
+        botonInput.addEventListener("click", () => {
+            agregarPagoNeto(venta.VENTAID, importeNeto.value)            
+            elementNeto.style.color="white"
+            elementNeto.innerHTML = ""
+            elementNeto.innerHTML = `Importe neto: ${precioArgentino(importeNeto.value)}`
+        })
+        elementNeto.append(importeNeto, botonInput)        
+    }
+    return elementNeto
+
+}
+
+const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elementGeneralVariantes, elementSeleccionarTransporte, elementEtiqueta) => {
 
     const elementGralVerificar = document.createElement("div")
     const elementVerificar = document.createElement("div")
@@ -447,7 +490,7 @@ const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elemen
                         elementVariantes.style.visible = "hidden"
                         venta.VERIFICADAS = true
                         elementGralVerificar.innerHTML = ""
-                        if (venta?.DATOS_SHIPPING?.entrega==="FLEX")
+                        if (venta?.DATOS_SHIPPING?.entrega === "FLEX")
                             elementGralVerificar.append(elementSeleccionarTransporte)
                         else
                             elementGralVerificar.append(elementEtiqueta)
