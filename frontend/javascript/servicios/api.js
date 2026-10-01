@@ -206,13 +206,13 @@ export const importarImagenPagoNeto = async (ventaid, imagen) => {
 }
 
 
-export const agregarPagoNeto = async (ventaid, precio_neto) => {
+export const agregarPagoNeto = async (ventaid, precio_neto, vendedor) => {
     const respuesta = await fetch(`${api}/ventas/pagoneto/${ventaid}`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify({ precio_neto })
+        body: JSON.stringify({ precio_neto, vendedor })
     });
 
     const resultado = await respuesta.json();

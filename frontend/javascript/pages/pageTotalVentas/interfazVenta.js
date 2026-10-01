@@ -1,6 +1,6 @@
 import { agregarPagoNeto, crearEnvioFlex, descargarEtiqueta, importarImagenPagoNeto, verificarFiguritasVenta } from "../../servicios/api.js"
 import { fechaArgentina, precioArgentino } from "../../utilidades/conversionesArg.js"
-import { albumName } from "../../utilidades/nombres.js"
+import { albumName, traduccionCuenta } from "../../utilidades/nombres.js"
 import { estiloBarra, estiloContenedorBarra, estiloContenedorCentral, estiloContenedorGeneralVenta, estiloElementBotones, estiloElementFiguritas, estiloElementFlexRow, estiloElementGeneralBotonesAcciones, estiloElementGeneralDatosDer, estiloElementGeneralInformacion, estiloElementGeneralVariantes, estiloElementGralDatos, estiloElementGralEnvios, estiloElementPago, estiloEnvios, estiloFlexColumn, estiloResponsive, estiloVariante, estiloVarianteInfo, estiloVarianteInfoDer, estiloVarianteInfoIzq } from "./estilosVenta.js"
 
 export const crearTarjetaVenta = (venta) => {
@@ -41,9 +41,7 @@ export const crearTarjetaVenta = (venta) => {
         } else {
             elementGeneralBotonesAcciones.append(elementEtiqueta)
         }
-
     }
-
 
     if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta) || venta?.VERIFICADAS === false) {
         estiloElementGeneralBotonesAcciones(elementGeneralBotonesAcciones)
@@ -234,9 +232,14 @@ const crearElementPagos = (venta, elementDatos) => {
 
     if (venta?.IMAGEN_NETO) {
         const imagenPago = nuevaCaptura(venta.IMAGEN_NETO)
-        const elementNeto = confirmarNeto(venta)
         elementPagos.append(imagenPago)
-        elementDatos.append(elementNeto)
+
+        if (!Object.hasOwn(venta, "IMPORTE_NETO")) {
+            const elementNeto = confirmarNeto(venta)
+            elementDatos.append(elementNeto)
+        }
+
+
     } else {
         elementPagos.append(crearContenedorImagen(venta))
     }
@@ -390,9 +393,13 @@ const crearContenedorImagen = (venta) => {
         const imagenPago = nuevaCaptura(imagenRespuesta.fotoUrl)
         imagenPago.style.height = "40vh"
 
-        const elementNeto = confirmarNeto(venta)
+        contenedor.append(imagenPago)
 
-        contenedor.append(imagenPago, elementNeto)
+        if (!Object.hasOwn(venta, "IMPORTE_NETO")) {
+            const elementNeto = confirmarNeto(venta)
+            contenedor.append(elementNeto)
+        }
+
 
     });
     contenedor.append(
@@ -414,7 +421,7 @@ const nuevaCaptura = (imagenCargada) => {
         imagenPago.style.width = "100%"
     } else {
         imagenPago.style.height = "50vh"
-        imagenPago.style.width = "15vw"        
+        imagenPago.style.width = "15vw"
     }
 
     return imagenPago
@@ -425,21 +432,20 @@ const confirmarNeto = (venta) => {
     elementNeto.style.display = "flex"
     elementNeto.style.flexDirection = "column"
     elementNeto.style.justifyContent = "center"
-    if (!Object.hasOwn(venta, "IMPORTE_NETO")) {
-        const importeNeto = document.createElement("input")
-        importeNeto.placeholder = "Ingrese importe neto"
-        const botonInput = document.createElement("button")
-        botonInput.textContent = "Confirmar"
-        botonInput.addEventListener("click", () => {
-            agregarPagoNeto(venta.VENTAID, importeNeto.value)
-            elementNeto.style.color = "white"
-            elementNeto.innerHTML = ""
-            elementNeto.innerHTML = `Importe neto: ${precioArgentino(importeNeto.value)}`
-        })
-        elementNeto.append(importeNeto, botonInput)
-    }
+    const importeNeto = document.createElement("input")
+    importeNeto.placeholder = "Ingrese importe neto"
+    const botonInput = document.createElement("button")
+    botonInput.textContent = "Confirmar"
+    botonInput.addEventListener("click", () => {
+        let vendedor = venta.VENDEDOR.NOMBRE || venta.VENDEDOR.CUENTA
+               
+        agregarPagoNeto(venta.VENTAID, importeNeto.value, traduccionCuenta(vendedor))
+        elementNeto.style.color = "white"
+        elementNeto.innerHTML = ""
+        elementNeto.innerHTML = `Importe neto: ${precioArgentino(importeNeto.value)}`
+    })
+    elementNeto.append(importeNeto, botonInput)
     return elementNeto
-
 }
 
 const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elementGeneralVariantes, elementSeleccionarTransporte, elementEtiqueta) => {

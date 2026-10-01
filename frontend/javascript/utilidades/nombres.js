@@ -37,3 +37,12 @@ export const seller_name = (seller_id) =>{
         return "MAMA"
     }
 }
+
+export const traduccionCuenta = (usuario) =>{
+    if (["F3FG"].includes(usuario)){
+        return "KEVIN"
+    }
+    else if (["TLD_3F"].includes(usuario)){
+        return "MAMA"
+    } else return usuario
+}
