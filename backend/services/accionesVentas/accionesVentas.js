@@ -514,8 +514,8 @@ export const getVentasFlex = async () => {
 
 export const totalNetoUsuario = async (usuario) => {
     const ventas = await getVentasMDB()
-    const ventasUsuario = ventas.filter(venta => venta.CUENTA === usuario)
-
+    const ventasUsuario = ventas.filter(venta => venta.CUENTA === usuario && Object.hasOwn(venta,"IMPORTE_NETO"))
+    
     const enviosPagados = await getEnvios()
     const enviosPagadosUsuario = enviosPagados.filter(envio => envio.usuario_pagador === usuario)
 
