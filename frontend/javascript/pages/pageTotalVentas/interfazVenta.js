@@ -1,87 +1,15 @@
 import { agregarPagoNeto, crearEnvioFlex, descargarEtiqueta, importarImagenPagoNeto, verificarFiguritasVenta } from "../../servicios/api.js"
-import { fechaArgentina, precioArgentino } from "../../utilidades/conversionesArg.js"
-import { albumName, traduccionCuenta } from "../../utilidades/nombres.js"
-import { estiloBarra, estiloContenedorBarra, estiloContenedorGeneralVenta, estiloElementBotones, estiloElementFiguritas, estiloElementFlexRow, estiloElementGeneralBotonesAcciones, estiloElementGeneralDatosDer, estiloElementGeneralVariantes, estiloElementGralDatos, estiloElementGralEnvios, estiloElementPago, estiloEnvios, estiloFlexColumn, estiloResponsive, estiloVariante, estiloVarianteInfo, estiloVarianteInfoDer, estiloVarianteInfoIzq } from "./estilosVenta.js"
-
-export const crearTarjetaVentaViejo = (venta) => {
-    const elementGeneral = document.createElement("div")
-
-    const elementGeneralInformacion = document.createElement("div")
-
-    const elementGeneralDatos = document.createElement("div")
-    const elementGeneralDatosIzq = document.createElement("div")
-    const elementGeneralDatosDer = document.createElement("div")
-    const elementGralEnvios = document.createElement("div")
-    const elementGralDatos = document.createElement("div")
-
-    const elementGeneralBotonesAcciones = document.createElement("div")
-
-    const elementGeneralVariantes = document.createElement("div")
-
-    const elementDatosyVariantes = document.createElement("div")
-    estiloContenedorGeneralVenta(elementGeneral)
-
-    const elementBarra = crearElementBarra(venta)
-    const elementDatos = crearElementDatos(venta)
-    const elementEnvios = crearElementEnvios(venta.datos_envio_flex, venta.DATOS_SHIPPING)
-    const elementPagos = crearElementPagos(venta, elementDatos)
-    const elementVariantes = crearElementVariantes(venta.VARIANTES)
-    const elementFiguritas = crearElementFiguritas(venta)
-    const elementEtiqueta = crearElementEtiqueta(venta)
-    const elementSeleccionarTransporte = crearElementSeleccionarTransporte(venta, elementEtiqueta)
-    const elementVerificar = crearElementVerificar(venta, elementFiguritas, elementVariantes, elementGeneralVariantes, elementSeleccionarTransporte, elementEtiqueta)
-
-    if ((venta?.VENDIDAS && venta?.VERIFICADAS === false)) {
-        elementGeneralBotonesAcciones.append(elementVerificar)
-    }
-
-    if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta)) {
-        if (Object.hasOwn(venta, "VERIFICADAS") && venta?.VERIFICADAS === true) {
-            elementGeneralBotonesAcciones.append(elementEtiqueta)
-        } else {
-            elementGeneralBotonesAcciones.append(elementEtiqueta)
-        }
-    }
-
-    if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta) || venta?.VERIFICADAS === false) {
-        estiloElementGeneralBotonesAcciones(elementGeneralBotonesAcciones)
-    }
-
-    estiloContenedorBarra(elementBarra)
-    estiloElementGralEnvios(elementGralEnvios)
-    estiloElementGeneralDatosDer(elementGeneralDatosDer)
-    estiloElementGralDatos(elementGralDatos)
-
-    elementGralEnvios.append(elementEnvios)
-    elementGralDatos.append(elementDatos)
-    elementGeneralDatosIzq.append(elementGralDatos, elementGralEnvios)
-    estiloFlexColumn(elementGeneralDatosIzq)
-    estiloElementPago(elementPagos)
-    elementPagos.style.border = "0.5px solid white"
-    elementGeneralDatosDer.append(elementPagos)
-    elementGeneralDatos.append(elementGeneralDatosIzq, elementGeneralDatosDer)
-
-    elementGeneralInformacion.append(elementGeneralDatos, elementGeneralBotonesAcciones)
-
-    elementGeneralVariantes.append(elementVariantes)
-    elementDatosyVariantes.append(elementGeneralInformacion, elementGeneralVariantes)
-
-    elementGeneralDatosIzq.style.width = "100%"
-    estiloElementGeneralVariantes(elementGeneralVariantes)
-
-    estiloElementGeneralInformacion(elementGeneralInformacion)
-    estiloResponsive(elementGeneralDatos)
-    estiloResponsive(elementDatosyVariantes)
-    elementGeneral.append(elementBarra, elementDatosyVariantes, elementFiguritas)
-    return elementGeneral
-}
+import { fechaArgentina, fechaArgentinaCorta, fechaNombreDia, precioArgentino } from "../../utilidades/conversionesArg.js"
+import { albumName, traduccionCuenta, traduccionEnvios } from "../../utilidades/nombres.js"
+import { estiloBarra, estiloContenedorBarra, estiloContenedorGeneralVenta, estiloElementBotones, estiloElementFiguritas, estiloElementFlexRow, estiloElementGeneralBotonesAcciones, estiloElementGeneralDatosDer, estiloElementGeneralVariantes, estiloElementGralDatos, estiloFlexCentrado, estiloElementPago, estiloEnvios, estiloFlexColumn, estiloResponsive, estiloVariante, estiloVarianteInfo, estiloVarianteInfoDer, estiloVarianteInfoIzq } from "./estilosVenta.js"
 
 export const crearTarjetaVenta = (venta) => {
-    const elementGeneral = document.createElement("div")
-    estiloContenedorGeneralVenta(elementGeneral)
 
-    const elementGeneralDatos = document.createElement("div")
-    const elementGralEnvios = document.createElement("div")
+    const element0 = document.createElement("div")
+    estiloContenedorGeneralVenta(element0)
+
+    const element_A = document.createElement("div")
+
     const elementGralDatos = document.createElement("div")
 
     const elementGeneralBotonesAcciones = document.createElement("div")
@@ -123,7 +51,6 @@ export const crearTarjetaVenta = (venta) => {
 
     estiloContenedorBarra(elementBarra)
     estiloElementGralDatos(elementGralDatos)
-    elementGralEnvios.append(elementEnvios)
     elementGralDatos.append(elementDatos)
     estiloElementPago(elementPagos)
     elementPagos.style.border = "0.5px solid white"
@@ -139,34 +66,40 @@ export const crearTarjetaVenta = (venta) => {
         element1.style.minHeight = "30vh"
         element2.style.minHeight = "30vh"
         element3.style.minHeight = "30vh"
-    }
+        element2.style.width = "50%"
 
+    } else {
+        element2.style.width = "100%"
+        element1.style.minHeight = "auto"
+        element2.style.minHeight = "auto"
+    }
     element1.style.width = "100%"
-    element2.style.width = "50%"
     element3.style.width = "100%"
+
+
     element1.append(elementGralDatos)
     element2.append(elementPagos)
-    element3.append(elementGralEnvios)
+    element3.append(elementEnvios)
 
-    estiloElementGralEnvios(element2)
-    estiloElementGralEnvios(element3)
+    estiloFlexCentrado(element2)
+    estiloFlexCentrado(element3)
 
-    elementGeneralDatos.append(element1, element2, element3)
+    element_A.append(element1, element2, element3)
 
     // elementGeneralDatos.append(elementGralDatos, elementPagos, elementGralEnvios)
 
 
     elementGeneralVariantes.append(elementVariantes)
-    elementGeneralVariantes.style.margin = "50px"
-    estiloElementGralEnvios(elementGeneralVariantes)
-    elementDatosyVariantes.append(elementGeneralDatos, elementGeneralVariantes, elementGeneralBotonesAcciones)
+    elementGeneralVariantes.style.marginTop = "20px"
+    estiloFlexCentrado(elementGeneralVariantes)
+    elementDatosyVariantes.append(element_A, elementGeneralVariantes, elementGeneralBotonesAcciones)
     elementDatosyVariantes.style.display = "flex"
     elementDatosyVariantes.style.flexDirection = "column"
 
-    estiloResponsive(elementGeneralDatos)
+    estiloResponsive(element_A)
     estiloResponsive(elementDatosyVariantes)
-    elementGeneral.append(elementBarra, elementDatosyVariantes, elementFiguritas)
-    return elementGeneral
+    element0.append(elementBarra, elementDatosyVariantes, elementFiguritas)
+    return element0
 }
 
 const crearElementBarra = (venta) => {
@@ -177,11 +110,21 @@ const crearElementBarra = (venta) => {
     const nombreCuenta = document.createElement("div")
     const cantidadFigus = document.createElement("div")
 
-    fechaVenta.textContent = `Fecha Venta: ${fechaArgentina(venta.FECHA)}hs 📆`
-    nombreCuenta.textContent = `${venta.VENDEDOR.NOMBRE || venta.VENDEDOR.CUENTA} 👤`
+
+
     cantidadFigus.textContent = `Cantidad: ${venta.VENDIDAS?.length}`
 
-    elementBarra.append(fechaVenta, nombreCuenta, cantidadFigus)
+    if (window.innerWidth < 768) {
+        nombreCuenta.style.whiteSpace = "pre-line"
+        fechaVenta.style.whiteSpace = "pre-line"
+        nombreCuenta.textContent = `👤\n ${venta.VENDEDOR.NOMBRE || venta.VENDEDOR.CUENTA}`
+        fechaVenta.textContent = `📆\n ${fechaArgentinaCorta(venta.FECHA)}`
+        elementBarra.append(nombreCuenta, fechaVenta)
+    } else {
+        nombreCuenta.textContent = `${venta.VENDEDOR.NOMBRE || venta.VENDEDOR.CUENTA} 👤`
+        fechaVenta.textContent = `Fecha Venta: ${fechaArgentina(venta.FECHA)}hs 📆`
+        elementBarra.append(fechaVenta, nombreCuenta, cantidadFigus)
+    }
 
     return elementBarra
 }
@@ -231,50 +174,49 @@ const crearElementDatos = (venta) => {
     return elementDatos
 }
 
-const crearElementEnvios = (envio, shipping) => {
+const crearElementEnvios = (envioFlexCreado, shipping) => {
 
     const elementEnvios = document.createElement("div")
-    const estadoEnvio = document.createElement("div")
+
     const tipoEnvio = document.createElement("div")
 
-    estadoEnvio.textContent = shipping?.info_etiqueta || shipping?.estado
+    const estadoEnvio = document.createElement("div")
+    estadoEnvio.textContent = traduccionEnvios(shipping?.info_etiqueta) || shipping?.estado
+    estadoEnvio.style.fontWeight = "bold"
+
     elementEnvios.style.backgroundColor = "#2b2444"
-    tipoEnvio.textContent = shipping?.entrega || "SIN DATO DE ENVIO"
+    tipoEnvio.innerHTML = shipping?.entrega || "SIN DATO DE ENVIO"
+    tipoEnvio.style.fontWeight = "bold"
+    tipoEnvio.style.fontSize = '3vh';
 
     if (shipping?.entrega != "FLEX") {
         tipoEnvio.style.color = "#de5516"
-        tipoEnvio.style.fontWeight = "bold"
-        tipoEnvio.style.fontSize = '3vh';
     } else {
         tipoEnvio.style.color = "#2ec95f"
-        tipoEnvio.style.fontWeight = "bold"
-        tipoEnvio.style.fontSize = '3vh';
+        tipoEnvio.innerHTML += ` ${shipping.ciudad}`
     }
 
     estiloEnvios(elementEnvios)
+    elementEnvios.style.color = "white"
+    elementEnvios.style.borderRadius = "10px"
+    elementEnvios.style.fontSize = '2vh';
 
-    if (envio) {
+    const element0 = document.createElement("div")
+    element0.style.margin = "10px"
 
-        elementEnvios.style.color = "white"
-        elementEnvios.style.padding = "10px"
-        elementEnvios.style.borderRadius = "10px"
-        elementEnvios.style.fontSize = '2vh';
+    if (envioFlexCreado) {
 
         const transportista = document.createElement("div")
         const importeEnvio = document.createElement("div")
         const zonaEnvio = document.createElement("div")
 
-        transportista.textContent = `Transportista: ${envio?.TRANSPORTISTA}`
-        zonaEnvio.textContent = `Zona: ${envio?.ZONA}`
-        importeEnvio.textContent = `Importe: ${precioArgentino(envio?.IMPORTE_ENVIO)}`
-
-        elementEnvios.append(tipoEnvio, transportista, importeEnvio, zonaEnvio, estadoEnvio)
+        transportista.textContent = `Transportista: ${envioFlexCreado?.TRANSPORTISTA}`
+        zonaEnvio.textContent = `Zona: ${envioFlexCreado?.ZONA}`
+        importeEnvio.textContent = `Importe: ${precioArgentino(envioFlexCreado?.IMPORTE_ENVIO)}`
+        element0.append(tipoEnvio, transportista, importeEnvio, zonaEnvio, estadoEnvio)
+        elementEnvios.append(element0)
 
     } else {
-        elementEnvios.style.color = "white"
-        elementEnvios.style.padding = "10px"
-        elementEnvios.style.borderRadius = "10px"
-        elementEnvios.style.fontSize = '2vh';
 
         if (shipping?.estado === "Cancelado") {
             elementEnvios.style.backgroundColor = "#d82a2a"
@@ -282,41 +224,62 @@ const crearElementEnvios = (envio, shipping) => {
             tipoEnvio.textContent = ""
         }
 
-        elementEnvios.append(tipoEnvio, estadoEnvio)
+        element0.append(tipoEnvio, estadoEnvio)
+        elementEnvios.append(element0)
 
-        if (shipping?.entrega === "FLEX") {
+        if (shipping?.estado === "Listo para enviar") {
+            const limiteDespacho = document.createElement("div")
+            limiteDespacho.textContent = `Limite Entrega: ${fechaNombreDia(shipping?.tiempoLimite)} ${fechaArgentina(shipping?.tiempoLimite)} hs`
+            element0.append(limiteDespacho)
+            elementEnvios.append(element0)
+        }
+
+        if (shipping?.entrega === "FLEX") { //ENVIO FLEX LISTO PARA ENVIAR
             if (shipping?.estado === "Cancelado") {
                 elementEnvios.style.backgroundColor = "#d82a2a"
                 tipoEnvio.style.color = "white"
                 tipoEnvio.textContent = ""
             } else {
-                const ciudad = document.createElement("div")
-                const direccion = document.createElement("div")
+                const infoFlex = document.createElement("div")
+                const infoMap = document.createElement("div")
+                const mapa = crearMapaGoogle(shipping.direccion, shipping.ciudad)
+                infoMap.append(mapa)
+
                 const cliente = document.createElement("div")
 
-                ciudad.textContent = shipping.ciudad
-                direccion.textContent = `${shipping.direccion}, ${shipping.ciudad}`
                 cliente.textContent = shipping.cliente
-                elementEnvios.append(ciudad, shipping.direccion)
+                element0.append(infoFlex, infoMap)
+                elementEnvios.append(element0)
 
                 if (shipping.comentario) {
                     const comentario = document.createElement("div")
                     comentario.textContent = shipping.comentario
-                    elementEnvios.append(comentario)
+                    element0.append(comentario)
+                    elementEnvios.append(element0)
                 }
             }
         }
     }
-
-    if (shipping?.estado === "Listo para enviar") {
-        const limiteDespacho = document.createElement("div")
-        limiteDespacho.textContent = `Limite Entrega: ${fechaArgentina(shipping?.tiempoLimite)} hs`
-        elementEnvios.append(limiteDespacho)
-    }
-
-    elementEnvios.style.height = "auto"
-
     return elementEnvios
+}
+
+const crearMapaGoogle = (direccion, ciudad) => {
+    // 1. Crear el contenedor o el iframe
+    const mapaIframe = document.createElement("iframe")
+
+    // 2. Codificar la dirección para que sea segura en la URL
+    const ubicacionBusqueda = encodeURIComponent(`${direccion}, ${ciudad}`)
+
+    // 3. Asignar atributos y estilos
+    mapaIframe.src = `https://maps.google.com/maps?q=${ubicacionBusqueda}&t=&z=15&ie=UTF8&iwloc=&output=embed`
+    mapaIframe.style.width = "100%"
+    mapaIframe.style.height = "100%" // Ocupará el 100% del contenedor padre
+    mapaIframe.style.minHeight = "300px" // Altura mínima recomendada
+    mapaIframe.style.border = "0"
+    mapaIframe.loading = "lazy" // Mejora el rendimiento de carga
+    mapaIframe.allowFullscreen = true
+
+    return mapaIframe
 }
 
 const crearElementPagos = (venta, elementDatos) => {
@@ -358,33 +321,64 @@ const crearElementVariantes = (variantes) => {
             const imagen = document.createElement("img")
 
             mla.textContent = `${element.mla}`
-            titulo.textContent = element.titulo
+
             titulo.href = element.link
             cantidad.textContent = `CANTIDAD: ${element.cantidad}`
             precio.textContent = precioArgentino(element.precio)
             album.textContent = element.album
             imagen.src = element.imagen
-            imagen.style.height = "22vh";
-            imagen.style.maxWidth = "10vw";
-            imagen.style.objectFit = "contain";
 
-            varianteTitulo.append(titulo)
-            varianteInfoIzq.append(cantidad, album, precio, mla)
-            varianteInfoDer.append(imagen)
+            imagen.style.objectFit = "contain";
+            estiloVarianteInfo(varianteInfo)
             estiloVarianteInfoDer(varianteInfoDer)
             estiloVarianteInfoIzq(varianteInfoIzq)
+            estiloVariante(variante)
+
+            titulo.style.display = "block"
+            titulo.style.width = "100%"            
+
+            varianteTitulo.append(titulo)
+            if (window.innerWidth < 768) {
+                titulo.textContent = mla                
+                imagen.style.height = "100%";
+                imagen.style.maxWidth = "100%";
+                varianteInfoIzq.append(cantidad)
+                varianteInfoDer.append(imagen)
+            } else if (variantes.length > 1) {
+                elementVariantes.style.flexDirection = "row"
+                titulo.textContent = element.mla
+                titulo.style.textAlign = "center"
+                varianteInfo.style.flexDirection = "column"
+                variante.style.width = "15vw"
+                imagen.style.height = "100%";
+                imagen.style.width = "100%";
+                varianteInfoDer.style.paddingRight = "0"
+                varianteInfoDer.style.width = "auto";
+                varianteInfoDer.style.boxSizing = "border-box";
+                varianteInfoDer.style.margin = "10px"
+                varianteInfoDer.style.justifyContent = "center"
+                varianteInfoIzq.style.width = "100%"
+                varianteInfoIzq.style.margin = "0"
+                varianteInfoIzq.style.textAlign = "center";
+                varianteInfoIzq.append(precio, cantidad)
+                varianteInfoDer.append(imagen)
+            } else {
+                titulo.textContent = element.titulo
+                titulo.style.marginLeft="10px"
+                imagen.style.height = "22vh";
+                imagen.style.maxWidth = "10vw";
+                varianteInfoIzq.append(mla,album, precio, cantidad)
+                varianteInfoDer.append(imagen)
+            }
 
             varianteInfo.append(varianteInfoIzq, varianteInfoDer)
             variante.append(varianteTitulo, varianteInfo)
-            estiloVarianteInfo(varianteInfo)
-            estiloVariante(variante)
 
             titulo.style.fontSize = "2.5vh"
             elementVariantes.append(variante)
         }
 
     });
-
     return elementVariantes
 }
 
@@ -474,7 +468,6 @@ const crearContenedorImagen = (venta) => {
 
         const archivo = inputImagen.files[0];
 
-
         if (!archivo) return;
 
         const formData = new FormData();
@@ -547,7 +540,6 @@ const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elemen
     const vendidas = venta.VENDIDAS
     const verificadas = venta.VERIFICADAS
     const ventaid = venta._idventa
-    console.log("venta", venta)
 
     if (vendidas && verificadas === false) {
         const elementBotones = document.createElement("div")

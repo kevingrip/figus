@@ -14,6 +14,12 @@ export const fechaArgentinaCorta = (fecha) => {
     });
 }
 
+export const fechaNombreDia = (fecha) => {
+    return new Date(fecha).toLocaleDateString("es-AR", {
+        weekday: 'long'
+    });
+}
+
 export const precioArgentino = (precio) => {
     return new Intl.NumberFormat("es-AR", {
         style: "currency",

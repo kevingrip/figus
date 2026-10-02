@@ -42,21 +42,25 @@ export const estiloResponsive = (element) => {
 export const estiloEnvios = (element) => {
     if (window.innerWidth < 768) {
         element.style.width = "100%"
+        element.style.height = "100%"
+
     } else {
-        element.style.width = "15vw"
+        element.style.width = "100%"
+        element.style.height = "100%"
     }
+    element.style.margin = "10px"
 }
 
-export const estiloBarra = (element) =>{
+export const estiloBarra = (element) => {
 
     element.style.backgroundColor = '#454561'
     element.style.borderRadius = "20px 20px 0 0"
     element.style.color = 'white'
 
-    if (window.innerWidth < 768) {        
-        element.style.height = '14vh'        
-    }else{
-        element.style.height = '8vh'  
+    if (window.innerWidth < 768) {
+        element.style.height = '14vh'
+    } else {
+        element.style.height = '8vh'
     }
 }
 
@@ -71,11 +75,11 @@ export const estiloVariante = (element) => {
     element.style.margin = "10px"
 
 
-    if (window.innerWidth < 768) {       
+    if (window.innerWidth < 768) {
         element.style.margin = "20px"
     } else {
         element.style.fontSize = "2vh"
-        element.style.width="50vw"
+        element.style.width = "50vw"
     }
 }
 
@@ -92,15 +96,26 @@ export const estiloElementGeneralVariantes = (element) => {
 
 export const estiloVarianteInfo = (element) => {
     element.style.display = "flex"
-    element.style.flexDirection = "row"
+    if (window.innerWidth < 768) {
+        element.style.flexDirection = "column"
+    } else {
+        element.style.flexDirection = "row"
+    }
+
     element.style.backgroundColor = "#a79d9d1e"
 }
 export const estiloVarianteInfoDer = (element) => {
     element.style.display = "flex"
-    element.style.width = "40%"
     element.style.margin = "5px"
-    element.style.paddingRight = "10px"
-    element.style.justifyContent = "end"
+
+    if (window.innerWidth < 768) {
+        element.style.justifyContent = "center"
+    } else {
+        element.style.width = "40%"
+        element.style.margin = "5px"
+        element.style.paddingRight = "10px"
+        element.style.justifyContent = "end"
+    }
 }
 
 export const estiloVarianteInfoIzq = (element) => {
@@ -108,7 +123,7 @@ export const estiloVarianteInfoIzq = (element) => {
     element.style.flexDirection = "column"
     element.style.width = "60%"
     element.style.margin = "10px"
-    element.style.justifyContent = "center"
+    element.style.justifyContent = "center"    
 }
 
 export const estiloElementFiguritas = (element) => {
@@ -133,7 +148,7 @@ export const estiloElementPago = (element) => {
     element.style.margin = "10px"
 
     if (window.innerWidth < 768) {
-        element.style.width = "100%"
+        element.style.width = "70%"
         element.style.height = "100%"
     } else {
         element.style.width = "15vw"
@@ -141,7 +156,7 @@ export const estiloElementPago = (element) => {
     }
 }
 
-export const estiloElementGralEnvios = (element) => {
+export const estiloFlexCentrado = (element) => {
     element.style.display = "flex"
     element.style.justifyContent = "center";
     element.style.alignItems = "center";
@@ -156,7 +171,7 @@ export const estiloElementGeneralDatosDer = (element) => {
 export const estiloElementGralDatos = (element) => {
     element.style.display = "flex"
     element.style.margin = "10px"
-    
+
 }
 
 export const estiloElementBotones = (element) => {
@@ -173,5 +188,5 @@ export const estiloElementGeneralBotonesAcciones = (element) => {
     element.style.flexDirection = "row"
     element.style.minHeight = "8vh"
     element.style.backgroundColor = "#4a37a9ac"
-    element.style.marginLeft = "20px"
+    element.style.margin = "20px"
 }

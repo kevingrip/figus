@@ -46,3 +46,13 @@ export const traduccionCuenta = (usuario) =>{
         return "MAMA"
     } else return usuario
 }
+
+export const traduccionEnvios = (envio) =>{
+    if (envio==="ready_to_print"){
+        return "Listo para imprimir"
+    }else if (envio==="printed"){
+        return "Etiqueta impresa"
+    }else if (envio==="out_for_delivery"){
+        return "En camino"
+    }
+}
