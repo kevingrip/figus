@@ -5,7 +5,7 @@ import { estiloBarra, estiloContenedorBarra, estiloContenedorGeneralVenta, estil
 
 export const crearTarjetaVentaViejo = (venta) => {
     const elementGeneral = document.createElement("div")
-    
+
     const elementGeneralInformacion = document.createElement("div")
 
     const elementGeneralDatos = document.createElement("div")
@@ -87,7 +87,7 @@ export const crearTarjetaVenta = (venta) => {
     const elementGeneralBotonesAcciones = document.createElement("div")
     const elementGeneralVariantes = document.createElement("div")
     const elementDatosyVariantes = document.createElement("div")
-    
+
 
     const elementBarra = crearElementBarra(venta)
     const elementDatos = crearElementDatos(venta)
@@ -99,17 +99,23 @@ export const crearTarjetaVenta = (venta) => {
     const elementSeleccionarTransporte = crearElementSeleccionarTransporte(venta, elementEtiqueta)
     const elementVerificar = crearElementVerificar(venta, elementFiguritas, elementVariantes, elementGeneralVariantes, elementSeleccionarTransporte, elementEtiqueta)
 
-    if ((venta?.VENDIDAS && venta?.VERIFICADAS === false)) {
-        elementGeneralBotonesAcciones.append(elementVerificar)
-    }
-
     if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta)) {
-        if (Object.hasOwn(venta, "VERIFICADAS") && venta?.VERIFICADAS === true) {
-            elementGeneralBotonesAcciones.append(elementEtiqueta)
+        if (!venta?.datos_envio_flex?.TRANSPORTISTA || (Object.hasOwn(venta, "VERIFICADAS") && venta?.VERIFICADAS === false)) { //CAMBIAR CONDICION PORQUE ESA ESTA MAL
+            elementGeneralBotonesAcciones.append(elementVerificar)
         } else {
             elementGeneralBotonesAcciones.append(elementEtiqueta)
         }
     }
+
+
+
+    // if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta)) {
+    //     if (Object.hasOwn(venta, "VERIFICADAS") && venta?.VERIFICADAS === true) {
+    //         elementGeneralBotonesAcciones.append(elementEtiqueta)
+    //     } else {
+    //         elementGeneralBotonesAcciones.append(elementEtiqueta)
+    //     }
+    // }
 
     if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta) || venta?.VERIFICADAS === false) {
         estiloElementGeneralBotonesAcciones(elementGeneralBotonesAcciones)
@@ -124,17 +130,17 @@ export const crearTarjetaVenta = (venta) => {
 
 
     const element1 = document.createElement("div")
-    const element2 = document.createElement("div")    
+    const element2 = document.createElement("div")
     const element3 = document.createElement("div")
     element1.style.boxShadow = "0px 0px 15px rgba(255, 255, 255, 0.4)";
     element2.style.boxShadow = "0px 0px 15px rgba(255, 255, 255, 0.4)";
     element3.style.boxShadow = "0px 0px 15px rgba(255, 255, 255, 0.4)";
-    if (window.innerWidth>768){
+    if (window.innerWidth > 768) {
         element1.style.minHeight = "30vh"
         element2.style.minHeight = "30vh"
         element3.style.minHeight = "30vh"
     }
-    
+
     element1.style.width = "100%"
     element2.style.width = "50%"
     element3.style.width = "100%"
@@ -148,14 +154,14 @@ export const crearTarjetaVenta = (venta) => {
     elementGeneralDatos.append(element1, element2, element3)
 
     // elementGeneralDatos.append(elementGralDatos, elementPagos, elementGralEnvios)
-    
+
 
     elementGeneralVariantes.append(elementVariantes)
-    elementGeneralVariantes.style.margin="50px"
+    elementGeneralVariantes.style.margin = "50px"
     estiloElementGralEnvios(elementGeneralVariantes)
-    elementDatosyVariantes.append(elementGeneralDatos, elementGeneralVariantes,elementGeneralBotonesAcciones)
-    elementDatosyVariantes.style.display="flex"
-    elementDatosyVariantes.style.flexDirection="column"
+    elementDatosyVariantes.append(elementGeneralDatos, elementGeneralVariantes, elementGeneralBotonesAcciones)
+    elementDatosyVariantes.style.display = "flex"
+    elementDatosyVariantes.style.flexDirection = "column"
 
     estiloResponsive(elementGeneralDatos)
     estiloResponsive(elementDatosyVariantes)
@@ -188,7 +194,7 @@ const crearElementDatos = (venta) => {
     elementDatos.style.width = "100%";
     elementDatos.style.color = "white";
     elementDatos.style.marginRight = "20px";
-   
+
 
     const ventaid = document.createElement("a")
     const precioTotal = document.createElement("div")
@@ -315,7 +321,7 @@ const crearElementEnvios = (envio, shipping) => {
 
 const crearElementPagos = (venta, elementDatos) => {
     const elementPagos = document.createElement("div")
-    
+
     if (venta?.IMAGEN_NETO) {
         const imagenPago = nuevaCaptura(venta.IMAGEN_NETO)
         elementPagos.append(imagenPago)
@@ -372,7 +378,7 @@ const crearElementVariantes = (variantes) => {
             variante.append(varianteTitulo, varianteInfo)
             estiloVarianteInfo(varianteInfo)
             estiloVariante(variante)
-            
+
             titulo.style.fontSize = "2.5vh"
             elementVariantes.append(variante)
         }
@@ -524,7 +530,7 @@ const confirmarNeto = (venta) => {
     botonInput.textContent = "Confirmar"
     botonInput.addEventListener("click", () => {
         let vendedor = venta.VENDEDOR.NOMBRE || venta.VENDEDOR.CUENTA
-               
+
         agregarPagoNeto(venta.VENTAID, importeNeto.value, traduccionCuenta(vendedor))
         elementNeto.style.color = "white"
         elementNeto.innerHTML = ""
@@ -541,6 +547,7 @@ const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elemen
     const vendidas = venta.VENDIDAS
     const verificadas = venta.VERIFICADAS
     const ventaid = venta._idventa
+    console.log("venta", venta)
 
     if (vendidas && verificadas === false) {
         const elementBotones = document.createElement("div")
@@ -608,6 +615,12 @@ const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elemen
                 }
             })
         })
+    } else {
+        elementGralVerificar.innerHTML = ""
+        if (venta?.DATOS_SHIPPING?.entrega === "FLEX")
+            elementGralVerificar.append(elementSeleccionarTransporte)
+        else
+            elementGralVerificar.append(elementEtiqueta)
     }
     elementGralVerificar.append(elementVerificar)
     estiloElementBotones(elementGralVerificar)
