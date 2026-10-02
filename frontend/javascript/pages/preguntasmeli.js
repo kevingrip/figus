@@ -1,21 +1,11 @@
 import { buscarFigus } from "./buscarFigus/buscarFigus.js"
-import { obtenerFiguritas, guardarPreguntaML } from "../servicios/api.js"
+import { obtenerFiguritas, guardarPreguntaML, responder_preguntas } from "../servicios/api.js"
 import { api } from "../../config.js"
 import { albumName, nombrePublicacion } from "../utilidades/nombres.js"
 
 const responderML = async ({ elementPregunta, idPregunta, valorMensaje, vendedor }) => {
     try {
-        const peticion = await fetch(`${api}/mercadolibre/respuestas`, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                id: idPregunta,
-                texto: valorMensaje,
-                seller_id: vendedor
-            })
-        })
+        const peticion = await responder_preguntas(idPregunta,valorMensaje,vendedor)
 
         if (!peticion.ok) {
             throw new Error("Error respondiendo");

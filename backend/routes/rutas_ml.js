@@ -39,6 +39,7 @@ router.post("/respuestas", async (req, res) => {
         const respuesta = await responderPregunta(id,texto,seller_id);
 
         res.json(respuesta);
+        
     } catch (error) {
         console.log(error.response?.data || error.message);
         res.status(500).json({

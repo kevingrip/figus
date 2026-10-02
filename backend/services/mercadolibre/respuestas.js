@@ -1,8 +1,9 @@
 import { mlPost } from "../token/api_meli.js";
 
 export async function responderPregunta(questionId, textoRespuesta,seller_id) {
-    console.log(textoRespuesta)
-    console.log(seller_id)
+    
+    console.log(questionId,textoRespuesta,seller_id)
+
     try {
         const data = await mlPost(
         "https://api.mercadolibre.com/answers",
@@ -15,6 +16,6 @@ export async function responderPregunta(questionId, textoRespuesta,seller_id) {
     console.log("Respondida correctamente")
     return data;
     } catch (error) {
-        console.log("La pregunta posiblemente ya fue respondida");
+        console.log("No se pudo responder (backend: services/mercadolibre/respuestas.js) ",error.message);
     }
 }

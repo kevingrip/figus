@@ -365,7 +365,7 @@ export const descargarEtiqueta = async (seller_id, shipping_id) => {
     }
 }
 
-export const crearEnvioFlex = async(venta,transportista) => {
+export const crearEnvioFlex = async (venta, transportista) => {
     const envioFlex = {
         seller: venta.VENDEDOR.NOMBRE,
         ventaid: venta.VENTAID,
@@ -381,16 +381,35 @@ export const crearEnvioFlex = async(venta,transportista) => {
         precio: 0,
         pago: 0
     }
-    
+
     try {
-        await fetch('/envios/crearEnvioMDB',{
-            method:'POST',
-            headers:{
+        await fetch('/envios/crearEnvioMDB', {
+            method: 'POST',
+            headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(envioFlex)
         })
     } catch (error) {
         console.error("Error al crear Envio Flex:", error.message);
+    }
+}
+
+export const responder_preguntas = async (idPregunta,valorMensaje,vendedor) => {
+    try {
+        const peticion = await fetch(`${api}/mercadolibre/respuestas`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                id: idPregunta,
+                texto: valorMensaje,
+                seller_id: vendedor
+            })
+        })
+        return peticion;
+    } catch (error) {
+        console.error("No se pudo responder la pregunta (api.js)",error.message)
     }
 }
