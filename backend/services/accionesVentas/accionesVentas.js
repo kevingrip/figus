@@ -211,6 +211,7 @@ export const getVentasPublicaciones_ML = async () => {
             vendido.figurita = mla_figurita.get(vendido.mla)
             vendido.link = publicacionFiltrada?.permalink
             vendido.imagen = publicacionFiltrada?.thumbnail
+            vendido.color = publicacionFiltrada?.color
         }
     }
     return ventasML

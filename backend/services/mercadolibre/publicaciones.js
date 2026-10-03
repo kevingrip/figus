@@ -131,6 +131,7 @@ const crearObjetoPublicacion = (item) => {
 
     const album_find = item.body.attributes?.find(variante => variante.id === "ALBUM_NAME")
     const figu_find = item.body.attributes?.find(variante => variante.id === "CHARACTER")
+    const variante = item.body?.variations[0]?.attribute_combinations.find(variante=>variante.id==="COLOR")
     const figu_NUM = figu_find?.value_name?.toUpperCase().replace(/\s/g, "")
 
     const datosSeleccionadosPublicacion = ({
@@ -144,7 +145,8 @@ const crearObjetoPublicacion = (item) => {
         date_created: item.body.date_created,
         thumbnail: item.body.pictures?.find(pic => pic.id === item.body.thumbnail_id)?.secure_url,
         album: album_find?.value_name,
-        figurita: figu_NUM
+        figurita: figu_NUM,
+        color: variante?.value_name
     })
 
     return datosSeleccionadosPublicacion

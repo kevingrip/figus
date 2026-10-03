@@ -319,6 +319,7 @@ const crearElementVariantes = (variantes) => {
             const precio = document.createElement("div")
             const album = document.createElement("div")
             const imagen = document.createElement("img")
+            const color = document.createElement("div")
 
             mla.textContent = `${element.mla}`
 
@@ -326,6 +327,7 @@ const crearElementVariantes = (variantes) => {
             cantidad.textContent = `CANTIDAD: ${element.cantidad}`
             precio.textContent = precioArgentino(element.precio)
             album.textContent = element.album
+
             imagen.src = element.imagen
 
             imagen.style.objectFit = "contain";
@@ -335,11 +337,11 @@ const crearElementVariantes = (variantes) => {
             estiloVariante(variante)
 
             titulo.style.display = "block"
-            titulo.style.width = "100%"            
+            titulo.style.width = "100%"
 
             varianteTitulo.append(titulo)
             if (window.innerWidth < 768) {
-                titulo.textContent = mla                
+                titulo.textContent = mla
                 imagen.style.height = "100%";
                 imagen.style.maxWidth = "100%";
                 varianteInfoIzq.append(cantidad)
@@ -364,12 +366,16 @@ const crearElementVariantes = (variantes) => {
                 varianteInfoDer.append(imagen)
             } else {
                 titulo.textContent = element.titulo
-                titulo.style.marginLeft="10px"
+                titulo.style.marginLeft = "10px"
                 imagen.style.height = "22vh";
                 imagen.style.maxWidth = "10vw";
-                varianteInfoIzq.append(mla,album, precio, cantidad)
+                varianteInfoIzq.append(mla, album, precio, cantidad)
                 varianteInfoDer.append(imagen)
             }
+            // if (element.color) {
+            //     color.textContent = `COLOR: ${element?.color}`
+            //     varianteInfoIzq.append(color)
+            // }
 
             varianteInfo.append(varianteInfoIzq, varianteInfoDer)
             variante.append(varianteTitulo, varianteInfo)
