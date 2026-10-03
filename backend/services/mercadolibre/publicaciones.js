@@ -58,7 +58,8 @@ export const estadoPublicacion = async () => {
                 //pictures,
                 status,
                 date_created,
-                thumbnail
+                thumbnail,
+                thumbnail_id
             } = item.body;
             filtered_publicaciones.push({
                 id,
@@ -70,7 +71,8 @@ export const estadoPublicacion = async () => {
                 //pictures,
                 status,
                 date_created,
-                thumbnail
+                thumbnail,
+                thumbnail_id
             })
 
         }
@@ -140,7 +142,7 @@ const crearObjetoPublicacion = (item) => {
         permalink: item.body.permalink,
         status: item.body.status,
         date_created: item.body.date_created,
-        thumbnail: item.body.pictures?.[0]?.secure_url,
+        thumbnail: item.body.pictures?.find(pic => pic.id === item.body.thumbnail_id)?.secure_url,
         album: album_find?.value_name,
         figurita: figu_NUM
     })

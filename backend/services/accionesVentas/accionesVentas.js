@@ -195,7 +195,6 @@ export const getVentasML = async () => {
 
 export const getVentasPublicaciones_ML = async () => {
     const [ventasML, publicaciones, figuritasMDB] = await Promise.all([getVentasML(), getPublicaciones(), getAlbumFiguritas("mundialUsa2026")])
-
     // diccionario mla:figu
     const mla_figurita = new Map(figuritasMDB.filter(figurita => figurita.MLA.length > 0).flatMap(figurita => {
         const mlas = Array.isArray(figurita.MLA) ? figurita.MLA : [figurita.MLA];

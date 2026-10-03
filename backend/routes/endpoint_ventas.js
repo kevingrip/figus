@@ -267,7 +267,6 @@ router.post("/agregarimg/:id", upload.single("imagen"), async (req, res) => {
     }
 })
 
-
 router.get("/importe_neto/:usuario", async (req, res) => {
     try {
         const total = await totalNetoUsuario(req.params.usuario)
