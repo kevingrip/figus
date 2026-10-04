@@ -27,7 +27,13 @@ export const crearTarjetaVenta = (venta) => {
     const elementSeleccionarTransporte = crearElementSeleccionarTransporte(venta, elementEtiqueta)
     const elementVerificar = crearElementVerificar(venta, elementFiguritas, elementVariantes, elementGeneralVariantes, elementSeleccionarTransporte, elementEtiqueta)
 
+    if (venta.VENTAID === 2000015337222151) {
+        console.log(venta)
+    }
+
+    estiloContenedorBarra(elementBarra)
     if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta)) {
+        elementBarra.style.backgroundColor="#6126f8da"
         if (!venta?.datos_envio_flex?.TRANSPORTISTA || (Object.hasOwn(venta, "VERIFICADAS") && venta?.VERIFICADAS === false)) { //CAMBIAR CONDICION PORQUE ESA ESTA MAL
             elementGeneralBotonesAcciones.append(elementVerificar)
         } else {
@@ -49,7 +55,7 @@ export const crearTarjetaVenta = (venta) => {
         estiloElementGeneralBotonesAcciones(elementGeneralBotonesAcciones)
     }
 
-    estiloContenedorBarra(elementBarra)
+    
     estiloElementGralDatos(elementGralDatos)
     elementGralDatos.append(elementDatos)
     estiloElementPago(elementPagos)
@@ -222,6 +228,15 @@ const crearElementEnvios = (envioFlexCreado, shipping) => {
             elementEnvios.style.backgroundColor = "#d82a2a"
             tipoEnvio.style.color = "white"
             tipoEnvio.textContent = ""
+        }
+
+        if (shipping?.info_etiqueta === "buffered") {
+            console.log(fechaArgentinaCorta(new Date()))
+            console.log(fechaArgentinaCorta(shipping?.tiempoLimite))
+            if (fechaArgentinaCorta(shipping?.tiempoLimite) != fechaArgentinaCorta(new Date())) {
+                estadoEnvio.textContent = `La etiqueta se podra imprimir el ${fechaArgentinaCorta(shipping?.tiempoLimite)}`
+                element0.append(estadoEnvio)
+            }
         }
 
         element0.append(tipoEnvio, estadoEnvio)
