@@ -27,10 +27,6 @@ export const crearTarjetaVenta = (venta) => {
     const elementSeleccionarTransporte = crearElementSeleccionarTransporte(venta, elementEtiqueta)
     const elementVerificar = crearElementVerificar(venta, elementFiguritas, elementVariantes, elementGeneralVariantes, elementSeleccionarTransporte, elementEtiqueta)
 
-    if (venta.VENTAID === 2000015337222151) {
-        console.log(venta)
-    }
-
     estiloContenedorBarra(elementBarra)
     if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta)) {
         elementBarra.style.backgroundColor="#6126f8da"
@@ -180,14 +176,15 @@ const crearElementDatos = (venta) => {
     return elementDatos
 }
 
-const crearElementEnvios = (venta) => {
+const crearElementEnvios = (venta) => {    
+    
+    const envioFlexCreado = venta.datos_envio_flex
+    const shipping = venta.DATOS_SHIPPING
+
     if (venta.VENTAID===2000015265477593){
         console.log(venta)
         console.log(envioFlexCreado)
     }
-    
-    const envioFlexCreado = venta.datos_envio_flex
-    const shipping = venta.DATOS_SHIPPING
 
     const elementEnvios = document.createElement("div")
 
