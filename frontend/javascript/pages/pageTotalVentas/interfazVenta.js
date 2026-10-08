@@ -181,7 +181,11 @@ const crearElementDatos = (venta) => {
 }
 
 const crearElementEnvios = (venta) => {
-
+    if (venta.VENTAID===2000015265477593){
+        console.log(venta)
+        console.log(envioFlexCreado)
+    }
+    
     const envioFlexCreado = venta.datos_envio_flex
     const shipping = venta.DATOS_SHIPPING
 
