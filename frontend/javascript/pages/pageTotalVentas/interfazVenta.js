@@ -191,7 +191,7 @@ const crearElementEnvios = (envioFlexCreado, shipping) => {
     estadoEnvio.style.fontWeight = "bold"
 
     elementEnvios.style.backgroundColor = "#2b2444"
-    tipoEnvio.innerHTML = shipping?.entrega || envioFlexCreado?"FLEX":"SIN DATO DE ENVIO"
+    tipoEnvio.innerHTML = shipping?.entrega || (envioFlexCreado?"FLEX":"SIN DATO DE ENVIO")
     tipoEnvio.style.fontWeight = "bold"
     tipoEnvio.style.fontSize = '3vh';
 
