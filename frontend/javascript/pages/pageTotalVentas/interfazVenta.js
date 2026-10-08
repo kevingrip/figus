@@ -19,7 +19,7 @@ export const crearTarjetaVenta = (venta) => {
 
     const elementBarra = crearElementBarra(venta)
     const elementDatos = crearElementDatos(venta)
-    const elementEnvios = crearElementEnvios(venta.datos_envio_flex, venta.DATOS_SHIPPING)
+    const elementEnvios = crearElementEnvios(venta)
     const elementPagos = crearElementPagos(venta, elementDatos)
     const elementVariantes = crearElementVariantes(venta.VARIANTES)
     const elementFiguritas = crearElementFiguritas(venta)
@@ -180,7 +180,10 @@ const crearElementDatos = (venta) => {
     return elementDatos
 }
 
-const crearElementEnvios = (envioFlexCreado, shipping) => {
+const crearElementEnvios = (venta) => {
+
+    const envioFlexCreado = venta.datos_envio_flex
+    const shipping = venta.DATOS_SHIPPING
 
     const elementEnvios = document.createElement("div")
 
@@ -191,7 +194,7 @@ const crearElementEnvios = (envioFlexCreado, shipping) => {
     estadoEnvio.style.fontWeight = "bold"
 
     elementEnvios.style.backgroundColor = "#2b2444"
-    tipoEnvio.innerHTML = shipping?.entrega || (envioFlexCreado?"FLEX":"SIN DATO DE ENVIO")
+    tipoEnvio.innerHTML = shipping?.entrega || venta?.ENVIO ||"SIN DATO DE ENVIO"
     tipoEnvio.style.fontWeight = "bold"
     tipoEnvio.style.fontSize = '3vh';
 
