@@ -329,7 +329,7 @@ export const verificarFiguritasVenta = async (venta_id) => {
     });
 
     if (!respuesta.ok) {
-        throw new Error("Error al verificar la venta");
+        throw new Error(`Error al verificar la venta: ${respuesta.status} - ${errorBody || respuesta.statusText}`);
     }
 
     return await respuesta.json()
