@@ -568,7 +568,7 @@ const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elemen
     const elementVerificar = document.createElement("div")
     const vendidas = venta.VENDIDAS
     const verificadas = venta.VERIFICADAS
-    const ventaid = venta._idventa || venta.VENTAID
+    const ventaid = venta._idventa
 
     if (vendidas && verificadas === false) {
         const elementBotones = document.createElement("div")
