@@ -56,6 +56,10 @@ export const crearTarjetaVenta = (venta) => {
         estiloElementGeneralBotonesAcciones(elementGeneralBotonesAcciones)
     }
 
+    if (venta?.VERIFICADAS === false){
+        elementGeneralBotonesAcciones.append(elementVerificar)
+    }
+
     
     estiloElementGralDatos(elementGralDatos)
     elementGralDatos.append(elementDatos)
