@@ -346,7 +346,8 @@ const agregarObjetoFlex = (envios_flex) => {
 
 const agregarObjetoMDB = (venta) => {
     const nuevoObjetoMDB = {
-        VENTAID: venta.VENTAID || venta._id.toString(),
+        _id: venta._id || null,
+        VENTAID: venta.VENTAID,
         FECHA: venta.DIA,
         TITULO: null,
         IMPORTE_TOTAL: venta.PRECIO,
