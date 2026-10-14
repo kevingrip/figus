@@ -345,6 +345,12 @@ window.addEventListener("load", async () => {
         listaVendedores.push(...agregarVendedores)
 
         const elementVendedores = pageTotalVendedores(listaVendedores)
+        const btnNuevas = document.getElementById("ventasNuevas");
+
+        btnNuevas.addEventListener("click",async (event)=>{
+            const ventasNuevas = ventasUnificadas.filter(venta=>["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta))
+            pageTotalVentas(ventasNuevas)
+        })
 
         elementVendedores.addEventListener("click",async (event)=>{
             const usuario = event.target.value
