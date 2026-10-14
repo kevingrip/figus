@@ -329,6 +329,8 @@ export const verificarFiguritasVenta = async (venta_id) => {
     });
 
     if (!respuesta.ok) {
+        const errorBody = await respuesta.text().catch(() => null);
+        console.error("Detalle del error del servidor:", errorBody);
         throw new Error(`Error al verificar la venta: ${respuesta.status} - ${errorBody || respuesta.statusText}`);
     }
 
