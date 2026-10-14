@@ -360,6 +360,7 @@ const agregarObjetoMDB = (venta) => {
         ENVIO: venta.ENVIO,
         FALTANTES: venta?.FALTANTES,
         VENDIDAS: venta.VENDIDAS,
+        VERIFICADAS: venta.VERIFICADAS||false,
         IMAGEN_NETO: venta?.IMAGEN_NETO
     }
     return nuevoObjetoMDB
