@@ -618,7 +618,7 @@ const crearElementVerificar = (venta, elementFiguritas, elementVariantes, elemen
                         elementGralVerificar.innerHTML = ""
                         if (venta?.DATOS_SHIPPING?.entrega === "FLEX")
                             elementGralVerificar.append(elementSeleccionarTransporte)
-                        else if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta)
+                        else if (["ready_to_print", "printed"].includes(venta?.DATOS_SHIPPING?.info_etiqueta))
                             elementGralVerificar.append(elementEtiqueta)
 
                     } catch (error) {
