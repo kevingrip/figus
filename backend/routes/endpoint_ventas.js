@@ -90,6 +90,7 @@ router.post("/", async (req, res) => {
 
 router.patch("/verificar/:id", async (req, res) => {
     try {
+        console.log(req.params.id)
         const venta = await Venta.findByIdAndUpdate(
             req.params.id, {
             VERIFICADAS: true
